@@ -186,7 +186,7 @@ public class DateTimeFormatInfoImpl_kn extends DateTimeFormatInfoImpl {
         "ಮೇ",
         "ಜೂನ್",
         "ಜುಲೈ",
-        "ಆಗ",
+        "ಆಗಸ್ಟ್",
         "ಸೆಪ್ಟೆಂ",
         "ಅಕ್ಟೋ",
         "ನವೆಂ",

@@ -80,6 +80,7 @@ public class LocalizedNamesImpl_es_PY extends LocalizedNamesImpl_es_419 {
         "KR",
         "CI",
         "CR",
+        "CQ",
         "HR",
         "CU",
         "CW",
@@ -96,6 +97,7 @@ public class LocalizedNamesImpl_es_PY extends LocalizedNamesImpl_es_419 {
         "ES",
         "US",
         "EE",
+        "SZ",
         "ET",
         "EZ",
         "PH",
@@ -216,6 +218,8 @@ public class LocalizedNamesImpl_es_PY extends LocalizedNamesImpl_es_419 {
         "PF",
         "PL",
         "PT",
+        "XA",
+        "XB",
         "PR",
         "HK",
         "MO",
@@ -249,7 +253,6 @@ public class LocalizedNamesImpl_es_PY extends LocalizedNamesImpl_es_419 {
         "SY",
         "SO",
         "LK",
-        "SZ",
         "ZA",
         "SD",
         "SS",
@@ -283,8 +286,6 @@ public class LocalizedNamesImpl_es_PY extends LocalizedNamesImpl_es_419 {
         "VE",
         "VN",
         "WF",
-        "XA",
-        "XB",
         "YE",
         "DJ",
         "ZM",
@@ -296,7 +297,6 @@ public class LocalizedNamesImpl_es_PY extends LocalizedNamesImpl_es_419 {
   protected void loadNameMapJava() {
     super.loadNameMapJava();
     namesMap.put("BA", "Bosnia y Herzegovina");
-    namesMap.put("TA", "Tristán de Acuña");
     namesMap.put("TL", "Timor-Leste");
     namesMap.put("UM", "Islas menores alejadas de EE. UU.");
   }
@@ -309,7 +309,6 @@ public class LocalizedNamesImpl_es_PY extends LocalizedNamesImpl_es_419 {
   private native JavaScriptObject loadMyNameMap() /*-{
     return {
         "BA": "Bosnia y Herzegovina",
-        "TA": "Tristán de Acuña",
         "TL": "Timor-Leste",
         "UM": "Islas menores alejadas de EE. UU."
     };

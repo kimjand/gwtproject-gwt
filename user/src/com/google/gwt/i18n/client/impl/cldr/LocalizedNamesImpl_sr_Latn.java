@@ -67,6 +67,7 @@ public class LocalizedNamesImpl_sr_Latn extends LocalizedNamesImpl_sr {
         "CF",
         "CZ",
         "CL",
+        "CQ",
         "ME",
         "DK",
         "DG",
@@ -162,7 +163,6 @@ public class LocalizedNamesImpl_sr_Latn extends LocalizedNamesImpl_sr {
         "LU",
         "MG",
         "YT",
-        "MK",
         "MW",
         "MV",
         "MY",
@@ -215,6 +215,8 @@ public class LocalizedNamesImpl_sr_Latn extends LocalizedNamesImpl_sr {
         "PL",
         "PR",
         "PT",
+        "XA",
+        "XB",
         "RE",
         "RW",
         "RO",
@@ -233,6 +235,7 @@ public class LocalizedNamesImpl_sr_Latn extends LocalizedNamesImpl_sr {
         "VC",
         "EA",
         "KP",
+        "MK",
         "MP",
         "SL",
         "SG",
@@ -283,8 +286,6 @@ public class LocalizedNamesImpl_sr_Latn extends LocalizedNamesImpl_sr {
         "VA",
         "VE",
         "VN",
-        "XA",
-        "XB",
         "ZM",
         "EH",
         "CV",
@@ -324,7 +325,7 @@ public class LocalizedNamesImpl_sr_Latn extends LocalizedNamesImpl_sr {
     namesMap.put("151", "Istočna Evropa");
     namesMap.put("154", "Severna Evropa");
     namesMap.put("155", "Zapadna Evropa");
-    namesMap.put("202", "Afrika južno od Sahare");
+    namesMap.put("202", "Podsaharska Afrika");
     namesMap.put("419", "Latinska Amerika");
     namesMap.put("AC", "Ostrvo Asension");
     namesMap.put("AD", "Andora");
@@ -399,7 +400,7 @@ public class LocalizedNamesImpl_sr_Latn extends LocalizedNamesImpl_sr {
     namesMap.put("ER", "Eritreja");
     namesMap.put("ES", "Španija");
     namesMap.put("ET", "Etiopija");
-    namesMap.put("EU", "Evropska Unija");
+    namesMap.put("EU", "Evropska unija");
     namesMap.put("EZ", "Evrozona");
     namesMap.put("FI", "Finska");
     namesMap.put("FJ", "Fidži");
@@ -476,7 +477,7 @@ public class LocalizedNamesImpl_sr_Latn extends LocalizedNamesImpl_sr {
     namesMap.put("MF", "Sveti Martin (Francuska)");
     namesMap.put("MG", "Madagaskar");
     namesMap.put("MH", "Maršalska Ostrva");
-    namesMap.put("MK", "Makedonija");
+    namesMap.put("MK", "Severna Makedonija");
     namesMap.put("ML", "Mali");
     namesMap.put("MM", "Mijanmar (Burma)");
     namesMap.put("MN", "Mongolija");
@@ -580,6 +581,8 @@ public class LocalizedNamesImpl_sr_Latn extends LocalizedNamesImpl_sr {
     namesMap.put("VU", "Vanuatu");
     namesMap.put("WF", "Valis i Futuna");
     namesMap.put("WS", "Samoa");
+    namesMap.put("XA", "Pseudoakcenti");
+    namesMap.put("XB", "Pseudobidi");
     namesMap.put("XK", "Kosovo");
     namesMap.put("YE", "Jemen");
     namesMap.put("YT", "Majot");
@@ -625,7 +628,7 @@ public class LocalizedNamesImpl_sr_Latn extends LocalizedNamesImpl_sr {
         "151": "Istočna Evropa",
         "154": "Severna Evropa",
         "155": "Zapadna Evropa",
-        "202": "Afrika južno od Sahare",
+        "202": "Podsaharska Afrika",
         "419": "Latinska Amerika",
         "AC": "Ostrvo Asension",
         "AD": "Andora",
@@ -700,7 +703,7 @@ public class LocalizedNamesImpl_sr_Latn extends LocalizedNamesImpl_sr {
         "ER": "Eritreja",
         "ES": "Španija",
         "ET": "Etiopija",
-        "EU": "Evropska Unija",
+        "EU": "Evropska unija",
         "EZ": "Evrozona",
         "FI": "Finska",
         "FJ": "Fidži",
@@ -777,7 +780,7 @@ public class LocalizedNamesImpl_sr_Latn extends LocalizedNamesImpl_sr {
         "MF": "Sveti Martin (Francuska)",
         "MG": "Madagaskar",
         "MH": "Maršalska Ostrva",
-        "MK": "Makedonija",
+        "MK": "Severna Makedonija",
         "ML": "Mali",
         "MM": "Mijanmar (Burma)",
         "MN": "Mongolija",
@@ -881,6 +884,8 @@ public class LocalizedNamesImpl_sr_Latn extends LocalizedNamesImpl_sr {
         "VU": "Vanuatu",
         "WF": "Valis i Futuna",
         "WS": "Samoa",
+        "XA": "Pseudoakcenti",
+        "XB": "Pseudobidi",
         "XK": "Kosovo",
         "YE": "Jemen",
         "YT": "Majot",

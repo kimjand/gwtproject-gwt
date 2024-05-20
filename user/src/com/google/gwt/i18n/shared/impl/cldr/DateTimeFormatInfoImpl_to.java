@@ -22,6 +22,14 @@ package com.google.gwt.i18n.shared.impl.cldr;
 public class DateTimeFormatInfoImpl_to extends DateTimeFormatInfoImpl {
 
   @Override
+  public String[] ampms() {
+    return new String[] {
+        "HH",
+        "EA"
+    };
+  }
+
+  @Override
   public String dateFormatFull() {
     return "EEEE d MMMM y";
   }
@@ -70,6 +78,16 @@ public class DateTimeFormatInfoImpl_to extends DateTimeFormatInfoImpl {
         "KM",
         "TS"
     };
+  }
+
+  @Override
+  public String formatHour12Minute() {
+    return "h:mm a";
+  }
+
+  @Override
+  public String formatHour12MinuteSecond() {
+    return "h:mm:ss a";
   }
 
   @Override
@@ -128,7 +146,35 @@ public class DateTimeFormatInfoImpl_to extends DateTimeFormatInfoImpl {
   }
 
   @Override
+  public String formatYearQuarterFull() {
+    return "QQQQ y";
+  }
+
+  @Override
+  public String formatYearQuarterShort() {
+    return "Q y";
+  }
+
+  @Override
   public String[] monthsFull() {
+    return new String[] {
+        "Sānuali",
+        "Fēpueli",
+        "Maʻasi",
+        "ʻEpeleli",
+        "Mē",
+        "Sune",
+        "Siulai",
+        "ʻAokosi",
+        "Sēpitema",
+        "ʻOkatopa",
+        "Nōvema",
+        "Tīsema"
+    };
+  }
+
+  @Override
+  public String[] monthsFullStandalone() {
     return new String[] {
         "Sānuali",
         "Fēpueli",
@@ -151,13 +197,13 @@ public class DateTimeFormatInfoImpl_to extends DateTimeFormatInfoImpl {
         "S",
         "F",
         "M",
-        "E",
+        "ʻE",
         "M",
         "S",
         "S",
-        "A",
+        "ʻA",
         "S",
-        "O",
+        "ʻO",
         "N",
         "T"
     };
@@ -174,7 +220,7 @@ public class DateTimeFormatInfoImpl_to extends DateTimeFormatInfoImpl {
         "Sun",
         "Siu",
         "ʻAok",
-        "Sep",
+        "Sēp",
         "ʻOka",
         "Nōv",
         "Tīs"
@@ -203,22 +249,22 @@ public class DateTimeFormatInfoImpl_to extends DateTimeFormatInfoImpl {
 
   @Override
   public String timeFormatFull() {
-    return "h:mm:ss a zzzz";
+    return "h:mm:ss a zzzz";
   }
 
   @Override
   public String timeFormatLong() {
-    return "h:mm:ss a z";
+    return "h:mm:ss a z";
   }
 
   @Override
   public String timeFormatMedium() {
-    return "h:mm:ss a";
+    return "h:mm:ss a";
   }
 
   @Override
   public String timeFormatShort() {
-    return "h:mm a";
+    return "h:mm a";
   }
 
   @Override

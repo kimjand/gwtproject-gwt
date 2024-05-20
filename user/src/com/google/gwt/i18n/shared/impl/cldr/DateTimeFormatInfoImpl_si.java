@@ -86,6 +86,11 @@ public class DateTimeFormatInfoImpl_si extends DateTimeFormatInfoImpl {
   }
 
   @Override
+  public String formatYearMonthNumDay() {
+    return "y-M-d";
+  }
+
+  @Override
   public String[] monthsFull() {
     return new String[] {
         "ජනවාරි",

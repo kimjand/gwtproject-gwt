@@ -24,8 +24,8 @@ public class DateTimeFormatInfoImpl_sr_Latn_BA extends DateTimeFormatInfoImpl_sr
   @Override
   public String[] ampms() {
     return new String[] {
-        "prije podne",
-        "po podne"
+        "prije podne",
+        "po podne"
     };
   }
 
@@ -38,28 +38,10 @@ public class DateTimeFormatInfoImpl_sr_Latn_BA extends DateTimeFormatInfoImpl_sr
   }
 
   @Override
-  public String[] monthsShortStandalone() {
-    return new String[] {
-        "jan",
-        "feb",
-        "mart",
-        "apr",
-        "maj",
-        "jun",
-        "jul",
-        "avg",
-        "sept",
-        "okt",
-        "nov",
-        "dec"
-    };
-  }
-
-  @Override
   public String[] weekdaysFull() {
     return new String[] {
         "nedjelja",
-        "ponedeljak",
+        "ponedjeljak",
         "utorak",
         "srijeda",
         "četvrtak",
@@ -73,8 +55,8 @@ public class DateTimeFormatInfoImpl_sr_Latn_BA extends DateTimeFormatInfoImpl_sr
     return new String[] {
         "ned",
         "pon",
-        "ut",
-        "sr",
+        "uto",
+        "sri",
         "čet",
         "pet",
         "sub"

@@ -68,6 +68,7 @@ public class LocalizedNamesImpl_tzm extends LocalizedNamesImpl {
         "CC",
         "CL",
         "CP",
+        "CQ",
         "CW",
         "CX",
         "DK",
@@ -153,7 +154,6 @@ public class LocalizedNamesImpl_tzm extends LocalizedNamesImpl {
         "MY",
         "MT",
         "MN",
-        "MK",
         "MQ",
         "YT",
         "ME",
@@ -162,6 +162,7 @@ public class LocalizedNamesImpl_tzm extends LocalizedNamesImpl {
         "FM",
         "MX",
         "EG",
+        "MK",
         "MO",
         "MD",
         "MC",
@@ -412,7 +413,6 @@ public class LocalizedNamesImpl_tzm extends LocalizedNamesImpl {
     namesMap.put("MD", "Mulḍavya");
     namesMap.put("MG", "Madaɣacqar");
     namesMap.put("MH", "Tigzirin n Marcal");
-    namesMap.put("MK", "Maqdunya");
     namesMap.put("MM", "Myanmar");
     namesMap.put("MN", "Manɣulya");
     namesMap.put("MP", "Tigzirin n Maryana Tugafat");
@@ -633,7 +633,6 @@ public class LocalizedNamesImpl_tzm extends LocalizedNamesImpl {
         "MD": "Mulḍavya",
         "MG": "Madaɣacqar",
         "MH": "Tigzirin n Marcal",
-        "MK": "Maqdunya",
         "MM": "Myanmar",
         "MN": "Manɣulya",
         "MP": "Tigzirin n Maryana Tugafat",

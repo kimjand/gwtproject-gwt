@@ -27,552 +27,569 @@ public class LocalizedNamesImpl_brx extends LocalizedNamesImpl {
   @Override
   public String[] loadSortedRegionCodes() {
     return new String[] {
-        "AC",
-        "BQ",
-        "CP",
-        "CW",
-        "DG",
-        "EA",
-        "EZ",
-        "IC",
-        "SS",
-        "SX",
-        "TA",
-        "UN",
-        "XA",
-        "XB",
-        "XK",
+        "CQ",
+        "AT",
+        "AU",
         "AO",
-        "AQ",
+        "IS",
         "AZ",
         "AF",
         "AS",
+        "IE",
+        "IM",
         "AW",
         "AR",
-        "DZ",
-        "AL",
-        "IS",
-        "IM",
-        "CI",
-        "IE",
         "AM",
         "AX",
-        "ID",
-        "GQ",
-        "IT",
-        "ET",
+        "DZ",
+        "AL",
+        "UM",
+        "VI",
         "IL",
+        "IT",
+        "ID",
+        "ET",
+        "EG",
         "IQ",
         "IR",
+        "UG",
         "UZ",
-        "KP",
-        "MP",
-        "AD",
-        "SV",
+        "UY",
         "AI",
         "EC",
+        "AQ",
         "AG",
+        "AD",
         "ER",
+        "SV",
+        "AC",
         "EE",
-        "AT",
-        "AU",
+        "SZ",
         "OM",
-        "KZ",
-        "KH",
-        "QA",
-        "KI",
-        "KG",
-        "CK",
-        "KW",
-        "KE",
-        "KY",
-        "CA",
-        "CV",
         "CD",
         "CG",
         "CC",
-        "CM",
+        "CI",
+        "KH",
         "KM",
         "CO",
         "CR",
+        "XK",
+        "KZ",
+        "QA",
+        "IC",
+        "EA",
+        "KI",
+        "KG",
+        "CK",
+        "CW",
+        "KW",
+        "CA",
+        "KE",
+        "CV",
+        "CM",
+        "BQ",
+        "KY",
         "CU",
-        "CX",
         "HR",
+        "CP",
+        "ZA",
+        "KR",
+        "GS",
+        "SS",
+        "CX",
+        "GA",
         "GM",
         "GN",
         "GW",
         "GU",
         "GY",
-        "GG",
-        "GA",
         "GT",
+        "GG",
         "GL",
         "GR",
         "GD",
         "GP",
         "GH",
+        "CN",
         "TD",
         "CL",
-        "CN",
         "CZ",
-        "JM",
-        "DE",
-        "JE",
-        "ZM",
-        "ZW",
-        "JP",
-        "GI",
+        "AE",
+        "GB",
+        "US",
+        "UN",
         "GE",
         "JO",
+        "JP",
+        "JM",
+        "ZM",
+        "DE",
+        "DJ",
+        "GI",
+        "ZW",
+        "JE",
         "TO",
         "TK",
         "TG",
-        "TT",
         "DK",
-        "DO",
-        "DM",
-        "TZ",
         "TW",
         "TJ",
+        "TZ",
+        "TL",
+        "TV",
         "TM",
         "TR",
         "TC",
-        "TV",
         "TN",
+        "TT",
+        "TA",
         "TH",
-        "ZA",
-        "KR",
-        "GS",
-        "DJ",
-        "NG",
+        "DM",
+        "DO",
+        "DG",
+        "XA",
+        "XB",
+        "NO",
+        "NF",
         "NE",
+        "NG",
         "NR",
         "NA",
+        "NC",
         "NI",
         "NU",
         "NL",
         "NP",
-        "NF",
-        "NO",
-        "NC",
         "NZ",
-        "PA",
-        "PW",
-        "EH",
+        "PT",
+        "PL",
         "PK",
+        "PA",
         "PG",
         "PY",
+        "PW",
         "PN",
         "PR",
-        "PT",
-        "TL",
         "PE",
-        "PL",
-        "FO",
         "PS",
         "FK",
         "FJ",
         "FI",
         "PH",
+        "FO",
         "FR",
         "TF",
         "GF",
         "PF",
-        "BD",
-        "BM",
-        "BG",
-        "BH",
-        "BS",
-        "BB",
-        "QO",
-        "BI",
-        "BF",
-        "BV",
-        "BJ",
-        "BY",
-        "BZ",
-        "BE",
         "BW",
         "BO",
         "BA",
+        "BD",
+        "QO",
+        "BB",
+        "BM",
+        "BH",
+        "BS",
+        "GQ",
+        "BI",
+        "BF",
+        "BG",
+        "BV",
+        "BJ",
+        "BE",
+        "BY",
+        "BZ",
         "BR",
-        "VG",
         "IO",
-        "GB",
+        "VG",
         "BN",
+        "VU",
         "IN",
+        "VN",
         "BT",
+        "VA",
+        "VE",
         "MN",
+        "MZ",
+        "MS",
+        "MC",
+        "ME",
+        "MA",
+        "MU",
+        "MD",
+        "FM",
+        "MR",
         "MO",
         "MG",
-        "MW",
-        "MY",
-        "FM",
+        "YT",
         "MQ",
         "MH",
         "MV",
+        "MW",
         "ML",
+        "MY",
         "MT",
-        "EG",
+        "CF",
         "MX",
-        "YT",
-        "MK",
-        "MS",
-        "MR",
-        "MU",
-        "ME",
-        "MZ",
-        "MC",
-        "MA",
-        "MD",
         "MM",
-        "YE",
-        "VI",
-        "UG",
-        "UM",
-        "UY",
         "UA",
+        "EZ",
         "EU",
-        "RW",
-        "RU",
-        "RE",
+        "YE",
         "RO",
-        "LU",
-        "LS",
+        "RU",
+        "RW",
+        "RE",
         "LR",
         "LA",
+        "LU",
         "LV",
         "LI",
         "LT",
         "LY",
         "LB",
-        "VU",
-        "VN",
-        "VE",
-        "VA",
+        "LS",
         "WF",
         "LK",
-        "AE",
-        "US",
+        "SO",
+        "SB",
+        "CY",
         "SA",
+        "ST",
+        "SM",
         "WS",
         "RS",
-        "CY",
-        "ST",
+        "KP",
+        "MK",
+        "MP",
         "SG",
+        "SX",
         "SL",
         "SY",
+        "CH",
         "SR",
         "SD",
-        "PM",
-        "BL",
-        "MF",
-        "KN",
-        "LC",
-        "VC",
-        "CF",
-        "SH",
         "SN",
+        "PM",
+        "KN",
+        "BL",
+        "VC",
+        "MF",
+        "LC",
+        "SH",
         "SC",
-        "SM",
-        "SB",
-        "SO",
+        "EH",
         "ES",
+        "SJ",
         "SK",
         "SI",
-        "SZ",
-        "SJ",
-        "CH",
         "SE",
-        "HU",
-        "HM",
         "HK",
-        "HT",
         "HN",
+        "HU",
+        "HT",
+        "HM",
     };
   }
 
   @Override
   protected void loadNameMapJava() {
     super.loadNameMapJava();
-    namesMap.put("001", "दुनिया");
-    namesMap.put("002", "अफ्रीका");
-    namesMap.put("003", "उत्तर अमरिका");
-    namesMap.put("005", "दक्षिण अमरिका");
+    namesMap.put("001", "बुहुम");
+    namesMap.put("002", "आफ्रिका");
+    namesMap.put("003", "साहा आमेरिका");
+    namesMap.put("005", "खोला आमेरिका");
     namesMap.put("009", "ओशेआनिया");
-    namesMap.put("011", "पश्चिमी अफ्रीका");
-    namesMap.put("013", "मध्य अमरिका");
-    namesMap.put("014", "पूर्वी अफ्रीका");
-    namesMap.put("015", "उत्तरी अफ्रीका");
-    namesMap.put("017", "मध्य अफ्रीका");
-    namesMap.put("018", "दक्षिणी अफ्रीका");
-    namesMap.put("019", "अमरिकाज़्");
-    namesMap.put("021", "उत्तरी अमरिका");
-    namesMap.put("029", "कैरिबियन");
-    namesMap.put("030", "पूर्वी एशिया");
-    namesMap.put("034", "दक्षिणी एशिया");
-    namesMap.put("035", "दक्षिण-पूर्वी एशिया");
-    namesMap.put("039", "दक्षिणी यूरोप");
-    namesMap.put("053", "ऑस्ट्रेलिया एवं न्यूजीलैंड");
-    namesMap.put("054", "मेलीनेशिया");
-    namesMap.put("057", "माईक्रोनेशिया");
-    namesMap.put("061", "पोलीनेशिया");
-    namesMap.put("142", "एशिया");
-    namesMap.put("143", "मध्य एशिया");
-    namesMap.put("145", "पश्चिमी ऐशिया");
+    namesMap.put("011", "सोनाबारि आफ्रिका");
+    namesMap.put("013", "मिरु आमेरिका");
+    namesMap.put("014", "सानजायारि आफ्रिका");
+    namesMap.put("015", "साहायारि आफ्रिका");
+    namesMap.put("017", "गेजेरारि आफ्रिका");
+    namesMap.put("018", "खोलायारि आफ्रिका");
+    namesMap.put("019", "आमेरिकानि");
+    namesMap.put("021", "साहायारि आमेरिका");
+    namesMap.put("029", "केरिबियान");
+    namesMap.put("030", "सानजायारि एसिया");
+    namesMap.put("034", "खोलायारि एसिया");
+    namesMap.put("035", "खोला-सानजा एसिया");
+    namesMap.put("039", "खोलायारि यूरोप");
+    namesMap.put("053", "अस्ट्रेलएसिया");
+    namesMap.put("054", "मेलानेसिया");
+    namesMap.put("057", "माईक्र’नेसियायारि ओनसोल");
+    namesMap.put("061", "पलिनेसिया");
+    namesMap.put("142", "एसिया");
+    namesMap.put("143", "मिरु एसिया");
+    namesMap.put("145", "सोनाबारि एसिया");
     namesMap.put("150", "यूरोप");
-    namesMap.put("151", "पूर्वी यूरोप");
-    namesMap.put("154", "उत्तरी यूरोप");
-    namesMap.put("155", "पश्चिमी यूरोप्");
-    namesMap.put("419", "लैटिन अमरिका एवं करीबी");
-    namesMap.put("AD", "ऍन्डोरा");
-    namesMap.put("AE", "संयुक्त अरब अमीरात");
-    namesMap.put("AF", "अफ़ग़ानिस्तान");
-    namesMap.put("AG", "एन्टिगुआ एवं बारबूडा");
-    namesMap.put("AI", "एंगीला");
-    namesMap.put("AL", "अल्बानिया");
+    namesMap.put("151", "सानजायारि यूरोप");
+    namesMap.put("154", "साहायारि यूरोप");
+    namesMap.put("155", "सोनाबारि यूरोप");
+    namesMap.put("202", "साहारायारि लोब्बा गोनां आफ्रिका");
+    namesMap.put("419", "लेटीन आमेरिका");
+    namesMap.put("AC", "एसेनसिअन द्वीप");
+    namesMap.put("AD", "एन्डर्रा");
+    namesMap.put("AE", "जथाय आराब एमिरेत");
+    namesMap.put("AF", "आफगानिस्तान");
+    namesMap.put("AG", "एन्टिगुआ आरो बारबुडा");
+    namesMap.put("AI", "एंगुइल्ला");
+    namesMap.put("AL", "आल्बानिया");
     namesMap.put("AM", "आर्मेनिया");
-    namesMap.put("AO", "अंगोला");
-    namesMap.put("AQ", "अंटार्कटिका");
-    namesMap.put("AR", "अर्जेण्टिना");
-    namesMap.put("AS", "अमरिकी समोआ");
-    namesMap.put("AT", "ऑस्ट्रिया");
-    namesMap.put("AU", "ऑस्ट्रेलिया");
-    namesMap.put("AW", "अरूबा");
-    namesMap.put("AX", "आलाँड द्वीप");
-    namesMap.put("AZ", "अज़रबैजान");
-    namesMap.put("BA", "बोसनिया हर्ज़ेगोविना");
-    namesMap.put("BB", "बारबाडोस");
-    namesMap.put("BD", "बंगलादेश");
-    namesMap.put("BE", "बेल्जियम");
-    namesMap.put("BF", "बुर्किना फासो");
-    namesMap.put("BG", "बल्गैरिया");
-    namesMap.put("BH", "बहरैन");
-    namesMap.put("BI", "बुरुंडी");
-    namesMap.put("BJ", "बेनेँ");
-    namesMap.put("BL", "सेँ बार्थेलेमी");
-    namesMap.put("BM", "बरमूडा");
-    namesMap.put("BN", "ब्रूनइ");
-    namesMap.put("BO", "बोलीविया");
-    namesMap.put("BR", "ब्राज़ील");
-    namesMap.put("BS", "बहामा");
+    namesMap.put("AO", "आंगला");
+    namesMap.put("AQ", "एन्टार्कटिका");
+    namesMap.put("AR", "आर्जेन्टिना");
+    namesMap.put("AS", "आमेरिकान सामआ");
+    namesMap.put("AT", "अस्ट्रिया");
+    namesMap.put("AU", "अस्ट्रेलिया");
+    namesMap.put("AW", "आरूबा");
+    namesMap.put("AX", "आलाण्ड द्वीपफोर");
+    namesMap.put("AZ", "आजेरबाईजान");
+    namesMap.put("BA", "बसनिया आरो होर्जेगभिना");
+    namesMap.put("BB", "बारबाड’स");
+    namesMap.put("BD", "बांलादेश");
+    namesMap.put("BE", "बेलजियाम");
+    namesMap.put("BF", "बुर्किना फास’");
+    namesMap.put("BG", "बुल्गारिया");
+    namesMap.put("BH", "बाहरैन");
+    namesMap.put("BI", "बुरूण्डी");
+    namesMap.put("BJ", "बेनिन");
+    namesMap.put("BL", "सैन्ट बार्थेलेमी");
+    namesMap.put("BM", "बारमूडा");
+    namesMap.put("BN", "ब्रूने");
+    namesMap.put("BO", "बलिभिया");
+    namesMap.put("BQ", "केरिबियान नेदारलेण्डस");
+    namesMap.put("BR", "ब्राजील");
+    namesMap.put("BS", "बाहामास");
     namesMap.put("BT", "भूटान");
-    namesMap.put("BV", "बुवे द्वीप");
-    namesMap.put("BW", "बोत्स्वाना");
+    namesMap.put("BV", "बूभेट द्वीप");
+    namesMap.put("BW", "बत्स्वाना");
     namesMap.put("BY", "बेलारूस");
-    namesMap.put("BZ", "बेलिज़");
-    namesMap.put("CA", "कैनाडा");
-    namesMap.put("CC", "कोकोस द्वीप");
-    namesMap.put("CD", "कॉंगो किनशासा");
-    namesMap.put("CF", "सेंट्रल अफ्रीकन रिपब्लिक");
-    namesMap.put("CG", "कॉंगो ब्राज़्ज़ावील");
-    namesMap.put("CH", "स्वित्ज़रलैंड");
-    namesMap.put("CI", "आईवरी कोस्ट");
+    namesMap.put("BZ", "बेलिज");
+    namesMap.put("CA", "केनाडा");
+    namesMap.put("CC", "कक’स द्वीपफोर");
+    namesMap.put("CD", "कंग’-किनशासा");
+    namesMap.put("CF", "मिरु आफ्रिका सुबुंखुंथाय");
+    namesMap.put("CG", "कंग’- ब्राज्जाभील");
+    namesMap.put("CH", "सुईजारलेण्ड");
+    namesMap.put("CI", "कट दिभवेर");
     namesMap.put("CK", "कुक द्वीप");
-    namesMap.put("CL", "चिली");
-    namesMap.put("CM", "कोमेरान");
-    namesMap.put("CN", "चीन");
-    namesMap.put("CO", "कोलम्बिया");
-    namesMap.put("CR", "कोस्टारीका");
+    namesMap.put("CL", "चिले");
+    namesMap.put("CM", "केमेरून");
+    namesMap.put("CN", "चाइना");
+    namesMap.put("CO", "कलम्बिया");
+    namesMap.put("CP", "क्लिप्पार्टन द्वीप");
+    namesMap.put("CR", "कस्टा रिका");
     namesMap.put("CU", "क्यूबा");
-    namesMap.put("CV", "कैप वेर्दे");
-    namesMap.put("CX", "क्रिस्मस द्वीप");
-    namesMap.put("CY", "साइप्रस");
-    namesMap.put("CZ", "चेक गणराज्य");
-    namesMap.put("DE", "जर्मनी");
-    namesMap.put("DJ", "द्जिबूती");
+    namesMap.put("CV", "केप भेर्दे");
+    namesMap.put("CW", "कुरासाव");
+    namesMap.put("CX", "ख्रिसमास द्वीपफोर");
+    namesMap.put("CY", "साइप्रास");
+    namesMap.put("CZ", "चेखिया");
+    namesMap.put("DE", "जार्मानी");
+    namesMap.put("DG", "दियेग’ गार्सिया");
+    namesMap.put("DJ", "जिबौति");
     namesMap.put("DK", "डेनमार्क");
-    namesMap.put("DM", "डोमिनिका");
-    namesMap.put("DO", "डोमिनिकन गणराज्य");
-    namesMap.put("DZ", "अल्जीरिया");
-    namesMap.put("EC", "एक्वाडोर");
-    namesMap.put("EE", "एस्टोनिया");
-    namesMap.put("EG", "मिस्र");
-    namesMap.put("EH", "पश्चिमी सहारा");
+    namesMap.put("DM", "दमिनिका");
+    namesMap.put("DO", "दमिनिकान सुबुंखुंथाय");
+    namesMap.put("DZ", "आल्जेरिया");
+    namesMap.put("EA", "किउता आरो मेलिल्ला");
+    namesMap.put("EC", "एक्वाड’र");
+    namesMap.put("EE", "एस्ट’निया");
+    namesMap.put("EG", "ईजिप्त");
+    namesMap.put("EH", "सोनाबारि साहारा");
     namesMap.put("ER", "एरिट्रिया");
-    namesMap.put("ES", "स्पेन");
-    namesMap.put("ET", "इथिओपिया");
-    namesMap.put("EU", "यूरोपीय संघ");
-    namesMap.put("FI", "फिनलैंड");
+    namesMap.put("ES", "स्पैन");
+    namesMap.put("ET", "इथिय’पिया");
+    namesMap.put("EU", "यूरोपनि जथाय");
+    namesMap.put("EZ", "यूरो ओनसोल");
+    namesMap.put("FI", "फिनलेण्ड");
     namesMap.put("FJ", "फिजी");
-    namesMap.put("FK", "फ़ॉल्कलैंड द्वीप");
-    namesMap.put("FM", "माइक्रोनेशिया");
-    namesMap.put("FO", "फरो द्वीप");
-    namesMap.put("FR", "फ्राँस");
-    namesMap.put("GA", "गैबॉन");
-    namesMap.put("GB", "ब्रितन");
-    namesMap.put("GD", "ग्रेनडा");
-    namesMap.put("GE", "जॉर्जिया");
-    namesMap.put("GF", "फ्राँसीसी गिआना");
-    namesMap.put("GG", "गेर्नसे");
+    namesMap.put("FK", "फकलेण्ड द्वीपफोर");
+    namesMap.put("FM", "माइक्रनेशिया");
+    namesMap.put("FO", "फेर’ द्वीपफोर");
+    namesMap.put("FR", "फ्रान्स");
+    namesMap.put("GA", "गाबन");
+    namesMap.put("GB", "जथाय ब्रिटिश हादोर");
+    namesMap.put("GD", "ग्रेनादा");
+    namesMap.put("GE", "जर्जिया");
+    namesMap.put("GF", "फ्रेन्च गिआना");
+    namesMap.put("GG", "गोर्नसि");
     namesMap.put("GH", "घाना");
-    namesMap.put("GI", "जिब्राल्टर");
-    namesMap.put("GL", "ग्रीनलैण्ड");
+    namesMap.put("GI", "जिब्राल्टार");
+    namesMap.put("GL", "ग्रीनलेण्ड");
     namesMap.put("GM", "गाम्बिया");
-    namesMap.put("GN", "गिनी");
-    namesMap.put("GP", "ग्वादलुप");
-    namesMap.put("GQ", "इक्वेटोरियल गिनी");
+    namesMap.put("GN", "गिनीया");
+    namesMap.put("GP", "ग्वादेल्यूप");
+    namesMap.put("GQ", "बिसुबारि गिनीया");
     namesMap.put("GR", "ग्रीस");
-    namesMap.put("GS", "दक्षिण जोर्जिया एवं दक्षिण सैंडवीच द्वीप");
-    namesMap.put("GT", "गोतेदाला");
+    namesMap.put("GS", "खोला जर्जिया आरो खोला सेण्डवीच द्वीपफोर");
+    namesMap.put("GT", "गुवाटेमाला");
     namesMap.put("GU", "गुआम");
-    namesMap.put("GW", "गीनी-बिसाउ");
+    namesMap.put("GW", "गिनीया- बिसाऊ");
     namesMap.put("GY", "गुयाना");
-    namesMap.put("HK", "हाँगकाँग विशेष प्रशासनिक क्षेत्र चीन");
-    namesMap.put("HM", "हर्ड द्वीप एवं मैकडोनॉल्ड द्वीप");
-    namesMap.put("HN", "हौण्डूरास");
-    namesMap.put("HR", "क्रोएशिया");
+    namesMap.put("HK", "हंकं एस.ए.आर चाइना");
+    namesMap.put("HM", "होर्द आरो मेकद’नाल्ड द्वीपफोर");
+    namesMap.put("HN", "हण्डूरास");
+    namesMap.put("HR", "क्रवेशिया");
     namesMap.put("HT", "हाइती");
-    namesMap.put("HU", "हंगरी");
-    namesMap.put("ID", "इंडोनेशिया");
-    namesMap.put("IE", "आयरलैंड");
-    namesMap.put("IL", "इस्राइल");
-    namesMap.put("IM", "आईल ऑफ़ मैन");
+    namesMap.put("HU", "हांगारी");
+    namesMap.put("IC", "कानारि द्वीपफोर");
+    namesMap.put("ID", "इण्ड’नेशिया");
+    namesMap.put("IE", "आयारलेण्ड");
+    namesMap.put("IL", "इज्राईल");
+    namesMap.put("IM", "आयोल अफ मेन");
     namesMap.put("IN", "भारत");
-    namesMap.put("IO", "ब्रिटिश हिंद महासागरिय क्षेत्र");
-    namesMap.put("IQ", "ईराक़");
+    namesMap.put("IO", "ब्रिटिशनि भारतारि लैथो बाहागो");
+    namesMap.put("IQ", "ईराक");
     namesMap.put("IR", "ईरान");
-    namesMap.put("IS", "आइसलैंड");
-    namesMap.put("IT", "इटली");
-    namesMap.put("JE", "जर्सी");
-    namesMap.put("JM", "जमाइका");
-    namesMap.put("JO", "जॉर्डन");
+    namesMap.put("IS", "आइसलेण्ड");
+    namesMap.put("IT", "इटाली");
+    namesMap.put("JE", "जोर्सि");
+    namesMap.put("JM", "जामाइका");
+    namesMap.put("JO", "जर्डान");
     namesMap.put("JP", "जापान");
-    namesMap.put("KE", "केन्या");
-    namesMap.put("KG", "किर्गिज़");
-    namesMap.put("KH", "कम्बोडिया");
+    namesMap.put("KE", "केनिया");
+    namesMap.put("KG", "किर्गीस्तान");
+    namesMap.put("KH", "कम्ब’डिया");
     namesMap.put("KI", "किरिबाती");
-    namesMap.put("KM", "कोमोरोज़");
-    namesMap.put("KN", "सेंट किट्स एवं नेविस");
-    namesMap.put("KP", "उत्तर कोरिया");
-    namesMap.put("KR", "दक्षिण कोरिया");
+    namesMap.put("KM", "कम’र’ज");
+    namesMap.put("KN", "सैन्ट कीत्स आरो नेभिस");
+    namesMap.put("KP", "साहा करिया");
+    namesMap.put("KR", "खोला करिया");
     namesMap.put("KW", "कुवैत");
-    namesMap.put("KY", "केमैन द्वीप");
-    namesMap.put("KZ", "कज़ाखस्तान");
+    namesMap.put("KY", "कैमेन द्वीपफोर");
+    namesMap.put("KZ", "काजाखस्तान");
     namesMap.put("LA", "लाओस");
-    namesMap.put("LB", "लेबनोन");
-    namesMap.put("LC", "सेंट लूसिया");
-    namesMap.put("LI", "लिक्टैनस्टाईन");
-    namesMap.put("LK", "श्री लँका");
+    namesMap.put("LB", "लेबान’न");
+    namesMap.put("LC", "सैन्ट लुसिया");
+    namesMap.put("LI", "लिक्तोनस्ताईन");
+    namesMap.put("LK", "श्रीलंका");
     namesMap.put("LR", "लाइबेरिया");
-    namesMap.put("LS", "लसोथो");
+    namesMap.put("LS", "लेस’थ’");
     namesMap.put("LT", "लिथुआनिया");
-    namesMap.put("LU", "लक्समबर्ग");
-    namesMap.put("LV", "लाट्वीया");
+    namesMap.put("LU", "लाक्जेमबुर्ग");
+    namesMap.put("LV", "लाटभीया");
     namesMap.put("LY", "लीबिया");
-    namesMap.put("MA", "मोरोक्को");
-    namesMap.put("MC", "मोनाको");
-    namesMap.put("MD", "मोल्डेविया");
-    namesMap.put("ME", "मोंटेनेग्रो");
-    namesMap.put("MF", "सेँ मार्टेँ");
-    namesMap.put("MG", "मदागास्कर");
-    namesMap.put("MH", "मार्शल द्वीप");
-    namesMap.put("MK", "मैसेडोनिया");
+    namesMap.put("MA", "मरक्क’");
+    namesMap.put("MC", "मनाक’");
+    namesMap.put("MD", "मल्ड’भा");
+    namesMap.put("ME", "मन्टेनेग्र’");
+    namesMap.put("MF", "सैन्ट मार्तिन");
+    namesMap.put("MG", "मादागास्कार");
+    namesMap.put("MH", "मार्शेल द्वीप");
+    namesMap.put("MK", "साहा मेसेड’निया");
     namesMap.put("ML", "माली");
     namesMap.put("MM", "म्यानमार");
-    namesMap.put("MN", "मंगोलिया");
-    namesMap.put("MO", "मकाओ विशेष प्रशासनिक क्षेत्र (चीन)");
-    namesMap.put("MP", "उत्तरी मारियाना द्वीप");
-    namesMap.put("MQ", "मार्टीनिक");
-    namesMap.put("MR", "मॉरिटेनिया");
-    namesMap.put("MS", "मॉंसेरा");
+    namesMap.put("MN", "मंगलिया");
+    namesMap.put("MO", "माकाउ एस.ए.आर चाइना");
+    namesMap.put("MP", "साहायारि मारियाना द्वीप");
+    namesMap.put("MQ", "मार्तिनिक");
+    namesMap.put("MR", "माउरिटानिया");
+    namesMap.put("MS", "मनत्सेरात");
     namesMap.put("MT", "माल्टा");
-    namesMap.put("MU", "मॉरिस");
+    namesMap.put("MU", "मरिसियास");
     namesMap.put("MV", "मालदीव");
-    namesMap.put("MW", "मलावी");
-    namesMap.put("MX", "मैक्सिको");
-    namesMap.put("MY", "मलेशिया");
-    namesMap.put("MZ", "मोज़ाम्बिक");
+    namesMap.put("MW", "मालावी");
+    namesMap.put("MX", "मेक्सिक’");
+    namesMap.put("MY", "मालेशिया");
+    namesMap.put("MZ", "मजाम्बिक");
     namesMap.put("NA", "नामीबिया");
-    namesMap.put("NC", "न्यू कैलेडोनिया");
+    namesMap.put("NC", "निउ केलेडनिया");
     namesMap.put("NE", "नाइजेर");
-    namesMap.put("NF", "नॉरफ़ॉक द्वीप");
-    namesMap.put("NG", "नाइजीरिया");
+    namesMap.put("NF", "नर्फ’क द्वीप");
+    namesMap.put("NG", "नाइजेरिया");
     namesMap.put("NI", "निकारागुआ");
-    namesMap.put("NL", "नेदरलैण्ड");
-    namesMap.put("NO", "नॉर्वे");
+    namesMap.put("NL", "नेदारलेण्ड");
+    namesMap.put("NO", "नरवै");
     namesMap.put("NP", "नेपाल");
     namesMap.put("NR", "नाउरू");
     namesMap.put("NU", "नीयूए");
-    namesMap.put("NZ", "न्यूज़ीलैंड");
+    namesMap.put("NZ", "न्यूजीलेण्ड");
     namesMap.put("OM", "ओमान");
-    namesMap.put("PA", "पनामा");
+    namesMap.put("PA", "पानामा");
     namesMap.put("PE", "पेरू");
-    namesMap.put("PF", "फ्राँसीसी पॉलिनीशिया");
-    namesMap.put("PG", "पापुआ न्यू गिनी");
+    namesMap.put("PF", "फ्रेन्च पलिनेशिया");
+    namesMap.put("PG", "पापुआ निउ गिनी");
     namesMap.put("PH", "फिलीपिन्स");
     namesMap.put("PK", "पाकिस्तान");
-    namesMap.put("PL", "पोलैण्ड");
-    namesMap.put("PM", "सेँ पीएर एवं मि‍केलॉं");
-    namesMap.put("PN", "पिटकेर्न");
-    namesMap.put("PR", "पुएर्टो रीको");
-    namesMap.put("PS", "फ़िलिस्तीन");
-    namesMap.put("PT", "पुर्तगाल");
-    namesMap.put("PW", "पलाऊ");
+    namesMap.put("PL", "पलेण्ड");
+    namesMap.put("PM", "सैन्ट. पिएर आरो मिकैलन");
+    namesMap.put("PN", "पिटकाईर्न द्वीप");
+    namesMap.put("PR", "पुवेर्ट’ रीक’");
+    namesMap.put("PS", "पेलेस्ताइननि ओनसोलफोर");
+    namesMap.put("PT", "पर्तुगाल");
+    namesMap.put("PW", "पालाऊ");
     namesMap.put("PY", "पारागुए");
-    namesMap.put("QA", "क़तार");
-    namesMap.put("QO", "बाहरिय ओशेआनिया");
-    namesMap.put("RE", "रेयूनियॉं");
-    namesMap.put("RO", "रोमानिया");
-    namesMap.put("RS", "सर्बिया");
-    namesMap.put("RU", "रूस");
+    namesMap.put("QA", "कातार");
+    namesMap.put("QO", "बायजोआरि असियानिया");
+    namesMap.put("RE", "रेयूनियन");
+    namesMap.put("RO", "रमानिया");
+    namesMap.put("RS", "सार्बिया");
+    namesMap.put("RU", "रासिया");
     namesMap.put("RW", "रूआण्डा");
-    namesMap.put("SA", "सऊदी अरब");
-    namesMap.put("SB", "सॉलोमन द्वीप");
-    namesMap.put("SC", "सेशेल्स");
+    namesMap.put("SA", "साउदि आराबिया");
+    namesMap.put("SB", "सल’मन द्वीप");
+    namesMap.put("SC", "सैशेल्लेस");
     namesMap.put("SD", "सूदान");
-    namesMap.put("SE", "स्वीडन");
-    namesMap.put("SG", "सिंगापुर");
-    namesMap.put("SH", "सेण्‍ट हेलेना");
-    namesMap.put("SI", "स्लोवेनिया");
-    namesMap.put("SJ", "स्वाल्बार्ड एवं यान मायेन");
-    namesMap.put("SK", "स्लोवाकिया");
+    namesMap.put("SE", "स्वीडेन");
+    namesMap.put("SG", "सिंंगाप’र");
+    namesMap.put("SH", "सैन्ट हेलेना");
+    namesMap.put("SI", "स्ल’भेनिया");
+    namesMap.put("SJ", "स्भालबार्ड आरो जान मायेन");
+    namesMap.put("SK", "स्लभाकिया");
     namesMap.put("SL", "सियेरा लेओन");
-    namesMap.put("SM", "सैन मरीनो");
+    namesMap.put("SM", "सान मेरिन’");
     namesMap.put("SN", "सेनेगाल");
-    namesMap.put("SO", "सोमालिया");
+    namesMap.put("SO", "समालिया");
     namesMap.put("SR", "सुरिनाम");
-    namesMap.put("ST", "साउँ-तोमे एवं प्रिंसिप");
-    namesMap.put("SV", "ऍल साल्वाडोर");
+    namesMap.put("SS", "खोला सुदान");
+    namesMap.put("ST", "साऊ तमे आरो प्रिन्सिप");
+    namesMap.put("SV", "एल साल्भाड’र");
+    namesMap.put("SX", "सिन्त मार्तेन");
     namesMap.put("SY", "सीरिया");
-    namesMap.put("SZ", "स्वाज़ीलैंड");
-    namesMap.put("TC", "तुर्की एवं कैकोज़ द्वीप");
+    namesMap.put("SZ", "एस्वातिनि");
+    namesMap.put("TA", "त्रिस्तान दा कुन्हा");
+    namesMap.put("TC", "तुर्की आरो काईक’ज द्वीपफोर");
     namesMap.put("TD", "चाड");
-    namesMap.put("TF", "फ्राँसीसी उत्तरी क्षेत्रों");
-    namesMap.put("TG", "टोगो");
-    namesMap.put("TH", "थाइलैण्ड");
+    namesMap.put("TF", "फ्रान्सनि खोलायारि बाहागोफोर");
+    namesMap.put("TG", "टग’");
+    namesMap.put("TH", "थाइलेण्ड");
     namesMap.put("TJ", "ताजिकिस्तान");
-    namesMap.put("TK", "टोकेलौ");
-    namesMap.put("TL", "पूर्वी तिमोर");
+    namesMap.put("TK", "टकेलाऊ");
+    namesMap.put("TL", "तिमर-लेस्ते");
     namesMap.put("TM", "तुर्कमेनीस्तान");
     namesMap.put("TN", "त्युनिशिया");
-    namesMap.put("TO", "टॉंगा");
+    namesMap.put("TO", "टंगा");
     namesMap.put("TR", "तुर्की");
-    namesMap.put("TT", "ट्रिनिडाड एवं टोबैगो");
-    namesMap.put("TV", "तुवालु");
+    namesMap.put("TT", "त्रिनिडाड आरो तबेग’");
+    namesMap.put("TV", "तुभालु");
     namesMap.put("TW", "ताइवान");
-    namesMap.put("TZ", "तंज़ानिया");
+    namesMap.put("TZ", "तान्जानिया");
     namesMap.put("UA", "यूक्रेन");
-    namesMap.put("UG", "युगाँडा");
-    namesMap.put("UM", "युनाइटेड स्टेट्स के छोटे बाहरिय द्वीप");
-    namesMap.put("US", "संयुक्त राज्य अमरिका");
-    namesMap.put("UY", "युरूगुए");
-    namesMap.put("UZ", "उज़बेकिस्तान");
-    namesMap.put("VA", "वैटिकन");
-    namesMap.put("VC", "सेंट विंसंट एवं दी ग्रनाडीन्स्");
-    namesMap.put("VE", "वेनेज़ुएला");
-    namesMap.put("VG", "ब्रिटिश वर्जीन आईलंड्स");
-    namesMap.put("VI", "यु.एस. वर्जीन आईलंड्स");
-    namesMap.put("VN", "वियतनाम");
-    namesMap.put("VU", "वानाऊटु");
-    namesMap.put("WF", "वॉलेस एवं फ़्यूचूना");
-    namesMap.put("WS", "समोआ");
-    namesMap.put("YE", "यमन");
-    namesMap.put("YT", "मैयौट");
-    namesMap.put("ZA", "दक्षिण अफ्रीका");
-    namesMap.put("ZM", "ज़ाम्बिया");
-    namesMap.put("ZW", "ज़ीम्बाब्वे");
-    namesMap.put("ZZ", "अज्ञात या अवैध प्रदेश");
+    namesMap.put("UG", "उगाण्डा");
+    namesMap.put("UM", "इउ.एस नि बायजोआरि द्वीपफोर");
+    namesMap.put("UN", "जथाय हादोरफोर");
+    namesMap.put("US", "जथाय हादोर आमेरिका");
+    namesMap.put("UY", "ऊरुगुवे");
+    namesMap.put("UZ", "उजबेकिस्तान");
+    namesMap.put("VA", "भेटिकान नोगोर");
+    namesMap.put("VC", "सैन्ट भिन्सेन्ट आरो ग्रेनादीन्स");
+    namesMap.put("VE", "भेनेजुवेला");
+    namesMap.put("VG", "ब्रिटिश भार्जिन द्वीपफोर");
+    namesMap.put("VI", "इउ. एस भार्जिन द्वीपफोर");
+    namesMap.put("VN", "भियेतनाम");
+    namesMap.put("VU", "भानुआटु");
+    namesMap.put("WF", "वालिस आरो फ्युचुना");
+    namesMap.put("WS", "सामआ");
+    namesMap.put("XA", "नंखाइ-गारांबोलो");
+    namesMap.put("XB", "नंखाइ- बिदि");
+    namesMap.put("XK", "कस’भ’");
+    namesMap.put("YE", "येमेन");
+    namesMap.put("YT", "मायत्ते");
+    namesMap.put("ZA", "खोला आफ्रिका");
+    namesMap.put("ZM", "जाम्बिया");
+    namesMap.put("ZW", "जिम्बाब्वे");
+    namesMap.put("ZZ", "मिथियै ओनसोल");
   }
 
   @Override
@@ -582,284 +599,300 @@ public class LocalizedNamesImpl_brx extends LocalizedNamesImpl {
 
   private native JavaScriptObject loadMyNameMap() /*-{
     return {
-        "001": "दुनिया",
-        "002": "अफ्रीका",
-        "003": "उत्तर अमरिका",
-        "005": "दक्षिण अमरिका",
+        "001": "बुहुम",
+        "002": "आफ्रिका",
+        "003": "साहा आमेरिका",
+        "005": "खोला आमेरिका",
         "009": "ओशेआनिया",
-        "011": "पश्चिमी अफ्रीका",
-        "013": "मध्य अमरिका",
-        "014": "पूर्वी अफ्रीका",
-        "015": "उत्तरी अफ्रीका",
-        "017": "मध्य अफ्रीका",
-        "018": "दक्षिणी अफ्रीका",
-        "019": "अमरिकाज़्",
-        "021": "उत्तरी अमरिका",
-        "029": "कैरिबियन",
-        "030": "पूर्वी एशिया",
-        "034": "दक्षिणी एशिया",
-        "035": "दक्षिण-पूर्वी एशिया",
-        "039": "दक्षिणी यूरोप",
-        "053": "ऑस्ट्रेलिया एवं न्यूजीलैंड",
-        "054": "मेलीनेशिया",
-        "057": "माईक्रोनेशिया",
-        "061": "पोलीनेशिया",
-        "142": "एशिया",
-        "143": "मध्य एशिया",
-        "145": "पश्चिमी ऐशिया",
+        "011": "सोनाबारि आफ्रिका",
+        "013": "मिरु आमेरिका",
+        "014": "सानजायारि आफ्रिका",
+        "015": "साहायारि आफ्रिका",
+        "017": "गेजेरारि आफ्रिका",
+        "018": "खोलायारि आफ्रिका",
+        "019": "आमेरिकानि",
+        "021": "साहायारि आमेरिका",
+        "029": "केरिबियान",
+        "030": "सानजायारि एसिया",
+        "034": "खोलायारि एसिया",
+        "035": "खोला-सानजा एसिया",
+        "039": "खोलायारि यूरोप",
+        "053": "अस्ट्रेलएसिया",
+        "054": "मेलानेसिया",
+        "057": "माईक्र’नेसियायारि ओनसोल",
+        "061": "पलिनेसिया",
+        "142": "एसिया",
+        "143": "मिरु एसिया",
+        "145": "सोनाबारि एसिया",
         "150": "यूरोप",
-        "151": "पूर्वी यूरोप",
-        "154": "उत्तरी यूरोप",
-        "155": "पश्चिमी यूरोप्",
-        "419": "लैटिन अमरिका एवं करीबी",
-        "AD": "ऍन्डोरा",
-        "AE": "संयुक्त अरब अमीरात",
-        "AF": "अफ़ग़ानिस्तान",
-        "AG": "एन्टिगुआ एवं बारबूडा",
-        "AI": "एंगीला",
-        "AL": "अल्बानिया",
+        "151": "सानजायारि यूरोप",
+        "154": "साहायारि यूरोप",
+        "155": "सोनाबारि यूरोप",
+        "202": "साहारायारि लोब्बा गोनां आफ्रिका",
+        "419": "लेटीन आमेरिका",
+        "AC": "एसेनसिअन द्वीप",
+        "AD": "एन्डर्रा",
+        "AE": "जथाय आराब एमिरेत",
+        "AF": "आफगानिस्तान",
+        "AG": "एन्टिगुआ आरो बारबुडा",
+        "AI": "एंगुइल्ला",
+        "AL": "आल्बानिया",
         "AM": "आर्मेनिया",
-        "AO": "अंगोला",
-        "AQ": "अंटार्कटिका",
-        "AR": "अर्जेण्टिना",
-        "AS": "अमरिकी समोआ",
-        "AT": "ऑस्ट्रिया",
-        "AU": "ऑस्ट्रेलिया",
-        "AW": "अरूबा",
-        "AX": "आलाँड द्वीप",
-        "AZ": "अज़रबैजान",
-        "BA": "बोसनिया हर्ज़ेगोविना",
-        "BB": "बारबाडोस",
-        "BD": "बंगलादेश",
-        "BE": "बेल्जियम",
-        "BF": "बुर्किना फासो",
-        "BG": "बल्गैरिया",
-        "BH": "बहरैन",
-        "BI": "बुरुंडी",
-        "BJ": "बेनेँ",
-        "BL": "सेँ बार्थेलेमी",
-        "BM": "बरमूडा",
-        "BN": "ब्रूनइ",
-        "BO": "बोलीविया",
-        "BR": "ब्राज़ील",
-        "BS": "बहामा",
+        "AO": "आंगला",
+        "AQ": "एन्टार्कटिका",
+        "AR": "आर्जेन्टिना",
+        "AS": "आमेरिकान सामआ",
+        "AT": "अस्ट्रिया",
+        "AU": "अस्ट्रेलिया",
+        "AW": "आरूबा",
+        "AX": "आलाण्ड द्वीपफोर",
+        "AZ": "आजेरबाईजान",
+        "BA": "बसनिया आरो होर्जेगभिना",
+        "BB": "बारबाड’स",
+        "BD": "बांलादेश",
+        "BE": "बेलजियाम",
+        "BF": "बुर्किना फास’",
+        "BG": "बुल्गारिया",
+        "BH": "बाहरैन",
+        "BI": "बुरूण्डी",
+        "BJ": "बेनिन",
+        "BL": "सैन्ट बार्थेलेमी",
+        "BM": "बारमूडा",
+        "BN": "ब्रूने",
+        "BO": "बलिभिया",
+        "BQ": "केरिबियान नेदारलेण्डस",
+        "BR": "ब्राजील",
+        "BS": "बाहामास",
         "BT": "भूटान",
-        "BV": "बुवे द्वीप",
-        "BW": "बोत्स्वाना",
+        "BV": "बूभेट द्वीप",
+        "BW": "बत्स्वाना",
         "BY": "बेलारूस",
-        "BZ": "बेलिज़",
-        "CA": "कैनाडा",
-        "CC": "कोकोस द्वीप",
-        "CD": "कॉंगो किनशासा",
-        "CF": "सेंट्रल अफ्रीकन रिपब्लिक",
-        "CG": "कॉंगो ब्राज़्ज़ावील",
-        "CH": "स्वित्ज़रलैंड",
-        "CI": "आईवरी कोस्ट",
+        "BZ": "बेलिज",
+        "CA": "केनाडा",
+        "CC": "कक’स द्वीपफोर",
+        "CD": "कंग’-किनशासा",
+        "CF": "मिरु आफ्रिका सुबुंखुंथाय",
+        "CG": "कंग’- ब्राज्जाभील",
+        "CH": "सुईजारलेण्ड",
+        "CI": "कट दिभवेर",
         "CK": "कुक द्वीप",
-        "CL": "चिली",
-        "CM": "कोमेरान",
-        "CN": "चीन",
-        "CO": "कोलम्बिया",
-        "CR": "कोस्टारीका",
+        "CL": "चिले",
+        "CM": "केमेरून",
+        "CN": "चाइना",
+        "CO": "कलम्बिया",
+        "CP": "क्लिप्पार्टन द्वीप",
+        "CR": "कस्टा रिका",
         "CU": "क्यूबा",
-        "CV": "कैप वेर्दे",
-        "CX": "क्रिस्मस द्वीप",
-        "CY": "साइप्रस",
-        "CZ": "चेक गणराज्य",
-        "DE": "जर्मनी",
-        "DJ": "द्जिबूती",
+        "CV": "केप भेर्दे",
+        "CW": "कुरासाव",
+        "CX": "ख्रिसमास द्वीपफोर",
+        "CY": "साइप्रास",
+        "CZ": "चेखिया",
+        "DE": "जार्मानी",
+        "DG": "दियेग’ गार्सिया",
+        "DJ": "जिबौति",
         "DK": "डेनमार्क",
-        "DM": "डोमिनिका",
-        "DO": "डोमिनिकन गणराज्य",
-        "DZ": "अल्जीरिया",
-        "EC": "एक्वाडोर",
-        "EE": "एस्टोनिया",
-        "EG": "मिस्र",
-        "EH": "पश्चिमी सहारा",
+        "DM": "दमिनिका",
+        "DO": "दमिनिकान सुबुंखुंथाय",
+        "DZ": "आल्जेरिया",
+        "EA": "किउता आरो मेलिल्ला",
+        "EC": "एक्वाड’र",
+        "EE": "एस्ट’निया",
+        "EG": "ईजिप्त",
+        "EH": "सोनाबारि साहारा",
         "ER": "एरिट्रिया",
-        "ES": "स्पेन",
-        "ET": "इथिओपिया",
-        "EU": "यूरोपीय संघ",
-        "FI": "फिनलैंड",
+        "ES": "स्पैन",
+        "ET": "इथिय’पिया",
+        "EU": "यूरोपनि जथाय",
+        "EZ": "यूरो ओनसोल",
+        "FI": "फिनलेण्ड",
         "FJ": "फिजी",
-        "FK": "फ़ॉल्कलैंड द्वीप",
-        "FM": "माइक्रोनेशिया",
-        "FO": "फरो द्वीप",
-        "FR": "फ्राँस",
-        "GA": "गैबॉन",
-        "GB": "ब्रितन",
-        "GD": "ग्रेनडा",
-        "GE": "जॉर्जिया",
-        "GF": "फ्राँसीसी गिआना",
-        "GG": "गेर्नसे",
+        "FK": "फकलेण्ड द्वीपफोर",
+        "FM": "माइक्रनेशिया",
+        "FO": "फेर’ द्वीपफोर",
+        "FR": "फ्रान्स",
+        "GA": "गाबन",
+        "GB": "जथाय ब्रिटिश हादोर",
+        "GD": "ग्रेनादा",
+        "GE": "जर्जिया",
+        "GF": "फ्रेन्च गिआना",
+        "GG": "गोर्नसि",
         "GH": "घाना",
-        "GI": "जिब्राल्टर",
-        "GL": "ग्रीनलैण्ड",
+        "GI": "जिब्राल्टार",
+        "GL": "ग्रीनलेण्ड",
         "GM": "गाम्बिया",
-        "GN": "गिनी",
-        "GP": "ग्वादलुप",
-        "GQ": "इक्वेटोरियल गिनी",
+        "GN": "गिनीया",
+        "GP": "ग्वादेल्यूप",
+        "GQ": "बिसुबारि गिनीया",
         "GR": "ग्रीस",
-        "GS": "दक्षिण जोर्जिया एवं दक्षिण सैंडवीच द्वीप",
-        "GT": "गोतेदाला",
+        "GS": "खोला जर्जिया आरो खोला सेण्डवीच द्वीपफोर",
+        "GT": "गुवाटेमाला",
         "GU": "गुआम",
-        "GW": "गीनी-बिसाउ",
+        "GW": "गिनीया- बिसाऊ",
         "GY": "गुयाना",
-        "HK": "हाँगकाँग विशेष प्रशासनिक क्षेत्र चीन",
-        "HM": "हर्ड द्वीप एवं मैकडोनॉल्ड द्वीप",
-        "HN": "हौण्डूरास",
-        "HR": "क्रोएशिया",
+        "HK": "हंकं एस.ए.आर चाइना",
+        "HM": "होर्द आरो मेकद’नाल्ड द्वीपफोर",
+        "HN": "हण्डूरास",
+        "HR": "क्रवेशिया",
         "HT": "हाइती",
-        "HU": "हंगरी",
-        "ID": "इंडोनेशिया",
-        "IE": "आयरलैंड",
-        "IL": "इस्राइल",
-        "IM": "आईल ऑफ़ मैन",
+        "HU": "हांगारी",
+        "IC": "कानारि द्वीपफोर",
+        "ID": "इण्ड’नेशिया",
+        "IE": "आयारलेण्ड",
+        "IL": "इज्राईल",
+        "IM": "आयोल अफ मेन",
         "IN": "भारत",
-        "IO": "ब्रिटिश हिंद महासागरिय क्षेत्र",
-        "IQ": "ईराक़",
+        "IO": "ब्रिटिशनि भारतारि लैथो बाहागो",
+        "IQ": "ईराक",
         "IR": "ईरान",
-        "IS": "आइसलैंड",
-        "IT": "इटली",
-        "JE": "जर्सी",
-        "JM": "जमाइका",
-        "JO": "जॉर्डन",
+        "IS": "आइसलेण्ड",
+        "IT": "इटाली",
+        "JE": "जोर्सि",
+        "JM": "जामाइका",
+        "JO": "जर्डान",
         "JP": "जापान",
-        "KE": "केन्या",
-        "KG": "किर्गिज़",
-        "KH": "कम्बोडिया",
+        "KE": "केनिया",
+        "KG": "किर्गीस्तान",
+        "KH": "कम्ब’डिया",
         "KI": "किरिबाती",
-        "KM": "कोमोरोज़",
-        "KN": "सेंट किट्स एवं नेविस",
-        "KP": "उत्तर कोरिया",
-        "KR": "दक्षिण कोरिया",
+        "KM": "कम’र’ज",
+        "KN": "सैन्ट कीत्स आरो नेभिस",
+        "KP": "साहा करिया",
+        "KR": "खोला करिया",
         "KW": "कुवैत",
-        "KY": "केमैन द्वीप",
-        "KZ": "कज़ाखस्तान",
+        "KY": "कैमेन द्वीपफोर",
+        "KZ": "काजाखस्तान",
         "LA": "लाओस",
-        "LB": "लेबनोन",
-        "LC": "सेंट लूसिया",
-        "LI": "लिक्टैनस्टाईन",
-        "LK": "श्री लँका",
+        "LB": "लेबान’न",
+        "LC": "सैन्ट लुसिया",
+        "LI": "लिक्तोनस्ताईन",
+        "LK": "श्रीलंका",
         "LR": "लाइबेरिया",
-        "LS": "लसोथो",
+        "LS": "लेस’थ’",
         "LT": "लिथुआनिया",
-        "LU": "लक्समबर्ग",
-        "LV": "लाट्वीया",
+        "LU": "लाक्जेमबुर्ग",
+        "LV": "लाटभीया",
         "LY": "लीबिया",
-        "MA": "मोरोक्को",
-        "MC": "मोनाको",
-        "MD": "मोल्डेविया",
-        "ME": "मोंटेनेग्रो",
-        "MF": "सेँ मार्टेँ",
-        "MG": "मदागास्कर",
-        "MH": "मार्शल द्वीप",
-        "MK": "मैसेडोनिया",
+        "MA": "मरक्क’",
+        "MC": "मनाक’",
+        "MD": "मल्ड’भा",
+        "ME": "मन्टेनेग्र’",
+        "MF": "सैन्ट मार्तिन",
+        "MG": "मादागास्कार",
+        "MH": "मार्शेल द्वीप",
+        "MK": "साहा मेसेड’निया",
         "ML": "माली",
         "MM": "म्यानमार",
-        "MN": "मंगोलिया",
-        "MO": "मकाओ विशेष प्रशासनिक क्षेत्र (चीन)",
-        "MP": "उत्तरी मारियाना द्वीप",
-        "MQ": "मार्टीनिक",
-        "MR": "मॉरिटेनिया",
-        "MS": "मॉंसेरा",
+        "MN": "मंगलिया",
+        "MO": "माकाउ एस.ए.आर चाइना",
+        "MP": "साहायारि मारियाना द्वीप",
+        "MQ": "मार्तिनिक",
+        "MR": "माउरिटानिया",
+        "MS": "मनत्सेरात",
         "MT": "माल्टा",
-        "MU": "मॉरिस",
+        "MU": "मरिसियास",
         "MV": "मालदीव",
-        "MW": "मलावी",
-        "MX": "मैक्सिको",
-        "MY": "मलेशिया",
-        "MZ": "मोज़ाम्बिक",
+        "MW": "मालावी",
+        "MX": "मेक्सिक’",
+        "MY": "मालेशिया",
+        "MZ": "मजाम्बिक",
         "NA": "नामीबिया",
-        "NC": "न्यू कैलेडोनिया",
+        "NC": "निउ केलेडनिया",
         "NE": "नाइजेर",
-        "NF": "नॉरफ़ॉक द्वीप",
-        "NG": "नाइजीरिया",
+        "NF": "नर्फ’क द्वीप",
+        "NG": "नाइजेरिया",
         "NI": "निकारागुआ",
-        "NL": "नेदरलैण्ड",
-        "NO": "नॉर्वे",
+        "NL": "नेदारलेण्ड",
+        "NO": "नरवै",
         "NP": "नेपाल",
         "NR": "नाउरू",
         "NU": "नीयूए",
-        "NZ": "न्यूज़ीलैंड",
+        "NZ": "न्यूजीलेण्ड",
         "OM": "ओमान",
-        "PA": "पनामा",
+        "PA": "पानामा",
         "PE": "पेरू",
-        "PF": "फ्राँसीसी पॉलिनीशिया",
-        "PG": "पापुआ न्यू गिनी",
+        "PF": "फ्रेन्च पलिनेशिया",
+        "PG": "पापुआ निउ गिनी",
         "PH": "फिलीपिन्स",
         "PK": "पाकिस्तान",
-        "PL": "पोलैण्ड",
-        "PM": "सेँ पीएर एवं मि‍केलॉं",
-        "PN": "पिटकेर्न",
-        "PR": "पुएर्टो रीको",
-        "PS": "फ़िलिस्तीन",
-        "PT": "पुर्तगाल",
-        "PW": "पलाऊ",
+        "PL": "पलेण्ड",
+        "PM": "सैन्ट. पिएर आरो मिकैलन",
+        "PN": "पिटकाईर्न द्वीप",
+        "PR": "पुवेर्ट’ रीक’",
+        "PS": "पेलेस्ताइननि ओनसोलफोर",
+        "PT": "पर्तुगाल",
+        "PW": "पालाऊ",
         "PY": "पारागुए",
-        "QA": "क़तार",
-        "QO": "बाहरिय ओशेआनिया",
-        "RE": "रेयूनियॉं",
-        "RO": "रोमानिया",
-        "RS": "सर्बिया",
-        "RU": "रूस",
+        "QA": "कातार",
+        "QO": "बायजोआरि असियानिया",
+        "RE": "रेयूनियन",
+        "RO": "रमानिया",
+        "RS": "सार्बिया",
+        "RU": "रासिया",
         "RW": "रूआण्डा",
-        "SA": "सऊदी अरब",
-        "SB": "सॉलोमन द्वीप",
-        "SC": "सेशेल्स",
+        "SA": "साउदि आराबिया",
+        "SB": "सल’मन द्वीप",
+        "SC": "सैशेल्लेस",
         "SD": "सूदान",
-        "SE": "स्वीडन",
-        "SG": "सिंगापुर",
-        "SH": "सेण्‍ट हेलेना",
-        "SI": "स्लोवेनिया",
-        "SJ": "स्वाल्बार्ड एवं यान मायेन",
-        "SK": "स्लोवाकिया",
+        "SE": "स्वीडेन",
+        "SG": "सिंंगाप’र",
+        "SH": "सैन्ट हेलेना",
+        "SI": "स्ल’भेनिया",
+        "SJ": "स्भालबार्ड आरो जान मायेन",
+        "SK": "स्लभाकिया",
         "SL": "सियेरा लेओन",
-        "SM": "सैन मरीनो",
+        "SM": "सान मेरिन’",
         "SN": "सेनेगाल",
-        "SO": "सोमालिया",
+        "SO": "समालिया",
         "SR": "सुरिनाम",
-        "ST": "साउँ-तोमे एवं प्रिंसिप",
-        "SV": "ऍल साल्वाडोर",
+        "SS": "खोला सुदान",
+        "ST": "साऊ तमे आरो प्रिन्सिप",
+        "SV": "एल साल्भाड’र",
+        "SX": "सिन्त मार्तेन",
         "SY": "सीरिया",
-        "SZ": "स्वाज़ीलैंड",
-        "TC": "तुर्की एवं कैकोज़ द्वीप",
+        "SZ": "एस्वातिनि",
+        "TA": "त्रिस्तान दा कुन्हा",
+        "TC": "तुर्की आरो काईक’ज द्वीपफोर",
         "TD": "चाड",
-        "TF": "फ्राँसीसी उत्तरी क्षेत्रों",
-        "TG": "टोगो",
-        "TH": "थाइलैण्ड",
+        "TF": "फ्रान्सनि खोलायारि बाहागोफोर",
+        "TG": "टग’",
+        "TH": "थाइलेण्ड",
         "TJ": "ताजिकिस्तान",
-        "TK": "टोकेलौ",
-        "TL": "पूर्वी तिमोर",
+        "TK": "टकेलाऊ",
+        "TL": "तिमर-लेस्ते",
         "TM": "तुर्कमेनीस्तान",
         "TN": "त्युनिशिया",
-        "TO": "टॉंगा",
+        "TO": "टंगा",
         "TR": "तुर्की",
-        "TT": "ट्रिनिडाड एवं टोबैगो",
-        "TV": "तुवालु",
+        "TT": "त्रिनिडाड आरो तबेग’",
+        "TV": "तुभालु",
         "TW": "ताइवान",
-        "TZ": "तंज़ानिया",
+        "TZ": "तान्जानिया",
         "UA": "यूक्रेन",
-        "UG": "युगाँडा",
-        "UM": "युनाइटेड स्टेट्स के छोटे बाहरिय द्वीप",
-        "US": "संयुक्त राज्य अमरिका",
-        "UY": "युरूगुए",
-        "UZ": "उज़बेकिस्तान",
-        "VA": "वैटिकन",
-        "VC": "सेंट विंसंट एवं दी ग्रनाडीन्स्",
-        "VE": "वेनेज़ुएला",
-        "VG": "ब्रिटिश वर्जीन आईलंड्स",
-        "VI": "यु.एस. वर्जीन आईलंड्स",
-        "VN": "वियतनाम",
-        "VU": "वानाऊटु",
-        "WF": "वॉलेस एवं फ़्यूचूना",
-        "WS": "समोआ",
-        "YE": "यमन",
-        "YT": "मैयौट",
-        "ZA": "दक्षिण अफ्रीका",
-        "ZM": "ज़ाम्बिया",
-        "ZW": "ज़ीम्बाब्वे",
-        "ZZ": "अज्ञात या अवैध प्रदेश"
+        "UG": "उगाण्डा",
+        "UM": "इउ.एस नि बायजोआरि द्वीपफोर",
+        "UN": "जथाय हादोरफोर",
+        "US": "जथाय हादोर आमेरिका",
+        "UY": "ऊरुगुवे",
+        "UZ": "उजबेकिस्तान",
+        "VA": "भेटिकान नोगोर",
+        "VC": "सैन्ट भिन्सेन्ट आरो ग्रेनादीन्स",
+        "VE": "भेनेजुवेला",
+        "VG": "ब्रिटिश भार्जिन द्वीपफोर",
+        "VI": "इउ. एस भार्जिन द्वीपफोर",
+        "VN": "भियेतनाम",
+        "VU": "भानुआटु",
+        "WF": "वालिस आरो फ्युचुना",
+        "WS": "सामआ",
+        "XA": "नंखाइ-गारांबोलो",
+        "XB": "नंखाइ- बिदि",
+        "XK": "कस’भ’",
+        "YE": "येमेन",
+        "YT": "मायत्ते",
+        "ZA": "खोला आफ्रिका",
+        "ZM": "जाम्बिया",
+        "ZW": "जिम्बाब्वे",
+        "ZZ": "मिथियै ओनसोल"
     };
   }-*/;
 }

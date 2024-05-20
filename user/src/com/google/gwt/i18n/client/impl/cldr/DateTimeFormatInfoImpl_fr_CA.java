@@ -31,12 +31,7 @@ public class DateTimeFormatInfoImpl_fr_CA extends DateTimeFormatInfoImpl_fr {
 
   @Override
   public String dateFormatShort() {
-    return "yy-MM-dd";
-  }
-
-  @Override
-  public String dateTimeMedium(String timePattern, String datePattern) {
-    return datePattern + " " + timePattern;
+    return "y-MM-dd";
   }
 
   @Override
@@ -46,7 +41,7 @@ public class DateTimeFormatInfoImpl_fr_CA extends DateTimeFormatInfoImpl_fr {
 
   @Override
   public String formatHour12Minute() {
-    return "h 'h' mm a";
+    return "h 'h' mm a";
   }
 
   @Override
@@ -71,7 +66,7 @@ public class DateTimeFormatInfoImpl_fr_CA extends DateTimeFormatInfoImpl_fr {
 
   @Override
   public String formatMonthNumDay() {
-    return "M-d";
+    return "MM-dd";
   }
 
   @Override

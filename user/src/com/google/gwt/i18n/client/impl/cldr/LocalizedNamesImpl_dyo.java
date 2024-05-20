@@ -73,6 +73,7 @@ public class LocalizedNamesImpl_dyo extends LocalizedNamesImpl {
         "CL",
         "CK",
         "CP",
+        "CQ",
         "CW",
         "CX",
         "DK",

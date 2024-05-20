@@ -66,6 +66,16 @@ public class DateTimeFormatInfoImpl_lv extends DateTimeFormatInfoImpl {
   }
 
   @Override
+  public String formatHour12Minute() {
+    return "h:mm a";
+  }
+
+  @Override
+  public String formatHour12MinuteSecond() {
+    return "h:mm:ss a";
+  }
+
+  @Override
   public String formatMonthAbbrevDay() {
     return "d. MMM";
   }
@@ -117,7 +127,7 @@ public class DateTimeFormatInfoImpl_lv extends DateTimeFormatInfoImpl {
 
   @Override
   public String formatYearMonthNumDay() {
-    return "y.MM.d.";
+    return "d.MM.y.";
   }
 
   @Override

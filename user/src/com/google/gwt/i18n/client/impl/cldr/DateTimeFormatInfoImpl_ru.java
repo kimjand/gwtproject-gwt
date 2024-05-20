@@ -23,17 +23,17 @@ public class DateTimeFormatInfoImpl_ru extends DateTimeFormatInfoImpl {
 
   @Override
   public String dateFormatFull() {
-    return "EEEE, d MMMM y 'г'.";
+    return "EEEE, d MMMM y 'г'.";
   }
 
   @Override
   public String dateFormatLong() {
-    return "d MMMM y 'г'.";
+    return "d MMMM y 'г'.";
   }
 
   @Override
   public String dateFormatMedium() {
-    return "d MMM y 'г'.";
+    return "d MMM y 'г'.";
   }
 
   @Override
@@ -78,6 +78,16 @@ public class DateTimeFormatInfoImpl_ru extends DateTimeFormatInfoImpl {
   }
 
   @Override
+  public String formatHour12Minute() {
+    return "h:mm a";
+  }
+
+  @Override
+  public String formatHour12MinuteSecond() {
+    return "h:mm:ss a";
+  }
+
+  @Override
   public String formatMonthAbbrevDay() {
     return "d MMM";
   }
@@ -99,22 +109,22 @@ public class DateTimeFormatInfoImpl_ru extends DateTimeFormatInfoImpl {
 
   @Override
   public String formatYearMonthAbbrev() {
-    return "LLL y 'г'.";
+    return "LLL y 'г'.";
   }
 
   @Override
   public String formatYearMonthAbbrevDay() {
-    return "d MMM y 'г'.";
+    return "d MMM y 'г'.";
   }
 
   @Override
   public String formatYearMonthFull() {
-    return "LLLL y 'г'.";
+    return "LLLL y 'г'.";
   }
 
   @Override
   public String formatYearMonthFullDay() {
-    return "d MMMM y 'г'.";
+    return "d MMMM y 'г'.";
   }
 
   @Override
@@ -129,17 +139,17 @@ public class DateTimeFormatInfoImpl_ru extends DateTimeFormatInfoImpl {
 
   @Override
   public String formatYearMonthWeekdayDay() {
-    return "EEE, d MMM y 'г'.";
+    return "EEE, d MMM y 'г'.";
   }
 
   @Override
   public String formatYearQuarterFull() {
-    return "QQQQ y 'г'.";
+    return "QQQQ y 'г'.";
   }
 
   @Override
   public String formatYearQuarterShort() {
-    return "Q y 'г'.";
+    return "Q y 'г'.";
   }
 
   @Override
@@ -267,19 +277,6 @@ public class DateTimeFormatInfoImpl_ru extends DateTimeFormatInfoImpl {
 
   @Override
   public String[] weekdaysNarrow() {
-    return new String[] {
-        "вс",
-        "пн",
-        "вт",
-        "ср",
-        "чт",
-        "пт",
-        "сб"
-    };
-  }
-
-  @Override
-  public String[] weekdaysNarrowStandalone() {
     return new String[] {
         "В",
         "П",

@@ -102,31 +102,18 @@ public class DateTimeFormatInfoImpl_en_CA extends DateTimeFormatInfoImpl_en_001 
   @Override
   public String[] monthsShort() {
     return new String[] {
-        "Jan.",
-        "Feb.",
-        "Mar.",
-        "Apr.",
+        "Jan",
+        "Feb",
+        "Mar",
+        "Apr",
         "May",
-        "Jun.",
-        "Jul.",
-        "Aug.",
-        "Sep.",
-        "Oct.",
-        "Nov.",
-        "Dec."
-    };
-  }
-
-  @Override
-  public String[] weekdaysShort() {
-    return new String[] {
-        "Sun.",
-        "Mon.",
-        "Tue.",
-        "Wed.",
-        "Thu.",
-        "Fri.",
-        "Sat."
+        "Jun",
+        "Jul",
+        "Aug",
+        "Sep",
+        "Oct",
+        "Nov",
+        "Dec"
     };
   }
 }

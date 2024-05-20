@@ -42,6 +42,26 @@ public class DateTimeFormatInfoImpl_eu extends DateTimeFormatInfoImpl {
   }
 
   @Override
+  public String dateTimeFull(String timePattern, String datePattern) {
+    return datePattern + " (" + timePattern + ")";
+  }
+
+  @Override
+  public String dateTimeLong(String timePattern, String datePattern) {
+    return datePattern + " (" + timePattern + ")";
+  }
+
+  @Override
+  public String dateTimeMedium(String timePattern, String datePattern) {
+    return datePattern + " (" + timePattern + ")";
+  }
+
+  @Override
+  public String dateTimeShort(String timePattern, String datePattern) {
+    return datePattern + " (" + timePattern + ")";
+  }
+
+  @Override
   public String[] erasFull() {
     return new String[] {
         "K.a.",
@@ -58,8 +78,38 @@ public class DateTimeFormatInfoImpl_eu extends DateTimeFormatInfoImpl {
   }
 
   @Override
+  public String formatHour12Minute() {
+    return "h:mm a";
+  }
+
+  @Override
+  public String formatHour12MinuteSecond() {
+    return "h:mm:ss a";
+  }
+
+  @Override
+  public String formatMonthAbbrevDay() {
+    return "MMM d('a')";
+  }
+
+  @Override
+  public String formatMonthFullDay() {
+    return "MMMM'ren' d('a')";
+  }
+
+  @Override
+  public String formatMonthFullWeekdayDay() {
+    return "MMMM d('a'), EEEE";
+  }
+
+  @Override
   public String formatMonthNumDay() {
     return "M/d";
+  }
+
+  @Override
+  public String formatYearMonthAbbrevDay() {
+    return "y MMM d('a')";
   }
 
   @Override
@@ -69,7 +119,7 @@ public class DateTimeFormatInfoImpl_eu extends DateTimeFormatInfoImpl {
 
   @Override
   public String formatYearMonthFullDay() {
-    return "y('e')'ko' MMMM'ren' d";
+    return "y('e')'ko' MMMM'ren' d('a')";
   }
 
   @Override
@@ -80,6 +130,11 @@ public class DateTimeFormatInfoImpl_eu extends DateTimeFormatInfoImpl {
   @Override
   public String formatYearMonthNumDay() {
     return "y/M/d";
+  }
+
+  @Override
+  public String formatYearMonthWeekdayDay() {
+    return "y MMM d('a'), EEE";
   }
 
   @Override

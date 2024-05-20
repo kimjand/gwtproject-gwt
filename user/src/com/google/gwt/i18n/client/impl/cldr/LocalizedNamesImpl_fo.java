@@ -65,6 +65,7 @@ public class LocalizedNamesImpl_fo extends LocalizedNamesImpl {
         "EA",
         "CP",
         "CK",
+        "CQ",
         "CW",
         "DK",
         "DG",
@@ -77,6 +78,7 @@ public class LocalizedNamesImpl_fo extends LocalizedNamesImpl {
         "SV",
         "ER",
         "EE",
+        "SZ",
         "ET",
         "EZ",
         "EU",
@@ -164,7 +166,6 @@ public class LocalizedNamesImpl_fo extends LocalizedNamesImpl {
         "LU",
         "MG",
         "MO",
-        "MK",
         "MY",
         "MW",
         "MV",
@@ -197,10 +198,13 @@ public class LocalizedNamesImpl_fo extends LocalizedNamesImpl {
         "NU",
         "MP",
         "KP",
+        "MK",
         "NO",
         "NF",
         "NC",
         "NZ",
+        "XB",
+        "XA",
         "OM",
         "PK",
         "PW",
@@ -257,7 +261,6 @@ public class LocalizedNamesImpl_fo extends LocalizedNamesImpl {
         "SS",
         "SR",
         "SJ",
-        "SZ",
         "CH",
         "SE",
         "SY",
@@ -287,8 +290,6 @@ public class LocalizedNamesImpl_fo extends LocalizedNamesImpl {
         "EH",
         "VN",
         "WF",
-        "XA",
-        "XB",
     };
   }
 
@@ -422,7 +423,7 @@ public class LocalizedNamesImpl_fo extends LocalizedNamesImpl {
     namesMap.put("MF", "St-Martin");
     namesMap.put("MG", "Madagaskar");
     namesMap.put("MH", "Marshalloyggjar");
-    namesMap.put("MK", "Makedónia");
+    namesMap.put("MK", "Norður Makedónia");
     namesMap.put("MO", "Makao SAR Kina");
     namesMap.put("MP", "Norðaru Mariuoyggjar");
     namesMap.put("MR", "Móritania");
@@ -462,7 +463,7 @@ public class LocalizedNamesImpl_fo extends LocalizedNamesImpl {
     namesMap.put("SS", "Suðursudan");
     namesMap.put("ST", "Sao Tome & Prinsipi");
     namesMap.put("SY", "Sýria");
-    namesMap.put("SZ", "Svasiland");
+    namesMap.put("SZ", "Esvatini");
     namesMap.put("TC", "Turks- og Caicosoyggjar");
     namesMap.put("TD", "Kjad");
     namesMap.put("TF", "Fronsku sunnaru landaøki");
@@ -486,6 +487,8 @@ public class LocalizedNamesImpl_fo extends LocalizedNamesImpl {
     namesMap.put("VI", "Sambandsríki Amerikas Jomfrúoyggjar");
     namesMap.put("VN", "Vjetnam");
     namesMap.put("WF", "Wallis- og Futunaoyggjar");
+    namesMap.put("XA", "óekta tónalag");
+    namesMap.put("XB", "óektaður BIDI tekstur");
     namesMap.put("YE", "Jemen");
     namesMap.put("ZA", "Suðurafrika");
     namesMap.put("ZM", "Sambia");
@@ -627,7 +630,7 @@ public class LocalizedNamesImpl_fo extends LocalizedNamesImpl {
         "MF": "St-Martin",
         "MG": "Madagaskar",
         "MH": "Marshalloyggjar",
-        "MK": "Makedónia",
+        "MK": "Norður Makedónia",
         "MO": "Makao SAR Kina",
         "MP": "Norðaru Mariuoyggjar",
         "MR": "Móritania",
@@ -667,7 +670,7 @@ public class LocalizedNamesImpl_fo extends LocalizedNamesImpl {
         "SS": "Suðursudan",
         "ST": "Sao Tome & Prinsipi",
         "SY": "Sýria",
-        "SZ": "Svasiland",
+        "SZ": "Esvatini",
         "TC": "Turks- og Caicosoyggjar",
         "TD": "Kjad",
         "TF": "Fronsku sunnaru landaøki",
@@ -691,6 +694,8 @@ public class LocalizedNamesImpl_fo extends LocalizedNamesImpl {
         "VI": "Sambandsríki Amerikas Jomfrúoyggjar",
         "VN": "Vjetnam",
         "WF": "Wallis- og Futunaoyggjar",
+        "XA": "óekta tónalag",
+        "XB": "óektaður BIDI tekstur",
         "YE": "Jemen",
         "ZA": "Suðurafrika",
         "ZM": "Sambia",

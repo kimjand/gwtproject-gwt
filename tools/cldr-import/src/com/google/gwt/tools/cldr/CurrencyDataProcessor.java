@@ -1,12 +1,12 @@
 /*
  * Copyright 2010 Google Inc.
- * 
+ *
  * Licensed under the Apache License, Version 2.0 (the "License"); you may not
  * use this file except in compliance with the License. You may obtain a copy of
  * the License at
- * 
+ *
  * http://www.apache.org/licenses/LICENSE-2.0
- * 
+ *
  * Unless required by applicable law or agreed to in writing, software
  * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
  * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
@@ -103,9 +103,8 @@ public class CurrencyDataProcessor extends Processor {
 
     // load the table of default # of decimal places and rounding for each currency
     defaultCurrencyFraction = 0;
-    XPathParts parts = new XPathParts();
     for (String path : supp.listPaths("//supplementalData/currencyData/fractions/info")) {
-      parts.set(supp.getFullXPath(path));
+      final XPathParts parts = XPathParts.getFrozenInstance(supp.getFullXPath(path));
       Map<String, String> attr = parts.findAttributes("info");
       if (attr == null) {
         continue;
@@ -126,7 +125,7 @@ public class CurrencyDataProcessor extends Processor {
     // find which currencies are still in use in some region, everything else
     // should be marked as deprecated
     for (String path : supp.listPaths("//supplementalData/currencyData/region")) {
-      parts.set(supp.getFullXPath(path));
+      final XPathParts parts = XPathParts.getFrozenInstance(supp.getFullXPath(path));
       Map<String, String> attr = parts.findAttributes("currency");
       if (attr == null) {
         continue;

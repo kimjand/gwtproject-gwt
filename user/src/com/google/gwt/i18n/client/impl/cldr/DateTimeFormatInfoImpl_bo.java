@@ -61,11 +61,6 @@ public class DateTimeFormatInfoImpl_bo extends DateTimeFormatInfoImpl {
   }
 
   @Override
-  public int firstDayOfTheWeek() {
-    return 0;
-  }
-
-  @Override
   public String formatMonthAbbrevDay() {
     return "MMMཚེས་d";
   }
@@ -185,26 +180,6 @@ public class DateTimeFormatInfoImpl_bo extends DateTimeFormatInfoImpl {
         "དུས་ཚིགས་གསུམ་པ།",
         "དུས་ཚིགས་བཞི་པ།"
     };
-  }
-
-  @Override
-  public String timeFormatFull() {
-    return "h:mm:ss a zzzz";
-  }
-
-  @Override
-  public String timeFormatLong() {
-    return "h:mm:ss a z";
-  }
-
-  @Override
-  public String timeFormatMedium() {
-    return "h:mm:ss a";
-  }
-
-  @Override
-  public String timeFormatShort() {
-    return "h:mm a";
   }
 
   @Override

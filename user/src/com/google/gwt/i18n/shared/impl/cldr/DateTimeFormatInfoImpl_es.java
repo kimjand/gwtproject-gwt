@@ -24,8 +24,8 @@ public class DateTimeFormatInfoImpl_es extends DateTimeFormatInfoImpl {
   @Override
   public String[] ampms() {
     return new String[] {
-        "a. m.",
-        "p. m."
+        "a. m.",
+        "p. m."
     };
   }
 
@@ -60,6 +60,16 @@ public class DateTimeFormatInfoImpl_es extends DateTimeFormatInfoImpl {
   }
 
   @Override
+  public String dateTimeMedium(String timePattern, String datePattern) {
+    return datePattern + ", " + timePattern;
+  }
+
+  @Override
+  public String dateTimeShort(String timePattern, String datePattern) {
+    return datePattern + ", " + timePattern;
+  }
+
+  @Override
   public String[] erasFull() {
     return new String[] {
         "antes de Cristo",
@@ -78,6 +88,16 @@ public class DateTimeFormatInfoImpl_es extends DateTimeFormatInfoImpl {
   @Override
   public int firstDayOfTheWeek() {
     return 0;
+  }
+
+  @Override
+  public String formatHour12Minute() {
+    return "h:mm a";
+  }
+
+  @Override
+  public String formatHour12MinuteSecond() {
+    return "h:mm:ss a";
   }
 
   @Override
@@ -194,18 +214,18 @@ public class DateTimeFormatInfoImpl_es extends DateTimeFormatInfoImpl {
   @Override
   public String[] monthsShort() {
     return new String[] {
-        "ene.",
-        "feb.",
-        "mar.",
-        "abr.",
-        "may.",
-        "jun.",
-        "jul.",
-        "ago.",
-        "sept.",
-        "oct.",
-        "nov.",
-        "dic."
+        "ene",
+        "feb",
+        "mar",
+        "abr",
+        "may",
+        "jun",
+        "jul",
+        "ago",
+        "sept",
+        "oct",
+        "nov",
+        "dic"
     };
   }
 
@@ -278,13 +298,13 @@ public class DateTimeFormatInfoImpl_es extends DateTimeFormatInfoImpl {
   @Override
   public String[] weekdaysShort() {
     return new String[] {
-        "dom.",
-        "lun.",
-        "mar.",
-        "mié.",
-        "jue.",
-        "vie.",
-        "sáb."
+        "dom",
+        "lun",
+        "mar",
+        "mié",
+        "jue",
+        "vie",
+        "sáb"
     };
   }
 }

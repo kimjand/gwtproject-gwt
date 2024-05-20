@@ -34,8 +34,7 @@ public class LocalizedNamesImpl_el extends LocalizedNamesImpl {
   @Override
   public String[] loadSortedRegionCodes() {
     return new String[] {
-        "XA",
-        "XB",
+        "CQ",
         "SH",
         "LC",
         "BL",
@@ -72,6 +71,7 @@ public class LocalizedNamesImpl_el extends LocalizedNamesImpl {
         "VN",
         "BO",
         "KP",
+        "MK",
         "BA",
         "BG",
         "BR",
@@ -105,6 +105,7 @@ public class LocalizedNamesImpl_el extends LocalizedNamesImpl {
         "SV",
         "ER",
         "EE",
+        "SZ",
         "EZ",
         "EU",
         "ZM",
@@ -133,6 +134,7 @@ public class LocalizedNamesImpl_el extends LocalizedNamesImpl {
         "CA",
         "IC",
         "QA",
+        "NL",
         "CF",
         "KE",
         "CN",
@@ -225,7 +227,6 @@ public class LocalizedNamesImpl_el extends LocalizedNamesImpl {
         "SS",
         "DG",
         "DM",
-        "NL",
         "BQ",
         "OM",
         "HN",
@@ -246,7 +247,6 @@ public class LocalizedNamesImpl_el extends LocalizedNamesImpl {
         "PT",
         "PR",
         "CV",
-        "MK",
         "RE",
         "RW",
         "RO",
@@ -265,7 +265,6 @@ public class LocalizedNamesImpl_el extends LocalizedNamesImpl {
         "SK",
         "SI",
         "SO",
-        "SZ",
         "SD",
         "SE",
         "SR",
@@ -296,6 +295,8 @@ public class LocalizedNamesImpl_el extends LocalizedNamesImpl {
         "FJ",
         "CL",
         "HK",
+        "XB",
+        "XA",
     };
   }
 
@@ -483,7 +484,7 @@ public class LocalizedNamesImpl_el extends LocalizedNamesImpl {
     namesMap.put("MF", "Άγιος Μαρτίνος (Γαλλικό τμήμα)");
     namesMap.put("MG", "Μαδαγασκάρη");
     namesMap.put("MH", "Νήσοι Μάρσαλ");
-    namesMap.put("MK", "Πρώην Γιουγκοσλαβική Δημοκρατία της Μακεδονίας");
+    namesMap.put("MK", "Βόρεια Μακεδονία");
     namesMap.put("ML", "Μάλι");
     namesMap.put("MM", "Μιανμάρ (Βιρμανία)");
     namesMap.put("MN", "Μογγολία");
@@ -505,7 +506,7 @@ public class LocalizedNamesImpl_el extends LocalizedNamesImpl {
     namesMap.put("NF", "Νήσος Νόρφολκ");
     namesMap.put("NG", "Νιγηρία");
     namesMap.put("NI", "Νικαράγουα");
-    namesMap.put("NL", "Ολλανδία");
+    namesMap.put("NL", "Κάτω Χώρες");
     namesMap.put("NO", "Νορβηγία");
     namesMap.put("NP", "Νεπάλ");
     namesMap.put("NR", "Ναουρού");
@@ -553,7 +554,7 @@ public class LocalizedNamesImpl_el extends LocalizedNamesImpl {
     namesMap.put("SV", "Ελ Σαλβαδόρ");
     namesMap.put("SX", "Άγιος Μαρτίνος (Ολλανδικό τμήμα)");
     namesMap.put("SY", "Συρία");
-    namesMap.put("SZ", "Σουαζιλάνδη");
+    namesMap.put("SZ", "Εσουατίνι");
     namesMap.put("TA", "Τριστάν ντα Κούνια");
     namesMap.put("TC", "Νήσοι Τερκς και Κάικος");
     namesMap.put("TD", "Τσαντ");
@@ -587,6 +588,8 @@ public class LocalizedNamesImpl_el extends LocalizedNamesImpl {
     namesMap.put("VU", "Βανουάτου");
     namesMap.put("WF", "Γουάλις και Φουτούνα");
     namesMap.put("WS", "Σαμόα");
+    namesMap.put("XA", "Ψευδο-προφορές");
+    namesMap.put("XB", "Ψευδο-αμφικατευθυντικό");
     namesMap.put("XK", "Κοσσυφοπέδιο");
     namesMap.put("YE", "Υεμένη");
     namesMap.put("YT", "Μαγιότ");
@@ -784,7 +787,7 @@ public class LocalizedNamesImpl_el extends LocalizedNamesImpl {
         "MF": "Άγιος Μαρτίνος (Γαλλικό τμήμα)",
         "MG": "Μαδαγασκάρη",
         "MH": "Νήσοι Μάρσαλ",
-        "MK": "Πρώην Γιουγκοσλαβική Δημοκρατία της Μακεδονίας",
+        "MK": "Βόρεια Μακεδονία",
         "ML": "Μάλι",
         "MM": "Μιανμάρ (Βιρμανία)",
         "MN": "Μογγολία",
@@ -806,7 +809,7 @@ public class LocalizedNamesImpl_el extends LocalizedNamesImpl {
         "NF": "Νήσος Νόρφολκ",
         "NG": "Νιγηρία",
         "NI": "Νικαράγουα",
-        "NL": "Ολλανδία",
+        "NL": "Κάτω Χώρες",
         "NO": "Νορβηγία",
         "NP": "Νεπάλ",
         "NR": "Ναουρού",
@@ -854,7 +857,7 @@ public class LocalizedNamesImpl_el extends LocalizedNamesImpl {
         "SV": "Ελ Σαλβαδόρ",
         "SX": "Άγιος Μαρτίνος (Ολλανδικό τμήμα)",
         "SY": "Συρία",
-        "SZ": "Σουαζιλάνδη",
+        "SZ": "Εσουατίνι",
         "TA": "Τριστάν ντα Κούνια",
         "TC": "Νήσοι Τερκς και Κάικος",
         "TD": "Τσαντ",
@@ -888,6 +891,8 @@ public class LocalizedNamesImpl_el extends LocalizedNamesImpl {
         "VU": "Βανουάτου",
         "WF": "Γουάλις και Φουτούνα",
         "WS": "Σαμόα",
+        "XA": "Ψευδο-προφορές",
+        "XB": "Ψευδο-αμφικατευθυντικό",
         "XK": "Κοσσυφοπέδιο",
         "YE": "Υεμένη",
         "YT": "Μαγιότ",

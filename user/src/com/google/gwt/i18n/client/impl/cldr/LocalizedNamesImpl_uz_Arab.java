@@ -77,6 +77,7 @@ public class LocalizedNamesImpl_uz_Arab extends LocalizedNamesImpl_uz {
         "CN",
         "CO",
         "CP",
+        "CQ",
         "CR",
         "CU",
         "CV",

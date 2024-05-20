@@ -24,31 +24,18 @@ public class DateTimeFormatInfoImpl_sr_Cyrl_XK extends DateTimeFormatInfoImpl_sr
   @Override
   public String[] monthsShort() {
     return new String[] {
-        "јан.",
-        "феб.",
+        "јан",
+        "феб",
         "март",
-        "апр.",
+        "апр",
         "мај",
         "јун",
         "јул",
-        "авг.",
-        "септ.",
-        "окт.",
-        "нов.",
-        "дец."
-    };
-  }
-
-  @Override
-  public String[] weekdaysShort() {
-    return new String[] {
-        "нед.",
-        "пон.",
-        "ут.",
-        "ср.",
-        "чет.",
-        "пет.",
-        "суб."
+        "авг",
+        "септ",
+        "окт",
+        "нов",
+        "дец"
     };
   }
 }

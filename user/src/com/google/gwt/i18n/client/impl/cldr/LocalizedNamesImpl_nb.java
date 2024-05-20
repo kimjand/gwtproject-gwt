@@ -53,6 +53,7 @@ public class LocalizedNamesImpl_nb extends LocalizedNamesImpl {
         "BH",
         "BD",
         "BB",
+        "BY",
         "BE",
         "BZ",
         "BJ",
@@ -84,6 +85,7 @@ public class LocalizedNamesImpl_nb extends LocalizedNamesImpl {
         "AE",
         "TF",
         "DO",
+        "EU",
         "CF",
         "IO",
         "PS",
@@ -97,8 +99,8 @@ public class LocalizedNamesImpl_nb extends LocalizedNamesImpl {
         "SV",
         "ER",
         "EE",
+        "SZ",
         "ET",
-        "EU",
         "EZ",
         "FK",
         "FJ",
@@ -128,7 +130,6 @@ public class LocalizedNamesImpl_nb extends LocalizedNamesImpl {
         "GR",
         "HN",
         "HK",
-        "BY",
         "IN",
         "ID",
         "IQ",
@@ -154,8 +155,8 @@ public class LocalizedNamesImpl_nb extends LocalizedNamesImpl {
         "KI",
         "CC",
         "KM",
-        "CG",
         "CD",
+        "CG",
         "XK",
         "HR",
         "KW",
@@ -171,7 +172,6 @@ public class LocalizedNamesImpl_nb extends LocalizedNamesImpl {
         "LU",
         "MO",
         "MG",
-        "MK",
         "MW",
         "MY",
         "MV",
@@ -203,6 +203,7 @@ public class LocalizedNamesImpl_nb extends LocalizedNamesImpl {
         "NG",
         "NU",
         "KP",
+        "MK",
         "MP",
         "NF",
         "NO",
@@ -217,6 +218,8 @@ public class LocalizedNamesImpl_nb extends LocalizedNamesImpl {
         "PN",
         "PL",
         "PT",
+        "XA",
+        "XB",
         "PR",
         "QA",
         "RE",
@@ -231,6 +234,7 @@ public class LocalizedNamesImpl_nb extends LocalizedNamesImpl {
         "WS",
         "SM",
         "ST",
+        "CQ",
         "SA",
         "SN",
         "RS",
@@ -252,7 +256,6 @@ public class LocalizedNamesImpl_nb extends LocalizedNamesImpl {
         "SJ",
         "CH",
         "SE",
-        "SZ",
         "SY",
         "ZA",
         "GS",
@@ -288,8 +291,6 @@ public class LocalizedNamesImpl_nb extends LocalizedNamesImpl {
         "EH",
         "VN",
         "WF",
-        "XA",
-        "XB",
         "QO",
         "ZM",
         "ZW",
@@ -343,9 +344,8 @@ public class LocalizedNamesImpl_nb extends LocalizedNamesImpl {
     namesMap.put("BQ", "Karibisk Nederland");
     namesMap.put("BR", "Brasil");
     namesMap.put("BV", "Bouvetøya");
-    namesMap.put("BY", "Hviterussland");
     namesMap.put("CC", "Kokosøyene");
-    namesMap.put("CD", "Kongo-Kinshasa");
+    namesMap.put("CD", "Kongo");
     namesMap.put("CF", "Den sentralafrikanske republikk");
     namesMap.put("CG", "Kongo-Brazzaville");
     namesMap.put("CH", "Sveits");
@@ -367,6 +367,7 @@ public class LocalizedNamesImpl_nb extends LocalizedNamesImpl {
     namesMap.put("EH", "Vest-Sahara");
     namesMap.put("ES", "Spania");
     namesMap.put("ET", "Etiopia");
+    namesMap.put("EU", "Den europeiske union");
     namesMap.put("EZ", "eurosonen");
     namesMap.put("FK", "Falklandsøyene");
     namesMap.put("FM", "Mikronesiaføderasjonen");
@@ -378,7 +379,7 @@ public class LocalizedNamesImpl_nb extends LocalizedNamesImpl {
     namesMap.put("GQ", "Ekvatorial-Guinea");
     namesMap.put("GR", "Hellas");
     namesMap.put("GS", "Sør-Georgia og Sør-Sandwichøyene");
-    namesMap.put("HK", "Hongkong S.A.R. Kina");
+    namesMap.put("HK", "Hongkong SAR Kina");
     namesMap.put("HM", "Heard- og McDonaldøyene");
     namesMap.put("HR", "Kroatia");
     namesMap.put("HU", "Ungarn");
@@ -404,8 +405,8 @@ public class LocalizedNamesImpl_nb extends LocalizedNamesImpl {
     namesMap.put("MF", "Saint-Martin");
     namesMap.put("MG", "Madagaskar");
     namesMap.put("MH", "Marshalløyene");
-    namesMap.put("MK", "Makedonia");
-    namesMap.put("MO", "Macao S.A.R. Kina");
+    namesMap.put("MK", "Nord-Makedonia");
+    namesMap.put("MO", "Macao SAR Kina");
     namesMap.put("MP", "Nord-Marianene");
     namesMap.put("MV", "Maldivene");
     namesMap.put("MZ", "Mosambik");
@@ -447,6 +448,8 @@ public class LocalizedNamesImpl_nb extends LocalizedNamesImpl {
     namesMap.put("VG", "De britiske jomfruøyene");
     namesMap.put("VI", "De amerikanske jomfruøyene");
     namesMap.put("WF", "Wallis og Futuna");
+    namesMap.put("XA", "pseudospråk – aksenter");
+    namesMap.put("XB", "pseudospråk – tekst begge veier");
     namesMap.put("YE", "Jemen");
     namesMap.put("ZA", "Sør-Afrika");
     namesMap.put("ZZ", "ukjent område");
@@ -500,9 +503,8 @@ public class LocalizedNamesImpl_nb extends LocalizedNamesImpl {
         "BQ": "Karibisk Nederland",
         "BR": "Brasil",
         "BV": "Bouvetøya",
-        "BY": "Hviterussland",
         "CC": "Kokosøyene",
-        "CD": "Kongo-Kinshasa",
+        "CD": "Kongo",
         "CF": "Den sentralafrikanske republikk",
         "CG": "Kongo-Brazzaville",
         "CH": "Sveits",
@@ -524,6 +526,7 @@ public class LocalizedNamesImpl_nb extends LocalizedNamesImpl {
         "EH": "Vest-Sahara",
         "ES": "Spania",
         "ET": "Etiopia",
+        "EU": "Den europeiske union",
         "EZ": "eurosonen",
         "FK": "Falklandsøyene",
         "FM": "Mikronesiaføderasjonen",
@@ -535,7 +538,7 @@ public class LocalizedNamesImpl_nb extends LocalizedNamesImpl {
         "GQ": "Ekvatorial-Guinea",
         "GR": "Hellas",
         "GS": "Sør-Georgia og Sør-Sandwichøyene",
-        "HK": "Hongkong S.A.R. Kina",
+        "HK": "Hongkong SAR Kina",
         "HM": "Heard- og McDonaldøyene",
         "HR": "Kroatia",
         "HU": "Ungarn",
@@ -561,8 +564,8 @@ public class LocalizedNamesImpl_nb extends LocalizedNamesImpl {
         "MF": "Saint-Martin",
         "MG": "Madagaskar",
         "MH": "Marshalløyene",
-        "MK": "Makedonia",
-        "MO": "Macao S.A.R. Kina",
+        "MK": "Nord-Makedonia",
+        "MO": "Macao SAR Kina",
         "MP": "Nord-Marianene",
         "MV": "Maldivene",
         "MZ": "Mosambik",
@@ -604,6 +607,8 @@ public class LocalizedNamesImpl_nb extends LocalizedNamesImpl {
         "VG": "De britiske jomfruøyene",
         "VI": "De amerikanske jomfruøyene",
         "WF": "Wallis og Futuna",
+        "XA": "pseudospråk – aksenter",
+        "XB": "pseudospråk – tekst begge veier",
         "YE": "Jemen",
         "ZA": "Sør-Afrika",
         "ZZ": "ukjent område"

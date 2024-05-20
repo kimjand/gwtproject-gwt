@@ -30,6 +30,14 @@ public class DateTimeFormatInfoImpl_es_419 extends DateTimeFormatInfoImpl_es {
   }
 
   @Override
+  public String[] erasShort() {
+    return new String[] {
+        "a.C.",
+        "d.C."
+    };
+  }
+
+  @Override
   public int firstDayOfTheWeek() {
     return 1;
   }
@@ -45,41 +53,8 @@ public class DateTimeFormatInfoImpl_es_419 extends DateTimeFormatInfoImpl_es {
   }
 
   @Override
-  public String formatYearMonthAbbrev() {
-    return "MMMM 'de' y";
-  }
-
-  @Override
-  public String formatYearMonthAbbrevDay() {
-    return "d 'de' MMMM 'de' y";
-  }
-
-  @Override
-  public String formatYearMonthWeekdayDay() {
-    return "EEE, d 'de' MMM 'de' y";
-  }
-
-  @Override
   public String formatYearQuarterShort() {
     return "Q 'de' y";
-  }
-
-  @Override
-  public String[] monthsShort() {
-    return new String[] {
-        "ene.",
-        "feb.",
-        "mar.",
-        "abr.",
-        "may.",
-        "jun.",
-        "jul.",
-        "ago.",
-        "sep.",
-        "oct.",
-        "nov.",
-        "dic."
-    };
   }
 
   @Override
@@ -94,39 +69,26 @@ public class DateTimeFormatInfoImpl_es_419 extends DateTimeFormatInfoImpl_es {
 
   @Override
   public String timeFormatFull() {
-    return "HH:mm:ss zzzz";
+    return "h:mm:ss a zzzz";
   }
 
   @Override
   public String timeFormatLong() {
-    return "HH:mm:ss z";
+    return "h:mm:ss a z";
   }
 
   @Override
   public String timeFormatMedium() {
-    return "HH:mm:ss";
+    return "h:mm:ss a";
   }
 
   @Override
   public String timeFormatShort() {
-    return "HH:mm";
+    return "h:mm a";
   }
 
   @Override
   public String[] weekdaysNarrow() {
-    return new String[] {
-        "d",
-        "l",
-        "m",
-        "m",
-        "j",
-        "v",
-        "s"
-    };
-  }
-
-  @Override
-  public String[] weekdaysNarrowStandalone() {
     return new String[] {
         "D",
         "L",

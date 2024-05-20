@@ -23,17 +23,17 @@ public class DateTimeFormatInfoImpl_tt extends DateTimeFormatInfoImpl {
 
   @Override
   public String dateFormatFull() {
-    return "d MMMM, y 'ел', EEEE";
+    return "d MMMM, y 'ел', EEEE";
   }
 
   @Override
   public String dateFormatLong() {
-    return "d MMMM, y 'ел'";
+    return "d MMMM, y 'ел'";
   }
 
   @Override
   public String dateFormatMedium() {
-    return "d MMM, y 'ел'";
+    return "d MMM, y 'ел'";
   }
 
   @Override
@@ -65,7 +65,7 @@ public class DateTimeFormatInfoImpl_tt extends DateTimeFormatInfoImpl {
   public String[] erasFull() {
     return new String[] {
         "безнең эрага кадәр",
-        "безнең эра"
+        "милади"
     };
   }
 
@@ -73,8 +73,18 @@ public class DateTimeFormatInfoImpl_tt extends DateTimeFormatInfoImpl {
   public String[] erasShort() {
     return new String[] {
         "б.э.к.",
-        "б.э."
+        "милади"
     };
+  }
+
+  @Override
+  public String formatHour12Minute() {
+    return "h:mm a";
+  }
+
+  @Override
+  public String formatHour12MinuteSecond() {
+    return "h:mm:ss a";
   }
 
   @Override
@@ -99,7 +109,7 @@ public class DateTimeFormatInfoImpl_tt extends DateTimeFormatInfoImpl {
 
   @Override
   public String formatMonthFullWeekdayDay() {
-    return "EEEE, d MMMM";
+    return "d MMMM, EEEE";
   }
 
   @Override
@@ -109,22 +119,22 @@ public class DateTimeFormatInfoImpl_tt extends DateTimeFormatInfoImpl {
 
   @Override
   public String formatYearMonthAbbrev() {
-    return "MMM, y 'ел'";
+    return "y 'ел', MMM";
   }
 
   @Override
   public String formatYearMonthAbbrevDay() {
-    return "d MMM, y 'ел'";
+    return "y 'ел', d MMM";
   }
 
   @Override
   public String formatYearMonthFull() {
-    return "MMMM, y 'ел'";
+    return "y 'ел', MMMM";
   }
 
   @Override
   public String formatYearMonthFullDay() {
-    return "d MMMM, y 'ел'";
+    return "d MMMM, y 'ел'";
   }
 
   @Override
@@ -139,17 +149,17 @@ public class DateTimeFormatInfoImpl_tt extends DateTimeFormatInfoImpl {
 
   @Override
   public String formatYearMonthWeekdayDay() {
-    return "EEE, d MMM, y 'ел'";
+    return "y 'ел', d MMM, EEE";
   }
 
   @Override
   public String formatYearQuarterFull() {
-    return "QQQQ, y 'ел'";
+    return "y 'ел', QQQQ";
   }
 
   @Override
   public String formatYearQuarterShort() {
-    return "Q, y 'ел'";
+    return "y 'ел', Q";
   }
 
   @Override

@@ -27,6 +27,16 @@ public class DateTimeFormatInfoImpl_so_KE extends DateTimeFormatInfoImpl_so {
   }
 
   @Override
+  public String formatHour12Minute() {
+    return "h:mm a";
+  }
+
+  @Override
+  public String formatHour12MinuteSecond() {
+    return "h:mm:ss a";
+  }
+
+  @Override
   public String timeFormatFull() {
     return "HH:mm:ss zzzz";
   }

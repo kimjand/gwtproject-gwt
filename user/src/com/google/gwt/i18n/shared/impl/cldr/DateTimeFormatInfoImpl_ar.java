@@ -50,6 +50,26 @@ public class DateTimeFormatInfoImpl_ar extends DateTimeFormatInfoImpl {
   }
 
   @Override
+  public String dateTimeFull(String timePattern, String datePattern) {
+    return datePattern + "، " + timePattern;
+  }
+
+  @Override
+  public String dateTimeLong(String timePattern, String datePattern) {
+    return datePattern + "، " + timePattern;
+  }
+
+  @Override
+  public String dateTimeMedium(String timePattern, String datePattern) {
+    return datePattern + "، " + timePattern;
+  }
+
+  @Override
+  public String dateTimeShort(String timePattern, String datePattern) {
+    return datePattern + "، " + timePattern;
+  }
+
+  @Override
   public String[] erasFull() {
     return new String[] {
         "قبل الميلاد",
@@ -87,7 +107,7 @@ public class DateTimeFormatInfoImpl_ar extends DateTimeFormatInfoImpl {
 
   @Override
   public String formatMonthNumDay() {
-    return "d/‏M";
+    return "d‏/M";
   }
 
   @Override

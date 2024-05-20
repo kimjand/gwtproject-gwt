@@ -50,21 +50,6 @@ public class DateTimeFormatInfoImpl_smn extends DateTimeFormatInfoImpl {
   }
 
   @Override
-  public String dateTimeFull(String timePattern, String datePattern) {
-    return datePattern + " 'tme' " + timePattern;
-  }
-
-  @Override
-  public String dateTimeLong(String timePattern, String datePattern) {
-    return datePattern + " 'tme' " + timePattern;
-  }
-
-  @Override
-  public String dateTimeMedium(String timePattern, String datePattern) {
-    return datePattern + " 'tme' " + timePattern;
-  }
-
-  @Override
   public String[] erasFull() {
     return new String[] {
         "Ovdil Kristus šoddâm",
@@ -82,12 +67,12 @@ public class DateTimeFormatInfoImpl_smn extends DateTimeFormatInfoImpl {
 
   @Override
   public String formatHour12Minute() {
-    return "h.mm a";
+    return "h.mm a";
   }
 
   @Override
   public String formatHour12MinuteSecond() {
-    return "h.mm.ss a";
+    return "h.mm.ss a";
   }
 
   @Override

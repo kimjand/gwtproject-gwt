@@ -61,6 +61,16 @@ public class DateTimeFormatInfoImpl_sv extends DateTimeFormatInfoImpl {
   }
 
   @Override
+  public String formatHour12Minute() {
+    return "h:mm a";
+  }
+
+  @Override
+  public String formatHour12MinuteSecond() {
+    return "h:mm:ss a";
+  }
+
+  @Override
   public String formatMonthAbbrevDay() {
     return "d MMM";
   }
@@ -98,11 +108,6 @@ public class DateTimeFormatInfoImpl_sv extends DateTimeFormatInfoImpl {
   @Override
   public String formatYearMonthFullDay() {
     return "d MMMM y";
-  }
-
-  @Override
-  public String formatYearMonthNumDay() {
-    return "y-MM-dd";
   }
 
   @Override
@@ -174,11 +179,6 @@ public class DateTimeFormatInfoImpl_sv extends DateTimeFormatInfoImpl {
         "K3",
         "K4"
     };
-  }
-
-  @Override
-  public String timeFormatFull() {
-    return "'kl'. HH:mm:ss zzzz";
   }
 
   @Override

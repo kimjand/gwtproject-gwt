@@ -28,9 +28,9 @@ public class LocalizedNamesImpl_az_Cyrl extends LocalizedNamesImpl_az {
   public String[] loadSortedRegionCodes() {
     return new String[] {
         "BQ",
+        "CQ",
         "EH",
         "EZ",
-        "CI",
         "MK",
         "PS",
         "UN",
@@ -142,6 +142,7 @@ public class LocalizedNamesImpl_az_Cyrl extends LocalizedNamesImpl_az {
         "CD",
         "XK",
         "CR",
+        "CI",
         "CU",
         "CK",
         "CW",
@@ -368,7 +369,7 @@ public class LocalizedNamesImpl_az_Cyrl extends LocalizedNamesImpl_az {
     namesMap.put("CF", "Мәркәзи Африка Республикасы");
     namesMap.put("CG", "Конго-Браззавил");
     namesMap.put("CH", "Исвечрә");
-    namesMap.put("CI", "Kотд’ивуар");
+    namesMap.put("CI", "Котд’ивуар");
     namesMap.put("CK", "Кук адалары");
     namesMap.put("CL", "Чили");
     namesMap.put("CM", "Камерун");
@@ -662,7 +663,7 @@ public class LocalizedNamesImpl_az_Cyrl extends LocalizedNamesImpl_az {
         "CF": "Мәркәзи Африка Республикасы",
         "CG": "Конго-Браззавил",
         "CH": "Исвечрә",
-        "CI": "Kотд’ивуар",
+        "CI": "Котд’ивуар",
         "CK": "Кук адалары",
         "CL": "Чили",
         "CM": "Камерун",

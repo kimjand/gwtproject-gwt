@@ -116,6 +116,11 @@ public class DateTimeFormatInfoImpl_dz extends DateTimeFormatInfoImpl {
   }
 
   @Override
+  public String formatYearMonthNumDay() {
+    return "y-M-d";
+  }
+
+  @Override
   public String formatYearMonthWeekdayDay() {
     return "གཟའ་EEE, ལོy ཟླ་MMM ཚེ་d";
   }

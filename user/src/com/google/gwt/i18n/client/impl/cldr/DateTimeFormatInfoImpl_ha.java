@@ -22,8 +22,16 @@ package com.google.gwt.i18n.client.impl.cldr;
 public class DateTimeFormatInfoImpl_ha extends DateTimeFormatInfoImpl {
 
   @Override
+  public String[] ampms() {
+    return new String[] {
+        "SF",
+        "YM"
+    };
+  }
+
+  @Override
   public String dateFormatFull() {
-    return "EEEE, d MMMM, y";
+    return "EEEE d MMMM, y";
   }
 
   @Override
@@ -42,6 +50,21 @@ public class DateTimeFormatInfoImpl_ha extends DateTimeFormatInfoImpl {
   }
 
   @Override
+  public String dateTimeLong(String timePattern, String datePattern) {
+    return datePattern + ", " + timePattern;
+  }
+
+  @Override
+  public String dateTimeMedium(String timePattern, String datePattern) {
+    return datePattern + ", " + timePattern;
+  }
+
+  @Override
+  public String dateTimeShort(String timePattern, String datePattern) {
+    return datePattern + ", " + timePattern;
+  }
+
+  @Override
   public String[] erasFull() {
     return new String[] {
         "Kafin haihuwar annab",
@@ -52,9 +75,19 @@ public class DateTimeFormatInfoImpl_ha extends DateTimeFormatInfoImpl {
   @Override
   public String[] erasShort() {
     return new String[] {
-        "KHAI",
+        "K.H",
         "BHAI"
     };
+  }
+
+  @Override
+  public String formatHour12Minute() {
+    return "h:mm a";
+  }
+
+  @Override
+  public String formatHour12MinuteSecond() {
+    return "h:mm:ss a";
   }
 
   @Override
@@ -90,11 +123,6 @@ public class DateTimeFormatInfoImpl_ha extends DateTimeFormatInfoImpl {
   @Override
   public String formatYearMonthNum() {
     return "M/y";
-  }
-
-  @Override
-  public String formatYearMonthNumDay() {
-    return "y-MM-dd";
   }
 
   @Override

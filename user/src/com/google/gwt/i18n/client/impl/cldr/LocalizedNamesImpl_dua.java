@@ -78,6 +78,7 @@ public class LocalizedNamesImpl_dua extends LocalizedNamesImpl {
         "CN",
         "CO",
         "CP",
+        "CQ",
         "CR",
         "CU",
         "CV",

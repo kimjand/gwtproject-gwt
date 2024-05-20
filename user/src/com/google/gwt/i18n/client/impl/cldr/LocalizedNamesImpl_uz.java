@@ -80,6 +80,7 @@ public class LocalizedNamesImpl_uz extends LocalizedNamesImpl {
         "ME",
         "CZ",
         "CL",
+        "CQ",
         "DK",
         "DG",
         "DM",
@@ -168,7 +169,6 @@ public class LocalizedNamesImpl_uz extends LocalizedNamesImpl {
         "LU",
         "MG",
         "MO",
-        "MK",
         "MW",
         "MY",
         "MV",
@@ -215,6 +215,8 @@ public class LocalizedNamesImpl_uz extends LocalizedNamesImpl {
         "PL",
         "PT",
         "PR",
+        "XB",
+        "XA",
         "QA",
         "KG",
         "KZ",
@@ -240,6 +242,7 @@ public class LocalizedNamesImpl_uz extends LocalizedNamesImpl {
         "EA",
         "SC",
         "KP",
+        "MK",
         "MP",
         "SJ",
         "LK",
@@ -282,8 +285,6 @@ public class LocalizedNamesImpl_uz extends LocalizedNamesImpl {
         "VE",
         "HU",
         "VN",
-        "XA",
-        "XB",
         "HM",
         "CN",
         "HR",
@@ -398,7 +399,7 @@ public class LocalizedNamesImpl_uz extends LocalizedNamesImpl {
     namesMap.put("ES", "Ispaniya");
     namesMap.put("ET", "Efiopiya");
     namesMap.put("EU", "Yevropa Ittifoqi");
-    namesMap.put("EZ", "yevrozona");
+    namesMap.put("EZ", "Yevrozona");
     namesMap.put("FI", "Finlandiya");
     namesMap.put("FK", "Folklend orollari");
     namesMap.put("FM", "Mikroneziya");
@@ -466,7 +467,7 @@ public class LocalizedNamesImpl_uz extends LocalizedNamesImpl {
     namesMap.put("MF", "Sent-Martin");
     namesMap.put("MG", "Madagaskar");
     namesMap.put("MH", "Marshall orollari");
-    namesMap.put("MK", "Makedoniya");
+    namesMap.put("MK", "Shimoliy Makedoniya");
     namesMap.put("MM", "Myanma (Birma)");
     namesMap.put("MN", "Mongoliya");
     namesMap.put("MO", "Makao (Xitoy MMH)");
@@ -548,6 +549,8 @@ public class LocalizedNamesImpl_uz extends LocalizedNamesImpl {
     namesMap.put("VI", "AQSH Virgin orollari");
     namesMap.put("VN", "Vyetnam");
     namesMap.put("WF", "Uollis va Futuna");
+    namesMap.put("XA", "Qalbaki urg‘u");
+    namesMap.put("XB", "Qalbaki Bidi");
     namesMap.put("YE", "Yaman");
     namesMap.put("YT", "Mayotta");
     namesMap.put("ZA", "Janubiy Afrika Respublikasi");
@@ -659,7 +662,7 @@ public class LocalizedNamesImpl_uz extends LocalizedNamesImpl {
         "ES": "Ispaniya",
         "ET": "Efiopiya",
         "EU": "Yevropa Ittifoqi",
-        "EZ": "yevrozona",
+        "EZ": "Yevrozona",
         "FI": "Finlandiya",
         "FK": "Folklend orollari",
         "FM": "Mikroneziya",
@@ -727,7 +730,7 @@ public class LocalizedNamesImpl_uz extends LocalizedNamesImpl {
         "MF": "Sent-Martin",
         "MG": "Madagaskar",
         "MH": "Marshall orollari",
-        "MK": "Makedoniya",
+        "MK": "Shimoliy Makedoniya",
         "MM": "Myanma (Birma)",
         "MN": "Mongoliya",
         "MO": "Makao (Xitoy MMH)",
@@ -809,6 +812,8 @@ public class LocalizedNamesImpl_uz extends LocalizedNamesImpl {
         "VI": "AQSH Virgin orollari",
         "VN": "Vyetnam",
         "WF": "Uollis va Futuna",
+        "XA": "Qalbaki urg‘u",
+        "XB": "Qalbaki Bidi",
         "YE": "Yaman",
         "YT": "Mayotta",
         "ZA": "Janubiy Afrika Respublikasi",

@@ -28,6 +28,7 @@ public class LocalizedNamesImpl_zh extends LocalizedNamesImpl {
   public String[] loadLikelyRegionCodes() {
     return new String[] {
         "CN",
+        "MY",
         "SG",
     };
   }
@@ -35,8 +36,7 @@ public class LocalizedNamesImpl_zh extends LocalizedNamesImpl {
   @Override
   public String[] loadSortedRegionCodes() {
     return new String[] {
-        "XA",
-        "XB",
+        "CQ",
         "AL",
         "DZ",
         "AF",
@@ -70,6 +70,7 @@ public class LocalizedNamesImpl_zh extends LocalizedNamesImpl {
         "BM",
         "BG",
         "MP",
+        "MK",
         "BJ",
         "BE",
         "IS",
@@ -173,7 +174,6 @@ public class LocalizedNamesImpl_zh extends LocalizedNamesImpl {
         "MW",
         "MY",
         "ML",
-        "MK",
         "MH",
         "MQ",
         "YT",
@@ -257,6 +257,8 @@ public class LocalizedNamesImpl_zh extends LocalizedNamesImpl {
         "VU",
         "GT",
         "VE",
+        "XA",
+        "XB",
         "BN",
         "UG",
         "UA",
@@ -484,7 +486,7 @@ public class LocalizedNamesImpl_zh extends LocalizedNamesImpl {
     namesMap.put("MF", "法属圣马丁");
     namesMap.put("MG", "马达加斯加");
     namesMap.put("MH", "马绍尔群岛");
-    namesMap.put("MK", "马其顿");
+    namesMap.put("MK", "北马其顿");
     namesMap.put("ML", "马里");
     namesMap.put("MM", "缅甸");
     namesMap.put("MN", "蒙古");
@@ -588,6 +590,8 @@ public class LocalizedNamesImpl_zh extends LocalizedNamesImpl {
     namesMap.put("VU", "瓦努阿图");
     namesMap.put("WF", "瓦利斯和富图纳");
     namesMap.put("WS", "萨摩亚");
+    namesMap.put("XA", "伪地区");
+    namesMap.put("XB", "伪双向语言地区");
     namesMap.put("XK", "科索沃");
     namesMap.put("YE", "也门");
     namesMap.put("YT", "马约特");
@@ -785,7 +789,7 @@ public class LocalizedNamesImpl_zh extends LocalizedNamesImpl {
         "MF": "法属圣马丁",
         "MG": "马达加斯加",
         "MH": "马绍尔群岛",
-        "MK": "马其顿",
+        "MK": "北马其顿",
         "ML": "马里",
         "MM": "缅甸",
         "MN": "蒙古",
@@ -889,6 +893,8 @@ public class LocalizedNamesImpl_zh extends LocalizedNamesImpl {
         "VU": "瓦努阿图",
         "WF": "瓦利斯和富图纳",
         "WS": "萨摩亚",
+        "XA": "伪地区",
+        "XB": "伪双向语言地区",
         "XK": "科索沃",
         "YE": "也门",
         "YT": "马约特",

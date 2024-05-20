@@ -34,8 +34,8 @@ public class LocalizedNamesImpl_th extends LocalizedNamesImpl {
   @Override
   public String[] loadSortedRegionCodes() {
     return new String[] {
-        "XA",
         "XB",
+        "CQ",
         "GR",
         "GL",
         "GU",
@@ -232,7 +232,6 @@ public class LocalizedNamesImpl_th extends LocalizedNamesImpl {
         "SJ",
         "SK",
         "SI",
-        "SZ",
         "CH",
         "SE",
         "UN",
@@ -242,6 +241,7 @@ public class LocalizedNamesImpl_th extends LocalizedNamesImpl {
         "GB",
         "DO",
         "CF",
+        "XA",
         "SG",
         "IC",
         "CK",
@@ -282,6 +282,7 @@ public class LocalizedNamesImpl_th extends LocalizedNamesImpl {
         "ER",
         "SV",
         "EE",
+        "SZ",
         "QO",
         "AI",
         "AO",
@@ -367,7 +368,7 @@ public class LocalizedNamesImpl_th extends LocalizedNamesImpl {
     namesMap.put("BR", "บราซิล");
     namesMap.put("BS", "บาฮามาส");
     namesMap.put("BT", "ภูฏาน");
-    namesMap.put("BV", "เกาะบูเวต");
+    namesMap.put("BV", "เกาะบูเว");
     namesMap.put("BW", "บอตสวานา");
     namesMap.put("BY", "เบลารุส");
     namesMap.put("BZ", "เบลีซ");
@@ -483,9 +484,9 @@ public class LocalizedNamesImpl_th extends LocalizedNamesImpl {
     namesMap.put("MF", "เซนต์มาร์ติน");
     namesMap.put("MG", "มาดากัสการ์");
     namesMap.put("MH", "หมู่เกาะมาร์แชลล์");
-    namesMap.put("MK", "มาซิโดเนีย");
+    namesMap.put("MK", "มาซิโดเนียเหนือ");
     namesMap.put("ML", "มาลี");
-    namesMap.put("MM", "เมียนมาร์ (พม่า)");
+    namesMap.put("MM", "เมียนมา (พม่า)");
     namesMap.put("MN", "มองโกเลีย");
     namesMap.put("MO", "เขตปกครองพิเศษมาเก๊าแห่งสาธารณรัฐประชาชนจีน");
     namesMap.put("MP", "หมู่เกาะนอร์เทิร์นมาเรียนา");
@@ -553,7 +554,7 @@ public class LocalizedNamesImpl_th extends LocalizedNamesImpl {
     namesMap.put("SV", "เอลซัลวาดอร์");
     namesMap.put("SX", "ซินต์มาร์เทน");
     namesMap.put("SY", "ซีเรีย");
-    namesMap.put("SZ", "สวาซิแลนด์");
+    namesMap.put("SZ", "เอสวาตีนี");
     namesMap.put("TA", "ทริสตันดาคูนา");
     namesMap.put("TC", "หมู่เกาะเติกส์และหมู่เกาะเคคอส");
     namesMap.put("TD", "ชาด");
@@ -587,6 +588,8 @@ public class LocalizedNamesImpl_th extends LocalizedNamesImpl {
     namesMap.put("VU", "วานูอาตู");
     namesMap.put("WF", "วาลลิสและฟุตูนา");
     namesMap.put("WS", "ซามัว");
+    namesMap.put("XA", "สำเนียงไม่จริง");
+    namesMap.put("XB", "Bidi ไม่จริง");
     namesMap.put("XK", "โคโซโว");
     namesMap.put("YE", "เยเมน");
     namesMap.put("YT", "มายอต");
@@ -668,7 +671,7 @@ public class LocalizedNamesImpl_th extends LocalizedNamesImpl {
         "BR": "บราซิล",
         "BS": "บาฮามาส",
         "BT": "ภูฏาน",
-        "BV": "เกาะบูเวต",
+        "BV": "เกาะบูเว",
         "BW": "บอตสวานา",
         "BY": "เบลารุส",
         "BZ": "เบลีซ",
@@ -784,9 +787,9 @@ public class LocalizedNamesImpl_th extends LocalizedNamesImpl {
         "MF": "เซนต์มาร์ติน",
         "MG": "มาดากัสการ์",
         "MH": "หมู่เกาะมาร์แชลล์",
-        "MK": "มาซิโดเนีย",
+        "MK": "มาซิโดเนียเหนือ",
         "ML": "มาลี",
-        "MM": "เมียนมาร์ (พม่า)",
+        "MM": "เมียนมา (พม่า)",
         "MN": "มองโกเลีย",
         "MO": "เขตปกครองพิเศษมาเก๊าแห่งสาธารณรัฐประชาชนจีน",
         "MP": "หมู่เกาะนอร์เทิร์นมาเรียนา",
@@ -854,7 +857,7 @@ public class LocalizedNamesImpl_th extends LocalizedNamesImpl {
         "SV": "เอลซัลวาดอร์",
         "SX": "ซินต์มาร์เทน",
         "SY": "ซีเรีย",
-        "SZ": "สวาซิแลนด์",
+        "SZ": "เอสวาตีนี",
         "TA": "ทริสตันดาคูนา",
         "TC": "หมู่เกาะเติกส์และหมู่เกาะเคคอส",
         "TD": "ชาด",
@@ -888,6 +891,8 @@ public class LocalizedNamesImpl_th extends LocalizedNamesImpl {
         "VU": "วานูอาตู",
         "WF": "วาลลิสและฟุตูนา",
         "WS": "ซามัว",
+        "XA": "สำเนียงไม่จริง",
+        "XB": "Bidi ไม่จริง",
         "XK": "โคโซโว",
         "YE": "เยเมน",
         "YT": "มายอต",

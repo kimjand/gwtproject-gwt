@@ -46,16 +46,6 @@ public class DateTimeFormatInfoImpl_ii extends DateTimeFormatInfoImpl {
   }
 
   @Override
-  public int firstDayOfTheWeek() {
-    return 0;
-  }
-
-  @Override
-  public String formatYearMonthNumDay() {
-    return "y-MM-dd";
-  }
-
-  @Override
   public String[] monthsFull() {
     return new String[] {
         "ꋍꆪ",
@@ -127,26 +117,6 @@ public class DateTimeFormatInfoImpl_ii extends DateTimeFormatInfoImpl {
         "ꃅꍵ",
         "ꃅꋆ"
     };
-  }
-
-  @Override
-  public String timeFormatFull() {
-    return "h:mm:ss a zzzz";
-  }
-
-  @Override
-  public String timeFormatLong() {
-    return "h:mm:ss a z";
-  }
-
-  @Override
-  public String timeFormatMedium() {
-    return "h:mm:ss a";
-  }
-
-  @Override
-  public String timeFormatShort() {
-    return "h:mm a";
   }
 
   @Override

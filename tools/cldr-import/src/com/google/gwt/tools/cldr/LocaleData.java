@@ -1,12 +1,12 @@
 /*
  * Copyright 2010 Google Inc.
- * 
+ *
  * Licensed under the Apache License, Version 2.0 (the "License"); you may not
  * use this file except in compliance with the License. You may obtain a copy of
  * the License at
- * 
+ *
  * http://www.apache.org/licenses/LICENSE-2.0
- * 
+ *
  * Unless required by applicable law or agreed to in writing, software
  * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
  * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
@@ -267,7 +267,7 @@ public class LocaleData {
 
   /**
    * Return the CLDR locale name for a GWT locale.
-   * 
+   *
    * @param locale
    * @return CLDR locale name for GWT locale
    */
@@ -277,7 +277,7 @@ public class LocaleData {
 
   /**
    * Get the value of a given category of territory data inherited by a locale.
-   * 
+   *
    * @param locale the locale to search for
    * @param map the map containing territory=>value data
    * @return the requested value from the closest ancestor of the specified
@@ -314,7 +314,7 @@ public class LocaleData {
 
   /**
    * Construct a LocaleData object.
-   * 
+   *
    * @param localeFactory
    * @param localeNames
    */
@@ -334,7 +334,7 @@ public class LocaleData {
 
   /**
    * Add a single entry from an attribute on a CLDR node.
-   * 
+   *
    * @param category
    * @param locale
    * @param cldrFactory
@@ -347,12 +347,12 @@ public class LocaleData {
       String path, String tag, String key, String attribute, String defaultValue) {
     Map<String, String> map = getMap(category, locale);
     InputFile cldr = cldrFactory.load(allLocales.get(locale));
-    XPathParts parts = new XPathParts();
+    final XPathParts parts;
     String fullPath = cldr.getFullXPath(path);
 
     Map<String, String> attr = null;
     if (fullPath != null) {
-      parts.set(fullPath);
+      parts = XPathParts.getFrozenInstance(fullPath);
       attr = parts.findAttributes(tag);
     }
 
@@ -370,7 +370,7 @@ public class LocaleData {
 
   /**
    * Add currency entries for all locales.
-   * 
+   *
    * @param currencyFractions map of currency fraction data extracted from
    *          locale-independent data
    */
@@ -411,13 +411,12 @@ public class LocaleData {
       String tag, String keyAttribute) {
     Map<String, String> map = getMap(category, locale);
     InputFile cldr = cldrFactory.load(allLocales.get(locale));
-    XPathParts parts = new XPathParts();
     for (String path : cldr.listPaths(prefix)) {
       String fullXPath = cldr.getFullXPath(path);
       if (fullXPath == null) {
         fullXPath = path;
       }
-      parts.set(fullXPath);
+      final XPathParts parts = XPathParts.getFrozenInstance(fullXPath);
       if (parts.containsAttribute("alt")) {
         // ignore alternate strings
         continue;
@@ -469,7 +468,7 @@ public class LocaleData {
 
   /**
    * Add entries from territory-oriented CLDR data.
-   * 
+   *
    * @param category category to store resulting data under
    * @param cldrFactory
    * @param regionLanguageData
@@ -481,9 +480,8 @@ public class LocaleData {
       RegionLanguageData regionLanguageData, String prefix, String tag, String keyAttribute) {
     InputFile supp = cldrFactory.getSupplementalData();
     Map<String, String> map = new HashMap<String, String>();
-    XPathParts parts = new XPathParts();
     for (String path : supp.listPaths(prefix)) {
-      parts.set(supp.getFullXPath(path));
+      final XPathParts parts = XPathParts.getFrozenInstance(supp.getFullXPath(path));
       Map<String, String> attr = parts.findAttributes(tag);
       if (attr == null || attr.get("alt") != null) {
         continue;
@@ -509,20 +507,17 @@ public class LocaleData {
     for (GwtLocale locale : allLocales.keySet()) {
       Map<String, String> map = getMap("version", locale);
       InputFile file = inputFactory.load(allLocales.get(locale));
-      XPathParts parts = new XPathParts();
       for (String path : file.listPaths("//ldml/identity")) {
         String fullXPath = file.getFullXPath(path);
         if (fullXPath == null) {
           fullXPath = path;
         }
-        parts.set(fullXPath);
+        final XPathParts parts = XPathParts.getFrozenInstance(fullXPath);
         Map<String, String> attr = parts.getAttributes(2);
         if (attr == null) {
           continue;
         }
-        for (Map.Entry<String, String> entry : attr.entrySet()) {
-          map.put(entry.getKey(), entry.getValue());
-        }
+        map.putAll(attr);
       }
     }
   }
@@ -530,7 +525,7 @@ public class LocaleData {
   /**
    * Add a redirect entry for each locale where all entries in the standalone
    * category match those in the base category.
-   * 
+   *
    * @param baseCategory
    * @param standaloneCategory
    */
@@ -549,7 +544,7 @@ public class LocaleData {
 
   /**
    * Copy data from one locale to another.
-   * 
+   *
    * @param srcLocaleName source locale name
    * @param destLocaleName destination locale name
    * @param categories list of categories to copy
@@ -588,7 +583,7 @@ public class LocaleData {
 
   /**
    * Return all entries in a given category and locale.
-   * 
+   *
    * @param category
    * @param locale
    * @return map of keys to localized values
@@ -620,7 +615,7 @@ public class LocaleData {
 
   /**
    * Return a single value.
-   * 
+   *
    * @param category
    * @param locale
    * @param key
@@ -646,7 +641,7 @@ public class LocaleData {
 
   /**
    * Return a single value, following locale inheritance.
-   * 
+   *
    * @param category
    * @param locale
    * @param key
@@ -679,7 +674,7 @@ public class LocaleData {
   }
 
   /**
-   * @param category 
+   * @param category
    * @return all locales that have some data associated with them in the
    *         specified category.
    */
@@ -698,7 +693,7 @@ public class LocaleData {
   /**
    * Return the nearest ancestor locale of the supplied locale which has any
    * values present.
-   * 
+   *
    * @param locale
    * @return GwtLocale of nearest ancestor
    */
@@ -723,7 +718,7 @@ public class LocaleData {
   /**
    * Return the nearest ancestor locale of the supplied locale which has any
    * values present in the specified category.
-   * 
+   *
    * @param category
    * @param locale
    * @return GwtLocale of nearest ancestor with the specified category
@@ -749,7 +744,7 @@ public class LocaleData {
 
   /**
    * Remove locale entries that completely duplicate their parent.
-   * 
+   *
    * @param matchCategory
    */
   public void removeCompleteDuplicates(String matchCategory) {
@@ -792,7 +787,7 @@ public class LocaleData {
 
   /**
    * Remove entries that are duplicates of the entries in the parent locale.
-   * 
+   *
    * @param matchCategory
    */
   public void removeDuplicates(String matchCategory) {
@@ -827,7 +822,7 @@ public class LocaleData {
   /**
    * Remove entries in the specified category and locale which match any of the
    * supplied keys.
-   * 
+   *
    * @param category
    * @param locale
    * @param keys
@@ -839,7 +834,7 @@ public class LocaleData {
 
   /**
    * Remove a single entry, if present.
-   * 
+   *
    * @param category
    * @param locale
    * @param key
@@ -859,7 +854,7 @@ public class LocaleData {
   /**
    * Summarize values known by territories to bare languages, based on
    * populations using a particular value.
-   * 
+   *
    * @param category
    * @param key
    * @param values map of region codes to values
@@ -924,7 +919,7 @@ public class LocaleData {
    * default locale, also add default entries into the default locale to make
    * sure it has entries for any currency present in any locale. Note that this
    * means that the default locale must be processed last.
-   * 
+   *
    * @param currencyFractions map of currency fraction data extracted from
    *          locale-independent data
    */
@@ -938,13 +933,12 @@ public class LocaleData {
     }
     Map<String, Currency> tempMap = new HashMap<String, Currency>();
     InputFile file = inputFactory.load(allLocales.get(locale));
-    XPathParts parts = new XPathParts();
     for (String path : file.listPaths("//ldml/numbers/currencies")) {
       String fullPath = file.getFullXPath(path);
       if (fullPath == null) {
         fullPath = path;
       }
-      parts.set(fullPath);
+      final XPathParts parts = XPathParts.getFrozenInstance(fullPath);
       Map<String, String> attr = parts.findAttributes("currency");
       if (attr == null) {
         continue;
@@ -1054,7 +1048,7 @@ public class LocaleData {
 
   /**
    * Encode the currency data as needed by CurrencyListGenerator.
-   * 
+   *
    * @param currency
    * @return a string containing the property file entry for the specified
    *         currency
@@ -1096,20 +1090,15 @@ public class LocaleData {
 
   /**
    * Get a map for a given class/locale combination.
-   * 
+   *
    * @param category
    * @param locale
-   * 
+   *
    * @return map for the specified class/locale
    */
   private Map<String, String> getMap(String category, GwtLocale locale) {
     MapKey mapKey = new MapKey(category, locale);
-    Map<String, String> map = maps.get(mapKey);
-    if (map == null) {
-      map = new HashMap<String, String>();
-      maps.put(mapKey, map);
-    }
-    return map;
+    return maps.computeIfAbsent(mapKey, k -> new HashMap<>());
   }
 
   /**

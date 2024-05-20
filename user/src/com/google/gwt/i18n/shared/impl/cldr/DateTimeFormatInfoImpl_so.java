@@ -24,19 +24,19 @@ public class DateTimeFormatInfoImpl_so extends DateTimeFormatInfoImpl {
   @Override
   public String[] ampms() {
     return new String[] {
-        "sn.",
-        "gn."
+        "GH",
+        "GD"
     };
   }
 
   @Override
   public String dateFormatFull() {
-    return "EEEE, MMMM dd, y";
+    return "EEEE, MMMM d, y";
   }
 
   @Override
   public String dateFormatLong() {
-    return "dd MMMM y";
+    return "MMMM d, y";
   }
 
   @Override
@@ -52,17 +52,19 @@ public class DateTimeFormatInfoImpl_so extends DateTimeFormatInfoImpl {
   @Override
   public String[] erasFull() {
     return new String[] {
-        "CK",
-        "CD"
+        "Ciise Hortii",
+        "Ciise Dabadii"
     };
   }
 
   @Override
-  public String[] erasShort() {
-    return new String[] {
-        "CK",
-        "CD"
-    };
+  public String formatHour12Minute() {
+    return "h:mm a";
+  }
+
+  @Override
+  public String formatHour12MinuteSecond() {
+    return "h:mm:ss a";
   }
 
   @Override
@@ -81,13 +83,18 @@ public class DateTimeFormatInfoImpl_so extends DateTimeFormatInfoImpl {
   }
 
   @Override
+  public String formatYearMonthAbbrevDay() {
+    return "MMM d, y";
+  }
+
+  @Override
   public String formatYearMonthFull() {
     return "MMMM y";
   }
 
   @Override
   public String formatYearMonthFullDay() {
-    return "d MMMM y";
+    return "MMMM d, y";
   }
 
   @Override
@@ -97,7 +104,7 @@ public class DateTimeFormatInfoImpl_so extends DateTimeFormatInfoImpl {
 
   @Override
   public String formatYearMonthNumDay() {
-    return "y-MM-dd";
+    return "M/d/y";
   }
 
   @Override
@@ -143,34 +150,16 @@ public class DateTimeFormatInfoImpl_so extends DateTimeFormatInfoImpl {
         "May",
         "Juun",
         "Luuliyo",
-        "Ogost",
-        "Sebtembar",
+        "Ogosto",
+        "Sebteembar",
         "Oktoobar",
-        "Nofembar",
-        "Desembar"
+        "Noofeembar",
+        "Diseembar"
     };
   }
 
   @Override
   public String[] monthsNarrow() {
-    return new String[] {
-        "K",
-        "L",
-        "S",
-        "A",
-        "S",
-        "L",
-        "T",
-        "S",
-        "S",
-        "T",
-        "K",
-        "L"
-    };
-  }
-
-  @Override
-  public String[] monthsNarrowStandalone() {
     return new String[] {
         "J",
         "F",
@@ -190,36 +179,18 @@ public class DateTimeFormatInfoImpl_so extends DateTimeFormatInfoImpl {
   @Override
   public String[] monthsShort() {
     return new String[] {
-        "Kob",
-        "Lab",
-        "Sad",
-        "Afr",
-        "May",
-        "Juun",
-        "Luuliyo",
-        "Og",
-        "Sebtembar",
-        "Oktoobar",
-        "Nofembar",
-        "Dec"
-    };
-  }
-
-  @Override
-  public String[] monthsShortStandalone() {
-    return new String[] {
         "Jan",
         "Feb",
         "Mar",
         "Abr",
         "May",
-        "Juun",
-        "Luuliyo",
-        "Og",
+        "Jun",
+        "Lul",
+        "Ogs",
         "Seb",
         "Okt",
         "Nof",
-        "Des"
+        "Dis"
     };
   }
 
@@ -245,22 +216,22 @@ public class DateTimeFormatInfoImpl_so extends DateTimeFormatInfoImpl {
 
   @Override
   public String timeFormatFull() {
-    return "h:mm:ss a zzzz";
+    return "h:mm:ss a zzzz";
   }
 
   @Override
   public String timeFormatLong() {
-    return "h:mm:ss a z";
+    return "h:mm:ss a z";
   }
 
   @Override
   public String timeFormatMedium() {
-    return "h:mm:ss a";
+    return "h:mm:ss a";
   }
 
   @Override
   public String timeFormatShort() {
-    return "h:mm a";
+    return "h:mm a";
   }
 
   @Override
@@ -294,11 +265,11 @@ public class DateTimeFormatInfoImpl_so extends DateTimeFormatInfoImpl {
     return new String[] {
         "Axd",
         "Isn",
-        "Tal",
-        "Arb",
-        "Kha",
-        "Jim",
-        "Sab"
+        "Tldo",
+        "Arbc",
+        "Khms",
+        "Jmc",
+        "Sbti"
     };
   }
 }

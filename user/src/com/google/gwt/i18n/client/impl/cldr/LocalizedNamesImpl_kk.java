@@ -34,10 +34,7 @@ public class LocalizedNamesImpl_kk extends LocalizedNamesImpl {
   @Override
   public String[] loadSortedRegionCodes() {
     return new String[] {
-        "XA",
-        "XB",
-        "AU",
-        "AT",
+        "CQ",
         "AX",
         "AL",
         "DZ",
@@ -51,6 +48,8 @@ public class LocalizedNamesImpl_kk extends LocalizedNamesImpl {
         "AR",
         "AM",
         "AW",
+        "AU",
+        "AT",
         "AF",
         "VI",
         "UM",
@@ -161,7 +160,6 @@ public class LocalizedNamesImpl_kk extends LocalizedNamesImpl {
         "MG",
         "YT",
         "MO",
-        "MK",
         "MW",
         "MY",
         "ML",
@@ -217,7 +215,6 @@ public class LocalizedNamesImpl_kk extends LocalizedNamesImpl {
         "SM",
         "ST",
         "SA",
-        "SZ",
         "SC",
         "BL",
         "MF",
@@ -235,6 +232,7 @@ public class LocalizedNamesImpl_kk extends LocalizedNamesImpl {
         "SI",
         "SB",
         "KP",
+        "MK",
         "MP",
         "SO",
         "SD",
@@ -242,8 +240,8 @@ public class LocalizedNamesImpl_kk extends LocalizedNamesImpl {
         "QO",
         "SL",
         "HK",
-        "TW",
         "TH",
+        "TW",
         "TZ",
         "TC",
         "TL",
@@ -283,9 +281,12 @@ public class LocalizedNamesImpl_kk extends LocalizedNamesImpl {
         "EC",
         "GQ",
         "ER",
+        "SZ",
         "EE",
         "ET",
         "JM",
+        "XB",
+        "XA",
         "KZ",
         "KG",
         "CN",
@@ -302,7 +303,7 @@ public class LocalizedNamesImpl_kk extends LocalizedNamesImpl {
   @Override
   protected void loadNameMapJava() {
     super.loadNameMapJava();
-    namesMap.put("001", "Әлем");
+    namesMap.put("001", "әлем");
     namesMap.put("002", "Африка");
     namesMap.put("003", "Солтүстік Америка");
     namesMap.put("005", "Оңтүстік Америка");
@@ -312,7 +313,7 @@ public class LocalizedNamesImpl_kk extends LocalizedNamesImpl {
     namesMap.put("014", "Шығыс Африка");
     namesMap.put("015", "Солтүстік Африка");
     namesMap.put("017", "Орталық Африка");
-    namesMap.put("018", "Оңтүстік Африка");
+    namesMap.put("018", "Оңтүстік Африка аймағы");
     namesMap.put("019", "Америка");
     namesMap.put("021", "Солтүстік Америка (аймақ)");
     namesMap.put("029", "Кариб");
@@ -320,7 +321,7 @@ public class LocalizedNamesImpl_kk extends LocalizedNamesImpl {
     namesMap.put("034", "Оңтүстік Азия");
     namesMap.put("035", "Оңтүстік-Шығыс Азия");
     namesMap.put("039", "Оңтүстік Еуропа");
-    namesMap.put("053", "Австралазия");
+    namesMap.put("053", "Аустралазия");
     namesMap.put("054", "Меланезия");
     namesMap.put("057", "Микронезия аймағы");
     namesMap.put("061", "Полинезия");
@@ -345,8 +346,8 @@ public class LocalizedNamesImpl_kk extends LocalizedNamesImpl {
     namesMap.put("AQ", "Антарктида");
     namesMap.put("AR", "Аргентина");
     namesMap.put("AS", "Америкалық Самоа");
-    namesMap.put("AT", "Австрия");
-    namesMap.put("AU", "Австралия");
+    namesMap.put("AT", "Аустрия");
+    namesMap.put("AU", "Аустралия");
     namesMap.put("AW", "Аруба");
     namesMap.put("AX", "Аланд аралдары");
     namesMap.put("AZ", "Әзірбайжан");
@@ -483,7 +484,7 @@ public class LocalizedNamesImpl_kk extends LocalizedNamesImpl {
     namesMap.put("MF", "Сен-Мартен");
     namesMap.put("MG", "Мадагаскар");
     namesMap.put("MH", "Маршалл аралдары");
-    namesMap.put("MK", "Македония");
+    namesMap.put("MK", "Солтүстік Македония");
     namesMap.put("ML", "Мали");
     namesMap.put("MM", "Мьянма (Бирма)");
     namesMap.put("MN", "Моңғолия");
@@ -553,13 +554,13 @@ public class LocalizedNamesImpl_kk extends LocalizedNamesImpl {
     namesMap.put("SV", "Сальвадор");
     namesMap.put("SX", "Синт-Мартен");
     namesMap.put("SY", "Сирия");
-    namesMap.put("SZ", "Свазиленд");
+    namesMap.put("SZ", "Эсватини");
     namesMap.put("TA", "Тристан-да-Кунья");
     namesMap.put("TC", "Теркс және Кайкос аралдары");
     namesMap.put("TD", "Чад");
     namesMap.put("TF", "Францияның оңтүстік аймақтары");
     namesMap.put("TG", "Того");
-    namesMap.put("TH", "Тайланд");
+    namesMap.put("TH", "Таиланд");
     namesMap.put("TJ", "Тәжікстан");
     namesMap.put("TK", "Токелау");
     namesMap.put("TL", "Тимор-Лесте");
@@ -587,10 +588,12 @@ public class LocalizedNamesImpl_kk extends LocalizedNamesImpl {
     namesMap.put("VU", "Вануату");
     namesMap.put("WF", "Уоллис және Футуна");
     namesMap.put("WS", "Самоа");
+    namesMap.put("XA", "жалған акцент");
+    namesMap.put("XB", "жалған Bidi");
     namesMap.put("XK", "Косово");
     namesMap.put("YE", "Йемен");
     namesMap.put("YT", "Майотта");
-    namesMap.put("ZA", "Оңтүстік Африка Республикасы");
+    namesMap.put("ZA", "Оңтүстік Африка");
     namesMap.put("ZM", "Замбия");
     namesMap.put("ZW", "Зимбабве");
     namesMap.put("ZZ", "Белгісіз аймақ");
@@ -603,7 +606,7 @@ public class LocalizedNamesImpl_kk extends LocalizedNamesImpl {
 
   private native JavaScriptObject loadMyNameMap() /*-{
     return {
-        "001": "Әлем",
+        "001": "әлем",
         "002": "Африка",
         "003": "Солтүстік Америка",
         "005": "Оңтүстік Америка",
@@ -613,7 +616,7 @@ public class LocalizedNamesImpl_kk extends LocalizedNamesImpl {
         "014": "Шығыс Африка",
         "015": "Солтүстік Африка",
         "017": "Орталық Африка",
-        "018": "Оңтүстік Африка",
+        "018": "Оңтүстік Африка аймағы",
         "019": "Америка",
         "021": "Солтүстік Америка (аймақ)",
         "029": "Кариб",
@@ -621,7 +624,7 @@ public class LocalizedNamesImpl_kk extends LocalizedNamesImpl {
         "034": "Оңтүстік Азия",
         "035": "Оңтүстік-Шығыс Азия",
         "039": "Оңтүстік Еуропа",
-        "053": "Австралазия",
+        "053": "Аустралазия",
         "054": "Меланезия",
         "057": "Микронезия аймағы",
         "061": "Полинезия",
@@ -646,8 +649,8 @@ public class LocalizedNamesImpl_kk extends LocalizedNamesImpl {
         "AQ": "Антарктида",
         "AR": "Аргентина",
         "AS": "Америкалық Самоа",
-        "AT": "Австрия",
-        "AU": "Австралия",
+        "AT": "Аустрия",
+        "AU": "Аустралия",
         "AW": "Аруба",
         "AX": "Аланд аралдары",
         "AZ": "Әзірбайжан",
@@ -784,7 +787,7 @@ public class LocalizedNamesImpl_kk extends LocalizedNamesImpl {
         "MF": "Сен-Мартен",
         "MG": "Мадагаскар",
         "MH": "Маршалл аралдары",
-        "MK": "Македония",
+        "MK": "Солтүстік Македония",
         "ML": "Мали",
         "MM": "Мьянма (Бирма)",
         "MN": "Моңғолия",
@@ -854,13 +857,13 @@ public class LocalizedNamesImpl_kk extends LocalizedNamesImpl {
         "SV": "Сальвадор",
         "SX": "Синт-Мартен",
         "SY": "Сирия",
-        "SZ": "Свазиленд",
+        "SZ": "Эсватини",
         "TA": "Тристан-да-Кунья",
         "TC": "Теркс және Кайкос аралдары",
         "TD": "Чад",
         "TF": "Францияның оңтүстік аймақтары",
         "TG": "Того",
-        "TH": "Тайланд",
+        "TH": "Таиланд",
         "TJ": "Тәжікстан",
         "TK": "Токелау",
         "TL": "Тимор-Лесте",
@@ -888,10 +891,12 @@ public class LocalizedNamesImpl_kk extends LocalizedNamesImpl {
         "VU": "Вануату",
         "WF": "Уоллис және Футуна",
         "WS": "Самоа",
+        "XA": "жалған акцент",
+        "XB": "жалған Bidi",
         "XK": "Косово",
         "YE": "Йемен",
         "YT": "Майотта",
-        "ZA": "Оңтүстік Африка Республикасы",
+        "ZA": "Оңтүстік Африка",
         "ZM": "Замбия",
         "ZW": "Зимбабве",
         "ZZ": "Белгісіз аймақ"

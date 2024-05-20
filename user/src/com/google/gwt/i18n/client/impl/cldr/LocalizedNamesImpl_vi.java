@@ -55,6 +55,7 @@ public class LocalizedNamesImpl_vi extends LocalizedNamesImpl {
         "PL",
         "BD",
         "BB",
+        "MK",
         "BY",
         "BZ",
         "BJ",
@@ -88,6 +89,7 @@ public class LocalizedNamesImpl_vi extends LocalizedNamesImpl {
         "DO",
         "CF",
         "CI",
+        "CQ",
         "HR",
         "CU",
         "CW",
@@ -102,20 +104,23 @@ public class LocalizedNamesImpl_vi extends LocalizedNamesImpl {
         "CX",
         "IM",
         "NF",
+        "HK",
+        "MO",
         "DE",
         "EC",
         "SV",
         "ER",
         "EE",
+        "SZ",
         "ET",
         "FJ",
         "GA",
         "GM",
+        "GE",
         "GH",
         "GI",
         "GL",
         "GD",
-        "GE",
         "GP",
         "GU",
         "GT",
@@ -130,7 +135,6 @@ public class LocalizedNamesImpl_vi extends LocalizedNamesImpl {
         "KR",
         "US",
         "HN",
-        "HK",
         "HU",
         "GR",
         "IS",
@@ -164,8 +168,6 @@ public class LocalizedNamesImpl_vi extends LocalizedNamesImpl {
         "EU",
         "LT",
         "LU",
-        "MO",
-        "MK",
         "MG",
         "MW",
         "MY",
@@ -213,6 +215,8 @@ public class LocalizedNamesImpl_vi extends LocalizedNamesImpl {
         "FI",
         "PH",
         "PF",
+        "XA",
+        "XB",
         "PR",
         "QA",
         "AX",
@@ -259,7 +263,6 @@ public class LocalizedNamesImpl_vi extends LocalizedNamesImpl {
         "SD",
         "SR",
         "SJ",
-        "SZ",
         "SY",
         "TJ",
         "TZ",
@@ -291,8 +294,6 @@ public class LocalizedNamesImpl_vi extends LocalizedNamesImpl {
         "QO",
         "GB",
         "WF",
-        "XA",
-        "XB",
         "YE",
         "ZM",
         "ZW",
@@ -320,8 +321,7 @@ public class LocalizedNamesImpl_vi extends LocalizedNamesImpl {
     namesMap.put("034", "Nam Á");
     namesMap.put("035", "Đông Nam Á");
     namesMap.put("039", "Nam Âu");
-    namesMap.put("053", "Úc và New Zealand");
-    namesMap.put("057", "Vùng Micronesian");
+    namesMap.put("057", "Vùng Micronesia");
     namesMap.put("142", "Châu Á");
     namesMap.put("143", "Trung Á");
     namesMap.put("145", "Tây Á");
@@ -365,12 +365,11 @@ public class LocalizedNamesImpl_vi extends LocalizedNamesImpl {
     namesMap.put("FO", "Quần đảo Faroe");
     namesMap.put("FR", "Pháp");
     namesMap.put("GB", "Vương quốc Anh");
-    namesMap.put("GE", "Gruzia");
     namesMap.put("GF", "Guiana thuộc Pháp");
     namesMap.put("GQ", "Guinea Xích Đạo");
     namesMap.put("GR", "Hy Lạp");
     namesMap.put("GS", "Nam Georgia & Quần đảo Nam Sandwich");
-    namesMap.put("HK", "Hồng Kông, Trung Quốc");
+    namesMap.put("HK", "Đặc khu Hành chính Hồng Kông, Trung Quốc");
     namesMap.put("HM", "Quần đảo Heard và McDonald");
     namesMap.put("IC", "Quần đảo Canary");
     namesMap.put("IM", "Đảo Man");
@@ -387,9 +386,10 @@ public class LocalizedNamesImpl_vi extends LocalizedNamesImpl {
     namesMap.put("LT", "Litva");
     namesMap.put("MA", "Ma-rốc");
     namesMap.put("MH", "Quần đảo Marshall");
+    namesMap.put("MK", "Bắc Macedonia");
     namesMap.put("MM", "Myanmar (Miến Điện)");
     namesMap.put("MN", "Mông Cổ");
-    namesMap.put("MO", "Macao, Trung Quốc");
+    namesMap.put("MO", "Đặc khu Hành chính Macao, Trung Quốc");
     namesMap.put("MP", "Quần đảo Bắc Mariana");
     namesMap.put("NF", "Đảo Norfolk");
     namesMap.put("NL", "Hà Lan");
@@ -421,7 +421,7 @@ public class LocalizedNamesImpl_vi extends LocalizedNamesImpl {
     namesMap.put("VA", "Thành Vatican");
     namesMap.put("VC", "St. Vincent và Grenadines");
     namesMap.put("VG", "Quần đảo Virgin thuộc Anh");
-    namesMap.put("VI", "Quần đảo Virgin thuộc Mỹ");
+    namesMap.put("VI", "Quần đảo Virgin thuộc Hoa Kỳ");
     namesMap.put("VN", "Việt Nam");
     namesMap.put("WF", "Wallis và Futuna");
     namesMap.put("ZA", "Nam Phi");
@@ -453,8 +453,7 @@ public class LocalizedNamesImpl_vi extends LocalizedNamesImpl {
         "034": "Nam Á",
         "035": "Đông Nam Á",
         "039": "Nam Âu",
-        "053": "Úc và New Zealand",
-        "057": "Vùng Micronesian",
+        "057": "Vùng Micronesia",
         "142": "Châu Á",
         "143": "Trung Á",
         "145": "Tây Á",
@@ -498,12 +497,11 @@ public class LocalizedNamesImpl_vi extends LocalizedNamesImpl {
         "FO": "Quần đảo Faroe",
         "FR": "Pháp",
         "GB": "Vương quốc Anh",
-        "GE": "Gruzia",
         "GF": "Guiana thuộc Pháp",
         "GQ": "Guinea Xích Đạo",
         "GR": "Hy Lạp",
         "GS": "Nam Georgia & Quần đảo Nam Sandwich",
-        "HK": "Hồng Kông, Trung Quốc",
+        "HK": "Đặc khu Hành chính Hồng Kông, Trung Quốc",
         "HM": "Quần đảo Heard và McDonald",
         "IC": "Quần đảo Canary",
         "IM": "Đảo Man",
@@ -520,9 +518,10 @@ public class LocalizedNamesImpl_vi extends LocalizedNamesImpl {
         "LT": "Litva",
         "MA": "Ma-rốc",
         "MH": "Quần đảo Marshall",
+        "MK": "Bắc Macedonia",
         "MM": "Myanmar (Miến Điện)",
         "MN": "Mông Cổ",
-        "MO": "Macao, Trung Quốc",
+        "MO": "Đặc khu Hành chính Macao, Trung Quốc",
         "MP": "Quần đảo Bắc Mariana",
         "NF": "Đảo Norfolk",
         "NL": "Hà Lan",
@@ -554,7 +553,7 @@ public class LocalizedNamesImpl_vi extends LocalizedNamesImpl {
         "VA": "Thành Vatican",
         "VC": "St. Vincent và Grenadines",
         "VG": "Quần đảo Virgin thuộc Anh",
-        "VI": "Quần đảo Virgin thuộc Mỹ",
+        "VI": "Quần đảo Virgin thuộc Hoa Kỳ",
         "VN": "Việt Nam",
         "WF": "Wallis và Futuna",
         "ZA": "Nam Phi",

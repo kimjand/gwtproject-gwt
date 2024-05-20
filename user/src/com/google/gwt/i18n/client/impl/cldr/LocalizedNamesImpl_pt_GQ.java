@@ -84,6 +84,7 @@ public class LocalizedNamesImpl_pt_GQ extends LocalizedNamesImpl_pt {
         "KR",
         "CR",
         "CI",
+        "CQ",
         "HR",
         "CU",
         "CW",
@@ -97,6 +98,7 @@ public class LocalizedNamesImpl_pt_GQ extends LocalizedNamesImpl_pt {
         "SK",
         "SI",
         "ES",
+        "SZ",
         "US",
         "EE",
         "ET",
@@ -136,10 +138,10 @@ public class LocalizedNamesImpl_pt_GQ extends LocalizedNamesImpl_pt {
         "IC",
         "CK",
         "CC",
+        "FK",
         "FO",
         "GS",
         "HM",
-        "FK",
         "MP",
         "MH",
         "UM",
@@ -219,6 +221,8 @@ public class LocalizedNamesImpl_pt_GQ extends LocalizedNamesImpl_pt {
         "PL",
         "PR",
         "PT",
+        "XA",
+        "XB",
         "KE",
         "KG",
         "KI",
@@ -251,7 +255,6 @@ public class LocalizedNamesImpl_pt_GQ extends LocalizedNamesImpl_pt {
         "SY",
         "SO",
         "LK",
-        "SZ",
         "SD",
         "SS",
         "SE",
@@ -284,8 +287,6 @@ public class LocalizedNamesImpl_pt_GQ extends LocalizedNamesImpl_pt {
         "VE",
         "VN",
         "WF",
-        "XA",
-        "XB",
         "ZM",
         "ZW",
         "EZ",
@@ -322,8 +323,7 @@ public class LocalizedNamesImpl_pt_GQ extends LocalizedNamesImpl_pt {
     namesMap.put("EE", "Estónia");
     namesMap.put("EH", "Sara Ocidental");
     namesMap.put("EZ", "Zona Euro");
-    namesMap.put("FK", "Ilhas Malvinas (Falkland)");
-    namesMap.put("FO", "Ilhas Faroé");
+    namesMap.put("FK", "Ilhas Falkland");
     namesMap.put("GG", "Guernesey");
     namesMap.put("GL", "Gronelândia");
     namesMap.put("GU", "Guame");
@@ -337,10 +337,9 @@ public class LocalizedNamesImpl_pt_GQ extends LocalizedNamesImpl_pt {
     namesMap.put("LK", "Sri Lanca");
     namesMap.put("LV", "Letónia");
     namesMap.put("MC", "Mónaco");
-    namesMap.put("MD", "Moldávia");
+    namesMap.put("MF", "São Martinho (Saint-Martin)");
     namesMap.put("MG", "Madagáscar");
-    namesMap.put("MK", "Macedónia");
-    namesMap.put("MO", "Macau, RAE da China");
+    namesMap.put("MK", "Macedónia do Norte");
     namesMap.put("MS", "Monserrate");
     namesMap.put("MU", "Maurícia");
     namesMap.put("MW", "Maláui");
@@ -354,6 +353,7 @@ public class LocalizedNamesImpl_pt_GQ extends LocalizedNamesImpl_pt {
     namesMap.put("SM", "São Marinho");
     namesMap.put("SV", "Salvador");
     namesMap.put("SX", "São Martinho (Sint Maarten)");
+    namesMap.put("TF", "Territórios Austrais Franceses");
     namesMap.put("TJ", "Tajiquistão");
     namesMap.put("TK", "Toquelau");
     namesMap.put("TM", "Turquemenistão");
@@ -362,6 +362,7 @@ public class LocalizedNamesImpl_pt_GQ extends LocalizedNamesImpl_pt {
     namesMap.put("UZ", "Usbequistão");
     namesMap.put("VI", "Ilhas Virgens dos EUA");
     namesMap.put("VN", "Vietname");
+    namesMap.put("XA", "Pseudoacentos");
     namesMap.put("YE", "Iémen");
     namesMap.put("YT", "Maiote");
     namesMap.put("ZW", "Zimbabué");
@@ -401,8 +402,7 @@ public class LocalizedNamesImpl_pt_GQ extends LocalizedNamesImpl_pt {
         "EE": "Estónia",
         "EH": "Sara Ocidental",
         "EZ": "Zona Euro",
-        "FK": "Ilhas Malvinas (Falkland)",
-        "FO": "Ilhas Faroé",
+        "FK": "Ilhas Falkland",
         "GG": "Guernesey",
         "GL": "Gronelândia",
         "GU": "Guame",
@@ -416,10 +416,9 @@ public class LocalizedNamesImpl_pt_GQ extends LocalizedNamesImpl_pt {
         "LK": "Sri Lanca",
         "LV": "Letónia",
         "MC": "Mónaco",
-        "MD": "Moldávia",
+        "MF": "São Martinho (Saint-Martin)",
         "MG": "Madagáscar",
-        "MK": "Macedónia",
-        "MO": "Macau, RAE da China",
+        "MK": "Macedónia do Norte",
         "MS": "Monserrate",
         "MU": "Maurícia",
         "MW": "Maláui",
@@ -433,6 +432,7 @@ public class LocalizedNamesImpl_pt_GQ extends LocalizedNamesImpl_pt {
         "SM": "São Marinho",
         "SV": "Salvador",
         "SX": "São Martinho (Sint Maarten)",
+        "TF": "Territórios Austrais Franceses",
         "TJ": "Tajiquistão",
         "TK": "Toquelau",
         "TM": "Turquemenistão",
@@ -441,6 +441,7 @@ public class LocalizedNamesImpl_pt_GQ extends LocalizedNamesImpl_pt {
         "UZ": "Usbequistão",
         "VI": "Ilhas Virgens dos EUA",
         "VN": "Vietname",
+        "XA": "Pseudoacentos",
         "YE": "Iémen",
         "YT": "Maiote",
         "ZW": "Zimbabué"

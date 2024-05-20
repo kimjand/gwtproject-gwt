@@ -58,6 +58,16 @@ public class DateTimeFormatInfoImpl_sw extends DateTimeFormatInfoImpl {
   }
 
   @Override
+  public String formatHour12Minute() {
+    return "h:mm a";
+  }
+
+  @Override
+  public String formatHour12MinuteSecond() {
+    return "h:mm:ss a";
+  }
+
+  @Override
   public String formatMonthAbbrevDay() {
     return "d MMM";
   }
@@ -109,7 +119,7 @@ public class DateTimeFormatInfoImpl_sw extends DateTimeFormatInfoImpl {
 
   @Override
   public String formatYearMonthWeekdayDay() {
-    return "EEE, MMM d, y";
+    return "EEE, d MMM y";
   }
 
   @Override

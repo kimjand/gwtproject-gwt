@@ -123,8 +123,8 @@ public class DateTimeFormatInfoImpl_am extends DateTimeFormatInfoImpl {
   @Override
   public String[] monthsFull() {
     return new String[] {
-        "ጃንዩወሪ",
-        "ፌብሩወሪ",
+        "ጃንዋሪ",
+        "ፌብሩዋሪ",
         "ማርች",
         "ኤፕሪል",
         "ሜይ",
@@ -159,8 +159,8 @@ public class DateTimeFormatInfoImpl_am extends DateTimeFormatInfoImpl {
   @Override
   public String[] monthsShort() {
     return new String[] {
-        "ጃንዩ",
-        "ፌብሩ",
+        "ጃን",
+        "ፌብ",
         "ማርች",
         "ኤፕሪ",
         "ሜይ",

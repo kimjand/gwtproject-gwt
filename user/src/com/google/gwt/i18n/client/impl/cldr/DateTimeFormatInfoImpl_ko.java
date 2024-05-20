@@ -23,12 +23,12 @@ public class DateTimeFormatInfoImpl_ko extends DateTimeFormatInfoImpl {
 
   @Override
   public String dateFormatFull() {
-    return "y년 M월 d일 EEEE";
+    return "y년 MMMM d일 EEEE";
   }
 
   @Override
   public String dateFormatLong() {
-    return "y년 M월 d일";
+    return "y년 MMMM d일";
   }
 
   @Override

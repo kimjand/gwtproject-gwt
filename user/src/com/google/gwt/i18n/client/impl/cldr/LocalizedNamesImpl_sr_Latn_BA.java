@@ -67,6 +67,7 @@ public class LocalizedNamesImpl_sr_Latn_BA extends LocalizedNamesImpl_sr_Latn {
         "CF",
         "CZ",
         "CL",
+        "CQ",
         "ME",
         "DK",
         "DG",
@@ -100,15 +101,16 @@ public class LocalizedNamesImpl_sr_Latn_BA extends LocalizedNamesImpl_sr_Latn {
         "GD",
         "GL",
         "GE",
-        "GU",
         "GP",
         "GY",
+        "GU",
         "GT",
         "GN",
         "GW",
         "HT",
         "NL",
         "HN",
+        "HK",
         "HR",
         "IN",
         "ID",
@@ -127,7 +129,6 @@ public class LocalizedNamesImpl_sr_Latn_BA extends LocalizedNamesImpl_sr_Latn {
         "KR",
         "SS",
         "ZA",
-        "CV",
         "KY",
         "KH",
         "CM",
@@ -163,13 +164,11 @@ public class LocalizedNamesImpl_sr_Latn_BA extends LocalizedNamesImpl_sr_Latn {
         "LU",
         "MG",
         "YT",
-        "MK",
         "MW",
         "MV",
         "MY",
         "ML",
         "MT",
-        "UM",
         "MA",
         "MH",
         "MQ",
@@ -177,8 +176,8 @@ public class LocalizedNamesImpl_sr_Latn_BA extends LocalizedNamesImpl_sr_Latn {
         "MR",
         "HU",
         "MX",
-        "MM",
         "FM",
+        "MM",
         "MD",
         "MC",
         "MN",
@@ -189,8 +188,8 @@ public class LocalizedNamesImpl_sr_Latn_BA extends LocalizedNamesImpl_sr_Latn {
         "NP",
         "NE",
         "NG",
-        "NI",
         "NU",
+        "NI",
         "DE",
         "NO",
         "NC",
@@ -217,6 +216,8 @@ public class LocalizedNamesImpl_sr_Latn_BA extends LocalizedNamesImpl_sr_Latn {
         "PL",
         "PR",
         "PT",
+        "XA",
+        "XB",
         "RE",
         "RW",
         "RO",
@@ -225,23 +226,27 @@ public class LocalizedNamesImpl_sr_Latn_BA extends LocalizedNamesImpl_sr_Latn {
         "WS",
         "SM",
         "ST",
-        "HK",
         "MO",
         "SA",
         "SC",
+        "BL",
         "SN",
+        "PM",
+        "KN",
         "EA",
-        "KP",
-        "MP",
         "SL",
         "SG",
         "SY",
         "US",
+        "KP",
+        "MK",
+        "MP",
         "SK",
         "SI",
         "SB",
         "SO",
         "ES",
+        "UM",
         "RS",
         "LK",
         "SD",
@@ -252,11 +257,8 @@ public class LocalizedNamesImpl_sr_Latn_BA extends LocalizedNamesImpl_sr_Latn {
         "SE",
         "SH",
         "LC",
-        "BL",
-        "KN",
         "MF",
         "SX",
-        "PM",
         "VC",
         "TJ",
         "TH",
@@ -284,10 +286,9 @@ public class LocalizedNamesImpl_sr_Latn_BA extends LocalizedNamesImpl_sr_Latn {
         "VA",
         "VE",
         "VN",
-        "XA",
-        "XB",
         "ZM",
         "EH",
+        "CV",
         "ZW",
     };
   }
@@ -295,19 +296,43 @@ public class LocalizedNamesImpl_sr_Latn_BA extends LocalizedNamesImpl_sr_Latn {
   @Override
   protected void loadNameMapJava() {
     super.loadNameMapJava();
+    namesMap.put("001", "svijet");
+    namesMap.put("003", "Sjevernoamerički kontinent");
+    namesMap.put("015", "Sjeverna Afrika");
+    namesMap.put("019", "Sjeverna i Južna Amerika");
+    namesMap.put("021", "Sjeverna Amerika");
+    namesMap.put("154", "Sjeverna Evropa");
+    namesMap.put("AC", "ostrvo Asension");
+    namesMap.put("AX", "Olandska ostrva");
+    namesMap.put("BL", "Sen Bartelemi");
+    namesMap.put("BN", "Bruneji");
+    namesMap.put("BV", "ostrvo Buve");
     namesMap.put("BY", "Bjelorusija");
-    namesMap.put("CG", "Kongo");
-    namesMap.put("CV", "Kabo Verde");
+    namesMap.put("CC", "Kokosova (Kiling) ostrva");
+    namesMap.put("CP", "ostrvo Kliperton");
     namesMap.put("CZ", "Češka Republika");
     namesMap.put("DE", "Njemačka");
-    namesMap.put("KN", "Sveti Kits i Nevis");
-    namesMap.put("MO", "SAR Makao");
-    namesMap.put("PM", "Sveti Pjer i Mikelon");
+    namesMap.put("FK", "Foklandska ostrva");
+    namesMap.put("FO", "Farska ostrva");
+    namesMap.put("GS", "Južna Džordžija i Južna Sendvička ostrva");
+    namesMap.put("GU", "Gvam");
+    namesMap.put("GW", "Gvineja Bisao");
+    namesMap.put("HK", "Hongkong (SAO Kine)");
+    namesMap.put("HM", "ostrvo Herd i ostrva Makdonald");
+    namesMap.put("KM", "Komori");
+    namesMap.put("KP", "Sjeverna Koreja");
+    namesMap.put("MK", "Sjeverna Makedonija");
+    namesMap.put("MM", "Mjanmar (Burma)");
+    namesMap.put("MP", "Sjeverna Marijanska ostrva");
+    namesMap.put("NF", "ostrvo Norfok");
+    namesMap.put("NU", "Nijue");
+    namesMap.put("PS", "palestinske teritorije");
     namesMap.put("RE", "Reunion");
-    namesMap.put("UM", "Manja udaljena ostrva SAD");
+    namesMap.put("TF", "Francuske južne teritorije");
+    namesMap.put("UM", "Spoljna ostrva SAD");
     namesMap.put("VC", "Sveti Vinsent i Grenadini");
-    namesMap.put("VG", "Britanska Djevičanska Ostrva");
-    namesMap.put("VI", "Američka Djevičanska Ostrva");
+    namesMap.put("VG", "Britanska Djevičanska ostrva");
+    namesMap.put("VI", "Američka Djevičanska ostrva");
   }
 
   @Override
@@ -317,19 +342,43 @@ public class LocalizedNamesImpl_sr_Latn_BA extends LocalizedNamesImpl_sr_Latn {
 
   private native JavaScriptObject loadMyNameMap() /*-{
     return {
+        "001": "svijet",
+        "003": "Sjevernoamerički kontinent",
+        "015": "Sjeverna Afrika",
+        "019": "Sjeverna i Južna Amerika",
+        "021": "Sjeverna Amerika",
+        "154": "Sjeverna Evropa",
+        "AC": "ostrvo Asension",
+        "AX": "Olandska ostrva",
+        "BL": "Sen Bartelemi",
+        "BN": "Bruneji",
+        "BV": "ostrvo Buve",
         "BY": "Bjelorusija",
-        "CG": "Kongo",
-        "CV": "Kabo Verde",
+        "CC": "Kokosova (Kiling) ostrva",
+        "CP": "ostrvo Kliperton",
         "CZ": "Češka Republika",
         "DE": "Njemačka",
-        "KN": "Sveti Kits i Nevis",
-        "MO": "SAR Makao",
-        "PM": "Sveti Pjer i Mikelon",
+        "FK": "Foklandska ostrva",
+        "FO": "Farska ostrva",
+        "GS": "Južna Džordžija i Južna Sendvička ostrva",
+        "GU": "Gvam",
+        "GW": "Gvineja Bisao",
+        "HK": "Hongkong (SAO Kine)",
+        "HM": "ostrvo Herd i ostrva Makdonald",
+        "KM": "Komori",
+        "KP": "Sjeverna Koreja",
+        "MK": "Sjeverna Makedonija",
+        "MM": "Mjanmar (Burma)",
+        "MP": "Sjeverna Marijanska ostrva",
+        "NF": "ostrvo Norfok",
+        "NU": "Nijue",
+        "PS": "palestinske teritorije",
         "RE": "Reunion",
-        "UM": "Manja udaljena ostrva SAD",
+        "TF": "Francuske južne teritorije",
+        "UM": "Spoljna ostrva SAD",
         "VC": "Sveti Vinsent i Grenadini",
-        "VG": "Britanska Djevičanska Ostrva",
-        "VI": "Američka Djevičanska Ostrva"
+        "VG": "Britanska Djevičanska ostrva",
+        "VI": "Američka Djevičanska ostrva"
     };
   }-*/;
 }

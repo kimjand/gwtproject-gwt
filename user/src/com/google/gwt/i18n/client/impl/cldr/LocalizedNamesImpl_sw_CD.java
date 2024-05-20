@@ -66,7 +66,7 @@ public class LocalizedNamesImpl_sw_CD extends LocalizedNamesImpl_sw {
         "TD",
         "CZ",
         "CL",
-        "CU",
+        "CQ",
         "CW",
         "DK",
         "DG",
@@ -76,8 +76,8 @@ public class LocalizedNamesImpl_sw_CD extends LocalizedNamesImpl_sw {
         "IO",
         "ER",
         "EE",
+        "SZ",
         "ET",
-        "EZ",
         "AE",
         "FJ",
         "GA",
@@ -114,6 +114,7 @@ public class LocalizedNamesImpl_sw_CD extends LocalizedNamesImpl_sw {
         "JE",
         "DJ",
         "GE",
+        "EZ",
         "KH",
         "CM",
         "CA",
@@ -138,7 +139,10 @@ public class LocalizedNamesImpl_sw_CD extends LocalizedNamesImpl_sw {
         "XK",
         "CR",
         "HR",
+        "CU",
         "KW",
+        "XA",
+        "XB",
         "LA",
         "LU",
         "LV",
@@ -148,10 +152,9 @@ public class LocalizedNamesImpl_sw_CD extends LocalizedNamesImpl_sw {
         "LY",
         "LI",
         "LT",
-        "MO",
-        "MK",
         "MG",
         "PS",
+        "MO",
         "MW",
         "MV",
         "MY",
@@ -159,6 +162,7 @@ public class LocalizedNamesImpl_sw_CD extends LocalizedNamesImpl_sw {
         "MT",
         "US",
         "MQ",
+        "MK",
         "YT",
         "MX",
         "FM",
@@ -258,7 +262,6 @@ public class LocalizedNamesImpl_sw_CD extends LocalizedNamesImpl_sw {
         "UY",
         "RU",
         "SC",
-        "SZ",
         "SE",
         "CH",
         "TR",
@@ -283,8 +286,6 @@ public class LocalizedNamesImpl_sw_CD extends LocalizedNamesImpl_sw {
         "VI",
         "VG",
         "WF",
-        "XA",
-        "XB",
         "YE",
         "JO",
         "ZM",
@@ -301,8 +302,6 @@ public class LocalizedNamesImpl_sw_CD extends LocalizedNamesImpl_sw {
     namesMap.put("BJ", "Benini");
     namesMap.put("CI", "Kodivaa");
     namesMap.put("CX", "Kisiwa cha Christmas");
-    namesMap.put("CY", "Saiprasi");
-    namesMap.put("DK", "Denmaki");
     namesMap.put("HR", "Kroeshia");
     namesMap.put("JO", "Yordani");
     namesMap.put("LB", "Lebanoni");
@@ -311,7 +310,6 @@ public class LocalizedNamesImpl_sw_CD extends LocalizedNamesImpl_sw {
     namesMap.put("LV", "Lativia");
     namesMap.put("MA", "Moroko");
     namesMap.put("MM", "Myama");
-    namesMap.put("MV", "Maldivi");
     namesMap.put("NE", "Nijeri");
     namesMap.put("NG", "Nijeria");
     namesMap.put("NO", "Norwe");
@@ -323,7 +321,6 @@ public class LocalizedNamesImpl_sw_CD extends LocalizedNamesImpl_sw {
     namesMap.put("ST", "Sao Tome na Prinsipe");
     namesMap.put("TD", "Chadi");
     namesMap.put("TL", "Timori ya Mashariki");
-    namesMap.put("VN", "Vietnamu");
   }
 
   @Override
@@ -339,8 +336,6 @@ public class LocalizedNamesImpl_sw_CD extends LocalizedNamesImpl_sw {
         "BJ": "Benini",
         "CI": "Kodivaa",
         "CX": "Kisiwa cha Christmas",
-        "CY": "Saiprasi",
-        "DK": "Denmaki",
         "HR": "Kroeshia",
         "JO": "Yordani",
         "LB": "Lebanoni",
@@ -349,7 +344,6 @@ public class LocalizedNamesImpl_sw_CD extends LocalizedNamesImpl_sw {
         "LV": "Lativia",
         "MA": "Moroko",
         "MM": "Myama",
-        "MV": "Maldivi",
         "NE": "Nijeri",
         "NG": "Nijeria",
         "NO": "Norwe",
@@ -360,8 +354,7 @@ public class LocalizedNamesImpl_sw_CD extends LocalizedNamesImpl_sw {
         "SD": "Sudani",
         "ST": "Sao Tome na Prinsipe",
         "TD": "Chadi",
-        "TL": "Timori ya Mashariki",
-        "VN": "Vietnamu"
+        "TL": "Timori ya Mashariki"
     };
   }-*/;
 }

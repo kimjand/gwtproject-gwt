@@ -23,17 +23,17 @@ public class DateTimeFormatInfoImpl_be extends DateTimeFormatInfoImpl {
 
   @Override
   public String dateFormatFull() {
-    return "EEEE, d MMMM y 'г'.";
+    return "EEEE, d MMMM y 'г'.";
   }
 
   @Override
   public String dateFormatLong() {
-    return "d MMMM y 'г'.";
+    return "d MMMM y 'г'.";
   }
 
   @Override
   public String dateFormatMedium() {
-    return "d.MM.y";
+    return "d MMM y 'г'.";
   }
 
   @Override
@@ -43,12 +43,12 @@ public class DateTimeFormatInfoImpl_be extends DateTimeFormatInfoImpl {
 
   @Override
   public String dateTimeFull(String timePattern, String datePattern) {
-    return datePattern + " 'у' " + timePattern;
+    return datePattern + ", " + timePattern;
   }
 
   @Override
   public String dateTimeLong(String timePattern, String datePattern) {
-    return datePattern + " 'у' " + timePattern;
+    return datePattern + ", " + timePattern;
   }
 
   @Override
@@ -75,6 +75,16 @@ public class DateTimeFormatInfoImpl_be extends DateTimeFormatInfoImpl {
         "да н.э.",
         "н.э."
     };
+  }
+
+  @Override
+  public String formatHour12Minute() {
+    return "h:mm a";
+  }
+
+  @Override
+  public String formatHour12MinuteSecond() {
+    return "h:mm:ss a";
   }
 
   @Override
@@ -119,7 +129,7 @@ public class DateTimeFormatInfoImpl_be extends DateTimeFormatInfoImpl {
 
   @Override
   public String formatYearMonthFullDay() {
-    return "d MMMM y 'г'.";
+    return "d MMMM y 'г'.";
   }
 
   @Override

@@ -17,12 +17,7 @@ package com.google.gwt.i18n.client.impl.cldr;
 
 import com.google.gwt.core.client.JavaScriptObject;
 
-// DO NOT EDIT - GENERATED FROM CLDR DATA:
-//  cldrVersion=21.0
-//  number=$Revision: 6546 $
-//  type=trv
-//  date=$Date: 2012-02-07 13:32:35 -0500 (Tue, 07 Feb 2012) $
-
+// DO NOT EDIT - GENERATED FROM CLDR DATA
 
 /**
  * Localized names for the "trv" locale.
@@ -99,6 +94,7 @@ public class LocalizedNamesImpl_trv extends LocalizedNamesImpl {
         "CM",
         "CO",
         "CP",
+        "CQ",
         "CR",
         "CU",
         "CV",
@@ -121,6 +117,7 @@ public class LocalizedNamesImpl_trv extends LocalizedNamesImpl {
         "ES",
         "ET",
         "EU",
+        "EZ",
         "FI",
         "FJ",
         "FK",
@@ -273,6 +270,7 @@ public class LocalizedNamesImpl_trv extends LocalizedNamesImpl {
         "UA",
         "UG",
         "UM",
+        "UN",
         "UY",
         "UZ",
         "VA",
@@ -284,6 +282,9 @@ public class LocalizedNamesImpl_trv extends LocalizedNamesImpl {
         "VU",
         "WF",
         "WS",
+        "XA",
+        "XB",
+        "XK",
         "YE",
         "YT",
         "ZA",

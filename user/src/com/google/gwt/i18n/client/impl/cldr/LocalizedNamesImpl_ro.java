@@ -86,6 +86,7 @@ public class LocalizedNamesImpl_ro extends LocalizedNamesImpl {
         "KR",
         "CR",
         "CI",
+        "CQ",
         "HR",
         "CU",
         "CW",
@@ -100,6 +101,7 @@ public class LocalizedNamesImpl_ro extends LocalizedNamesImpl {
         "AE",
         "ER",
         "EE",
+        "SZ",
         "ET",
         "FJ",
         "PH",
@@ -176,6 +178,7 @@ public class LocalizedNamesImpl_ro extends LocalizedNamesImpl {
         "LI",
         "LT",
         "LU",
+        "MK",
         "MG",
         "MW",
         "MY",
@@ -217,6 +220,8 @@ public class LocalizedNamesImpl_ro extends LocalizedNamesImpl {
         "PF",
         "PL",
         "PT",
+        "XA",
+        "XB",
         "PR",
         "QA",
         "HK",
@@ -224,7 +229,6 @@ public class LocalizedNamesImpl_ro extends LocalizedNamesImpl {
         "GB",
         "CF",
         "DO",
-        "MK",
         "MD",
         "RE",
         "RO",
@@ -261,7 +265,6 @@ public class LocalizedNamesImpl_ro extends LocalizedNamesImpl {
         "SE",
         "SR",
         "SJ",
-        "SZ",
         "TJ",
         "TW",
         "TZ",
@@ -290,8 +293,6 @@ public class LocalizedNamesImpl_ro extends LocalizedNamesImpl {
         "VE",
         "VN",
         "WF",
-        "XA",
-        "XB",
         "YE",
         "ZM",
         "ZW",
@@ -378,7 +379,7 @@ public class LocalizedNamesImpl_ro extends LocalizedNamesImpl {
     namesMap.put("GR", "Grecia");
     namesMap.put("GS", "Georgia de Sud și Insulele Sandwich de Sud");
     namesMap.put("GW", "Guineea-Bissau");
-    namesMap.put("HK", "R.A.S. Hong Kong a Chinei");
+    namesMap.put("HK", "R.A.S. Hong Kong, China");
     namesMap.put("HM", "Insula Heard și Insulele McDonald");
     namesMap.put("HR", "Croația");
     namesMap.put("HU", "Ungaria");
@@ -412,9 +413,9 @@ public class LocalizedNamesImpl_ro extends LocalizedNamesImpl {
     namesMap.put("ME", "Muntenegru");
     namesMap.put("MF", "Sfântul Martin");
     namesMap.put("MH", "Insulele Marshall");
-    namesMap.put("MK", "Republica Macedonia");
+    namesMap.put("MK", "Macedonia de Nord");
     namesMap.put("MM", "Myanmar (Birmania)");
-    namesMap.put("MO", "R.A.S. Macao a Chinei");
+    namesMap.put("MO", "R.A.S. Macao, China");
     namesMap.put("MP", "Insulele Mariane de Nord");
     namesMap.put("MQ", "Martinica");
     namesMap.put("MV", "Maldive");
@@ -443,7 +444,7 @@ public class LocalizedNamesImpl_ro extends LocalizedNamesImpl {
     namesMap.put("SJ", "Svalbard și Jan Mayen");
     namesMap.put("SK", "Slovacia");
     namesMap.put("SS", "Sudanul de Sud");
-    namesMap.put("ST", "Sao Tome și Principe");
+    namesMap.put("ST", "São Tomé și Príncipe");
     namesMap.put("SX", "Sint-Maarten");
     namesMap.put("SY", "Siria");
     namesMap.put("TC", "Insulele Turks și Caicos");
@@ -462,6 +463,7 @@ public class LocalizedNamesImpl_ro extends LocalizedNamesImpl {
     namesMap.put("VG", "Insulele Virgine Britanice");
     namesMap.put("VI", "Insulele Virgine Americane");
     namesMap.put("WF", "Wallis și Futuna");
+    namesMap.put("XA", "Pseudo-accente");
     namesMap.put("ZA", "Africa de Sud");
     namesMap.put("ZZ", "Regiune necunoscută");
   }
@@ -549,7 +551,7 @@ public class LocalizedNamesImpl_ro extends LocalizedNamesImpl {
         "GR": "Grecia",
         "GS": "Georgia de Sud și Insulele Sandwich de Sud",
         "GW": "Guineea-Bissau",
-        "HK": "R.A.S. Hong Kong a Chinei",
+        "HK": "R.A.S. Hong Kong, China",
         "HM": "Insula Heard și Insulele McDonald",
         "HR": "Croația",
         "HU": "Ungaria",
@@ -583,9 +585,9 @@ public class LocalizedNamesImpl_ro extends LocalizedNamesImpl {
         "ME": "Muntenegru",
         "MF": "Sfântul Martin",
         "MH": "Insulele Marshall",
-        "MK": "Republica Macedonia",
+        "MK": "Macedonia de Nord",
         "MM": "Myanmar (Birmania)",
-        "MO": "R.A.S. Macao a Chinei",
+        "MO": "R.A.S. Macao, China",
         "MP": "Insulele Mariane de Nord",
         "MQ": "Martinica",
         "MV": "Maldive",
@@ -614,7 +616,7 @@ public class LocalizedNamesImpl_ro extends LocalizedNamesImpl {
         "SJ": "Svalbard și Jan Mayen",
         "SK": "Slovacia",
         "SS": "Sudanul de Sud",
-        "ST": "Sao Tome și Principe",
+        "ST": "São Tomé și Príncipe",
         "SX": "Sint-Maarten",
         "SY": "Siria",
         "TC": "Insulele Turks și Caicos",
@@ -633,6 +635,7 @@ public class LocalizedNamesImpl_ro extends LocalizedNamesImpl {
         "VG": "Insulele Virgine Britanice",
         "VI": "Insulele Virgine Americane",
         "WF": "Wallis și Futuna",
+        "XA": "Pseudo-accente",
         "ZA": "Africa de Sud",
         "ZZ": "Regiune necunoscută"
     };

@@ -66,7 +66,6 @@ public class LocalizedNamesImpl_fil extends LocalizedNamesImpl {
         "BW",
         "BV",
         "BR",
-        "IO",
         "VG",
         "BN",
         "BG",
@@ -94,6 +93,7 @@ public class LocalizedNamesImpl_fil extends LocalizedNamesImpl {
         "CK",
         "CR",
         "CI",
+        "CQ",
         "HR",
         "CU",
         "CW",
@@ -174,7 +174,6 @@ public class LocalizedNamesImpl_fil extends LocalizedNamesImpl {
         "LT",
         "LU",
         "MO",
-        "MK",
         "MG",
         "MW",
         "MY",
@@ -187,6 +186,7 @@ public class LocalizedNamesImpl_fil extends LocalizedNamesImpl {
         "MU",
         "YT",
         "MX",
+        "XA",
         "FM",
         "MD",
         "MC",
@@ -208,6 +208,7 @@ public class LocalizedNamesImpl_fil extends LocalizedNamesImpl {
         "NU",
         "NF",
         "MP",
+        "MK",
         "NO",
         "OM",
         "QO",
@@ -222,6 +223,7 @@ public class LocalizedNamesImpl_fil extends LocalizedNamesImpl {
         "PN",
         "PL",
         "PT",
+        "XB",
         "PR",
         "QA",
         "RE",
@@ -263,6 +265,7 @@ public class LocalizedNamesImpl_fil extends LocalizedNamesImpl {
         "TW",
         "TJ",
         "TZ",
+        "IO",
         "TH",
         "KR",
         "SS",
@@ -291,8 +294,6 @@ public class LocalizedNamesImpl_fil extends LocalizedNamesImpl {
         "VE",
         "VN",
         "WF",
-        "XA",
-        "XB",
         "YE",
         "ZM",
         "ZW",
@@ -326,14 +327,18 @@ public class LocalizedNamesImpl_fil extends LocalizedNamesImpl {
     namesMap.put("AC", "Acsencion island");
     namesMap.put("BA", "Bosnia and Herzegovina");
     namesMap.put("EH", "Kanlurang Sahara");
+    namesMap.put("IO", "Teritoryo sa Karagatan ng British Indian");
     namesMap.put("KP", "Hilagang Korea");
     namesMap.put("KR", "Timog Korea");
     namesMap.put("LC", "Saint Lucia");
     namesMap.put("MF", "Saint Martin");
+    namesMap.put("MO", "Macau SAR China");
     namesMap.put("PH", "Pilipinas");
     namesMap.put("SS", "Timog Sudan");
+    namesMap.put("SZ", "Swaziland");
     namesMap.put("TA", "Tristan de Cunha");
     namesMap.put("US", "Estados Unidos");
+    namesMap.put("XA", "Mga Pseudo-Accent");
     namesMap.put("ZZ", "Hindi Kilalang Rehiyon");
   }
 
@@ -368,14 +373,18 @@ public class LocalizedNamesImpl_fil extends LocalizedNamesImpl {
         "AC": "Acsencion island",
         "BA": "Bosnia and Herzegovina",
         "EH": "Kanlurang Sahara",
+        "IO": "Teritoryo sa Karagatan ng British Indian",
         "KP": "Hilagang Korea",
         "KR": "Timog Korea",
         "LC": "Saint Lucia",
         "MF": "Saint Martin",
+        "MO": "Macau SAR China",
         "PH": "Pilipinas",
         "SS": "Timog Sudan",
+        "SZ": "Swaziland",
         "TA": "Tristan de Cunha",
         "US": "Estados Unidos",
+        "XA": "Mga Pseudo-Accent",
         "ZZ": "Hindi Kilalang Rehiyon"
     };
   }-*/;

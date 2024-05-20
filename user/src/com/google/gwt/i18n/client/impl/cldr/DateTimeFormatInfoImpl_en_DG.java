@@ -100,6 +100,24 @@ public class DateTimeFormatInfoImpl_en_DG extends DateTimeFormatInfoImpl_en {
   }
 
   @Override
+  public String[] monthsShort() {
+    return new String[] {
+        "Jan",
+        "Feb",
+        "Mar",
+        "Apr",
+        "May",
+        "Jun",
+        "Jul",
+        "Aug",
+        "Sept",
+        "Oct",
+        "Nov",
+        "Dec"
+    };
+  }
+
+  @Override
   public String timeFormatFull() {
     return "HH:mm:ss zzzz";
   }

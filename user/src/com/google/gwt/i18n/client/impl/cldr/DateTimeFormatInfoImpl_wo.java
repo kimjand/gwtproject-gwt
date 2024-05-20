@@ -51,12 +51,12 @@ public class DateTimeFormatInfoImpl_wo extends DateTimeFormatInfoImpl {
 
   @Override
   public String dateTimeFull(String timePattern, String datePattern) {
-    return datePattern + " 'ci' " + timePattern;
+    return datePattern + " - " + timePattern;
   }
 
   @Override
   public String dateTimeLong(String timePattern, String datePattern) {
-    return datePattern + " 'ci' " + timePattern;
+    return datePattern + " - " + timePattern;
   }
 
   @Override
@@ -83,6 +83,16 @@ public class DateTimeFormatInfoImpl_wo extends DateTimeFormatInfoImpl {
         "JC",
         "AD"
     };
+  }
+
+  @Override
+  public String formatHour12Minute() {
+    return "h:mm a";
+  }
+
+  @Override
+  public String formatHour12MinuteSecond() {
+    return "h:mm:ss a";
   }
 
   @Override

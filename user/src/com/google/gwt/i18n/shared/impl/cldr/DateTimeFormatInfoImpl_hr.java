@@ -42,16 +42,6 @@ public class DateTimeFormatInfoImpl_hr extends DateTimeFormatInfoImpl {
   }
 
   @Override
-  public String dateTimeFull(String timePattern, String datePattern) {
-    return datePattern + " 'u' " + timePattern;
-  }
-
-  @Override
-  public String dateTimeLong(String timePattern, String datePattern) {
-    return datePattern + " 'u' " + timePattern;
-  }
-
-  @Override
   public String[] erasFull() {
     return new String[] {
         "prije Krista",
@@ -74,12 +64,12 @@ public class DateTimeFormatInfoImpl_hr extends DateTimeFormatInfoImpl {
 
   @Override
   public String formatHour12Minute() {
-    return "hh:mm a";
+    return "hh:mm a";
   }
 
   @Override
   public String formatHour12MinuteSecond() {
-    return "hh:mm:ss a";
+    return "hh:mm:ss a";
   }
 
   @Override

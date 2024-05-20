@@ -24,8 +24,8 @@ public class DateTimeFormatInfoImpl_hi extends DateTimeFormatInfoImpl {
   @Override
   public String[] ampms() {
     return new String[] {
-        "पूर्वाह्न",
-        "अपराह्न"
+        "am",
+        "pm"
     };
   }
 
@@ -51,12 +51,12 @@ public class DateTimeFormatInfoImpl_hi extends DateTimeFormatInfoImpl {
 
   @Override
   public String dateTimeFull(String timePattern, String datePattern) {
-    return datePattern + " को " + timePattern;
+    return datePattern + ", " + timePattern;
   }
 
   @Override
   public String dateTimeLong(String timePattern, String datePattern) {
-    return datePattern + " को " + timePattern;
+    return datePattern + ", " + timePattern;
   }
 
   @Override

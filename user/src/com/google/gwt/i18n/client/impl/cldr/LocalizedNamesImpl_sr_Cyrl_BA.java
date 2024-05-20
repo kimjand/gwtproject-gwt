@@ -27,8 +27,7 @@ public class LocalizedNamesImpl_sr_Cyrl_BA extends LocalizedNamesImpl_sr {
   @Override
   public String[] loadSortedRegionCodes() {
     return new String[] {
-        "XA",
-        "XB",
+        "CQ",
         "AF",
         "AZ",
         "AL",
@@ -75,6 +74,7 @@ public class LocalizedNamesImpl_sr_Cyrl_BA extends LocalizedNamesImpl_sr {
         "GH",
         "GP",
         "GY",
+        "GU",
         "GT",
         "GN",
         "GW",
@@ -84,7 +84,6 @@ public class LocalizedNamesImpl_sr_Cyrl_BA extends LocalizedNamesImpl_sr {
         "GL",
         "GE",
         "GR",
-        "GU",
         "DK",
         "DG",
         "DM",
@@ -99,6 +98,7 @@ public class LocalizedNamesImpl_sr_Cyrl_BA extends LocalizedNamesImpl_sr {
         "ET",
         "ZM",
         "EH",
+        "CV",
         "ZW",
         "IL",
         "IN",
@@ -117,7 +117,6 @@ public class LocalizedNamesImpl_sr_Cyrl_BA extends LocalizedNamesImpl_sr {
         "GS",
         "SS",
         "ZA",
-        "CV",
         "KZ",
         "KY",
         "KH",
@@ -154,21 +153,19 @@ public class LocalizedNamesImpl_sr_Cyrl_BA extends LocalizedNamesImpl_sr {
         "MG",
         "HU",
         "YT",
-        "MK",
         "MW",
         "MV",
         "MY",
         "ML",
         "MT",
-        "UM",
         "MA",
         "MQ",
         "MH",
         "MR",
         "MU",
         "MX",
-        "MM",
         "FM",
+        "MM",
         "MZ",
         "MD",
         "MC",
@@ -179,8 +176,8 @@ public class LocalizedNamesImpl_sr_Cyrl_BA extends LocalizedNamesImpl_sr {
         "NP",
         "NE",
         "NG",
-        "NI",
         "NU",
+        "NI",
         "NC",
         "NZ",
         "NO",
@@ -207,6 +204,8 @@ public class LocalizedNamesImpl_sr_Cyrl_BA extends LocalizedNamesImpl_sr {
         "PL",
         "PR",
         "PT",
+        "XA",
+        "XB",
         "RE",
         "RW",
         "RO",
@@ -216,31 +215,32 @@ public class LocalizedNamesImpl_sr_Cyrl_BA extends LocalizedNamesImpl_sr {
         "SM",
         "ST",
         "MO",
-        "HK",
         "SA",
         "SZ",
         "SJ",
         "SH",
         "LC",
-        "BL",
         "VC",
-        "KN",
         "MF",
         "SX",
-        "PM",
-        "KP",
-        "MP",
         "SC",
+        "BL",
         "SN",
+        "PM",
+        "KN",
         "EA",
         "SL",
         "SG",
         "SY",
+        "KP",
+        "MK",
+        "MP",
         "US",
         "SK",
         "SI",
         "SB",
         "SO",
+        "UM",
         "RS",
         "SD",
         "SR",
@@ -276,6 +276,7 @@ public class LocalizedNamesImpl_sr_Cyrl_BA extends LocalizedNamesImpl_sr {
         "TF",
         "HT",
         "NL",
+        "HK",
         "HN",
         "HR",
         "CF",
@@ -295,19 +296,43 @@ public class LocalizedNamesImpl_sr_Cyrl_BA extends LocalizedNamesImpl_sr {
   @Override
   protected void loadNameMapJava() {
     super.loadNameMapJava();
+    namesMap.put("001", "свијет");
+    namesMap.put("003", "Сјеверноамерички континент");
+    namesMap.put("015", "Сјеверна Африка");
+    namesMap.put("019", "Сјеверна и Јужна Америка");
+    namesMap.put("021", "Сјеверна Америка");
+    namesMap.put("154", "Сјеверна Европа");
+    namesMap.put("AC", "острво Асенсион");
+    namesMap.put("AX", "Оландска острва");
+    namesMap.put("BL", "Сен Бартелеми");
+    namesMap.put("BN", "Брунеји");
+    namesMap.put("BV", "острво Буве");
     namesMap.put("BY", "Бјелорусија");
-    namesMap.put("CG", "Конго");
-    namesMap.put("CV", "Кабо Верде");
+    namesMap.put("CC", "Кокосова (Килинг) острва");
+    namesMap.put("CP", "острво Клипертон");
     namesMap.put("CZ", "Чешка Република");
     namesMap.put("DE", "Њемачка");
-    namesMap.put("KN", "Свети Китс и Невис");
-    namesMap.put("MO", "САР Макао");
-    namesMap.put("PM", "Свети Пјер и Микелон");
+    namesMap.put("FK", "Фокландска острва");
+    namesMap.put("FO", "Фарска острва");
+    namesMap.put("GS", "Јужна Џорџија и Јужна Сендвичка острва");
+    namesMap.put("GU", "Гвам");
+    namesMap.put("GW", "Гвинеја Бисао");
+    namesMap.put("HK", "Хонгконг (САО Кине)");
+    namesMap.put("HM", "острво Херд и острва Макдоналд");
+    namesMap.put("KM", "Комори");
+    namesMap.put("KP", "Сјеверна Кореја");
+    namesMap.put("MK", "Сјеверна Македонија");
+    namesMap.put("MM", "Мјанмар (Бурма)");
+    namesMap.put("MP", "Сјеверна Маријанска острва");
+    namesMap.put("NF", "острво Норфок");
+    namesMap.put("NU", "Нијуе");
+    namesMap.put("PS", "палестинске територије");
     namesMap.put("RE", "Реунион");
-    namesMap.put("UM", "Мања удаљена острва САД");
+    namesMap.put("TF", "Француске јужне територије");
+    namesMap.put("UM", "Спољна острва САД");
     namesMap.put("VC", "Свети Винсент и Гренадини");
-    namesMap.put("VG", "Британска Дјевичанска Острва");
-    namesMap.put("VI", "Америчка Дјевичанска Острва");
+    namesMap.put("VG", "Британска Дјевичанска острва");
+    namesMap.put("VI", "Америчка Дјевичанска острва");
   }
 
   @Override
@@ -317,19 +342,43 @@ public class LocalizedNamesImpl_sr_Cyrl_BA extends LocalizedNamesImpl_sr {
 
   private native JavaScriptObject loadMyNameMap() /*-{
     return {
+        "001": "свијет",
+        "003": "Сјеверноамерички континент",
+        "015": "Сјеверна Африка",
+        "019": "Сјеверна и Јужна Америка",
+        "021": "Сјеверна Америка",
+        "154": "Сјеверна Европа",
+        "AC": "острво Асенсион",
+        "AX": "Оландска острва",
+        "BL": "Сен Бартелеми",
+        "BN": "Брунеји",
+        "BV": "острво Буве",
         "BY": "Бјелорусија",
-        "CG": "Конго",
-        "CV": "Кабо Верде",
+        "CC": "Кокосова (Килинг) острва",
+        "CP": "острво Клипертон",
         "CZ": "Чешка Република",
         "DE": "Њемачка",
-        "KN": "Свети Китс и Невис",
-        "MO": "САР Макао",
-        "PM": "Свети Пјер и Микелон",
+        "FK": "Фокландска острва",
+        "FO": "Фарска острва",
+        "GS": "Јужна Џорџија и Јужна Сендвичка острва",
+        "GU": "Гвам",
+        "GW": "Гвинеја Бисао",
+        "HK": "Хонгконг (САО Кине)",
+        "HM": "острво Херд и острва Макдоналд",
+        "KM": "Комори",
+        "KP": "Сјеверна Кореја",
+        "MK": "Сјеверна Македонија",
+        "MM": "Мјанмар (Бурма)",
+        "MP": "Сјеверна Маријанска острва",
+        "NF": "острво Норфок",
+        "NU": "Нијуе",
+        "PS": "палестинске територије",
         "RE": "Реунион",
-        "UM": "Мања удаљена острва САД",
+        "TF": "Француске јужне територије",
+        "UM": "Спољна острва САД",
         "VC": "Свети Винсент и Гренадини",
-        "VG": "Британска Дјевичанска Острва",
-        "VI": "Америчка Дјевичанска Острва"
+        "VG": "Британска Дјевичанска острва",
+        "VI": "Америчка Дјевичанска острва"
     };
   }-*/;
 }

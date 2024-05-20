@@ -25,7 +25,7 @@ public class DateTimeFormatInfoImpl_twq extends DateTimeFormatInfoImpl {
   public String[] ampms() {
     return new String[] {
         "Subbaahi",
-        "Zaarikay b"
+        "Zaarikay b"
     };
   }
 
@@ -63,6 +63,16 @@ public class DateTimeFormatInfoImpl_twq extends DateTimeFormatInfoImpl {
         "IJ",
         "IZ"
     };
+  }
+
+  @Override
+  public String formatHour12Minute() {
+    return "h:mm a";
+  }
+
+  @Override
+  public String formatHour12MinuteSecond() {
+    return "h:mm:ss a";
   }
 
   @Override

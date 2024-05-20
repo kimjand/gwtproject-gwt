@@ -27,8 +27,7 @@ public class LocalizedNamesImpl_fa_AF extends LocalizedNamesImpl_fa {
   @Override
   public String[] loadSortedRegionCodes() {
     return new String[] {
-        "XA",
-        "XB",
+        "CQ",
         "AW",
         "DE",
         "AI",
@@ -44,6 +43,7 @@ public class LocalizedNamesImpl_fa_AF extends LocalizedNamesImpl_fa {
         "AU",
         "EE",
         "IL",
+        "SZ",
         "SJ",
         "ZA",
         "AF",
@@ -55,6 +55,7 @@ public class LocalizedNamesImpl_fa_AF extends LocalizedNamesImpl_fa {
         "AG",
         "AD",
         "ID",
+        "XA",
         "AO",
         "UA",
         "EC",
@@ -103,7 +104,6 @@ public class LocalizedNamesImpl_fa_AF extends LocalizedNamesImpl_fa {
         "AC",
         "AX",
         "TC",
-        "GS",
         "UM",
         "SB",
         "FO",
@@ -122,11 +122,11 @@ public class LocalizedNamesImpl_fa_AF extends LocalizedNamesImpl_fa {
         "BV",
         "IM",
         "NF",
-        "HM",
         "CX",
         "AZ",
         "CF",
         "DO",
+        "GS",
         "DJ",
         "DK",
         "DM",
@@ -158,7 +158,6 @@ public class LocalizedNamesImpl_fa_AF extends LocalizedNamesImpl_fa {
         "VC",
         "KN",
         "PM",
-        "SZ",
         "SD",
         "SS",
         "SR",
@@ -203,6 +202,7 @@ public class LocalizedNamesImpl_fa_AF extends LocalizedNamesImpl_fa {
         "MO",
         "YT",
         "HU",
+        "XB",
         "MA",
         "EG",
         "MK",
@@ -230,6 +230,7 @@ public class LocalizedNamesImpl_fa_AF extends LocalizedNamesImpl_fa {
         "HN",
         "HK",
         "HT",
+        "HM",
         "ES",
         "IN",
         "VA",
@@ -316,7 +317,6 @@ public class LocalizedNamesImpl_fa_AF extends LocalizedNamesImpl_fa {
     namesMap.put("CO", "کولمبیا");
     namesMap.put("CR", "کاستریکا");
     namesMap.put("CU", "کیوبا");
-    namesMap.put("CZ", "چک");
     namesMap.put("DK", "دنمارک");
     namesMap.put("EA", "سئوتا و ملیلا");
     namesMap.put("EE", "استونیا");
@@ -415,7 +415,6 @@ public class LocalizedNamesImpl_fa_AF extends LocalizedNamesImpl_fa {
         "CO": "کولمبیا",
         "CR": "کاستریکا",
         "CU": "کیوبا",
-        "CZ": "چک",
         "DK": "دنمارک",
         "EA": "سئوتا و ملیلا",
         "EE": "استونیا",

@@ -63,6 +63,16 @@ public class DateTimeFormatInfoImpl_pt extends DateTimeFormatInfoImpl {
   }
 
   @Override
+  public String formatHour12Minute() {
+    return "h:mm a";
+  }
+
+  @Override
+  public String formatHour12MinuteSecond() {
+    return "h:mm:ss a";
+  }
+
+  @Override
   public String formatMonthAbbrevDay() {
     return "d 'de' MMM";
   }
@@ -79,7 +89,7 @@ public class DateTimeFormatInfoImpl_pt extends DateTimeFormatInfoImpl {
 
   @Override
   public String formatMonthNumDay() {
-    return "d/M";
+    return "dd/MM";
   }
 
   @Override
@@ -148,18 +158,18 @@ public class DateTimeFormatInfoImpl_pt extends DateTimeFormatInfoImpl {
   @Override
   public String[] monthsShort() {
     return new String[] {
-        "jan",
-        "fev",
-        "mar",
-        "abr",
-        "mai",
-        "jun",
-        "jul",
-        "ago",
-        "set",
-        "out",
-        "nov",
-        "dez"
+        "jan.",
+        "fev.",
+        "mar.",
+        "abr.",
+        "mai.",
+        "jun.",
+        "jul.",
+        "ago.",
+        "set.",
+        "out.",
+        "nov.",
+        "dez."
     };
   }
 
@@ -212,13 +222,13 @@ public class DateTimeFormatInfoImpl_pt extends DateTimeFormatInfoImpl {
   @Override
   public String[] weekdaysShort() {
     return new String[] {
-        "dom",
-        "seg",
-        "ter",
-        "qua",
-        "qui",
-        "sex",
-        "sáb"
+        "dom.",
+        "seg.",
+        "ter.",
+        "qua.",
+        "qui.",
+        "sex.",
+        "sáb."
     };
   }
 }

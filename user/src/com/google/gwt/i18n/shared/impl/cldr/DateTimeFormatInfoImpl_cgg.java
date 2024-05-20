@@ -50,6 +50,11 @@ public class DateTimeFormatInfoImpl_cgg extends DateTimeFormatInfoImpl {
   }
 
   @Override
+  public String formatHour12Minute() {
+    return "h:mm a";
+  }
+
+  @Override
   public String formatMonthFullWeekdayDay() {
     return "EEEE, MMMM d";
   }
@@ -197,5 +202,10 @@ public class DateTimeFormatInfoImpl_cgg extends DateTimeFormatInfoImpl {
         "OKT",
         "OMK"
     };
+  }
+
+  @Override
+  public int weekendStart() {
+    return 0;
   }
 }

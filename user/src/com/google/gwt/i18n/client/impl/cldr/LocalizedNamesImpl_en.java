@@ -27,14 +27,14 @@ public class LocalizedNamesImpl_en extends LocalizedNamesImpl {
     return new String[] {
         "US",
         "IN",
-        "PH",
-        "GB",
         "NG",
+        "PH",
         "PK",
+        "GB",
         "DE",
         "CA",
-        "FR",
         "TZ",
+        "EG",
     };
   }
 }

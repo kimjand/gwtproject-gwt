@@ -51,12 +51,12 @@ public class DateTimeFormatInfoImpl_he extends DateTimeFormatInfoImpl {
 
   @Override
   public String dateTimeFull(String timePattern, String datePattern) {
-    return datePattern + " בשעה " + timePattern;
+    return datePattern + ", " + timePattern;
   }
 
   @Override
   public String dateTimeLong(String timePattern, String datePattern) {
-    return datePattern + " בשעה " + timePattern;
+    return datePattern + ", " + timePattern;
   }
 
   @Override

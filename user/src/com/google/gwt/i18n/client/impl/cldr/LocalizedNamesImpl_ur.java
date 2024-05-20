@@ -35,8 +35,7 @@ public class LocalizedNamesImpl_ur extends LocalizedNamesImpl {
   @Override
   public String[] loadSortedRegionCodes() {
     return new String[] {
-        "XA",
-        "XB",
+        "CQ",
         "IE",
         "IS",
         "IM",
@@ -83,6 +82,8 @@ public class LocalizedNamesImpl_ur extends LocalizedNamesImpl {
         "VG",
         "BF",
         "BG",
+        "XB",
+        "XA",
         "BD",
         "BW",
         "BA",
@@ -97,7 +98,6 @@ public class LocalizedNamesImpl_ur extends LocalizedNamesImpl {
         "BJ",
         "TW",
         "TJ",
-        "TC",
         "TM",
         "TR",
         "TT",
@@ -157,6 +157,7 @@ public class LocalizedNamesImpl_ur extends LocalizedNamesImpl {
         "SN",
         "SY",
         "MP",
+        "MK",
         "KP",
         "SO",
         "IQ",
@@ -195,7 +196,6 @@ public class LocalizedNamesImpl_ur extends LocalizedNamesImpl {
         "MA",
         "EG",
         "EH",
-        "MK",
         "MY",
         "MW",
         "MN",
@@ -227,6 +227,7 @@ public class LocalizedNamesImpl_ur extends LocalizedNamesImpl {
         "VU",
         "VA",
         "TA",
+        "TC",
         "TO",
         "TV",
         "TK",
@@ -313,7 +314,7 @@ public class LocalizedNamesImpl_ur extends LocalizedNamesImpl {
     namesMap.put("014", "مشرقی افریقہ");
     namesMap.put("015", "شمالی افریقہ");
     namesMap.put("017", "وسطی افریقہ");
-    namesMap.put("018", "جنوبی افریقہ کے علاقہ");
+    namesMap.put("018", "جنوبی افریقہ کا علاقہ");
     namesMap.put("019", "امیریکاز");
     namesMap.put("021", "شمالی امریکہ کا علاقہ");
     namesMap.put("029", "کریبیائی");
@@ -484,7 +485,7 @@ public class LocalizedNamesImpl_ur extends LocalizedNamesImpl {
     namesMap.put("MF", "سینٹ مارٹن");
     namesMap.put("MG", "مڈغاسکر");
     namesMap.put("MH", "مارشل آئلینڈز");
-    namesMap.put("MK", "مقدونیہ");
+    namesMap.put("MK", "شمالی مقدونیہ");
     namesMap.put("ML", "مالی");
     namesMap.put("MM", "میانمار (برما)");
     namesMap.put("MN", "منگولیا");
@@ -550,13 +551,13 @@ public class LocalizedNamesImpl_ur extends LocalizedNamesImpl {
     namesMap.put("SO", "صومالیہ");
     namesMap.put("SR", "سورینام");
     namesMap.put("SS", "جنوبی سوڈان");
-    namesMap.put("ST", "ساؤ ٹوم اور پرنسپے");
+    namesMap.put("ST", "ساؤ ٹومے اور پرنسپے");
     namesMap.put("SV", "ال سلواڈور");
     namesMap.put("SX", "سنٹ مارٹن");
     namesMap.put("SY", "شام");
-    namesMap.put("SZ", "سوازی لینڈ");
+    namesMap.put("SZ", "سواتنی");
     namesMap.put("TA", "ٹرسٹن ڈا کیونہا");
-    namesMap.put("TC", "ترکس اور کیکاؤس جزائر");
+    namesMap.put("TC", "ٹرکس اور کیکوس جزائر");
     namesMap.put("TD", "چاڈ");
     namesMap.put("TF", "فرانسیسی جنوبی خطے");
     namesMap.put("TG", "ٹوگو");
@@ -567,7 +568,7 @@ public class LocalizedNamesImpl_ur extends LocalizedNamesImpl {
     namesMap.put("TM", "ترکمانستان");
     namesMap.put("TN", "تونس");
     namesMap.put("TO", "ٹونگا");
-    namesMap.put("TR", "ترکی");
+    namesMap.put("TR", "ترکیہ");
     namesMap.put("TT", "ترینیداد اور ٹوباگو");
     namesMap.put("TV", "ٹووالو");
     namesMap.put("TW", "تائیوان");
@@ -576,7 +577,7 @@ public class LocalizedNamesImpl_ur extends LocalizedNamesImpl {
     namesMap.put("UG", "یوگنڈا");
     namesMap.put("UM", "امریکہ سے باہر کے چھوٹے جزائز");
     namesMap.put("UN", "اقوام متحدہ");
-    namesMap.put("US", "ریاستہائے متحدہ");
+    namesMap.put("US", "ریاست ہائے متحدہ امریکہ");
     namesMap.put("UY", "یوروگوئے");
     namesMap.put("UZ", "ازبکستان");
     namesMap.put("VA", "ویٹیکن سٹی");
@@ -588,6 +589,8 @@ public class LocalizedNamesImpl_ur extends LocalizedNamesImpl {
     namesMap.put("VU", "وینوآٹو");
     namesMap.put("WF", "ویلیز اور فیوٹیونا");
     namesMap.put("WS", "ساموآ");
+    namesMap.put("XA", "بناوٹی لہجے");
+    namesMap.put("XB", "بناوٹی دو سمتی");
     namesMap.put("XK", "کوسووو");
     namesMap.put("YE", "یمن");
     namesMap.put("YT", "مایوٹ");
@@ -614,7 +617,7 @@ public class LocalizedNamesImpl_ur extends LocalizedNamesImpl {
         "014": "مشرقی افریقہ",
         "015": "شمالی افریقہ",
         "017": "وسطی افریقہ",
-        "018": "جنوبی افریقہ کے علاقہ",
+        "018": "جنوبی افریقہ کا علاقہ",
         "019": "امیریکاز",
         "021": "شمالی امریکہ کا علاقہ",
         "029": "کریبیائی",
@@ -785,7 +788,7 @@ public class LocalizedNamesImpl_ur extends LocalizedNamesImpl {
         "MF": "سینٹ مارٹن",
         "MG": "مڈغاسکر",
         "MH": "مارشل آئلینڈز",
-        "MK": "مقدونیہ",
+        "MK": "شمالی مقدونیہ",
         "ML": "مالی",
         "MM": "میانمار (برما)",
         "MN": "منگولیا",
@@ -851,13 +854,13 @@ public class LocalizedNamesImpl_ur extends LocalizedNamesImpl {
         "SO": "صومالیہ",
         "SR": "سورینام",
         "SS": "جنوبی سوڈان",
-        "ST": "ساؤ ٹوم اور پرنسپے",
+        "ST": "ساؤ ٹومے اور پرنسپے",
         "SV": "ال سلواڈور",
         "SX": "سنٹ مارٹن",
         "SY": "شام",
-        "SZ": "سوازی لینڈ",
+        "SZ": "سواتنی",
         "TA": "ٹرسٹن ڈا کیونہا",
-        "TC": "ترکس اور کیکاؤس جزائر",
+        "TC": "ٹرکس اور کیکوس جزائر",
         "TD": "چاڈ",
         "TF": "فرانسیسی جنوبی خطے",
         "TG": "ٹوگو",
@@ -868,7 +871,7 @@ public class LocalizedNamesImpl_ur extends LocalizedNamesImpl {
         "TM": "ترکمانستان",
         "TN": "تونس",
         "TO": "ٹونگا",
-        "TR": "ترکی",
+        "TR": "ترکیہ",
         "TT": "ترینیداد اور ٹوباگو",
         "TV": "ٹووالو",
         "TW": "تائیوان",
@@ -877,7 +880,7 @@ public class LocalizedNamesImpl_ur extends LocalizedNamesImpl {
         "UG": "یوگنڈا",
         "UM": "امریکہ سے باہر کے چھوٹے جزائز",
         "UN": "اقوام متحدہ",
-        "US": "ریاستہائے متحدہ",
+        "US": "ریاست ہائے متحدہ امریکہ",
         "UY": "یوروگوئے",
         "UZ": "ازبکستان",
         "VA": "ویٹیکن سٹی",
@@ -889,6 +892,8 @@ public class LocalizedNamesImpl_ur extends LocalizedNamesImpl {
         "VU": "وینوآٹو",
         "WF": "ویلیز اور فیوٹیونا",
         "WS": "ساموآ",
+        "XA": "بناوٹی لہجے",
+        "XB": "بناوٹی دو سمتی",
         "XK": "کوسووو",
         "YE": "یمن",
         "YT": "مایوٹ",

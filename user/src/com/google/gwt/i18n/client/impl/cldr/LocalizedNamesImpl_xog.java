@@ -79,6 +79,7 @@ public class LocalizedNamesImpl_xog extends LocalizedNamesImpl {
         "CC",
         "CL",
         "CP",
+        "CQ",
         "CU",
         "CW",
         "CX",
@@ -179,7 +180,6 @@ public class LocalizedNamesImpl_xog extends LocalizedNamesImpl {
         "ML",
         "MT",
         "MQ",
-        "MK",
         "MU",
         "MR",
         "YT",
@@ -188,6 +188,7 @@ public class LocalizedNamesImpl_xog extends LocalizedNamesImpl {
         "MF",
         "FM",
         "EG",
+        "MK",
         "MO",
         "MD",
         "MC",
@@ -411,7 +412,6 @@ public class LocalizedNamesImpl_xog extends LocalizedNamesImpl {
     namesMap.put("MD", "Molodova");
     namesMap.put("MG", "Madagasika");
     namesMap.put("MH", "Bizinga bya Mariso");
-    namesMap.put("MK", "Masedoniya");
     namesMap.put("MM", "Myanima");
     namesMap.put("MN", "Mongoliya");
     namesMap.put("MP", "Bizinga bya Mariyana ebyamumambuka");
@@ -624,7 +624,6 @@ public class LocalizedNamesImpl_xog extends LocalizedNamesImpl {
         "MD": "Molodova",
         "MG": "Madagasika",
         "MH": "Bizinga bya Mariso",
-        "MK": "Masedoniya",
         "MM": "Myanima",
         "MN": "Mongoliya",
         "MP": "Bizinga bya Mariyana ebyamumambuka",

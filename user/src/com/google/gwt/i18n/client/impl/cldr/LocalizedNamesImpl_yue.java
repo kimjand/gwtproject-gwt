@@ -34,8 +34,7 @@ public class LocalizedNamesImpl_yue extends LocalizedNamesImpl {
   @Override
   public String[] loadSortedRegionCodes() {
     return new String[] {
-        "XA",
-        "XB",
+        "CQ",
         "BT",
         "CN",
         "MO",
@@ -50,6 +49,8 @@ public class LocalizedNamesImpl_yue extends LocalizedNamesImpl {
         "EA",
         "RU",
         "BG",
+        "XB",
+        "XA",
         "HR",
         "CP",
         "IS",
@@ -62,6 +63,7 @@ public class LocalizedNamesImpl_yue extends LocalizedNamesImpl {
         "IC",
         "HU",
         "KP",
+        "MK",
         "MP",
         "TT",
         "GS",
@@ -287,7 +289,6 @@ public class LocalizedNamesImpl_yue extends LocalizedNamesImpl {
         "AL",
         "MQ",
         "MY",
-        "MK",
         "ML",
         "MW",
         "MT",
@@ -483,7 +484,7 @@ public class LocalizedNamesImpl_yue extends LocalizedNamesImpl {
     namesMap.put("MF", "法屬聖馬丁");
     namesMap.put("MG", "馬達加斯加");
     namesMap.put("MH", "馬紹爾群島");
-    namesMap.put("MK", "馬其頓");
+    namesMap.put("MK", "北馬其頓");
     namesMap.put("ML", "馬利");
     namesMap.put("MM", "緬甸");
     namesMap.put("MN", "蒙古");
@@ -587,6 +588,8 @@ public class LocalizedNamesImpl_yue extends LocalizedNamesImpl {
     namesMap.put("VU", "萬那杜");
     namesMap.put("WF", "瓦利斯同富圖納群島");
     namesMap.put("WS", "薩摩亞");
+    namesMap.put("XA", "偽口音");
+    namesMap.put("XB", "偽 Bidi");
     namesMap.put("XK", "科索沃");
     namesMap.put("YE", "葉門");
     namesMap.put("YT", "馬約特");
@@ -784,7 +787,7 @@ public class LocalizedNamesImpl_yue extends LocalizedNamesImpl {
         "MF": "法屬聖馬丁",
         "MG": "馬達加斯加",
         "MH": "馬紹爾群島",
-        "MK": "馬其頓",
+        "MK": "北馬其頓",
         "ML": "馬利",
         "MM": "緬甸",
         "MN": "蒙古",
@@ -888,6 +891,8 @@ public class LocalizedNamesImpl_yue extends LocalizedNamesImpl {
         "VU": "萬那杜",
         "WF": "瓦利斯同富圖納群島",
         "WS": "薩摩亞",
+        "XA": "偽口音",
+        "XB": "偽 Bidi",
         "XK": "科索沃",
         "YE": "葉門",
         "YT": "馬約特",

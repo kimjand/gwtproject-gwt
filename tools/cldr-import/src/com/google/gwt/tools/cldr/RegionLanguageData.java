@@ -183,9 +183,8 @@ public class RegionLanguageData {
     regionMap = new HashMap<String, SortedSet<LanguagePopulation>>();
     languageMap = new HashMap<String, SortedSet<RegionPopulation>>();
     InputFile supp = cldrFactory.getSupplementalData();
-    XPathParts parts = new XPathParts();
     for (String path : supp.listPaths("//supplementalData/territoryInfo/territory")) {
-      parts.set(supp.getFullXPath(path));
+      final XPathParts parts = XPathParts.getFrozenInstance(supp.getFullXPath(path));
       String language = parts.findAttributeValue("languagePopulation", "type");
       if (language == null) {
         continue;

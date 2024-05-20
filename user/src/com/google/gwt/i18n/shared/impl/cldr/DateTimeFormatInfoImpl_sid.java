@@ -14,12 +14,7 @@
  * the License.
  */
 package com.google.gwt.i18n.shared.impl.cldr;
-
 // DO NOT EDIT - GENERATED FROM CLDR AND ICU DATA
-//  cldrVersion=21.0
-//  number=$Revision: 6546 $
-//  type=root
-//  date=$Date: 2012-02-07 13:32:35 -0500 (Tue, 07 Feb 2012) $
 
 /**
  * Implementation of DateTimeFormatInfo for the "sid" locale.
@@ -73,6 +68,16 @@ public class DateTimeFormatInfoImpl_sid extends DateTimeFormatInfoImpl {
   @Override
   public int firstDayOfTheWeek() {
     return 0;
+  }
+
+  @Override
+  public String formatHour12Minute() {
+    return "h:mm a";
+  }
+
+  @Override
+  public String formatHour12MinuteSecond() {
+    return "h:mm:ss a";
   }
 
   @Override
@@ -133,18 +138,18 @@ public class DateTimeFormatInfoImpl_sid extends DateTimeFormatInfoImpl {
   @Override
   public String[] monthsFull() {
     return new String[] {
-        "1",
-        "2",
-        "3",
-        "4",
-        "5",
-        "6",
-        "7",
-        "8",
-        "9",
-        "10",
-        "11",
-        "12"
+        "M01",
+        "M02",
+        "M03",
+        "M04",
+        "M05",
+        "M06",
+        "M07",
+        "M08",
+        "M09",
+        "M10",
+        "M11",
+        "M12"
     };
   }
 
@@ -169,18 +174,18 @@ public class DateTimeFormatInfoImpl_sid extends DateTimeFormatInfoImpl {
   @Override
   public String[] monthsShort() {
     return new String[] {
-        "1",
-        "2",
-        "3",
-        "4",
-        "5",
-        "6",
-        "7",
-        "8",
-        "9",
-        "10",
-        "11",
-        "12"
+        "M01",
+        "M02",
+        "M03",
+        "M04",
+        "M05",
+        "M06",
+        "M07",
+        "M08",
+        "M09",
+        "M10",
+        "M11",
+        "M12"
     };
   }
 
@@ -196,22 +201,22 @@ public class DateTimeFormatInfoImpl_sid extends DateTimeFormatInfoImpl {
 
   @Override
   public String timeFormatFull() {
-    return "h:mm:ss a zzzz";
+    return "h:mm:ss a zzzz";
   }
 
   @Override
   public String timeFormatLong() {
-    return "h:mm:ss a z";
+    return "h:mm:ss a z";
   }
 
   @Override
   public String timeFormatMedium() {
-    return "h:mm:ss a";
+    return "h:mm:ss a";
   }
 
   @Override
   public String timeFormatShort() {
-    return "h:mm a";
+    return "h:mm a";
   }
 
   @Override

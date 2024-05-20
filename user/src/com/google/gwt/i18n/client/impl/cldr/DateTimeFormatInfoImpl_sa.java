@@ -1,5 +1,5 @@
 /*
- * Copyright 2010 Google Inc.
+ * Copyright 2012 Google Inc.
  * 
  * Licensed under the Apache License, Version 2.0 (the "License"); you may not
  * use this file except in compliance with the License. You may obtain a copy of
@@ -14,7 +14,6 @@
  * the License.
  */
 package com.google.gwt.i18n.client.impl.cldr;
-
 // DO NOT EDIT - GENERATED FROM CLDR AND ICU DATA
 
 /**
@@ -24,7 +23,7 @@ public class DateTimeFormatInfoImpl_sa extends DateTimeFormatInfoImpl {
 
   @Override
   public String dateFormatFull() {
-    return "EEEE d MMMM y";
+    return "EEEE, d MMMM y";
   }
 
   @Override
@@ -34,12 +33,32 @@ public class DateTimeFormatInfoImpl_sa extends DateTimeFormatInfoImpl {
 
   @Override
   public String dateFormatMedium() {
-    return "dd-MM-yyyy";
+    return "d MMM y";
   }
 
   @Override
   public String dateFormatShort() {
-    return "d-MM-yy";
+    return "d/M/yy";
+  }
+
+  @Override
+  public String dateTimeFull(String timePattern, String datePattern) {
+    return datePattern + ", " + timePattern;
+  }
+
+  @Override
+  public String dateTimeLong(String timePattern, String datePattern) {
+    return datePattern + ", " + timePattern;
+  }
+
+  @Override
+  public String dateTimeMedium(String timePattern, String datePattern) {
+    return datePattern + ", " + timePattern;
+  }
+
+  @Override
+  public String dateTimeShort(String timePattern, String datePattern) {
+    return datePattern + ", " + timePattern;
   }
 
   @Override
@@ -64,13 +83,23 @@ public class DateTimeFormatInfoImpl_sa extends DateTimeFormatInfoImpl {
   }
 
   @Override
+  public String formatMonthAbbrevDay() {
+    return "d MMM";
+  }
+
+  @Override
+  public String formatMonthFullDay() {
+    return "d MMMM";
+  }
+
+  @Override
   public String formatMonthFullWeekdayDay() {
-    return "EEEE, MMMM d";
+    return "EEEE, d MMMM";
   }
 
   @Override
   public String formatMonthNumDay() {
-    return "M/d";
+    return "d/M";
   }
 
   @Override
@@ -80,7 +109,7 @@ public class DateTimeFormatInfoImpl_sa extends DateTimeFormatInfoImpl {
 
   @Override
   public String formatYearMonthAbbrevDay() {
-    return "MMM d, y";
+    return "d MMM y";
   }
 
   @Override
@@ -90,7 +119,7 @@ public class DateTimeFormatInfoImpl_sa extends DateTimeFormatInfoImpl {
 
   @Override
   public String formatYearMonthFullDay() {
-    return "MMMM d, y";
+    return "d MMMM y";
   }
 
   @Override
@@ -100,12 +129,12 @@ public class DateTimeFormatInfoImpl_sa extends DateTimeFormatInfoImpl {
 
   @Override
   public String formatYearMonthNumDay() {
-    return "M/d/y";
+    return "d/M/y";
   }
 
   @Override
   public String formatYearMonthWeekdayDay() {
-    return "EEE, MMM d, y";
+    return "EEE, d MMM y";
   }
 
   @Override
@@ -121,23 +150,41 @@ public class DateTimeFormatInfoImpl_sa extends DateTimeFormatInfoImpl {
   @Override
   public String[] monthsFull() {
     return new String[] {
-        "1",
-        "2",
-        "3",
-        "4",
-        "5",
-        "6",
-        "7",
-        "8",
-        "9",
-        "10",
-        "11",
-        "12"
+        "जनवरीमासः",
+        "फरवरीमासः",
+        "मार्चमासः",
+        "अप्रैलमासः",
+        "मईमासः",
+        "जूनमासः",
+        "जुलाईमासः",
+        "अगस्तमासः",
+        "सितंबरमासः",
+        "अक्तूबरमासः",
+        "नवंबरमासः",
+        "दिसंबरमासः"
     };
   }
 
   @Override
   public String[] monthsNarrow() {
+    return new String[] {
+        "ज",
+        "फ",
+        "मा",
+        "अ",
+        "म",
+        "जू",
+        "जु",
+        "अ",
+        "सि",
+        "अ",
+        "न",
+        "दि"
+    };
+  }
+
+  @Override
+  public String[] monthsNarrowStandalone() {
     return new String[] {
         "1",
         "2",
@@ -157,87 +204,97 @@ public class DateTimeFormatInfoImpl_sa extends DateTimeFormatInfoImpl {
   @Override
   public String[] monthsShort() {
     return new String[] {
-        "1",
-        "2",
-        "3",
-        "4",
-        "5",
-        "6",
-        "7",
-        "8",
-        "9",
-        "10",
-        "11",
-        "12"
+        "जनवरी:",
+        "फरवरी:",
+        "मार्च:",
+        "अप्रैल:",
+        "मई",
+        "जून:",
+        "जुलाई:",
+        "अगस्त:",
+        "सितंबर:",
+        "अक्तूबर:",
+        "नवंबर:",
+        "दिसंबर:"
     };
   }
 
   @Override
   public String[] quartersFull() {
     return new String[] {
-        "Q1",
-        "Q2",
-        "Q3",
-        "Q4"
+        "प्रथम त्रैमासिक",
+        "द्वितीय त्रैमासिक",
+        "तृतीय त्रैमासिक",
+        "चतुर्थ त्रैमासिक"
+    };
+  }
+
+  @Override
+  public String[] quartersShort() {
+    return new String[] {
+        "त्रैमासिक1",
+        "त्रैमासिक2",
+        "त्रैमासिक3",
+        "त्रैमासिक4"
     };
   }
 
   @Override
   public String timeFormatFull() {
-    return "hh:mm:ss a zzzz";
+    return "h:mm:ss a zzzz";
   }
 
   @Override
   public String timeFormatLong() {
-    return "hh:mm:ss a z";
+    return "h:mm:ss a z";
   }
 
   @Override
   public String timeFormatMedium() {
-    return "hh:mm:ss a";
+    return "h:mm:ss a";
   }
 
   @Override
   public String timeFormatShort() {
-    return "hh:mm a";
+    return "h:mm a";
   }
 
   @Override
   public String[] weekdaysFull() {
     return new String[] {
-        "1",
-        "2",
-        "3",
-        "4",
-        "5",
-        "6",
-        "7"
+        "रविवासरः",
+        "सोमवासरः",
+        "मंगलवासरः",
+        "बुधवासरः",
+        "गुरुवासर:",
+        "शुक्रवासरः",
+        "शनिवासरः"
     };
   }
 
   @Override
   public String[] weekdaysNarrow() {
     return new String[] {
-        "1",
-        "2",
-        "3",
-        "4",
-        "5",
-        "6",
-        "7"
+        "र",
+        "सो",
+        "मं",
+        "बु",
+        "गु",
+        "शु",
+        "श"
     };
   }
 
   @Override
   public String[] weekdaysShort() {
     return new String[] {
-        "1",
-        "2",
-        "3",
-        "4",
-        "5",
-        "6",
-        "7"
+        "रवि",
+        "सोम",
+        "मंगल",
+        "बुध",
+        "गुरु",
+        "शुक्र",
+        "शनि"
     };
   }
 

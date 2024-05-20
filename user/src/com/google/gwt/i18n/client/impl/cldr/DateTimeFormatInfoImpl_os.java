@@ -23,17 +23,17 @@ public class DateTimeFormatInfoImpl_os extends DateTimeFormatInfoImpl {
 
   @Override
   public String dateFormatFull() {
-    return "EEEE, d MMMM, y 'аз'";
+    return "EEEE, d MMMM, y 'аз'";
   }
 
   @Override
   public String dateFormatLong() {
-    return "d MMMM, y 'аз'";
+    return "d MMMM, y 'аз'";
   }
 
   @Override
   public String dateFormatMedium() {
-    return "dd MMM y 'аз'";
+    return "dd MMM y 'аз'";
   }
 
   @Override
@@ -78,6 +78,16 @@ public class DateTimeFormatInfoImpl_os extends DateTimeFormatInfoImpl {
   }
 
   @Override
+  public String formatHour12Minute() {
+    return "h:mm a";
+  }
+
+  @Override
+  public String formatHour12MinuteSecond() {
+    return "h:mm:ss a";
+  }
+
+  @Override
   public String formatMonthAbbrevDay() {
     return "d MMM";
   }
@@ -98,23 +108,13 @@ public class DateTimeFormatInfoImpl_os extends DateTimeFormatInfoImpl {
   }
 
   @Override
-  public String formatYearMonthAbbrevDay() {
-    return "d MMM, y 'аз'";
-  }
-
-  @Override
   public String formatYearMonthFullDay() {
-    return "d MMMM, y 'аз'";
+    return "d MMMM, y 'аз'";
   }
 
   @Override
   public String formatYearMonthNum() {
     return "MM.y";
-  }
-
-  @Override
-  public String formatYearMonthNumDay() {
-    return "d.M.y";
   }
 
   @Override

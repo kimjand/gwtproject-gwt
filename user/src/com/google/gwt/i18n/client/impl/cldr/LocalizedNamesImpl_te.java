@@ -34,8 +34,7 @@ public class LocalizedNamesImpl_te extends LocalizedNamesImpl {
   @Override
   public String[] loadSortedRegionCodes() {
     return new String[] {
-        "XA",
-        "XB",
+        "CQ",
         "AO",
         "AQ",
         "AZ",
@@ -62,11 +61,13 @@ public class LocalizedNamesImpl_te extends LocalizedNamesImpl {
         "GQ",
         "EC",
         "EG",
+        "SZ",
         "UA",
         "UG",
         "UZ",
         "KP",
         "MP",
+        "MK",
         "UY",
         "ER",
         "SV",
@@ -131,7 +132,6 @@ public class LocalizedNamesImpl_te extends LocalizedNamesImpl {
         "GI",
         "JE",
         "JO",
-        "TR",
         "TM",
         "TC",
         "TZ",
@@ -148,6 +148,7 @@ public class LocalizedNamesImpl_te extends LocalizedNamesImpl {
         "DO",
         "DM",
         "TJ",
+        "TR",
         "TW",
         "TH",
         "ZA",
@@ -224,7 +225,6 @@ public class LocalizedNamesImpl_te extends LocalizedNamesImpl {
         "MT",
         "MV",
         "MX",
-        "MK",
         "FM",
         "MZ",
         "MC",
@@ -268,6 +268,8 @@ public class LocalizedNamesImpl_te extends LocalizedNamesImpl {
         "SY",
         "SC",
         "SD",
+        "XB",
+        "XA",
         "SR",
         "CF",
         "SN",
@@ -287,7 +289,6 @@ public class LocalizedNamesImpl_te extends LocalizedNamesImpl {
         "EA",
         "SK",
         "SI",
-        "SZ",
         "SJ",
         "CH",
         "SE",
@@ -318,7 +319,7 @@ public class LocalizedNamesImpl_te extends LocalizedNamesImpl {
     namesMap.put("029", "కరిబ్బియన్");
     namesMap.put("030", "తూర్పు ఆసియా");
     namesMap.put("034", "దక్షిణ ఆసియా");
-    namesMap.put("035", "నైరుతి ఆసియా");
+    namesMap.put("035", "ఆగ్నేయ ఆసియా");
     namesMap.put("039", "దక్షిణ యూరోప్");
     namesMap.put("053", "ఆస్ట్రేలేసియా");
     namesMap.put("054", "మెలనేశియ");
@@ -326,7 +327,7 @@ public class LocalizedNamesImpl_te extends LocalizedNamesImpl {
     namesMap.put("061", "పాలినేషియా");
     namesMap.put("142", "ఆసియా");
     namesMap.put("143", "మధ్య ఆసియా");
-    namesMap.put("145", "పడమటి ఆసియా");
+    namesMap.put("145", "పశ్చిమ ఆసియా");
     namesMap.put("150", "యూరోప్");
     namesMap.put("151", "తూర్పు యూరోప్");
     namesMap.put("154", "ఉత్తర యూరోప్");
@@ -433,7 +434,7 @@ public class LocalizedNamesImpl_te extends LocalizedNamesImpl {
     namesMap.put("GU", "గ్వామ్");
     namesMap.put("GW", "గినియా-బిస్సావ్");
     namesMap.put("GY", "గయానా");
-    namesMap.put("HK", "హాంకాంగ్ ఎస్ఏఆర్");
+    namesMap.put("HK", "హాంకాంగ్ ఎస్ఏఆర్ చైనా");
     namesMap.put("HM", "హెర్డ్ దీవి మరియు మెక్‌డొనాల్డ్ దీవులు");
     namesMap.put("HN", "హోండురాస్");
     namesMap.put("HR", "క్రొయేషియా");
@@ -445,7 +446,7 @@ public class LocalizedNamesImpl_te extends LocalizedNamesImpl {
     namesMap.put("IL", "ఇజ్రాయెల్");
     namesMap.put("IM", "ఐల్ ఆఫ్ మాన్");
     namesMap.put("IN", "భారతదేశం");
-    namesMap.put("IO", "బ్రిటీష్ హిందూ మహాసముద్ర ప్రాంతం");
+    namesMap.put("IO", "బ్రిటిష్ హిందూ మహాసముద్ర ప్రాంతం");
     namesMap.put("IQ", "ఇరాక్");
     namesMap.put("IR", "ఇరాన్");
     namesMap.put("IS", "ఐస్లాండ్");
@@ -483,7 +484,7 @@ public class LocalizedNamesImpl_te extends LocalizedNamesImpl {
     namesMap.put("MF", "సెయింట్ మార్టిన్");
     namesMap.put("MG", "మడగాస్కర్");
     namesMap.put("MH", "మార్షల్ దీవులు");
-    namesMap.put("MK", "మేసిడోనియా");
+    namesMap.put("MK", "ఉత్తర మాసిడోనియా");
     namesMap.put("ML", "మాలి");
     namesMap.put("MM", "మయన్మార్");
     namesMap.put("MN", "మంగోలియా");
@@ -553,7 +554,7 @@ public class LocalizedNamesImpl_te extends LocalizedNamesImpl {
     namesMap.put("SV", "ఎల్ సాల్వడోర్");
     namesMap.put("SX", "సింట్ మార్టెన్");
     namesMap.put("SY", "సిరియా");
-    namesMap.put("SZ", "స్వాజిల్యాండ్");
+    namesMap.put("SZ", "ఈస్వాటిని");
     namesMap.put("TA", "ట్రిస్టన్ డ కన్హా");
     namesMap.put("TC", "టర్క్స్ మరియు కైకోస్ దీవులు");
     namesMap.put("TD", "చాద్");
@@ -566,7 +567,7 @@ public class LocalizedNamesImpl_te extends LocalizedNamesImpl {
     namesMap.put("TM", "టర్క్‌మెనిస్తాన్");
     namesMap.put("TN", "ట్యునీషియా");
     namesMap.put("TO", "టోంగా");
-    namesMap.put("TR", "టర్కీ");
+    namesMap.put("TR", "తుర్కియె");
     namesMap.put("TT", "ట్రినిడాడ్ మరియు టొబాగో");
     namesMap.put("TV", "టువాలు");
     namesMap.put("TW", "తైవాన్");
@@ -587,6 +588,8 @@ public class LocalizedNamesImpl_te extends LocalizedNamesImpl {
     namesMap.put("VU", "వనాటు");
     namesMap.put("WF", "వాల్లిస్ మరియు ఫుటునా");
     namesMap.put("WS", "సమోవా");
+    namesMap.put("XA", "సూడో యాక్సెంట్స్");
+    namesMap.put("XB", "సూడో-బిడి");
     namesMap.put("XK", "కొసోవో");
     namesMap.put("YE", "యెమెన్");
     namesMap.put("YT", "మాయొట్");
@@ -619,7 +622,7 @@ public class LocalizedNamesImpl_te extends LocalizedNamesImpl {
         "029": "కరిబ్బియన్",
         "030": "తూర్పు ఆసియా",
         "034": "దక్షిణ ఆసియా",
-        "035": "నైరుతి ఆసియా",
+        "035": "ఆగ్నేయ ఆసియా",
         "039": "దక్షిణ యూరోప్",
         "053": "ఆస్ట్రేలేసియా",
         "054": "మెలనేశియ",
@@ -627,7 +630,7 @@ public class LocalizedNamesImpl_te extends LocalizedNamesImpl {
         "061": "పాలినేషియా",
         "142": "ఆసియా",
         "143": "మధ్య ఆసియా",
-        "145": "పడమటి ఆసియా",
+        "145": "పశ్చిమ ఆసియా",
         "150": "యూరోప్",
         "151": "తూర్పు యూరోప్",
         "154": "ఉత్తర యూరోప్",
@@ -734,7 +737,7 @@ public class LocalizedNamesImpl_te extends LocalizedNamesImpl {
         "GU": "గ్వామ్",
         "GW": "గినియా-బిస్సావ్",
         "GY": "గయానా",
-        "HK": "హాంకాంగ్ ఎస్ఏఆర్",
+        "HK": "హాంకాంగ్ ఎస్ఏఆర్ చైనా",
         "HM": "హెర్డ్ దీవి మరియు మెక్‌డొనాల్డ్ దీవులు",
         "HN": "హోండురాస్",
         "HR": "క్రొయేషియా",
@@ -746,7 +749,7 @@ public class LocalizedNamesImpl_te extends LocalizedNamesImpl {
         "IL": "ఇజ్రాయెల్",
         "IM": "ఐల్ ఆఫ్ మాన్",
         "IN": "భారతదేశం",
-        "IO": "బ్రిటీష్ హిందూ మహాసముద్ర ప్రాంతం",
+        "IO": "బ్రిటిష్ హిందూ మహాసముద్ర ప్రాంతం",
         "IQ": "ఇరాక్",
         "IR": "ఇరాన్",
         "IS": "ఐస్లాండ్",
@@ -784,7 +787,7 @@ public class LocalizedNamesImpl_te extends LocalizedNamesImpl {
         "MF": "సెయింట్ మార్టిన్",
         "MG": "మడగాస్కర్",
         "MH": "మార్షల్ దీవులు",
-        "MK": "మేసిడోనియా",
+        "MK": "ఉత్తర మాసిడోనియా",
         "ML": "మాలి",
         "MM": "మయన్మార్",
         "MN": "మంగోలియా",
@@ -854,7 +857,7 @@ public class LocalizedNamesImpl_te extends LocalizedNamesImpl {
         "SV": "ఎల్ సాల్వడోర్",
         "SX": "సింట్ మార్టెన్",
         "SY": "సిరియా",
-        "SZ": "స్వాజిల్యాండ్",
+        "SZ": "ఈస్వాటిని",
         "TA": "ట్రిస్టన్ డ కన్హా",
         "TC": "టర్క్స్ మరియు కైకోస్ దీవులు",
         "TD": "చాద్",
@@ -867,7 +870,7 @@ public class LocalizedNamesImpl_te extends LocalizedNamesImpl {
         "TM": "టర్క్‌మెనిస్తాన్",
         "TN": "ట్యునీషియా",
         "TO": "టోంగా",
-        "TR": "టర్కీ",
+        "TR": "తుర్కియె",
         "TT": "ట్రినిడాడ్ మరియు టొబాగో",
         "TV": "టువాలు",
         "TW": "తైవాన్",
@@ -888,6 +891,8 @@ public class LocalizedNamesImpl_te extends LocalizedNamesImpl {
         "VU": "వనాటు",
         "WF": "వాల్లిస్ మరియు ఫుటునా",
         "WS": "సమోవా",
+        "XA": "సూడో యాక్సెంట్స్",
+        "XB": "సూడో-బిడి",
         "XK": "కొసోవో",
         "YE": "యెమెన్",
         "YT": "మాయొట్",

@@ -35,13 +35,18 @@ public class DateTimeFormatInfoImpl_sn extends DateTimeFormatInfoImpl {
   }
 
   @Override
-  public String formatMonthFullWeekdayDay() {
-    return "EEEE, MMMM d";
+  public String formatHour12Minute() {
+    return "h:mm a";
   }
 
   @Override
-  public String formatYearMonthNumDay() {
-    return "y-MM-dd";
+  public String formatHour12MinuteSecond() {
+    return "h:mm:ss a";
+  }
+
+  @Override
+  public String formatMonthFullWeekdayDay() {
+    return "EEEE, MMMM d";
   }
 
   @Override

@@ -78,6 +78,7 @@ public class LocalizedNamesImpl_ss extends LocalizedNamesImpl {
         "CN",
         "CO",
         "CP",
+        "CQ",
         "CR",
         "CU",
         "CV",
@@ -99,8 +100,10 @@ public class LocalizedNamesImpl_ss extends LocalizedNamesImpl {
         "EH",
         "ER",
         "ES",
+        "SZ",
         "ET",
         "EU",
+        "EZ",
         "FI",
         "FJ",
         "FK",
@@ -246,7 +249,6 @@ public class LocalizedNamesImpl_ss extends LocalizedNamesImpl {
         "SV",
         "SX",
         "SY",
-        "SZ",
         "TA",
         "TC",
         "TD",
@@ -267,6 +269,7 @@ public class LocalizedNamesImpl_ss extends LocalizedNamesImpl {
         "UA",
         "UG",
         "UM",
+        "UN",
         "US",
         "UY",
         "UZ",
@@ -279,6 +282,8 @@ public class LocalizedNamesImpl_ss extends LocalizedNamesImpl {
         "VU",
         "WF",
         "WS",
+        "XA",
+        "XB",
         "XK",
         "YE",
         "YT",
@@ -291,6 +296,7 @@ public class LocalizedNamesImpl_ss extends LocalizedNamesImpl {
   @Override
   protected void loadNameMapJava() {
     super.loadNameMapJava();
+    namesMap.put("SZ", "eSwatini");
   }
 
   @Override
@@ -300,7 +306,7 @@ public class LocalizedNamesImpl_ss extends LocalizedNamesImpl {
 
   private native JavaScriptObject loadMyNameMap() /*-{
     return {
-
+        "SZ": "eSwatini"
     };
   }-*/;
 }

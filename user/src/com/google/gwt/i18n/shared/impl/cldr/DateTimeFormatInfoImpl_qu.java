@@ -46,7 +46,7 @@ public class DateTimeFormatInfoImpl_qu extends DateTimeFormatInfoImpl {
 
   @Override
   public String dateFormatShort() {
-    return "dd/MM/y";
+    return "d/M/yy";
   }
 
   @Override
@@ -57,17 +57,27 @@ public class DateTimeFormatInfoImpl_qu extends DateTimeFormatInfoImpl {
   @Override
   public String[] erasFull() {
     return new String[] {
-        "BCE",
-        "d.C."
+        "ñawpa cristu",
+        "chanta cristu"
     };
   }
 
   @Override
   public String[] erasShort() {
     return new String[] {
-        "BCE",
+        "a.d.",
         "d.C."
     };
+  }
+
+  @Override
+  public String formatHour12Minute() {
+    return "h:mm a";
+  }
+
+  @Override
+  public String formatHour12MinuteSecond() {
+    return "h:mm:ss a";
   }
 
   @Override
@@ -177,6 +187,26 @@ public class DateTimeFormatInfoImpl_qu extends DateTimeFormatInfoImpl {
         "Q3",
         "Q4"
     };
+  }
+
+  @Override
+  public String timeFormatFull() {
+    return "h:mm:ss a zzzz";
+  }
+
+  @Override
+  public String timeFormatLong() {
+    return "h:mm:ss a z";
+  }
+
+  @Override
+  public String timeFormatMedium() {
+    return "h:mm:ss a";
+  }
+
+  @Override
+  public String timeFormatShort() {
+    return "h:mm a";
   }
 
   @Override

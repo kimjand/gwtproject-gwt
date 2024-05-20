@@ -42,20 +42,10 @@ public class DateTimeFormatInfoImpl_da extends DateTimeFormatInfoImpl {
   }
 
   @Override
-  public String dateTimeFull(String timePattern, String datePattern) {
-    return datePattern + " 'kl'. " + timePattern;
-  }
-
-  @Override
-  public String dateTimeLong(String timePattern, String datePattern) {
-    return datePattern + " 'kl'. " + timePattern;
-  }
-
-  @Override
   public String[] erasFull() {
     return new String[] {
-        "f.Kr.",
-        "e.Kr."
+        "før Kristus",
+        "efter Kristus"
     };
   }
 
@@ -74,12 +64,12 @@ public class DateTimeFormatInfoImpl_da extends DateTimeFormatInfoImpl {
 
   @Override
   public String formatHour12Minute() {
-    return "h.mm a";
+    return "h.mm a";
   }
 
   @Override
   public String formatHour12MinuteSecond() {
-    return "h.mm.ss a";
+    return "h.mm.ss a";
   }
 
   @Override
@@ -279,24 +269,11 @@ public class DateTimeFormatInfoImpl_da extends DateTimeFormatInfoImpl {
     return new String[] {
         "søn.",
         "man.",
-        "tir.",
+        "tirs.",
         "ons.",
-        "tor.",
+        "tors.",
         "fre.",
         "lør."
-    };
-  }
-
-  @Override
-  public String[] weekdaysShortStandalone() {
-    return new String[] {
-        "søn",
-        "man",
-        "tir",
-        "ons",
-        "tor",
-        "fre",
-        "lør"
     };
   }
 }

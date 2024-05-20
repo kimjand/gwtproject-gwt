@@ -22,14 +22,6 @@ package com.google.gwt.i18n.client.impl.cldr;
 public class DateTimeFormatInfoImpl_cy extends DateTimeFormatInfoImpl {
 
   @Override
-  public String[] ampms() {
-    return new String[] {
-        "yb",
-        "yh"
-    };
-  }
-
-  @Override
   public String dateFormatFull() {
     return "EEEE, d MMMM y";
   }
@@ -51,12 +43,12 @@ public class DateTimeFormatInfoImpl_cy extends DateTimeFormatInfoImpl {
 
   @Override
   public String dateTimeFull(String timePattern, String datePattern) {
-    return datePattern + " 'am' " + timePattern;
+    return datePattern + ", " + timePattern;
   }
 
   @Override
   public String dateTimeLong(String timePattern, String datePattern) {
-    return datePattern + " 'am' " + timePattern;
+    return datePattern + ", " + timePattern;
   }
 
   @Override
@@ -73,6 +65,16 @@ public class DateTimeFormatInfoImpl_cy extends DateTimeFormatInfoImpl {
         "CC",
         "OC"
     };
+  }
+
+  @Override
+  public String formatHour12Minute() {
+    return "h:mm a";
+  }
+
+  @Override
+  public String formatHour12MinuteSecond() {
+    return "h:mm:ss a";
   }
 
   @Override
@@ -177,7 +179,7 @@ public class DateTimeFormatInfoImpl_cy extends DateTimeFormatInfoImpl {
         "Ion",
         "Chwef",
         "Maw",
-        "Ebrill",
+        "Ebr",
         "Mai",
         "Meh",
         "Gorff",

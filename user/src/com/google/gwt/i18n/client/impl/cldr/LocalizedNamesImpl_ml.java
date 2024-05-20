@@ -34,8 +34,7 @@ public class LocalizedNamesImpl_ml extends LocalizedNamesImpl {
   @Override
   public String[] loadSortedRegionCodes() {
     return new String[] {
-        "XA",
-        "XB",
+        "CQ",
         "AO",
         "AQ",
         "AF",
@@ -89,6 +88,7 @@ public class LocalizedNamesImpl_ml extends LocalizedNamesImpl {
         "CK",
         "CW",
         "KW",
+        "XA",
         "KE",
         "CV",
         "KY",
@@ -136,8 +136,8 @@ public class LocalizedNamesImpl_ml extends LocalizedNamesImpl {
         "TO",
         "TK",
         "TG",
-        "TA",
         "TT",
+        "TA",
         "TC",
         "DG",
         "DK",
@@ -160,6 +160,7 @@ public class LocalizedNamesImpl_ml extends LocalizedNamesImpl {
         "NP",
         "NG",
         "NE",
+        "MK",
         "NF",
         "NO",
         "NC",
@@ -216,7 +217,6 @@ public class LocalizedNamesImpl_ml extends LocalizedNamesImpl {
         "MY",
         "ML",
         "MV",
-        "MK",
         "MQ",
         "MH",
         "MT",
@@ -284,6 +284,7 @@ public class LocalizedNamesImpl_ml extends LocalizedNamesImpl {
         "SO",
         "SB",
         "ES",
+        "XB",
         "SK",
         "SI",
         "SZ",
@@ -292,8 +293,8 @@ public class LocalizedNamesImpl_ml extends LocalizedNamesImpl {
         "SE",
         "SA",
         "HU",
-        "HM",
         "HT",
+        "HM",
         "HK",
         "HN",
     };
@@ -308,10 +309,10 @@ public class LocalizedNamesImpl_ml extends LocalizedNamesImpl {
     namesMap.put("005", "തെക്കേ അമേരിക്ക");
     namesMap.put("009", "ഓഷ്യാനിയ");
     namesMap.put("011", "പശ്ചിമ ആഫ്രിക്ക");
-    namesMap.put("013", "മദ്ധ്യഅമേരിക്ക");
+    namesMap.put("013", "മദ്ധ്യ അമേരിക്ക");
     namesMap.put("014", "കിഴക്കൻ ആഫ്രിക്ക");
     namesMap.put("015", "ഉത്തരാഫ്രിക്ക");
-    namesMap.put("017", "മദ്ധ്യആഫ്രിക്ക");
+    namesMap.put("017", "മദ്ധ്യ ആഫ്രിക്ക");
     namesMap.put("018", "തെക്കേ ആഫ്രിക്ക");
     namesMap.put("019", "അമേരിക്കകൾ");
     namesMap.put("021", "വടക്കൻ അമേരിക്ക");
@@ -422,7 +423,7 @@ public class LocalizedNamesImpl_ml extends LocalizedNamesImpl {
     namesMap.put("GG", "ഗേൺസി");
     namesMap.put("GH", "ഘാന");
     namesMap.put("GI", "ജിബ്രാൾട്ടർ");
-    namesMap.put("GL", "ഗ്രീൻലാൻറ്");
+    namesMap.put("GL", "ഗ്രീൻലൻഡ്");
     namesMap.put("GM", "ഗാംബിയ");
     namesMap.put("GN", "ഗിനിയ");
     namesMap.put("GP", "ഗ്വാഡലൂപ്പ്");
@@ -434,7 +435,7 @@ public class LocalizedNamesImpl_ml extends LocalizedNamesImpl {
     namesMap.put("GW", "ഗിനിയ-ബിസൗ");
     namesMap.put("GY", "ഗയാന");
     namesMap.put("HK", "ഹോങ്കോങ് (SAR) ചൈന");
-    namesMap.put("HM", "ഹിയേർഡും മക്‌ഡൊണാൾഡ് ദ്വീപുകളും");
+    namesMap.put("HM", "ഹേർഡ്, മക്ഡോണൾഡ് ദ്വീപുകൾ");
     namesMap.put("HN", "ഹോണ്ടുറാസ്");
     namesMap.put("HR", "ക്രൊയേഷ്യ");
     namesMap.put("HT", "ഹെയ്തി");
@@ -445,7 +446,7 @@ public class LocalizedNamesImpl_ml extends LocalizedNamesImpl {
     namesMap.put("IL", "ഇസ്രായേൽ");
     namesMap.put("IM", "ഐൽ ഓഫ് മാൻ");
     namesMap.put("IN", "ഇന്ത്യ");
-    namesMap.put("IO", "ബ്രിട്ടീഷ് ഇന്ത്യൻ മഹാസമുദ്ര പ്രദേശം");
+    namesMap.put("IO", "ബ്രിട്ടീഷ് ഇന്ത്യൻ ഓഷ്യൻ ടെറിട്ടറി");
     namesMap.put("IQ", "ഇറാഖ്");
     namesMap.put("IR", "ഇറാൻ");
     namesMap.put("IS", "ഐസ്‌ലാന്റ്");
@@ -483,11 +484,11 @@ public class LocalizedNamesImpl_ml extends LocalizedNamesImpl {
     namesMap.put("MF", "സെന്റ് മാർട്ടിൻ");
     namesMap.put("MG", "മഡഗാസ്കർ");
     namesMap.put("MH", "മാർഷൽ ദ്വീപുകൾ");
-    namesMap.put("MK", "മാസിഡോണിയ");
+    namesMap.put("MK", "നോർത്ത് മാസിഡോണിയ");
     namesMap.put("ML", "മാലി");
     namesMap.put("MM", "മ്യാൻമാർ (ബർമ്മ)");
     namesMap.put("MN", "മംഗോളിയ");
-    namesMap.put("MO", "മക്കാവു (SAR) ചൈന");
+    namesMap.put("MO", "മക്കാവു SAR ചൈന");
     namesMap.put("MP", "ഉത്തര മറിയാനാ ദ്വീപുകൾ");
     namesMap.put("MQ", "മാർട്ടിനിക്ക്");
     namesMap.put("MR", "മൗറിറ്റാനിയ");
@@ -510,7 +511,7 @@ public class LocalizedNamesImpl_ml extends LocalizedNamesImpl {
     namesMap.put("NP", "നേപ്പാൾ");
     namesMap.put("NR", "നൗറു");
     namesMap.put("NU", "ന്യൂയി");
-    namesMap.put("NZ", "ന്യൂസിലാൻറ്");
+    namesMap.put("NZ", "ന്യൂസിലൻഡ്");
     namesMap.put("OM", "ഒമാൻ");
     namesMap.put("PA", "പനാമ");
     namesMap.put("PE", "പെറു");
@@ -519,7 +520,7 @@ public class LocalizedNamesImpl_ml extends LocalizedNamesImpl {
     namesMap.put("PH", "ഫിലിപ്പീൻസ്");
     namesMap.put("PK", "പാക്കിസ്ഥാൻ");
     namesMap.put("PL", "പോളണ്ട്");
-    namesMap.put("PM", "സെന്റ് പിയറിയും മിക്കലണും");
+    namesMap.put("PM", "സെന്റ് പിയറി ആൻഡ് മിക്വലൻ");
     namesMap.put("PN", "പിറ്റ്‌കെയ്‌ൻ ദ്വീപുകൾ");
     namesMap.put("PR", "പോർട്ടോ റിക്കോ");
     namesMap.put("PS", "പാലസ്‌തീൻ പ്രദേശങ്ങൾ");
@@ -553,8 +554,8 @@ public class LocalizedNamesImpl_ml extends LocalizedNamesImpl {
     namesMap.put("SV", "എൽ സാൽവദോർ");
     namesMap.put("SX", "സിന്റ് മാർട്ടെൻ");
     namesMap.put("SY", "സിറിയ");
-    namesMap.put("SZ", "സ്വാസിലാന്റ്");
-    namesMap.put("TA", "ട്രസ്റ്റൻ ഡ കൂന");
+    namesMap.put("SZ", "സ്വാസിലൻഡ്");
+    namesMap.put("TA", "ട്രിസ്റ്റൻ ഡ കൂന");
     namesMap.put("TC", "ടർക്ക്‌സും കെയ്‌ക്കോ ദ്വീപുകളും");
     namesMap.put("TD", "ഛാഡ്");
     namesMap.put("TF", "ഫ്രഞ്ച് ദക്ഷിണ ഭൂപ്രദേശം");
@@ -566,7 +567,7 @@ public class LocalizedNamesImpl_ml extends LocalizedNamesImpl {
     namesMap.put("TM", "തുർക്ക്മെനിസ്ഥാൻ");
     namesMap.put("TN", "ടുണീഷ്യ");
     namesMap.put("TO", "ടോംഗ");
-    namesMap.put("TR", "തുർക്കി");
+    namesMap.put("TR", "തുർക്കിയെ");
     namesMap.put("TT", "ട്രിനിഡാഡും ടുബാഗോയും");
     namesMap.put("TV", "ടുവാലു");
     namesMap.put("TW", "തായ്‌വാൻ");
@@ -587,6 +588,8 @@ public class LocalizedNamesImpl_ml extends LocalizedNamesImpl {
     namesMap.put("VU", "വന്വാതു");
     namesMap.put("WF", "വാലിസ് ആന്റ് ഫ്യൂച്യുന");
     namesMap.put("WS", "സമോവ");
+    namesMap.put("XA", "കൃത്രിമ ഉച്ചാരണം");
+    namesMap.put("XB", "സ്യൂഡോ-ബൈഡി");
     namesMap.put("XK", "കൊസോവൊ");
     namesMap.put("YE", "യെമൻ");
     namesMap.put("YT", "മയോട്ടി");
@@ -609,10 +612,10 @@ public class LocalizedNamesImpl_ml extends LocalizedNamesImpl {
         "005": "തെക്കേ അമേരിക്ക",
         "009": "ഓഷ്യാനിയ",
         "011": "പശ്ചിമ ആഫ്രിക്ക",
-        "013": "മദ്ധ്യഅമേരിക്ക",
+        "013": "മദ്ധ്യ അമേരിക്ക",
         "014": "കിഴക്കൻ ആഫ്രിക്ക",
         "015": "ഉത്തരാഫ്രിക്ക",
-        "017": "മദ്ധ്യആഫ്രിക്ക",
+        "017": "മദ്ധ്യ ആഫ്രിക്ക",
         "018": "തെക്കേ ആഫ്രിക്ക",
         "019": "അമേരിക്കകൾ",
         "021": "വടക്കൻ അമേരിക്ക",
@@ -723,7 +726,7 @@ public class LocalizedNamesImpl_ml extends LocalizedNamesImpl {
         "GG": "ഗേൺസി",
         "GH": "ഘാന",
         "GI": "ജിബ്രാൾട്ടർ",
-        "GL": "ഗ്രീൻലാൻറ്",
+        "GL": "ഗ്രീൻലൻഡ്",
         "GM": "ഗാംബിയ",
         "GN": "ഗിനിയ",
         "GP": "ഗ്വാഡലൂപ്പ്",
@@ -735,7 +738,7 @@ public class LocalizedNamesImpl_ml extends LocalizedNamesImpl {
         "GW": "ഗിനിയ-ബിസൗ",
         "GY": "ഗയാന",
         "HK": "ഹോങ്കോങ് (SAR) ചൈന",
-        "HM": "ഹിയേർഡും മക്‌ഡൊണാൾഡ് ദ്വീപുകളും",
+        "HM": "ഹേർഡ്, മക്ഡോണൾഡ് ദ്വീപുകൾ",
         "HN": "ഹോണ്ടുറാസ്",
         "HR": "ക്രൊയേഷ്യ",
         "HT": "ഹെയ്തി",
@@ -746,7 +749,7 @@ public class LocalizedNamesImpl_ml extends LocalizedNamesImpl {
         "IL": "ഇസ്രായേൽ",
         "IM": "ഐൽ ഓഫ് മാൻ",
         "IN": "ഇന്ത്യ",
-        "IO": "ബ്രിട്ടീഷ് ഇന്ത്യൻ മഹാസമുദ്ര പ്രദേശം",
+        "IO": "ബ്രിട്ടീഷ് ഇന്ത്യൻ ഓഷ്യൻ ടെറിട്ടറി",
         "IQ": "ഇറാഖ്",
         "IR": "ഇറാൻ",
         "IS": "ഐസ്‌ലാന്റ്",
@@ -784,11 +787,11 @@ public class LocalizedNamesImpl_ml extends LocalizedNamesImpl {
         "MF": "സെന്റ് മാർട്ടിൻ",
         "MG": "മഡഗാസ്കർ",
         "MH": "മാർഷൽ ദ്വീപുകൾ",
-        "MK": "മാസിഡോണിയ",
+        "MK": "നോർത്ത് മാസിഡോണിയ",
         "ML": "മാലി",
         "MM": "മ്യാൻമാർ (ബർമ്മ)",
         "MN": "മംഗോളിയ",
-        "MO": "മക്കാവു (SAR) ചൈന",
+        "MO": "മക്കാവു SAR ചൈന",
         "MP": "ഉത്തര മറിയാനാ ദ്വീപുകൾ",
         "MQ": "മാർട്ടിനിക്ക്",
         "MR": "മൗറിറ്റാനിയ",
@@ -811,7 +814,7 @@ public class LocalizedNamesImpl_ml extends LocalizedNamesImpl {
         "NP": "നേപ്പാൾ",
         "NR": "നൗറു",
         "NU": "ന്യൂയി",
-        "NZ": "ന്യൂസിലാൻറ്",
+        "NZ": "ന്യൂസിലൻഡ്",
         "OM": "ഒമാൻ",
         "PA": "പനാമ",
         "PE": "പെറു",
@@ -820,7 +823,7 @@ public class LocalizedNamesImpl_ml extends LocalizedNamesImpl {
         "PH": "ഫിലിപ്പീൻസ്",
         "PK": "പാക്കിസ്ഥാൻ",
         "PL": "പോളണ്ട്",
-        "PM": "സെന്റ് പിയറിയും മിക്കലണും",
+        "PM": "സെന്റ് പിയറി ആൻഡ് മിക്വലൻ",
         "PN": "പിറ്റ്‌കെയ്‌ൻ ദ്വീപുകൾ",
         "PR": "പോർട്ടോ റിക്കോ",
         "PS": "പാലസ്‌തീൻ പ്രദേശങ്ങൾ",
@@ -854,8 +857,8 @@ public class LocalizedNamesImpl_ml extends LocalizedNamesImpl {
         "SV": "എൽ സാൽവദോർ",
         "SX": "സിന്റ് മാർട്ടെൻ",
         "SY": "സിറിയ",
-        "SZ": "സ്വാസിലാന്റ്",
-        "TA": "ട്രസ്റ്റൻ ഡ കൂന",
+        "SZ": "സ്വാസിലൻഡ്",
+        "TA": "ട്രിസ്റ്റൻ ഡ കൂന",
         "TC": "ടർക്ക്‌സും കെയ്‌ക്കോ ദ്വീപുകളും",
         "TD": "ഛാഡ്",
         "TF": "ഫ്രഞ്ച് ദക്ഷിണ ഭൂപ്രദേശം",
@@ -867,7 +870,7 @@ public class LocalizedNamesImpl_ml extends LocalizedNamesImpl {
         "TM": "തുർക്ക്മെനിസ്ഥാൻ",
         "TN": "ടുണീഷ്യ",
         "TO": "ടോംഗ",
-        "TR": "തുർക്കി",
+        "TR": "തുർക്കിയെ",
         "TT": "ട്രിനിഡാഡും ടുബാഗോയും",
         "TV": "ടുവാലു",
         "TW": "തായ്‌വാൻ",
@@ -888,6 +891,8 @@ public class LocalizedNamesImpl_ml extends LocalizedNamesImpl {
         "VU": "വന്വാതു",
         "WF": "വാലിസ് ആന്റ് ഫ്യൂച്യുന",
         "WS": "സമോവ",
+        "XA": "കൃത്രിമ ഉച്ചാരണം",
+        "XB": "സ്യൂഡോ-ബൈഡി",
         "XK": "കൊസോവൊ",
         "YE": "യെമൻ",
         "YT": "മയോട്ടി",

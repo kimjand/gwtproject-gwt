@@ -25,8 +25,7 @@ public class LocalizedNamesImpl_zh_Hans_HK extends LocalizedNamesImpl_zh {
   @Override
   public String[] loadSortedRegionCodes() {
     return new String[] {
-        "XA",
-        "XB",
+        "CQ",
         "GN",
         "GW",
         "YE",
@@ -63,6 +62,7 @@ public class LocalizedNamesImpl_zh_Hans_HK extends LocalizedNamesImpl_zh {
         "GH",
         "IC",
         "MP",
+        "MK",
         "QA",
         "CU",
         "TW",
@@ -242,6 +242,8 @@ public class LocalizedNamesImpl_zh_Hans_HK extends LocalizedNamesImpl_zh {
         "UY",
         "UZ",
         "AM",
+        "XA",
+        "XB",
         "GU",
         "GM",
         "CG",
@@ -278,7 +280,6 @@ public class LocalizedNamesImpl_zh_Hans_HK extends LocalizedNamesImpl_zh {
         "KR",
         "MT",
         "ML",
-        "MK",
         "MW",
         "IM",
         "MQ",

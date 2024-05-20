@@ -68,6 +68,7 @@ public class LocalizedNamesImpl_nmg extends LocalizedNamesImpl {
         "BD",
         "CC",
         "CP",
+        "CQ",
         "CW",
         "CX",
         "DK",
@@ -151,7 +152,6 @@ public class LocalizedNamesImpl_nmg extends LocalizedNamesImpl {
         "LI",
         "LT",
         "LU",
-        "MK",
         "MG",
         "MW",
         "MY",
@@ -176,6 +176,7 @@ public class LocalizedNamesImpl_nmg extends LocalizedNamesImpl {
         "AE",
         "VI",
         "VG",
+        "MK",
         "MO",
         "MC",
         "MU",
@@ -435,6 +436,7 @@ public class LocalizedNamesImpl_nmg extends LocalizedNamesImpl {
     namesMap.put("SR", "Surinam");
     namesMap.put("ST", "Sao Tomé ba Prinship");
     namesMap.put("SV", "Salvadɔr");
+    namesMap.put("SZ", "Swaziland");
     namesMap.put("TC", "Maŋ́ má Turk na Kaiko");
     namesMap.put("TD", "Tshad");
     namesMap.put("TH", "Taïland");
@@ -612,6 +614,7 @@ public class LocalizedNamesImpl_nmg extends LocalizedNamesImpl {
         "SR": "Surinam",
         "ST": "Sao Tomé ba Prinship",
         "SV": "Salvadɔr",
+        "SZ": "Swaziland",
         "TC": "Maŋ́ má Turk na Kaiko",
         "TD": "Tshad",
         "TH": "Taïland",

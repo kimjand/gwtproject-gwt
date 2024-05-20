@@ -43,13 +43,13 @@ public class DateTimeFormatInfoImpl_zh_Hant extends DateTimeFormatInfoImpl_zh {
   }
 
   @Override
-  public String formatMonthFullWeekdayDay() {
-    return "M月d日 EEEE";
+  public int firstDayOfTheWeek() {
+    return 0;
   }
 
   @Override
-  public String formatYearMonthNum() {
-    return "y/M";
+  public String formatMonthFullWeekdayDay() {
+    return "M月d日 EEEE";
   }
 
   @Override
@@ -107,12 +107,22 @@ public class DateTimeFormatInfoImpl_zh_Hant extends DateTimeFormatInfoImpl_zh {
 
   @Override
   public String timeFormatFull() {
-    return "ah:mm:ss [zzzz]";
+    return "Bh:mm:ss [zzzz]";
   }
 
   @Override
   public String timeFormatLong() {
-    return "ah:mm:ss [z]";
+    return "Bh:mm:ss [z]";
+  }
+
+  @Override
+  public String timeFormatMedium() {
+    return "Bh:mm:ss";
+  }
+
+  @Override
+  public String timeFormatShort() {
+    return "Bh:mm";
   }
 
   @Override

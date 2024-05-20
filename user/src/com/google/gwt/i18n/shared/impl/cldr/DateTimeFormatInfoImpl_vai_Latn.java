@@ -22,6 +22,16 @@ package com.google.gwt.i18n.shared.impl.cldr;
 public class DateTimeFormatInfoImpl_vai_Latn extends DateTimeFormatInfoImpl_vai {
 
   @Override
+  public String formatHour12Minute() {
+    return "h:mm a";
+  }
+
+  @Override
+  public String formatHour12MinuteSecond() {
+    return "h:mm:ss a";
+  }
+
+  @Override
   public String formatMinuteSecond() {
     return "m:ss";
   }
@@ -44,37 +54,57 @@ public class DateTimeFormatInfoImpl_vai_Latn extends DateTimeFormatInfoImpl_vai 
   @Override
   public String[] monthsFull() {
     return new String[] {
-        "luukao kemã",
-        "ɓandaɓu",
-        "vɔɔ",
-        "fulu",
-        "goo",
-        "6",
-        "7",
-        "kɔnde",
-        "saah",
-        "galo",
-        "kenpkato ɓololɔ",
-        "luukao lɔma"
+        "M01",
+        "M02",
+        "M03",
+        "M04",
+        "M05",
+        "M06",
+        "M07",
+        "M08",
+        "M09",
+        "M10",
+        "M11",
+        "M12"
     };
   }
 
   @Override
   public String[] monthsShort() {
     return new String[] {
-        "luukao kemã",
-        "ɓandaɓu",
-        "vɔɔ",
-        "fulu",
-        "goo",
-        "6",
-        "7",
-        "kɔnde",
-        "saah",
-        "galo",
-        "kenpkato ɓololɔ",
-        "luukao lɔma"
+        "M01",
+        "M02",
+        "M03",
+        "M04",
+        "M05",
+        "M06",
+        "M07",
+        "M08",
+        "M09",
+        "M10",
+        "M11",
+        "M12"
     };
+  }
+
+  @Override
+  public String timeFormatFull() {
+    return "h:mm:ss a zzzz";
+  }
+
+  @Override
+  public String timeFormatLong() {
+    return "h:mm:ss a z";
+  }
+
+  @Override
+  public String timeFormatMedium() {
+    return "h:mm:ss a";
+  }
+
+  @Override
+  public String timeFormatShort() {
+    return "h:mm a";
   }
 
   @Override

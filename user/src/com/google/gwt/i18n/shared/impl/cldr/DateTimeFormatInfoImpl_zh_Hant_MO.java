@@ -81,4 +81,24 @@ public class DateTimeFormatInfoImpl_zh_Hant_MO extends DateTimeFormatInfoImpl_zh
         "Q4"
     };
   }
+
+  @Override
+  public String timeFormatFull() {
+    return "ah:mm:ss [zzzz]";
+  }
+
+  @Override
+  public String timeFormatLong() {
+    return "ah:mm:ss [z]";
+  }
+
+  @Override
+  public String timeFormatMedium() {
+    return "ah:mm:ss";
+  }
+
+  @Override
+  public String timeFormatShort() {
+    return "ah:mm";
+  }
 }

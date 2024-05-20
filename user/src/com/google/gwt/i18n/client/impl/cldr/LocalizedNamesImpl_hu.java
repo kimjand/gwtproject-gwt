@@ -104,6 +104,7 @@ public class LocalizedNamesImpl_hu extends LocalizedNamesImpl {
         "ER",
         "MP",
         "KP",
+        "MK",
         "EE",
         "ET",
         "EU",
@@ -182,7 +183,6 @@ public class LocalizedNamesImpl_hu extends LocalizedNamesImpl {
         "LI",
         "LT",
         "LU",
-        "MK",
         "MG",
         "HU",
         "MO",
@@ -231,6 +231,8 @@ public class LocalizedNamesImpl_hu extends LocalizedNamesImpl {
         "PE",
         "PN",
         "PT",
+        "XB",
+        "XA",
         "PR",
         "RE",
         "RO",
@@ -245,6 +247,7 @@ public class LocalizedNamesImpl_hu extends LocalizedNamesImpl {
         "SV",
         "SM",
         "ST",
+        "CQ",
         "SC",
         "SL",
         "SX",
@@ -291,8 +294,6 @@ public class LocalizedNamesImpl_hu extends LocalizedNamesImpl {
         "VE",
         "VN",
         "WF",
-        "XA",
-        "XB",
         "ZM",
         "ZW",
         "CV",
@@ -360,9 +361,9 @@ public class LocalizedNamesImpl_hu extends LocalizedNamesImpl {
     namesMap.put("BY", "Belarusz");
     namesMap.put("CA", "Kanada");
     namesMap.put("CC", "Kókusz (Keeling)-szigetek");
-    namesMap.put("CD", "Kongó - Kinshasa");
+    namesMap.put("CD", "Kongó – Kinshasa");
     namesMap.put("CF", "Közép-afrikai Köztársaság");
-    namesMap.put("CG", "Kongó - Brazzaville");
+    namesMap.put("CG", "Kongó – Brazzaville");
     namesMap.put("CH", "Svájc");
     namesMap.put("CI", "Elefántcsontpart");
     namesMap.put("CK", "Cook-szigetek");
@@ -444,8 +445,8 @@ public class LocalizedNamesImpl_hu extends LocalizedNamesImpl {
     namesMap.put("MF", "Saint Martin");
     namesMap.put("MG", "Madagaszkár");
     namesMap.put("MH", "Marshall-szigetek");
-    namesMap.put("MK", "Macedónia");
-    namesMap.put("MM", "Mianmar (Burma)");
+    namesMap.put("MK", "Észak-Macedónia");
+    namesMap.put("MM", "Mianmar");
     namesMap.put("MN", "Mongólia");
     namesMap.put("MO", "Makaó KKT");
     namesMap.put("MP", "Északi Mariana-szigetek");
@@ -471,7 +472,7 @@ public class LocalizedNamesImpl_hu extends LocalizedNamesImpl {
     namesMap.put("PL", "Lengyelország");
     namesMap.put("PM", "Saint-Pierre és Miquelon");
     namesMap.put("PN", "Pitcairn-szigetek");
-    namesMap.put("PS", "Palesztin Terület");
+    namesMap.put("PS", "Palesztin Autonómia");
     namesMap.put("PT", "Portugália");
     namesMap.put("QA", "Katar");
     namesMap.put("QO", "Külső-Óceánia");
@@ -520,6 +521,8 @@ public class LocalizedNamesImpl_hu extends LocalizedNamesImpl {
     namesMap.put("VN", "Vietnám");
     namesMap.put("WF", "Wallis és Futuna");
     namesMap.put("WS", "Szamoa");
+    namesMap.put("XA", "Pszeudo-nyelvjárások");
+    namesMap.put("XB", "Pszeudo-kétirányú");
     namesMap.put("XK", "Koszovó");
     namesMap.put("YE", "Jemen");
     namesMap.put("ZA", "Dél-afrikai Köztársaság");
@@ -591,9 +594,9 @@ public class LocalizedNamesImpl_hu extends LocalizedNamesImpl {
         "BY": "Belarusz",
         "CA": "Kanada",
         "CC": "Kókusz (Keeling)-szigetek",
-        "CD": "Kongó - Kinshasa",
+        "CD": "Kongó – Kinshasa",
         "CF": "Közép-afrikai Köztársaság",
-        "CG": "Kongó - Brazzaville",
+        "CG": "Kongó – Brazzaville",
         "CH": "Svájc",
         "CI": "Elefántcsontpart",
         "CK": "Cook-szigetek",
@@ -675,8 +678,8 @@ public class LocalizedNamesImpl_hu extends LocalizedNamesImpl {
         "MF": "Saint Martin",
         "MG": "Madagaszkár",
         "MH": "Marshall-szigetek",
-        "MK": "Macedónia",
-        "MM": "Mianmar (Burma)",
+        "MK": "Észak-Macedónia",
+        "MM": "Mianmar",
         "MN": "Mongólia",
         "MO": "Makaó KKT",
         "MP": "Északi Mariana-szigetek",
@@ -702,7 +705,7 @@ public class LocalizedNamesImpl_hu extends LocalizedNamesImpl {
         "PL": "Lengyelország",
         "PM": "Saint-Pierre és Miquelon",
         "PN": "Pitcairn-szigetek",
-        "PS": "Palesztin Terület",
+        "PS": "Palesztin Autonómia",
         "PT": "Portugália",
         "QA": "Katar",
         "QO": "Külső-Óceánia",
@@ -751,6 +754,8 @@ public class LocalizedNamesImpl_hu extends LocalizedNamesImpl {
         "VN": "Vietnám",
         "WF": "Wallis és Futuna",
         "WS": "Szamoa",
+        "XA": "Pszeudo-nyelvjárások",
+        "XB": "Pszeudo-kétirányú",
         "XK": "Koszovó",
         "YE": "Jemen",
         "ZA": "Dél-afrikai Köztársaság",

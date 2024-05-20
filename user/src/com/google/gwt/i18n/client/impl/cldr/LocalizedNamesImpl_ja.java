@@ -34,8 +34,7 @@ public class LocalizedNamesImpl_ja extends LocalizedNamesImpl {
   @Override
   public String[] loadSortedRegionCodes() {
     return new String[] {
-        "XA",
-        "XB",
+        "CQ",
         "IS",
         "IE",
         "AZ",
@@ -68,6 +67,7 @@ public class LocalizedNamesImpl_ja extends LocalizedNamesImpl {
         "EC",
         "EG",
         "EE",
+        "SZ",
         "ET",
         "ER",
         "SV",
@@ -146,7 +146,6 @@ public class LocalizedNamesImpl_ja extends LocalizedNamesImpl {
         "LK",
         "SK",
         "SI",
-        "SZ",
         "EA",
         "SC",
         "SN",
@@ -234,7 +233,6 @@ public class LocalizedNamesImpl_ja extends LocalizedNamesImpl {
         "HN",
         "PL",
         "MH",
-        "MK",
         "MG",
         "YT",
         "MW",
@@ -275,6 +273,8 @@ public class LocalizedNamesImpl_ja extends LocalizedNamesImpl {
         "VG",
         "EU",
         "KR",
+        "XB",
+        "XA",
         "UM",
         "UN",
         "EH",
@@ -294,6 +294,7 @@ public class LocalizedNamesImpl_ja extends LocalizedNamesImpl {
         "TF",
         "VI",
         "AS",
+        "MK",
         "MP",
         "KP",
     };
@@ -483,7 +484,7 @@ public class LocalizedNamesImpl_ja extends LocalizedNamesImpl {
     namesMap.put("MF", "サン・マルタン");
     namesMap.put("MG", "マダガスカル");
     namesMap.put("MH", "マーシャル諸島");
-    namesMap.put("MK", "マケドニア");
+    namesMap.put("MK", "北マケドニア");
     namesMap.put("ML", "マリ");
     namesMap.put("MM", "ミャンマー (ビルマ)");
     namesMap.put("MN", "モンゴル");
@@ -553,7 +554,7 @@ public class LocalizedNamesImpl_ja extends LocalizedNamesImpl {
     namesMap.put("SV", "エルサルバドル");
     namesMap.put("SX", "シント・マールテン");
     namesMap.put("SY", "シリア");
-    namesMap.put("SZ", "スワジランド");
+    namesMap.put("SZ", "エスワティニ");
     namesMap.put("TA", "トリスタン・ダ・クーニャ");
     namesMap.put("TC", "タークス・カイコス諸島");
     namesMap.put("TD", "チャド");
@@ -587,6 +588,8 @@ public class LocalizedNamesImpl_ja extends LocalizedNamesImpl {
     namesMap.put("VU", "バヌアツ");
     namesMap.put("WF", "ウォリス・フツナ");
     namesMap.put("WS", "サモア");
+    namesMap.put("XA", "疑似アクセント");
+    namesMap.put("XB", "疑似 BIDI");
     namesMap.put("XK", "コソボ");
     namesMap.put("YE", "イエメン");
     namesMap.put("YT", "マヨット");
@@ -784,7 +787,7 @@ public class LocalizedNamesImpl_ja extends LocalizedNamesImpl {
         "MF": "サン・マルタン",
         "MG": "マダガスカル",
         "MH": "マーシャル諸島",
-        "MK": "マケドニア",
+        "MK": "北マケドニア",
         "ML": "マリ",
         "MM": "ミャンマー (ビルマ)",
         "MN": "モンゴル",
@@ -854,7 +857,7 @@ public class LocalizedNamesImpl_ja extends LocalizedNamesImpl {
         "SV": "エルサルバドル",
         "SX": "シント・マールテン",
         "SY": "シリア",
-        "SZ": "スワジランド",
+        "SZ": "エスワティニ",
         "TA": "トリスタン・ダ・クーニャ",
         "TC": "タークス・カイコス諸島",
         "TD": "チャド",
@@ -888,6 +891,8 @@ public class LocalizedNamesImpl_ja extends LocalizedNamesImpl {
         "VU": "バヌアツ",
         "WF": "ウォリス・フツナ",
         "WS": "サモア",
+        "XA": "疑似アクセント",
+        "XB": "疑似 BIDI",
         "XK": "コソボ",
         "YE": "イエメン",
         "YT": "マヨット",

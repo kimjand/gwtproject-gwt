@@ -55,6 +55,7 @@ public class LocalizedNamesImpl_br extends LocalizedNamesImpl {
         "BJ",
         "BM",
         "BT",
+        "XB",
         "BO",
         "BA",
         "BW",
@@ -67,6 +68,7 @@ public class LocalizedNamesImpl_br extends LocalizedNamesImpl {
         "EA",
         "CL",
         "CR",
+        "CQ",
         "CW",
         "DK",
         "DG",
@@ -85,6 +87,7 @@ public class LocalizedNamesImpl_br extends LocalizedNamesImpl {
         "IM",
         "ER",
         "EE",
+        "SZ",
         "ET",
         "FJ",
         "PH",
@@ -213,6 +216,7 @@ public class LocalizedNamesImpl_br extends LocalizedNamesImpl {
         "PF",
         "PL",
         "PT",
+        "XA",
         "PR",
         "QA",
         "DO",
@@ -255,7 +259,6 @@ public class LocalizedNamesImpl_br extends LocalizedNamesImpl {
         "SS",
         "SJ",
         "SE",
-        "SZ",
         "TJ",
         "TW",
         "EZ",
@@ -283,8 +286,6 @@ public class LocalizedNamesImpl_br extends LocalizedNamesImpl {
         "VE",
         "VN",
         "WF",
-        "XA",
-        "XB",
         "YE",
         "ZM",
         "NZ",
@@ -419,7 +420,7 @@ public class LocalizedNamesImpl_br extends LocalizedNamesImpl {
     namesMap.put("MF", "Saint Martin");
     namesMap.put("MG", "Madagaskar");
     namesMap.put("MH", "Inizi Marshall");
-    namesMap.put("MK", "Makedonia");
+    namesMap.put("MK", "Makedonia an Norzh");
     namesMap.put("MM", "Myanmar (Birmania)");
     namesMap.put("MO", "Macau RMD Sina");
     namesMap.put("MP", "Inizi Mariana an Norzh");
@@ -479,6 +480,8 @@ public class LocalizedNamesImpl_br extends LocalizedNamesImpl {
     namesMap.put("VI", "Inizi Gwercʼh ar Stadoù-Unanet");
     namesMap.put("VN", "Viêt Nam");
     namesMap.put("WF", "Wallis ha Futuna");
+    namesMap.put("XA", "pouez-mouezh gaou");
+    namesMap.put("XB", "BiDi gaou");
     namesMap.put("ZA", "Suafrika");
     namesMap.put("ZZ", "Rannved dianav");
   }
@@ -614,7 +617,7 @@ public class LocalizedNamesImpl_br extends LocalizedNamesImpl {
         "MF": "Saint Martin",
         "MG": "Madagaskar",
         "MH": "Inizi Marshall",
-        "MK": "Makedonia",
+        "MK": "Makedonia an Norzh",
         "MM": "Myanmar (Birmania)",
         "MO": "Macau RMD Sina",
         "MP": "Inizi Mariana an Norzh",
@@ -674,6 +677,8 @@ public class LocalizedNamesImpl_br extends LocalizedNamesImpl {
         "VI": "Inizi Gwercʼh ar Stadoù-Unanet",
         "VN": "Viêt Nam",
         "WF": "Wallis ha Futuna",
+        "XA": "pouez-mouezh gaou",
+        "XB": "BiDi gaou",
         "ZA": "Suafrika",
         "ZZ": "Rannved dianav"
     };

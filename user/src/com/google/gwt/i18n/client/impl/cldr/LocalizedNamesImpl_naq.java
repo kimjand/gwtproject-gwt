@@ -83,6 +83,7 @@ public class LocalizedNamesImpl_naq extends LocalizedNamesImpl {
         "CK",
         "CR",
         "CP",
+        "CQ",
         "HR",
         "CU",
         "CW",
@@ -167,7 +168,6 @@ public class LocalizedNamesImpl_naq extends LocalizedNamesImpl {
         "LI",
         "LT",
         "LU",
-        "MK",
         "MG",
         "MW",
         "MY",
@@ -183,6 +183,7 @@ public class LocalizedNamesImpl_naq extends LocalizedNamesImpl {
         "MX",
         "MF",
         "FM",
+        "MK",
         "MO",
         "MD",
         "MC",
@@ -383,7 +384,6 @@ public class LocalizedNamesImpl_naq extends LocalizedNamesImpl {
     namesMap.put("LU", "Luxembourgi");
     namesMap.put("LY", "Libyab");
     namesMap.put("MG", "Madagascari");
-    namesMap.put("MK", "Macedoniab");
     namesMap.put("ML", "Malib");
     namesMap.put("MM", "Myanmar");
     namesMap.put("MW", "Malawib");
@@ -536,7 +536,6 @@ public class LocalizedNamesImpl_naq extends LocalizedNamesImpl {
         "LU": "Luxembourgi",
         "LY": "Libyab",
         "MG": "Madagascari",
-        "MK": "Macedoniab",
         "ML": "Malib",
         "MM": "Myanmar",
         "MW": "Malawib",

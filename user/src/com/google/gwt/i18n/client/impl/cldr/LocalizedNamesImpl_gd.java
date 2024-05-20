@@ -130,6 +130,7 @@ public class LocalizedNamesImpl_gd extends LocalizedNamesImpl {
         "CU",
         "KW",
         "CW",
+        "XB",
         "JE",
         "JM",
         "DG",
@@ -137,7 +138,6 @@ public class LocalizedNamesImpl_gd extends LocalizedNamesImpl {
         "DJ",
         "DM",
         "MN",
-        "SZ",
         "TH",
         "EC",
         "ER",
@@ -156,6 +156,7 @@ public class LocalizedNamesImpl_gd extends LocalizedNamesImpl {
         "SH",
         "NF",
         "IE",
+        "SZ",
         "FJ",
         "GA",
         "GH",
@@ -256,6 +257,7 @@ public class LocalizedNamesImpl_gd extends LocalizedNamesImpl {
         "AS",
         "SM",
         "ST",
+        "CQ",
         "EH",
         "NZ",
         "SN",
@@ -265,6 +267,7 @@ public class LocalizedNamesImpl_gd extends LocalizedNamesImpl {
         "SX",
         "SY",
         "SO",
+        "XA",
         "LK",
         "SD",
         "SS",
@@ -287,8 +290,6 @@ public class LocalizedNamesImpl_gd extends LocalizedNamesImpl {
         "UY",
         "UZ",
         "VU",
-        "XA",
-        "XB",
     };
   }
 
@@ -372,6 +373,7 @@ public class LocalizedNamesImpl_gd extends LocalizedNamesImpl {
     namesMap.put("CN", "An t-Sìn");
     namesMap.put("CO", "Coloimbia");
     namesMap.put("CP", "Eilean Clipperton");
+    namesMap.put("CQ", "Sarc");
     namesMap.put("CR", "Costa Rìcea");
     namesMap.put("CU", "Cùba");
     namesMap.put("CV", "An Ceap Uaine");
@@ -465,7 +467,7 @@ public class LocalizedNamesImpl_gd extends LocalizedNamesImpl {
     namesMap.put("MF", "Naomh Màrtainn");
     namesMap.put("MG", "Madagasgar");
     namesMap.put("MH", "Eileanan Mharshall");
-    namesMap.put("MK", "A’ Mhasadon");
+    namesMap.put("MK", "A’ Mhasadon a Tuath");
     namesMap.put("ML", "Màili");
     namesMap.put("MM", "Miànmar");
     namesMap.put("MN", "Dùthaich nam Mongol");
@@ -519,7 +521,7 @@ public class LocalizedNamesImpl_gd extends LocalizedNamesImpl {
     namesMap.put("SG", "Singeapòr");
     namesMap.put("SH", "Eilean Naomh Eilidh");
     namesMap.put("SI", "An t-Slòbhain");
-    namesMap.put("SJ", "Svalbard agus Jan Mayen");
+    namesMap.put("SJ", "Svalbard is Jan Mayen");
     namesMap.put("SK", "An t-Slòbhac");
     namesMap.put("SL", "Siarra Leòmhann");
     namesMap.put("SN", "Seanagal");
@@ -529,7 +531,7 @@ public class LocalizedNamesImpl_gd extends LocalizedNamesImpl {
     namesMap.put("ST", "São Tomé agus Príncipe");
     namesMap.put("SV", "An Salbhador");
     namesMap.put("SY", "Siridhea");
-    namesMap.put("SZ", "Dùthaich nan Suasaidh");
+    namesMap.put("SZ", "eSwatini");
     namesMap.put("TC", "Na h-Eileanan Turcach is Caiceo");
     namesMap.put("TD", "An t-Seàd");
     namesMap.put("TF", "Ranntairean a Deas na Frainge");
@@ -556,6 +558,8 @@ public class LocalizedNamesImpl_gd extends LocalizedNamesImpl {
     namesMap.put("VN", "Bhiet-Nam");
     namesMap.put("WF", "Uallas agus Futuna");
     namesMap.put("WS", "Samotha");
+    namesMap.put("XA", "Sràcan fuadain");
+    namesMap.put("XB", "Dà-chomhaireach fuadain");
     namesMap.put("XK", "A’ Chosobho");
     namesMap.put("YE", "An Eaman");
     namesMap.put("ZA", "Afraga a Deas");
@@ -648,6 +652,7 @@ public class LocalizedNamesImpl_gd extends LocalizedNamesImpl {
         "CN": "An t-Sìn",
         "CO": "Coloimbia",
         "CP": "Eilean Clipperton",
+        "CQ": "Sarc",
         "CR": "Costa Rìcea",
         "CU": "Cùba",
         "CV": "An Ceap Uaine",
@@ -741,7 +746,7 @@ public class LocalizedNamesImpl_gd extends LocalizedNamesImpl {
         "MF": "Naomh Màrtainn",
         "MG": "Madagasgar",
         "MH": "Eileanan Mharshall",
-        "MK": "A’ Mhasadon",
+        "MK": "A’ Mhasadon a Tuath",
         "ML": "Màili",
         "MM": "Miànmar",
         "MN": "Dùthaich nam Mongol",
@@ -795,7 +800,7 @@ public class LocalizedNamesImpl_gd extends LocalizedNamesImpl {
         "SG": "Singeapòr",
         "SH": "Eilean Naomh Eilidh",
         "SI": "An t-Slòbhain",
-        "SJ": "Svalbard agus Jan Mayen",
+        "SJ": "Svalbard is Jan Mayen",
         "SK": "An t-Slòbhac",
         "SL": "Siarra Leòmhann",
         "SN": "Seanagal",
@@ -805,7 +810,7 @@ public class LocalizedNamesImpl_gd extends LocalizedNamesImpl {
         "ST": "São Tomé agus Príncipe",
         "SV": "An Salbhador",
         "SY": "Siridhea",
-        "SZ": "Dùthaich nan Suasaidh",
+        "SZ": "eSwatini",
         "TC": "Na h-Eileanan Turcach is Caiceo",
         "TD": "An t-Seàd",
         "TF": "Ranntairean a Deas na Frainge",
@@ -832,6 +837,8 @@ public class LocalizedNamesImpl_gd extends LocalizedNamesImpl {
         "VN": "Bhiet-Nam",
         "WF": "Uallas agus Futuna",
         "WS": "Samotha",
+        "XA": "Sràcan fuadain",
+        "XB": "Dà-chomhaireach fuadain",
         "XK": "A’ Chosobho",
         "YE": "An Eaman",
         "ZA": "Afraga a Deas",

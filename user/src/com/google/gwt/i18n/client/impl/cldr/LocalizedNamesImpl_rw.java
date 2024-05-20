@@ -85,6 +85,7 @@ public class LocalizedNamesImpl_rw extends LocalizedNamesImpl {
         "CN",
         "CO",
         "CP",
+        "CQ",
         "CR",
         "CU",
         "CV",
@@ -178,13 +179,13 @@ public class LocalizedNamesImpl_rw extends LocalizedNamesImpl {
         "LV",
         "LY",
         "MA",
+        "MK",
         "MC",
         "MD",
         "ME",
         "MF",
         "MG",
         "MH",
-        "MK",
         "ML",
         "MM",
         "MN",
@@ -302,6 +303,7 @@ public class LocalizedNamesImpl_rw extends LocalizedNamesImpl {
   @Override
   protected void loadNameMapJava() {
     super.loadNameMapJava();
+    namesMap.put("MK", "Masedoniya y’Amajyaruguru");
     namesMap.put("RW", "U Rwanda");
   }
 
@@ -312,6 +314,7 @@ public class LocalizedNamesImpl_rw extends LocalizedNamesImpl {
 
   private native JavaScriptObject loadMyNameMap() /*-{
     return {
+        "MK": "Masedoniya y’Amajyaruguru",
         "RW": "U Rwanda"
     };
   }-*/;

@@ -66,6 +66,11 @@ public class DateTimeFormatInfoImpl_bez extends DateTimeFormatInfoImpl {
   }
 
   @Override
+  public String formatHour12Minute() {
+    return "h:mm a";
+  }
+
+  @Override
   public String formatMonthFullWeekdayDay() {
     return "EEEE, MMMM d";
   }

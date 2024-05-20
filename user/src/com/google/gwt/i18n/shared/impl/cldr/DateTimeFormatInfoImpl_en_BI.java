@@ -93,4 +93,42 @@ public class DateTimeFormatInfoImpl_en_BI extends DateTimeFormatInfoImpl_en_001 
   public String formatYearMonthWeekdayDay() {
     return "EEE, MMM d, y";
   }
+
+  @Override
+  public String[] monthsShort() {
+    return new String[] {
+        "Jan",
+        "Feb",
+        "Mar",
+        "Apr",
+        "May",
+        "Jun",
+        "Jul",
+        "Aug",
+        "Sep",
+        "Oct",
+        "Nov",
+        "Dec"
+    };
+  }
+
+  @Override
+  public String timeFormatFull() {
+    return "HH:mm:ss zzzz";
+  }
+
+  @Override
+  public String timeFormatLong() {
+    return "HH:mm:ss z";
+  }
+
+  @Override
+  public String timeFormatMedium() {
+    return "HH:mm:ss";
+  }
+
+  @Override
+  public String timeFormatShort() {
+    return "HH:mm";
+  }
 }

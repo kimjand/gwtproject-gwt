@@ -24,15 +24,20 @@ public class DateTimeFormatInfoImpl_sd extends DateTimeFormatInfoImpl {
   @Override
   public String[] ampms() {
     return new String[] {
-        "صبح، منجهند",
-        "شام، منجهند"
+        "صبح، منجهند",
+        "شام، منجهند"
     };
+  }
+
+  @Override
+  public String dateFormatFull() {
+    return "EEEE, MMMM d, y";
   }
 
   @Override
   public String[] erasFull() {
     return new String[] {
-        "مسيح کان اڳ",
+        "قبل مسيح",
         "عيسوي کان پهرين"
     };
   }
@@ -48,11 +53,6 @@ public class DateTimeFormatInfoImpl_sd extends DateTimeFormatInfoImpl {
   @Override
   public int firstDayOfTheWeek() {
     return 0;
-  }
-
-  @Override
-  public String formatYearMonthNumDay() {
-    return "y-MM-dd";
   }
 
   @Override

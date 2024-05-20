@@ -29,15 +29,13 @@ public class LocalizedNamesImpl_zh_Hant extends LocalizedNamesImpl_zh {
     return new String[] {
         "TW",
         "HK",
-        "MY",
     };
   }
 
   @Override
   public String[] loadSortedRegionCodes() {
     return new String[] {
-        "XA",
-        "XB",
+        "CQ",
         "AF",
         "AR",
         "AE",
@@ -65,6 +63,7 @@ public class LocalizedNamesImpl_zh_Hant extends LocalizedNamesImpl_zh {
         "BG",
         "KP",
         "MP",
+        "MK",
         "BE",
         "IS",
         "BO",
@@ -230,6 +229,8 @@ public class LocalizedNamesImpl_zh_Hant extends LocalizedNamesImpl_zh {
         "FJ",
         "AM",
         "AZ",
+        "XB",
+        "XA",
         "CG",
         "CD",
         "GE",
@@ -291,7 +292,6 @@ public class LocalizedNamesImpl_zh_Hant extends LocalizedNamesImpl_zh {
         "MQ",
         "MW",
         "ML",
-        "MK",
         "MY",
         "MV",
         "MT",
@@ -448,7 +448,7 @@ public class LocalizedNamesImpl_zh_Hant extends LocalizedNamesImpl_zh {
     namesMap.put("MF", "法屬聖馬丁");
     namesMap.put("MG", "馬達加斯加");
     namesMap.put("MH", "馬紹爾群島");
-    namesMap.put("MK", "馬其頓");
+    namesMap.put("MK", "北馬其頓");
     namesMap.put("ML", "馬利");
     namesMap.put("MM", "緬甸");
     namesMap.put("MO", "中國澳門特別行政區");
@@ -506,7 +506,7 @@ public class LocalizedNamesImpl_zh_Hant extends LocalizedNamesImpl_zh {
     namesMap.put("SV", "薩爾瓦多");
     namesMap.put("SX", "荷屬聖馬丁");
     namesMap.put("SY", "敘利亞");
-    namesMap.put("SZ", "史瓦濟蘭");
+    namesMap.put("SZ", "史瓦帝尼");
     namesMap.put("TA", "特里斯坦達庫尼亞群島");
     namesMap.put("TC", "土克斯及開科斯群島");
     namesMap.put("TD", "查德");
@@ -537,6 +537,8 @@ public class LocalizedNamesImpl_zh_Hant extends LocalizedNamesImpl_zh {
     namesMap.put("VU", "萬那杜");
     namesMap.put("WF", "瓦利斯群島和富圖那群島");
     namesMap.put("WS", "薩摩亞");
+    namesMap.put("XA", "偽區域");
+    namesMap.put("XB", "偽比迪");
     namesMap.put("YE", "葉門");
     namesMap.put("YT", "馬約特島");
     namesMap.put("ZM", "尚比亞");
@@ -695,7 +697,7 @@ public class LocalizedNamesImpl_zh_Hant extends LocalizedNamesImpl_zh {
         "MF": "法屬聖馬丁",
         "MG": "馬達加斯加",
         "MH": "馬紹爾群島",
-        "MK": "馬其頓",
+        "MK": "北馬其頓",
         "ML": "馬利",
         "MM": "緬甸",
         "MO": "中國澳門特別行政區",
@@ -753,7 +755,7 @@ public class LocalizedNamesImpl_zh_Hant extends LocalizedNamesImpl_zh {
         "SV": "薩爾瓦多",
         "SX": "荷屬聖馬丁",
         "SY": "敘利亞",
-        "SZ": "史瓦濟蘭",
+        "SZ": "史瓦帝尼",
         "TA": "特里斯坦達庫尼亞群島",
         "TC": "土克斯及開科斯群島",
         "TD": "查德",
@@ -784,6 +786,8 @@ public class LocalizedNamesImpl_zh_Hant extends LocalizedNamesImpl_zh {
         "VU": "萬那杜",
         "WF": "瓦利斯群島和富圖那群島",
         "WS": "薩摩亞",
+        "XA": "偽區域",
+        "XB": "偽比迪",
         "YE": "葉門",
         "YT": "馬約特島",
         "ZM": "尚比亞",

@@ -73,6 +73,7 @@ public class LocalizedNamesImpl_lag extends LocalizedNamesImpl {
         "CL",
         "CN",
         "CP",
+        "CQ",
         "CW",
         "CX",
         "DK",
@@ -163,7 +164,6 @@ public class LocalizedNamesImpl_lag extends LocalizedNamesImpl {
         "MY",
         "MT",
         "MQ",
-        "MK",
         "YT",
         "ME",
         "MX",
@@ -171,6 +171,7 @@ public class LocalizedNamesImpl_lag extends LocalizedNamesImpl {
         "MM",
         "FM",
         "EG",
+        "MK",
         "MO",
         "MV",
         "MD",
@@ -420,7 +421,6 @@ public class LocalizedNamesImpl_lag extends LocalizedNamesImpl {
     namesMap.put("MD", "Molidóova");
     namesMap.put("MG", "Bukíini");
     namesMap.put("MH", "Visíiwa vya Marisháali");
-    namesMap.put("MK", "Masedónia");
     namesMap.put("ML", "Máali");
     namesMap.put("MM", "Miáama");
     namesMap.put("MN", "Mongólia");
@@ -653,7 +653,6 @@ public class LocalizedNamesImpl_lag extends LocalizedNamesImpl {
         "MD": "Molidóova",
         "MG": "Bukíini",
         "MH": "Visíiwa vya Marisháali",
-        "MK": "Masedónia",
         "ML": "Máali",
         "MM": "Miáama",
         "MN": "Mongólia",

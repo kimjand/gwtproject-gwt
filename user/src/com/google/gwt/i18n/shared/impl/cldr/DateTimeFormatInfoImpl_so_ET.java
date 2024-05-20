@@ -25,4 +25,14 @@ public class DateTimeFormatInfoImpl_so_ET extends DateTimeFormatInfoImpl_so {
   public int firstDayOfTheWeek() {
     return 0;
   }
+
+  @Override
+  public String formatHour12Minute() {
+    return "h:mm a";
+  }
+
+  @Override
+  public String formatHour12MinuteSecond() {
+    return "h:mm:ss a";
+  }
 }

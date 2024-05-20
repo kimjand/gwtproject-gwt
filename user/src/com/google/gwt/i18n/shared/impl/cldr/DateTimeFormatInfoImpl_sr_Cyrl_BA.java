@@ -24,8 +24,8 @@ public class DateTimeFormatInfoImpl_sr_Cyrl_BA extends DateTimeFormatInfoImpl_sr
   @Override
   public String[] ampms() {
     return new String[] {
-        "прије подне",
-        "по подне"
+        "прије подне",
+        "по подне"
     };
   }
 
@@ -38,28 +38,10 @@ public class DateTimeFormatInfoImpl_sr_Cyrl_BA extends DateTimeFormatInfoImpl_sr
   }
 
   @Override
-  public String[] monthsShortStandalone() {
-    return new String[] {
-        "јан",
-        "феб",
-        "март",
-        "апр",
-        "мај",
-        "јун",
-        "јул",
-        "авг",
-        "септ",
-        "окт",
-        "нов",
-        "дец"
-    };
-  }
-
-  @Override
   public String[] weekdaysFull() {
     return new String[] {
         "недјеља",
-        "понедељак",
+        "понедјељак",
         "уторак",
         "сриједа",
         "четвртак",
@@ -73,8 +55,8 @@ public class DateTimeFormatInfoImpl_sr_Cyrl_BA extends DateTimeFormatInfoImpl_sr
     return new String[] {
         "нед",
         "пон",
-        "ут",
-        "ср",
+        "уто",
+        "сри",
         "чет",
         "пет",
         "суб"

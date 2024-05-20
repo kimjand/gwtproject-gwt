@@ -27,8 +27,7 @@ public class LocalizedNamesImpl_ur_IN extends LocalizedNamesImpl_ur {
   @Override
   public String[] loadSortedRegionCodes() {
     return new String[] {
-        "XA",
-        "XB",
+        "CQ",
         "IE",
         "IS",
         "IM",
@@ -72,6 +71,8 @@ public class LocalizedNamesImpl_ur_IN extends LocalizedNamesImpl_ur {
         "BI",
         "BF",
         "BG",
+        "XB",
+        "XA",
         "BD",
         "BW",
         "BA",
@@ -159,6 +160,7 @@ public class LocalizedNamesImpl_ur_IN extends LocalizedNamesImpl_ur {
         "SH",
         "SN",
         "SY",
+        "MK",
         "KP",
         "SO",
         "IQ",
@@ -195,7 +197,6 @@ public class LocalizedNamesImpl_ur_IN extends LocalizedNamesImpl_ur {
         "MA",
         "EG",
         "EH",
-        "MK",
         "MY",
         "MW",
         "MN",

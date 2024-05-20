@@ -22,24 +22,46 @@ package com.google.gwt.i18n.client.impl.cldr;
 public class DateTimeFormatInfoImpl_tn extends DateTimeFormatInfoImpl {
 
   @Override
-  public String[] erasFull() {
-    return new String[] {
-        "BCE",
-        "CE"
-    };
+  public String dateTimeFull(String timePattern, String datePattern) {
+    return datePattern + " 'ka' " + timePattern;
   }
 
   @Override
-  public String[] erasShort() {
+  public String dateTimeLong(String timePattern, String datePattern) {
+    return datePattern + " 'ka' " + timePattern;
+  }
+
+  @Override
+  public String dateTimeMedium(String timePattern, String datePattern) {
+    return datePattern + ", " + timePattern;
+  }
+
+  @Override
+  public String dateTimeShort(String timePattern, String datePattern) {
+    return datePattern + ", " + timePattern;
+  }
+
+  @Override
+  public String[] erasFull() {
     return new String[] {
-        "BCE",
-        "CE"
+        "Pele ga tsalo ya Morena Jeso",
+        "Morago ga Leso la Morena Jeso"
     };
   }
 
   @Override
   public int firstDayOfTheWeek() {
     return 0;
+  }
+
+  @Override
+  public String formatHour12Minute() {
+    return "h:mm a";
+  }
+
+  @Override
+  public String formatHour12MinuteSecond() {
+    return "h:mm:ss a";
   }
 
   @Override
@@ -154,10 +176,10 @@ public class DateTimeFormatInfoImpl_tn extends DateTimeFormatInfoImpl {
   @Override
   public String[] quartersFull() {
     return new String[] {
-        "Q1",
-        "Q2",
-        "Q3",
-        "Q4"
+        "Sephatlho sa ntlha sa ngwaga",
+        "Sephatlho sa bobedi",
+        "Sephatlho sa boraro",
+        "Sephatlho sa bone"
     };
   }
 
@@ -179,10 +201,10 @@ public class DateTimeFormatInfoImpl_tn extends DateTimeFormatInfoImpl {
     return new String[] {
         "Tsh",
         "Mos",
-        "Bed",
-        "Rar",
-        "Ne",
-        "Tla",
+        "Labb",
+        "Labr",
+        "Labn",
+        "Labt",
         "Mat"
     };
   }

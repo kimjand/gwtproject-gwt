@@ -66,6 +66,11 @@ public class DateTimeFormatInfoImpl_teo extends DateTimeFormatInfoImpl {
   }
 
   @Override
+  public String formatHour12Minute() {
+    return "h:mm a";
+  }
+
+  @Override
   public String formatMonthFullWeekdayDay() {
     return "EEEE, MMMM d";
   }
@@ -81,11 +86,6 @@ public class DateTimeFormatInfoImpl_teo extends DateTimeFormatInfoImpl {
   }
 
   @Override
-  public String formatYearMonthAbbrevDay() {
-    return "d MMM y";
-  }
-
-  @Override
   public String formatYearMonthFull() {
     return "MMMM y";
   }
@@ -98,11 +98,6 @@ public class DateTimeFormatInfoImpl_teo extends DateTimeFormatInfoImpl {
   @Override
   public String formatYearMonthNum() {
     return "M/y";
-  }
-
-  @Override
-  public String formatYearMonthNumDay() {
-    return "d/M/y";
   }
 
   @Override
@@ -231,5 +226,10 @@ public class DateTimeFormatInfoImpl_teo extends DateTimeFormatInfoImpl {
         "Kan",
         "Sab"
     };
+  }
+
+  @Override
+  public int weekendStart() {
+    return 0;
   }
 }

@@ -24,24 +24,24 @@ public class DateTimeFormatInfoImpl_ti extends DateTimeFormatInfoImpl {
   @Override
   public String[] ampms() {
     return new String[] {
-        "ንጉሆ ሰዓተ",
-        "ድሕር ሰዓት"
+        "ቅ.ቀ.",
+        "ድ.ቀ."
     };
   }
 
   @Override
   public String dateFormatFull() {
-    return "EEEE፣ dd MMMM መዓልቲ y G";
+    return "EEEE፣ d MMMM y";
   }
 
   @Override
   public String dateFormatLong() {
-    return "dd MMMM y";
+    return "d MMMM y";
   }
 
   @Override
   public String dateFormatMedium() {
-    return "dd-MMM-y";
+    return "d MMM y";
   }
 
   @Override
@@ -52,8 +52,8 @@ public class DateTimeFormatInfoImpl_ti extends DateTimeFormatInfoImpl {
   @Override
   public String[] erasFull() {
     return new String[] {
-        "ዓ/ዓ",
-        "ዓመተ ምህረት"
+        "ቅድመ ክርስቶስ",
+        "ዓመተ ምሕረት"
     };
   }
 
@@ -71,6 +71,36 @@ public class DateTimeFormatInfoImpl_ti extends DateTimeFormatInfoImpl {
   }
 
   @Override
+  public String formatMonthAbbrevDay() {
+    return "d MMM";
+  }
+
+  @Override
+  public String formatMonthFullDay() {
+    return "d MMMM";
+  }
+
+  @Override
+  public String formatMonthFullWeekdayDay() {
+    return "EEEE፣ d MMMM";
+  }
+
+  @Override
+  public String formatMonthNumDay() {
+    return "d/M";
+  }
+
+  @Override
+  public String formatYearMonthAbbrev() {
+    return "MMM y";
+  }
+
+  @Override
+  public String formatYearMonthAbbrevDay() {
+    return "d MMM y";
+  }
+
+  @Override
   public String formatYearMonthFull() {
     return "MMMM y";
   }
@@ -81,8 +111,18 @@ public class DateTimeFormatInfoImpl_ti extends DateTimeFormatInfoImpl {
   }
 
   @Override
+  public String formatYearMonthNum() {
+    return "M/y";
+  }
+
+  @Override
   public String formatYearMonthNumDay() {
-    return "y-MM-dd";
+    return "d/M/y";
+  }
+
+  @Override
+  public String formatYearQuarterFull() {
+    return "QQQQ y";
   }
 
   @Override
@@ -147,10 +187,10 @@ public class DateTimeFormatInfoImpl_ti extends DateTimeFormatInfoImpl {
   @Override
   public String[] quartersFull() {
     return new String[] {
-        "ቀዳማይ ርብዒ",
-        "ካልኣይ ርብዒ",
-        "ሳልሳይ ርብዒ",
-        "ራብዓይ ርብዒ"
+        "1ይ ርብዒ",
+        "2ይ ርብዒ",
+        "3ይ ርብዒ",
+        "4ይ ርብዒ"
     };
   }
 
@@ -189,9 +229,9 @@ public class DateTimeFormatInfoImpl_ti extends DateTimeFormatInfoImpl {
     return new String[] {
         "ሰንበት",
         "ሰኑይ",
-        "ሠሉስ",
+        "ሰሉስ",
         "ረቡዕ",
-        "ኃሙስ",
+        "ሓሙስ",
         "ዓርቢ",
         "ቀዳም"
     };
@@ -203,19 +243,6 @@ public class DateTimeFormatInfoImpl_ti extends DateTimeFormatInfoImpl {
         "ሰ",
         "ሰ",
         "ሰ",
-        "ረ",
-        "ሓ",
-        "ዓ",
-        "ቀ"
-    };
-  }
-
-  @Override
-  public String[] weekdaysNarrowStandalone() {
-    return new String[] {
-        "ሰ",
-        "ሰ",
-        "ሠ",
         "ረ",
         "ሓ",
         "ዓ",

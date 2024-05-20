@@ -1,5 +1,5 @@
 /*
- * Copyright 2010 Google Inc.
+ * Copyright 2012 Google Inc.
  * 
  * Licensed under the Apache License, Version 2.0 (the "License"); you may not
  * use this file except in compliance with the License. You may obtain a copy of
@@ -14,7 +14,6 @@
  * the License.
  */
 package com.google.gwt.i18n.client.impl.cldr;
-
 // DO NOT EDIT - GENERATED FROM CLDR AND ICU DATA
 
 /**
@@ -34,7 +33,7 @@ public class DateTimeFormatInfoImpl_dv extends DateTimeFormatInfoImpl {
 
   @Override
   public String dateFormatMedium() {
-    return "dd-MM-yyyy";
+    return "dd-MM-y";
   }
 
   @Override
@@ -61,6 +60,16 @@ public class DateTimeFormatInfoImpl_dv extends DateTimeFormatInfoImpl {
   @Override
   public int firstDayOfTheWeek() {
     return 5;
+  }
+
+  @Override
+  public String formatHour12Minute() {
+    return "h:mm a";
+  }
+
+  @Override
+  public String formatHour12MinuteSecond() {
+    return "h:mm:ss a";
   }
 
   @Override
@@ -121,18 +130,18 @@ public class DateTimeFormatInfoImpl_dv extends DateTimeFormatInfoImpl {
   @Override
   public String[] monthsFull() {
     return new String[] {
-        "1",
-        "2",
-        "3",
-        "4",
-        "5",
-        "6",
-        "7",
-        "8",
-        "9",
-        "10",
-        "11",
-        "12"
+        "M01",
+        "M02",
+        "M03",
+        "M04",
+        "M05",
+        "M06",
+        "M07",
+        "M08",
+        "M09",
+        "M10",
+        "M11",
+        "M12"
     };
   }
 
@@ -157,18 +166,18 @@ public class DateTimeFormatInfoImpl_dv extends DateTimeFormatInfoImpl {
   @Override
   public String[] monthsShort() {
     return new String[] {
-        "1",
-        "2",
-        "3",
-        "4",
-        "5",
-        "6",
-        "7",
-        "8",
-        "9",
-        "10",
-        "11",
-        "12"
+        "M01",
+        "M02",
+        "M03",
+        "M04",
+        "M05",
+        "M06",
+        "M07",
+        "M08",
+        "M09",
+        "M10",
+        "M11",
+        "M12"
     };
   }
 
@@ -183,61 +192,15 @@ public class DateTimeFormatInfoImpl_dv extends DateTimeFormatInfoImpl {
   }
 
   @Override
-  public String timeFormatFull() {
-    return "hh:mm:ss a zzzz";
-  }
-
-  @Override
-  public String timeFormatLong() {
-    return "hh:mm:ss a z";
-  }
-
-  @Override
-  public String timeFormatMedium() {
-    return "hh:mm:ss a";
-  }
-
-  @Override
-  public String timeFormatShort() {
-    return "hh:mm a";
-  }
-
-  @Override
   public String[] weekdaysFull() {
     return new String[] {
-        "1",
-        "2",
-        "3",
-        "4",
-        "5",
-        "6",
-        "7"
-    };
-  }
-
-  @Override
-  public String[] weekdaysNarrow() {
-    return new String[] {
-        "1",
-        "2",
-        "3",
-        "4",
-        "5",
-        "6",
-        "7"
-    };
-  }
-
-  @Override
-  public String[] weekdaysShort() {
-    return new String[] {
-        "1",
-        "2",
-        "3",
-        "4",
-        "5",
-        "6",
-        "7"
+        "Sun",
+        "Mon",
+        "Tue",
+        "Wed",
+        "Thu",
+        "Fri",
+        "Sat"
     };
   }
 }

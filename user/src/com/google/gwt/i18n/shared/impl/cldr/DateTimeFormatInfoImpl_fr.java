@@ -43,17 +43,17 @@ public class DateTimeFormatInfoImpl_fr extends DateTimeFormatInfoImpl {
 
   @Override
   public String dateTimeFull(String timePattern, String datePattern) {
-    return datePattern + " 'à' " + timePattern;
+    return datePattern + ", " + timePattern;
   }
 
   @Override
   public String dateTimeLong(String timePattern, String datePattern) {
-    return datePattern + " 'à' " + timePattern;
+    return datePattern + ", " + timePattern;
   }
 
   @Override
   public String dateTimeMedium(String timePattern, String datePattern) {
-    return datePattern + " 'à' " + timePattern;
+    return datePattern + ", " + timePattern;
   }
 
   @Override
@@ -70,6 +70,16 @@ public class DateTimeFormatInfoImpl_fr extends DateTimeFormatInfoImpl {
         "av. J.-C.",
         "ap. J.-C."
     };
+  }
+
+  @Override
+  public String formatHour12Minute() {
+    return "h:mm a";
+  }
+
+  @Override
+  public String formatHour12MinuteSecond() {
+    return "h:mm:ss a";
   }
 
   @Override

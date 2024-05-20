@@ -71,6 +71,11 @@ public class DateTimeFormatInfoImpl_gd extends DateTimeFormatInfoImpl {
   }
 
   @Override
+  public String formatHour12MinuteSecond() {
+    return "h:mm:ss a";
+  }
+
+  @Override
   public String formatMonthAbbrevDay() {
     return "d MMM";
   }
@@ -97,7 +102,7 @@ public class DateTimeFormatInfoImpl_gd extends DateTimeFormatInfoImpl {
 
   @Override
   public String formatYearMonthAbbrevDay() {
-    return "d MMM y";
+    return "d'mh' MMM y";
   }
 
   @Override
@@ -122,7 +127,7 @@ public class DateTimeFormatInfoImpl_gd extends DateTimeFormatInfoImpl {
 
   @Override
   public String formatYearMonthWeekdayDay() {
-    return "EEE, d MMM y";
+    return "EEE, d'mh' MMM y";
   }
 
   @Override

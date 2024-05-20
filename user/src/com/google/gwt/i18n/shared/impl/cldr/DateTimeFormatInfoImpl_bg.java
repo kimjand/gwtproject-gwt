@@ -31,22 +31,22 @@ public class DateTimeFormatInfoImpl_bg extends DateTimeFormatInfoImpl {
 
   @Override
   public String dateFormatFull() {
-    return "EEEE, d MMMM y 'г'.";
+    return "EEEE, d MMMM y 'г'.";
   }
 
   @Override
   public String dateFormatLong() {
-    return "d MMMM y 'г'.";
+    return "d MMMM y 'г'.";
   }
 
   @Override
   public String dateFormatMedium() {
-    return "d.MM.y 'г'.";
+    return "d.MM.y 'г'.";
   }
 
   @Override
   public String dateFormatShort() {
-    return "d.MM.yy 'г'.";
+    return "d.MM.yy 'г'.";
   }
 
   @Override
@@ -97,12 +97,12 @@ public class DateTimeFormatInfoImpl_bg extends DateTimeFormatInfoImpl {
 
   @Override
   public String formatHour24Minute() {
-    return "H:mm 'ч'.";
+    return "H:mm";
   }
 
   @Override
   public String formatHour24MinuteSecond() {
-    return "H:mm:ss 'ч'.";
+    return "H:mm:ss";
   }
 
   @Override
@@ -137,52 +137,52 @@ public class DateTimeFormatInfoImpl_bg extends DateTimeFormatInfoImpl {
 
   @Override
   public String formatYear() {
-    return "y 'г'.";
+    return "y 'г'.";
   }
 
   @Override
   public String formatYearMonthAbbrev() {
-    return "MM.y 'г'.";
+    return "MM.y 'г'.";
   }
 
   @Override
   public String formatYearMonthAbbrevDay() {
-    return "d.MM.y 'г'.";
+    return "d.MM.y 'г'.";
   }
 
   @Override
   public String formatYearMonthFull() {
-    return "MMMM y 'г'.";
+    return "MMMM y 'г'.";
   }
 
   @Override
   public String formatYearMonthFullDay() {
-    return "d MMMM y 'г'.";
+    return "d MMMM y 'г'.";
   }
 
   @Override
   public String formatYearMonthNum() {
-    return "MM.y 'г'.";
+    return "MM.y 'г'.";
   }
 
   @Override
   public String formatYearMonthNumDay() {
-    return "d.MM.y 'г'.";
+    return "d.MM.y 'г'.";
   }
 
   @Override
   public String formatYearMonthWeekdayDay() {
-    return "EEE, d.MM.y 'г'.";
+    return "EEE, d.MM.y 'г'.";
   }
 
   @Override
   public String formatYearQuarterFull() {
-    return "QQQQ y 'г'.";
+    return "QQQQ y 'г'.";
   }
 
   @Override
   public String formatYearQuarterShort() {
-    return "Q y 'г'.";
+    return "Q y 'г'.";
   }
 
   @Override
@@ -271,12 +271,12 @@ public class DateTimeFormatInfoImpl_bg extends DateTimeFormatInfoImpl {
 
   @Override
   public String timeFormatMedium() {
-    return "H:mm:ss 'ч'.";
+    return "H:mm:ss";
   }
 
   @Override
   public String timeFormatShort() {
-    return "H:mm 'ч'.";
+    return "H:mm";
   }
 
   @Override

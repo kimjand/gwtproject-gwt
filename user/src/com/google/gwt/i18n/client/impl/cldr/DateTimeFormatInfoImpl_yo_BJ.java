@@ -48,7 +48,7 @@ public class DateTimeFormatInfoImpl_yo_BJ extends DateTimeFormatInfoImpl_yo {
   }
 
   @Override
-  public String[] monthsShort() {
+  public String[] monthsFullStandalone() {
     return new String[] {
         "Shɛ́rɛ́",
         "Èrèlè",
@@ -66,12 +66,76 @@ public class DateTimeFormatInfoImpl_yo_BJ extends DateTimeFormatInfoImpl_yo {
   }
 
   @Override
+  public String[] monthsNarrow() {
+    return new String[] {
+        "S",
+        "È",
+        "Ɛ",
+        "Ì",
+        "Ɛ̀",
+        "Ò",
+        "A",
+        "Ò",
+        "O",
+        "Ɔ̀",
+        "B",
+        "Ɔ̀"
+    };
+  }
+
+  @Override
+  public String[] monthsShort() {
+    return new String[] {
+        "Shɛ́r",
+        "Èrèl",
+        "Ɛrɛ̀n",
+        "Ìgb",
+        "Ɛ̀bi",
+        "Òkú",
+        "Agɛ",
+        "Ògú",
+        "Owe",
+        "Ɔ̀wà",
+        "Bél",
+        "Ɔ̀pɛ"
+    };
+  }
+
+  @Override
+  public String[] monthsShortStandalone() {
+    return new String[] {
+        "Shɛ́",
+        "Èr",
+        "Ɛr",
+        "Ìg",
+        "Ɛ̀b",
+        "Òk",
+        "Ag",
+        "Òg",
+        "Ow",
+        "Ɔ̀w",
+        "Bé",
+        "Ɔ̀p"
+    };
+  }
+
+  @Override
   public String[] quartersFull() {
     return new String[] {
-        "Kɔ́tà Kínní",
-        "Kɔ́tà Kejì",
-        "Kɔ́à Keta",
-        "Kɔ́tà Kɛrin"
+        "Ìdámɛ́rin kíní",
+        "Ìdámɛ́rin Kejì",
+        "Ìdámɛ́rin Kɛta",
+        "Ìdámɛ́rin Kɛrin"
+    };
+  }
+
+  @Override
+  public String[] quartersShort() {
+    return new String[] {
+        "Ìdámɛ́rin kíní",
+        "Ìdámɛ́rin Kejì",
+        "Ìdámɛ́rin Kɛta",
+        "Ìdámɛ́rin Kɛrin"
     };
   }
 
@@ -89,7 +153,7 @@ public class DateTimeFormatInfoImpl_yo_BJ extends DateTimeFormatInfoImpl_yo {
   }
 
   @Override
-  public String[] weekdaysShort() {
+  public String[] weekdaysFullStandalone() {
     return new String[] {
         "Àìkú",
         "Ajé",
@@ -98,6 +162,32 @@ public class DateTimeFormatInfoImpl_yo_BJ extends DateTimeFormatInfoImpl_yo {
         "Ɔjɔ́bɔ",
         "Ɛtì",
         "Àbámɛ́ta"
+    };
+  }
+
+  @Override
+  public String[] weekdaysNarrow() {
+    return new String[] {
+        "À",
+        "A",
+        "Ì",
+        "Ɔ",
+        "Ɔ",
+        "Ɛ",
+        "À"
+    };
+  }
+
+  @Override
+  public String[] weekdaysShort() {
+    return new String[] {
+        "Àìk",
+        "Aj",
+        "Ìsɛ́g",
+        "Ɔjɔ́r",
+        "Ɔjɔ́b",
+        "Ɛt",
+        "Àbám"
     };
   }
 }

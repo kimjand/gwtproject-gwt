@@ -78,6 +78,7 @@ public class LocalizedNamesImpl_fr_BE extends LocalizedNamesImpl_fr {
         "KR",
         "CR",
         "CI",
+        "CQ",
         "HR",
         "CU",
         "CW",
@@ -91,8 +92,8 @@ public class LocalizedNamesImpl_fr_BE extends LocalizedNamesImpl_fr {
         "ER",
         "ES",
         "EE",
+        "SZ",
         "VA",
-        "FM",
         "US",
         "ET",
         "FJ",
@@ -182,6 +183,7 @@ public class LocalizedNamesImpl_fr_BE extends LocalizedNamesImpl_fr {
         "MR",
         "YT",
         "MX",
+        "FM",
         "MD",
         "MC",
         "MN",
@@ -216,6 +218,8 @@ public class LocalizedNamesImpl_fr_BE extends LocalizedNamesImpl_fr {
         "PF",
         "PR",
         "PT",
+        "XA",
+        "XB",
         "QA",
         "HK",
         "MO",
@@ -255,7 +259,6 @@ public class LocalizedNamesImpl_fr_BE extends LocalizedNamesImpl_fr {
         "CH",
         "SR",
         "SJ",
-        "SZ",
         "SY",
         "TJ",
         "TW",
@@ -283,8 +286,6 @@ public class LocalizedNamesImpl_fr_BE extends LocalizedNamesImpl_fr {
         "VE",
         "VN",
         "WF",
-        "XA",
-        "XB",
         "YE",
         "ZM",
         "ZW",
@@ -295,7 +296,6 @@ public class LocalizedNamesImpl_fr_BE extends LocalizedNamesImpl_fr {
   @Override
   protected void loadNameMapJava() {
     super.loadNameMapJava();
-    namesMap.put("BN", "Brunei");
     namesMap.put("GS", "Îles Géorgie du Sud et Sandwich du Sud");
   }
 
@@ -306,7 +306,6 @@ public class LocalizedNamesImpl_fr_BE extends LocalizedNamesImpl_fr {
 
   private native JavaScriptObject loadMyNameMap() /*-{
     return {
-        "BN": "Brunei",
         "GS": "Îles Géorgie du Sud et Sandwich du Sud"
     };
   }-*/;

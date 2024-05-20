@@ -54,6 +54,7 @@ public class LocalizedNamesImpl_da extends LocalizedNamesImpl {
         "BH",
         "BD",
         "BB",
+        "BY",
         "BE",
         "BZ",
         "BJ",
@@ -82,6 +83,7 @@ public class LocalizedNamesImpl_da extends LocalizedNamesImpl {
         "CD",
         "CK",
         "CR",
+        "CQ",
         "CU",
         "CW",
         "CY",
@@ -106,6 +108,7 @@ public class LocalizedNamesImpl_da extends LocalizedNamesImpl {
         "SV",
         "ER",
         "EE",
+        "SZ",
         "ET",
         "EZ",
         "FK",
@@ -133,9 +136,7 @@ public class LocalizedNamesImpl_da extends LocalizedNamesImpl {
         "GY",
         "HT",
         "HM",
-        "NL",
         "HN",
-        "BY",
         "IN",
         "ID",
         "IQ",
@@ -170,7 +171,6 @@ public class LocalizedNamesImpl_da extends LocalizedNamesImpl {
         "LT",
         "LU",
         "MG",
-        "MK",
         "MW",
         "MY",
         "MV",
@@ -193,6 +193,7 @@ public class LocalizedNamesImpl_da extends LocalizedNamesImpl {
         "MM",
         "NA",
         "NR",
+        "NL",
         "NP",
         "NZ",
         "NI",
@@ -200,6 +201,7 @@ public class LocalizedNamesImpl_da extends LocalizedNamesImpl {
         "NG",
         "NU",
         "KP",
+        "MK",
         "MP",
         "NF",
         "NO",
@@ -214,6 +216,8 @@ public class LocalizedNamesImpl_da extends LocalizedNamesImpl {
         "PN",
         "PL",
         "PT",
+        "XA",
+        "XB",
         "PR",
         "QA",
         "RE",
@@ -252,7 +256,6 @@ public class LocalizedNamesImpl_da extends LocalizedNamesImpl {
         "SR",
         "SJ",
         "SE",
-        "SZ",
         "ZA",
         "KR",
         "SS",
@@ -287,8 +290,6 @@ public class LocalizedNamesImpl_da extends LocalizedNamesImpl {
         "EH",
         "VN",
         "WF",
-        "XA",
-        "XB",
         "QO",
         "YE",
         "ZM",
@@ -351,7 +352,6 @@ public class LocalizedNamesImpl_da extends LocalizedNamesImpl {
     namesMap.put("BQ", "De tidligere Nederlandske Antiller");
     namesMap.put("BR", "Brasilien");
     namesMap.put("BV", "Bouvetøen");
-    namesMap.put("BY", "Hviderusland");
     namesMap.put("CC", "Cocosøerne");
     namesMap.put("CD", "Congo-Kinshasa");
     namesMap.put("CF", "Den Centralafrikanske Republik");
@@ -397,7 +397,7 @@ public class LocalizedNamesImpl_da extends LocalizedNamesImpl {
     namesMap.put("ID", "Indonesien");
     namesMap.put("IE", "Irland");
     namesMap.put("IN", "Indien");
-    namesMap.put("IO", "Det britiske territorium i Det Indiske Ocean");
+    namesMap.put("IO", "Det Britiske Territorium i Det Indiske Ocean");
     namesMap.put("IQ", "Irak");
     namesMap.put("IS", "Island");
     namesMap.put("IT", "Italien");
@@ -418,14 +418,14 @@ public class LocalizedNamesImpl_da extends LocalizedNamesImpl {
     namesMap.put("MF", "Saint Martin");
     namesMap.put("MG", "Madagaskar");
     namesMap.put("MH", "Marshalløerne");
-    namesMap.put("MK", "Makedonien");
+    namesMap.put("MK", "Nordmakedonien");
     namesMap.put("MN", "Mongoliet");
     namesMap.put("MO", "SAR Macao");
     namesMap.put("MP", "Nordmarianerne");
     namesMap.put("MR", "Mauretanien");
     namesMap.put("MV", "Maldiverne");
     namesMap.put("NC", "Ny Kaledonien");
-    namesMap.put("NL", "Holland");
+    namesMap.put("NL", "Nederlandene");
     namesMap.put("NO", "Norge");
     namesMap.put("PF", "Fransk Polynesien");
     namesMap.put("PG", "Papua Ny Guinea");
@@ -451,7 +451,7 @@ public class LocalizedNamesImpl_da extends LocalizedNamesImpl {
     namesMap.put("SY", "Syrien");
     namesMap.put("TC", "Turks- og Caicosøerne");
     namesMap.put("TD", "Tchad");
-    namesMap.put("TF", "De Franske Besiddelser i Det Sydlige Indiske Ocean");
+    namesMap.put("TF", "De Franske Besiddelser i Det Sydlige Indiske Ocean og Antarktis");
     namesMap.put("TJ", "Tadsjikistan");
     namesMap.put("TN", "Tunesien");
     namesMap.put("TR", "Tyrkiet");
@@ -465,6 +465,8 @@ public class LocalizedNamesImpl_da extends LocalizedNamesImpl {
     namesMap.put("VG", "De Britiske Jomfruøer");
     namesMap.put("VI", "De Amerikanske Jomfruøer");
     namesMap.put("WF", "Wallis og Futuna");
+    namesMap.put("XA", "pseudo-accenter");
+    namesMap.put("XB", "pseudo-bidi");
     namesMap.put("ZA", "Sydafrika");
     namesMap.put("ZZ", "Ukendt område");
   }
@@ -525,7 +527,6 @@ public class LocalizedNamesImpl_da extends LocalizedNamesImpl {
         "BQ": "De tidligere Nederlandske Antiller",
         "BR": "Brasilien",
         "BV": "Bouvetøen",
-        "BY": "Hviderusland",
         "CC": "Cocosøerne",
         "CD": "Congo-Kinshasa",
         "CF": "Den Centralafrikanske Republik",
@@ -571,7 +572,7 @@ public class LocalizedNamesImpl_da extends LocalizedNamesImpl {
         "ID": "Indonesien",
         "IE": "Irland",
         "IN": "Indien",
-        "IO": "Det britiske territorium i Det Indiske Ocean",
+        "IO": "Det Britiske Territorium i Det Indiske Ocean",
         "IQ": "Irak",
         "IS": "Island",
         "IT": "Italien",
@@ -592,14 +593,14 @@ public class LocalizedNamesImpl_da extends LocalizedNamesImpl {
         "MF": "Saint Martin",
         "MG": "Madagaskar",
         "MH": "Marshalløerne",
-        "MK": "Makedonien",
+        "MK": "Nordmakedonien",
         "MN": "Mongoliet",
         "MO": "SAR Macao",
         "MP": "Nordmarianerne",
         "MR": "Mauretanien",
         "MV": "Maldiverne",
         "NC": "Ny Kaledonien",
-        "NL": "Holland",
+        "NL": "Nederlandene",
         "NO": "Norge",
         "PF": "Fransk Polynesien",
         "PG": "Papua Ny Guinea",
@@ -625,7 +626,7 @@ public class LocalizedNamesImpl_da extends LocalizedNamesImpl {
         "SY": "Syrien",
         "TC": "Turks- og Caicosøerne",
         "TD": "Tchad",
-        "TF": "De Franske Besiddelser i Det Sydlige Indiske Ocean",
+        "TF": "De Franske Besiddelser i Det Sydlige Indiske Ocean og Antarktis",
         "TJ": "Tadsjikistan",
         "TN": "Tunesien",
         "TR": "Tyrkiet",
@@ -639,6 +640,8 @@ public class LocalizedNamesImpl_da extends LocalizedNamesImpl {
         "VG": "De Britiske Jomfruøer",
         "VI": "De Amerikanske Jomfruøer",
         "WF": "Wallis og Futuna",
+        "XA": "pseudo-accenter",
+        "XB": "pseudo-bidi",
         "ZA": "Sydafrika",
         "ZZ": "Ukendt område"
     };

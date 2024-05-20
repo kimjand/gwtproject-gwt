@@ -27,7 +27,9 @@ public class LocalizedNamesImpl_dz extends LocalizedNamesImpl {
   @Override
   public String[] loadSortedRegionCodes() {
     return new String[] {
+        "CQ",
         "EZ",
+        "MK",
         "UN",
         "XA",
         "XB",
@@ -161,7 +163,6 @@ public class LocalizedNamesImpl_dz extends LocalizedNamesImpl {
         "MG",
         "MW",
         "MY",
-        "MK",
         "MO",
         "FM",
         "MH",
@@ -474,7 +475,6 @@ public class LocalizedNamesImpl_dz extends LocalizedNamesImpl {
     namesMap.put("MF", "སེནཊ་ མཱར་ཊིན");
     namesMap.put("MG", "མ་དཱ་གེས་ཀར");
     namesMap.put("MH", "མར་ཤེལ་གླིང་ཚོམ");
-    namesMap.put("MK", "མ་སེ་ཌོ་ནི་ཡ");
     namesMap.put("ML", "མཱ་ལི");
     namesMap.put("MM", "མི་ཡཱན་མར་ (བྷར་མ)");
     namesMap.put("MN", "སོག་པོ་ཡུལ");
@@ -771,7 +771,6 @@ public class LocalizedNamesImpl_dz extends LocalizedNamesImpl {
         "MF": "སེནཊ་ མཱར་ཊིན",
         "MG": "མ་དཱ་གེས་ཀར",
         "MH": "མར་ཤེལ་གླིང་ཚོམ",
-        "MK": "མ་སེ་ཌོ་ནི་ཡ",
         "ML": "མཱ་ལི",
         "MM": "མི་ཡཱན་མར་ (བྷར་མ)",
         "MN": "སོག་པོ་ཡུལ",

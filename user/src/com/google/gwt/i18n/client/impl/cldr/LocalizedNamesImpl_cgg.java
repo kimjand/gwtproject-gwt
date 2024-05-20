@@ -77,6 +77,7 @@ public class LocalizedNamesImpl_cgg extends LocalizedNamesImpl {
         "CL",
         "CN",
         "CP",
+        "CQ",
         "CU",
         "CW",
         "CX",
@@ -178,7 +179,6 @@ public class LocalizedNamesImpl_cgg extends LocalizedNamesImpl {
         "MV",
         "MT",
         "MQ",
-        "MK",
         "MU",
         "MR",
         "YT",
@@ -187,6 +187,7 @@ public class LocalizedNamesImpl_cgg extends LocalizedNamesImpl {
         "MF",
         "FM",
         "EG",
+        "MK",
         "MO",
         "MC",
         "MN",
@@ -404,7 +405,6 @@ public class LocalizedNamesImpl_cgg extends LocalizedNamesImpl {
     namesMap.put("MD", "Moridova");
     namesMap.put("MG", "Madagasika");
     namesMap.put("MH", "Ebizinga bya Marshaa");
-    namesMap.put("MK", "Masedoonia");
     namesMap.put("ML", "Mari");
     namesMap.put("MM", "Myanamar");
     namesMap.put("MN", "Mongoria");
@@ -605,7 +605,6 @@ public class LocalizedNamesImpl_cgg extends LocalizedNamesImpl {
         "MD": "Moridova",
         "MG": "Madagasika",
         "MH": "Ebizinga bya Marshaa",
-        "MK": "Masedoonia",
         "ML": "Mari",
         "MM": "Myanamar",
         "MN": "Mongoria",

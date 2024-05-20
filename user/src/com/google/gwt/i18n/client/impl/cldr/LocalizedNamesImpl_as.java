@@ -34,8 +34,7 @@ public class LocalizedNamesImpl_as extends LocalizedNamesImpl {
   @Override
   public String[] loadSortedRegionCodes() {
     return new String[] {
-        "XA",
-        "XB",
+        "CQ",
         "AT",
         "AU",
         "IS",
@@ -59,6 +58,7 @@ public class LocalizedNamesImpl_as extends LocalizedNamesImpl {
         "EU",
         "GQ",
         "EC",
+        "SZ",
         "EG",
         "IL",
         "IT",
@@ -71,6 +71,7 @@ public class LocalizedNamesImpl_as extends LocalizedNamesImpl {
         "UZ",
         "KP",
         "MP",
+        "MK",
         "UY",
         "AO",
         "AC",
@@ -143,6 +144,8 @@ public class LocalizedNamesImpl_as extends LocalizedNamesImpl {
         "RS",
         "SG",
         "SC",
+        "XA",
+        "XB",
         "SR",
         "KN",
         "PM",
@@ -260,7 +263,6 @@ public class LocalizedNamesImpl_as extends LocalizedNamesImpl {
         "MQ",
         "MH",
         "MX",
-        "MK",
         "MC",
         "MD",
         "MM",
@@ -284,7 +286,6 @@ public class LocalizedNamesImpl_as extends LocalizedNamesImpl {
         "AE",
         "GB",
         "ES",
-        "SZ",
         "HK",
         "HN",
         "HU",
@@ -304,7 +305,7 @@ public class LocalizedNamesImpl_as extends LocalizedNamesImpl {
     super.loadNameMapJava();
     namesMap.put("001", "বিশ্ব");
     namesMap.put("002", "আফ্ৰিকা");
-    namesMap.put("003", "উদীচ্য আমেৰিকা");
+    namesMap.put("003", "উত্তৰ আমেৰিকা");
     namesMap.put("005", "দক্ষিণ আমেৰিকা");
     namesMap.put("009", "অ’চেনীয়া");
     namesMap.put("011", "পাশ্চাত্য আফ্ৰিকা");
@@ -314,7 +315,7 @@ public class LocalizedNamesImpl_as extends LocalizedNamesImpl {
     namesMap.put("017", "মধ্য আফ্ৰিকা");
     namesMap.put("018", "দাক্ষিণাত্য আফ্ৰিকা");
     namesMap.put("019", "আমেৰিকাছ্");
-    namesMap.put("021", "উত্তৰীয় আমেৰিকা");
+    namesMap.put("021", "উদীচ্য আমেৰিকা");
     namesMap.put("029", "কেৰিবিয়ান");
     namesMap.put("030", "প্ৰাচ্য এছিয়া");
     namesMap.put("034", "দাক্ষিণাত্য এছিয়া");
@@ -483,11 +484,11 @@ public class LocalizedNamesImpl_as extends LocalizedNamesImpl {
     namesMap.put("MF", "ছেইণ্ট মাৰ্টিন");
     namesMap.put("MG", "মাদাগাস্কাৰ");
     namesMap.put("MH", "মাৰ্শ্বাল দ্বীপপুঞ্জ");
-    namesMap.put("MK", "মেচিডোনীয়া");
+    namesMap.put("MK", "উত্তৰ মেচিডোনীয়া");
     namesMap.put("ML", "মালি");
     namesMap.put("MM", "ম্যানমাৰ (বাৰ্মা)");
     namesMap.put("MN", "মঙ্গোলিয়া");
-    namesMap.put("MO", "মাকাউ এছ. এ. আৰ. চীন");
+    namesMap.put("MO", "মাকাও এছ. এ. আৰ. চীন");
     namesMap.put("MP", "উত্তৰ মাৰিয়ানা দ্বীপপুঞ্জ");
     namesMap.put("MQ", "মাৰ্টিনিক");
     namesMap.put("MR", "মাউৰিটানিয়া");
@@ -553,7 +554,7 @@ public class LocalizedNamesImpl_as extends LocalizedNamesImpl {
     namesMap.put("SV", "এল ছেলভেড’ৰ");
     namesMap.put("SX", "চিণ্ট মাৰ্টেন");
     namesMap.put("SY", "চিৰিয়া");
-    namesMap.put("SZ", "স্বাজিলেণ্ড");
+    namesMap.put("SZ", "ইচ্চুটিনি");
     namesMap.put("TA", "ত্ৰিস্তান দ্যা কুনহা");
     namesMap.put("TC", "টাৰ্কছ অৰু কেইক’ছ দ্বীপপুঞ্জ");
     namesMap.put("TD", "চাড");
@@ -566,7 +567,7 @@ public class LocalizedNamesImpl_as extends LocalizedNamesImpl {
     namesMap.put("TM", "তুৰ্কমেনিস্তান");
     namesMap.put("TN", "টুনিচিয়া");
     namesMap.put("TO", "টংগা");
-    namesMap.put("TR", "তুৰ্কি");
+    namesMap.put("TR", "তুৰ্কিয়ে");
     namesMap.put("TT", "ট্ৰিনিডাড আৰু টোবাগো");
     namesMap.put("TV", "টুভালু");
     namesMap.put("TW", "টাইৱান");
@@ -587,6 +588,8 @@ public class LocalizedNamesImpl_as extends LocalizedNamesImpl {
     namesMap.put("VU", "ভানাটু");
     namesMap.put("WF", "ৱালিছ আৰু ফুটুনা");
     namesMap.put("WS", "চামোৱা");
+    namesMap.put("XA", "ছুডু-একচেণ্ট");
+    namesMap.put("XB", "ছুডু-বিডি");
     namesMap.put("XK", "কচ’ভ’");
     namesMap.put("YE", "য়েমেন");
     namesMap.put("YT", "মায়োট্টে");
@@ -605,7 +608,7 @@ public class LocalizedNamesImpl_as extends LocalizedNamesImpl {
     return {
         "001": "বিশ্ব",
         "002": "আফ্ৰিকা",
-        "003": "উদীচ্য আমেৰিকা",
+        "003": "উত্তৰ আমেৰিকা",
         "005": "দক্ষিণ আমেৰিকা",
         "009": "অ’চেনীয়া",
         "011": "পাশ্চাত্য আফ্ৰিকা",
@@ -615,7 +618,7 @@ public class LocalizedNamesImpl_as extends LocalizedNamesImpl {
         "017": "মধ্য আফ্ৰিকা",
         "018": "দাক্ষিণাত্য আফ্ৰিকা",
         "019": "আমেৰিকাছ্",
-        "021": "উত্তৰীয় আমেৰিকা",
+        "021": "উদীচ্য আমেৰিকা",
         "029": "কেৰিবিয়ান",
         "030": "প্ৰাচ্য এছিয়া",
         "034": "দাক্ষিণাত্য এছিয়া",
@@ -784,11 +787,11 @@ public class LocalizedNamesImpl_as extends LocalizedNamesImpl {
         "MF": "ছেইণ্ট মাৰ্টিন",
         "MG": "মাদাগাস্কাৰ",
         "MH": "মাৰ্শ্বাল দ্বীপপুঞ্জ",
-        "MK": "মেচিডোনীয়া",
+        "MK": "উত্তৰ মেচিডোনীয়া",
         "ML": "মালি",
         "MM": "ম্যানমাৰ (বাৰ্মা)",
         "MN": "মঙ্গোলিয়া",
-        "MO": "মাকাউ এছ. এ. আৰ. চীন",
+        "MO": "মাকাও এছ. এ. আৰ. চীন",
         "MP": "উত্তৰ মাৰিয়ানা দ্বীপপুঞ্জ",
         "MQ": "মাৰ্টিনিক",
         "MR": "মাউৰিটানিয়া",
@@ -854,7 +857,7 @@ public class LocalizedNamesImpl_as extends LocalizedNamesImpl {
         "SV": "এল ছেলভেড’ৰ",
         "SX": "চিণ্ট মাৰ্টেন",
         "SY": "চিৰিয়া",
-        "SZ": "স্বাজিলেণ্ড",
+        "SZ": "ইচ্চুটিনি",
         "TA": "ত্ৰিস্তান দ্যা কুনহা",
         "TC": "টাৰ্কছ অৰু কেইক’ছ দ্বীপপুঞ্জ",
         "TD": "চাড",
@@ -867,7 +870,7 @@ public class LocalizedNamesImpl_as extends LocalizedNamesImpl {
         "TM": "তুৰ্কমেনিস্তান",
         "TN": "টুনিচিয়া",
         "TO": "টংগা",
-        "TR": "তুৰ্কি",
+        "TR": "তুৰ্কিয়ে",
         "TT": "ট্ৰিনিডাড আৰু টোবাগো",
         "TV": "টুভালু",
         "TW": "টাইৱান",
@@ -888,6 +891,8 @@ public class LocalizedNamesImpl_as extends LocalizedNamesImpl {
         "VU": "ভানাটু",
         "WF": "ৱালিছ আৰু ফুটুনা",
         "WS": "চামোৱা",
+        "XA": "ছুডু-একচেণ্ট",
+        "XB": "ছুডু-বিডি",
         "XK": "কচ’ভ’",
         "YE": "য়েমেন",
         "YT": "মায়োট্টে",

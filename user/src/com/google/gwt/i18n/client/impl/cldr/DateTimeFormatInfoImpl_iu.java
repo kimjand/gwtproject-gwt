@@ -1,5 +1,5 @@
 /*
- * Copyright 2010 Google Inc.
+ * Copyright 2012 Google Inc.
  * 
  * Licensed under the Apache License, Version 2.0 (the "License"); you may not
  * use this file except in compliance with the License. You may obtain a copy of
@@ -14,13 +14,40 @@
  * the License.
  */
 package com.google.gwt.i18n.client.impl.cldr;
-
 // DO NOT EDIT - GENERATED FROM CLDR AND ICU DATA
 
 /**
  * Implementation of DateTimeFormatInfo for the "iu" locale.
  */
 public class DateTimeFormatInfoImpl_iu extends DateTimeFormatInfoImpl {
+
+  @Override
+  public String[] ampms() {
+    return new String[] {
+        "am",
+        "pm"
+    };
+  }
+
+  @Override
+  public String dateFormatFull() {
+    return "EEEE, MMMM d, y";
+  }
+
+  @Override
+  public String dateFormatLong() {
+    return "MMMM d, y";
+  }
+
+  @Override
+  public String dateFormatMedium() {
+    return "MMM d, y";
+  }
+
+  @Override
+  public String dateFormatShort() {
+    return "MM/dd/y";
+  }
 
   @Override
   public String[] erasFull() {
@@ -41,6 +68,16 @@ public class DateTimeFormatInfoImpl_iu extends DateTimeFormatInfoImpl {
   @Override
   public int firstDayOfTheWeek() {
     return 0;
+  }
+
+  @Override
+  public String formatHour12Minute() {
+    return "h:mm a";
+  }
+
+  @Override
+  public String formatHour12MinuteSecond() {
+    return "h:mm:ss a";
   }
 
   @Override
@@ -109,10 +146,10 @@ public class DateTimeFormatInfoImpl_iu extends DateTimeFormatInfoImpl {
         "ᔫᓂ",
         "ᔪᓚᐃ",
         "ᐊᐅᒡᒍᓯ",
-        "ᓰᑦᑏᕝᕙ",
+        "ᓯᑎᐱᕆ",
         "ᐆᑦᑑᕝᕙ",
-        "ᓅᕙᐃᕝᕙ",
-        "ᑏᓰᕝᕙ"
+        "ᓄᕕᐱᕆ",
+        "ᑎᓯᐱᕆ"
     };
   }
 
@@ -145,10 +182,10 @@ public class DateTimeFormatInfoImpl_iu extends DateTimeFormatInfoImpl {
         "ᔫᓂ",
         "ᔪᓚᐃ",
         "ᐊᐅᒡᒍᓯ",
-        "ᓰᑦᑏᕝᕙ",
+        "ᓯᑎᐱᕆ",
         "ᐆᑦᑑᕝᕙ",
-        "ᓅᕙᐃᕝᕙ",
-        "ᑏᓰᕝᕙ"
+        "ᓄᕕᐱᕆ",
+        "ᑎᓯᐱᕆ"
     };
   }
 
@@ -163,41 +200,48 @@ public class DateTimeFormatInfoImpl_iu extends DateTimeFormatInfoImpl {
   }
 
   @Override
+  public String timeFormatFull() {
+    return "h:mm:ss a zzzz";
+  }
+
+  @Override
+  public String timeFormatLong() {
+    return "h:mm:ss a z";
+  }
+
+  @Override
+  public String timeFormatMedium() {
+    return "h:mm:ss a";
+  }
+
+  @Override
+  public String timeFormatShort() {
+    return "h:mm a";
+  }
+
+  @Override
   public String[] weekdaysFull() {
     return new String[] {
-        "ᓈᑦᓰᖑᔭ",
+        "ᓈᑦᑏᖑᔭᖅ",
         "ᓇᒡᒐᔾᔭᐅ",
         "ᓇᒡᒐᔾᔭᐅᓕᖅᑭ",
         "ᐱᖓᑦᓯᖅ",
         "ᓯᑕᒻᒥᖅ",
-        "ᑕᓪᓕᕐᒥᖅ",
-        "ᓈᑦᓰᖑᔭᓕᖅᕿ"
-    };
-  }
-
-  @Override
-  public String[] weekdaysNarrow() {
-    return new String[] {
-        "1",
-        "2",
-        "3",
-        "4",
-        "5",
-        "6",
-        "7"
+        "ᑕᓪᓕᒻᒥᐅᑦ",
+        "ᓈᑦᓰᖑᔭᓛᕐᓂᐊᖅ"
     };
   }
 
   @Override
   public String[] weekdaysShort() {
     return new String[] {
-        "ᓈᑦᓰᖑᔭ",
+        "ᓈᑦᑏᖑᔭᖅ",
         "ᓇᒡᒐᔾᔭᐅ",
         "ᓇᒡᒐᔾᔭᐅᓕᖅᑭ",
         "ᐱᖓᑦᓯᖅ",
         "ᓯᑕᒻᒥᖅ",
-        "ᑕᓪᓕᕐᒥᖅ",
-        "ᓈᑦᓰᖑᔭᓕᖅᕿ"
+        "ᑕᓪᓕᒻᒥᐅᑦ",
+        "ᓈᑦᓰᖑᔭᓛᕐᓂᐊᖅ"
     };
   }
 }

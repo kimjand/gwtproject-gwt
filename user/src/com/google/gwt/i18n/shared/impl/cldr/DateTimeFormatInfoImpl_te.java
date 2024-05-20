@@ -42,16 +42,6 @@ public class DateTimeFormatInfoImpl_te extends DateTimeFormatInfoImpl {
   }
 
   @Override
-  public String dateTimeFull(String timePattern, String datePattern) {
-    return datePattern + " " + timePattern + "కి";
-  }
-
-  @Override
-  public String dateTimeLong(String timePattern, String datePattern) {
-    return datePattern + " " + timePattern + "కి";
-  }
-
-  @Override
   public String[] erasFull() {
     return new String[] {
         "క్రీస్తు పూర్వం",

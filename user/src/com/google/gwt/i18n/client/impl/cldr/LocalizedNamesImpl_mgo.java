@@ -77,6 +77,7 @@ public class LocalizedNamesImpl_mgo extends LocalizedNamesImpl {
         "CN",
         "CO",
         "CP",
+        "CQ",
         "CR",
         "CU",
         "CV",

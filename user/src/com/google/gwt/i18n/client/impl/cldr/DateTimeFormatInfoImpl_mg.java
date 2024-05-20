@@ -40,6 +40,16 @@ public class DateTimeFormatInfoImpl_mg extends DateTimeFormatInfoImpl {
   }
 
   @Override
+  public String formatHour12Minute() {
+    return "h:mm a";
+  }
+
+  @Override
+  public String formatHour12MinuteSecond() {
+    return "h:mm:ss a";
+  }
+
+  @Override
   public String formatMinuteSecond() {
     return "m:ss";
   }
@@ -97,11 +107,6 @@ public class DateTimeFormatInfoImpl_mg extends DateTimeFormatInfoImpl {
   @Override
   public String formatYearMonthNum() {
     return "M/y";
-  }
-
-  @Override
-  public String formatYearMonthNumDay() {
-    return "y-MM-dd";
   }
 
   @Override

@@ -14,12 +14,7 @@
  * the License.
  */
 package com.google.gwt.i18n.shared.impl.cldr;
-
 // DO NOT EDIT - GENERATED FROM CLDR AND ICU DATA
-//  cldrVersion=21.0
-//  number=$Revision: 5859 $
-//  type=root
-//  date=$Date: 2011-05-07 05:18:01 -0400 (Sat, 07 May 2011) $
 
 /**
  * Implementation of DateTimeFormatInfo for the "oc" locale.
@@ -27,78 +22,111 @@ package com.google.gwt.i18n.shared.impl.cldr;
 public class DateTimeFormatInfoImpl_oc extends DateTimeFormatInfoImpl {
 
   @Override
+  public String dateFormatFull() {
+    return "EEEE d MMMM 'de' y";
+  }
+
+  @Override
+  public String dateFormatLong() {
+    return "d MMMM 'de' y";
+  }
+
+  @Override
+  public String dateFormatMedium() {
+    return "d MMM y";
+  }
+
+  @Override
+  public String dateFormatShort() {
+    return "d/MM/yy";
+  }
+
+  @Override
+  public String dateTimeFull(String timePattern, String datePattern) {
+    return datePattern + " 'a' " + timePattern;
+  }
+
+  @Override
+  public String dateTimeLong(String timePattern, String datePattern) {
+    return datePattern + " 'a' " + timePattern;
+  }
+
+  @Override
+  public String dateTimeMedium(String timePattern, String datePattern) {
+    return datePattern + ", " + timePattern;
+  }
+
+  @Override
+  public String dateTimeShort(String timePattern, String datePattern) {
+    return datePattern + ", " + timePattern;
+  }
+
+  @Override
   public String[] erasFull() {
     return new String[] {
-        "BCE",
-        "CE"
+        "Abans Jèsus-Crist",
+        "despús Jèsus-Crist"
     };
   }
 
   @Override
   public String[] erasShort() {
     return new String[] {
-        "BCE",
-        "CE"
+        "Ab. J.C.",
+        "de. J.-C."
     };
   }
 
   @Override
-  public String formatMonthFullWeekdayDay() {
-    return "EEEE, MMMM d";
+  public String formatHour12Minute() {
+    return "h'h'mm a";
   }
 
   @Override
-  public String formatMonthNumDay() {
-    return "M/d";
+  public String formatHour12MinuteSecond() {
+    return "h'h'mm:ss a";
   }
 
   @Override
-  public String formatYearMonthAbbrev() {
-    return "MMM y";
+  public String formatHour24Minute() {
+    return "HH'h'mm";
+  }
+
+  @Override
+  public String formatHour24MinuteSecond() {
+    return "HH'h'mm ss 'seg'.";
   }
 
   @Override
   public String formatYearMonthAbbrevDay() {
-    return "MMM d, y";
-  }
-
-  @Override
-  public String formatYearMonthFull() {
-    return "MMMM y";
-  }
-
-  @Override
-  public String formatYearMonthFullDay() {
-    return "MMMM d, y";
-  }
-
-  @Override
-  public String formatYearMonthNum() {
-    return "M/y";
+    return "d MMM y";
   }
 
   @Override
   public String formatYearMonthNumDay() {
-    return "M/d/y";
-  }
-
-  @Override
-  public String formatYearMonthWeekdayDay() {
-    return "EEE, MMM d, y";
-  }
-
-  @Override
-  public String formatYearQuarterFull() {
-    return "QQQQ y";
-  }
-
-  @Override
-  public String formatYearQuarterShort() {
-    return "Q y";
+    return "dd/MM/y";
   }
 
   @Override
   public String[] monthsFull() {
+    return new String[] {
+        "de genièr",
+        "de febrièr",
+        "de març",
+        "d’abril",
+        "de mai",
+        "de junh",
+        "de julhet",
+        "d’agost",
+        "de setembre",
+        "d’octòbre",
+        "de novembre",
+        "de decembre"
+    };
+  }
+
+  @Override
+  public String[] monthsFullStandalone() {
     return new String[] {
         "genièr",
         "febrièr",
@@ -111,65 +139,90 @@ public class DateTimeFormatInfoImpl_oc extends DateTimeFormatInfoImpl {
         "setembre",
         "octòbre",
         "novembre",
-        "dezembre"
+        "decembre"
     };
   }
 
   @Override
   public String[] monthsNarrow() {
     return new String[] {
-        "1",
-        "2",
-        "3",
-        "4",
-        "5",
-        "6",
-        "7",
-        "8",
-        "9",
-        "10",
-        "11",
-        "12"
+        "G",
+        "F",
+        "M",
+        "A",
+        "M",
+        "J",
+        "J",
+        "A",
+        "S",
+        "O",
+        "N",
+        "D"
     };
   }
 
   @Override
   public String[] monthsShort() {
     return new String[] {
-        "genièr",
-        "febrièr",
+        "gen.",
+        "feb.",
         "març",
-        "abril",
+        "abr.",
         "mai",
         "junh",
-        "julhet",
-        "agost",
-        "setembre",
-        "octòbre",
-        "novembre",
-        "dezembre"
+        "jul.",
+        "ago.",
+        "set.",
+        "oct.",
+        "nov.",
+        "dec."
     };
   }
 
   @Override
   public String[] quartersFull() {
     return new String[] {
-        "Q1",
-        "Q2",
-        "Q3",
-        "Q4"
+        "1èr trimèstre",
+        "2nd trimèstre",
+        "3en trimèstre",
+        "4en trimèstre"
     };
+  }
+
+  @Override
+  public String[] quartersShort() {
+    return new String[] {
+        "T1",
+        "T2",
+        "T3",
+        "T4"
+    };
+  }
+
+  @Override
+  public String timeFormatLong() {
+    return "H'h'mm:ss z";
+  }
+
+  @Override
+  public String timeFormatMedium() {
+    return "H'h'mm:ss";
+  }
+
+  @Override
+  public String timeFormatShort() {
+    return "H'h'mm";
   }
 
   @Override
   public String[] weekdaysFull() {
     return new String[] {
-        "Dimenge",
+        "dimenge",
         "diluns",
-        "dimarç",
+        "dimars",
         "dimècres",
         "dijòus",
-        "divèndres",
+        "divendres",
         "dissabte"
     };
   }
@@ -177,25 +230,25 @@ public class DateTimeFormatInfoImpl_oc extends DateTimeFormatInfoImpl {
   @Override
   public String[] weekdaysNarrow() {
     return new String[] {
-        "1",
-        "2",
-        "3",
-        "4",
-        "5",
-        "6",
-        "7"
+        "Dg",
+        "Dl",
+        "Dm",
+        "Dc",
+        "Dj",
+        "Dv",
+        "Ds"
     };
   }
 
   @Override
   public String[] weekdaysShort() {
     return new String[] {
-        "Dimenge",
+        "dimenge",
         "diluns",
-        "dimarç",
+        "dimars",
         "dimècres",
         "dijòus",
-        "divèndres",
+        "divendres",
         "dissabte"
     };
   }

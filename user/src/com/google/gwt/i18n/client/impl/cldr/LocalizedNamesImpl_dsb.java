@@ -78,6 +78,7 @@ public class LocalizedNamesImpl_dsb extends LocalizedNamesImpl {
         "CP",
         "CK",
         "CI",
+        "CQ",
         "CW",
         "CY",
         "DK",
@@ -92,8 +93,8 @@ public class LocalizedNamesImpl_dsb extends LocalizedNamesImpl {
         "ER",
         "EE",
         "ET",
-        "EU",
         "EZ",
+        "EU",
         "FK",
         "FO",
         "FJ",
@@ -167,7 +168,6 @@ public class LocalizedNamesImpl_dsb extends LocalizedNamesImpl {
         "LT",
         "LU",
         "MG",
-        "MK",
         "MY",
         "MW",
         "MV",
@@ -215,10 +215,13 @@ public class LocalizedNamesImpl_dsb extends LocalizedNamesImpl {
         "KR",
         "SS",
         "KP",
+        "MK",
         "MP",
         "EH",
         "PL",
         "PT",
+        "XA",
+        "XB",
         "PR",
         "RE",
         "RW",
@@ -273,7 +276,6 @@ public class LocalizedNamesImpl_dsb extends LocalizedNamesImpl {
         "TV",
         "UG",
         "UA",
-        "UN",
         "UY",
         "UZ",
         "VU",
@@ -284,10 +286,9 @@ public class LocalizedNamesImpl_dsb extends LocalizedNamesImpl {
         "QO",
         "HK",
         "MO",
-        "XA",
-        "XB",
         "AE",
         "GB",
+        "UN",
         "US",
     };
   }
@@ -324,6 +325,7 @@ public class LocalizedNamesImpl_dsb extends LocalizedNamesImpl {
     namesMap.put("151", "pódzajtšna Europa");
     namesMap.put("154", "pódpołnocna Europa");
     namesMap.put("155", "pódwjacorna Europa");
+    namesMap.put("202", "subsaharojska Afrika");
     namesMap.put("419", "Łatyńska Amerika");
     namesMap.put("AC", "Ascension");
     namesMap.put("AE", "Zjadnośone arabiske emiraty");
@@ -380,6 +382,7 @@ public class LocalizedNamesImpl_dsb extends LocalizedNamesImpl {
     namesMap.put("ES", "Špańska");
     namesMap.put("ET", "Etiopiska");
     namesMap.put("EU", "Europska unija");
+    namesMap.put("EZ", "europasmo");
     namesMap.put("FI", "Finska");
     namesMap.put("FJ", "Fidži");
     namesMap.put("FK", "Falklandske kupy");
@@ -433,7 +436,7 @@ public class LocalizedNamesImpl_dsb extends LocalizedNamesImpl {
     namesMap.put("ME", "Carna Góra");
     namesMap.put("MG", "Madagaskar");
     namesMap.put("MH", "Marshallowe kupy");
-    namesMap.put("MK", "Makedońska");
+    namesMap.put("MK", "Pódpołnocna Makedańska");
     namesMap.put("MM", "Myanmar");
     namesMap.put("MN", "Mongolska");
     namesMap.put("MO", "Wósebna zastojnstwowa cona Macao");
@@ -491,12 +494,15 @@ public class LocalizedNamesImpl_dsb extends LocalizedNamesImpl {
     namesMap.put("TZ", "Tansanija");
     namesMap.put("UA", "Ukraina");
     namesMap.put("UM", "Ameriska Oceaniska");
+    namesMap.put("UN", "Zjadnośone narody");
     namesMap.put("US", "Zjadnośone staty Ameriki");
     namesMap.put("VA", "Vatikańske město");
     namesMap.put("VC", "St. Vincent a Grenadiny");
     namesMap.put("VG", "Britiske kněžniske kupy");
     namesMap.put("VI", "Ameriske kněžniske kupy");
     namesMap.put("WF", "Wallis a Futuna");
+    namesMap.put("XA", "pseudo-akcenty");
+    namesMap.put("XB", "pseudo-bidi");
     namesMap.put("XK", "Kosowo");
     namesMap.put("YE", "Jemen");
     namesMap.put("ZA", "Pódpołdnjowa Afrika (Republika)");
@@ -541,6 +547,7 @@ public class LocalizedNamesImpl_dsb extends LocalizedNamesImpl {
         "151": "pódzajtšna Europa",
         "154": "pódpołnocna Europa",
         "155": "pódwjacorna Europa",
+        "202": "subsaharojska Afrika",
         "419": "Łatyńska Amerika",
         "AC": "Ascension",
         "AE": "Zjadnośone arabiske emiraty",
@@ -597,6 +604,7 @@ public class LocalizedNamesImpl_dsb extends LocalizedNamesImpl {
         "ES": "Špańska",
         "ET": "Etiopiska",
         "EU": "Europska unija",
+        "EZ": "europasmo",
         "FI": "Finska",
         "FJ": "Fidži",
         "FK": "Falklandske kupy",
@@ -650,7 +658,7 @@ public class LocalizedNamesImpl_dsb extends LocalizedNamesImpl {
         "ME": "Carna Góra",
         "MG": "Madagaskar",
         "MH": "Marshallowe kupy",
-        "MK": "Makedońska",
+        "MK": "Pódpołnocna Makedańska",
         "MM": "Myanmar",
         "MN": "Mongolska",
         "MO": "Wósebna zastojnstwowa cona Macao",
@@ -708,12 +716,15 @@ public class LocalizedNamesImpl_dsb extends LocalizedNamesImpl {
         "TZ": "Tansanija",
         "UA": "Ukraina",
         "UM": "Ameriska Oceaniska",
+        "UN": "Zjadnośone narody",
         "US": "Zjadnośone staty Ameriki",
         "VA": "Vatikańske město",
         "VC": "St. Vincent a Grenadiny",
         "VG": "Britiske kněžniske kupy",
         "VI": "Ameriske kněžniske kupy",
         "WF": "Wallis a Futuna",
+        "XA": "pseudo-akcenty",
+        "XB": "pseudo-bidi",
         "XK": "Kosowo",
         "YE": "Jemen",
         "ZA": "Pódpołdnjowa Afrika (Republika)",

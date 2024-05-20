@@ -27,8 +27,7 @@ public class LocalizedNamesImpl_ar_SA extends LocalizedNamesImpl_ar {
   @Override
   public String[] loadSortedRegionCodes() {
     return new String[] {
-        "XA",
-        "XB",
+        "CQ",
         "ET",
         "AZ",
         "AM",
@@ -38,6 +37,7 @@ public class LocalizedNamesImpl_ar_SA extends LocalizedNamesImpl_ar {
         "AU",
         "EE",
         "IL",
+        "SZ",
         "AF",
         "AL",
         "DE",
@@ -153,8 +153,8 @@ public class LocalizedNamesImpl_ar_SA extends LocalizedNamesImpl_ar {
         "SB",
         "FO",
         "FK",
-        "VG",
         "VI",
+        "VG",
         "KY",
         "CK",
         "CC",
@@ -203,7 +203,6 @@ public class LocalizedNamesImpl_ar_SA extends LocalizedNamesImpl_ar {
         "SK",
         "SI",
         "SG",
-        "SZ",
         "SY",
         "SR",
         "CH",
@@ -251,6 +250,8 @@ public class LocalizedNamesImpl_ar_SA extends LocalizedNamesImpl_ar {
         "LV",
         "LA",
         "LB",
+        "XB",
+        "XA",
         "LU",
         "LY",
         "LR",
@@ -296,7 +297,6 @@ public class LocalizedNamesImpl_ar_SA extends LocalizedNamesImpl_ar {
   protected void loadNameMapJava() {
     super.loadNameMapJava();
     namesMap.put("AC", "جزيرة أسينشين");
-    namesMap.put("BS", "جزر البهاما");
     namesMap.put("EA", "سبتة ومليلية");
     namesMap.put("MO", "ماكاو الصينية (منطقة إدارية خاصة)");
     namesMap.put("MS", "مونتيسيرات");
@@ -311,7 +311,6 @@ public class LocalizedNamesImpl_ar_SA extends LocalizedNamesImpl_ar {
   private native JavaScriptObject loadMyNameMap() /*-{
     return {
         "AC": "جزيرة أسينشين",
-        "BS": "جزر البهاما",
         "EA": "سبتة ومليلية",
         "MO": "ماكاو الصينية (منطقة إدارية خاصة)",
         "MS": "مونتيسيرات",

@@ -23,12 +23,12 @@ public class DateTimeFormatInfoImpl_en_DK extends DateTimeFormatInfoImpl_en_150 
 
   @Override
   public String formatHour12Minute() {
-    return "h.mm a";
+    return "h.mm a";
   }
 
   @Override
   public String formatHour12MinuteSecond() {
-    return "h.mm.ss a";
+    return "h.mm.ss a";
   }
 
   @Override

@@ -27,6 +27,7 @@ public class LocalizedNamesImpl_uz_Cyrl extends LocalizedNamesImpl_uz {
   @Override
   public String[] loadSortedRegionCodes() {
     return new String[] {
+        "CQ",
         "EZ",
         "UN",
         "XA",
@@ -155,7 +156,6 @@ public class LocalizedNamesImpl_uz_Cyrl extends LocalizedNamesImpl_uz {
         "MG",
         "YT",
         "MO",
-        "MK",
         "MW",
         "MY",
         "ML",
@@ -270,6 +270,7 @@ public class LocalizedNamesImpl_uz_Cyrl extends LocalizedNamesImpl_uz {
         "CH",
         "SE",
         "KP",
+        "MK",
         "MP",
         "LK",
         "EC",
@@ -474,7 +475,7 @@ public class LocalizedNamesImpl_uz_Cyrl extends LocalizedNamesImpl_uz {
     namesMap.put("MF", "Сент-Мартин");
     namesMap.put("MG", "Мадагаскар");
     namesMap.put("MH", "Маршал ороллари");
-    namesMap.put("MK", "Македония");
+    namesMap.put("MK", "Шимолий Македония");
     namesMap.put("ML", "Мали");
     namesMap.put("MM", "Мьянма (Бирма)");
     namesMap.put("MN", "Монголия");
@@ -772,7 +773,7 @@ public class LocalizedNamesImpl_uz_Cyrl extends LocalizedNamesImpl_uz {
         "MF": "Сент-Мартин",
         "MG": "Мадагаскар",
         "MH": "Маршал ороллари",
-        "MK": "Македония",
+        "MK": "Шимолий Македония",
         "ML": "Мали",
         "MM": "Мьянма (Бирма)",
         "MN": "Монголия",

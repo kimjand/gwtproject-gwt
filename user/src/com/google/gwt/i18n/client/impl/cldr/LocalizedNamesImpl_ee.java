@@ -73,6 +73,7 @@ public class LocalizedNamesImpl_ee extends LocalizedNamesImpl {
         "BF",
         "BI",
         "CA",
+        "CQ",
         "DK",
         "DG",
         "DM",
@@ -165,7 +166,6 @@ public class LocalizedNamesImpl_ee extends LocalizedNamesImpl {
         "LS",
         "MO",
         "MG",
-        "MK",
         "MW",
         "MY",
         "MV",
@@ -178,6 +178,7 @@ public class LocalizedNamesImpl_ee extends LocalizedNamesImpl {
         "YT",
         "MX",
         "FM",
+        "MK",
         "MD",
         "MC",
         "MN",
@@ -474,7 +475,6 @@ public class LocalizedNamesImpl_ee extends LocalizedNamesImpl {
     namesMap.put("MF", "Saint Martin nutome");
     namesMap.put("MG", "Madagaska nutome");
     namesMap.put("MH", "Marshal ƒudomekpowo nutome");
-    namesMap.put("MK", "Makedonia nutome");
     namesMap.put("ML", "Mali nutome");
     namesMap.put("MM", "Myanmar (Burma) nutome");
     namesMap.put("MN", "Mongolia nutome");
@@ -771,7 +771,6 @@ public class LocalizedNamesImpl_ee extends LocalizedNamesImpl {
         "MF": "Saint Martin nutome",
         "MG": "Madagaska nutome",
         "MH": "Marshal ƒudomekpowo nutome",
-        "MK": "Makedonia nutome",
         "ML": "Mali nutome",
         "MM": "Myanmar (Burma) nutome",
         "MN": "Mongolia nutome",

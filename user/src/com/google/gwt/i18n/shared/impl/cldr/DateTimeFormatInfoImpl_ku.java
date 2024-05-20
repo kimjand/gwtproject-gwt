@@ -30,6 +30,26 @@ public class DateTimeFormatInfoImpl_ku extends DateTimeFormatInfoImpl {
   }
 
   @Override
+  public String dateFormatFull() {
+    return "EEEE, d'ê' MMMM'a' y'an'";
+  }
+
+  @Override
+  public String dateFormatLong() {
+    return "d'ê' MMMM'a' y'an'";
+  }
+
+  @Override
+  public String dateFormatMedium() {
+    return "d'ê' MMM'a' y'an'";
+  }
+
+  @Override
+  public String dateFormatShort() {
+    return "dd.MM.y";
+  }
+
+  @Override
   public String[] erasFull() {
     return new String[] {
         "berî zayînê",
@@ -46,92 +66,94 @@ public class DateTimeFormatInfoImpl_ku extends DateTimeFormatInfoImpl {
   }
 
   @Override
+  public String formatHour12Minute() {
+    return "h:mm'ê' a";
+  }
+
+  @Override
+  public String formatHour12MinuteSecond() {
+    return "h:mm:ss'ê' a";
+  }
+
+  @Override
+  public String formatMonthAbbrevDay() {
+    return "d'ê' MMM'ê'";
+  }
+
+  @Override
+  public String formatMonthFullDay() {
+    return "d'ê' MMMM'ê'";
+  }
+
+  @Override
   public String formatMonthFullWeekdayDay() {
-    return "EEEE, MMMM d";
+    return "EEEE, d'ê' MMMM'ê'";
   }
 
   @Override
   public String formatMonthNumDay() {
-    return "M/d";
+    return "dd.MM";
   }
 
   @Override
   public String formatYearMonthAbbrev() {
-    return "MMM y";
+    return "MMM'a' y'an'";
   }
 
   @Override
   public String formatYearMonthAbbrevDay() {
-    return "MMM d, y";
+    return "d'ê' MMM'a' y'an'";
   }
 
   @Override
   public String formatYearMonthFull() {
-    return "MMMM y";
+    return "MMMM'a' y'an'";
   }
 
   @Override
   public String formatYearMonthFullDay() {
-    return "MMMM d, y";
+    return "d'ê' MMMM'a' y'an'";
   }
 
   @Override
   public String formatYearMonthNum() {
-    return "M/y";
+    return "MM.y";
   }
 
   @Override
   public String formatYearMonthNumDay() {
-    return "M/d/y";
+    return "dd.MM.y";
   }
 
   @Override
   public String formatYearMonthWeekdayDay() {
-    return "EEE, MMM d, y";
+    return "EEE, d'ê' MMM'a' y'an'";
   }
 
   @Override
   public String formatYearQuarterFull() {
-    return "QQQQ y";
+    return "QQQQ 'ya' y'an'";
   }
 
   @Override
   public String formatYearQuarterShort() {
-    return "Q y";
+    return "Q'em' 'ya' y'an'";
   }
 
   @Override
   public String[] monthsFull() {
     return new String[] {
-        "rêbendanê",
-        "reşemiyê",
-        "adarê",
-        "avrêlê",
-        "gulanê",
-        "pûşperê",
-        "tîrmehê",
-        "gelawêjê",
-        "rezberê",
-        "kewçêrê",
-        "sermawezê",
-        "berfanbarê"
-    };
-  }
-
-  @Override
-  public String[] monthsFullStandalone() {
-    return new String[] {
         "rêbendan",
-        "reşemî",
+        "sibat",
         "adar",
-        "avrêl",
+        "nîsan",
         "gulan",
-        "pûşper",
+        "hezîran",
         "tîrmeh",
-        "gelawêj",
-        "rezber",
-        "kewçêr",
-        "sermawez",
+        "tebax",
+        "îlon",
+        "cotmeh",
+        "mijdar",
         "berfanbar"
     };
   }
@@ -140,16 +162,16 @@ public class DateTimeFormatInfoImpl_ku extends DateTimeFormatInfoImpl {
   public String[] monthsNarrow() {
     return new String[] {
         "R",
-        "R",
-        "A",
-        "A",
-        "G",
-        "P",
-        "T",
-        "G",
-        "R",
-        "K",
         "S",
+        "A",
+        "N",
+        "G",
+        "H",
+        "T",
+        "T",
+        "Î",
+        "C",
+        "M",
         "B"
     };
   }
@@ -157,28 +179,28 @@ public class DateTimeFormatInfoImpl_ku extends DateTimeFormatInfoImpl {
   @Override
   public String[] monthsShort() {
     return new String[] {
-        "rêb",
-        "reş",
-        "ada",
-        "avr",
-        "gul",
-        "pûş",
-        "tîr",
-        "gel",
-        "rez",
-        "kew",
-        "ser",
-        "ber"
+        "rbn",
+        "sbt",
+        "adr",
+        "nsn",
+        "gln",
+        "hzr",
+        "trm",
+        "tbx",
+        "îln",
+        "cot",
+        "mjd",
+        "brf"
     };
   }
 
   @Override
   public String[] quartersFull() {
     return new String[] {
-        "Ç1",
-        "Ç2",
-        "Ç3",
-        "Ç4"
+        "çaryeka 1em",
+        "çaryeka 2yem",
+        "çaryeka 3yem",
+        "çaryeka 4em"
     };
   }
 
@@ -200,7 +222,7 @@ public class DateTimeFormatInfoImpl_ku extends DateTimeFormatInfoImpl {
         "sêşem",
         "çarşem",
         "pêncşem",
-        "în",
+        "înî",
         "şemî"
     };
   }
@@ -221,13 +243,13 @@ public class DateTimeFormatInfoImpl_ku extends DateTimeFormatInfoImpl {
   @Override
   public String[] weekdaysShort() {
     return new String[] {
-        "yş",
-        "dş",
-        "sş",
-        "çş",
-        "pş",
-        "în",
-        "ş"
+        "yşm",
+        "dşm",
+        "sşm",
+        "çşm",
+        "pşm",
+        "înî",
+        "şem"
     };
   }
 }

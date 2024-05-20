@@ -22,14 +22,6 @@ package com.google.gwt.i18n.client.impl.cldr;
 public class DateTimeFormatInfoImpl_th extends DateTimeFormatInfoImpl {
 
   @Override
-  public String[] ampms() {
-    return new String[] {
-        "ก่อนเที่ยง",
-        "หลังเที่ยง"
-    };
-  }
-
-  @Override
   public String dateFormatFull() {
     return "EEEEที่ d MMMM G y";
   }

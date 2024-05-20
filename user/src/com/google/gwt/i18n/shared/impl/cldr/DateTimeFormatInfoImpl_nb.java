@@ -50,8 +50,13 @@ public class DateTimeFormatInfoImpl_nb extends DateTimeFormatInfoImpl {
   }
 
   @Override
+  public String dateTimeFull(String timePattern, String datePattern) {
+    return datePattern + ", " + timePattern;
+  }
+
+  @Override
   public String dateTimeLong(String timePattern, String datePattern) {
-    return datePattern + " 'kl'. " + timePattern;
+    return datePattern + ", " + timePattern;
   }
 
   @Override
@@ -83,6 +88,16 @@ public class DateTimeFormatInfoImpl_nb extends DateTimeFormatInfoImpl {
   @Override
   public String formatDay() {
     return "d.";
+  }
+
+  @Override
+  public String formatHour12Minute() {
+    return "h:mm a";
+  }
+
+  @Override
+  public String formatHour12MinuteSecond() {
+    return "h:mm:ss a";
   }
 
   @Override
@@ -173,11 +188,11 @@ public class DateTimeFormatInfoImpl_nb extends DateTimeFormatInfoImpl {
     return new String[] {
         "jan.",
         "feb.",
-        "mar.",
+        "mars",
         "apr.",
         "mai",
-        "jun.",
-        "jul.",
+        "juni",
+        "juli",
         "aug.",
         "sep.",
         "okt.",

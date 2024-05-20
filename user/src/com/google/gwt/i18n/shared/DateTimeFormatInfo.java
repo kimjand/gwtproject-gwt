@@ -31,11 +31,6 @@ public interface DateTimeFormatInfo {
   String[] ampms();
 
   /**
-   * Returns a safe default date format.
-   */
-  String dateFormat();
-
-  /**
    * Returns a "full" date format.
    */
   String dateFormatFull();
@@ -54,15 +49,6 @@ public interface DateTimeFormatInfo {
    * Returns a "short" date format.
    */
   String dateFormatShort();
-
-  /**
-   * Returns a date/time format from a date format pattern and a time format
-   * pattern, using the locale default joining.
-   *
-   * @param timePattern the time pattern String
-   * @param datePattern the data pattern String
-   */
-  String dateTime(String timePattern, String datePattern);
 
   /**
    * Returns a date/time format from a date format pattern and a time format
@@ -269,11 +255,6 @@ public interface DateTimeFormatInfo {
    * Returns an array of abbreviations for quarters.
    */
   String[] quartersShort();
-
-  /**
-   * Returns a safe default time format.
-   */
-  String timeFormat();
 
   /**
    * Returns a "full" time format.

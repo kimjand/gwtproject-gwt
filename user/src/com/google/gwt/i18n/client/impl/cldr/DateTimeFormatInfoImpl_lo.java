@@ -106,6 +106,11 @@ public class DateTimeFormatInfoImpl_lo extends DateTimeFormatInfoImpl {
   }
 
   @Override
+  public String formatMonthFullDay() {
+    return "d MMMM";
+  }
+
+  @Override
   public String formatMonthFullWeekdayDay() {
     return "EEEE d MMMM";
   }

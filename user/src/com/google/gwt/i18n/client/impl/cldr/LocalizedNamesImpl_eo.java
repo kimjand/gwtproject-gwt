@@ -27,8 +27,8 @@ public class LocalizedNamesImpl_eo extends LocalizedNamesImpl {
   @Override
   public String[] loadSortedRegionCodes() {
     return new String[] {
-        "AC",
         "AF",
+        "AX",
         "AL",
         "DZ",
         "AD",
@@ -39,26 +39,23 @@ public class LocalizedNamesImpl_eo extends LocalizedNamesImpl {
         "AR",
         "AM",
         "AW",
-        "AS",
+        "AC",
         "AU",
         "AT",
-        "AX",
         "AZ",
         "BS",
         "BD",
         "BB",
         "BH",
-        "PW",
         "BE",
         "BZ",
         "BY",
         "BJ",
         "BM",
-        "BL",
+        "MM",
         "BW",
         "BO",
         "BA",
-        "BQ",
         "BR",
         "IO",
         "VG",
@@ -69,20 +66,16 @@ public class LocalizedNamesImpl_eo extends LocalizedNamesImpl {
         "BT",
         "BV",
         "TD",
-        "CC",
-        "CD",
         "CZ",
         "CF",
+        "EA",
         "CL",
         "CN",
-        "CP",
-        "CW",
-        "CX",
+        "CQ",
         "DK",
         "DG",
         "DO",
         "DM",
-        "EA",
         "CI",
         "EG",
         "EC",
@@ -92,12 +85,13 @@ public class LocalizedNamesImpl_eo extends LocalizedNamesImpl {
         "ET",
         "EU",
         "EZ",
+        "FK",
         "FO",
         "FJ",
         "PH",
         "FI",
-        "FK",
         "GF",
+        "TF",
         "PF",
         "FR",
         "GA",
@@ -123,8 +117,6 @@ public class LocalizedNamesImpl_eo extends LocalizedNamesImpl {
         "HN",
         "HK",
         "HU",
-        "IC",
-        "IM",
         "ID",
         "IQ",
         "IR",
@@ -134,13 +126,15 @@ public class LocalizedNamesImpl_eo extends LocalizedNamesImpl {
         "IT",
         "JM",
         "JP",
-        "JE",
         "YE",
+        "JE",
         "JO",
         "CV",
         "KH",
         "CM",
         "CA",
+        "IC",
+        "BQ",
         "GE",
         "QA",
         "KZ",
@@ -149,13 +143,19 @@ public class LocalizedNamesImpl_eo extends LocalizedNamesImpl {
         "CY",
         "KG",
         "KI",
+        "CP",
+        "CC",
         "CO",
         "KM",
         "CG",
+        "CD",
+        "XK",
         "CR",
+        "CX",
         "HR",
         "CU",
         "CK",
+        "CW",
         "KW",
         "LA",
         "LV",
@@ -168,28 +168,27 @@ public class LocalizedNamesImpl_eo extends LocalizedNamesImpl {
         "LU",
         "MG",
         "YT",
-        "MK",
+        "MO",
         "MY",
         "MW",
         "MV",
         "ML",
+        "QO",
         "MT",
+        "IM",
         "MA",
         "MH",
         "MQ",
         "MU",
         "MR",
-        "ME",
         "MX",
-        "MF",
         "FM",
-        "MM",
-        "MO",
         "MD",
         "MC",
-        "MN",
-        "MZ",
         "MS",
+        "MN",
+        "ME",
+        "MZ",
         "NA",
         "NR",
         "NL",
@@ -199,6 +198,7 @@ public class LocalizedNamesImpl_eo extends LocalizedNamesImpl {
         "NI",
         "NU",
         "KP",
+        "MK",
         "MP",
         "NF",
         "NO",
@@ -206,7 +206,10 @@ public class LocalizedNamesImpl_eo extends LocalizedNamesImpl {
         "NZ",
         "EH",
         "OM",
+        "TL",
         "PK",
+        "PW",
+        "PS",
         "PA",
         "PG",
         "PY",
@@ -214,29 +217,32 @@ public class LocalizedNamesImpl_eo extends LocalizedNamesImpl {
         "PN",
         "PL",
         "PT",
-        "PS",
+        "XB",
+        "XA",
         "PR",
-        "QO",
         "RE",
-        "RS",
         "RW",
         "RO",
         "RU",
+        "MF",
         "SB",
         "SV",
         "WS",
-        "SM",
-        "ST",
-        "SA",
-        "SC",
-        "SN",
+        "BL",
         "SH",
         "KN",
         "LC",
         "PM",
         "VC",
+        "SM",
+        "ST",
+        "SA",
+        "SC",
+        "SN",
+        "RS",
         "SL",
         "SG",
+        "SX",
         "SY",
         "SK",
         "SI",
@@ -252,31 +258,29 @@ public class LocalizedNamesImpl_eo extends LocalizedNamesImpl {
         "SZ",
         "SE",
         "CH",
-        "SX",
-        "TA",
         "TJ",
         "TH",
         "TW",
         "TZ",
-        "TC",
-        "TF",
-        "TK",
-        "TL",
         "TG",
+        "TK",
         "TO",
         "TT",
+        "TA",
         "TN",
         "TM",
+        "TC",
         "TR",
         "TV",
         "UG",
         "UA",
-        "UN",
         "AE",
+        "UN",
         "GB",
         "UY",
         "UM",
         "VI",
+        "AS",
         "US",
         "UZ",
         "WF",
@@ -284,9 +288,6 @@ public class LocalizedNamesImpl_eo extends LocalizedNamesImpl {
         "VA",
         "VE",
         "VN",
-        "XA",
-        "XB",
-        "XK",
         "ZM",
         "ZW",
     };
@@ -295,21 +296,55 @@ public class LocalizedNamesImpl_eo extends LocalizedNamesImpl {
   @Override
   protected void loadNameMapJava() {
     super.loadNameMapJava();
+    namesMap.put("001", "mondo");
+    namesMap.put("002", "Afriko");
+    namesMap.put("003", "Nordameriko");
+    namesMap.put("005", "Sudameriko");
+    namesMap.put("009", "Oceanio");
+    namesMap.put("011", "Okcidenta Afriko");
+    namesMap.put("013", "Centra Ameriko");
+    namesMap.put("014", "Orienta Afriko");
+    namesMap.put("015", "Norda Afriko");
+    namesMap.put("017", "Centra Afriko");
+    namesMap.put("018", "Suda Afriko");
+    namesMap.put("019", "Amerikoj");
+    namesMap.put("021", "Norda Ameriko");
+    namesMap.put("029", "Kariba regiono");
+    namesMap.put("030", "Orienta Azio");
+    namesMap.put("034", "Suda Azio");
+    namesMap.put("035", "Sud-orienta Azio");
+    namesMap.put("039", "Suda Eŭropo");
+    namesMap.put("053", "Aŭstralazio");
+    namesMap.put("054", "Melanezio");
+    namesMap.put("057", "Mikronezia regiono");
+    namesMap.put("061", "Polinezio");
+    namesMap.put("142", "Azio");
+    namesMap.put("143", "Centra Azio");
+    namesMap.put("145", "Okcidenta Azio");
+    namesMap.put("150", "Eŭropo");
+    namesMap.put("151", "Orienta Eŭropo");
+    namesMap.put("154", "Norda Eŭropo");
+    namesMap.put("155", "Okcidenta Eŭropo");
+    namesMap.put("202", "Subsahara Afriko");
+    namesMap.put("419", "Latinameriko");
+    namesMap.put("AC", "Ascension");
     namesMap.put("AD", "Andoro");
     namesMap.put("AE", "Unuiĝintaj Arabaj Emirlandoj");
     namesMap.put("AF", "Afganujo");
-    namesMap.put("AG", "Antigvo-Barbudo");
+    namesMap.put("AG", "Antigvo kaj Barbudo");
     namesMap.put("AI", "Angvilo");
     namesMap.put("AL", "Albanujo");
     namesMap.put("AM", "Armenujo");
     namesMap.put("AO", "Angolo");
     namesMap.put("AQ", "Antarkto");
     namesMap.put("AR", "Argentino");
+    namesMap.put("AS", "Usona Samoo");
     namesMap.put("AT", "Aŭstrujo");
     namesMap.put("AU", "Aŭstralio");
     namesMap.put("AW", "Arubo");
+    namesMap.put("AX", "Alando");
     namesMap.put("AZ", "Azerbajĝano");
-    namesMap.put("BA", "Bosnio-Hercegovino");
+    namesMap.put("BA", "Bosnujo kaj Hercegovino");
     namesMap.put("BB", "Barbado");
     namesMap.put("BD", "Bangladeŝo");
     namesMap.put("BE", "Belgujo");
@@ -318,18 +353,23 @@ public class LocalizedNamesImpl_eo extends LocalizedNamesImpl {
     namesMap.put("BH", "Barejno");
     namesMap.put("BI", "Burundo");
     namesMap.put("BJ", "Benino");
+    namesMap.put("BL", "Sankta Bartolomeo");
     namesMap.put("BM", "Bermudoj");
     namesMap.put("BN", "Brunejo");
     namesMap.put("BO", "Bolivio");
+    namesMap.put("BQ", "Karibia Nederlando");
     namesMap.put("BR", "Brazilo");
     namesMap.put("BS", "Bahamoj");
     namesMap.put("BT", "Butano");
+    namesMap.put("BV", "Buvetinsulo");
     namesMap.put("BW", "Bocvano");
     namesMap.put("BY", "Belorusujo");
     namesMap.put("BZ", "Belizo");
     namesMap.put("CA", "Kanado");
+    namesMap.put("CC", "Kokosinsuloj");
+    namesMap.put("CD", "Kongo Kinŝasa");
     namesMap.put("CF", "Centr-Afrika Respubliko");
-    namesMap.put("CG", "Kongolo");
+    namesMap.put("CG", "Kongo Brazavila");
     namesMap.put("CH", "Svisujo");
     namesMap.put("CI", "Ebur-Bordo");
     namesMap.put("CK", "Kukinsuloj");
@@ -337,9 +377,12 @@ public class LocalizedNamesImpl_eo extends LocalizedNamesImpl {
     namesMap.put("CM", "Kameruno");
     namesMap.put("CN", "Ĉinujo");
     namesMap.put("CO", "Kolombio");
+    namesMap.put("CP", "Klipertono");
     namesMap.put("CR", "Kostariko");
     namesMap.put("CU", "Kubo");
-    namesMap.put("CV", "Kabo-Verdo");
+    namesMap.put("CV", "Kaboverdo");
+    namesMap.put("CW", "Kuracao");
+    namesMap.put("CX", "Kristnaskinsulo");
     namesMap.put("CY", "Kipro");
     namesMap.put("CZ", "Ĉeĥujo");
     namesMap.put("DE", "Germanujo");
@@ -348,15 +391,19 @@ public class LocalizedNamesImpl_eo extends LocalizedNamesImpl {
     namesMap.put("DM", "Dominiko");
     namesMap.put("DO", "Domingo");
     namesMap.put("DZ", "Alĝerio");
+    namesMap.put("EA", "Ceŭto kaj Melilo");
     namesMap.put("EC", "Ekvadoro");
     namesMap.put("EE", "Estonujo");
-    namesMap.put("EG", "Egipto");
+    namesMap.put("EG", "Egiptujo");
     namesMap.put("EH", "Okcidenta Saharo");
     namesMap.put("ER", "Eritreo");
     namesMap.put("ES", "Hispanujo");
     namesMap.put("ET", "Etiopujo");
+    namesMap.put("EU", "Eŭropa Unio");
+    namesMap.put("EZ", "Eŭrozono");
     namesMap.put("FI", "Finnlando");
     namesMap.put("FJ", "Fiĝoj");
+    namesMap.put("FK", "Falklandoj");
     namesMap.put("FM", "Mikronezio");
     namesMap.put("FO", "Ferooj");
     namesMap.put("FR", "Francujo");
@@ -365,6 +412,7 @@ public class LocalizedNamesImpl_eo extends LocalizedNamesImpl {
     namesMap.put("GD", "Grenado");
     namesMap.put("GE", "Kartvelujo");
     namesMap.put("GF", "Franca Gviano");
+    namesMap.put("GG", "Gernezejo");
     namesMap.put("GH", "Ganao");
     namesMap.put("GI", "Ĝibraltaro");
     namesMap.put("GL", "Gronlando");
@@ -384,34 +432,37 @@ public class LocalizedNamesImpl_eo extends LocalizedNamesImpl {
     namesMap.put("HR", "Kroatujo");
     namesMap.put("HT", "Haitio");
     namesMap.put("HU", "Hungarujo");
+    namesMap.put("IC", "Kanarioj");
     namesMap.put("ID", "Indonezio");
     namesMap.put("IE", "Irlando");
     namesMap.put("IL", "Israelo");
+    namesMap.put("IM", "Mankinsulo");
     namesMap.put("IN", "Hindujo");
     namesMap.put("IO", "Brita Hindoceana Teritorio");
     namesMap.put("IQ", "Irako");
     namesMap.put("IR", "Irano");
     namesMap.put("IS", "Islando");
     namesMap.put("IT", "Italujo");
+    namesMap.put("JE", "Ĵerzejo");
     namesMap.put("JM", "Jamajko");
     namesMap.put("JO", "Jordanio");
     namesMap.put("JP", "Japanujo");
     namesMap.put("KE", "Kenjo");
-    namesMap.put("KG", "Kirgizistano");
+    namesMap.put("KG", "Kirgizujo");
     namesMap.put("KH", "Kamboĝo");
     namesMap.put("KI", "Kiribato");
     namesMap.put("KM", "Komoroj");
-    namesMap.put("KN", "Sent-Kristofo kaj Neviso");
+    namesMap.put("KN", "Sankta Kristoforo kaj Neviso");
     namesMap.put("KP", "Nord-Koreo");
     namesMap.put("KR", "Sud-Koreo");
     namesMap.put("KW", "Kuvajto");
     namesMap.put("KY", "Kejmanoj");
-    namesMap.put("KZ", "Kazaĥstano");
+    namesMap.put("KZ", "Kazaĥujo");
     namesMap.put("LA", "Laoso");
     namesMap.put("LB", "Libano");
-    namesMap.put("LC", "Sent-Lucio");
+    namesMap.put("LC", "Sankta Lucio");
     namesMap.put("LI", "Liĥtenŝtejno");
-    namesMap.put("LK", "Sri-Lanko");
+    namesMap.put("LK", "Srilanko");
     namesMap.put("LR", "Liberio");
     namesMap.put("LS", "Lesoto");
     namesMap.put("LT", "Litovujo");
@@ -421,15 +472,18 @@ public class LocalizedNamesImpl_eo extends LocalizedNamesImpl {
     namesMap.put("MA", "Maroko");
     namesMap.put("MC", "Monako");
     namesMap.put("MD", "Moldavujo");
+    namesMap.put("MF", "Saint-Martin");
     namesMap.put("MG", "Madagaskaro");
     namesMap.put("MH", "Marŝaloj");
-    namesMap.put("MK", "Makedonujo");
+    namesMap.put("MK", "Nord-Makedonujo");
     namesMap.put("ML", "Malio");
-    namesMap.put("MM", "Mjanmao");
+    namesMap.put("MM", "Birmo");
     namesMap.put("MN", "Mongolujo");
+    namesMap.put("MO", "Makao");
     namesMap.put("MP", "Nord-Marianoj");
     namesMap.put("MQ", "Martiniko");
     namesMap.put("MR", "Maŭritanujo");
+    namesMap.put("MS", "Moncerato");
     namesMap.put("MT", "Malto");
     namesMap.put("MU", "Maŭricio");
     namesMap.put("MV", "Maldivoj");
@@ -457,41 +511,49 @@ public class LocalizedNamesImpl_eo extends LocalizedNamesImpl {
     namesMap.put("PH", "Filipinoj");
     namesMap.put("PK", "Pakistano");
     namesMap.put("PL", "Pollando");
-    namesMap.put("PM", "Sent-Piero kaj Mikelono");
+    namesMap.put("PM", "Sankta Piero kaj Mikelono");
     namesMap.put("PN", "Pitkarna Insulo");
-    namesMap.put("PR", "Puerto-Riko");
+    namesMap.put("PR", "Puertoriko");
+    namesMap.put("PS", "Palestino");
     namesMap.put("PT", "Portugalujo");
-    namesMap.put("PW", "Belaŭo");
+    namesMap.put("PW", "Palaŭo");
     namesMap.put("PY", "Paragvajo");
     namesMap.put("QA", "Kataro");
+    namesMap.put("QO", "malproksimaj insuletoj de Oceanio");
     namesMap.put("RE", "Reunio");
     namesMap.put("RO", "Rumanujo");
+    namesMap.put("RS", "Serbujo");
     namesMap.put("RU", "Rusujo");
     namesMap.put("RW", "Ruando");
-    namesMap.put("SA", "Saŭda Arabujo");
+    namesMap.put("SA", "Sauda Arabujo");
     namesMap.put("SB", "Salomonoj");
     namesMap.put("SC", "Sejŝeloj");
     namesMap.put("SD", "Sudano");
     namesMap.put("SE", "Svedujo");
     namesMap.put("SG", "Singapuro");
-    namesMap.put("SH", "Sent-Heleno");
+    namesMap.put("SH", "Sankta Heleno");
     namesMap.put("SI", "Slovenujo");
-    namesMap.put("SJ", "Svalbardo kaj Jan-Majen-insulo");
+    namesMap.put("SJ", "Svalbardo kaj Janmajeno");
     namesMap.put("SK", "Slovakujo");
-    namesMap.put("SL", "Siera-Leono");
-    namesMap.put("SM", "San-Marino");
+    namesMap.put("SL", "Sieraleono");
+    namesMap.put("SM", "Sanmarino");
     namesMap.put("SN", "Senegalo");
     namesMap.put("SO", "Somalujo");
     namesMap.put("SR", "Surinamo");
     namesMap.put("SS", "Sud-Sudano");
-    namesMap.put("ST", "Sao-Tomeo kaj Principeo");
+    namesMap.put("ST", "Santomeo kaj Principeo");
     namesMap.put("SV", "Salvadoro");
+    namesMap.put("SX", "Sint-Maarten");
     namesMap.put("SY", "Sirio");
     namesMap.put("SZ", "Svazilando");
+    namesMap.put("TC", "Turkoj kaj Kajkoj");
     namesMap.put("TD", "Ĉado");
-    namesMap.put("TG", "Togolo");
+    namesMap.put("TF", "Francaj Sudaj Teritorioj");
+    namesMap.put("TG", "Togolando");
     namesMap.put("TH", "Tajlando");
     namesMap.put("TJ", "Taĝikujo");
+    namesMap.put("TK", "Tokelao");
+    namesMap.put("TL", "Orienta Timoro");
     namesMap.put("TM", "Turkmenujo");
     namesMap.put("TN", "Tunizio");
     namesMap.put("TO", "Tongo");
@@ -500,14 +562,15 @@ public class LocalizedNamesImpl_eo extends LocalizedNamesImpl {
     namesMap.put("TV", "Tuvalo");
     namesMap.put("TW", "Tajvano");
     namesMap.put("TZ", "Tanzanio");
-    namesMap.put("UA", "Ukrajno");
+    namesMap.put("UA", "Ukrainujo");
     namesMap.put("UG", "Ugando");
     namesMap.put("UM", "Usonaj malgrandaj insuloj");
+    namesMap.put("UN", "Unuiĝintaj Nacioj");
     namesMap.put("US", "Usono");
     namesMap.put("UY", "Urugvajo");
     namesMap.put("UZ", "Uzbekujo");
     namesMap.put("VA", "Vatikano");
-    namesMap.put("VC", "Sent-Vincento kaj la Grenadinoj");
+    namesMap.put("VC", "Sankta Vincento kaj Grenadinoj");
     namesMap.put("VE", "Venezuelo");
     namesMap.put("VG", "Britaj Virgulininsuloj");
     namesMap.put("VI", "Usonaj Virgulininsuloj");
@@ -515,6 +578,8 @@ public class LocalizedNamesImpl_eo extends LocalizedNamesImpl {
     namesMap.put("VU", "Vanuatuo");
     namesMap.put("WF", "Valiso kaj Futuno");
     namesMap.put("WS", "Samoo");
+    namesMap.put("XA", "pseŭdo-supersignoj");
+    namesMap.put("XB", "pseŭdo-inversdirekta");
     namesMap.put("YE", "Jemeno");
     namesMap.put("YT", "Majoto");
     namesMap.put("ZA", "Sud-Afriko");
@@ -530,21 +595,55 @@ public class LocalizedNamesImpl_eo extends LocalizedNamesImpl {
 
   private native JavaScriptObject loadMyNameMap() /*-{
     return {
+        "001": "mondo",
+        "002": "Afriko",
+        "003": "Nordameriko",
+        "005": "Sudameriko",
+        "009": "Oceanio",
+        "011": "Okcidenta Afriko",
+        "013": "Centra Ameriko",
+        "014": "Orienta Afriko",
+        "015": "Norda Afriko",
+        "017": "Centra Afriko",
+        "018": "Suda Afriko",
+        "019": "Amerikoj",
+        "021": "Norda Ameriko",
+        "029": "Kariba regiono",
+        "030": "Orienta Azio",
+        "034": "Suda Azio",
+        "035": "Sud-orienta Azio",
+        "039": "Suda Eŭropo",
+        "053": "Aŭstralazio",
+        "054": "Melanezio",
+        "057": "Mikronezia regiono",
+        "061": "Polinezio",
+        "142": "Azio",
+        "143": "Centra Azio",
+        "145": "Okcidenta Azio",
+        "150": "Eŭropo",
+        "151": "Orienta Eŭropo",
+        "154": "Norda Eŭropo",
+        "155": "Okcidenta Eŭropo",
+        "202": "Subsahara Afriko",
+        "419": "Latinameriko",
+        "AC": "Ascension",
         "AD": "Andoro",
         "AE": "Unuiĝintaj Arabaj Emirlandoj",
         "AF": "Afganujo",
-        "AG": "Antigvo-Barbudo",
+        "AG": "Antigvo kaj Barbudo",
         "AI": "Angvilo",
         "AL": "Albanujo",
         "AM": "Armenujo",
         "AO": "Angolo",
         "AQ": "Antarkto",
         "AR": "Argentino",
+        "AS": "Usona Samoo",
         "AT": "Aŭstrujo",
         "AU": "Aŭstralio",
         "AW": "Arubo",
+        "AX": "Alando",
         "AZ": "Azerbajĝano",
-        "BA": "Bosnio-Hercegovino",
+        "BA": "Bosnujo kaj Hercegovino",
         "BB": "Barbado",
         "BD": "Bangladeŝo",
         "BE": "Belgujo",
@@ -553,18 +652,23 @@ public class LocalizedNamesImpl_eo extends LocalizedNamesImpl {
         "BH": "Barejno",
         "BI": "Burundo",
         "BJ": "Benino",
+        "BL": "Sankta Bartolomeo",
         "BM": "Bermudoj",
         "BN": "Brunejo",
         "BO": "Bolivio",
+        "BQ": "Karibia Nederlando",
         "BR": "Brazilo",
         "BS": "Bahamoj",
         "BT": "Butano",
+        "BV": "Buvetinsulo",
         "BW": "Bocvano",
         "BY": "Belorusujo",
         "BZ": "Belizo",
         "CA": "Kanado",
+        "CC": "Kokosinsuloj",
+        "CD": "Kongo Kinŝasa",
         "CF": "Centr-Afrika Respubliko",
-        "CG": "Kongolo",
+        "CG": "Kongo Brazavila",
         "CH": "Svisujo",
         "CI": "Ebur-Bordo",
         "CK": "Kukinsuloj",
@@ -572,9 +676,12 @@ public class LocalizedNamesImpl_eo extends LocalizedNamesImpl {
         "CM": "Kameruno",
         "CN": "Ĉinujo",
         "CO": "Kolombio",
+        "CP": "Klipertono",
         "CR": "Kostariko",
         "CU": "Kubo",
-        "CV": "Kabo-Verdo",
+        "CV": "Kaboverdo",
+        "CW": "Kuracao",
+        "CX": "Kristnaskinsulo",
         "CY": "Kipro",
         "CZ": "Ĉeĥujo",
         "DE": "Germanujo",
@@ -583,15 +690,19 @@ public class LocalizedNamesImpl_eo extends LocalizedNamesImpl {
         "DM": "Dominiko",
         "DO": "Domingo",
         "DZ": "Alĝerio",
+        "EA": "Ceŭto kaj Melilo",
         "EC": "Ekvadoro",
         "EE": "Estonujo",
-        "EG": "Egipto",
+        "EG": "Egiptujo",
         "EH": "Okcidenta Saharo",
         "ER": "Eritreo",
         "ES": "Hispanujo",
         "ET": "Etiopujo",
+        "EU": "Eŭropa Unio",
+        "EZ": "Eŭrozono",
         "FI": "Finnlando",
         "FJ": "Fiĝoj",
+        "FK": "Falklandoj",
         "FM": "Mikronezio",
         "FO": "Ferooj",
         "FR": "Francujo",
@@ -600,6 +711,7 @@ public class LocalizedNamesImpl_eo extends LocalizedNamesImpl {
         "GD": "Grenado",
         "GE": "Kartvelujo",
         "GF": "Franca Gviano",
+        "GG": "Gernezejo",
         "GH": "Ganao",
         "GI": "Ĝibraltaro",
         "GL": "Gronlando",
@@ -619,34 +731,37 @@ public class LocalizedNamesImpl_eo extends LocalizedNamesImpl {
         "HR": "Kroatujo",
         "HT": "Haitio",
         "HU": "Hungarujo",
+        "IC": "Kanarioj",
         "ID": "Indonezio",
         "IE": "Irlando",
         "IL": "Israelo",
+        "IM": "Mankinsulo",
         "IN": "Hindujo",
         "IO": "Brita Hindoceana Teritorio",
         "IQ": "Irako",
         "IR": "Irano",
         "IS": "Islando",
         "IT": "Italujo",
+        "JE": "Ĵerzejo",
         "JM": "Jamajko",
         "JO": "Jordanio",
         "JP": "Japanujo",
         "KE": "Kenjo",
-        "KG": "Kirgizistano",
+        "KG": "Kirgizujo",
         "KH": "Kamboĝo",
         "KI": "Kiribato",
         "KM": "Komoroj",
-        "KN": "Sent-Kristofo kaj Neviso",
+        "KN": "Sankta Kristoforo kaj Neviso",
         "KP": "Nord-Koreo",
         "KR": "Sud-Koreo",
         "KW": "Kuvajto",
         "KY": "Kejmanoj",
-        "KZ": "Kazaĥstano",
+        "KZ": "Kazaĥujo",
         "LA": "Laoso",
         "LB": "Libano",
-        "LC": "Sent-Lucio",
+        "LC": "Sankta Lucio",
         "LI": "Liĥtenŝtejno",
-        "LK": "Sri-Lanko",
+        "LK": "Srilanko",
         "LR": "Liberio",
         "LS": "Lesoto",
         "LT": "Litovujo",
@@ -656,15 +771,18 @@ public class LocalizedNamesImpl_eo extends LocalizedNamesImpl {
         "MA": "Maroko",
         "MC": "Monako",
         "MD": "Moldavujo",
+        "MF": "Saint-Martin",
         "MG": "Madagaskaro",
         "MH": "Marŝaloj",
-        "MK": "Makedonujo",
+        "MK": "Nord-Makedonujo",
         "ML": "Malio",
-        "MM": "Mjanmao",
+        "MM": "Birmo",
         "MN": "Mongolujo",
+        "MO": "Makao",
         "MP": "Nord-Marianoj",
         "MQ": "Martiniko",
         "MR": "Maŭritanujo",
+        "MS": "Moncerato",
         "MT": "Malto",
         "MU": "Maŭricio",
         "MV": "Maldivoj",
@@ -692,41 +810,49 @@ public class LocalizedNamesImpl_eo extends LocalizedNamesImpl {
         "PH": "Filipinoj",
         "PK": "Pakistano",
         "PL": "Pollando",
-        "PM": "Sent-Piero kaj Mikelono",
+        "PM": "Sankta Piero kaj Mikelono",
         "PN": "Pitkarna Insulo",
-        "PR": "Puerto-Riko",
+        "PR": "Puertoriko",
+        "PS": "Palestino",
         "PT": "Portugalujo",
-        "PW": "Belaŭo",
+        "PW": "Palaŭo",
         "PY": "Paragvajo",
         "QA": "Kataro",
+        "QO": "malproksimaj insuletoj de Oceanio",
         "RE": "Reunio",
         "RO": "Rumanujo",
+        "RS": "Serbujo",
         "RU": "Rusujo",
         "RW": "Ruando",
-        "SA": "Saŭda Arabujo",
+        "SA": "Sauda Arabujo",
         "SB": "Salomonoj",
         "SC": "Sejŝeloj",
         "SD": "Sudano",
         "SE": "Svedujo",
         "SG": "Singapuro",
-        "SH": "Sent-Heleno",
+        "SH": "Sankta Heleno",
         "SI": "Slovenujo",
-        "SJ": "Svalbardo kaj Jan-Majen-insulo",
+        "SJ": "Svalbardo kaj Janmajeno",
         "SK": "Slovakujo",
-        "SL": "Siera-Leono",
-        "SM": "San-Marino",
+        "SL": "Sieraleono",
+        "SM": "Sanmarino",
         "SN": "Senegalo",
         "SO": "Somalujo",
         "SR": "Surinamo",
         "SS": "Sud-Sudano",
-        "ST": "Sao-Tomeo kaj Principeo",
+        "ST": "Santomeo kaj Principeo",
         "SV": "Salvadoro",
+        "SX": "Sint-Maarten",
         "SY": "Sirio",
         "SZ": "Svazilando",
+        "TC": "Turkoj kaj Kajkoj",
         "TD": "Ĉado",
-        "TG": "Togolo",
+        "TF": "Francaj Sudaj Teritorioj",
+        "TG": "Togolando",
         "TH": "Tajlando",
         "TJ": "Taĝikujo",
+        "TK": "Tokelao",
+        "TL": "Orienta Timoro",
         "TM": "Turkmenujo",
         "TN": "Tunizio",
         "TO": "Tongo",
@@ -735,14 +861,15 @@ public class LocalizedNamesImpl_eo extends LocalizedNamesImpl {
         "TV": "Tuvalo",
         "TW": "Tajvano",
         "TZ": "Tanzanio",
-        "UA": "Ukrajno",
+        "UA": "Ukrainujo",
         "UG": "Ugando",
         "UM": "Usonaj malgrandaj insuloj",
+        "UN": "Unuiĝintaj Nacioj",
         "US": "Usono",
         "UY": "Urugvajo",
         "UZ": "Uzbekujo",
         "VA": "Vatikano",
-        "VC": "Sent-Vincento kaj la Grenadinoj",
+        "VC": "Sankta Vincento kaj Grenadinoj",
         "VE": "Venezuelo",
         "VG": "Britaj Virgulininsuloj",
         "VI": "Usonaj Virgulininsuloj",
@@ -750,6 +877,8 @@ public class LocalizedNamesImpl_eo extends LocalizedNamesImpl {
         "VU": "Vanuatuo",
         "WF": "Valiso kaj Futuno",
         "WS": "Samoo",
+        "XA": "pseŭdo-supersignoj",
+        "XB": "pseŭdo-inversdirekta",
         "YE": "Jemeno",
         "YT": "Majoto",
         "ZA": "Sud-Afriko",

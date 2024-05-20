@@ -77,6 +77,7 @@ public class LocalizedNamesImpl_eu extends LocalizedNamesImpl {
         "CC",
         "CK",
         "CR",
+        "CQ",
         "CW",
         "DK",
         "DG",
@@ -137,6 +138,7 @@ public class LocalizedNamesImpl_eu extends LocalizedNamesImpl {
         "ID",
         "KP",
         "MP",
+        "MK",
         "IQ",
         "IR",
         "IE",
@@ -189,7 +191,6 @@ public class LocalizedNamesImpl_eu extends LocalizedNamesImpl {
         "MR",
         "MU",
         "YT",
-        "MK",
         "EH",
         "MX",
         "FM",
@@ -223,6 +224,7 @@ public class LocalizedNamesImpl_eu extends LocalizedNamesImpl {
         "PF",
         "PL",
         "PT",
+        "XB",
         "PR",
         "QA",
         "RE",
@@ -239,6 +241,7 @@ public class LocalizedNamesImpl_eu extends LocalizedNamesImpl {
         "SH",
         "LC",
         "ST",
+        "XA",
         "SA",
         "SN",
         "RS",
@@ -282,8 +285,6 @@ public class LocalizedNamesImpl_eu extends LocalizedNamesImpl {
         "VE",
         "VN",
         "WF",
-        "XA",
-        "XB",
         "YE",
         "ZM",
         "NZ",
@@ -300,27 +301,27 @@ public class LocalizedNamesImpl_eu extends LocalizedNamesImpl {
     namesMap.put("003", "Ipar Amerika");
     namesMap.put("005", "Hego Amerika");
     namesMap.put("009", "Ozeania");
-    namesMap.put("011", "Afrika mendebaldea");
+    namesMap.put("011", "Mendebaldeko Afrika");
     namesMap.put("013", "Erdialdeko Amerika");
-    namesMap.put("014", "Afrika ekialdea");
-    namesMap.put("015", "Afrika iparraldea");
+    namesMap.put("014", "Ekialdeko Afrika");
+    namesMap.put("015", "Ipar Afrika");
     namesMap.put("017", "Erdialdeko Afrika");
-    namesMap.put("018", "Afrika hegoaldea");
+    namesMap.put("018", "Hegoaldeko Afrika");
     namesMap.put("019", "Amerika");
     namesMap.put("021", "Amerikako iparraldea");
     namesMap.put("029", "Karibea");
-    namesMap.put("030", "Asia ekialdea");
-    namesMap.put("034", "Asia hegoaldea");
-    namesMap.put("035", "Asiako hego-ekialdea");
-    namesMap.put("039", "Europa hegoaldea");
+    namesMap.put("030", "Ekialdeko Asia");
+    namesMap.put("034", "Hego Asia");
+    namesMap.put("035", "Hego-ekialdeko Asia");
+    namesMap.put("039", "Hego Europa");
     namesMap.put("057", "Mikronesia eskualdea");
     namesMap.put("061", "Polinesia");
-    namesMap.put("143", "Asia erdialdea");
-    namesMap.put("145", "Asia mendebaldea");
+    namesMap.put("143", "Erdialdeko Asia");
+    namesMap.put("145", "Mendebaldeko Asia");
     namesMap.put("150", "Europa");
-    namesMap.put("151", "Europa ekialdea");
-    namesMap.put("154", "Europa iparraldea");
-    namesMap.put("155", "Europa mendebaldea");
+    namesMap.put("151", "Ekialdeko Europa");
+    namesMap.put("154", "Ipar Europa");
+    namesMap.put("155", "Mendebaldeko Europa");
     namesMap.put("202", "Saharaz hegoaldeko Afrika");
     namesMap.put("419", "Latinoamerika");
     namesMap.put("AC", "Ascension uhartea");
@@ -420,7 +421,7 @@ public class LocalizedNamesImpl_eu extends LocalizedNamesImpl {
     namesMap.put("MF", "San Martin");
     namesMap.put("MG", "Madagaskar");
     namesMap.put("MH", "Marshall Uharteak");
-    namesMap.put("MK", "Mazedonia");
+    namesMap.put("MK", "Ipar Mazedonia");
     namesMap.put("MM", "Myanmar (Birmania)");
     namesMap.put("MO", "Macau Txinako AEB");
     namesMap.put("MP", "Ipar Mariana uharteak");
@@ -479,6 +480,8 @@ public class LocalizedNamesImpl_eu extends LocalizedNamesImpl {
     namesMap.put("VG", "Birjina uharte britainiarrak");
     namesMap.put("VI", "Birjina uharte amerikarrak");
     namesMap.put("WF", "Wallis eta Futuna");
+    namesMap.put("XA", "Sasiazentuak");
+    namesMap.put("XB", "Pseudobidia");
     namesMap.put("ZA", "Hegoafrika");
     namesMap.put("ZZ", "Eskualde ezezaguna");
   }
@@ -495,27 +498,27 @@ public class LocalizedNamesImpl_eu extends LocalizedNamesImpl {
         "003": "Ipar Amerika",
         "005": "Hego Amerika",
         "009": "Ozeania",
-        "011": "Afrika mendebaldea",
+        "011": "Mendebaldeko Afrika",
         "013": "Erdialdeko Amerika",
-        "014": "Afrika ekialdea",
-        "015": "Afrika iparraldea",
+        "014": "Ekialdeko Afrika",
+        "015": "Ipar Afrika",
         "017": "Erdialdeko Afrika",
-        "018": "Afrika hegoaldea",
+        "018": "Hegoaldeko Afrika",
         "019": "Amerika",
         "021": "Amerikako iparraldea",
         "029": "Karibea",
-        "030": "Asia ekialdea",
-        "034": "Asia hegoaldea",
-        "035": "Asiako hego-ekialdea",
-        "039": "Europa hegoaldea",
+        "030": "Ekialdeko Asia",
+        "034": "Hego Asia",
+        "035": "Hego-ekialdeko Asia",
+        "039": "Hego Europa",
         "057": "Mikronesia eskualdea",
         "061": "Polinesia",
-        "143": "Asia erdialdea",
-        "145": "Asia mendebaldea",
+        "143": "Erdialdeko Asia",
+        "145": "Mendebaldeko Asia",
         "150": "Europa",
-        "151": "Europa ekialdea",
-        "154": "Europa iparraldea",
-        "155": "Europa mendebaldea",
+        "151": "Ekialdeko Europa",
+        "154": "Ipar Europa",
+        "155": "Mendebaldeko Europa",
         "202": "Saharaz hegoaldeko Afrika",
         "419": "Latinoamerika",
         "AC": "Ascension uhartea",
@@ -615,7 +618,7 @@ public class LocalizedNamesImpl_eu extends LocalizedNamesImpl {
         "MF": "San Martin",
         "MG": "Madagaskar",
         "MH": "Marshall Uharteak",
-        "MK": "Mazedonia",
+        "MK": "Ipar Mazedonia",
         "MM": "Myanmar (Birmania)",
         "MO": "Macau Txinako AEB",
         "MP": "Ipar Mariana uharteak",
@@ -674,6 +677,8 @@ public class LocalizedNamesImpl_eu extends LocalizedNamesImpl {
         "VG": "Birjina uharte britainiarrak",
         "VI": "Birjina uharte amerikarrak",
         "WF": "Wallis eta Futuna",
+        "XA": "Sasiazentuak",
+        "XB": "Pseudobidia",
         "ZA": "Hegoafrika",
         "ZZ": "Eskualde ezezaguna"
     };

@@ -66,15 +66,14 @@ public class LocalizedNamesImpl_smn extends LocalizedNamesImpl {
         "BI",
         "CV",
         "KY",
-        "CD",
         "EA",
-        "CG",
         "CL",
         "CP",
         "SJ",
         "CK",
         "CR",
         "CI",
+        "CQ",
         "CW",
         "DG",
         "DJ",
@@ -137,6 +136,8 @@ public class LocalizedNamesImpl_smn extends LocalizedNamesImpl {
         "KI",
         "CO",
         "KM",
+        "CD",
+        "CG",
         "CC",
         "CF",
         "XK",
@@ -312,7 +313,9 @@ public class LocalizedNamesImpl_smn extends LocalizedNamesImpl {
     namesMap.put("BY", "Vielgis-Ruoššâ");
     namesMap.put("CA", "Kanada");
     namesMap.put("CC", "Kookossuolluuh (Keelingsuolluuh)");
+    namesMap.put("CD", "Kongo demokraattisâš täsiväldi");
     namesMap.put("CF", "Koskâ-Afrika täsiväldi");
+    namesMap.put("CG", "Kongo täsiväldi");
     namesMap.put("CH", "Sveitsi");
     namesMap.put("CK", "Cooksuolluuh");
     namesMap.put("CM", "Kamerun");
@@ -443,7 +446,9 @@ public class LocalizedNamesImpl_smn extends LocalizedNamesImpl {
         "BY": "Vielgis-Ruoššâ",
         "CA": "Kanada",
         "CC": "Kookossuolluuh (Keelingsuolluuh)",
+        "CD": "Kongo demokraattisâš täsiväldi",
         "CF": "Koskâ-Afrika täsiväldi",
+        "CG": "Kongo täsiväldi",
         "CH": "Sveitsi",
         "CK": "Cooksuolluuh",
         "CM": "Kamerun",

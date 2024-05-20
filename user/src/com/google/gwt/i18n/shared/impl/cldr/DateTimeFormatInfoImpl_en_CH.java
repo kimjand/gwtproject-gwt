@@ -20,4 +20,24 @@ package com.google.gwt.i18n.shared.impl.cldr;
  * Implementation of DateTimeFormatInfo for the "en_CH" locale.
  */
 public class DateTimeFormatInfoImpl_en_CH extends DateTimeFormatInfoImpl_en_150 {
+
+  @Override
+  public String dateFormatShort() {
+    return "dd.MM.y";
+  }
+
+  @Override
+  public String formatMonthNumDay() {
+    return "dd.MM";
+  }
+
+  @Override
+  public String formatYearMonthNum() {
+    return "MM.y";
+  }
+
+  @Override
+  public String formatYearMonthNumDay() {
+    return "dd.MM.y";
+  }
 }

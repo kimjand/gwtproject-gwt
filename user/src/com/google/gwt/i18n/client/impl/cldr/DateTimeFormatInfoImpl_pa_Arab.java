@@ -76,6 +76,11 @@ public class DateTimeFormatInfoImpl_pa_Arab extends DateTimeFormatInfoImpl_pa {
   }
 
   @Override
+  public String formatYearMonthAbbrevDay() {
+    return "y MMM d";
+  }
+
+  @Override
   public String formatYearMonthFull() {
     return "y MMMM";
   }
@@ -86,8 +91,18 @@ public class DateTimeFormatInfoImpl_pa_Arab extends DateTimeFormatInfoImpl_pa {
   }
 
   @Override
+  public String formatYearMonthNumDay() {
+    return "y-MM-dd";
+  }
+
+  @Override
   public String formatYearMonthWeekdayDay() {
     return "y MMM d, EEE";
+  }
+
+  @Override
+  public String formatYearQuarterFull() {
+    return "y QQQQ";
   }
 
   @Override

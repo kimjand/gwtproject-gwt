@@ -24,8 +24,8 @@ public class DateTimeFormatInfoImpl_tig extends DateTimeFormatInfoImpl {
   @Override
   public String[] ampms() {
     return new String[] {
-        "ቀደም ሰርምዕል",
-        "ሓቆ ስርምዕል"
+        "ቀደም ሰርምዕል",
+        "ሓቆ ስርምዕል"
     };
   }
 
@@ -63,6 +63,16 @@ public class DateTimeFormatInfoImpl_tig extends DateTimeFormatInfoImpl {
         "ዓ/ዓ",
         "ዓ/ም"
     };
+  }
+
+  @Override
+  public String formatHour12Minute() {
+    return "h:mm a";
+  }
+
+  @Override
+  public String formatHour12MinuteSecond() {
+    return "h:mm:ss a";
   }
 
   @Override

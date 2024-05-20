@@ -34,8 +34,7 @@ public class LocalizedNamesImpl_am extends LocalizedNamesImpl {
   @Override
   public String[] loadSortedRegionCodes() {
     return new String[] {
-        "XA",
-        "XB",
+        "CQ",
         "HU",
         "HT",
         "IN",
@@ -50,7 +49,6 @@ public class LocalizedNamesImpl_am extends LocalizedNamesImpl {
         "LA",
         "LR",
         "LS",
-        "MK",
         "FM",
         "ML",
         "MW",
@@ -60,6 +58,7 @@ public class LocalizedNamesImpl_am extends LocalizedNamesImpl {
         "MH",
         "MQ",
         "MO",
+        "CF",
         "MM",
         "MG",
         "MX",
@@ -79,6 +78,7 @@ public class LocalizedNamesImpl_am extends LocalizedNamesImpl {
         "RE",
         "RO",
         "SB",
+        "MK",
         "KP",
         "RS",
         "SO",
@@ -86,7 +86,6 @@ public class LocalizedNamesImpl_am extends LocalizedNamesImpl {
         "SZ",
         "SD",
         "LK",
-        "SY",
         "SC",
         "SX",
         "SG",
@@ -107,6 +106,7 @@ public class LocalizedNamesImpl_am extends LocalizedNamesImpl {
         "CH",
         "SE",
         "ES",
+        "SY",
         "BL",
         "VC",
         "KN",
@@ -225,8 +225,9 @@ public class LocalizedNamesImpl_am extends LocalizedNamesImpl {
         "WF",
         "ZW",
         "ZM",
+        "XB",
+        "XA",
         "YE",
-        "CF",
         "MP",
         "IO",
         "UN",
@@ -306,10 +307,10 @@ public class LocalizedNamesImpl_am extends LocalizedNamesImpl {
     namesMap.put("002", "አፍሪካ");
     namesMap.put("003", "ሰሜን አሜሪካ");
     namesMap.put("005", "ደቡብ አሜሪካ");
-    namesMap.put("009", "ኦሽኒአ");
+    namesMap.put("009", "ኦሺንያ");
     namesMap.put("011", "ምስራቃዊ አፍሪካ");
     namesMap.put("013", "መካከለኛው አሜሪካ");
-    namesMap.put("014", "ምዕራባዊ አፍሪካ");
+    namesMap.put("014", "ምስራቅ አፍሪካ");
     namesMap.put("015", "ሰሜናዊ አፍሪካ");
     namesMap.put("017", "መካከለኛው አፍሪካ");
     namesMap.put("018", "ደቡባዊ አፍሪካ");
@@ -318,7 +319,7 @@ public class LocalizedNamesImpl_am extends LocalizedNamesImpl {
     namesMap.put("029", "ካሪቢያን");
     namesMap.put("030", "ምስራቃዊ እስያ");
     namesMap.put("034", "ደቡባዊ እሲያ");
-    namesMap.put("035", "ምዕራባዊ ደቡብ እሲያ");
+    namesMap.put("035", "ደቡብ ምስራቅ እሲያ");
     namesMap.put("039", "ደቡባዊ አውሮፓ");
     namesMap.put("053", "አውስትራሌዥያ");
     namesMap.put("054", "ሜላኔዥያ");
@@ -328,9 +329,9 @@ public class LocalizedNamesImpl_am extends LocalizedNamesImpl {
     namesMap.put("143", "መካከለኛው እሲያ");
     namesMap.put("145", "ምዕራባዊ እስያ");
     namesMap.put("150", "አውሮፓ");
-    namesMap.put("151", "ምዕራባዊ አውሮፓ");
+    namesMap.put("151", "ምስራቅ አውሮፓ");
     namesMap.put("154", "ሰሜናዊ አውሮፓ");
-    namesMap.put("155", "ምስራቃዊ አውሮፓ");
+    namesMap.put("155", "ምዕራብ አውሮፓ");
     namesMap.put("202", "ከሰሃራ በታች አፍሪካ");
     namesMap.put("419", "ላቲን አሜሪካ");
     namesMap.put("AC", "አሴንሽን ደሴት");
@@ -374,10 +375,10 @@ public class LocalizedNamesImpl_am extends LocalizedNamesImpl {
     namesMap.put("CA", "ካናዳ");
     namesMap.put("CC", "ኮኮስ(ኬሊንግ) ደሴቶች");
     namesMap.put("CD", "ኮንጎ-ኪንሻሳ");
-    namesMap.put("CF", "የመካከለኛው አፍሪካ ሪፐብሊክ");
+    namesMap.put("CF", "ማዕከላዊ አፍሪካ ሪፑብሊክ");
     namesMap.put("CG", "ኮንጎ ብራዛቪል");
     namesMap.put("CH", "ስዊዘርላንድ");
-    namesMap.put("CI", "ኮት ዲቯር");
+    namesMap.put("CI", "ኮትዲቯር");
     namesMap.put("CK", "ኩክ ደሴቶች");
     namesMap.put("CL", "ቺሊ");
     namesMap.put("CM", "ካሜሩን");
@@ -386,7 +387,7 @@ public class LocalizedNamesImpl_am extends LocalizedNamesImpl {
     namesMap.put("CP", "ክሊፐርቶን ደሴት");
     namesMap.put("CR", "ኮስታሪካ");
     namesMap.put("CU", "ኩባ");
-    namesMap.put("CV", "ኬፕ ቬርዴ");
+    namesMap.put("CV", "ኬፕቨርዴ");
     namesMap.put("CW", "ኩራሳዎ");
     namesMap.put("CX", "ክሪስማስ ደሴት");
     namesMap.put("CY", "ሳይፕረስ");
@@ -431,7 +432,7 @@ public class LocalizedNamesImpl_am extends LocalizedNamesImpl {
     namesMap.put("GS", "ደቡብ ጆርጂያ እና የደቡብ ሳንድዊች ደሴቶች");
     namesMap.put("GT", "ጉዋቲማላ");
     namesMap.put("GU", "ጉዋም");
-    namesMap.put("GW", "ጊኒ ቢሳኦ");
+    namesMap.put("GW", "ጊኒ-ቢሳው");
     namesMap.put("GY", "ጉያና");
     namesMap.put("HK", "ሆንግ ኮንግ ልዩ የአስተዳደር ክልል ቻይና");
     namesMap.put("HM", "ኽርድ ደሴቶችና ማክዶናልድ ደሴቶች");
@@ -483,11 +484,11 @@ public class LocalizedNamesImpl_am extends LocalizedNamesImpl {
     namesMap.put("MF", "ሴንት ማርቲን");
     namesMap.put("MG", "ማዳጋስካር");
     namesMap.put("MH", "ማርሻል አይላንድ");
-    namesMap.put("MK", "መቄዶንያ");
+    namesMap.put("MK", "ሰሜን መቄዶንያ");
     namesMap.put("ML", "ማሊ");
     namesMap.put("MM", "ማይናማር(በርማ)");
     namesMap.put("MN", "ሞንጎሊያ");
-    namesMap.put("MO", "ማካኡ ልዩ የአስተዳደር ክልል ቻይና");
+    namesMap.put("MO", "ማካኦ ልዩ የአስተዳደር ክልል ቻይና");
     namesMap.put("MP", "የሰሜናዊ ማሪያና ደሴቶች");
     namesMap.put("MQ", "ማርቲኒክ");
     namesMap.put("MR", "ሞሪቴኒያ");
@@ -520,7 +521,7 @@ public class LocalizedNamesImpl_am extends LocalizedNamesImpl {
     namesMap.put("PK", "ፓኪስታን");
     namesMap.put("PL", "ፖላንድ");
     namesMap.put("PM", "ቅዱስ ፒዬር እና ሚኩኤሎን");
-    namesMap.put("PN", "ፒትካኢርን አይስላንድ");
+    namesMap.put("PN", "ፒትካኢርን ደሴቶች");
     namesMap.put("PR", "ፖርታ ሪኮ");
     namesMap.put("PS", "የፍልስጤም ግዛት");
     namesMap.put("PT", "ፖርቱጋል");
@@ -552,7 +553,7 @@ public class LocalizedNamesImpl_am extends LocalizedNamesImpl {
     namesMap.put("ST", "ሳኦ ቶሜ እና ፕሪንሲፔ");
     namesMap.put("SV", "ኤል ሳልቫዶር");
     namesMap.put("SX", "ሲንት ማርተን");
-    namesMap.put("SY", "ሲሪያ");
+    namesMap.put("SY", "ሶሪያ");
     namesMap.put("SZ", "ሱዋዚላንድ");
     namesMap.put("TA", "ትሪስታን ዲ ኩንሃ");
     namesMap.put("TC", "የቱርኮችና የካኢኮስ ደሴቶች");
@@ -587,6 +588,8 @@ public class LocalizedNamesImpl_am extends LocalizedNamesImpl {
     namesMap.put("VU", "ቫኑአቱ");
     namesMap.put("WF", "ዋሊስ እና ፉቱና ደሴቶች");
     namesMap.put("WS", "ሳሞአ");
+    namesMap.put("XA", "የሀሰት ትእምርት");
+    namesMap.put("XB", "የሀሰት ባለሁለት አቅጣጫ");
     namesMap.put("XK", "ኮሶቮ");
     namesMap.put("YE", "የመን");
     namesMap.put("YT", "ሜይኦቴ");
@@ -607,10 +610,10 @@ public class LocalizedNamesImpl_am extends LocalizedNamesImpl {
         "002": "አፍሪካ",
         "003": "ሰሜን አሜሪካ",
         "005": "ደቡብ አሜሪካ",
-        "009": "ኦሽኒአ",
+        "009": "ኦሺንያ",
         "011": "ምስራቃዊ አፍሪካ",
         "013": "መካከለኛው አሜሪካ",
-        "014": "ምዕራባዊ አፍሪካ",
+        "014": "ምስራቅ አፍሪካ",
         "015": "ሰሜናዊ አፍሪካ",
         "017": "መካከለኛው አፍሪካ",
         "018": "ደቡባዊ አፍሪካ",
@@ -619,7 +622,7 @@ public class LocalizedNamesImpl_am extends LocalizedNamesImpl {
         "029": "ካሪቢያን",
         "030": "ምስራቃዊ እስያ",
         "034": "ደቡባዊ እሲያ",
-        "035": "ምዕራባዊ ደቡብ እሲያ",
+        "035": "ደቡብ ምስራቅ እሲያ",
         "039": "ደቡባዊ አውሮፓ",
         "053": "አውስትራሌዥያ",
         "054": "ሜላኔዥያ",
@@ -629,9 +632,9 @@ public class LocalizedNamesImpl_am extends LocalizedNamesImpl {
         "143": "መካከለኛው እሲያ",
         "145": "ምዕራባዊ እስያ",
         "150": "አውሮፓ",
-        "151": "ምዕራባዊ አውሮፓ",
+        "151": "ምስራቅ አውሮፓ",
         "154": "ሰሜናዊ አውሮፓ",
-        "155": "ምስራቃዊ አውሮፓ",
+        "155": "ምዕራብ አውሮፓ",
         "202": "ከሰሃራ በታች አፍሪካ",
         "419": "ላቲን አሜሪካ",
         "AC": "አሴንሽን ደሴት",
@@ -675,10 +678,10 @@ public class LocalizedNamesImpl_am extends LocalizedNamesImpl {
         "CA": "ካናዳ",
         "CC": "ኮኮስ(ኬሊንግ) ደሴቶች",
         "CD": "ኮንጎ-ኪንሻሳ",
-        "CF": "የመካከለኛው አፍሪካ ሪፐብሊክ",
+        "CF": "ማዕከላዊ አፍሪካ ሪፑብሊክ",
         "CG": "ኮንጎ ብራዛቪል",
         "CH": "ስዊዘርላንድ",
-        "CI": "ኮት ዲቯር",
+        "CI": "ኮትዲቯር",
         "CK": "ኩክ ደሴቶች",
         "CL": "ቺሊ",
         "CM": "ካሜሩን",
@@ -687,7 +690,7 @@ public class LocalizedNamesImpl_am extends LocalizedNamesImpl {
         "CP": "ክሊፐርቶን ደሴት",
         "CR": "ኮስታሪካ",
         "CU": "ኩባ",
-        "CV": "ኬፕ ቬርዴ",
+        "CV": "ኬፕቨርዴ",
         "CW": "ኩራሳዎ",
         "CX": "ክሪስማስ ደሴት",
         "CY": "ሳይፕረስ",
@@ -732,7 +735,7 @@ public class LocalizedNamesImpl_am extends LocalizedNamesImpl {
         "GS": "ደቡብ ጆርጂያ እና የደቡብ ሳንድዊች ደሴቶች",
         "GT": "ጉዋቲማላ",
         "GU": "ጉዋም",
-        "GW": "ጊኒ ቢሳኦ",
+        "GW": "ጊኒ-ቢሳው",
         "GY": "ጉያና",
         "HK": "ሆንግ ኮንግ ልዩ የአስተዳደር ክልል ቻይና",
         "HM": "ኽርድ ደሴቶችና ማክዶናልድ ደሴቶች",
@@ -784,11 +787,11 @@ public class LocalizedNamesImpl_am extends LocalizedNamesImpl {
         "MF": "ሴንት ማርቲን",
         "MG": "ማዳጋስካር",
         "MH": "ማርሻል አይላንድ",
-        "MK": "መቄዶንያ",
+        "MK": "ሰሜን መቄዶንያ",
         "ML": "ማሊ",
         "MM": "ማይናማር(በርማ)",
         "MN": "ሞንጎሊያ",
-        "MO": "ማካኡ ልዩ የአስተዳደር ክልል ቻይና",
+        "MO": "ማካኦ ልዩ የአስተዳደር ክልል ቻይና",
         "MP": "የሰሜናዊ ማሪያና ደሴቶች",
         "MQ": "ማርቲኒክ",
         "MR": "ሞሪቴኒያ",
@@ -821,7 +824,7 @@ public class LocalizedNamesImpl_am extends LocalizedNamesImpl {
         "PK": "ፓኪስታን",
         "PL": "ፖላንድ",
         "PM": "ቅዱስ ፒዬር እና ሚኩኤሎን",
-        "PN": "ፒትካኢርን አይስላንድ",
+        "PN": "ፒትካኢርን ደሴቶች",
         "PR": "ፖርታ ሪኮ",
         "PS": "የፍልስጤም ግዛት",
         "PT": "ፖርቱጋል",
@@ -853,7 +856,7 @@ public class LocalizedNamesImpl_am extends LocalizedNamesImpl {
         "ST": "ሳኦ ቶሜ እና ፕሪንሲፔ",
         "SV": "ኤል ሳልቫዶር",
         "SX": "ሲንት ማርተን",
-        "SY": "ሲሪያ",
+        "SY": "ሶሪያ",
         "SZ": "ሱዋዚላንድ",
         "TA": "ትሪስታን ዲ ኩንሃ",
         "TC": "የቱርኮችና የካኢኮስ ደሴቶች",
@@ -888,6 +891,8 @@ public class LocalizedNamesImpl_am extends LocalizedNamesImpl {
         "VU": "ቫኑአቱ",
         "WF": "ዋሊስ እና ፉቱና ደሴቶች",
         "WS": "ሳሞአ",
+        "XA": "የሀሰት ትእምርት",
+        "XB": "የሀሰት ባለሁለት አቅጣጫ",
         "XK": "ኮሶቮ",
         "YE": "የመን",
         "YT": "ሜይኦቴ",

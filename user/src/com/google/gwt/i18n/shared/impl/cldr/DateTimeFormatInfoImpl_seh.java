@@ -108,11 +108,6 @@ public class DateTimeFormatInfoImpl_seh extends DateTimeFormatInfoImpl {
   }
 
   @Override
-  public String formatYearMonthNumDay() {
-    return "d/M/y";
-  }
-
-  @Override
   public String formatYearMonthWeekdayDay() {
     return "EEE, d 'de' MMM 'de' y";
   }

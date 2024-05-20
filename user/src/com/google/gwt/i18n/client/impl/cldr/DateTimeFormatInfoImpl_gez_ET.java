@@ -1,5 +1,5 @@
 /*
- * Copyright 2010 Google Inc.
+ * Copyright 2012 Google Inc.
  * 
  * Licensed under the Apache License, Version 2.0 (the "License"); you may not
  * use this file except in compliance with the License. You may obtain a copy of
@@ -14,7 +14,6 @@
  * the License.
  */
 package com.google.gwt.i18n.client.impl.cldr;
-
 // DO NOT EDIT - GENERATED FROM CLDR AND ICU DATA
 
 /**
@@ -24,6 +23,6 @@ public class DateTimeFormatInfoImpl_gez_ET extends DateTimeFormatInfoImpl_gez {
 
   @Override
   public int firstDayOfTheWeek() {
-    return 6;
+    return 0;
   }
 }

@@ -86,6 +86,36 @@ public class DateTimeFormatInfoImpl_nds extends DateTimeFormatInfoImpl {
   }
 
   @Override
+  public String formatHour12Minute() {
+    return "'Kl'. h.mm a";
+  }
+
+  @Override
+  public String formatHour12MinuteSecond() {
+    return "'Klock' h.mm:ss a";
+  }
+
+  @Override
+  public String formatHour24Minute() {
+    return "'Kl'. H.mm";
+  }
+
+  @Override
+  public String formatHour24MinuteSecond() {
+    return "'Klock' H.mm:ss";
+  }
+
+  @Override
+  public String formatYearMonthAbbrevDay() {
+    return "d. MMM y";
+  }
+
+  @Override
+  public String formatYearMonthNumDay() {
+    return "d.M.y";
+  }
+
+  @Override
   public String[] monthsFull() {
     return new String[] {
         "Januaar",

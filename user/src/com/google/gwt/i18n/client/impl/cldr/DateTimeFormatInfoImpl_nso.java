@@ -22,24 +22,38 @@ package com.google.gwt.i18n.client.impl.cldr;
 public class DateTimeFormatInfoImpl_nso extends DateTimeFormatInfoImpl {
 
   @Override
-  public String[] erasFull() {
-    return new String[] {
-        "BCE",
-        "CE"
-    };
+  public String dateTimeFull(String timePattern, String datePattern) {
+    return datePattern + " 'ka' " + timePattern;
   }
 
   @Override
-  public String[] erasShort() {
-    return new String[] {
-        "BCE",
-        "CE"
-    };
+  public String dateTimeLong(String timePattern, String datePattern) {
+    return datePattern + " 'ka' " + timePattern;
+  }
+
+  @Override
+  public String dateTimeMedium(String timePattern, String datePattern) {
+    return datePattern + ", " + timePattern;
+  }
+
+  @Override
+  public String dateTimeShort(String timePattern, String datePattern) {
+    return datePattern + ", " + timePattern;
   }
 
   @Override
   public int firstDayOfTheWeek() {
     return 0;
+  }
+
+  @Override
+  public String formatHour12Minute() {
+    return "h:mm a";
+  }
+
+  @Override
+  public String formatHour12MinuteSecond() {
+    return "h:mm:ss a";
   }
 
   @Override
@@ -100,72 +114,82 @@ public class DateTimeFormatInfoImpl_nso extends DateTimeFormatInfoImpl {
   @Override
   public String[] monthsFull() {
     return new String[] {
-        "Janaware",
-        "Feberware",
-        "Matšhe",
-        "Aporele",
-        "Mei",
-        "June",
-        "Julae",
-        "Agostose",
-        "Setemere",
-        "Oktobore",
-        "Nofemere",
-        "Disemere"
+        "Pherekgong",
+        "Dibokwane",
+        "Hlakola",
+        "Moranang",
+        "Mopitlo",
+        "Phupu",
+        "Mosegemanye",
+        "Phato",
+        "Lewedi",
+        "Diphalane",
+        "Dibatsela",
+        "Manthole"
     };
   }
 
   @Override
   public String[] monthsNarrow() {
     return new String[] {
-        "1",
-        "2",
-        "3",
-        "4",
-        "5",
-        "6",
-        "7",
-        "8",
-        "9",
-        "10",
-        "11",
-        "12"
+        "P",
+        "D",
+        "H",
+        "M",
+        "M",
+        "P",
+        "M",
+        "P",
+        "L",
+        "D",
+        "D",
+        "M"
     };
   }
 
   @Override
   public String[] monthsShort() {
     return new String[] {
-        "Jan",
-        "Feb",
-        "Mat",
-        "Apo",
-        "Mei",
-        "Jun",
-        "Jul",
-        "Ago",
-        "Set",
-        "Okt",
-        "Nof",
-        "Dis"
+        "Phere",
+        "Dibo",
+        "Hlak",
+        "Mora",
+        "Mopi",
+        "Phupu",
+        "Mose",
+        "Phato",
+        "Lewe",
+        "Dipha",
+        "Diba",
+        "Manth"
     };
   }
 
   @Override
   public String[] quartersFull() {
     return new String[] {
-        "Q1",
-        "Q2",
-        "Q3",
-        "Q4"
+        "1st Kotara",
+        "2nd Kotara",
+        "3rd Kotara",
+        "4th Kotara"
+    };
+  }
+
+  @Override
+  public String[] quartersShort() {
+    return new String[] {
+        "1st Kotara",
+        "2nd Kotara",
+        "3rd Kotara",
+        "4th Kotara"
     };
   }
 
   @Override
   public String[] weekdaysFull() {
     return new String[] {
-        "Sontaga",
-        "Mosupalogo",
+        "Lamorena",
+        "Musopologo",
         "Labobedi",
         "Laboraro",
         "Labone",
@@ -175,9 +199,22 @@ public class DateTimeFormatInfoImpl_nso extends DateTimeFormatInfoImpl {
   }
 
   @Override
+  public String[] weekdaysNarrow() {
+    return new String[] {
+        "L",
+        "M",
+        "B",
+        "R",
+        "N",
+        "H",
+        "M"
+    };
+  }
+
+  @Override
   public String[] weekdaysShort() {
     return new String[] {
-        "Son",
+        "Lam",
         "Mos",
         "Bed",
         "Rar",

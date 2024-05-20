@@ -22,14 +22,6 @@ package com.google.gwt.i18n.client.impl.cldr;
 public class DateTimeFormatInfoImpl_es_MX extends DateTimeFormatInfoImpl_es_419 {
 
   @Override
-  public String[] ampms() {
-    return new String[] {
-        "a. m.",
-        "p. m."
-    };
-  }
-
-  @Override
   public String dateFormatShort() {
     return "dd/MM/yy";
   }
@@ -40,18 +32,8 @@ public class DateTimeFormatInfoImpl_es_MX extends DateTimeFormatInfoImpl_es_419 
   }
 
   @Override
-  public String formatHour24Minute() {
-    return "H:mm";
-  }
-
-  @Override
-  public String formatHour24MinuteSecond() {
-    return "H:mm:ss";
-  }
-
-  @Override
   public String formatYearMonthWeekdayDay() {
-    return "EEE, d 'de' MMMM 'de' y";
+    return "EEE, d 'de' MMM 'de' y";
   }
 
   @Override
@@ -74,59 +56,6 @@ public class DateTimeFormatInfoImpl_es_MX extends DateTimeFormatInfoImpl_es_419 
         "oct",
         "nov",
         "dic"
-    };
-  }
-
-  @Override
-  public String[] quartersFull() {
-    return new String[] {
-        "1.er trimestre",
-        "2º. trimestre",
-        "3.er trimestre",
-        "4o. trimestre"
-    };
-  }
-
-  @Override
-  public String[] quartersShort() {
-    return new String[] {
-        "1er. trim.",
-        "2º. trim.",
-        "3er. trim.",
-        "4º trim."
-    };
-  }
-
-  @Override
-  public String timeFormatFull() {
-    return "H:mm:ss zzzz";
-  }
-
-  @Override
-  public String timeFormatLong() {
-    return "H:mm:ss z";
-  }
-
-  @Override
-  public String timeFormatMedium() {
-    return "H:mm:ss";
-  }
-
-  @Override
-  public String timeFormatShort() {
-    return "H:mm";
-  }
-
-  @Override
-  public String[] weekdaysNarrow() {
-    return new String[] {
-        "D",
-        "L",
-        "M",
-        "M",
-        "J",
-        "V",
-        "S"
     };
   }
 }

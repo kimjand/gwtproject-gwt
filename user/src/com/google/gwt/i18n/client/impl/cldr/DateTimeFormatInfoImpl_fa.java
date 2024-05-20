@@ -101,6 +101,31 @@ public class DateTimeFormatInfoImpl_fa extends DateTimeFormatInfoImpl {
   }
 
   @Override
+  public String formatMinuteSecond() {
+    return "m:ss";
+  }
+
+  @Override
+  public String formatMonthAbbrevDay() {
+    return "d LLL";
+  }
+
+  @Override
+  public String formatMonthFullDay() {
+    return "d LLLL";
+  }
+
+  @Override
+  public String formatMonthFullWeekdayDay() {
+    return "EEEE d LLLL";
+  }
+
+  @Override
+  public String formatMonthNumDay() {
+    return "M/d";
+  }
+
+  @Override
   public String formatYearMonthAbbrev() {
     return "MMM y";
   }
@@ -191,24 +216,6 @@ public class DateTimeFormatInfoImpl_fa extends DateTimeFormatInfoImpl {
 
   @Override
   public String[] monthsShort() {
-    return new String[] {
-        "ژانویهٔ",
-        "فوریهٔ",
-        "مارس",
-        "آوریل",
-        "مهٔ",
-        "ژوئن",
-        "ژوئیهٔ",
-        "اوت",
-        "سپتامبر",
-        "اکتبر",
-        "نوامبر",
-        "دسامبر"
-    };
-  }
-
-  @Override
-  public String[] monthsShortStandalone() {
     return new String[] {
         "ژانویه",
         "فوریه",

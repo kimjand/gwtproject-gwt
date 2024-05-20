@@ -30,7 +30,7 @@ public class DateTimeFormatInfoImpl_om_KE extends DateTimeFormatInfoImpl_om {
   }
 
   @Override
-  public String[] monthsNarrowStandalone() {
+  public String[] monthsNarrow() {
     return new String[] {
         "A",
         "G",

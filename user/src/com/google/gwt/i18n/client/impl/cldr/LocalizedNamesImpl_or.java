@@ -34,8 +34,7 @@ public class LocalizedNamesImpl_or extends LocalizedNamesImpl {
   @Override
   public String[] loadSortedRegionCodes() {
     return new String[] {
-        "XA",
-        "XB",
+        "CQ",
         "AX",
         "AT",
         "AU",
@@ -66,10 +65,12 @@ public class LocalizedNamesImpl_or extends LocalizedNamesImpl {
         "IR",
         "ER",
         "IL",
+        "SZ",
         "UG",
         "UZ",
         "KP",
         "MP",
+        "MK",
         "UY",
         "SV",
         "EE",
@@ -226,7 +227,6 @@ public class LocalizedNamesImpl_or extends LocalizedNamesImpl {
         "MY",
         "MT",
         "MW",
-        "MK",
         "YT",
         "MM",
         "MX",
@@ -266,6 +266,8 @@ public class LocalizedNamesImpl_or extends LocalizedNamesImpl {
         "SG",
         "SX",
         "SY",
+        "XA",
+        "XB",
         "QO",
         "SD",
         "SR",
@@ -283,7 +285,6 @@ public class LocalizedNamesImpl_or extends LocalizedNamesImpl {
         "ES",
         "SK",
         "SI",
-        "SZ",
         "CH",
         "SE",
         "HK",
@@ -373,7 +374,7 @@ public class LocalizedNamesImpl_or extends LocalizedNamesImpl {
     namesMap.put("BZ", "ବେଲିଜ୍");
     namesMap.put("CA", "କାନାଡା");
     namesMap.put("CC", "କୋକୋସ୍ (କୀଲିଂ) ଦ୍ଵୀପପୁଞ୍ଜ");
-    namesMap.put("CD", "କଙ୍ଗୋ-କିନସାସା");
+    namesMap.put("CD", "କଙ୍ଗୋ (ଡିଆରସି)");
     namesMap.put("CF", "ମଧ୍ୟ ଆଫ୍ରିକୀୟ ସାଧାରଣତନ୍ତ୍ର");
     namesMap.put("CG", "କଙ୍ଗୋ-ବ୍ରାଜିଭିଲ୍ଲେ");
     namesMap.put("CH", "ସ୍ୱିଜରଲ୍ୟାଣ୍ଡ");
@@ -483,7 +484,7 @@ public class LocalizedNamesImpl_or extends LocalizedNamesImpl {
     namesMap.put("MF", "ସେଣ୍ଟ ମାର୍ଟିନ୍");
     namesMap.put("MG", "ମାଡାଗାସ୍କର୍");
     namesMap.put("MH", "ମାର୍ଶାଲ୍ ଦ୍ୱୀପପୁଞ୍ଜ");
-    namesMap.put("MK", "ମାସେଡୋନିଆ");
+    namesMap.put("MK", "ଉତ୍ତର ମାସେଡୋନିଆ");
     namesMap.put("ML", "ମାଲି");
     namesMap.put("MM", "ମିଆଁମାର");
     namesMap.put("MN", "ମଙ୍ଗୋଲିଆ");
@@ -553,7 +554,7 @@ public class LocalizedNamesImpl_or extends LocalizedNamesImpl {
     namesMap.put("SV", "ଏଲ୍ ସାଲଭାଡୋର୍");
     namesMap.put("SX", "ସିଣ୍ଟ ମାର୍ଟୀନ୍‌");
     namesMap.put("SY", "ସିରିଆ");
-    namesMap.put("SZ", "ସ୍ୱାଜିଲ୍ୟାଣ୍ଡ");
+    namesMap.put("SZ", "ଇସ୍ୱାତିନୀ");
     namesMap.put("TA", "ଟ୍ରାଇଷ୍ଟନ୍‌ ଦା କୁନ୍‌ଚା");
     namesMap.put("TC", "ତୁର୍କସ୍‌ ଏବଂ କାଇକୋସ୍‌ ଦ୍ୱୀପପୁଞ୍ଜ");
     namesMap.put("TD", "ଚାଦ୍");
@@ -587,6 +588,8 @@ public class LocalizedNamesImpl_or extends LocalizedNamesImpl {
     namesMap.put("VU", "ଭାନୁଆତୁ");
     namesMap.put("WF", "ୱାଲିସ୍ ଏବଂ ଫୁତୁନା");
     namesMap.put("WS", "ସାମୋଆ");
+    namesMap.put("XA", "ସିୟୁଡୋ-ଏସେଣ୍ଟ");
+    namesMap.put("XB", "ସିୟୁଡୋ-ବିଡି");
     namesMap.put("XK", "କୋସୋଭୋ");
     namesMap.put("YE", "ୟେମେନ୍");
     namesMap.put("YT", "ମାୟୋଟେ");
@@ -674,7 +677,7 @@ public class LocalizedNamesImpl_or extends LocalizedNamesImpl {
         "BZ": "ବେଲିଜ୍",
         "CA": "କାନାଡା",
         "CC": "କୋକୋସ୍ (କୀଲିଂ) ଦ୍ଵୀପପୁଞ୍ଜ",
-        "CD": "କଙ୍ଗୋ-କିନସାସା",
+        "CD": "କଙ୍ଗୋ (ଡିଆରସି)",
         "CF": "ମଧ୍ୟ ଆଫ୍ରିକୀୟ ସାଧାରଣତନ୍ତ୍ର",
         "CG": "କଙ୍ଗୋ-ବ୍ରାଜିଭିଲ୍ଲେ",
         "CH": "ସ୍ୱିଜରଲ୍ୟାଣ୍ଡ",
@@ -784,7 +787,7 @@ public class LocalizedNamesImpl_or extends LocalizedNamesImpl {
         "MF": "ସେଣ୍ଟ ମାର୍ଟିନ୍",
         "MG": "ମାଡାଗାସ୍କର୍",
         "MH": "ମାର୍ଶାଲ୍ ଦ୍ୱୀପପୁଞ୍ଜ",
-        "MK": "ମାସେଡୋନିଆ",
+        "MK": "ଉତ୍ତର ମାସେଡୋନିଆ",
         "ML": "ମାଲି",
         "MM": "ମିଆଁମାର",
         "MN": "ମଙ୍ଗୋଲିଆ",
@@ -854,7 +857,7 @@ public class LocalizedNamesImpl_or extends LocalizedNamesImpl {
         "SV": "ଏଲ୍ ସାଲଭାଡୋର୍",
         "SX": "ସିଣ୍ଟ ମାର୍ଟୀନ୍‌",
         "SY": "ସିରିଆ",
-        "SZ": "ସ୍ୱାଜିଲ୍ୟାଣ୍ଡ",
+        "SZ": "ଇସ୍ୱାତିନୀ",
         "TA": "ଟ୍ରାଇଷ୍ଟନ୍‌ ଦା କୁନ୍‌ଚା",
         "TC": "ତୁର୍କସ୍‌ ଏବଂ କାଇକୋସ୍‌ ଦ୍ୱୀପପୁଞ୍ଜ",
         "TD": "ଚାଦ୍",
@@ -888,6 +891,8 @@ public class LocalizedNamesImpl_or extends LocalizedNamesImpl {
         "VU": "ଭାନୁଆତୁ",
         "WF": "ୱାଲିସ୍ ଏବଂ ଫୁତୁନା",
         "WS": "ସାମୋଆ",
+        "XA": "ସିୟୁଡୋ-ଏସେଣ୍ଟ",
+        "XB": "ସିୟୁଡୋ-ବିଡି",
         "XK": "କୋସୋଭୋ",
         "YE": "ୟେମେନ୍",
         "YT": "ମାୟୋଟେ",

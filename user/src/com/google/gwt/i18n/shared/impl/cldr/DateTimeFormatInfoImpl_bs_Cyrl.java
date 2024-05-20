@@ -24,7 +24,7 @@ public class DateTimeFormatInfoImpl_bs_Cyrl extends DateTimeFormatInfoImpl_bs {
   @Override
   public String[] ampms() {
     return new String[] {
-        "пре подне",
+        "пре подне",
         "поподне"
     };
   }
@@ -81,13 +81,18 @@ public class DateTimeFormatInfoImpl_bs_Cyrl extends DateTimeFormatInfoImpl_bs {
   }
 
   @Override
-  public String formatMonthAbbrevDay() {
-    return "dd. MMM";
+  public String formatHour12Minute() {
+    return "h:mm a";
   }
 
   @Override
-  public String formatMonthFullDay() {
-    return "MMMM d";
+  public String formatHour12MinuteSecond() {
+    return "h:mm:ss a";
+  }
+
+  @Override
+  public String formatMonthAbbrevDay() {
+    return "dd. MMM";
   }
 
   @Override
@@ -107,7 +112,7 @@ public class DateTimeFormatInfoImpl_bs_Cyrl extends DateTimeFormatInfoImpl_bs {
 
   @Override
   public String formatYearMonthFull() {
-    return "y MMMM";
+    return "MMMM y.";
   }
 
   @Override

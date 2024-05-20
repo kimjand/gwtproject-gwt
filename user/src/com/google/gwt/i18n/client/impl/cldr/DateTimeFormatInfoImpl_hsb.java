@@ -24,8 +24,8 @@ public class DateTimeFormatInfoImpl_hsb extends DateTimeFormatInfoImpl {
   @Override
   public String[] ampms() {
     return new String[] {
-        "dopołdnja",
-        "popołdnju"
+        "dop.",
+        "pop."
     };
   }
 
@@ -66,6 +66,21 @@ public class DateTimeFormatInfoImpl_hsb extends DateTimeFormatInfoImpl {
   }
 
   @Override
+  public String formatDay() {
+    return "d.";
+  }
+
+  @Override
+  public String formatHour12Minute() {
+    return "h:mm a";
+  }
+
+  @Override
+  public String formatHour12MinuteSecond() {
+    return "h:mm:ss a";
+  }
+
+  @Override
   public String formatHour24Minute() {
     return "H:mm 'hodź'.";
   }
@@ -78,6 +93,11 @@ public class DateTimeFormatInfoImpl_hsb extends DateTimeFormatInfoImpl {
   @Override
   public String formatMonthAbbrevDay() {
     return "d. MMM";
+  }
+
+  @Override
+  public String formatMonthFullDay() {
+    return "d. MMMM";
   }
 
   @Override
@@ -98,6 +118,11 @@ public class DateTimeFormatInfoImpl_hsb extends DateTimeFormatInfoImpl {
   @Override
   public String formatYearMonthAbbrevDay() {
     return "d. MMM y";
+  }
+
+  @Override
+  public String formatYearMonthFull() {
+    return "LLLL y";
   }
 
   @Override
@@ -227,6 +252,16 @@ public class DateTimeFormatInfoImpl_hsb extends DateTimeFormatInfoImpl {
         "2. kwartal",
         "3. kwartal",
         "4. kwartal"
+    };
+  }
+
+  @Override
+  public String[] quartersShort() {
+    return new String[] {
+        "kw1",
+        "kw2",
+        "kw3",
+        "kw4"
     };
   }
 

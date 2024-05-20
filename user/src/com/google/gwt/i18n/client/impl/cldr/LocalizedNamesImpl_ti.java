@@ -27,113 +27,102 @@ public class LocalizedNamesImpl_ti extends LocalizedNamesImpl {
   @Override
   public String[] loadSortedRegionCodes() {
     return new String[] {
-        "EU",
-        "EZ",
-        "UN",
-        "XA",
-        "XB",
         "HU",
         "HT",
         "IN",
         "HN",
-        "HK",
         "LU",
-        "LY",
         "LB",
+        "LY",
         "LT",
         "LI",
         "LV",
         "LA",
         "LR",
         "LS",
+        "UN",
         "AE",
-        "FM",
+        "MM",
+        "MY",
         "ML",
         "MW",
-        "MY",
         "MT",
         "MV",
-        "MU",
-        "MH",
         "MQ",
-        "CF",
-        "MK",
-        "MO",
-        "MM",
+        "MU",
+        "MR",
+        "FM",
+        "YT",
         "MG",
         "MX",
-        "YT",
-        "PS",
-        "TL",
         "EH",
         "MD",
-        "MR",
         "MA",
         "MC",
         "ME",
         "MS",
         "MN",
         "MZ",
+        "RO",
+        "RU",
+        "CF",
         "RW",
         "RE",
-        "RU",
-        "RO",
-        "SB",
+        "MP",
+        "MK",
         "KP",
         "RS",
-        "SO",
+        "SN",
         "SR",
-        "SZ",
         "SD",
-        "LK",
-        "SY",
         "SC",
         "SX",
         "SG",
-        "EA",
         "WS",
+        "CQ",
         "SM",
         "ST",
-        "CY",
         "SL",
-        "SN",
-        "SH",
-        "LC",
-        "MF",
+        "EA",
         "SK",
         "SI",
+        "LK",
         "SJ",
         "CH",
-        "SE",
         "SA",
         "ES",
-        "QA",
+        "SO",
+        "SY",
+        "SE",
+        "MF",
         "BL",
         "VC",
         "KN",
         "PM",
-        "BT",
+        "SH",
+        "LC",
+        "CY",
+        "QA",
+        "BZ",
+        "BM",
         "BG",
         "BF",
-        "GW",
+        "BT",
         "BS",
         "BH",
         "BB",
         "BD",
-        "BZ",
         "BY",
         "BE",
-        "BM",
         "BJ",
         "BN",
         "BI",
+        "GB",
+        "IO",
         "BR",
         "BO",
         "BW",
         "BA",
-        "VI",
-        "VG",
-        "VA",
         "VU",
         "VN",
         "VE",
@@ -141,6 +130,7 @@ public class LocalizedNamesImpl_ti extends LocalizedNamesImpl {
         "TM",
         "TV",
         "TN",
+        "TL",
         "TZ",
         "TH",
         "TW",
@@ -150,136 +140,147 @@ public class LocalizedNamesImpl_ti extends LocalizedNamesImpl {
         "TO",
         "TK",
         "TG",
+        "CZ",
         "CL",
         "CN",
-        "CZ",
-        "NU",
         "NI",
         "NC",
         "NZ",
+        "NU",
         "NE",
         "NA",
         "NR",
-        "IO",
-        "AS",
-        "UM",
+        "XA",
+        "XB",
         "NG",
-        "TF",
-        "GF",
-        "PF",
         "NL",
         "NP",
         "NO",
-        "NF",
+        "UY",
+        "UZ",
+        "UG",
+        "IR",
+        "ET",
+        "ID",
+        "GQ",
+        "IT",
         "AL",
         "DZ",
         "US",
+        "AS",
         "AW",
         "AM",
         "AR",
-        "AC",
+        "AG",
         "AQ",
         "AD",
-        "AI",
         "AO",
+        "AI",
         "AU",
         "AZ",
         "IE",
         "IM",
         "IS",
         "AF",
-        "UY",
-        "IQ",
-        "IR",
-        "ET",
-        "ID",
-        "GQ",
-        "EC",
-        "AG",
         "SV",
         "ER",
         "EE",
+        "SZ",
+        "EC",
+        "EU",
         "IL",
-        "GB",
-        "OM",
         "AT",
+        "VA",
         "CW",
         "CU",
+        "KW",
         "KI",
         "KG",
         "CM",
         "KH",
         "BQ",
+        "UM",
+        "QO",
         "CA",
         "KZ",
-        "KY",
         "KE",
         "CV",
-        "CP",
         "HR",
-        "KW",
         "CO",
         "KM",
         "CR",
         "XK",
         "CI",
-        "CD",
         "CG",
-        "CC",
-        "QO",
         "WF",
+        "IQ",
+        "OM",
         "ZW",
         "ZM",
+        "EZ",
         "YE",
         "UA",
-        "UZ",
-        "UG",
+        "JO",
+        "CD",
         "HM",
-        "MP",
-        "BV",
+        "MH",
+        "SB",
         "TC",
         "AX",
         "CK",
         "IC",
-        "CX",
+        "KY",
+        "CC",
         "GS",
+        "VG",
+        "VI",
         "FO",
         "FK",
+        "PN",
+        "BV",
+        "NF",
+        "AC",
+        "CP",
+        "CX",
         "SS",
         "ZA",
         "KR",
-        "DG",
         "DK",
-        "DO",
+        "DG",
         "DM",
+        "DO",
         "DE",
         "JE",
-        "DJ",
+        "GI",
         "JM",
         "JP",
-        "JO",
+        "DJ",
         "GE",
         "GG",
-        "GU",
-        "GT",
-        "GP",
         "GY",
-        "GI",
         "GN",
+        "GW",
         "GM",
         "GA",
         "GH",
+        "GD",
         "GL",
         "GR",
-        "GD",
         "EG",
-        "IT",
+        "PS",
+        "GU",
+        "GT",
+        "GP",
         "TD",
         "FR",
+        "GF",
+        "PF",
+        "TF",
         "PH",
         "FI",
         "FJ",
-        "PN",
+        "HK",
+        "MO",
         "PW",
         "PY",
         "PA",
@@ -296,285 +297,300 @@ public class LocalizedNamesImpl_ti extends LocalizedNamesImpl {
   protected void loadNameMapJava() {
     super.loadNameMapJava();
     namesMap.put("001", "ዓለም");
-    namesMap.put("002", "አፍሪካ");
-    namesMap.put("005", "ደቡባዊ አሜሪካ");
-    namesMap.put("009", "ኦሽኒያ");
-    namesMap.put("011", "ምዕራባዊ አፍሪካ");
-    namesMap.put("014", "ምስራቃዊ አፍሪካ");
-    namesMap.put("015", "ሰሜናዊ አፍሪካ");
-    namesMap.put("017", "መካከለኛ አፍሪካ");
-    namesMap.put("018", "ደቡባዊ አፍሪካ");
-    namesMap.put("019", "አሜሪካዎች");
-    namesMap.put("021", "ሰሜናዊ አሜሪካ");
-    namesMap.put("029", "ካሪቢያን");
-    namesMap.put("034", "ምሥራቃዊ እስያ");
-    namesMap.put("039", "ደቡባዊ አውሮፓ");
-    namesMap.put("053", "አውስትራሊያ እና ኒው ዚላንድ");
-    namesMap.put("054", "ሜላኔሲያ");
-    namesMap.put("061", "ፖሊኔዢያ");
-    namesMap.put("142", "እስያ");
-    namesMap.put("145", "ምዕራባዊ እስያ");
-    namesMap.put("150", "አውሮፓ");
-    namesMap.put("151", "ምስራቃዊ አውሮፓ");
-    namesMap.put("154", "ሰሜናዊ አውሮፓ");
-    namesMap.put("155", "ምዕራባዊ አውሮፓ");
-    namesMap.put("AC", "አሴንሽን ደሴት");
-    namesMap.put("AD", "አንዶራ");
+    namesMap.put("002", "ኣፍሪቃ");
+    namesMap.put("003", "ሰሜን ኣመሪካ");
+    namesMap.put("005", "ደቡብ ኣመሪካ");
+    namesMap.put("009", "ኦሽያንያ");
+    namesMap.put("011", "ምዕራባዊ ኣፍሪቃ");
+    namesMap.put("013", "ማእከላይ ኣመሪካ");
+    namesMap.put("014", "ምብራቓዊ ኣፍሪቃ");
+    namesMap.put("015", "ሰሜናዊ ኣፍሪቃ");
+    namesMap.put("017", "ማእከላይ ኣፍሪቃ");
+    namesMap.put("018", "ደቡባዊ ኣፍሪቃ");
+    namesMap.put("019", "ኣመሪካታት");
+    namesMap.put("021", "ሰሜናዊ ኣመሪካ");
+    namesMap.put("029", "ካሪብያን");
+    namesMap.put("030", "ምብራቓዊ ኤስያ");
+    namesMap.put("034", "ደቡባዊ ኤስያ");
+    namesMap.put("035", "ደቡባዊ ምብራቕ ኤስያ");
+    namesMap.put("039", "ደቡባዊ ኤውሮጳ");
+    namesMap.put("053", "ኣውስትራሌዥያ");
+    namesMap.put("054", "መላነዥያ");
+    namesMap.put("057", "ዞባ ማይክሮነዥያ");
+    namesMap.put("061", "ፖሊነዥያ");
+    namesMap.put("142", "ኤስያ");
+    namesMap.put("143", "ማእከላይ ኤስያ");
+    namesMap.put("145", "ምዕራባዊ ኤስያ");
+    namesMap.put("150", "ኤውሮጳ");
+    namesMap.put("151", "ምብራቓዊ ኤውሮጳ");
+    namesMap.put("154", "ሰሜናዊ ኤውሮጳ");
+    namesMap.put("155", "ምዕራባዊ ኤውሮጳ");
+    namesMap.put("202", "ንኡስ ሰሃራዊ ኣፍሪቃ");
+    namesMap.put("419", "ላቲን ኣመሪካ");
+    namesMap.put("AC", "ደሴት ኣሰንስዮን");
+    namesMap.put("AD", "ኣንዶራ");
     namesMap.put("AE", "ሕቡራት ኢማራት ዓረብ");
-    namesMap.put("AF", "አፍጋኒስታን");
-    namesMap.put("AG", "ኣንቲጓን ባሩዳን");
-    namesMap.put("AI", "አንጉኢላ");
-    namesMap.put("AL", "አልባኒያ");
-    namesMap.put("AM", "አርሜኒያ");
-    namesMap.put("AO", "አንጐላ");
-    namesMap.put("AQ", "አንታርክቲካ");
-    namesMap.put("AR", "አርጀንቲና");
-    namesMap.put("AS", "ናይ ኣሜሪካ ሳሞኣ");
-    namesMap.put("AT", "ኦስትሪያ");
-    namesMap.put("AU", "አውስትሬሊያ");
-    namesMap.put("AW", "አሩባ");
+    namesMap.put("AF", "ኣፍጋኒስታን");
+    namesMap.put("AG", "ኣንቲጓን ባርቡዳን");
+    namesMap.put("AI", "ኣንጒላ");
+    namesMap.put("AL", "ኣልባንያ");
+    namesMap.put("AM", "ኣርሜንያ");
+    namesMap.put("AO", "ኣንጎላ");
+    namesMap.put("AQ", "ኣንታርክቲካ");
+    namesMap.put("AR", "ኣርጀንቲና");
+    namesMap.put("AS", "ኣመሪካዊት ሳሞኣ");
+    namesMap.put("AT", "ኦስትርያ");
+    namesMap.put("AU", "ኣውስትራልያ");
+    namesMap.put("AW", "ኣሩባ");
     namesMap.put("AX", "ደሴታት ኣላንድ");
-    namesMap.put("AZ", "አዘርባጃን");
+    namesMap.put("AZ", "ኣዘርባጃን");
     namesMap.put("BA", "ቦዝንያን ሄርዘጎቪናን");
-    namesMap.put("BB", "ባርቤዶስ");
-    namesMap.put("BD", "ባንግላዲሽ");
-    namesMap.put("BE", "ቤልጄም");
+    namesMap.put("BB", "ባርባዶስ");
+    namesMap.put("BD", "ባንግላደሽ");
+    namesMap.put("BE", "ቤልጅዩም");
     namesMap.put("BF", "ቡርኪና ፋሶ");
-    namesMap.put("BG", "ቡልጌሪያ");
-    namesMap.put("BH", "ባህሬን");
+    namesMap.put("BG", "ቡልጋርያ");
+    namesMap.put("BH", "ባሕሬን");
     namesMap.put("BI", "ብሩንዲ");
     namesMap.put("BJ", "ቤኒን");
-    namesMap.put("BL", "ቅዱስ ባርተለሚይ");
-    namesMap.put("BM", "ቤርሙዳ");
-    namesMap.put("BN", "ብሩኒ");
-    namesMap.put("BO", "ቦሊቪያ");
-    namesMap.put("BQ", "ካሪቢያን ኔዘርላንድስ");
+    namesMap.put("BL", "ቅዱስ ባርተለሚ");
+    namesMap.put("BM", "በርሙዳ");
+    namesMap.put("BN", "ብሩነይ");
+    namesMap.put("BO", "ቦሊቭያ");
+    namesMap.put("BQ", "ካሪብያን ኔዘርላንድ");
     namesMap.put("BR", "ብራዚል");
     namesMap.put("BS", "ባሃማስ");
-    namesMap.put("BT", "ቡህታን");
-    namesMap.put("BV", "ደሴታት ቦውቬት");
+    namesMap.put("BT", "ቡታን");
+    namesMap.put("BV", "ደሴት ቡቨት");
     namesMap.put("BW", "ቦትስዋና");
     namesMap.put("BY", "ቤላሩስ");
-    namesMap.put("BZ", "ቤሊዘ");
+    namesMap.put("BZ", "በሊዝ");
     namesMap.put("CA", "ካናዳ");
-    namesMap.put("CC", "ኮኮስ ኬሊንግ ደሴቶች");
-    namesMap.put("CD", "ኮንጎ");
-    namesMap.put("CF", "ማእከላይ ኣፍሪቃ ሪፓብሊክ");
-    namesMap.put("CG", "ኮንጎ ሪፓብሊክ");
+    namesMap.put("CC", "ደሴታት ኮኮስ");
+    namesMap.put("CD", "ደሞክራስያዊት ሪፓብሊክ ኮንጎ");
+    namesMap.put("CF", "ሪፓብሊክ ማእከላይ ኣፍሪቃ");
+    namesMap.put("CG", "ኮንጎ");
     namesMap.put("CH", "ስዊዘርላንድ");
-    namesMap.put("CI", "ኮት ዲቯር");
+    namesMap.put("CI", "ኮት ዲቭዋር");
     namesMap.put("CK", "ደሴታት ኩክ");
-    namesMap.put("CL", "ቺሊ");
+    namesMap.put("CL", "ቺሌ");
     namesMap.put("CM", "ካሜሩን");
     namesMap.put("CN", "ቻይና");
-    namesMap.put("CO", "ኮሎምቢያ");
-    namesMap.put("CP", "ክሊፐርቶን ደሴት");
+    namesMap.put("CO", "ኮሎምብያ");
+    namesMap.put("CP", "ደሴት ክሊፐርቶን");
+    namesMap.put("CQ", "ሳርክ");
     namesMap.put("CR", "ኮስታ ሪካ");
     namesMap.put("CU", "ኩባ");
-    namesMap.put("CV", "ኬፕ ቬርዴ");
-    namesMap.put("CW", "ኩራካዎ");
-    namesMap.put("CX", "ደሴታት ክሪስትማስ");
-    namesMap.put("CY", "ሳይፕረስ");
-    namesMap.put("CZ", "ቼክ ሪፓብሊክ");
+    namesMap.put("CV", "ኬፕ ቨርደ");
+    namesMap.put("CW", "ኩራሳው");
+    namesMap.put("CX", "ደሴት ክሪስማስ");
+    namesMap.put("CY", "ቆጵሮስ");
+    namesMap.put("CZ", "ቸክያ");
     namesMap.put("DE", "ጀርመን");
-    namesMap.put("DG", "ዲየጎ ጋርሺያ");
-    namesMap.put("DJ", "ጂቡቲ");
-    namesMap.put("DK", "ዴንማርክ");
+    namesMap.put("DG", "ድየጎ ጋርስያ");
+    namesMap.put("DJ", "ጅቡቲ");
+    namesMap.put("DK", "ደንማርክ");
     namesMap.put("DM", "ዶሚኒካ");
-    namesMap.put("DO", "ዶመኒካ ሪፓብሊክ");
-    namesMap.put("DZ", "አልጄሪያ");
-    namesMap.put("EA", "ሲውታን ሜሊላን");
-    namesMap.put("EC", "ኢኳዶር");
-    namesMap.put("EE", "ኤስቶኒያ");
-    namesMap.put("EG", "ግብጽ");
-    namesMap.put("EH", "ምዕራባዊ ሳህራ");
+    namesMap.put("DO", "ዶሚኒካዊት ሪፓብሊክ");
+    namesMap.put("DZ", "ኣልጀርያ");
+    namesMap.put("EA", "ሴውታን መሊላን");
+    namesMap.put("EC", "ኤኳዶር");
+    namesMap.put("EE", "ኤስቶንያ");
+    namesMap.put("EG", "ግብጺ");
+    namesMap.put("EH", "ምዕራባዊ ሰሃራ");
     namesMap.put("ER", "ኤርትራ");
-    namesMap.put("ES", "ስፔን");
+    namesMap.put("ES", "ስጳኛ");
     namesMap.put("ET", "ኢትዮጵያ");
+    namesMap.put("EU", "ኤውሮጳዊ ሕብረት");
+    namesMap.put("EZ", "ዞባ ዩሮ");
     namesMap.put("FI", "ፊንላንድ");
     namesMap.put("FJ", "ፊጂ");
     namesMap.put("FK", "ደሴታት ፎክላንድ");
-    namesMap.put("FM", "ሚክሮኔዢያ");
-    namesMap.put("FO", "ደሴታት ፋራኦ");
-    namesMap.put("FR", "ፈረንሳይ");
+    namesMap.put("FM", "ማይክሮነዥያ");
+    namesMap.put("FO", "ደሴታት ፋሮ");
+    namesMap.put("FR", "ፈረንሳ");
     namesMap.put("GA", "ጋቦን");
-    namesMap.put("GB", "እንግሊዝ");
-    namesMap.put("GD", "ግሬናዳ");
-    namesMap.put("GE", "ጆርጂያ");
-    namesMap.put("GF", "ናይ ፈረንሳይ ጉይና");
-    namesMap.put("GG", "ገርንሲ");
+    namesMap.put("GB", "ብሪጣንያ");
+    namesMap.put("GD", "ግረናዳ");
+    namesMap.put("GE", "ጆርጅያ");
+    namesMap.put("GF", "ፈረንሳዊት ጊያና");
+    namesMap.put("GG", "ገርንዚ");
     namesMap.put("GH", "ጋና");
-    namesMap.put("GI", "ጊብራልታር");
+    namesMap.put("GI", "ጂብራልታር");
     namesMap.put("GL", "ግሪንላንድ");
-    namesMap.put("GM", "ጋምቢያ");
+    namesMap.put("GM", "ጋምብያ");
     namesMap.put("GN", "ጊኒ");
-    namesMap.put("GP", "ጉዋደሉፕ");
-    namesMap.put("GQ", "ኢኳቶሪያል ጊኒ");
-    namesMap.put("GR", "ግሪክ");
-    namesMap.put("GS", "ደሴታት ደቡብ ጆርጂያን ደቡድ ሳንድዊችን");
-    namesMap.put("GT", "ጉዋቲማላ");
-    namesMap.put("GU", "ጉዋም");
-    namesMap.put("GW", "ቢሳዎ");
+    namesMap.put("GP", "ጓደሉፕ");
+    namesMap.put("GQ", "ኢኳቶርያል ጊኒ");
+    namesMap.put("GR", "ግሪኽ");
+    namesMap.put("GS", "ደሴታት ደቡብ ጆርጅያን ደቡብ ሳንድዊችን");
+    namesMap.put("GT", "ጓቲማላ");
+    namesMap.put("GU", "ጓም");
+    namesMap.put("GW", "ጊኒ-ቢሳው");
     namesMap.put("GY", "ጉያና");
-    namesMap.put("HK", "ሆንግ ኮንግ");
-    namesMap.put("HM", "ደሴታት ሀርድን ማክዶናልድን");
+    namesMap.put("HK", "ፍሉይ ምምሕዳራዊ ዞባ ሆንግ ኮንግ (ቻይና)");
+    namesMap.put("HM", "ደሴታት ሄርድን ማክዶናልድን");
     namesMap.put("HN", "ሆንዱራስ");
     namesMap.put("HR", "ክሮኤሽያ");
-    namesMap.put("HT", "ሀይቲ");
-    namesMap.put("HU", "ሀንጋሪ");
+    namesMap.put("HT", "ሃይቲ");
+    namesMap.put("HU", "ሃንጋሪ");
     namesMap.put("IC", "ደሴታት ካናሪ");
-    namesMap.put("ID", "ኢንዶኔዢያ");
-    namesMap.put("IE", "አየርላንድ");
+    namesMap.put("ID", "ኢንዶነዥያ");
+    namesMap.put("IE", "ኣየርላንድ");
     namesMap.put("IL", "እስራኤል");
-    namesMap.put("IM", "አይል ኦፍ ማን");
+    namesMap.put("IM", "ኣይል ኦፍ ማን");
     namesMap.put("IN", "ህንዲ");
-    namesMap.put("IO", "ናይ ብሪጣንያ ህንዳዊ ውቅያኖስ ግዝኣት");
-    namesMap.put("IQ", "ኢራቅ");
+    namesMap.put("IO", "ብሪጣንያዊ ህንዳዊ ውቅያኖስ ግዝኣት");
+    namesMap.put("IQ", "ዒራቕ");
     namesMap.put("IR", "ኢራን");
-    namesMap.put("IS", "አይስላንድ");
-    namesMap.put("IT", "ጣሊያን");
-    namesMap.put("JE", "ጀርሲ");
+    namesMap.put("IS", "ኣይስላንድ");
+    namesMap.put("IT", "ኢጣልያ");
+    namesMap.put("JE", "ጀርዚ");
     namesMap.put("JM", "ጃማይካ");
-    namesMap.put("JO", "ጆርዳን");
+    namesMap.put("JO", "ዮርዳኖስ");
     namesMap.put("JP", "ጃፓን");
     namesMap.put("KE", "ኬንያ");
-    namesMap.put("KG", "ኪርጂስታን");
-    namesMap.put("KH", "ካምቦዲያ");
+    namesMap.put("KG", "ኪርጊዝስታን");
+    namesMap.put("KH", "ካምቦድያ");
     namesMap.put("KI", "ኪሪባቲ");
     namesMap.put("KM", "ኮሞሮስ");
     namesMap.put("KN", "ቅዱስ ኪትስን ኔቪስን");
-    namesMap.put("KP", "ሰሜን ኮሪያ");
-    namesMap.put("KR", "ደቡብ ኮሪያ");
-    namesMap.put("KW", "ክዌት");
-    namesMap.put("KY", "ካይማን ደሴቶች");
+    namesMap.put("KP", "ሰሜን ኮርያ");
+    namesMap.put("KR", "ደቡብ ኮርያ");
+    namesMap.put("KW", "ኩዌት");
+    namesMap.put("KY", "ደሴታት ካይማን");
     namesMap.put("KZ", "ካዛኪስታን");
     namesMap.put("LA", "ላኦስ");
     namesMap.put("LB", "ሊባኖስ");
-    namesMap.put("LC", "ሴንት ሉቺያ");
-    namesMap.put("LI", "ሊችተንስታይን");
-    namesMap.put("LK", "ሲሪላንካ");
-    namesMap.put("LR", "ላይቤሪያ");
+    namesMap.put("LC", "ቅድስቲ ሉስያ");
+    namesMap.put("LI", "ሊኽተንሽታይን");
+    namesMap.put("LK", "ስሪ ላንካ");
+    namesMap.put("LR", "ላይበርያ");
     namesMap.put("LS", "ሌሶቶ");
-    namesMap.put("LT", "ሊቱዌኒያ");
+    namesMap.put("LT", "ሊትዌንያ");
     namesMap.put("LU", "ሉክሰምበርግ");
-    namesMap.put("LV", "ላትቪያ");
-    namesMap.put("LY", "ሊቢያ");
+    namesMap.put("LV", "ላትቭያ");
+    namesMap.put("LY", "ሊብያ");
     namesMap.put("MA", "ሞሮኮ");
     namesMap.put("MC", "ሞናኮ");
     namesMap.put("MD", "ሞልዶቫ");
-    namesMap.put("ME", "ሞንቴኔግሮ");
-    namesMap.put("MF", "ሴንት ማርቲን");
+    namesMap.put("ME", "ሞንተኔግሮ");
+    namesMap.put("MF", "ቅዱስ ማርቲን");
     namesMap.put("MG", "ማዳጋስካር");
-    namesMap.put("MH", "ማርሻል አይላንድ");
-    namesMap.put("MK", "ማከዶኒያ");
+    namesMap.put("MH", "ደሴታት ማርሻል");
+    namesMap.put("MK", "ሰሜን መቄዶንያ");
     namesMap.put("ML", "ማሊ");
-    namesMap.put("MM", "ማያንማር");
-    namesMap.put("MN", "ሞንጎሊያ");
-    namesMap.put("MO", "ማካዎ");
-    namesMap.put("MP", "ደሴታት ሰሜናዊ ማሪያና");
+    namesMap.put("MM", "ሚያንማር (በርማ)");
+    namesMap.put("MN", "ሞንጎልያ");
+    namesMap.put("MO", "ፍሉይ ምምሕዳራዊ ዞባ ማካው (ቻይና)");
+    namesMap.put("MP", "ሰሜናዊ ደሴታት ማርያና");
     namesMap.put("MQ", "ማርቲኒክ");
-    namesMap.put("MR", "ሞሪቴኒያ");
-    namesMap.put("MS", "ሞንትሴራት");
+    namesMap.put("MR", "ማውሪታንያ");
+    namesMap.put("MS", "ሞንትሰራት");
     namesMap.put("MT", "ማልታ");
-    namesMap.put("MU", "ማሩሸስ");
+    namesMap.put("MU", "ማውሪሸስ");
     namesMap.put("MV", "ማልዲቭስ");
     namesMap.put("MW", "ማላዊ");
     namesMap.put("MX", "ሜክሲኮ");
-    namesMap.put("MY", "ማሌዢያ");
+    namesMap.put("MY", "ማለዥያ");
     namesMap.put("MZ", "ሞዛምቢክ");
-    namesMap.put("NA", "ናሚቢያ");
-    namesMap.put("NC", "ኒው ካሌዶኒያ");
+    namesMap.put("NA", "ናሚብያ");
+    namesMap.put("NC", "ኒው ካለዶንያ");
     namesMap.put("NE", "ኒጀር");
-    namesMap.put("NF", "ኖርፎልክ ደሴት");
-    namesMap.put("NG", "ናይጄሪያ");
+    namesMap.put("NF", "ደሴት ኖርፎልክ");
+    namesMap.put("NG", "ናይጀርያ");
     namesMap.put("NI", "ኒካራጓ");
-    namesMap.put("NL", "ኔዘርላንድስ");
-    namesMap.put("NO", "ኖርዌ");
+    namesMap.put("NL", "ኔዘርላንድ");
+    namesMap.put("NO", "ኖርወይ");
     namesMap.put("NP", "ኔፓል");
-    namesMap.put("NR", "ናኡሩ");
-    namesMap.put("NU", "ኒኡይ");
+    namesMap.put("NR", "ናውሩ");
+    namesMap.put("NU", "ኒዩ");
     namesMap.put("NZ", "ኒው ዚላንድ");
-    namesMap.put("OM", "ኦማን");
+    namesMap.put("OM", "ዖማን");
     namesMap.put("PA", "ፓናማ");
     namesMap.put("PE", "ፔሩ");
-    namesMap.put("PF", "ናይ ፈረንሳይ ፖሊነዝያ");
-    namesMap.put("PG", "ፓፑዋ ኒው ጊኒ");
+    namesMap.put("PF", "ፈረንሳዊት ፖሊነዥያ");
+    namesMap.put("PG", "ፓፕዋ ኒው ጊኒ");
     namesMap.put("PH", "ፊሊፒንስ");
     namesMap.put("PK", "ፓኪስታን");
     namesMap.put("PL", "ፖላንድ");
-    namesMap.put("PM", "ቅዱስ ፒዬርን ሚኩኤሎን");
-    namesMap.put("PN", "ፒትካኢርን");
-    namesMap.put("PR", "ፖርታ ሪኮ");
-    namesMap.put("PS", "ምምሕዳር ፍልስጤም");
+    namesMap.put("PM", "ቅዱስ ፕየርን ሚከሎንን");
+    namesMap.put("PN", "ደሴታት ፒትካርን");
+    namesMap.put("PR", "ፖርቶ ሪኮ");
+    namesMap.put("PS", "ግዝኣታት ፍልስጤም");
     namesMap.put("PT", "ፖርቱጋል");
     namesMap.put("PW", "ፓላው");
     namesMap.put("PY", "ፓራጓይ");
-    namesMap.put("QA", "ቀጠር");
-    namesMap.put("QO", "ወጣ ያለ ኦሽኒያ");
-    namesMap.put("RE", "ሪዩኒየን");
-    namesMap.put("RO", "ሮሜኒያ");
-    namesMap.put("RS", "ሰርቢያ");
-    namesMap.put("RU", "ራሺያ");
-    namesMap.put("RW", "ሩዋንዳ");
+    namesMap.put("QA", "ቐጠር");
+    namesMap.put("QO", "ካብ ኦሽያንያ ርሒቖም ግዝኣታት");
+    namesMap.put("RE", "ርዩንየን");
+    namesMap.put("RO", "ሩማንያ");
+    namesMap.put("RS", "ሰርብያ");
+    namesMap.put("RU", "ሩስያ");
+    namesMap.put("RW", "ርዋንዳ");
     namesMap.put("SA", "ስዑዲ ዓረብ");
-    namesMap.put("SB", "ሰሎሞን ደሴት");
-    namesMap.put("SC", "ሲሼልስ");
+    namesMap.put("SB", "ደሴታት ሰሎሞን");
+    namesMap.put("SC", "ሲሸልስ");
     namesMap.put("SD", "ሱዳን");
-    namesMap.put("SE", "ስዊድን");
+    namesMap.put("SE", "ሽወደን");
     namesMap.put("SG", "ሲንጋፖር");
-    namesMap.put("SH", "ሴንት ሄለና");
-    namesMap.put("SI", "ስሎቬኒያ");
-    namesMap.put("SJ", "ስቫልባርድን ዣን ማየን ደሴታት");
-    namesMap.put("SK", "ስሎቫኪያ");
-    namesMap.put("SL", "ሴራሊዮን");
+    namesMap.put("SH", "ቅድስቲ ሄለና");
+    namesMap.put("SI", "ስሎቬንያ");
+    namesMap.put("SJ", "ስቫልባርድን ጃን ማየንን");
+    namesMap.put("SK", "ስሎቫክያ");
+    namesMap.put("SL", "ሴራ ልዮን");
     namesMap.put("SM", "ሳን ማሪኖ");
-    namesMap.put("SN", "ሴኔጋል");
-    namesMap.put("SO", "ሱማሌ");
+    namesMap.put("SN", "ሰነጋል");
+    namesMap.put("SO", "ሶማልያ");
     namesMap.put("SR", "ሱሪናም");
     namesMap.put("SS", "ደቡብ ሱዳን");
-    namesMap.put("ST", "ሳኦ ቶሜን ፕሪንሲፔን");
+    namesMap.put("ST", "ሳኦ ቶመን ፕሪንሲፐን");
     namesMap.put("SV", "ኤል ሳልቫዶር");
-    namesMap.put("SX", "ሲንት ማርቲን");
-    namesMap.put("SY", "ሲሪያ");
-    namesMap.put("SZ", "ሱዋዚላንድ");
-    namesMap.put("TA", "ትሪስን ዳ ኩንሃ");
-    namesMap.put("TC", "ደሴታት ቱርክን ካይኮስን");
+    namesMap.put("SX", "ሲንት ማርተን");
+    namesMap.put("SY", "ሶርያ");
+    namesMap.put("SZ", "ኤስዋቲኒ");
+    namesMap.put("TA", "ትሪስታን ዳ ኩንያ");
+    namesMap.put("TC", "ደሴታት ቱርካትን ካይኮስን");
     namesMap.put("TD", "ጫድ");
-    namesMap.put("TF", "ናይ ፈረንሳይ ደቡባዊ ግዝኣታት");
-    namesMap.put("TG", "ቶጐ");
+    namesMap.put("TF", "ፈረንሳዊ ደቡባዊ ግዝኣታት");
+    namesMap.put("TG", "ቶጎ");
     namesMap.put("TH", "ታይላንድ");
-    namesMap.put("TJ", "ታጃኪስታን");
-    namesMap.put("TK", "ቶክላው");
-    namesMap.put("TL", "ምብራቕ ቲሞር");
-    namesMap.put("TM", "ቱርክሜኒስታን");
-    namesMap.put("TN", "ቱኒዚያ");
+    namesMap.put("TJ", "ታጂኪስታን");
+    namesMap.put("TK", "ቶከላው");
+    namesMap.put("TL", "ቲሞር-ለስተ");
+    namesMap.put("TM", "ቱርክመኒስታን");
+    namesMap.put("TN", "ቱኒዝያ");
     namesMap.put("TO", "ቶንጋ");
-    namesMap.put("TR", "ቱርክ");
+    namesMap.put("TR", "ቱርኪ");
     namesMap.put("TT", "ትሪኒዳድን ቶባጎን");
     namesMap.put("TV", "ቱቫሉ");
     namesMap.put("TW", "ታይዋን");
-    namesMap.put("TZ", "ታንዛኒያ");
+    namesMap.put("TZ", "ታንዛንያ");
     namesMap.put("UA", "ዩክሬን");
-    namesMap.put("UG", "ዩጋንዳ");
-    namesMap.put("UM", "ናይ ኣሜሪካ ፍንትት ዝበሉ ደሴታት");
-    namesMap.put("US", "አሜሪካ");
+    namesMap.put("UG", "ኡጋንዳ");
+    namesMap.put("UM", "ካብ ኣመሪካ ርሒቐን ንኣሽቱ ደሴታት");
+    namesMap.put("UN", "ሕቡራት ሃገራት");
+    namesMap.put("US", "ኣመሪካ");
     namesMap.put("UY", "ኡራጓይ");
-    namesMap.put("UZ", "ዩዝበኪስታን");
-    namesMap.put("VA", "ቫቲካን");
-    namesMap.put("VC", "ቅዱስ ቪንሴንትን ግሬናዲንስን");
-    namesMap.put("VE", "ቬንዙዌላ");
-    namesMap.put("VG", "ቨርጂን ደሴታት እንግሊዝ");
-    namesMap.put("VI", "ቨርጂን ደሴታት ኣሜሪካ");
+    namesMap.put("UZ", "ኡዝበኪስታን");
+    namesMap.put("VA", "ከተማ ቫቲካን");
+    namesMap.put("VC", "ቅዱስ ቪንሰንትን ግረነዲነዝን");
+    namesMap.put("VE", "ቬኔዝዌላ");
+    namesMap.put("VG", "ደሴታት ደናግል ብሪጣንያ");
+    namesMap.put("VI", "ደሴታት ደናግል ኣመሪካ");
     namesMap.put("VN", "ቬትናም");
-    namesMap.put("VU", "ቫኑአቱ");
+    namesMap.put("VU", "ቫንዋቱ");
     namesMap.put("WF", "ዋሊስን ፉቱናን");
-    namesMap.put("WS", "ሳሞአ");
+    namesMap.put("WS", "ሳሞኣ");
+    namesMap.put("XA", "ናይ ሓሶት ላህጃታት");
+    namesMap.put("XB", "ናይ ሓሶት ክልተ ኣንፈታዊ");
     namesMap.put("XK", "ኮሶቮ");
     namesMap.put("YE", "የመን");
-    namesMap.put("YT", "ሜይኦቴ");
-    namesMap.put("ZA", "ደቡብ አፍሪካ");
-    namesMap.put("ZM", "ዛምቢያ");
-    namesMap.put("ZW", "ዚምቧቤ");
+    namesMap.put("YT", "ማዮት");
+    namesMap.put("ZA", "ደቡብ ኣፍሪቃ");
+    namesMap.put("ZM", "ዛምብያ");
+    namesMap.put("ZW", "ዚምባብዌ");
+    namesMap.put("ZZ", "ዘይተፈልጠ ዞባ");
   }
 
   @Override
@@ -585,285 +601,300 @@ public class LocalizedNamesImpl_ti extends LocalizedNamesImpl {
   private native JavaScriptObject loadMyNameMap() /*-{
     return {
         "001": "ዓለም",
-        "002": "አፍሪካ",
-        "005": "ደቡባዊ አሜሪካ",
-        "009": "ኦሽኒያ",
-        "011": "ምዕራባዊ አፍሪካ",
-        "014": "ምስራቃዊ አፍሪካ",
-        "015": "ሰሜናዊ አፍሪካ",
-        "017": "መካከለኛ አፍሪካ",
-        "018": "ደቡባዊ አፍሪካ",
-        "019": "አሜሪካዎች",
-        "021": "ሰሜናዊ አሜሪካ",
-        "029": "ካሪቢያን",
-        "034": "ምሥራቃዊ እስያ",
-        "039": "ደቡባዊ አውሮፓ",
-        "053": "አውስትራሊያ እና ኒው ዚላንድ",
-        "054": "ሜላኔሲያ",
-        "061": "ፖሊኔዢያ",
-        "142": "እስያ",
-        "145": "ምዕራባዊ እስያ",
-        "150": "አውሮፓ",
-        "151": "ምስራቃዊ አውሮፓ",
-        "154": "ሰሜናዊ አውሮፓ",
-        "155": "ምዕራባዊ አውሮፓ",
-        "AC": "አሴንሽን ደሴት",
-        "AD": "አንዶራ",
+        "002": "ኣፍሪቃ",
+        "003": "ሰሜን ኣመሪካ",
+        "005": "ደቡብ ኣመሪካ",
+        "009": "ኦሽያንያ",
+        "011": "ምዕራባዊ ኣፍሪቃ",
+        "013": "ማእከላይ ኣመሪካ",
+        "014": "ምብራቓዊ ኣፍሪቃ",
+        "015": "ሰሜናዊ ኣፍሪቃ",
+        "017": "ማእከላይ ኣፍሪቃ",
+        "018": "ደቡባዊ ኣፍሪቃ",
+        "019": "ኣመሪካታት",
+        "021": "ሰሜናዊ ኣመሪካ",
+        "029": "ካሪብያን",
+        "030": "ምብራቓዊ ኤስያ",
+        "034": "ደቡባዊ ኤስያ",
+        "035": "ደቡባዊ ምብራቕ ኤስያ",
+        "039": "ደቡባዊ ኤውሮጳ",
+        "053": "ኣውስትራሌዥያ",
+        "054": "መላነዥያ",
+        "057": "ዞባ ማይክሮነዥያ",
+        "061": "ፖሊነዥያ",
+        "142": "ኤስያ",
+        "143": "ማእከላይ ኤስያ",
+        "145": "ምዕራባዊ ኤስያ",
+        "150": "ኤውሮጳ",
+        "151": "ምብራቓዊ ኤውሮጳ",
+        "154": "ሰሜናዊ ኤውሮጳ",
+        "155": "ምዕራባዊ ኤውሮጳ",
+        "202": "ንኡስ ሰሃራዊ ኣፍሪቃ",
+        "419": "ላቲን ኣመሪካ",
+        "AC": "ደሴት ኣሰንስዮን",
+        "AD": "ኣንዶራ",
         "AE": "ሕቡራት ኢማራት ዓረብ",
-        "AF": "አፍጋኒስታን",
-        "AG": "ኣንቲጓን ባሩዳን",
-        "AI": "አንጉኢላ",
-        "AL": "አልባኒያ",
-        "AM": "አርሜኒያ",
-        "AO": "አንጐላ",
-        "AQ": "አንታርክቲካ",
-        "AR": "አርጀንቲና",
-        "AS": "ናይ ኣሜሪካ ሳሞኣ",
-        "AT": "ኦስትሪያ",
-        "AU": "አውስትሬሊያ",
-        "AW": "አሩባ",
+        "AF": "ኣፍጋኒስታን",
+        "AG": "ኣንቲጓን ባርቡዳን",
+        "AI": "ኣንጒላ",
+        "AL": "ኣልባንያ",
+        "AM": "ኣርሜንያ",
+        "AO": "ኣንጎላ",
+        "AQ": "ኣንታርክቲካ",
+        "AR": "ኣርጀንቲና",
+        "AS": "ኣመሪካዊት ሳሞኣ",
+        "AT": "ኦስትርያ",
+        "AU": "ኣውስትራልያ",
+        "AW": "ኣሩባ",
         "AX": "ደሴታት ኣላንድ",
-        "AZ": "አዘርባጃን",
+        "AZ": "ኣዘርባጃን",
         "BA": "ቦዝንያን ሄርዘጎቪናን",
-        "BB": "ባርቤዶስ",
-        "BD": "ባንግላዲሽ",
-        "BE": "ቤልጄም",
+        "BB": "ባርባዶስ",
+        "BD": "ባንግላደሽ",
+        "BE": "ቤልጅዩም",
         "BF": "ቡርኪና ፋሶ",
-        "BG": "ቡልጌሪያ",
-        "BH": "ባህሬን",
+        "BG": "ቡልጋርያ",
+        "BH": "ባሕሬን",
         "BI": "ብሩንዲ",
         "BJ": "ቤኒን",
-        "BL": "ቅዱስ ባርተለሚይ",
-        "BM": "ቤርሙዳ",
-        "BN": "ብሩኒ",
-        "BO": "ቦሊቪያ",
-        "BQ": "ካሪቢያን ኔዘርላንድስ",
+        "BL": "ቅዱስ ባርተለሚ",
+        "BM": "በርሙዳ",
+        "BN": "ብሩነይ",
+        "BO": "ቦሊቭያ",
+        "BQ": "ካሪብያን ኔዘርላንድ",
         "BR": "ብራዚል",
         "BS": "ባሃማስ",
-        "BT": "ቡህታን",
-        "BV": "ደሴታት ቦውቬት",
+        "BT": "ቡታን",
+        "BV": "ደሴት ቡቨት",
         "BW": "ቦትስዋና",
         "BY": "ቤላሩስ",
-        "BZ": "ቤሊዘ",
+        "BZ": "በሊዝ",
         "CA": "ካናዳ",
-        "CC": "ኮኮስ ኬሊንግ ደሴቶች",
-        "CD": "ኮንጎ",
-        "CF": "ማእከላይ ኣፍሪቃ ሪፓብሊክ",
-        "CG": "ኮንጎ ሪፓብሊክ",
+        "CC": "ደሴታት ኮኮስ",
+        "CD": "ደሞክራስያዊት ሪፓብሊክ ኮንጎ",
+        "CF": "ሪፓብሊክ ማእከላይ ኣፍሪቃ",
+        "CG": "ኮንጎ",
         "CH": "ስዊዘርላንድ",
-        "CI": "ኮት ዲቯር",
+        "CI": "ኮት ዲቭዋር",
         "CK": "ደሴታት ኩክ",
-        "CL": "ቺሊ",
+        "CL": "ቺሌ",
         "CM": "ካሜሩን",
         "CN": "ቻይና",
-        "CO": "ኮሎምቢያ",
-        "CP": "ክሊፐርቶን ደሴት",
+        "CO": "ኮሎምብያ",
+        "CP": "ደሴት ክሊፐርቶን",
+        "CQ": "ሳርክ",
         "CR": "ኮስታ ሪካ",
         "CU": "ኩባ",
-        "CV": "ኬፕ ቬርዴ",
-        "CW": "ኩራካዎ",
-        "CX": "ደሴታት ክሪስትማስ",
-        "CY": "ሳይፕረስ",
-        "CZ": "ቼክ ሪፓብሊክ",
+        "CV": "ኬፕ ቨርደ",
+        "CW": "ኩራሳው",
+        "CX": "ደሴት ክሪስማስ",
+        "CY": "ቆጵሮስ",
+        "CZ": "ቸክያ",
         "DE": "ጀርመን",
-        "DG": "ዲየጎ ጋርሺያ",
-        "DJ": "ጂቡቲ",
-        "DK": "ዴንማርክ",
+        "DG": "ድየጎ ጋርስያ",
+        "DJ": "ጅቡቲ",
+        "DK": "ደንማርክ",
         "DM": "ዶሚኒካ",
-        "DO": "ዶመኒካ ሪፓብሊክ",
-        "DZ": "አልጄሪያ",
-        "EA": "ሲውታን ሜሊላን",
-        "EC": "ኢኳዶር",
-        "EE": "ኤስቶኒያ",
-        "EG": "ግብጽ",
-        "EH": "ምዕራባዊ ሳህራ",
+        "DO": "ዶሚኒካዊት ሪፓብሊክ",
+        "DZ": "ኣልጀርያ",
+        "EA": "ሴውታን መሊላን",
+        "EC": "ኤኳዶር",
+        "EE": "ኤስቶንያ",
+        "EG": "ግብጺ",
+        "EH": "ምዕራባዊ ሰሃራ",
         "ER": "ኤርትራ",
-        "ES": "ስፔን",
+        "ES": "ስጳኛ",
         "ET": "ኢትዮጵያ",
+        "EU": "ኤውሮጳዊ ሕብረት",
+        "EZ": "ዞባ ዩሮ",
         "FI": "ፊንላንድ",
         "FJ": "ፊጂ",
         "FK": "ደሴታት ፎክላንድ",
-        "FM": "ሚክሮኔዢያ",
-        "FO": "ደሴታት ፋራኦ",
-        "FR": "ፈረንሳይ",
+        "FM": "ማይክሮነዥያ",
+        "FO": "ደሴታት ፋሮ",
+        "FR": "ፈረንሳ",
         "GA": "ጋቦን",
-        "GB": "እንግሊዝ",
-        "GD": "ግሬናዳ",
-        "GE": "ጆርጂያ",
-        "GF": "ናይ ፈረንሳይ ጉይና",
-        "GG": "ገርንሲ",
+        "GB": "ብሪጣንያ",
+        "GD": "ግረናዳ",
+        "GE": "ጆርጅያ",
+        "GF": "ፈረንሳዊት ጊያና",
+        "GG": "ገርንዚ",
         "GH": "ጋና",
-        "GI": "ጊብራልታር",
+        "GI": "ጂብራልታር",
         "GL": "ግሪንላንድ",
-        "GM": "ጋምቢያ",
+        "GM": "ጋምብያ",
         "GN": "ጊኒ",
-        "GP": "ጉዋደሉፕ",
-        "GQ": "ኢኳቶሪያል ጊኒ",
-        "GR": "ግሪክ",
-        "GS": "ደሴታት ደቡብ ጆርጂያን ደቡድ ሳንድዊችን",
-        "GT": "ጉዋቲማላ",
-        "GU": "ጉዋም",
-        "GW": "ቢሳዎ",
+        "GP": "ጓደሉፕ",
+        "GQ": "ኢኳቶርያል ጊኒ",
+        "GR": "ግሪኽ",
+        "GS": "ደሴታት ደቡብ ጆርጅያን ደቡብ ሳንድዊችን",
+        "GT": "ጓቲማላ",
+        "GU": "ጓም",
+        "GW": "ጊኒ-ቢሳው",
         "GY": "ጉያና",
-        "HK": "ሆንግ ኮንግ",
-        "HM": "ደሴታት ሀርድን ማክዶናልድን",
+        "HK": "ፍሉይ ምምሕዳራዊ ዞባ ሆንግ ኮንግ (ቻይና)",
+        "HM": "ደሴታት ሄርድን ማክዶናልድን",
         "HN": "ሆንዱራስ",
         "HR": "ክሮኤሽያ",
-        "HT": "ሀይቲ",
-        "HU": "ሀንጋሪ",
+        "HT": "ሃይቲ",
+        "HU": "ሃንጋሪ",
         "IC": "ደሴታት ካናሪ",
-        "ID": "ኢንዶኔዢያ",
-        "IE": "አየርላንድ",
+        "ID": "ኢንዶነዥያ",
+        "IE": "ኣየርላንድ",
         "IL": "እስራኤል",
-        "IM": "አይል ኦፍ ማን",
+        "IM": "ኣይል ኦፍ ማን",
         "IN": "ህንዲ",
-        "IO": "ናይ ብሪጣንያ ህንዳዊ ውቅያኖስ ግዝኣት",
-        "IQ": "ኢራቅ",
+        "IO": "ብሪጣንያዊ ህንዳዊ ውቅያኖስ ግዝኣት",
+        "IQ": "ዒራቕ",
         "IR": "ኢራን",
-        "IS": "አይስላንድ",
-        "IT": "ጣሊያን",
-        "JE": "ጀርሲ",
+        "IS": "ኣይስላንድ",
+        "IT": "ኢጣልያ",
+        "JE": "ጀርዚ",
         "JM": "ጃማይካ",
-        "JO": "ጆርዳን",
+        "JO": "ዮርዳኖስ",
         "JP": "ጃፓን",
         "KE": "ኬንያ",
-        "KG": "ኪርጂስታን",
-        "KH": "ካምቦዲያ",
+        "KG": "ኪርጊዝስታን",
+        "KH": "ካምቦድያ",
         "KI": "ኪሪባቲ",
         "KM": "ኮሞሮስ",
         "KN": "ቅዱስ ኪትስን ኔቪስን",
-        "KP": "ሰሜን ኮሪያ",
-        "KR": "ደቡብ ኮሪያ",
-        "KW": "ክዌት",
-        "KY": "ካይማን ደሴቶች",
+        "KP": "ሰሜን ኮርያ",
+        "KR": "ደቡብ ኮርያ",
+        "KW": "ኩዌት",
+        "KY": "ደሴታት ካይማን",
         "KZ": "ካዛኪስታን",
         "LA": "ላኦስ",
         "LB": "ሊባኖስ",
-        "LC": "ሴንት ሉቺያ",
-        "LI": "ሊችተንስታይን",
-        "LK": "ሲሪላንካ",
-        "LR": "ላይቤሪያ",
+        "LC": "ቅድስቲ ሉስያ",
+        "LI": "ሊኽተንሽታይን",
+        "LK": "ስሪ ላንካ",
+        "LR": "ላይበርያ",
         "LS": "ሌሶቶ",
-        "LT": "ሊቱዌኒያ",
+        "LT": "ሊትዌንያ",
         "LU": "ሉክሰምበርግ",
-        "LV": "ላትቪያ",
-        "LY": "ሊቢያ",
+        "LV": "ላትቭያ",
+        "LY": "ሊብያ",
         "MA": "ሞሮኮ",
         "MC": "ሞናኮ",
         "MD": "ሞልዶቫ",
-        "ME": "ሞንቴኔግሮ",
-        "MF": "ሴንት ማርቲን",
+        "ME": "ሞንተኔግሮ",
+        "MF": "ቅዱስ ማርቲን",
         "MG": "ማዳጋስካር",
-        "MH": "ማርሻል አይላንድ",
-        "MK": "ማከዶኒያ",
+        "MH": "ደሴታት ማርሻል",
+        "MK": "ሰሜን መቄዶንያ",
         "ML": "ማሊ",
-        "MM": "ማያንማር",
-        "MN": "ሞንጎሊያ",
-        "MO": "ማካዎ",
-        "MP": "ደሴታት ሰሜናዊ ማሪያና",
+        "MM": "ሚያንማር (በርማ)",
+        "MN": "ሞንጎልያ",
+        "MO": "ፍሉይ ምምሕዳራዊ ዞባ ማካው (ቻይና)",
+        "MP": "ሰሜናዊ ደሴታት ማርያና",
         "MQ": "ማርቲኒክ",
-        "MR": "ሞሪቴኒያ",
-        "MS": "ሞንትሴራት",
+        "MR": "ማውሪታንያ",
+        "MS": "ሞንትሰራት",
         "MT": "ማልታ",
-        "MU": "ማሩሸስ",
+        "MU": "ማውሪሸስ",
         "MV": "ማልዲቭስ",
         "MW": "ማላዊ",
         "MX": "ሜክሲኮ",
-        "MY": "ማሌዢያ",
+        "MY": "ማለዥያ",
         "MZ": "ሞዛምቢክ",
-        "NA": "ናሚቢያ",
-        "NC": "ኒው ካሌዶኒያ",
+        "NA": "ናሚብያ",
+        "NC": "ኒው ካለዶንያ",
         "NE": "ኒጀር",
-        "NF": "ኖርፎልክ ደሴት",
-        "NG": "ናይጄሪያ",
+        "NF": "ደሴት ኖርፎልክ",
+        "NG": "ናይጀርያ",
         "NI": "ኒካራጓ",
-        "NL": "ኔዘርላንድስ",
-        "NO": "ኖርዌ",
+        "NL": "ኔዘርላንድ",
+        "NO": "ኖርወይ",
         "NP": "ኔፓል",
-        "NR": "ናኡሩ",
-        "NU": "ኒኡይ",
+        "NR": "ናውሩ",
+        "NU": "ኒዩ",
         "NZ": "ኒው ዚላንድ",
-        "OM": "ኦማን",
+        "OM": "ዖማን",
         "PA": "ፓናማ",
         "PE": "ፔሩ",
-        "PF": "ናይ ፈረንሳይ ፖሊነዝያ",
-        "PG": "ፓፑዋ ኒው ጊኒ",
+        "PF": "ፈረንሳዊት ፖሊነዥያ",
+        "PG": "ፓፕዋ ኒው ጊኒ",
         "PH": "ፊሊፒንስ",
         "PK": "ፓኪስታን",
         "PL": "ፖላንድ",
-        "PM": "ቅዱስ ፒዬርን ሚኩኤሎን",
-        "PN": "ፒትካኢርን",
-        "PR": "ፖርታ ሪኮ",
-        "PS": "ምምሕዳር ፍልስጤም",
+        "PM": "ቅዱስ ፕየርን ሚከሎንን",
+        "PN": "ደሴታት ፒትካርን",
+        "PR": "ፖርቶ ሪኮ",
+        "PS": "ግዝኣታት ፍልስጤም",
         "PT": "ፖርቱጋል",
         "PW": "ፓላው",
         "PY": "ፓራጓይ",
-        "QA": "ቀጠር",
-        "QO": "ወጣ ያለ ኦሽኒያ",
-        "RE": "ሪዩኒየን",
-        "RO": "ሮሜኒያ",
-        "RS": "ሰርቢያ",
-        "RU": "ራሺያ",
-        "RW": "ሩዋንዳ",
+        "QA": "ቐጠር",
+        "QO": "ካብ ኦሽያንያ ርሒቖም ግዝኣታት",
+        "RE": "ርዩንየን",
+        "RO": "ሩማንያ",
+        "RS": "ሰርብያ",
+        "RU": "ሩስያ",
+        "RW": "ርዋንዳ",
         "SA": "ስዑዲ ዓረብ",
-        "SB": "ሰሎሞን ደሴት",
-        "SC": "ሲሼልስ",
+        "SB": "ደሴታት ሰሎሞን",
+        "SC": "ሲሸልስ",
         "SD": "ሱዳን",
-        "SE": "ስዊድን",
+        "SE": "ሽወደን",
         "SG": "ሲንጋፖር",
-        "SH": "ሴንት ሄለና",
-        "SI": "ስሎቬኒያ",
-        "SJ": "ስቫልባርድን ዣን ማየን ደሴታት",
-        "SK": "ስሎቫኪያ",
-        "SL": "ሴራሊዮን",
+        "SH": "ቅድስቲ ሄለና",
+        "SI": "ስሎቬንያ",
+        "SJ": "ስቫልባርድን ጃን ማየንን",
+        "SK": "ስሎቫክያ",
+        "SL": "ሴራ ልዮን",
         "SM": "ሳን ማሪኖ",
-        "SN": "ሴኔጋል",
-        "SO": "ሱማሌ",
+        "SN": "ሰነጋል",
+        "SO": "ሶማልያ",
         "SR": "ሱሪናም",
         "SS": "ደቡብ ሱዳን",
-        "ST": "ሳኦ ቶሜን ፕሪንሲፔን",
+        "ST": "ሳኦ ቶመን ፕሪንሲፐን",
         "SV": "ኤል ሳልቫዶር",
-        "SX": "ሲንት ማርቲን",
-        "SY": "ሲሪያ",
-        "SZ": "ሱዋዚላንድ",
-        "TA": "ትሪስን ዳ ኩንሃ",
-        "TC": "ደሴታት ቱርክን ካይኮስን",
+        "SX": "ሲንት ማርተን",
+        "SY": "ሶርያ",
+        "SZ": "ኤስዋቲኒ",
+        "TA": "ትሪስታን ዳ ኩንያ",
+        "TC": "ደሴታት ቱርካትን ካይኮስን",
         "TD": "ጫድ",
-        "TF": "ናይ ፈረንሳይ ደቡባዊ ግዝኣታት",
-        "TG": "ቶጐ",
+        "TF": "ፈረንሳዊ ደቡባዊ ግዝኣታት",
+        "TG": "ቶጎ",
         "TH": "ታይላንድ",
-        "TJ": "ታጃኪስታን",
-        "TK": "ቶክላው",
-        "TL": "ምብራቕ ቲሞር",
-        "TM": "ቱርክሜኒስታን",
-        "TN": "ቱኒዚያ",
+        "TJ": "ታጂኪስታን",
+        "TK": "ቶከላው",
+        "TL": "ቲሞር-ለስተ",
+        "TM": "ቱርክመኒስታን",
+        "TN": "ቱኒዝያ",
         "TO": "ቶንጋ",
-        "TR": "ቱርክ",
+        "TR": "ቱርኪ",
         "TT": "ትሪኒዳድን ቶባጎን",
         "TV": "ቱቫሉ",
         "TW": "ታይዋን",
-        "TZ": "ታንዛኒያ",
+        "TZ": "ታንዛንያ",
         "UA": "ዩክሬን",
-        "UG": "ዩጋንዳ",
-        "UM": "ናይ ኣሜሪካ ፍንትት ዝበሉ ደሴታት",
-        "US": "አሜሪካ",
+        "UG": "ኡጋንዳ",
+        "UM": "ካብ ኣመሪካ ርሒቐን ንኣሽቱ ደሴታት",
+        "UN": "ሕቡራት ሃገራት",
+        "US": "ኣመሪካ",
         "UY": "ኡራጓይ",
-        "UZ": "ዩዝበኪስታን",
-        "VA": "ቫቲካን",
-        "VC": "ቅዱስ ቪንሴንትን ግሬናዲንስን",
-        "VE": "ቬንዙዌላ",
-        "VG": "ቨርጂን ደሴታት እንግሊዝ",
-        "VI": "ቨርጂን ደሴታት ኣሜሪካ",
+        "UZ": "ኡዝበኪስታን",
+        "VA": "ከተማ ቫቲካን",
+        "VC": "ቅዱስ ቪንሰንትን ግረነዲነዝን",
+        "VE": "ቬኔዝዌላ",
+        "VG": "ደሴታት ደናግል ብሪጣንያ",
+        "VI": "ደሴታት ደናግል ኣመሪካ",
         "VN": "ቬትናም",
-        "VU": "ቫኑአቱ",
+        "VU": "ቫንዋቱ",
         "WF": "ዋሊስን ፉቱናን",
-        "WS": "ሳሞአ",
+        "WS": "ሳሞኣ",
+        "XA": "ናይ ሓሶት ላህጃታት",
+        "XB": "ናይ ሓሶት ክልተ ኣንፈታዊ",
         "XK": "ኮሶቮ",
         "YE": "የመን",
-        "YT": "ሜይኦቴ",
-        "ZA": "ደቡብ አፍሪካ",
-        "ZM": "ዛምቢያ",
-        "ZW": "ዚምቧቤ"
+        "YT": "ማዮት",
+        "ZA": "ደቡብ ኣፍሪቃ",
+        "ZM": "ዛምብያ",
+        "ZW": "ዚምባብዌ",
+        "ZZ": "ዘይተፈልጠ ዞባ"
     };
   }-*/;
 }

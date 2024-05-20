@@ -46,14 +46,34 @@ public class DateTimeFormatInfoImpl_kea extends DateTimeFormatInfoImpl {
 
   @Override
   public String dateFormatShort() {
-    return "d/M/y";
+    return "dd/MM/y";
+  }
+
+  @Override
+  public String dateTimeFull(String timePattern, String datePattern) {
+    return datePattern + ", " + timePattern;
+  }
+
+  @Override
+  public String dateTimeLong(String timePattern, String datePattern) {
+    return datePattern + ", " + timePattern;
+  }
+
+  @Override
+  public String dateTimeMedium(String timePattern, String datePattern) {
+    return datePattern + ", " + timePattern;
+  }
+
+  @Override
+  public String dateTimeShort(String timePattern, String datePattern) {
+    return datePattern + ", " + timePattern;
   }
 
   @Override
   public String[] erasFull() {
     return new String[] {
-        "Antis di Kristu",
-        "Dispos di Kristu"
+        "antis di Kristu",
+        "dispos di Kristu"
     };
   }
 
@@ -63,6 +83,16 @@ public class DateTimeFormatInfoImpl_kea extends DateTimeFormatInfoImpl {
         "AK",
         "DK"
     };
+  }
+
+  @Override
+  public String formatHour12Minute() {
+    return "h:mm a";
+  }
+
+  @Override
+  public String formatHour12MinuteSecond() {
+    return "h:mm:ss a";
   }
 
   @Override
@@ -87,7 +117,7 @@ public class DateTimeFormatInfoImpl_kea extends DateTimeFormatInfoImpl {
 
   @Override
   public String formatYearMonthAbbrev() {
-    return "MMM y";
+    return "LLL y";
   }
 
   @Override
@@ -97,7 +127,7 @@ public class DateTimeFormatInfoImpl_kea extends DateTimeFormatInfoImpl {
 
   @Override
   public String formatYearMonthFull() {
-    return "MMMM 'di' y";
+    return "LLLL 'di' y";
   }
 
   @Override
@@ -107,7 +137,7 @@ public class DateTimeFormatInfoImpl_kea extends DateTimeFormatInfoImpl {
 
   @Override
   public String formatYearMonthNum() {
-    return "MM/y";
+    return "LL/y";
   }
 
   @Override
@@ -188,19 +218,6 @@ public class DateTimeFormatInfoImpl_kea extends DateTimeFormatInfoImpl {
 
   @Override
   public String[] weekdaysFull() {
-    return new String[] {
-        "dumingu",
-        "sigunda-fera",
-        "tersa-fera",
-        "kuarta-fera",
-        "kinta-fera",
-        "sesta-fera",
-        "sabadu"
-    };
-  }
-
-  @Override
-  public String[] weekdaysFullStandalone() {
     return new String[] {
         "dumingu",
         "sigunda-fera",

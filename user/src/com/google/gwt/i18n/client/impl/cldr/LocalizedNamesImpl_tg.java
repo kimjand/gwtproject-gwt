@@ -35,9 +35,8 @@ public class LocalizedNamesImpl_tg extends LocalizedNamesImpl {
   public String[] loadSortedRegionCodes() {
     return new String[] {
         "BQ",
-        "CD",
-        "CG",
         "CP",
+        "CQ",
         "DG",
         "EA",
         "EH",
@@ -130,6 +129,8 @@ public class LocalizedNamesImpl_tg extends LocalizedNamesImpl {
         "KI",
         "CO",
         "KM",
+        "CG",
+        "CD",
         "KP",
         "XK",
         "CR",
@@ -151,6 +152,7 @@ public class LocalizedNamesImpl_tg extends LocalizedNamesImpl {
         "MG",
         "YT",
         "MO",
+        "MK",
         "MW",
         "MY",
         "MV",
@@ -158,7 +160,6 @@ public class LocalizedNamesImpl_tg extends LocalizedNamesImpl {
         "MT",
         "MA",
         "MQ",
-        "MK",
         "HU",
         "MX",
         "TF",
@@ -236,10 +237,10 @@ public class LocalizedNamesImpl_tg extends LocalizedNamesImpl {
         "WF",
         "JO",
         "UY",
+        "FR",
         "PH",
         "FI",
         "FJ",
-        "FR",
         "CN",
         "HR",
         "TD",
@@ -341,7 +342,9 @@ public class LocalizedNamesImpl_tg extends LocalizedNamesImpl {
     namesMap.put("BZ", "Белиз");
     namesMap.put("CA", "Канада");
     namesMap.put("CC", "Ҷазираҳои Кокос (Килинг)");
+    namesMap.put("CD", "Конго (ҶДК)");
     namesMap.put("CF", "Ҷумҳурии Африқои Марказӣ");
+    namesMap.put("CG", "Конго");
     namesMap.put("CH", "Швейтсария");
     namesMap.put("CI", "Кот-д’Ивуар");
     namesMap.put("CK", "Ҷазираҳои Кук");
@@ -373,7 +376,7 @@ public class LocalizedNamesImpl_tg extends LocalizedNamesImpl {
     namesMap.put("FK", "Ҷазираҳои Фолкленд");
     namesMap.put("FM", "Штатҳои Федеративии Микронезия");
     namesMap.put("FO", "Ҷазираҳои Фарер");
-    namesMap.put("FR", "Франсия");
+    namesMap.put("FR", "Фаронса");
     namesMap.put("GA", "Габон");
     namesMap.put("GB", "Шоҳигарии Муттаҳида");
     namesMap.put("GD", "Гренада");
@@ -441,7 +444,7 @@ public class LocalizedNamesImpl_tg extends LocalizedNamesImpl {
     namesMap.put("MF", "Ҷазираи Сент-Мартин");
     namesMap.put("MG", "Мадагаскар");
     namesMap.put("MH", "Ҷазираҳои Маршалл");
-    namesMap.put("MK", "Мақдун");
+    namesMap.put("MK", "Македонияи Шимолӣ");
     namesMap.put("ML", "Мали");
     namesMap.put("MM", "Мянма");
     namesMap.put("MN", "Муғулистон");
@@ -597,7 +600,9 @@ public class LocalizedNamesImpl_tg extends LocalizedNamesImpl {
         "BZ": "Белиз",
         "CA": "Канада",
         "CC": "Ҷазираҳои Кокос (Килинг)",
+        "CD": "Конго (ҶДК)",
         "CF": "Ҷумҳурии Африқои Марказӣ",
+        "CG": "Конго",
         "CH": "Швейтсария",
         "CI": "Кот-д’Ивуар",
         "CK": "Ҷазираҳои Кук",
@@ -629,7 +634,7 @@ public class LocalizedNamesImpl_tg extends LocalizedNamesImpl {
         "FK": "Ҷазираҳои Фолкленд",
         "FM": "Штатҳои Федеративии Микронезия",
         "FO": "Ҷазираҳои Фарер",
-        "FR": "Франсия",
+        "FR": "Фаронса",
         "GA": "Габон",
         "GB": "Шоҳигарии Муттаҳида",
         "GD": "Гренада",
@@ -697,7 +702,7 @@ public class LocalizedNamesImpl_tg extends LocalizedNamesImpl {
         "MF": "Ҷазираи Сент-Мартин",
         "MG": "Мадагаскар",
         "MH": "Ҷазираҳои Маршалл",
-        "MK": "Мақдун",
+        "MK": "Македонияи Шимолӣ",
         "ML": "Мали",
         "MM": "Мянма",
         "MN": "Муғулистон",

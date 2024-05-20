@@ -66,6 +66,16 @@ public class DateTimeFormatInfoImpl_nus extends DateTimeFormatInfoImpl {
   }
 
   @Override
+  public String formatHour12Minute() {
+    return "h:mm a";
+  }
+
+  @Override
+  public String formatHour12MinuteSecond() {
+    return "h:mm:ss a";
+  }
+
+  @Override
   public String formatMinuteSecond() {
     return "m:ss";
   }
@@ -201,22 +211,22 @@ public class DateTimeFormatInfoImpl_nus extends DateTimeFormatInfoImpl {
 
   @Override
   public String timeFormatFull() {
-    return "zzzz h:mm:ss a";
+    return "zzzz h:mm:ss a";
   }
 
   @Override
   public String timeFormatLong() {
-    return "z h:mm:ss a";
+    return "z h:mm:ss a";
   }
 
   @Override
   public String timeFormatMedium() {
-    return "h:mm:ss a";
+    return "h:mm:ss a";
   }
 
   @Override
   public String timeFormatShort() {
-    return "h:mm a";
+    return "h:mm a";
   }
 
   @Override

@@ -24,8 +24,8 @@ public class DateTimeFormatInfoImpl_dav extends DateTimeFormatInfoImpl {
   @Override
   public String[] ampms() {
     return new String[] {
-        "Luma lwa K",
-        "luma lwa p"
+        "Luma lwa K",
+        "luma lwa p"
     };
   }
 
@@ -68,6 +68,11 @@ public class DateTimeFormatInfoImpl_dav extends DateTimeFormatInfoImpl {
   @Override
   public int firstDayOfTheWeek() {
     return 0;
+  }
+
+  @Override
+  public String formatHour12Minute() {
+    return "h:mm a";
   }
 
   @Override

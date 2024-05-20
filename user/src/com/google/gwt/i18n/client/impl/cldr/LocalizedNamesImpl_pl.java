@@ -74,6 +74,7 @@ public class LocalizedNamesImpl_pl extends LocalizedNamesImpl {
         "CN",
         "HR",
         "CI",
+        "CQ",
         "CW",
         "CY",
         "TD",
@@ -90,6 +91,7 @@ public class LocalizedNamesImpl_pl extends LocalizedNamesImpl {
         "EC",
         "ER",
         "EE",
+        "SZ",
         "ET",
         "FK",
         "FJ",
@@ -206,6 +208,8 @@ public class LocalizedNamesImpl_pl extends LocalizedNamesImpl {
         "PL",
         "PR",
         "PT",
+        "XA",
+        "XB",
         "ZA",
         "CF",
         "CV",
@@ -238,7 +242,6 @@ public class LocalizedNamesImpl_pl extends LocalizedNamesImpl {
         "LK",
         "US",
         "EZ",
-        "SZ",
         "SD",
         "SS",
         "SR",
@@ -291,8 +294,6 @@ public class LocalizedNamesImpl_pl extends LocalizedNamesImpl {
         "FO",
         "SB",
         "ST",
-        "XA",
-        "XB",
         "ZM",
         "ZW",
         "AE",
@@ -445,6 +446,7 @@ public class LocalizedNamesImpl_pl extends LocalizedNamesImpl {
     namesMap.put("MF", "Saint-Martin");
     namesMap.put("MG", "Madagaskar");
     namesMap.put("MH", "Wyspy Marshalla");
+    namesMap.put("MK", "Macedonia Północna");
     namesMap.put("MM", "Mjanma (Birma)");
     namesMap.put("MO", "SRA Makau (Chiny)");
     namesMap.put("MP", "Mariany Północne");
@@ -488,7 +490,6 @@ public class LocalizedNamesImpl_pl extends LocalizedNamesImpl {
     namesMap.put("SS", "Sudan Południowy");
     namesMap.put("ST", "Wyspy Świętego Tomasza i Książęca");
     namesMap.put("SV", "Salwador");
-    namesMap.put("SZ", "Suazi");
     namesMap.put("TC", "Turks i Caicos");
     namesMap.put("TD", "Czad");
     namesMap.put("TF", "Francuskie Terytoria Południowe i Antarktyczne");
@@ -511,6 +512,8 @@ public class LocalizedNamesImpl_pl extends LocalizedNamesImpl {
     namesMap.put("VI", "Wyspy Dziewicze Stanów Zjednoczonych");
     namesMap.put("VN", "Wietnam");
     namesMap.put("WF", "Wallis i Futuna");
+    namesMap.put("XA", "Pseudoakcenty");
+    namesMap.put("XB", "Pseudodwukierunkowe");
     namesMap.put("XK", "Kosowo");
     namesMap.put("YE", "Jemen");
     namesMap.put("YT", "Majotta");
@@ -668,6 +671,7 @@ public class LocalizedNamesImpl_pl extends LocalizedNamesImpl {
         "MF": "Saint-Martin",
         "MG": "Madagaskar",
         "MH": "Wyspy Marshalla",
+        "MK": "Macedonia Północna",
         "MM": "Mjanma (Birma)",
         "MO": "SRA Makau (Chiny)",
         "MP": "Mariany Północne",
@@ -711,7 +715,6 @@ public class LocalizedNamesImpl_pl extends LocalizedNamesImpl {
         "SS": "Sudan Południowy",
         "ST": "Wyspy Świętego Tomasza i Książęca",
         "SV": "Salwador",
-        "SZ": "Suazi",
         "TC": "Turks i Caicos",
         "TD": "Czad",
         "TF": "Francuskie Terytoria Południowe i Antarktyczne",
@@ -734,6 +737,8 @@ public class LocalizedNamesImpl_pl extends LocalizedNamesImpl {
         "VI": "Wyspy Dziewicze Stanów Zjednoczonych",
         "VN": "Wietnam",
         "WF": "Wallis i Futuna",
+        "XA": "Pseudoakcenty",
+        "XB": "Pseudodwukierunkowe",
         "XK": "Kosowo",
         "YE": "Jemen",
         "YT": "Majotta",

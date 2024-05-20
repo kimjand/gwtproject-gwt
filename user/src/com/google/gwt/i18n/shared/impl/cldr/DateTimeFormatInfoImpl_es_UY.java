@@ -24,8 +24,8 @@ public class DateTimeFormatInfoImpl_es_UY extends DateTimeFormatInfoImpl_es_419 
   @Override
   public String[] ampms() {
     return new String[] {
-        "a. m.",
-        "p. m."
+        "a. m.",
+        "p. m."
     };
   }
 

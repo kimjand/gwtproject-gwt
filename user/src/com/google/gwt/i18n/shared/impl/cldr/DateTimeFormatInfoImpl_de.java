@@ -43,12 +43,12 @@ public class DateTimeFormatInfoImpl_de extends DateTimeFormatInfoImpl {
 
   @Override
   public String dateTimeFull(String timePattern, String datePattern) {
-    return datePattern + " 'um' " + timePattern;
+    return datePattern + ", " + timePattern;
   }
 
   @Override
   public String dateTimeLong(String timePattern, String datePattern) {
-    return datePattern + " 'um' " + timePattern;
+    return datePattern + ", " + timePattern;
   }
 
   @Override
@@ -75,6 +75,16 @@ public class DateTimeFormatInfoImpl_de extends DateTimeFormatInfoImpl {
         "v. Chr.",
         "n. Chr."
     };
+  }
+
+  @Override
+  public String formatHour12Minute() {
+    return "h:mm a";
+  }
+
+  @Override
+  public String formatHour12MinuteSecond() {
+    return "h:mm:ss a";
   }
 
   @Override
@@ -119,7 +129,7 @@ public class DateTimeFormatInfoImpl_de extends DateTimeFormatInfoImpl {
 
   @Override
   public String formatYearMonthNum() {
-    return "M.y";
+    return "M/y";
   }
 
   @Override

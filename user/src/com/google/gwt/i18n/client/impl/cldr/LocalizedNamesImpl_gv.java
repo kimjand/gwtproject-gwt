@@ -78,6 +78,7 @@ public class LocalizedNamesImpl_gv extends LocalizedNamesImpl {
         "CN",
         "CO",
         "CP",
+        "CQ",
         "CR",
         "CU",
         "CV",

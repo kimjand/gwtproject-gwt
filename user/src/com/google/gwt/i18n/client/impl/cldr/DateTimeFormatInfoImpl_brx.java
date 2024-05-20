@@ -31,43 +31,73 @@ public class DateTimeFormatInfoImpl_brx extends DateTimeFormatInfoImpl {
 
   @Override
   public String dateFormatFull() {
-    return "EEEE, MMMM d, y";
+    return "d MMMM y, EEEE";
   }
 
   @Override
   public String dateFormatLong() {
-    return "MMMM d, y";
+    return "d MMMM, y";
   }
 
   @Override
   public String dateFormatMedium() {
-    return "MMM d, y";
+    return "d MMM, y";
   }
 
   @Override
   public String dateFormatShort() {
-    return "M/d/yy";
+    return "dd-MM-y";
+  }
+
+  @Override
+  public String dateTimeFull(String timePattern, String datePattern) {
+    return datePattern + ", " + timePattern;
+  }
+
+  @Override
+  public String dateTimeLong(String timePattern, String datePattern) {
+    return datePattern + ", " + timePattern;
+  }
+
+  @Override
+  public String dateTimeMedium(String timePattern, String datePattern) {
+    return datePattern + ", " + timePattern;
+  }
+
+  @Override
+  public String dateTimeShort(String timePattern, String datePattern) {
+    return datePattern + ", " + timePattern;
   }
 
   @Override
   public String[] erasFull() {
     return new String[] {
-        "ईसा.पूर्व",
-        "सन"
+        "ख्राइष्तनि सिगां",
+        "आन्न’ दामिनि"
     };
   }
 
   @Override
   public String[] erasShort() {
     return new String[] {
-        "ईसा.पूर्व",
-        "सन"
+        "बि.सि.",
+        "ए.दि"
     };
   }
 
   @Override
   public int firstDayOfTheWeek() {
     return 0;
+  }
+
+  @Override
+  public String formatHour12Minute() {
+    return "a नि h:mm";
+  }
+
+  @Override
+  public String formatHour12MinuteSecond() {
+    return "a h:mm:ss";
   }
 
   @Override
@@ -92,7 +122,7 @@ public class DateTimeFormatInfoImpl_brx extends DateTimeFormatInfoImpl {
 
   @Override
   public String formatYearMonthAbbrevDay() {
-    return "MMM d, y";
+    return "d MMM y";
   }
 
   @Override
@@ -102,7 +132,7 @@ public class DateTimeFormatInfoImpl_brx extends DateTimeFormatInfoImpl {
 
   @Override
   public String formatYearMonthFullDay() {
-    return "MMMM d, y";
+    return "d MMMM, y";
   }
 
   @Override
@@ -112,7 +142,7 @@ public class DateTimeFormatInfoImpl_brx extends DateTimeFormatInfoImpl {
 
   @Override
   public String formatYearMonthNumDay() {
-    return "M/d/y";
+    return "dd-MM-y";
   }
 
   @Override
@@ -134,17 +164,17 @@ public class DateTimeFormatInfoImpl_brx extends DateTimeFormatInfoImpl {
   public String[] monthsFull() {
     return new String[] {
         "जानुवारी",
-        "फेब्रुवारी",
-        "मार्स",
-        "एफ्रिल",
+        "फेब्रूवारी",
+        "मार्च",
+        "एप्रिल",
         "मे",
         "जुन",
-        "जुलाइ",
-        "आगस्थ",
-        "सेबथेज्ब़र",
-        "अखथबर",
-        "नबेज्ब़र",
-        "दिसेज्ब़र"
+        "जुलाई",
+        "आगष्ट",
+        "सेप्थेम्बर",
+        "अक्ट’बर",
+        "नवेम्बर",
+        "डिसेम्बर"
     };
   }
 
@@ -152,76 +182,76 @@ public class DateTimeFormatInfoImpl_brx extends DateTimeFormatInfoImpl {
   public String[] monthsNarrow() {
     return new String[] {
         "ज",
-        "फे",
-        "मा",
+        "फ",
+        "म",
         "ए",
-        "मे",
-        "जु",
-        "जु",
+        "म",
+        "ज",
+        "ज",
         "आ",
-        "से",
+        "स",
         "अ",
         "न",
-        "दि"
+        "ड"
     };
   }
 
   @Override
   public String[] monthsShort() {
     return new String[] {
-        "जानुवारी",
-        "फेब्रुवारी",
-        "मार्स",
-        "एफ्रिल",
+        "जान",
+        "फेब",
+        "मार्च",
+        "एप्रि",
         "मे",
         "जुन",
-        "जुलाइ",
-        "आगस्थ",
-        "सेबथेज्ब़र",
-        "अखथबर",
-        "नबेज्ब़र",
-        "दिसेज्ब़र"
+        "जुल",
+        "आग",
+        "सेप",
+        "अक्ट’",
+        "नवे",
+        "डिसे"
     };
   }
 
   @Override
   public String[] quartersFull() {
     return new String[] {
-        "सिथासे/खोन्दोसे/बाहागोसे",
-        "खावसे/खोन्दोनै/बाहागोनै",
-        "खावथाम/खोन्दोथाम/बाहागोथाम",
-        "खावब्रै/खोन्दोब्रै/फुरा/आबुं"
+        "ब्रै बाहागोनि सेथि खोन्दो",
+        "ब्रै बाहागोनि नैथि खोन्दो",
+        "ब्रै बाहागोनि थामथि खोन्दो",
+        "ब्रै बाहागोनि ब्रैथि खोन्दो"
     };
   }
 
   @Override
   public String[] quartersShort() {
     return new String[] {
-        "सिथासे/खोन्दोसे/बाहागोसे",
-        "खावसे/खोन्दोनै/बाहागोनै",
-        "खावथाम/खोन्दोथाम/बाहागोथाम",
-        "खावब्रै/खोन्दोब्रै/फुरा/आबुं"
+        "किउ 1",
+        "किउ 2",
+        "किउ 3",
+        "किउ 4"
     };
   }
 
   @Override
   public String timeFormatFull() {
-    return "h:mm:ss a zzzz";
+    return "a h:mm:ss zzzz";
   }
 
   @Override
   public String timeFormatLong() {
-    return "h:mm:ss a z";
+    return "a h:mm:ss z";
   }
 
   @Override
   public String timeFormatMedium() {
-    return "h:mm:ss a";
+    return "a h:mm:ss";
   }
 
   @Override
   public String timeFormatShort() {
-    return "h:mm a";
+    return "a नि h:mm";
   }
 
   @Override
@@ -230,10 +260,23 @@ public class DateTimeFormatInfoImpl_brx extends DateTimeFormatInfoImpl {
         "रबिबार",
         "समबार",
         "मंगलबार",
-        "बुदबार",
-        "बिसथिबार",
+        "बुधबार",
+        "बिस्थिबार",
         "सुखुरबार",
-        "सुनिबार"
+        "सनिबार"
+    };
+  }
+
+  @Override
+  public String[] weekdaysFullStandalone() {
+    return new String[] {
+        "रबिबार",
+        "समबार",
+        "मंगलबार",
+        "बुधबार",
+        "बिस्थिबार",
+        "सुुखुरबार",
+        "सनिबार"
     };
   }
 
@@ -246,7 +289,7 @@ public class DateTimeFormatInfoImpl_brx extends DateTimeFormatInfoImpl {
         "बु",
         "बि",
         "सु",
-        "सु"
+        "स"
     };
   }
 
@@ -256,10 +299,10 @@ public class DateTimeFormatInfoImpl_brx extends DateTimeFormatInfoImpl {
         "रबि",
         "सम",
         "मंगल",
-        "बुद",
-        "बिसथि",
+        "बुध",
+        "बिस्थि",
         "सुखुर",
-        "सुनि"
+        "सनि"
     };
   }
 

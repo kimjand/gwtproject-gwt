@@ -64,6 +64,7 @@ public class LocalizedNamesImpl_ksh extends LocalizedNamesImpl {
         "BG",
         "BI",
         "BT",
+        "CQ",
         "CW",
         "BJ",
         "CG",
@@ -196,8 +197,8 @@ public class LocalizedNamesImpl_ksh extends LocalizedNamesImpl {
         "MU",
         "MR",
         "MX",
-        "MK",
         "FM",
+        "MK",
         "MD",
         "MC",
         "MN",
@@ -464,7 +465,6 @@ public class LocalizedNamesImpl_ksh extends LocalizedNamesImpl {
     namesMap.put("MF", "de Zint-Määtes-Ensel");
     namesMap.put("MG", "Maddajaska");
     namesMap.put("MH", "de Machschall-Enselle");
-    namesMap.put("MK", "Mazedoonije");
     namesMap.put("ML", "Maali");
     namesMap.put("MM", "Birma");
     namesMap.put("MN", "Mongjolei");
@@ -741,7 +741,6 @@ public class LocalizedNamesImpl_ksh extends LocalizedNamesImpl {
         "MF": "de Zint-Määtes-Ensel",
         "MG": "Maddajaska",
         "MH": "de Machschall-Enselle",
-        "MK": "Mazedoonije",
         "ML": "Maali",
         "MM": "Birma",
         "MN": "Mongjolei",

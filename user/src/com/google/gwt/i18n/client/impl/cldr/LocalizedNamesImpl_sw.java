@@ -77,10 +77,9 @@ public class LocalizedNamesImpl_sw extends LocalizedNamesImpl {
         "CZ",
         "CL",
         "CI",
+        "CQ",
         "HR",
-        "CU",
         "CW",
-        "CY",
         "DK",
         "DG",
         "DM",
@@ -89,8 +88,8 @@ public class LocalizedNamesImpl_sw extends LocalizedNamesImpl {
         "IO",
         "ER",
         "EE",
+        "SZ",
         "ET",
-        "EZ",
         "AE",
         "FJ",
         "GA",
@@ -128,6 +127,7 @@ public class LocalizedNamesImpl_sw extends LocalizedNamesImpl {
         "DJ",
         "GE",
         "JO",
+        "EZ",
         "KH",
         "CM",
         "CA",
@@ -149,7 +149,10 @@ public class LocalizedNamesImpl_sw extends LocalizedNamesImpl {
         "KR",
         "XK",
         "CR",
+        "CU",
         "KW",
+        "XA",
+        "XB",
         "LA",
         "LV",
         "LB",
@@ -159,10 +162,9 @@ public class LocalizedNamesImpl_sw extends LocalizedNamesImpl {
         "LI",
         "LT",
         "LU",
-        "MO",
-        "MK",
         "MG",
         "PS",
+        "MO",
         "MW",
         "MV",
         "MY",
@@ -170,6 +172,7 @@ public class LocalizedNamesImpl_sw extends LocalizedNamesImpl {
         "MT",
         "US",
         "MQ",
+        "MK",
         "YT",
         "MX",
         "FM",
@@ -211,6 +214,7 @@ public class LocalizedNamesImpl_sw extends LocalizedNamesImpl {
         "RO",
         "RW",
         "EH",
+        "CY",
         "WS",
         "AS",
         "SM",
@@ -269,7 +273,6 @@ public class LocalizedNamesImpl_sw extends LocalizedNamesImpl {
         "UY",
         "RU",
         "SC",
-        "SZ",
         "SE",
         "CH",
         "TR",
@@ -294,8 +297,6 @@ public class LocalizedNamesImpl_sw extends LocalizedNamesImpl {
         "VI",
         "VG",
         "WF",
-        "XA",
-        "XB",
         "YE",
         "ZM",
         "ZW",
@@ -329,7 +330,7 @@ public class LocalizedNamesImpl_sw extends LocalizedNamesImpl {
     namesMap.put("151", "Ulaya ya Mashariki");
     namesMap.put("154", "Ulaya ya Kaskazini");
     namesMap.put("155", "Ulaya ya Magharibi");
-    namesMap.put("202", "Afrika Kusine mwa Jangwa la Sahara");
+    namesMap.put("202", "Afrika ya Kusini mwa Jangwa la Sahara");
     namesMap.put("419", "Amerika ya Kilatini");
     namesMap.put("AC", "Kisiwa cha Ascension");
     namesMap.put("AE", "Falme za Kiarabu");
@@ -362,11 +363,14 @@ public class LocalizedNamesImpl_sw extends LocalizedNamesImpl {
     namesMap.put("CO", "Kolombia");
     namesMap.put("CP", "Kisiwa cha Clipperton");
     namesMap.put("CR", "Kostarika");
+    namesMap.put("CU", "Kuba");
     namesMap.put("CW", "Curacao");
     namesMap.put("CX", "Kisiwa cha Krismasi");
+    namesMap.put("CY", "Saiprasi");
     namesMap.put("CZ", "Chechia");
     namesMap.put("DE", "Ujerumani");
     namesMap.put("DJ", "Jibuti");
+    namesMap.put("DK", "Denmaki");
     namesMap.put("DM", "Dominika");
     namesMap.put("DO", "Jamhuri ya Dominika");
     namesMap.put("DZ", "Aljeria");
@@ -375,8 +379,10 @@ public class LocalizedNamesImpl_sw extends LocalizedNamesImpl {
     namesMap.put("EH", "Sahara Magharibi");
     namesMap.put("ES", "Uhispania");
     namesMap.put("EU", "Umoja wa Ulaya");
+    namesMap.put("EZ", "Jumuiya ya Ulaya");
     namesMap.put("FI", "Ufini");
     namesMap.put("FK", "Visiwa vya Falkland");
+    namesMap.put("FM", "Mikronesia");
     namesMap.put("FO", "Visiwa vya Faroe");
     namesMap.put("FR", "Ufaransa");
     namesMap.put("GB", "Ufalme wa Muungano");
@@ -410,9 +416,12 @@ public class LocalizedNamesImpl_sw extends LocalizedNamesImpl {
     namesMap.put("LS", "Lesoto");
     namesMap.put("MG", "Madagaska");
     namesMap.put("MH", "Visiwa vya Marshall");
+    namesMap.put("MK", "Masedonia ya Kaskazini");
+    namesMap.put("MO", "Makau SAR China");
     namesMap.put("MP", "Visiwa vya Mariana vya Kaskazini");
     namesMap.put("MR", "Moritania");
     namesMap.put("MU", "Morisi");
+    namesMap.put("MV", "Maldivi");
     namesMap.put("MX", "Meksiko");
     namesMap.put("MY", "Malesia");
     namesMap.put("MZ", "Msumbiji");
@@ -438,8 +447,7 @@ public class LocalizedNamesImpl_sw extends LocalizedNamesImpl {
     namesMap.put("SL", "Siera Leoni");
     namesMap.put("SN", "Senegali");
     namesMap.put("SS", "Sudan Kusini");
-    namesMap.put("ST", "São Tomé na Príncipe");
-    namesMap.put("SZ", "Uswazi");
+    namesMap.put("ST", "Sao Tome na Principe");
     namesMap.put("TC", "Visiwa vya Turks na Caicos");
     namesMap.put("TF", "Himaya za Kusini za Kifaranza");
     namesMap.put("TH", "Tailandi");
@@ -454,7 +462,10 @@ public class LocalizedNamesImpl_sw extends LocalizedNamesImpl {
     namesMap.put("VC", "St. Vincent na Grenadines");
     namesMap.put("VG", "Visiwa vya Virgin, Uingereza");
     namesMap.put("VI", "Visiwa vya Virgin, Marekani");
+    namesMap.put("VN", "Vietnamu");
     namesMap.put("WF", "Wallis na Futuna");
+    namesMap.put("XA", "Lafudhi Bandia");
+    namesMap.put("XB", "Lafudhi Bidi");
     namesMap.put("YE", "Yemeni");
     namesMap.put("ZA", "Afrika Kusini");
     namesMap.put("ZZ", "Eneo lisilojulikana");
@@ -491,7 +502,7 @@ public class LocalizedNamesImpl_sw extends LocalizedNamesImpl {
         "151": "Ulaya ya Mashariki",
         "154": "Ulaya ya Kaskazini",
         "155": "Ulaya ya Magharibi",
-        "202": "Afrika Kusine mwa Jangwa la Sahara",
+        "202": "Afrika ya Kusini mwa Jangwa la Sahara",
         "419": "Amerika ya Kilatini",
         "AC": "Kisiwa cha Ascension",
         "AE": "Falme za Kiarabu",
@@ -524,11 +535,14 @@ public class LocalizedNamesImpl_sw extends LocalizedNamesImpl {
         "CO": "Kolombia",
         "CP": "Kisiwa cha Clipperton",
         "CR": "Kostarika",
+        "CU": "Kuba",
         "CW": "Curacao",
         "CX": "Kisiwa cha Krismasi",
+        "CY": "Saiprasi",
         "CZ": "Chechia",
         "DE": "Ujerumani",
         "DJ": "Jibuti",
+        "DK": "Denmaki",
         "DM": "Dominika",
         "DO": "Jamhuri ya Dominika",
         "DZ": "Aljeria",
@@ -537,8 +551,10 @@ public class LocalizedNamesImpl_sw extends LocalizedNamesImpl {
         "EH": "Sahara Magharibi",
         "ES": "Uhispania",
         "EU": "Umoja wa Ulaya",
+        "EZ": "Jumuiya ya Ulaya",
         "FI": "Ufini",
         "FK": "Visiwa vya Falkland",
+        "FM": "Mikronesia",
         "FO": "Visiwa vya Faroe",
         "FR": "Ufaransa",
         "GB": "Ufalme wa Muungano",
@@ -572,9 +588,12 @@ public class LocalizedNamesImpl_sw extends LocalizedNamesImpl {
         "LS": "Lesoto",
         "MG": "Madagaska",
         "MH": "Visiwa vya Marshall",
+        "MK": "Masedonia ya Kaskazini",
+        "MO": "Makau SAR China",
         "MP": "Visiwa vya Mariana vya Kaskazini",
         "MR": "Moritania",
         "MU": "Morisi",
+        "MV": "Maldivi",
         "MX": "Meksiko",
         "MY": "Malesia",
         "MZ": "Msumbiji",
@@ -600,8 +619,7 @@ public class LocalizedNamesImpl_sw extends LocalizedNamesImpl {
         "SL": "Siera Leoni",
         "SN": "Senegali",
         "SS": "Sudan Kusini",
-        "ST": "São Tomé na Príncipe",
-        "SZ": "Uswazi",
+        "ST": "Sao Tome na Principe",
         "TC": "Visiwa vya Turks na Caicos",
         "TF": "Himaya za Kusini za Kifaranza",
         "TH": "Tailandi",
@@ -616,7 +634,10 @@ public class LocalizedNamesImpl_sw extends LocalizedNamesImpl {
         "VC": "St. Vincent na Grenadines",
         "VG": "Visiwa vya Virgin, Uingereza",
         "VI": "Visiwa vya Virgin, Marekani",
+        "VN": "Vietnamu",
         "WF": "Wallis na Futuna",
+        "XA": "Lafudhi Bandia",
+        "XB": "Lafudhi Bidi",
         "YE": "Yemeni",
         "ZA": "Afrika Kusini",
         "ZZ": "Eneo lisilojulikana"

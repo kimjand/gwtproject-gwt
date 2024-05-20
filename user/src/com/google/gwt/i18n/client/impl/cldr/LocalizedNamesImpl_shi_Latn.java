@@ -82,6 +82,7 @@ public class LocalizedNamesImpl_shi_Latn extends LocalizedNamesImpl_shi {
         "CL",
         "CN",
         "CP",
+        "CQ",
         "CO",
         "KM",
         "CW",
@@ -173,13 +174,13 @@ public class LocalizedNamesImpl_shi_Latn extends LocalizedNamesImpl_shi {
         "MY",
         "MT",
         "MQ",
-        "MK",
         "YT",
         "ME",
         "MF",
         "FM",
         "MX",
         "EG",
+        "MK",
         "MN",
         "MO",
         "MD",
@@ -420,7 +421,6 @@ public class LocalizedNamesImpl_shi_Latn extends LocalizedNamesImpl_shi {
     namesMap.put("MD", "muldufya");
     namesMap.put("MG", "madaɣacqar");
     namesMap.put("MH", "tigzirin n marcal");
-    namesMap.put("MK", "masidunya");
     namesMap.put("ML", "mali");
     namesMap.put("MM", "myanmar");
     namesMap.put("MN", "mnɣulya");
@@ -653,7 +653,6 @@ public class LocalizedNamesImpl_shi_Latn extends LocalizedNamesImpl_shi {
         "MD": "muldufya",
         "MG": "madaɣacqar",
         "MH": "tigzirin n marcal",
-        "MK": "masidunya",
         "ML": "mali",
         "MM": "myanmar",
         "MN": "mnɣulya",

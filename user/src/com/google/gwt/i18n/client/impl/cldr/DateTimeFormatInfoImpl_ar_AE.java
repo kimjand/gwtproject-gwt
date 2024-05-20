@@ -25,14 +25,4 @@ public class DateTimeFormatInfoImpl_ar_AE extends DateTimeFormatInfoImpl_ar_001 
   public int firstDayOfTheWeek() {
     return 6;
   }
-
-  @Override
-  public int weekendEnd() {
-    return 6;
-  }
-
-  @Override
-  public int weekendStart() {
-    return 5;
-  }
 }

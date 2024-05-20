@@ -75,6 +75,7 @@ public class LocalizedNamesImpl_nus extends LocalizedNamesImpl {
         "CH",
         "CL",
         "CP",
+        "CQ",
         "CU",
         "CW",
         "CX",

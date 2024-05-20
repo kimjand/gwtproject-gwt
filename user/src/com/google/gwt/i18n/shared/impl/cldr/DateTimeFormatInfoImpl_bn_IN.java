@@ -22,6 +22,76 @@ package com.google.gwt.i18n.shared.impl.cldr;
 public class DateTimeFormatInfoImpl_bn_IN extends DateTimeFormatInfoImpl_bn {
 
   @Override
+  public String[] erasFull() {
+    return new String[] {
+        "খ্রিঃপূঃ",
+        "খ্রিষ্টাব্দ"
+    };
+  }
+
+  @Override
+  public String[] erasShort() {
+    return new String[] {
+        "খ্রিঃপূঃ",
+        "খ্রিঃ"
+    };
+  }
+
+  @Override
+  public String[] monthsNarrow() {
+    return new String[] {
+        "জা",
+        "ফে",
+        "মা",
+        "এ",
+        "মে",
+        "জুন",
+        "জুল",
+        "আ",
+        "সে",
+        "অ",
+        "ন",
+        "ডি"
+    };
+  }
+
+  @Override
+  public String[] monthsShort() {
+    return new String[] {
+        "জানু",
+        "ফেব",
+        "মার্চ",
+        "এপ্রি",
+        "মে",
+        "জুন",
+        "জুল",
+        "আগ",
+        "সেপ্টেঃ",
+        "অক্টোঃ",
+        "নভেঃ",
+        "ডিসেঃ"
+    };
+  }
+
+  @Override
+  public String[] monthsShortStandalone() {
+    return new String[] {
+        "জানু",
+        "ফেব",
+        "মার্চ",
+        "এপ্রিল",
+        "মে",
+        "জুন",
+        "জুলাই",
+        "আগস্ট",
+        "সেপ্টেঃ",
+        "অক্টোঃ",
+        "নভেঃ",
+        "ডিসেঃ"
+    };
+  }
+
+  @Override
   public int weekendStart() {
     return 0;
   }

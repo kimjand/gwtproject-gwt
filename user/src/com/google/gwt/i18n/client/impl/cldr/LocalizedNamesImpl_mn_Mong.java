@@ -17,12 +17,7 @@ package com.google.gwt.i18n.client.impl.cldr;
 
 import com.google.gwt.core.client.JavaScriptObject;
 
-// DO NOT EDIT - GENERATED FROM CLDR DATA:
-//  cldrVersion=21.0
-//  number=$Revision: 6177 $
-//  date=$Date: 2011-09-27 11:37:06 -0400 (Tue, 27 Sep 2011) $
-//  type=root
-
+// DO NOT EDIT - GENERATED FROM CLDR DATA
 
 /**
  * Localized names for the "mn_Mong" locale.
@@ -90,6 +85,7 @@ public class LocalizedNamesImpl_mn_Mong extends LocalizedNamesImpl_mn {
         "CN",
         "CO",
         "CP",
+        "CQ",
         "CR",
         "CU",
         "CV",
@@ -113,6 +109,7 @@ public class LocalizedNamesImpl_mn_Mong extends LocalizedNamesImpl_mn {
         "ES",
         "ET",
         "EU",
+        "EZ",
         "FI",
         "FJ",
         "FK",
@@ -279,6 +276,7 @@ public class LocalizedNamesImpl_mn_Mong extends LocalizedNamesImpl_mn {
         "UA",
         "UG",
         "UM",
+        "UN",
         "US",
         "UY",
         "UZ",
@@ -291,6 +289,9 @@ public class LocalizedNamesImpl_mn_Mong extends LocalizedNamesImpl_mn {
         "VU",
         "WF",
         "WS",
+        "XA",
+        "XB",
+        "XK",
         "YE",
         "YT",
         "ZA",

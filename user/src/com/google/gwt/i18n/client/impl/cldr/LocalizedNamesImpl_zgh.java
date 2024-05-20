@@ -42,6 +42,7 @@ public class LocalizedNamesImpl_zgh extends LocalizedNamesImpl {
         "BV",
         "CC",
         "CP",
+        "CQ",
         "CW",
         "CX",
         "DG",
@@ -58,6 +59,7 @@ public class LocalizedNamesImpl_zgh extends LocalizedNamesImpl {
         "IM",
         "JE",
         "MF",
+        "MK",
         "MO",
         "QO",
         "SJ",
@@ -193,7 +195,6 @@ public class LocalizedNamesImpl_zgh extends LocalizedNamesImpl {
         "MY",
         "MT",
         "MQ",
-        "MK",
         "YT",
         "FM",
         "MX",
@@ -428,7 +429,6 @@ public class LocalizedNamesImpl_zgh extends LocalizedNamesImpl {
     namesMap.put("ME", "ⵎⵓⵏⵜⵉⵏⵉⴳⵔⵓ");
     namesMap.put("MG", "ⵎⴰⴷⴰⵖⴰⵛⵇⴰⵔ");
     namesMap.put("MH", "ⵜⵉⴳⵣⵉⵔⵉⵏ ⵏ ⵎⴰⵔⵛⴰⵍ");
-    namesMap.put("MK", "ⵎⴰⵙⵉⴷⵓⵏⵢⴰ");
     namesMap.put("ML", "ⵎⴰⵍⵉ");
     namesMap.put("MM", "ⵎⵢⴰⵏⵎⴰⵔ");
     namesMap.put("MN", "ⵎⵏⵖⵓⵍⵢⴰ");
@@ -664,7 +664,6 @@ public class LocalizedNamesImpl_zgh extends LocalizedNamesImpl {
         "ME": "ⵎⵓⵏⵜⵉⵏⵉⴳⵔⵓ",
         "MG": "ⵎⴰⴷⴰⵖⴰⵛⵇⴰⵔ",
         "MH": "ⵜⵉⴳⵣⵉⵔⵉⵏ ⵏ ⵎⴰⵔⵛⴰⵍ",
-        "MK": "ⵎⴰⵙⵉⴷⵓⵏⵢⴰ",
         "ML": "ⵎⴰⵍⵉ",
         "MM": "ⵎⵢⴰⵏⵎⴰⵔ",
         "MN": "ⵎⵏⵖⵓⵍⵢⴰ",
