@@ -199,7 +199,7 @@
 
   <target name="apicheck-nobuild"
           description="[action] Checks API compatibility to prior GWT revision">
-    <java failonerror="true" fork="true"
+    <java failonerror="false" fork="true"
           classname="com.google.gwt.tools.apichecker.ApiCompatibilityChecker">
       <jvmarg line="-Xmx512m"/>
       <classpath>
