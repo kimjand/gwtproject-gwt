@@ -35,6 +35,11 @@ public class DefaultDateTimeFormatInfo implements DateTimeFormatInfo {
   }
 
   @Override
+  public String dateFormat() {
+    return dateFormatMedium();
+  }
+
+  @Override
   public String dateFormatFull() {
     return "y MMMM d, EEEE";
   }
@@ -52,6 +57,11 @@ public class DefaultDateTimeFormatInfo implements DateTimeFormatInfo {
   @Override
   public String dateFormatShort() {
     return "y-MM-dd";
+  }
+
+  @Override
+  public String dateTime(String timePattern, String datePattern) {
+    return dateTimeMedium(timePattern, datePattern);
   }
 
   @Override
@@ -292,6 +302,11 @@ public class DefaultDateTimeFormatInfo implements DateTimeFormatInfo {
         "Q3",
         "Q4"
     };
+  }
+
+  @Override
+  public String timeFormat() {
+    return timeFormatMedium();
   }
 
   @Override
