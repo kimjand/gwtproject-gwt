@@ -9,16 +9,17 @@
   <property.ensure name="gwt.servlet.jar" location="${gwt.build.lib}/gwt-servlet.jar" />
 
   <condition property="CLDR_TOOLS" value="${env.CLDR_ROOT}/tools/java"
-      else="${gwt.tools}/lib/cldr/25">
+      else="${gwt.tools}/lib/cldr/45">
     <isset property="env.CLDR_ROOT" />
   </condition>
 
   <condition property="ICU" value="${env.CLDR_ROOT}/tools/java/libs"
-      else="${gwt.tools}/lib/cldr/25">
+      else="${gwt.tools}/lib/icu4j/75.1">
     <isset property="env.CLDR_ROOT" />
   </condition>
 
-  <property.ensure name="ICU_CORE_PATH" location="${ICU}/icu4j.jar" />
+  <property name="ICU_JAR" value="icu4j-75.1.jar" />
+  <property.ensure name="ICU_CORE_PATH" location="${ICU}/${ICU_JAR}" />
 
   <condition property="cldr.root" value="${env.CLDR_ROOT}"
       else="${gwt.root}/../CLDR">
@@ -35,10 +36,12 @@
     <isset property="env.CLDR_TEMP" />
   </condition>
 
+  <property name="CLDR_JAR" value="cldr-code-0.0.0-SNAPSHOT-dd5776f650.jar" />
+
   <path id="project.class.path">
-    <pathelement location="${CLDR_TOOLS}/cldr.jar"/>
-    <pathelement location="${ICU}/icu4j.jar"/>
-    <pathelement location="${ICU}/utilities.jar"/>
+    <pathelement location="${CLDR_TOOLS}/${CLDR_JAR}"/>
+    <pathelement location="${ICU}/${ICU_JAR}"/>
+    <pathelement location="${ICU}/utilities-for-cldr-75.1.jar"/>
     <pathelement location="${gwt.user.jar}"/>
     <pathelement location="${gwt.dev.jar}"/>
   </path>
@@ -100,8 +103,8 @@
   </target>
 
   <target name="cldrjar" description="Verifies CLDR has been compiled">
-    <property.ensure name="cldr.jar" location="${CLDR_TOOLS}/cldr.jar"
-      message="${CLDR_TOOLS}/cldr.jar missing (maybe you should run 'ant jar' on ${CLDR_TOOLS})" />
+    <property.ensure name="cldr.jar" location="${CLDR_TOOLS}/${CLDR_JAR}"
+      message="${CLDR_TOOLS}/${CLDR_JAR} missing (maybe you should run 'ant jar' on ${CLDR_TOOLS})" />
   </target>
 
   <target name="gen.temp" depends="cldrjar, cldrdata, clean, build"
@@ -115,6 +118,7 @@
       <classpath>
         <pathelement location="${javac.out}"/>
         <path refid="project.class.path"/>
+        <pathelement path="${gwt.tools.lib}/guava/guava-32.1.1-jre/*"/>
       </classpath>
     </java>
   </target>
@@ -128,6 +132,7 @@
       <classpath>
         <pathelement location="${javac.out}"/>
         <path refid="project.class.path"/>
+        <pathelement path="${gwt.tools.lib}/guava/guava-32.1.1-jre/*"/>
       </classpath>
     </java>
   </target>
