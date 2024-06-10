@@ -22,14 +22,6 @@ package com.google.gwt.i18n.shared.impl.cldr;
 public class DateTimeFormatInfoImpl_sr_Latn extends DateTimeFormatInfoImpl_sr {
 
   @Override
-  public String[] ampms() {
-    return new String[] {
-        "pre podne",
-        "po podne"
-    };
-  }
-
-  @Override
   public String[] erasFull() {
     return new String[] {
         "pre nove ere",
@@ -112,10 +104,10 @@ public class DateTimeFormatInfoImpl_sr_Latn extends DateTimeFormatInfoImpl_sr {
   @Override
   public String[] quartersShort() {
     return new String[] {
-        "K1",
-        "K2",
-        "K3",
-        "K4"
+        "1. kv.",
+        "2. kv.",
+        "3. kv.",
+        "4. kv."
     };
   }
 

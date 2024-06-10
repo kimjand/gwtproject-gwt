@@ -14,12 +14,7 @@
  * the License.
  */
 package com.google.gwt.i18n.shared.impl.cldr;
-
 // DO NOT EDIT - GENERATED FROM CLDR AND ICU DATA
-//  cldrVersion=21.0
-//  number=$Revision: 5953 $
-//  date=$Date: 2011-07-04 19:22:55 -0400 (Mon, 04 Jul 2011) $
-//  type=root
 
 /**
  * Implementation of DateTimeFormatInfo for the "en_Shaw" locale.
@@ -32,6 +27,46 @@ public class DateTimeFormatInfoImpl_en_Shaw extends DateTimeFormatInfoImpl_en {
         "𐑨𐑥",
         "𐑐𐑥"
     };
+  }
+
+  @Override
+  public String dateFormatFull() {
+    return "y MMMM d, EEEE";
+  }
+
+  @Override
+  public String dateFormatLong() {
+    return "y MMMM d";
+  }
+
+  @Override
+  public String dateFormatMedium() {
+    return "y MMM d";
+  }
+
+  @Override
+  public String dateFormatShort() {
+    return "y-MM-dd";
+  }
+
+  @Override
+  public String dateTimeFull(String timePattern, String datePattern) {
+    return datePattern + " " + timePattern;
+  }
+
+  @Override
+  public String dateTimeLong(String timePattern, String datePattern) {
+    return datePattern + " " + timePattern;
+  }
+
+  @Override
+  public String dateTimeMedium(String timePattern, String datePattern) {
+    return datePattern + " " + timePattern;
+  }
+
+  @Override
+  public String dateTimeShort(String timePattern, String datePattern) {
+    return datePattern + " " + timePattern;
   }
 
   @Override
@@ -127,6 +162,26 @@ public class DateTimeFormatInfoImpl_en_Shaw extends DateTimeFormatInfoImpl_en {
         "𐑒3",
         "𐑒4"
     };
+  }
+
+  @Override
+  public String timeFormatFull() {
+    return "HH:mm:ss zzzz";
+  }
+
+  @Override
+  public String timeFormatLong() {
+    return "HH:mm:ss z";
+  }
+
+  @Override
+  public String timeFormatMedium() {
+    return "HH:mm:ss";
+  }
+
+  @Override
+  public String timeFormatShort() {
+    return "HH:mm";
   }
 
   @Override

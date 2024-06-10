@@ -27,8 +27,7 @@ public class LocalizedNamesImpl_zh_Hant_HK extends LocalizedNamesImpl_zh_Hant {
   @Override
   public String[] loadSortedRegionCodes() {
     return new String[] {
-        "XA",
-        "XB",
+        "CQ",
         "YE",
         "TT",
         "TR",
@@ -63,6 +62,7 @@ public class LocalizedNamesImpl_zh_Hant_HK extends LocalizedNamesImpl_zh_Hant {
         "GH",
         "GA",
         "MP",
+        "MK",
         "KP",
         "QA",
         "CU",
@@ -203,13 +203,14 @@ public class LocalizedNamesImpl_zh_Hant_HK extends LocalizedNamesImpl_zh_Hant {
         "MT",
         "ML",
         "MY",
-        "MK",
         "MW",
         "YT",
         "IM",
         "MH",
         "MG",
         "MV",
+        "XB",
+        "XA",
         "FM",
         "CZ",
         "SY",
@@ -230,6 +231,7 @@ public class LocalizedNamesImpl_zh_Hant_HK extends LocalizedNamesImpl_zh_Hant {
         "SK",
         "CL",
         "TO",
+        "LS",
         "PH",
         "VN",
         "KY",
@@ -279,7 +281,6 @@ public class LocalizedNamesImpl_zh_Hant_HK extends LocalizedNamesImpl_zh_Hant {
         "RW",
         "LU",
         "NF",
-        "LS",
         "BV",
         "UN",
         "SV",
@@ -343,6 +344,7 @@ public class LocalizedNamesImpl_zh_Hant_HK extends LocalizedNamesImpl_zh_Hant {
     namesMap.put("LC", "聖盧西亞");
     namesMap.put("LI", "列支敦士登");
     namesMap.put("LR", "利比里亞");
+    namesMap.put("LS", "萊索托");
     namesMap.put("ME", "黑山");
     namesMap.put("ML", "馬里");
     namesMap.put("MR", "毛里塔尼亞");
@@ -356,7 +358,7 @@ public class LocalizedNamesImpl_zh_Hant_HK extends LocalizedNamesImpl_zh_Hant {
     namesMap.put("NG", "尼日利亞");
     namesMap.put("NR", "瑙魯");
     namesMap.put("PF", "法屬波利尼西亞");
-    namesMap.put("PG", "巴布亞新幾內亞");
+    namesMap.put("PG", "巴布亞新畿內亞");
     namesMap.put("PN", "皮特凱恩島");
     namesMap.put("PS", "巴勒斯坦領土");
     namesMap.put("QA", "卡塔爾");
@@ -367,6 +369,7 @@ public class LocalizedNamesImpl_zh_Hant_HK extends LocalizedNamesImpl_zh_Hant {
     namesMap.put("SI", "斯洛文尼亞");
     namesMap.put("SJ", "斯瓦爾巴特群島及揚馬延島");
     namesMap.put("SL", "塞拉利昂");
+    namesMap.put("SM", "聖馬力諾");
     namesMap.put("SO", "索馬里");
     namesMap.put("SR", "蘇里南");
     namesMap.put("ST", "聖多美和普林西比");
@@ -374,7 +377,6 @@ public class LocalizedNamesImpl_zh_Hant_HK extends LocalizedNamesImpl_zh_Hant {
     namesMap.put("TC", "特克斯和凱科斯群島");
     namesMap.put("TD", "乍得");
     namesMap.put("TF", "法屬南部領地");
-    namesMap.put("TG", "多哥共和國");
     namesMap.put("TO", "湯加");
     namesMap.put("TT", "千里達和多巴哥");
     namesMap.put("TV", "圖瓦盧");
@@ -444,6 +446,7 @@ public class LocalizedNamesImpl_zh_Hant_HK extends LocalizedNamesImpl_zh_Hant {
         "LC": "聖盧西亞",
         "LI": "列支敦士登",
         "LR": "利比里亞",
+        "LS": "萊索托",
         "ME": "黑山",
         "ML": "馬里",
         "MR": "毛里塔尼亞",
@@ -457,7 +460,7 @@ public class LocalizedNamesImpl_zh_Hant_HK extends LocalizedNamesImpl_zh_Hant {
         "NG": "尼日利亞",
         "NR": "瑙魯",
         "PF": "法屬波利尼西亞",
-        "PG": "巴布亞新幾內亞",
+        "PG": "巴布亞新畿內亞",
         "PN": "皮特凱恩島",
         "PS": "巴勒斯坦領土",
         "QA": "卡塔爾",
@@ -468,6 +471,7 @@ public class LocalizedNamesImpl_zh_Hant_HK extends LocalizedNamesImpl_zh_Hant {
         "SI": "斯洛文尼亞",
         "SJ": "斯瓦爾巴特群島及揚馬延島",
         "SL": "塞拉利昂",
+        "SM": "聖馬力諾",
         "SO": "索馬里",
         "SR": "蘇里南",
         "ST": "聖多美和普林西比",
@@ -475,7 +479,6 @@ public class LocalizedNamesImpl_zh_Hant_HK extends LocalizedNamesImpl_zh_Hant {
         "TC": "特克斯和凱科斯群島",
         "TD": "乍得",
         "TF": "法屬南部領地",
-        "TG": "多哥共和國",
         "TO": "湯加",
         "TT": "千里達和多巴哥",
         "TV": "圖瓦盧",

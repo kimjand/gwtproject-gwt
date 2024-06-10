@@ -79,6 +79,7 @@ public class LocalizedNamesImpl_fr_CA extends LocalizedNamesImpl_fr {
         "KR",
         "CR",
         "CI",
+        "CQ",
         "HR",
         "CU",
         "CW",
@@ -92,6 +93,7 @@ public class LocalizedNamesImpl_fr_CA extends LocalizedNamesImpl_fr {
         "ER",
         "ES",
         "EE",
+        "SZ",
         "US",
         "ET",
         "FJ",
@@ -217,6 +219,8 @@ public class LocalizedNamesImpl_fr_CA extends LocalizedNamesImpl_fr {
         "PF",
         "PR",
         "PT",
+        "XA",
+        "XB",
         "QA",
         "HK",
         "MO",
@@ -228,9 +232,9 @@ public class LocalizedNamesImpl_fr_CA extends LocalizedNamesImpl_fr {
         "RW",
         "EH",
         "BL",
-        "KN",
         "SH",
         "LC",
+        "KN",
         "SM",
         "MF",
         "SX",
@@ -255,7 +259,6 @@ public class LocalizedNamesImpl_fr_CA extends LocalizedNamesImpl_fr {
         "CH",
         "SR",
         "SJ",
-        "SZ",
         "SY",
         "TJ",
         "TW",
@@ -283,8 +286,6 @@ public class LocalizedNamesImpl_fr_CA extends LocalizedNamesImpl_fr {
         "VE",
         "VN",
         "WF",
-        "XA",
-        "XB",
         "YE",
         "ZM",
         "ZW",
@@ -303,23 +304,26 @@ public class LocalizedNamesImpl_fr_CA extends LocalizedNamesImpl_fr {
     namesMap.put("155", "Europe occidentale");
     namesMap.put("AC", "île de l’Ascension");
     namesMap.put("AX", "îles d’Åland");
-    namesMap.put("BN", "Brunei");
+    namesMap.put("BN", "Brunéi");
     namesMap.put("BV", "île Bouvet");
     namesMap.put("BY", "Bélarus");
+    namesMap.put("BZ", "Bélize");
     namesMap.put("CC", "îles Cocos (Keeling)");
     namesMap.put("CK", "îles Cook");
     namesMap.put("CX", "île Christmas");
     namesMap.put("FK", "îles Malouines");
-    namesMap.put("FM", "Micronésie");
     namesMap.put("FO", "îles Féroé");
     namesMap.put("HM", "îles Heard et McDonald");
     namesMap.put("IC", "îles Canaries");
     namesMap.put("IM", "île de Man");
-    namesMap.put("IO", "territoire britannique de l’océan Indien");
+    namesMap.put("KG", "Kirghizistan");
+    namesMap.put("KN", "Saint‑Kitts‑et‑Nevis");
+    namesMap.put("LR", "Libéria");
     namesMap.put("MF", "Saint-Martin (France)");
     namesMap.put("MM", "Myanmar");
     namesMap.put("MP", "Mariannes du Nord");
     namesMap.put("NF", "île Norfolk");
+    namesMap.put("NG", "Nigéria");
     namesMap.put("PN", "îles Pitcairn");
     namesMap.put("QO", "Océanie lointaine");
     namesMap.put("RE", "la Réunion");
@@ -327,9 +331,10 @@ public class LocalizedNamesImpl_fr_CA extends LocalizedNamesImpl_fr {
     namesMap.put("TL", "Timor-Leste");
     namesMap.put("UM", "îles mineures éloignées des États-Unis");
     namesMap.put("VA", "Cité du Vatican");
-    namesMap.put("VC", "Saint-Vincent-et-les Grenadines");
+    namesMap.put("VE", "Vénézuéla");
     namesMap.put("VG", "îles Vierges britanniques");
     namesMap.put("VI", "îles Vierges américaines");
+    namesMap.put("VN", "Vietnam");
   }
 
   @Override
@@ -347,23 +352,26 @@ public class LocalizedNamesImpl_fr_CA extends LocalizedNamesImpl_fr {
         "155": "Europe occidentale",
         "AC": "île de l’Ascension",
         "AX": "îles d’Åland",
-        "BN": "Brunei",
+        "BN": "Brunéi",
         "BV": "île Bouvet",
         "BY": "Bélarus",
+        "BZ": "Bélize",
         "CC": "îles Cocos (Keeling)",
         "CK": "îles Cook",
         "CX": "île Christmas",
         "FK": "îles Malouines",
-        "FM": "Micronésie",
         "FO": "îles Féroé",
         "HM": "îles Heard et McDonald",
         "IC": "îles Canaries",
         "IM": "île de Man",
-        "IO": "territoire britannique de l’océan Indien",
+        "KG": "Kirghizistan",
+        "KN": "Saint‑Kitts‑et‑Nevis",
+        "LR": "Libéria",
         "MF": "Saint-Martin (France)",
         "MM": "Myanmar",
         "MP": "Mariannes du Nord",
         "NF": "île Norfolk",
+        "NG": "Nigéria",
         "PN": "îles Pitcairn",
         "QO": "Océanie lointaine",
         "RE": "la Réunion",
@@ -371,9 +379,10 @@ public class LocalizedNamesImpl_fr_CA extends LocalizedNamesImpl_fr {
         "TL": "Timor-Leste",
         "UM": "îles mineures éloignées des États-Unis",
         "VA": "Cité du Vatican",
-        "VC": "Saint-Vincent-et-les Grenadines",
+        "VE": "Vénézuéla",
         "VG": "îles Vierges britanniques",
-        "VI": "îles Vierges américaines"
+        "VI": "îles Vierges américaines",
+        "VN": "Vietnam"
     };
   }-*/;
 }

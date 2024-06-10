@@ -72,6 +72,7 @@ public class LocalizedNamesImpl_wae extends LocalizedNamesImpl {
         "CP",
         "CK",
         "CR",
+        "CQ",
         "CW",
         "DK",
         "DG",
@@ -170,9 +171,9 @@ public class LocalizedNamesImpl_wae extends LocalizedNamesImpl {
         "MQ",
         "MR",
         "MU",
-        "MK",
         "MX",
         "FM",
+        "MK",
         "MD",
         "MC",
         "MN",
@@ -428,7 +429,6 @@ public class LocalizedNamesImpl_wae extends LocalizedNamesImpl {
     namesMap.put("MD", "Moldau");
     namesMap.put("MG", "Madagaskar");
     namesMap.put("MH", "Maršalinslä");
-    namesMap.put("MK", "Mazedonie");
     namesMap.put("MM", "Burma");
     namesMap.put("MN", "Mongolei");
     namesMap.put("MO", "Sonderverwaltigszona Makau");
@@ -636,7 +636,6 @@ public class LocalizedNamesImpl_wae extends LocalizedNamesImpl {
         "MD": "Moldau",
         "MG": "Madagaskar",
         "MH": "Maršalinslä",
-        "MK": "Mazedonie",
         "MM": "Burma",
         "MN": "Mongolei",
         "MO": "Sonderverwaltigszona Makau",

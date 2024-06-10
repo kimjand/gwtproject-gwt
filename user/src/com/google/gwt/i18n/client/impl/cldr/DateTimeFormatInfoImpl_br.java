@@ -51,12 +51,12 @@ public class DateTimeFormatInfoImpl_br extends DateTimeFormatInfoImpl {
 
   @Override
   public String dateTimeFull(String timePattern, String datePattern) {
-    return datePattern + " 'da' " + timePattern;
+    return datePattern + ", " + timePattern;
   }
 
   @Override
   public String dateTimeLong(String timePattern, String datePattern) {
-    return datePattern + " 'da' " + timePattern;
+    return datePattern + ", " + timePattern;
   }
 
   @Override
@@ -78,6 +78,16 @@ public class DateTimeFormatInfoImpl_br extends DateTimeFormatInfoImpl {
         "a-raok J.K.",
         "goude J.K."
     };
+  }
+
+  @Override
+  public String formatHour12Minute() {
+    return "h:mm a";
+  }
+
+  @Override
+  public String formatHour12MinuteSecond() {
+    return "h:mm:ss a";
   }
 
   @Override

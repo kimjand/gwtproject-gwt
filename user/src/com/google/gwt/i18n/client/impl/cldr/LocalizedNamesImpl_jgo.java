@@ -67,6 +67,7 @@ public class LocalizedNamesImpl_jgo extends LocalizedNamesImpl {
         "CL",
         "CK",
         "CP",
+        "CQ",
         "CR",
         "CV",
         "CW",

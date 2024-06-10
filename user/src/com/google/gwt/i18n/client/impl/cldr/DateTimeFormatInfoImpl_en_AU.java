@@ -22,18 +22,41 @@ package com.google.gwt.i18n.client.impl.cldr;
 public class DateTimeFormatInfoImpl_en_AU extends DateTimeFormatInfoImpl_en_001 {
 
   @Override
+  public String dateFormatFull() {
+    return "EEEE d MMMM y";
+  }
+
+  @Override
   public String dateFormatShort() {
     return "d/M/yy";
   }
 
   @Override
-  public int firstDayOfTheWeek() {
-    return 0;
+  public String formatMonthFullWeekdayDay() {
+    return "EEEE d MMMM";
   }
 
   @Override
   public String formatMonthNumDay() {
     return "d/M";
+  }
+
+  @Override
+  public String[] monthsShort() {
+    return new String[] {
+        "Jan",
+        "Feb",
+        "Mar",
+        "Apr",
+        "May",
+        "June",
+        "July",
+        "Aug",
+        "Sept",
+        "Oct",
+        "Nov",
+        "Dec"
+    };
   }
 
   @Override

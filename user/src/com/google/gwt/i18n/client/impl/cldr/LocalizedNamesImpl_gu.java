@@ -34,8 +34,7 @@ public class LocalizedNamesImpl_gu extends LocalizedNamesImpl {
   @Override
   public String[] loadSortedRegionCodes() {
     return new String[] {
-        "XA",
-        "XB",
+        "CQ",
         "AO",
         "AZ",
         "AF",
@@ -59,6 +58,7 @@ public class LocalizedNamesImpl_gu extends LocalizedNamesImpl {
         "IR",
         "UZ",
         "KP",
+        "MK",
         "MP",
         "UY",
         "AI",
@@ -70,6 +70,7 @@ public class LocalizedNamesImpl_gu extends LocalizedNamesImpl {
         "SV",
         "AC",
         "EE",
+        "SZ",
         "AX",
         "AT",
         "AU",
@@ -219,7 +220,6 @@ public class LocalizedNamesImpl_gu extends LocalizedNamesImpl {
         "MX",
         "MG",
         "YT",
-        "MK",
         "ME",
         "MS",
         "MZ",
@@ -285,9 +285,10 @@ public class LocalizedNamesImpl_gu extends LocalizedNamesImpl {
         "SB",
         "ES",
         "EA",
+        "XA",
+        "XB",
         "SK",
         "SI",
-        "SZ",
         "SJ",
         "CH",
         "SE",
@@ -483,7 +484,7 @@ public class LocalizedNamesImpl_gu extends LocalizedNamesImpl {
     namesMap.put("MF", "સેંટ માર્ટિન");
     namesMap.put("MG", "મેડાગાસ્કર");
     namesMap.put("MH", "માર્શલ આઇલેન્ડ્સ");
-    namesMap.put("MK", "મેસેડોનિયા");
+    namesMap.put("MK", "ઉત્તર મેસેડોનિયા");
     namesMap.put("ML", "માલી");
     namesMap.put("MM", "મ્યાંમાર (બર્મા)");
     namesMap.put("MN", "મંગોલિયા");
@@ -553,7 +554,7 @@ public class LocalizedNamesImpl_gu extends LocalizedNamesImpl {
     namesMap.put("SV", "એલ સેલ્વાડોર");
     namesMap.put("SX", "સિંટ માર્ટેન");
     namesMap.put("SY", "સીરિયા");
-    namesMap.put("SZ", "સ્વાઝિલેન્ડ");
+    namesMap.put("SZ", "એસ્વાટીની");
     namesMap.put("TA", "ત્રિસ્તાન દા કુન્હા");
     namesMap.put("TC", "તુર્ક્સ અને કેકોઝ આઇલેન્ડ્સ");
     namesMap.put("TD", "ચાડ");
@@ -566,7 +567,7 @@ public class LocalizedNamesImpl_gu extends LocalizedNamesImpl {
     namesMap.put("TM", "તુર્કમેનિસ્તાન");
     namesMap.put("TN", "ટ્યુનિશિયા");
     namesMap.put("TO", "ટોંગા");
-    namesMap.put("TR", "તુર્કી");
+    namesMap.put("TR", "તુર્કિયે");
     namesMap.put("TT", "ટ્રિનીદાદ અને ટોબેગો");
     namesMap.put("TV", "તુવાલુ");
     namesMap.put("TW", "તાઇવાન");
@@ -587,6 +588,8 @@ public class LocalizedNamesImpl_gu extends LocalizedNamesImpl {
     namesMap.put("VU", "વાનુઆતુ");
     namesMap.put("WF", "વૉલિસ અને ફ્યુચુના");
     namesMap.put("WS", "સમોઆ");
+    namesMap.put("XA", "સ્યુડો-ઍક્સન્ટ");
+    namesMap.put("XB", "સ્યુડો-દ્વિદિશ");
     namesMap.put("XK", "કોસોવો");
     namesMap.put("YE", "યમન");
     namesMap.put("YT", "મેયોટ");
@@ -784,7 +787,7 @@ public class LocalizedNamesImpl_gu extends LocalizedNamesImpl {
         "MF": "સેંટ માર્ટિન",
         "MG": "મેડાગાસ્કર",
         "MH": "માર્શલ આઇલેન્ડ્સ",
-        "MK": "મેસેડોનિયા",
+        "MK": "ઉત્તર મેસેડોનિયા",
         "ML": "માલી",
         "MM": "મ્યાંમાર (બર્મા)",
         "MN": "મંગોલિયા",
@@ -854,7 +857,7 @@ public class LocalizedNamesImpl_gu extends LocalizedNamesImpl {
         "SV": "એલ સેલ્વાડોર",
         "SX": "સિંટ માર્ટેન",
         "SY": "સીરિયા",
-        "SZ": "સ્વાઝિલેન્ડ",
+        "SZ": "એસ્વાટીની",
         "TA": "ત્રિસ્તાન દા કુન્હા",
         "TC": "તુર્ક્સ અને કેકોઝ આઇલેન્ડ્સ",
         "TD": "ચાડ",
@@ -867,7 +870,7 @@ public class LocalizedNamesImpl_gu extends LocalizedNamesImpl {
         "TM": "તુર્કમેનિસ્તાન",
         "TN": "ટ્યુનિશિયા",
         "TO": "ટોંગા",
-        "TR": "તુર્કી",
+        "TR": "તુર્કિયે",
         "TT": "ટ્રિનીદાદ અને ટોબેગો",
         "TV": "તુવાલુ",
         "TW": "તાઇવાન",
@@ -888,6 +891,8 @@ public class LocalizedNamesImpl_gu extends LocalizedNamesImpl {
         "VU": "વાનુઆતુ",
         "WF": "વૉલિસ અને ફ્યુચુના",
         "WS": "સમોઆ",
+        "XA": "સ્યુડો-ઍક્સન્ટ",
+        "XB": "સ્યુડો-દ્વિદિશ",
         "XK": "કોસોવો",
         "YE": "યમન",
         "YT": "મેયોટ",

@@ -27,8 +27,7 @@ public class LocalizedNamesImpl_ky extends LocalizedNamesImpl {
   @Override
   public String[] loadSortedRegionCodes() {
     return new String[] {
-        "XA",
-        "XB",
+        "CQ",
         "UM",
         "AU",
         "AT",
@@ -105,6 +104,8 @@ public class LocalizedNamesImpl_ky extends LocalizedNamesImpl {
         "EZ",
         "EU",
         "EG",
+        "XA",
+        "XB",
         "NZ",
         "NC",
         "JE",
@@ -164,7 +165,6 @@ public class LocalizedNamesImpl_ky extends LocalizedNamesImpl {
         "MG",
         "YT",
         "MO",
-        "MK",
         "MW",
         "MY",
         "ML",
@@ -248,6 +248,7 @@ public class LocalizedNamesImpl_ky extends LocalizedNamesImpl {
         "TV",
         "TN",
         "KP",
+        "MK",
         "MP",
         "TR",
         "TM",
@@ -476,11 +477,11 @@ public class LocalizedNamesImpl_ky extends LocalizedNamesImpl {
     namesMap.put("MF", "Сент-Мартин");
     namesMap.put("MG", "Мадагаскар");
     namesMap.put("MH", "Маршалл аралдары");
-    namesMap.put("MK", "Македония");
+    namesMap.put("MK", "Түндүк Македония");
     namesMap.put("ML", "Мали");
     namesMap.put("MM", "Мьянма (Бирма)");
     namesMap.put("MN", "Монголия");
-    namesMap.put("MO", "Макау Кытай ААА");
+    namesMap.put("MO", "Макао Кытай ААА");
     namesMap.put("MP", "Түндүк Мариана аралдары");
     namesMap.put("MQ", "Мартиника");
     namesMap.put("MR", "Мавритания");
@@ -580,6 +581,8 @@ public class LocalizedNamesImpl_ky extends LocalizedNamesImpl {
     namesMap.put("VU", "Вануату");
     namesMap.put("WF", "Уоллис жана Футуна");
     namesMap.put("WS", "Самоа");
+    namesMap.put("XA", "Жасалма- Акцент");
+    namesMap.put("XB", "Жасалма - эки тараптуу");
     namesMap.put("XK", "Косово");
     namesMap.put("YE", "Йемен");
     namesMap.put("YT", "Майотта");
@@ -777,11 +780,11 @@ public class LocalizedNamesImpl_ky extends LocalizedNamesImpl {
         "MF": "Сент-Мартин",
         "MG": "Мадагаскар",
         "MH": "Маршалл аралдары",
-        "MK": "Македония",
+        "MK": "Түндүк Македония",
         "ML": "Мали",
         "MM": "Мьянма (Бирма)",
         "MN": "Монголия",
-        "MO": "Макау Кытай ААА",
+        "MO": "Макао Кытай ААА",
         "MP": "Түндүк Мариана аралдары",
         "MQ": "Мартиника",
         "MR": "Мавритания",
@@ -881,6 +884,8 @@ public class LocalizedNamesImpl_ky extends LocalizedNamesImpl {
         "VU": "Вануату",
         "WF": "Уоллис жана Футуна",
         "WS": "Самоа",
+        "XA": "Жасалма- Акцент",
+        "XB": "Жасалма - эки тараптуу",
         "XK": "Косово",
         "YE": "Йемен",
         "YT": "Майотта",

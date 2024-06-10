@@ -50,58 +50,23 @@ public class DateTimeFormatInfoImpl_prg extends DateTimeFormatInfoImpl {
   }
 
   @Override
-  public String formatMonthFullWeekdayDay() {
-    return "EEEE, MMMM d";
+  public String formatHour12Minute() {
+    return "h:mm a";
   }
 
   @Override
-  public String formatMonthNumDay() {
-    return "M/d";
-  }
-
-  @Override
-  public String formatYearMonthAbbrev() {
-    return "MMM y";
+  public String formatHour12MinuteSecond() {
+    return "h:mm:ss a";
   }
 
   @Override
   public String formatYearMonthAbbrevDay() {
-    return "MMM d, y";
-  }
-
-  @Override
-  public String formatYearMonthFull() {
-    return "MMMM y";
-  }
-
-  @Override
-  public String formatYearMonthFullDay() {
-    return "MMMM d, y";
-  }
-
-  @Override
-  public String formatYearMonthNum() {
-    return "M/y";
+    return "dd.MM 'st'. y";
   }
 
   @Override
   public String formatYearMonthNumDay() {
-    return "M/d/y";
-  }
-
-  @Override
-  public String formatYearMonthWeekdayDay() {
-    return "EEE, MMM d, y";
-  }
-
-  @Override
-  public String formatYearQuarterFull() {
-    return "QQQQ y";
-  }
-
-  @Override
-  public String formatYearQuarterShort() {
-    return "Q y";
+    return "d.M.y";
   }
 
   @Override

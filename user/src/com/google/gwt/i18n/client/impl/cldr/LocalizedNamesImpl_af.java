@@ -74,11 +74,13 @@ public class LocalizedNamesImpl_af extends LocalizedNamesImpl {
         "BI",
         "EA",
         "CL",
+        "CN",
         "CP",
         "CO",
         "KM",
         "CK",
         "CR",
+        "CQ",
         "CW",
         "CD",
         "DK",
@@ -94,6 +96,7 @@ public class LocalizedNamesImpl_af extends LocalizedNamesImpl {
         "SV",
         "ER",
         "EE",
+        "SZ",
         "ET",
         "EU",
         "EZ",
@@ -169,7 +172,6 @@ public class LocalizedNamesImpl_af extends LocalizedNamesImpl {
         "LT",
         "LU",
         "MO",
-        "MK",
         "MG",
         "MW",
         "MV",
@@ -202,6 +204,7 @@ public class LocalizedNamesImpl_af extends LocalizedNamesImpl {
         "NG",
         "NU",
         "KP",
+        "MK",
         "MP",
         "NO",
         "NF",
@@ -220,6 +223,8 @@ public class LocalizedNamesImpl_af extends LocalizedNamesImpl {
         "PN",
         "PL",
         "PT",
+        "XA",
+        "XB",
         "PR",
         "RE",
         "RO",
@@ -246,20 +251,18 @@ public class LocalizedNamesImpl_af extends LocalizedNamesImpl {
         "VC",
         "CY",
         "SY",
-        "CN",
         "SK",
         "SI",
         "SD",
         "SO",
         "ES",
+        "SJ",
         "LK",
         "ZA",
         "GS",
         "KR",
         "SS",
         "SR",
-        "SJ",
-        "SZ",
         "SE",
         "CH",
         "TJ",
@@ -291,8 +294,6 @@ public class LocalizedNamesImpl_af extends LocalizedNamesImpl {
         "VI",
         "WF",
         "EH",
-        "XA",
-        "XB",
         "IS",
         "ZM",
         "ZW",
@@ -368,7 +369,6 @@ public class LocalizedNamesImpl_af extends LocalizedNamesImpl {
     namesMap.put("CK", "Cookeilande");
     namesMap.put("CL", "Chili");
     namesMap.put("CM", "Kameroen");
-    namesMap.put("CN", "Sjina");
     namesMap.put("CO", "Colombië");
     namesMap.put("CP", "Clippertoneiland");
     namesMap.put("CU", "Kuba");
@@ -405,7 +405,7 @@ public class LocalizedNamesImpl_af extends LocalizedNamesImpl {
     namesMap.put("GR", "Griekeland");
     namesMap.put("GS", "Suid-Georgië en die Suidelike Sandwicheilande");
     namesMap.put("GW", "Guinee-Bissau");
-    namesMap.put("HK", "Hongkong SAS Sjina");
+    namesMap.put("HK", "Hongkong SAS China");
     namesMap.put("HM", "Heardeiland en McDonaldeilande");
     namesMap.put("HR", "Kroasië");
     namesMap.put("HT", "Haïti");
@@ -443,10 +443,10 @@ public class LocalizedNamesImpl_af extends LocalizedNamesImpl {
     namesMap.put("MF", "Sint Martin");
     namesMap.put("MG", "Madagaskar");
     namesMap.put("MH", "Marshalleilande");
-    namesMap.put("MK", "Macedonië");
+    namesMap.put("MK", "Noord-Macedonië");
     namesMap.put("MM", "Mianmar (Birma)");
     namesMap.put("MN", "Mongolië");
-    namesMap.put("MO", "Macau SAS Sjina");
+    namesMap.put("MO", "Macau SAS China");
     namesMap.put("MP", "Noord-Mariane-eilande");
     namesMap.put("MR", "Mauritanië");
     namesMap.put("MV", "Maledive");
@@ -466,7 +466,7 @@ public class LocalizedNamesImpl_af extends LocalizedNamesImpl {
     namesMap.put("PL", "Pole");
     namesMap.put("PM", "Sint Pierre en Miquelon");
     namesMap.put("PN", "Pitcairneilande");
-    namesMap.put("PS", "Palestynse gebiede");
+    namesMap.put("PS", "Palestynse Grondgebiede");
     namesMap.put("QA", "Katar");
     namesMap.put("QO", "Afgeleë Oseanië");
     namesMap.put("RO", "Roemenië");
@@ -480,7 +480,7 @@ public class LocalizedNamesImpl_af extends LocalizedNamesImpl {
     namesMap.put("SG", "Singapoer");
     namesMap.put("SH", "Sint Helena");
     namesMap.put("SI", "Slowenië");
-    namesMap.put("SJ", "Svalbard en Jan Mayen");
+    namesMap.put("SJ", "Spitsbergen en Jan Mayen");
     namesMap.put("SK", "Slowakye");
     namesMap.put("SO", "Somalië");
     namesMap.put("SS", "Suid-Soedan");
@@ -506,6 +506,8 @@ public class LocalizedNamesImpl_af extends LocalizedNamesImpl {
     namesMap.put("VI", "VSA se Maagde-eilande");
     namesMap.put("VN", "Viëtnam");
     namesMap.put("WF", "Wallis en Futuna");
+    namesMap.put("XA", "Pseudoaksente");
+    namesMap.put("XB", "Pseudotweerigting");
     namesMap.put("YE", "Jemen");
     namesMap.put("ZA", "Suid-Afrika");
     namesMap.put("ZM", "Zambië");
@@ -585,7 +587,6 @@ public class LocalizedNamesImpl_af extends LocalizedNamesImpl {
         "CK": "Cookeilande",
         "CL": "Chili",
         "CM": "Kameroen",
-        "CN": "Sjina",
         "CO": "Colombië",
         "CP": "Clippertoneiland",
         "CU": "Kuba",
@@ -622,7 +623,7 @@ public class LocalizedNamesImpl_af extends LocalizedNamesImpl {
         "GR": "Griekeland",
         "GS": "Suid-Georgië en die Suidelike Sandwicheilande",
         "GW": "Guinee-Bissau",
-        "HK": "Hongkong SAS Sjina",
+        "HK": "Hongkong SAS China",
         "HM": "Heardeiland en McDonaldeilande",
         "HR": "Kroasië",
         "HT": "Haïti",
@@ -660,10 +661,10 @@ public class LocalizedNamesImpl_af extends LocalizedNamesImpl {
         "MF": "Sint Martin",
         "MG": "Madagaskar",
         "MH": "Marshalleilande",
-        "MK": "Macedonië",
+        "MK": "Noord-Macedonië",
         "MM": "Mianmar (Birma)",
         "MN": "Mongolië",
-        "MO": "Macau SAS Sjina",
+        "MO": "Macau SAS China",
         "MP": "Noord-Mariane-eilande",
         "MR": "Mauritanië",
         "MV": "Maledive",
@@ -683,7 +684,7 @@ public class LocalizedNamesImpl_af extends LocalizedNamesImpl {
         "PL": "Pole",
         "PM": "Sint Pierre en Miquelon",
         "PN": "Pitcairneilande",
-        "PS": "Palestynse gebiede",
+        "PS": "Palestynse Grondgebiede",
         "QA": "Katar",
         "QO": "Afgeleë Oseanië",
         "RO": "Roemenië",
@@ -697,7 +698,7 @@ public class LocalizedNamesImpl_af extends LocalizedNamesImpl {
         "SG": "Singapoer",
         "SH": "Sint Helena",
         "SI": "Slowenië",
-        "SJ": "Svalbard en Jan Mayen",
+        "SJ": "Spitsbergen en Jan Mayen",
         "SK": "Slowakye",
         "SO": "Somalië",
         "SS": "Suid-Soedan",
@@ -723,6 +724,8 @@ public class LocalizedNamesImpl_af extends LocalizedNamesImpl {
         "VI": "VSA se Maagde-eilande",
         "VN": "Viëtnam",
         "WF": "Wallis en Futuna",
+        "XA": "Pseudoaksente",
+        "XB": "Pseudotweerigting",
         "YE": "Jemen",
         "ZA": "Suid-Afrika",
         "ZM": "Zambië",

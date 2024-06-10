@@ -35,8 +35,7 @@ public class LocalizedNamesImpl_fa extends LocalizedNamesImpl {
   @Override
   public String[] loadSortedRegionCodes() {
     return new String[] {
-        "XA",
-        "XB",
+        "CQ",
         "AW",
         "AR",
         "AL",
@@ -58,7 +57,7 @@ public class LocalizedNamesImpl_fa extends LocalizedNamesImpl {
         "IL",
         "SK",
         "SI",
-        "SJ",
+        "SZ",
         "ES",
         "ZA",
         "AF",
@@ -66,6 +65,7 @@ public class LocalizedNamesImpl_fa extends LocalizedNamesImpl {
         "SV",
         "AE",
         "ID",
+        "XA",
         "UA",
         "UG",
         "EC",
@@ -114,7 +114,6 @@ public class LocalizedNamesImpl_fa extends LocalizedNamesImpl {
         "AC",
         "AX",
         "TC",
-        "GS",
         "UM",
         "SB",
         "FO",
@@ -133,13 +132,12 @@ public class LocalizedNamesImpl_fa extends LocalizedNamesImpl {
         "BV",
         "IM",
         "NF",
-        "HM",
         "CX",
         "AZ",
         "CF",
         "DO",
-        "CZ",
         "AQ",
+        "GS",
         "DJ",
         "DK",
         "DM",
@@ -172,7 +170,7 @@ public class LocalizedNamesImpl_fa extends LocalizedNamesImpl {
         "SG",
         "SE",
         "CH",
-        "SZ",
+        "SJ",
         "SD",
         "SS",
         "SR",
@@ -216,6 +214,7 @@ public class LocalizedNamesImpl_fa extends LocalizedNamesImpl {
         "MO",
         "YT",
         "HU",
+        "XB",
         "MA",
         "EG",
         "MN",
@@ -241,6 +240,7 @@ public class LocalizedNamesImpl_fa extends LocalizedNamesImpl {
         "NZ",
         "NI",
         "HT",
+        "HM",
         "NL",
         "IN",
         "HN",
@@ -260,6 +260,7 @@ public class LocalizedNamesImpl_fa extends LocalizedNamesImpl {
         "PF",
         "PR",
         "TD",
+        "CZ",
         "CN",
         "JP",
         "CR",
@@ -332,7 +333,7 @@ public class LocalizedNamesImpl_fa extends LocalizedNamesImpl {
     namesMap.put("151", "شرق اروپا");
     namesMap.put("154", "شمال اروپا");
     namesMap.put("155", "غرب اروپا");
-    namesMap.put("202", "افریقای سیاه");
+    namesMap.put("202", "افریقای جنوب صحرا");
     namesMap.put("419", "امریکای لاتین");
     namesMap.put("AC", "جزایر آسنسیون");
     namesMap.put("AD", "آندورا");
@@ -391,7 +392,7 @@ public class LocalizedNamesImpl_fa extends LocalizedNamesImpl {
     namesMap.put("CW", "کوراسائو");
     namesMap.put("CX", "جزیرهٔ کریسمس");
     namesMap.put("CY", "قبرس");
-    namesMap.put("CZ", "جمهوری چک");
+    namesMap.put("CZ", "چک");
     namesMap.put("DE", "آلمان");
     namesMap.put("DG", "دیه‌گو گارسیا");
     namesMap.put("DJ", "جیبوتی");
@@ -408,7 +409,7 @@ public class LocalizedNamesImpl_fa extends LocalizedNamesImpl {
     namesMap.put("ES", "اسپانیا");
     namesMap.put("ET", "اتیوپی");
     namesMap.put("EU", "اتحادیهٔ اروپا");
-    namesMap.put("EZ", "منطقه یورو");
+    namesMap.put("EZ", "منطقهٔ یورو");
     namesMap.put("FI", "فنلاند");
     namesMap.put("FJ", "فیجی");
     namesMap.put("FK", "جزایر فالکلند");
@@ -429,13 +430,13 @@ public class LocalizedNamesImpl_fa extends LocalizedNamesImpl {
     namesMap.put("GP", "گوادلوپ");
     namesMap.put("GQ", "گینهٔ استوایی");
     namesMap.put("GR", "یونان");
-    namesMap.put("GS", "جزایر جورجیای جنوبی و ساندویچ جنوبی");
+    namesMap.put("GS", "جورجیای جنوبی و جزایر ساندویچ جنوبی");
     namesMap.put("GT", "گواتمالا");
     namesMap.put("GU", "گوام");
     namesMap.put("GW", "گینهٔ بیسائو");
     namesMap.put("GY", "گویان");
-    namesMap.put("HK", "هنگ‌کنگ، منطقۀ ویژۀ اداری چین");
-    namesMap.put("HM", "جزیرهٔ هرد و جزایر مک‌دونالد");
+    namesMap.put("HK", "هنگ‌کنگ، منطقهٔ ویژهٔ اداری چین");
+    namesMap.put("HM", "هرد و جزایر مک‌دونالد");
     namesMap.put("HN", "هندوراس");
     namesMap.put("HR", "کرواسی");
     namesMap.put("HT", "هائیتی");
@@ -484,11 +485,11 @@ public class LocalizedNamesImpl_fa extends LocalizedNamesImpl {
     namesMap.put("MF", "سنت مارتین");
     namesMap.put("MG", "ماداگاسکار");
     namesMap.put("MH", "جزایر مارشال");
-    namesMap.put("MK", "مقدونیه");
+    namesMap.put("MK", "مقدونیهٔ شمالی");
     namesMap.put("ML", "مالی");
     namesMap.put("MM", "میانمار (برمه)");
     namesMap.put("MN", "مغولستان");
-    namesMap.put("MO", "ماکائو، منطقۀ ویژۀ اداری چین");
+    namesMap.put("MO", "ماکائو، منطقهٔ ویژهٔ اداری چین");
     namesMap.put("MP", "جزایر ماریانای شمالی");
     namesMap.put("MQ", "مارتینیک");
     namesMap.put("MR", "موریتانی");
@@ -542,7 +543,7 @@ public class LocalizedNamesImpl_fa extends LocalizedNamesImpl {
     namesMap.put("SG", "سنگاپور");
     namesMap.put("SH", "سنت هلن");
     namesMap.put("SI", "اسلوونی");
-    namesMap.put("SJ", "اسوالبارد و جان‌ماین");
+    namesMap.put("SJ", "سوالبارد و یان ماین");
     namesMap.put("SK", "اسلواکی");
     namesMap.put("SL", "سیرالئون");
     namesMap.put("SM", "سان‌مارینو");
@@ -554,11 +555,11 @@ public class LocalizedNamesImpl_fa extends LocalizedNamesImpl {
     namesMap.put("SV", "السالوادور");
     namesMap.put("SX", "سنت مارتن");
     namesMap.put("SY", "سوریه");
-    namesMap.put("SZ", "سوازیلند");
+    namesMap.put("SZ", "اسواتینی");
     namesMap.put("TA", "تریستان دا کونا");
     namesMap.put("TC", "جزایر تورکس و کایکوس");
     namesMap.put("TD", "چاد");
-    namesMap.put("TF", "سرزمین‌های جنوب فرانسه");
+    namesMap.put("TF", "سرزمین‌های جنوبی فرانسه");
     namesMap.put("TG", "توگو");
     namesMap.put("TH", "تایلند");
     namesMap.put("TJ", "تاجیکستان");
@@ -588,6 +589,8 @@ public class LocalizedNamesImpl_fa extends LocalizedNamesImpl {
     namesMap.put("VU", "وانواتو");
     namesMap.put("WF", "والیس و فوتونا");
     namesMap.put("WS", "ساموآ");
+    namesMap.put("XA", "انگلیسی با لهجه خارجی");
+    namesMap.put("XB", "مجازی - دوجهته");
     namesMap.put("XK", "کوزوو");
     namesMap.put("YE", "یمن");
     namesMap.put("YT", "مایوت");
@@ -633,7 +636,7 @@ public class LocalizedNamesImpl_fa extends LocalizedNamesImpl {
         "151": "شرق اروپا",
         "154": "شمال اروپا",
         "155": "غرب اروپا",
-        "202": "افریقای سیاه",
+        "202": "افریقای جنوب صحرا",
         "419": "امریکای لاتین",
         "AC": "جزایر آسنسیون",
         "AD": "آندورا",
@@ -692,7 +695,7 @@ public class LocalizedNamesImpl_fa extends LocalizedNamesImpl {
         "CW": "کوراسائو",
         "CX": "جزیرهٔ کریسمس",
         "CY": "قبرس",
-        "CZ": "جمهوری چک",
+        "CZ": "چک",
         "DE": "آلمان",
         "DG": "دیه‌گو گارسیا",
         "DJ": "جیبوتی",
@@ -709,7 +712,7 @@ public class LocalizedNamesImpl_fa extends LocalizedNamesImpl {
         "ES": "اسپانیا",
         "ET": "اتیوپی",
         "EU": "اتحادیهٔ اروپا",
-        "EZ": "منطقه یورو",
+        "EZ": "منطقهٔ یورو",
         "FI": "فنلاند",
         "FJ": "فیجی",
         "FK": "جزایر فالکلند",
@@ -730,13 +733,13 @@ public class LocalizedNamesImpl_fa extends LocalizedNamesImpl {
         "GP": "گوادلوپ",
         "GQ": "گینهٔ استوایی",
         "GR": "یونان",
-        "GS": "جزایر جورجیای جنوبی و ساندویچ جنوبی",
+        "GS": "جورجیای جنوبی و جزایر ساندویچ جنوبی",
         "GT": "گواتمالا",
         "GU": "گوام",
         "GW": "گینهٔ بیسائو",
         "GY": "گویان",
-        "HK": "هنگ‌کنگ، منطقۀ ویژۀ اداری چین",
-        "HM": "جزیرهٔ هرد و جزایر مک‌دونالد",
+        "HK": "هنگ‌کنگ، منطقهٔ ویژهٔ اداری چین",
+        "HM": "هرد و جزایر مک‌دونالد",
         "HN": "هندوراس",
         "HR": "کرواسی",
         "HT": "هائیتی",
@@ -785,11 +788,11 @@ public class LocalizedNamesImpl_fa extends LocalizedNamesImpl {
         "MF": "سنت مارتین",
         "MG": "ماداگاسکار",
         "MH": "جزایر مارشال",
-        "MK": "مقدونیه",
+        "MK": "مقدونیهٔ شمالی",
         "ML": "مالی",
         "MM": "میانمار (برمه)",
         "MN": "مغولستان",
-        "MO": "ماکائو، منطقۀ ویژۀ اداری چین",
+        "MO": "ماکائو، منطقهٔ ویژهٔ اداری چین",
         "MP": "جزایر ماریانای شمالی",
         "MQ": "مارتینیک",
         "MR": "موریتانی",
@@ -843,7 +846,7 @@ public class LocalizedNamesImpl_fa extends LocalizedNamesImpl {
         "SG": "سنگاپور",
         "SH": "سنت هلن",
         "SI": "اسلوونی",
-        "SJ": "اسوالبارد و جان‌ماین",
+        "SJ": "سوالبارد و یان ماین",
         "SK": "اسلواکی",
         "SL": "سیرالئون",
         "SM": "سان‌مارینو",
@@ -855,11 +858,11 @@ public class LocalizedNamesImpl_fa extends LocalizedNamesImpl {
         "SV": "السالوادور",
         "SX": "سنت مارتن",
         "SY": "سوریه",
-        "SZ": "سوازیلند",
+        "SZ": "اسواتینی",
         "TA": "تریستان دا کونا",
         "TC": "جزایر تورکس و کایکوس",
         "TD": "چاد",
-        "TF": "سرزمین‌های جنوب فرانسه",
+        "TF": "سرزمین‌های جنوبی فرانسه",
         "TG": "توگو",
         "TH": "تایلند",
         "TJ": "تاجیکستان",
@@ -889,6 +892,8 @@ public class LocalizedNamesImpl_fa extends LocalizedNamesImpl {
         "VU": "وانواتو",
         "WF": "والیس و فوتونا",
         "WS": "ساموآ",
+        "XA": "انگلیسی با لهجه خارجی",
+        "XB": "مجازی - دوجهته",
         "XK": "کوزوو",
         "YE": "یمن",
         "YT": "مایوت",

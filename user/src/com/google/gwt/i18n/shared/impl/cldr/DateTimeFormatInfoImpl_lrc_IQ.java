@@ -22,6 +22,11 @@ package com.google.gwt.i18n.shared.impl.cldr;
 public class DateTimeFormatInfoImpl_lrc_IQ extends DateTimeFormatInfoImpl_lrc {
 
   @Override
+  public String formatYear() {
+    return "y";
+  }
+
+  @Override
   public String formatYearMonthAbbrev() {
     return "y MMM";
   }
@@ -48,7 +53,7 @@ public class DateTimeFormatInfoImpl_lrc_IQ extends DateTimeFormatInfoImpl_lrc {
 
   @Override
   public String formatYearMonthNumDay() {
-    return "y-M-d";
+    return "y-MM-dd";
   }
 
   @Override

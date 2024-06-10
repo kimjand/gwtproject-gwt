@@ -87,6 +87,7 @@ public class LocalizedNamesImpl_seh extends LocalizedNamesImpl {
         "CI",
         "CR",
         "CP",
+        "CQ",
         "HR",
         "CU",
         "CW",
@@ -174,7 +175,6 @@ public class LocalizedNamesImpl_seh extends LocalizedNamesImpl {
         "LI",
         "LT",
         "LU",
-        "MK",
         "MG",
         "MY",
         "MW",
@@ -191,6 +191,7 @@ public class LocalizedNamesImpl_seh extends LocalizedNamesImpl {
         "MF",
         "MM",
         "FM",
+        "MK",
         "MO",
         "MZ",
         "MD",
@@ -388,7 +389,6 @@ public class LocalizedNamesImpl_seh extends LocalizedNamesImpl {
     namesMap.put("MC", "Mônaco");
     namesMap.put("MD", "Moldávia");
     namesMap.put("MH", "Ilhas Marshall");
-    namesMap.put("MK", "Macedônia");
     namesMap.put("MM", "Mianmar");
     namesMap.put("MN", "Mongólia");
     namesMap.put("MP", "Ilhas Marianas do Norte");
@@ -563,7 +563,6 @@ public class LocalizedNamesImpl_seh extends LocalizedNamesImpl {
         "MC": "Mônaco",
         "MD": "Moldávia",
         "MH": "Ilhas Marshall",
-        "MK": "Macedônia",
         "MM": "Mianmar",
         "MN": "Mongólia",
         "MP": "Ilhas Marianas do Norte",

@@ -43,6 +43,11 @@ public class DateTimeFormatInfoImpl_mzn extends DateTimeFormatInfoImpl {
   }
 
   @Override
+  public String formatYear() {
+    return "G y";
+  }
+
+  @Override
   public String formatYearMonthAbbrev() {
     return "G y MMM";
   }

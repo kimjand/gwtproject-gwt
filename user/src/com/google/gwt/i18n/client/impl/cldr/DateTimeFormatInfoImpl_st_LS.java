@@ -25,4 +25,24 @@ public class DateTimeFormatInfoImpl_st_LS extends DateTimeFormatInfoImpl_st {
   public int firstDayOfTheWeek() {
     return 1;
   }
+
+  @Override
+  public String timeFormatFull() {
+    return "h:mm:ss a zzzz";
+  }
+
+  @Override
+  public String timeFormatLong() {
+    return "h:mm:ss a z";
+  }
+
+  @Override
+  public String timeFormatMedium() {
+    return "h:mm:ss a";
+  }
+
+  @Override
+  public String timeFormatShort() {
+    return "h:mm a";
+  }
 }

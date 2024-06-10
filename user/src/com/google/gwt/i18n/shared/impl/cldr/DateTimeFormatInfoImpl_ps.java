@@ -22,21 +22,8 @@ package com.google.gwt.i18n.shared.impl.cldr;
 public class DateTimeFormatInfoImpl_ps extends DateTimeFormatInfoImpl {
 
   @Override
-  public String[] ampms() {
-    return new String[] {
-        "غ.م.",
-        "غ.و."
-    };
-  }
-
-  @Override
   public String dateFormatFull() {
     return "EEEE د y د MMMM d";
-  }
-
-  @Override
-  public String dateFormatLong() {
-    return "د y د MMMM d";
   }
 
   @Override
@@ -145,7 +132,7 @@ public class DateTimeFormatInfoImpl_ps extends DateTimeFormatInfoImpl {
         "مۍ",
         "جون",
         "جولای",
-        "اگست",
+        "اګست",
         "سېپتمبر",
         "اکتوبر",
         "نومبر",
@@ -163,7 +150,7 @@ public class DateTimeFormatInfoImpl_ps extends DateTimeFormatInfoImpl {
         "مۍ",
         "جون",
         "جولای",
-        "اگست",
+        "اګست",
         "سپتمبر",
         "اکتوبر",
         "نومبر",
@@ -217,7 +204,7 @@ public class DateTimeFormatInfoImpl_ps extends DateTimeFormatInfoImpl {
         "مۍ",
         "جون",
         "جولای",
-        "اگست",
+        "اګست",
         "سېپتمبر",
         "اکتوبر",
         "نومبر",
@@ -235,7 +222,7 @@ public class DateTimeFormatInfoImpl_ps extends DateTimeFormatInfoImpl {
         "مۍ",
         "جون",
         "جولای",
-        "اگست",
+        "اګست",
         "سپتمبر",
         "اکتوبر",
         "نومبر",

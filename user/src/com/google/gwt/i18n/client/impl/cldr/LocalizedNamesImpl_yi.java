@@ -40,6 +40,7 @@ public class LocalizedNamesImpl_yi extends LocalizedNamesImpl {
         "CC",
         "CG",
         "CP",
+        "CQ",
         "CX",
         "CY",
         "DG",
@@ -62,6 +63,7 @@ public class LocalizedNamesImpl_yi extends LocalizedNamesImpl {
         "KZ",
         "LC",
         "MF",
+        "MK",
         "MO",
         "MP",
         "NR",
@@ -79,7 +81,6 @@ public class LocalizedNamesImpl_yi extends LocalizedNamesImpl {
         "TF",
         "TJ",
         "TK",
-        "TL",
         "TW",
         "UM",
         "UN",
@@ -193,7 +194,6 @@ public class LocalizedNamesImpl_yi extends LocalizedNamesImpl {
         "MT",
         "ML",
         "MY",
-        "MK",
         "MA",
         "MQ",
         "MR",
@@ -205,6 +205,7 @@ public class LocalizedNamesImpl_yi extends LocalizedNamesImpl {
         "MS",
         "ME",
         "MU",
+        "TL",
         "MM",
         "FM",
         "MX",
@@ -432,7 +433,6 @@ public class LocalizedNamesImpl_yi extends LocalizedNamesImpl {
     namesMap.put("ME", "מאנטענעגרא");
     namesMap.put("MG", "מאַדאַגאַסקאַר");
     namesMap.put("MH", "מאַרשאַל אינזלען");
-    namesMap.put("MK", "מאַקעדאניע");
     namesMap.put("ML", "מאַלי");
     namesMap.put("MM", "מיאַנמאַר");
     namesMap.put("MN", "מאנגאליי");
@@ -494,6 +494,7 @@ public class LocalizedNamesImpl_yi extends LocalizedNamesImpl {
     namesMap.put("TD", "טשאַד");
     namesMap.put("TG", "טאגא");
     namesMap.put("TH", "טיילאַנד");
+    namesMap.put("TL", "מזרח טימאר");
     namesMap.put("TM", "טורקמעניסטאַן");
     namesMap.put("TN", "טוניסיע");
     namesMap.put("TO", "טאנגאַ");
@@ -663,7 +664,6 @@ public class LocalizedNamesImpl_yi extends LocalizedNamesImpl {
         "ME": "מאנטענעגרא",
         "MG": "מאַדאַגאַסקאַר",
         "MH": "מאַרשאַל אינזלען",
-        "MK": "מאַקעדאניע",
         "ML": "מאַלי",
         "MM": "מיאַנמאַר",
         "MN": "מאנגאליי",
@@ -725,6 +725,7 @@ public class LocalizedNamesImpl_yi extends LocalizedNamesImpl {
         "TD": "טשאַד",
         "TG": "טאגא",
         "TH": "טיילאַנד",
+        "TL": "מזרח טימאר",
         "TM": "טורקמעניסטאַן",
         "TN": "טוניסיע",
         "TO": "טאנגאַ",

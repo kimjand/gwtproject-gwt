@@ -43,8 +43,7 @@ public class LocalizedNamesImpl_ar extends LocalizedNamesImpl {
   @Override
   public String[] loadSortedRegionCodes() {
     return new String[] {
-        "XA",
-        "XB",
+        "CQ",
         "ET",
         "AZ",
         "AM",
@@ -54,6 +53,7 @@ public class LocalizedNamesImpl_ar extends LocalizedNamesImpl {
         "AU",
         "EE",
         "IL",
+        "SZ",
         "AF",
         "AL",
         "DE",
@@ -84,7 +84,6 @@ public class LocalizedNamesImpl_ar extends LocalizedNamesImpl {
         "BH",
         "BR",
         "PT",
-        "BS",
         "BA",
         "CZ",
         "ME",
@@ -159,6 +158,7 @@ public class LocalizedNamesImpl_ar extends LocalizedNamesImpl {
         "JM",
         "GI",
         "AX",
+        "BS",
         "KM",
         "IC",
         "MQ",
@@ -169,8 +169,8 @@ public class LocalizedNamesImpl_ar extends LocalizedNamesImpl {
         "SB",
         "FO",
         "FK",
-        "VG",
         "VI",
+        "VG",
         "KY",
         "CK",
         "CC",
@@ -218,7 +218,6 @@ public class LocalizedNamesImpl_ar extends LocalizedNamesImpl {
         "SK",
         "SI",
         "SG",
-        "SZ",
         "SY",
         "SR",
         "CH",
@@ -267,6 +266,8 @@ public class LocalizedNamesImpl_ar extends LocalizedNamesImpl {
         "LV",
         "LA",
         "LB",
+        "XB",
+        "XA",
         "LU",
         "LY",
         "LR",
@@ -280,9 +281,9 @@ public class LocalizedNamesImpl_ar extends LocalizedNamesImpl {
         "MG",
         "EG",
         "MK",
-        "MO",
         "MW",
         "EZ",
+        "MO",
         "MN",
         "MR",
         "MU",
@@ -374,7 +375,7 @@ public class LocalizedNamesImpl_ar extends LocalizedNamesImpl {
     namesMap.put("BO", "بوليفيا");
     namesMap.put("BQ", "هولندا الكاريبية");
     namesMap.put("BR", "البرازيل");
-    namesMap.put("BS", "البهاما");
+    namesMap.put("BS", "جزر البهاما");
     namesMap.put("BT", "بوتان");
     namesMap.put("BV", "جزيرة بوفيه");
     namesMap.put("BW", "بوتسوانا");
@@ -492,11 +493,11 @@ public class LocalizedNamesImpl_ar extends LocalizedNamesImpl {
     namesMap.put("MF", "سان مارتن");
     namesMap.put("MG", "مدغشقر");
     namesMap.put("MH", "جزر مارشال");
-    namesMap.put("MK", "مقدونيا");
+    namesMap.put("MK", "مقدونيا الشمالية");
     namesMap.put("ML", "مالي");
     namesMap.put("MM", "ميانمار (بورما)");
     namesMap.put("MN", "منغوليا");
-    namesMap.put("MO", "مكاو الصينية (منطقة إدارية خاصة)");
+    namesMap.put("MO", "منطقة ماكاو الإدارية الخاصة");
     namesMap.put("MP", "جزر ماريانا الشمالية");
     namesMap.put("MQ", "جزر المارتينيك");
     namesMap.put("MR", "موريتانيا");
@@ -562,7 +563,7 @@ public class LocalizedNamesImpl_ar extends LocalizedNamesImpl {
     namesMap.put("SV", "السلفادور");
     namesMap.put("SX", "سانت مارتن");
     namesMap.put("SY", "سوريا");
-    namesMap.put("SZ", "سوازيلاند");
+    namesMap.put("SZ", "إسواتيني");
     namesMap.put("TA", "تريستان دا كونا");
     namesMap.put("TC", "جزر توركس وكايكوس");
     namesMap.put("TD", "تشاد");
@@ -570,7 +571,7 @@ public class LocalizedNamesImpl_ar extends LocalizedNamesImpl {
     namesMap.put("TG", "توغو");
     namesMap.put("TH", "تايلاند");
     namesMap.put("TJ", "طاجيكستان");
-    namesMap.put("TK", "توكيلو");
+    namesMap.put("TK", "توكيلاو");
     namesMap.put("TL", "تيمور - ليشتي");
     namesMap.put("TM", "تركمانستان");
     namesMap.put("TN", "تونس");
@@ -591,11 +592,13 @@ public class LocalizedNamesImpl_ar extends LocalizedNamesImpl {
     namesMap.put("VC", "سانت فنسنت وجزر غرينادين");
     namesMap.put("VE", "فنزويلا");
     namesMap.put("VG", "جزر فيرجن البريطانية");
-    namesMap.put("VI", "جزر فيرجن التابعة للولايات المتحدة");
+    namesMap.put("VI", "جزر فيرجن الأمريكية");
     namesMap.put("VN", "فيتنام");
     namesMap.put("VU", "فانواتو");
     namesMap.put("WF", "جزر والس وفوتونا");
     namesMap.put("WS", "ساموا");
+    namesMap.put("XA", "لكنات تجريبية غير أصلية");
+    namesMap.put("XB", "لكنات تجريبية ثنائية الاتجاه");
     namesMap.put("XK", "كوسوفو");
     namesMap.put("YE", "اليمن");
     namesMap.put("YT", "مايوت");
@@ -675,7 +678,7 @@ public class LocalizedNamesImpl_ar extends LocalizedNamesImpl {
         "BO": "بوليفيا",
         "BQ": "هولندا الكاريبية",
         "BR": "البرازيل",
-        "BS": "البهاما",
+        "BS": "جزر البهاما",
         "BT": "بوتان",
         "BV": "جزيرة بوفيه",
         "BW": "بوتسوانا",
@@ -793,11 +796,11 @@ public class LocalizedNamesImpl_ar extends LocalizedNamesImpl {
         "MF": "سان مارتن",
         "MG": "مدغشقر",
         "MH": "جزر مارشال",
-        "MK": "مقدونيا",
+        "MK": "مقدونيا الشمالية",
         "ML": "مالي",
         "MM": "ميانمار (بورما)",
         "MN": "منغوليا",
-        "MO": "مكاو الصينية (منطقة إدارية خاصة)",
+        "MO": "منطقة ماكاو الإدارية الخاصة",
         "MP": "جزر ماريانا الشمالية",
         "MQ": "جزر المارتينيك",
         "MR": "موريتانيا",
@@ -863,7 +866,7 @@ public class LocalizedNamesImpl_ar extends LocalizedNamesImpl {
         "SV": "السلفادور",
         "SX": "سانت مارتن",
         "SY": "سوريا",
-        "SZ": "سوازيلاند",
+        "SZ": "إسواتيني",
         "TA": "تريستان دا كونا",
         "TC": "جزر توركس وكايكوس",
         "TD": "تشاد",
@@ -871,7 +874,7 @@ public class LocalizedNamesImpl_ar extends LocalizedNamesImpl {
         "TG": "توغو",
         "TH": "تايلاند",
         "TJ": "طاجيكستان",
-        "TK": "توكيلو",
+        "TK": "توكيلاو",
         "TL": "تيمور - ليشتي",
         "TM": "تركمانستان",
         "TN": "تونس",
@@ -892,11 +895,13 @@ public class LocalizedNamesImpl_ar extends LocalizedNamesImpl {
         "VC": "سانت فنسنت وجزر غرينادين",
         "VE": "فنزويلا",
         "VG": "جزر فيرجن البريطانية",
-        "VI": "جزر فيرجن التابعة للولايات المتحدة",
+        "VI": "جزر فيرجن الأمريكية",
         "VN": "فيتنام",
         "VU": "فانواتو",
         "WF": "جزر والس وفوتونا",
         "WS": "ساموا",
+        "XA": "لكنات تجريبية غير أصلية",
+        "XB": "لكنات تجريبية ثنائية الاتجاه",
         "XK": "كوسوفو",
         "YE": "اليمن",
         "YT": "مايوت",

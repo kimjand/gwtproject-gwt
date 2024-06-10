@@ -22,14 +22,6 @@ package com.google.gwt.i18n.shared.impl.cldr;
 public class DateTimeFormatInfoImpl_ta extends DateTimeFormatInfoImpl {
 
   @Override
-  public String[] ampms() {
-    return new String[] {
-        "முற்பகல்",
-        "பிற்பகல்"
-    };
-  }
-
-  @Override
   public String dateFormatFull() {
     return "EEEE, d MMMM, y";
   }
@@ -51,12 +43,12 @@ public class DateTimeFormatInfoImpl_ta extends DateTimeFormatInfoImpl {
 
   @Override
   public String dateTimeFull(String timePattern, String datePattern) {
-    return datePattern + " ’அன்று’ " + timePattern;
+    return datePattern + ", " + timePattern;
   }
 
   @Override
   public String dateTimeLong(String timePattern, String datePattern) {
-    return datePattern + " ’அன்று’ " + timePattern;
+    return datePattern + ", " + timePattern;
   }
 
   @Override
@@ -88,16 +80,6 @@ public class DateTimeFormatInfoImpl_ta extends DateTimeFormatInfoImpl {
   @Override
   public int firstDayOfTheWeek() {
     return 0;
-  }
-
-  @Override
-  public String formatHour12Minute() {
-    return "a h:mm";
-  }
-
-  @Override
-  public String formatHour12MinuteSecond() {
-    return "a h:mm:ss";
   }
 
   @Override
@@ -231,22 +213,22 @@ public class DateTimeFormatInfoImpl_ta extends DateTimeFormatInfoImpl {
 
   @Override
   public String timeFormatFull() {
-    return "a h:mm:ss zzzz";
+    return "h:mm:ss a zzzz";
   }
 
   @Override
   public String timeFormatLong() {
-    return "a h:mm:ss z";
+    return "h:mm:ss a z";
   }
 
   @Override
   public String timeFormatMedium() {
-    return "a h:mm:ss";
+    return "h:mm:ss a";
   }
 
   @Override
   public String timeFormatShort() {
-    return "a h:mm";
+    return "h:mm a";
   }
 
   @Override

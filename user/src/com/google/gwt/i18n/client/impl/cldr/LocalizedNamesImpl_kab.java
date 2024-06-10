@@ -35,6 +35,8 @@ public class LocalizedNamesImpl_kab extends LocalizedNamesImpl {
         "AW",
         "VA",
         "AZ",
+        "XB",
+        "XA",
         "BS",
         "BH",
         "BD",
@@ -58,9 +60,10 @@ public class LocalizedNamesImpl_kab extends LocalizedNamesImpl {
         "CZ",
         "CL",
         "CY",
+        "CQ",
         "DK",
-        "DG",
         "DM",
+        "DG",
         "PS",
         "FJ",
         "PH",
@@ -181,7 +184,6 @@ public class LocalizedNamesImpl_kab extends LocalizedNamesImpl {
         "LC",
         "SM",
         "MF",
-        "SX",
         "PM",
         "BL",
         "SH",
@@ -192,6 +194,7 @@ public class LocalizedNamesImpl_kab extends LocalizedNamesImpl {
         "SC",
         "SG",
         "SN",
+        "SX",
         "SL",
         "RS",
         "SK",
@@ -212,8 +215,8 @@ public class LocalizedNamesImpl_kab extends LocalizedNamesImpl {
         "GB",
         "TJ",
         "EZ",
-        "HK",
         "MO",
+        "HK",
         "TZ",
         "TH",
         "TW",
@@ -223,12 +226,12 @@ public class LocalizedNamesImpl_kab extends LocalizedNamesImpl {
         "DO",
         "CD",
         "AE",
-        "HM",
         "UM",
         "AX",
         "BV",
         "FK",
         "FO",
+        "HM",
         "GS",
         "KY",
         "CK",
@@ -277,8 +280,6 @@ public class LocalizedNamesImpl_kab extends LocalizedNamesImpl {
         "VI",
         "WF",
         "US",
-        "XA",
-        "XB",
         "ZM",
         "NZ",
         "ZW",
@@ -296,7 +297,7 @@ public class LocalizedNamesImpl_kab extends LocalizedNamesImpl {
   protected void loadNameMapJava() {
     super.loadNameMapJava();
     namesMap.put("001", "Amaḍal");
-    namesMap.put("002", "Tafriqt");
+    namesMap.put("002", "Taferka");
     namesMap.put("003", "Tamrikt n ugafa");
     namesMap.put("005", "Tamrikt n unẓul");
     namesMap.put("009", "Usyanya");
@@ -307,13 +308,13 @@ public class LocalizedNamesImpl_kab extends LocalizedNamesImpl {
     namesMap.put("017", "Tafriqt talemmast");
     namesMap.put("018", "Tafriqt n unẓul");
     namesMap.put("019", "Timrikin");
-    namesMap.put("021", "Tamrikt Tagafayent");
+    namesMap.put("021", "Tamrikt tagafant");
     namesMap.put("029", "Kaṛayib");
     namesMap.put("030", "Asya n usammar");
     namesMap.put("034", "Asya n unẓul");
     namesMap.put("035", "Asya n unẓul asammar");
     namesMap.put("039", "Turuft n unẓul");
-    namesMap.put("053", "Ustṛasya");
+    namesMap.put("053", "Ustṛalazya");
     namesMap.put("054", "Milanizya");
     namesMap.put("057", "Tamnaḍt n Mikṛunizya");
     namesMap.put("061", "Pulinizya");
@@ -324,6 +325,7 @@ public class LocalizedNamesImpl_kab extends LocalizedNamesImpl {
     namesMap.put("151", "Turuft n usammar");
     namesMap.put("154", "Turuft n ugafa");
     namesMap.put("155", "Turuft n umalu");
+    namesMap.put("202", "Tafriqt n wadda n Seḥra");
     namesMap.put("419", "Tamrikt talaṭinit");
     namesMap.put("AC", "Tigzirt n Aṣunsyun");
     namesMap.put("AD", "Undura");
@@ -334,7 +336,7 @@ public class LocalizedNamesImpl_kab extends LocalizedNamesImpl {
     namesMap.put("AL", "Lalbani");
     namesMap.put("AM", "Arminya");
     namesMap.put("AO", "Ungula");
-    namesMap.put("AQ", "Antaṛktik");
+    namesMap.put("AQ", "Anṭarktik");
     namesMap.put("AR", "Arjuntin");
     namesMap.put("AS", "Samwa Tamarikanit");
     namesMap.put("AT", "Ustriya");
@@ -375,12 +377,12 @@ public class LocalizedNamesImpl_kab extends LocalizedNamesImpl {
     namesMap.put("CR", "Kusta Rika");
     namesMap.put("CU", "Kuba");
     namesMap.put("CV", "Tigzirin n yixef azegzaw");
-    namesMap.put("CW", "Kuṛaṣaw");
+    namesMap.put("CW", "Kurasaw");
     namesMap.put("CX", "Tigzrin n Kristmaṣ");
     namesMap.put("CY", "Cipr");
     namesMap.put("CZ", "Čček");
     namesMap.put("DE", "Lalman");
-    namesMap.put("DG", "Digu Gaṛsya");
+    namesMap.put("DG", "Dyigu Garsiya");
     namesMap.put("DJ", "Ǧibuti");
     namesMap.put("DM", "Duminik");
     namesMap.put("DO", "Tigduda Taduminikit");
@@ -393,7 +395,7 @@ public class LocalizedNamesImpl_kab extends LocalizedNamesImpl {
     namesMap.put("ER", "Iritiria");
     namesMap.put("ES", "Spanya");
     namesMap.put("ET", "Utyupi");
-    namesMap.put("EU", "Tiddukla n Turuft");
+    namesMap.put("EU", "Tiddukkla n Turuft");
     namesMap.put("EZ", "Tamnaḍt n Turuft");
     namesMap.put("FI", "Finlund");
     namesMap.put("FK", "Tigzirin n Falkland");
@@ -414,13 +416,13 @@ public class LocalizedNamesImpl_kab extends LocalizedNamesImpl {
     namesMap.put("GP", "Gwadalupi");
     namesMap.put("GQ", "Ɣinya Tasebgast");
     namesMap.put("GR", "Lagris");
-    namesMap.put("GS", "Tigzirin n Jyuṛjya n Unzul akked Sandwič n Unẓul");
+    namesMap.put("GS", "Tigzirin n Jyuṛjya n Unẓul akked Sandwič n Unẓul");
     namesMap.put("GT", "Gwatimala");
     namesMap.put("GU", "Gwam");
     namesMap.put("GW", "Ɣinya-Bisaw");
     namesMap.put("GY", "Guwana");
     namesMap.put("HK", "Tamnaṭ Taqbuṛt Tacinwat n Hung Kung");
-    namesMap.put("HM", "Tigzirin Heard akked McDonald");
+    namesMap.put("HM", "Tigzirin n Hird d Makdunalt");
     namesMap.put("HN", "Hunduras");
     namesMap.put("HR", "Kerwasya");
     namesMap.put("HT", "Hayti");
@@ -435,7 +437,7 @@ public class LocalizedNamesImpl_kab extends LocalizedNamesImpl {
     namesMap.put("IQ", "Lɛiraq");
     namesMap.put("IS", "Island");
     namesMap.put("IT", "Ṭelyan");
-    namesMap.put("JE", "Jiṛzi");
+    namesMap.put("JE", "Jirzi");
     namesMap.put("JM", "Jamyika");
     namesMap.put("JO", "Lajurdani");
     namesMap.put("JP", "Jappu");
@@ -464,10 +466,10 @@ public class LocalizedNamesImpl_kab extends LocalizedNamesImpl {
     namesMap.put("MF", "San Maṛtan");
     namesMap.put("MG", "Madaɣecqer");
     namesMap.put("MH", "Tigzirin n Marcal");
-    namesMap.put("MK", "Masidwan");
+    namesMap.put("MK", "Masidunya n ugafa");
     namesMap.put("MM", "Myanmar");
     namesMap.put("MN", "Mungulya");
-    namesMap.put("MO", "Tamnaṭ Tudbilt Tuzzigt tacenwit n Makaw");
+    namesMap.put("MO", "Tamnaḍt tudbilt tuzzigt tacinwat n Makaw");
     namesMap.put("MP", "Tigzirin n Maryan Ufella");
     namesMap.put("MQ", "Martinik");
     namesMap.put("MR", "Muriṭanya");
@@ -505,7 +507,7 @@ public class LocalizedNamesImpl_kab extends LocalizedNamesImpl {
     namesMap.put("PW", "Palu");
     namesMap.put("PY", "Paragway");
     namesMap.put("QA", "Qaṭar");
-    namesMap.put("QO", "Timnaḍin ibeɛden n Tusyanit");
+    namesMap.put("QO", "Timnaḍin ibeɛden n Usyanya");
     namesMap.put("RE", "Timlilit");
     namesMap.put("RO", "Rumani");
     namesMap.put("RS", "Ṣirbya");
@@ -528,13 +530,12 @@ public class LocalizedNamesImpl_kab extends LocalizedNamesImpl {
     namesMap.put("SS", "Sudan n unẓul");
     namesMap.put("ST", "Saw Tumi d Pransip");
     namesMap.put("SV", "Salvadur");
-    namesMap.put("SX", "San Maṛtan(Tamnaḍt tahulandit)");
     namesMap.put("SY", "Surya");
     namesMap.put("SZ", "Swazilund");
     namesMap.put("TA", "Tristan da Kunha");
     namesMap.put("TC", "Ṭurk d Tegzirin n Kaykus");
     namesMap.put("TD", "Čad");
-    namesMap.put("TF", "Timura n umalu tifṛansisiyin");
+    namesMap.put("TF", "Timura tifransisin n unẓul");
     namesMap.put("TG", "Ṭugu");
     namesMap.put("TH", "Ṭayland");
     namesMap.put("TK", "Ṭuklu");
@@ -550,7 +551,7 @@ public class LocalizedNamesImpl_kab extends LocalizedNamesImpl {
     namesMap.put("UA", "Ukran");
     namesMap.put("UG", "Uɣanda");
     namesMap.put("UM", "Tigzirin ibeɛden n Marikan");
-    namesMap.put("UN", "Timura Idduklen");
+    namesMap.put("UN", "Timura Iddukklen");
     namesMap.put("US", "WDM");
     namesMap.put("UY", "Urugway");
     namesMap.put("UZ", "Uzbaxistan");
@@ -563,6 +564,8 @@ public class LocalizedNamesImpl_kab extends LocalizedNamesImpl {
     namesMap.put("VU", "Vanwatu");
     namesMap.put("WF", "Wallis d Futuna");
     namesMap.put("WS", "Samwa");
+    namesMap.put("XA", "Azun iɣdebba");
+    namesMap.put("XB", "Azun Bidi");
     namesMap.put("XK", "Kuṣuvu");
     namesMap.put("YE", "Lyamen");
     namesMap.put("YT", "Mayuṭ");
@@ -580,7 +583,7 @@ public class LocalizedNamesImpl_kab extends LocalizedNamesImpl {
   private native JavaScriptObject loadMyNameMap() /*-{
     return {
         "001": "Amaḍal",
-        "002": "Tafriqt",
+        "002": "Taferka",
         "003": "Tamrikt n ugafa",
         "005": "Tamrikt n unẓul",
         "009": "Usyanya",
@@ -591,13 +594,13 @@ public class LocalizedNamesImpl_kab extends LocalizedNamesImpl {
         "017": "Tafriqt talemmast",
         "018": "Tafriqt n unẓul",
         "019": "Timrikin",
-        "021": "Tamrikt Tagafayent",
+        "021": "Tamrikt tagafant",
         "029": "Kaṛayib",
         "030": "Asya n usammar",
         "034": "Asya n unẓul",
         "035": "Asya n unẓul asammar",
         "039": "Turuft n unẓul",
-        "053": "Ustṛasya",
+        "053": "Ustṛalazya",
         "054": "Milanizya",
         "057": "Tamnaḍt n Mikṛunizya",
         "061": "Pulinizya",
@@ -608,6 +611,7 @@ public class LocalizedNamesImpl_kab extends LocalizedNamesImpl {
         "151": "Turuft n usammar",
         "154": "Turuft n ugafa",
         "155": "Turuft n umalu",
+        "202": "Tafriqt n wadda n Seḥra",
         "419": "Tamrikt talaṭinit",
         "AC": "Tigzirt n Aṣunsyun",
         "AD": "Undura",
@@ -618,7 +622,7 @@ public class LocalizedNamesImpl_kab extends LocalizedNamesImpl {
         "AL": "Lalbani",
         "AM": "Arminya",
         "AO": "Ungula",
-        "AQ": "Antaṛktik",
+        "AQ": "Anṭarktik",
         "AR": "Arjuntin",
         "AS": "Samwa Tamarikanit",
         "AT": "Ustriya",
@@ -659,12 +663,12 @@ public class LocalizedNamesImpl_kab extends LocalizedNamesImpl {
         "CR": "Kusta Rika",
         "CU": "Kuba",
         "CV": "Tigzirin n yixef azegzaw",
-        "CW": "Kuṛaṣaw",
+        "CW": "Kurasaw",
         "CX": "Tigzrin n Kristmaṣ",
         "CY": "Cipr",
         "CZ": "Čček",
         "DE": "Lalman",
-        "DG": "Digu Gaṛsya",
+        "DG": "Dyigu Garsiya",
         "DJ": "Ǧibuti",
         "DM": "Duminik",
         "DO": "Tigduda Taduminikit",
@@ -677,7 +681,7 @@ public class LocalizedNamesImpl_kab extends LocalizedNamesImpl {
         "ER": "Iritiria",
         "ES": "Spanya",
         "ET": "Utyupi",
-        "EU": "Tiddukla n Turuft",
+        "EU": "Tiddukkla n Turuft",
         "EZ": "Tamnaḍt n Turuft",
         "FI": "Finlund",
         "FK": "Tigzirin n Falkland",
@@ -698,13 +702,13 @@ public class LocalizedNamesImpl_kab extends LocalizedNamesImpl {
         "GP": "Gwadalupi",
         "GQ": "Ɣinya Tasebgast",
         "GR": "Lagris",
-        "GS": "Tigzirin n Jyuṛjya n Unzul akked Sandwič n Unẓul",
+        "GS": "Tigzirin n Jyuṛjya n Unẓul akked Sandwič n Unẓul",
         "GT": "Gwatimala",
         "GU": "Gwam",
         "GW": "Ɣinya-Bisaw",
         "GY": "Guwana",
         "HK": "Tamnaṭ Taqbuṛt Tacinwat n Hung Kung",
-        "HM": "Tigzirin Heard akked McDonald",
+        "HM": "Tigzirin n Hird d Makdunalt",
         "HN": "Hunduras",
         "HR": "Kerwasya",
         "HT": "Hayti",
@@ -719,7 +723,7 @@ public class LocalizedNamesImpl_kab extends LocalizedNamesImpl {
         "IQ": "Lɛiraq",
         "IS": "Island",
         "IT": "Ṭelyan",
-        "JE": "Jiṛzi",
+        "JE": "Jirzi",
         "JM": "Jamyika",
         "JO": "Lajurdani",
         "JP": "Jappu",
@@ -748,10 +752,10 @@ public class LocalizedNamesImpl_kab extends LocalizedNamesImpl {
         "MF": "San Maṛtan",
         "MG": "Madaɣecqer",
         "MH": "Tigzirin n Marcal",
-        "MK": "Masidwan",
+        "MK": "Masidunya n ugafa",
         "MM": "Myanmar",
         "MN": "Mungulya",
-        "MO": "Tamnaṭ Tudbilt Tuzzigt tacenwit n Makaw",
+        "MO": "Tamnaḍt tudbilt tuzzigt tacinwat n Makaw",
         "MP": "Tigzirin n Maryan Ufella",
         "MQ": "Martinik",
         "MR": "Muriṭanya",
@@ -789,7 +793,7 @@ public class LocalizedNamesImpl_kab extends LocalizedNamesImpl {
         "PW": "Palu",
         "PY": "Paragway",
         "QA": "Qaṭar",
-        "QO": "Timnaḍin ibeɛden n Tusyanit",
+        "QO": "Timnaḍin ibeɛden n Usyanya",
         "RE": "Timlilit",
         "RO": "Rumani",
         "RS": "Ṣirbya",
@@ -812,13 +816,12 @@ public class LocalizedNamesImpl_kab extends LocalizedNamesImpl {
         "SS": "Sudan n unẓul",
         "ST": "Saw Tumi d Pransip",
         "SV": "Salvadur",
-        "SX": "San Maṛtan(Tamnaḍt tahulandit)",
         "SY": "Surya",
         "SZ": "Swazilund",
         "TA": "Tristan da Kunha",
         "TC": "Ṭurk d Tegzirin n Kaykus",
         "TD": "Čad",
-        "TF": "Timura n umalu tifṛansisiyin",
+        "TF": "Timura tifransisin n unẓul",
         "TG": "Ṭugu",
         "TH": "Ṭayland",
         "TK": "Ṭuklu",
@@ -834,7 +837,7 @@ public class LocalizedNamesImpl_kab extends LocalizedNamesImpl {
         "UA": "Ukran",
         "UG": "Uɣanda",
         "UM": "Tigzirin ibeɛden n Marikan",
-        "UN": "Timura Idduklen",
+        "UN": "Timura Iddukklen",
         "US": "WDM",
         "UY": "Urugway",
         "UZ": "Uzbaxistan",
@@ -847,6 +850,8 @@ public class LocalizedNamesImpl_kab extends LocalizedNamesImpl {
         "VU": "Vanwatu",
         "WF": "Wallis d Futuna",
         "WS": "Samwa",
+        "XA": "Azun iɣdebba",
+        "XB": "Azun Bidi",
         "XK": "Kuṣuvu",
         "YE": "Lyamen",
         "YT": "Mayuṭ",

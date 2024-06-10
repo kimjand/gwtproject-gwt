@@ -34,6 +34,7 @@ public class LocalizedNamesImpl_ug extends LocalizedNamesImpl {
   @Override
   public String[] loadSortedRegionCodes() {
     return new String[] {
+        "CQ",
         "EZ",
         "UN",
         "XA",
@@ -165,6 +166,7 @@ public class LocalizedNamesImpl_ug extends LocalizedNamesImpl {
         "SC",
         "SA",
         "MP",
+        "MK",
         "CH",
         "SE",
         "HK",
@@ -219,7 +221,6 @@ public class LocalizedNamesImpl_ug extends LocalizedNamesImpl {
         "MA",
         "MQ",
         "MH",
-        "MK",
         "MY",
         "MW",
         "MT",
@@ -481,7 +482,7 @@ public class LocalizedNamesImpl_ug extends LocalizedNamesImpl {
     namesMap.put("MF", "ساينت مارتىن");
     namesMap.put("MG", "ماداغاسقار");
     namesMap.put("MH", "مارشال ئاراللىرى");
-    namesMap.put("MK", "ماكېدونىيە");
+    namesMap.put("MK", "شىمالىي ماكېدونىيە");
     namesMap.put("ML", "مالى");
     namesMap.put("MM", "بىرما");
     namesMap.put("MN", "موڭغۇلىيە");
@@ -779,7 +780,7 @@ public class LocalizedNamesImpl_ug extends LocalizedNamesImpl {
         "MF": "ساينت مارتىن",
         "MG": "ماداغاسقار",
         "MH": "مارشال ئاراللىرى",
-        "MK": "ماكېدونىيە",
+        "MK": "شىمالىي ماكېدونىيە",
         "ML": "مالى",
         "MM": "بىرما",
         "MN": "موڭغۇلىيە",

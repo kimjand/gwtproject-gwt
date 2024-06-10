@@ -51,12 +51,22 @@ public class DateTimeFormatInfoImpl_nl extends DateTimeFormatInfoImpl {
 
   @Override
   public String dateTimeFull(String timePattern, String datePattern) {
-    return datePattern + " 'om' " + timePattern;
+    return datePattern + ", " + timePattern;
   }
 
   @Override
   public String dateTimeLong(String timePattern, String datePattern) {
-    return datePattern + " 'om' " + timePattern;
+    return datePattern + ", " + timePattern;
+  }
+
+  @Override
+  public String dateTimeMedium(String timePattern, String datePattern) {
+    return datePattern + ", " + timePattern;
+  }
+
+  @Override
+  public String dateTimeShort(String timePattern, String datePattern) {
+    return datePattern + ", " + timePattern;
   }
 
   @Override
@@ -161,18 +171,18 @@ public class DateTimeFormatInfoImpl_nl extends DateTimeFormatInfoImpl {
   @Override
   public String[] monthsShort() {
     return new String[] {
-        "jan.",
-        "feb.",
-        "mrt.",
-        "apr.",
+        "jan",
+        "feb",
+        "mrt",
+        "apr",
         "mei",
-        "jun.",
-        "jul.",
-        "aug.",
-        "sep.",
-        "okt.",
-        "nov.",
-        "dec."
+        "jun",
+        "jul",
+        "aug",
+        "sep",
+        "okt",
+        "nov",
+        "dec"
     };
   }
 

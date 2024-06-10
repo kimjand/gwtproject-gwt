@@ -27,8 +27,7 @@ public class LocalizedNamesImpl_sr_Cyrl_ME extends LocalizedNamesImpl_sr {
   @Override
   public String[] loadSortedRegionCodes() {
     return new String[] {
-        "XA",
-        "XB",
+        "CQ",
         "AF",
         "AZ",
         "AL",
@@ -154,7 +153,6 @@ public class LocalizedNamesImpl_sr_Cyrl_ME extends LocalizedNamesImpl_sr {
         "MG",
         "HU",
         "YT",
-        "MK",
         "MW",
         "MV",
         "MY",
@@ -207,6 +205,8 @@ public class LocalizedNamesImpl_sr_Cyrl_ME extends LocalizedNamesImpl_sr {
         "PL",
         "PR",
         "PT",
+        "XA",
+        "XB",
         "RE",
         "RW",
         "RO",
@@ -229,6 +229,7 @@ public class LocalizedNamesImpl_sr_Cyrl_ME extends LocalizedNamesImpl_sr {
         "SX",
         "PM",
         "KP",
+        "MK",
         "MP",
         "SC",
         "SN",

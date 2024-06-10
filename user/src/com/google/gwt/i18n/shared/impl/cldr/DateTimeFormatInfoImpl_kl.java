@@ -41,7 +41,7 @@ public class DateTimeFormatInfoImpl_kl extends DateTimeFormatInfoImpl {
 
   @Override
   public String dateFormatMedium() {
-    return "MMM dd, y";
+    return "dd MMM y";
   }
 
   @Override
@@ -73,18 +73,36 @@ public class DateTimeFormatInfoImpl_kl extends DateTimeFormatInfoImpl {
   @Override
   public String[] monthsFull() {
     return new String[] {
-        "januari",
-        "februari",
-        "martsi",
-        "aprili",
-        "maji",
-        "juni",
-        "juli",
-        "augustusi",
-        "septemberi",
-        "oktoberi",
-        "novemberi",
-        "decemberi"
+        "januaarip",
+        "februaarip",
+        "marsip",
+        "apriilip",
+        "maajip",
+        "juunip",
+        "juulip",
+        "aggustip",
+        "septembarip",
+        "oktobarip",
+        "novembarip",
+        "decembarip"
+    };
+  }
+
+  @Override
+  public String[] monthsFullStandalone() {
+    return new String[] {
+        "januaari",
+        "februaari",
+        "marsi",
+        "apriili",
+        "maaji",
+        "juuni",
+        "juuli",
+        "aggusti",
+        "septembari",
+        "oktobari",
+        "novembari",
+        "decembari"
     };
   }
 
@@ -92,14 +110,14 @@ public class DateTimeFormatInfoImpl_kl extends DateTimeFormatInfoImpl {
   public String[] monthsShort() {
     return new String[] {
         "jan",
-        "feb",
+        "febr",
         "mar",
         "apr",
         "maj",
         "jun",
         "jul",
         "aug",
-        "sep",
+        "sept",
         "okt",
         "nov",
         "dec"

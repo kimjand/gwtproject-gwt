@@ -25,8 +25,7 @@ public class LocalizedNamesImpl_zh_Hant_TW extends LocalizedNamesImpl_zh_Hant {
   @Override
   public String[] loadSortedRegionCodes() {
     return new String[] {
-        "XA",
-        "XB",
+        "CQ",
         "TT",
         "TR",
         "TC",
@@ -57,6 +56,7 @@ public class LocalizedNamesImpl_zh_Hant_TW extends LocalizedNamesImpl_zh_Hant {
         "CA",
         "GA",
         "MP",
+        "MK",
         "KP",
         "QA",
         "CU",
@@ -195,13 +195,14 @@ public class LocalizedNamesImpl_zh_Hant_TW extends LocalizedNamesImpl_zh_Hant {
         "MQ",
         "ML",
         "MY",
-        "MK",
         "MW",
         "YT",
         "MH",
         "MG",
         "MT",
         "MV",
+        "XB",
+        "XA",
         "IM",
         "FM",
         "CZ",

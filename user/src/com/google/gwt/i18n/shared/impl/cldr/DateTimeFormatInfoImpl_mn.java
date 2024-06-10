@@ -31,17 +31,17 @@ public class DateTimeFormatInfoImpl_mn extends DateTimeFormatInfoImpl {
 
   @Override
   public String dateFormatFull() {
-    return "y.MM.dd, EEEE";
+    return "y 'оны' MMMM'ын' d, EEEE 'гараг'";
   }
 
   @Override
   public String dateFormatLong() {
-    return "y.MM.dd";
+    return "y 'оны' MMMM'ын' d";
   }
 
   @Override
   public String dateFormatMedium() {
-    return "y 'оны' MMM'ын' d";
+    return "y 'оны' MMM'ын' d";
   }
 
   @Override
@@ -66,6 +66,16 @@ public class DateTimeFormatInfoImpl_mn extends DateTimeFormatInfoImpl {
   }
 
   @Override
+  public String formatHour12Minute() {
+    return "h:mm a";
+  }
+
+  @Override
+  public String formatHour12MinuteSecond() {
+    return "h:mm:ss a";
+  }
+
+  @Override
   public String formatMonthAbbrevDay() {
     return "MMM'ын' d";
   }
@@ -87,22 +97,22 @@ public class DateTimeFormatInfoImpl_mn extends DateTimeFormatInfoImpl {
 
   @Override
   public String formatYearMonthAbbrev() {
-    return "y 'оны' MMM";
+    return "y 'оны' MMM";
   }
 
   @Override
   public String formatYearMonthAbbrevDay() {
-    return "y 'оны' MMM'ын' d";
+    return "y 'оны' MMM'ын' d";
   }
 
   @Override
   public String formatYearMonthFull() {
-    return "y 'оны' MMM";
+    return "y 'оны' MMMM";
   }
 
   @Override
   public String formatYearMonthFullDay() {
-    return "y 'оны' MMMM'ын' d";
+    return "y 'оны' MMMM'ын' d";
   }
 
   @Override
@@ -117,17 +127,17 @@ public class DateTimeFormatInfoImpl_mn extends DateTimeFormatInfoImpl {
 
   @Override
   public String formatYearMonthWeekdayDay() {
-    return "y 'оны' MMM'ын' d. EEE";
+    return "y 'оны' MMM'ын' d. EEE";
   }
 
   @Override
   public String formatYearQuarterFull() {
-    return "y 'оны' QQQQ";
+    return "y 'оны' QQQQ";
   }
 
   @Override
   public String formatYearQuarterShort() {
-    return "y 'оны' Q";
+    return "y 'оны' Q";
   }
 
   @Override

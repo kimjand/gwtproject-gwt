@@ -34,7 +34,7 @@ public class LocalizedNamesImpl_zu extends LocalizedNamesImpl {
   @Override
   public String[] loadSortedRegionCodes() {
     return new String[] {
-        "EZ",
+        "CQ",
         "AF",
         "AX",
         "AL",
@@ -113,6 +113,7 @@ public class LocalizedNamesImpl_zu extends LocalizedNamesImpl {
         "EE",
         "ET",
         "EU",
+        "EZ",
         "FK",
         "FO",
         "FJ",
@@ -170,7 +171,6 @@ public class LocalizedNamesImpl_zu extends LocalizedNamesImpl {
         "LT",
         "LU",
         "MO",
-        "MK",
         "MG",
         "MW",
         "MY",
@@ -206,6 +206,7 @@ public class LocalizedNamesImpl_zu extends LocalizedNamesImpl {
         "NF",
         "MP",
         "KP",
+        "MK",
         "NO",
         "OM",
         "QO",
@@ -406,6 +407,7 @@ public class LocalizedNamesImpl_zu extends LocalizedNamesImpl {
     namesMap.put("ES", "i-Spain");
     namesMap.put("ET", "i-Ethiopia");
     namesMap.put("EU", "i-European Union");
+    namesMap.put("EZ", "I-Eurozone");
     namesMap.put("FI", "i-Finland");
     namesMap.put("FJ", "i-Fiji");
     namesMap.put("FK", "i-Falkland Islands");
@@ -432,7 +434,7 @@ public class LocalizedNamesImpl_zu extends LocalizedNamesImpl {
     namesMap.put("GW", "i-Guinea-Bissau");
     namesMap.put("GY", "i-Guyana");
     namesMap.put("HK", "i-Hong Kong SAR China");
-    namesMap.put("HM", "i-Heard Island ne-McDonald Islands");
+    namesMap.put("HM", "I-Heard & McDonald Island");
     namesMap.put("HN", "i-Honduras");
     namesMap.put("HR", "i-Croatia");
     namesMap.put("HT", "i-Haiti");
@@ -481,7 +483,7 @@ public class LocalizedNamesImpl_zu extends LocalizedNamesImpl {
     namesMap.put("MF", "i-Saint Martin");
     namesMap.put("MG", "i-Madagascar");
     namesMap.put("MH", "i-Marshall Islands");
-    namesMap.put("MK", "i-Macedonia");
+    namesMap.put("MK", "i-North Macedonia");
     namesMap.put("ML", "iMali");
     namesMap.put("MM", "i-Myanmar (Burma)");
     namesMap.put("MN", "i-Mongolia");
@@ -571,7 +573,7 @@ public class LocalizedNamesImpl_zu extends LocalizedNamesImpl {
     namesMap.put("TZ", "i-Tanzania");
     namesMap.put("UA", "i-Ukraine");
     namesMap.put("UG", "i-Uganda");
-    namesMap.put("UM", "i-U.S. Minor Outlying Islands");
+    namesMap.put("UM", "I-U.S. Outlying Islands");
     namesMap.put("UN", "I-United Nations");
     namesMap.put("US", "i-United States");
     namesMap.put("UY", "i-Uruguay");
@@ -705,6 +707,7 @@ public class LocalizedNamesImpl_zu extends LocalizedNamesImpl {
         "ES": "i-Spain",
         "ET": "i-Ethiopia",
         "EU": "i-European Union",
+        "EZ": "I-Eurozone",
         "FI": "i-Finland",
         "FJ": "i-Fiji",
         "FK": "i-Falkland Islands",
@@ -731,7 +734,7 @@ public class LocalizedNamesImpl_zu extends LocalizedNamesImpl {
         "GW": "i-Guinea-Bissau",
         "GY": "i-Guyana",
         "HK": "i-Hong Kong SAR China",
-        "HM": "i-Heard Island ne-McDonald Islands",
+        "HM": "I-Heard & McDonald Island",
         "HN": "i-Honduras",
         "HR": "i-Croatia",
         "HT": "i-Haiti",
@@ -780,7 +783,7 @@ public class LocalizedNamesImpl_zu extends LocalizedNamesImpl {
         "MF": "i-Saint Martin",
         "MG": "i-Madagascar",
         "MH": "i-Marshall Islands",
-        "MK": "i-Macedonia",
+        "MK": "i-North Macedonia",
         "ML": "iMali",
         "MM": "i-Myanmar (Burma)",
         "MN": "i-Mongolia",
@@ -870,7 +873,7 @@ public class LocalizedNamesImpl_zu extends LocalizedNamesImpl {
         "TZ": "i-Tanzania",
         "UA": "i-Ukraine",
         "UG": "i-Uganda",
-        "UM": "i-U.S. Minor Outlying Islands",
+        "UM": "I-U.S. Outlying Islands",
         "UN": "I-United Nations",
         "US": "i-United States",
         "UY": "i-Uruguay",

@@ -347,12 +347,12 @@ public class LocaleData {
       String path, String tag, String key, String attribute, String defaultValue) {
     Map<String, String> map = getMap(category, locale);
     InputFile cldr = cldrFactory.load(allLocales.get(locale));
-    XPathParts parts = new XPathParts();
+    final XPathParts parts;
     String fullPath = cldr.getFullXPath(path);
 
     Map<String, String> attr = null;
     if (fullPath != null) {
-      parts.set(fullPath);
+      parts = XPathParts.getFrozenInstance(fullPath);
       attr = parts.findAttributes(tag);
     }
 
@@ -411,13 +411,12 @@ public class LocaleData {
       String tag, String keyAttribute) {
     Map<String, String> map = getMap(category, locale);
     InputFile cldr = cldrFactory.load(allLocales.get(locale));
-    XPathParts parts = new XPathParts();
     for (String path : cldr.listPaths(prefix)) {
       String fullXPath = cldr.getFullXPath(path);
       if (fullXPath == null) {
         fullXPath = path;
       }
-      parts.set(fullXPath);
+      final XPathParts parts = XPathParts.getFrozenInstance(fullXPath);
       if (parts.containsAttribute("alt")) {
         // ignore alternate strings
         continue;
@@ -481,9 +480,8 @@ public class LocaleData {
       RegionLanguageData regionLanguageData, String prefix, String tag, String keyAttribute) {
     InputFile supp = cldrFactory.getSupplementalData();
     Map<String, String> map = new HashMap<String, String>();
-    XPathParts parts = new XPathParts();
     for (String path : supp.listPaths(prefix)) {
-      parts.set(supp.getFullXPath(path));
+      final XPathParts parts = XPathParts.getFrozenInstance(supp.getFullXPath(path));
       Map<String, String> attr = parts.findAttributes(tag);
       if (attr == null || attr.get("alt") != null) {
         continue;
@@ -509,20 +507,17 @@ public class LocaleData {
     for (GwtLocale locale : allLocales.keySet()) {
       Map<String, String> map = getMap("version", locale);
       InputFile file = inputFactory.load(allLocales.get(locale));
-      XPathParts parts = new XPathParts();
       for (String path : file.listPaths("//ldml/identity")) {
         String fullXPath = file.getFullXPath(path);
         if (fullXPath == null) {
           fullXPath = path;
         }
-        parts.set(fullXPath);
+        final XPathParts parts = XPathParts.getFrozenInstance(fullXPath);
         Map<String, String> attr = parts.getAttributes(2);
         if (attr == null) {
           continue;
         }
-        for (Map.Entry<String, String> entry : attr.entrySet()) {
-          map.put(entry.getKey(), entry.getValue());
-        }
+        map.putAll(attr);
       }
     }
   }
@@ -938,13 +933,12 @@ public class LocaleData {
     }
     Map<String, Currency> tempMap = new HashMap<String, Currency>();
     InputFile file = inputFactory.load(allLocales.get(locale));
-    XPathParts parts = new XPathParts();
     for (String path : file.listPaths("//ldml/numbers/currencies")) {
       String fullPath = file.getFullXPath(path);
       if (fullPath == null) {
         fullPath = path;
       }
-      parts.set(fullPath);
+      final XPathParts parts = XPathParts.getFrozenInstance(fullPath);
       Map<String, String> attr = parts.findAttributes("currency");
       if (attr == null) {
         continue;
@@ -1104,12 +1098,7 @@ public class LocaleData {
    */
   private Map<String, String> getMap(String category, GwtLocale locale) {
     MapKey mapKey = new MapKey(category, locale);
-    Map<String, String> map = maps.get(mapKey);
-    if (map == null) {
-      map = new HashMap<String, String>();
-      maps.put(mapKey, map);
-    }
-    return map;
+    return maps.computeIfAbsent(mapKey, k -> new HashMap<>());
   }
 
   /**

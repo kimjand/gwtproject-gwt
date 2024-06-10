@@ -38,8 +38,13 @@ public class DateTimeFormatInfoImpl_rw extends DateTimeFormatInfoImpl {
   }
 
   @Override
-  public String formatYearMonthNumDay() {
-    return "y-MM-dd";
+  public String formatHour12Minute() {
+    return "h:mm a";
+  }
+
+  @Override
+  public String formatHour12MinuteSecond() {
+    return "h:mm:ss a";
   }
 
   @Override
@@ -49,7 +54,7 @@ public class DateTimeFormatInfoImpl_rw extends DateTimeFormatInfoImpl {
         "Gashyantare",
         "Werurwe",
         "Mata",
-        "Gicuransi",
+        "Gicurasi",
         "Kamena",
         "Nyakanga",
         "Kanama",

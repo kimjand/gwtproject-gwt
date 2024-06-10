@@ -17,12 +17,7 @@ package com.google.gwt.i18n.client.impl.cldr;
 
 import com.google.gwt.core.client.JavaScriptObject;
 
-// DO NOT EDIT - GENERATED FROM CLDR DATA:
-//  cldrVersion=21.0
-//  number=$Revision: 6546 $
-//  type=root
-//  date=$Date: 2012-02-07 13:32:35 -0500 (Tue, 07 Feb 2012) $
-
+// DO NOT EDIT - GENERATED FROM CLDR DATA
 
 /**
  * Localized names for the "sid" locale.
@@ -83,6 +78,7 @@ public class LocalizedNamesImpl_sid extends LocalizedNamesImpl {
         "CN",
         "CO",
         "CP",
+        "CQ",
         "CR",
         "CU",
         "CV",
@@ -105,6 +101,7 @@ public class LocalizedNamesImpl_sid extends LocalizedNamesImpl {
         "ER",
         "ES",
         "EU",
+        "EZ",
         "FI",
         "FJ",
         "FK",
@@ -272,6 +269,7 @@ public class LocalizedNamesImpl_sid extends LocalizedNamesImpl {
         "UA",
         "UG",
         "UM",
+        "UN",
         "US",
         "UY",
         "UZ",
@@ -284,6 +282,9 @@ public class LocalizedNamesImpl_sid extends LocalizedNamesImpl {
         "VU",
         "WF",
         "WS",
+        "XA",
+        "XB",
+        "XK",
         "YE",
         "YT",
         "ZA",

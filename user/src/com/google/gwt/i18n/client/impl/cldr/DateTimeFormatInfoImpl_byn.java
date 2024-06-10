@@ -24,8 +24,8 @@ public class DateTimeFormatInfoImpl_byn extends DateTimeFormatInfoImpl {
   @Override
   public String[] ampms() {
     return new String[] {
-        "ፋዱስ ጃብ",
-        "ፋዱስ ደምቢ"
+        "ፋዱስ ጃብ",
+        "ፋዱስ ደምቢ"
     };
   }
 
@@ -63,6 +63,16 @@ public class DateTimeFormatInfoImpl_byn extends DateTimeFormatInfoImpl {
         "ይጅ",
         "ኣድ"
     };
+  }
+
+  @Override
+  public String formatHour12Minute() {
+    return "h:mm a";
+  }
+
+  @Override
+  public String formatHour12MinuteSecond() {
+    return "h:mm:ss a";
   }
 
   @Override

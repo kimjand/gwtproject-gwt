@@ -83,6 +83,7 @@ public class LocalizedNamesImpl_nds extends LocalizedNamesImpl {
         "CK",
         "CR",
         "CP",
+        "CQ",
         "CW",
         "DK",
         "CD",

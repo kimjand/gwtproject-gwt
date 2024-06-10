@@ -85,8 +85,11 @@ public class LocalizedNamesImpl_so extends LocalizedNamesImpl {
         "BT",
         "KY",
         "IQ",
+        "CR",
+        "CQ",
         "OM",
         "DK",
+        "PS",
         "IO",
         "TF",
         "QO",
@@ -96,8 +99,8 @@ public class LocalizedNamesImpl_so extends LocalizedNamesImpl {
         "SV",
         "ER",
         "EE",
+        "SZ",
         "VA",
-        "PS",
         "VU",
         "FR",
         "GF",
@@ -127,13 +130,11 @@ public class LocalizedNamesImpl_so extends LocalizedNamesImpl {
         "HK",
         "IR",
         "EC",
-        "AE",
         "ID",
         "ES",
         "SK",
         "SI",
         "IL",
-        "SZ",
         "SE",
         "ET",
         "TD",
@@ -183,12 +184,12 @@ public class LocalizedNamesImpl_so extends LocalizedNamesImpl {
         "SS",
         "XK",
         "HR",
-        "CR",
         "CW",
         "CU",
         "KR",
         "KP",
         "KW",
+        "XA",
         "LA",
         "LV",
         "LR",
@@ -209,18 +210,19 @@ public class LocalizedNamesImpl_so extends LocalizedNamesImpl {
         "US",
         "EG",
         "MK",
+        "MU",
+        "MM",
         "YT",
         "MX",
+        "AE",
         "EU",
         "FM",
-        "MM",
         "MD",
         "MN",
         "MS",
         "MC",
         "ME",
         "MA",
-        "MU",
         "MR",
         "MZ",
         "NA",
@@ -233,6 +235,7 @@ public class LocalizedNamesImpl_so extends LocalizedNamesImpl {
         "NU",
         "NZ",
         "NO",
+        "XB",
         "QA",
         "UN",
         "CY",
@@ -242,13 +245,12 @@ public class LocalizedNamesImpl_so extends LocalizedNamesImpl {
         "RW",
         "ZM",
         "SA",
-        "SH",
-        "PM",
         "WS",
         "AS",
         "SM",
         "ST",
         "EH",
+        "SH",
         "RS",
         "EA",
         "CN",
@@ -265,6 +267,7 @@ public class LocalizedNamesImpl_so extends LocalizedNamesImpl {
         "KN",
         "LC",
         "MF",
+        "PM",
         "SR",
         "SD",
         "SY",
@@ -287,14 +290,12 @@ public class LocalizedNamesImpl_so extends LocalizedNamesImpl {
         "TC",
         "VI",
         "UG",
-        "UA",
         "JO",
         "UY",
         "UZ",
         "WF",
-        "XA",
-        "XB",
         "YE",
+        "UA",
         "EZ",
     };
   }
@@ -335,7 +336,7 @@ public class LocalizedNamesImpl_so extends LocalizedNamesImpl {
     namesMap.put("419", "Laatiin Ameerika");
     namesMap.put("AC", "Jasiiradda Asensiyoon");
     namesMap.put("AD", "Andora");
-    namesMap.put("AE", "Imaaraadka Carabta ee Midoobay");
+    namesMap.put("AE", "Midawga Imaaraatka Carabta");
     namesMap.put("AF", "Afgaanistaan");
     namesMap.put("AG", "Antigua & Barbuuda");
     namesMap.put("AI", "Anguula");
@@ -351,6 +352,7 @@ public class LocalizedNamesImpl_so extends LocalizedNamesImpl {
     namesMap.put("AZ", "Asarbajan");
     namesMap.put("BA", "Boosniya & Harsegofina");
     namesMap.put("BB", "Baarbadoos");
+    namesMap.put("BD", "Bangaladhesh");
     namesMap.put("BE", "Biljam");
     namesMap.put("BF", "Burkiina Faaso");
     namesMap.put("BG", "Bulgaariya");
@@ -358,7 +360,7 @@ public class LocalizedNamesImpl_so extends LocalizedNamesImpl {
     namesMap.put("BJ", "Biniin");
     namesMap.put("BL", "St. Baathelemiy");
     namesMap.put("BM", "Barmuuda");
-    namesMap.put("BN", "Buruneeya");
+    namesMap.put("BN", "Buruneey");
     namesMap.put("BO", "Boliifiya");
     namesMap.put("BQ", "Karibiyaan Nadarlands");
     namesMap.put("BR", "Baraasiil");
@@ -378,9 +380,8 @@ public class LocalizedNamesImpl_so extends LocalizedNamesImpl {
     namesMap.put("CL", "Jili");
     namesMap.put("CM", "Kaameruun");
     namesMap.put("CN", "Shiinaha");
-    namesMap.put("CO", "Kolombiya");
+    namesMap.put("CO", "Koloombiya");
     namesMap.put("CP", "Jasiiradda Kilibarton");
-    namesMap.put("CR", "Kosta Riika");
     namesMap.put("CU", "Kuuba");
     namesMap.put("CV", "Jasiiradda Kayb Faarde");
     namesMap.put("CW", "Kurakaaw");
@@ -433,7 +434,7 @@ public class LocalizedNamesImpl_so extends LocalizedNamesImpl {
     namesMap.put("IL", "Israaʼiil");
     namesMap.put("IM", "Jasiiradda Isle of Man");
     namesMap.put("IN", "Hindiya");
-    namesMap.put("IO", "Dhul xadeedka Badweynta Hindiya ee Biritishka");
+    namesMap.put("IO", "Dhul xadeedka Badweynta Hindiya ee Ingiriiska");
     namesMap.put("IQ", "Ciraaq");
     namesMap.put("IR", "Iiraan");
     namesMap.put("IS", "Ayslaand");
@@ -445,7 +446,7 @@ public class LocalizedNamesImpl_so extends LocalizedNamesImpl {
     namesMap.put("KG", "Kirgistaan");
     namesMap.put("KH", "Kamboodiya");
     namesMap.put("KM", "Komooros");
-    namesMap.put("KN", "St. Kitts & Nefis");
+    namesMap.put("KN", "St. Kitts iyo Nevis");
     namesMap.put("KP", "Kuuriyada Waqooyi");
     namesMap.put("KR", "Kuuriyada Koonfureed");
     namesMap.put("KW", "Kuwayt");
@@ -467,19 +468,20 @@ public class LocalizedNamesImpl_so extends LocalizedNamesImpl {
     namesMap.put("MF", "St. Maartin");
     namesMap.put("MG", "Madagaskar");
     namesMap.put("MH", "Jasiiradda Maarshal");
-    namesMap.put("MK", "Masedooniya");
+    namesMap.put("MK", "Masedooniya Waqooyi");
     namesMap.put("ML", "Maali");
-    namesMap.put("MM", "Miyanmar");
+    namesMap.put("MM", "Mayanmar");
     namesMap.put("MN", "Mongooliya");
     namesMap.put("MO", "Makaaw");
     namesMap.put("MP", "Jasiiradda Waqooyiga Mariaana");
     namesMap.put("MQ", "Maartinik");
     namesMap.put("MR", "Muritaaniya");
     namesMap.put("MT", "Maalta");
-    namesMap.put("MU", "Murishiyoos");
-    namesMap.put("MV", "Maaldiqeen");
+    namesMap.put("MU", "Mawrishiyaas");
+    namesMap.put("MV", "Maaldiifis");
     namesMap.put("MW", "Malaawi");
     namesMap.put("MX", "Meksiko");
+    namesMap.put("MY", "Malaysiya");
     namesMap.put("MZ", "Musambiik");
     namesMap.put("NA", "Namiibiya");
     namesMap.put("NC", "Jasiiradda Niyuu Kaledooniya");
@@ -495,19 +497,20 @@ public class LocalizedNamesImpl_so extends LocalizedNamesImpl {
     namesMap.put("PA", "Baanama");
     namesMap.put("PE", "Beeru");
     namesMap.put("PF", "Booliyneesiya Faransiiska");
-    namesMap.put("PG", "Babua Niyuu Gini");
+    namesMap.put("PG", "Babwa Niyuu Gini");
     namesMap.put("PH", "Filibiin");
     namesMap.put("PK", "Bakistaan");
     namesMap.put("PL", "Booland");
-    namesMap.put("PM", "Saint Pierre and Miquelon");
+    namesMap.put("PM", "St. Pierre iyo Miquelon");
     namesMap.put("PN", "Bitkairn");
     namesMap.put("PR", "Bueerto Riiko");
-    namesMap.put("PS", "Falastiin Daanka galbeed iyo Qasa");
+    namesMap.put("PS", "Dhulka Falastiiniyiinta daanta galbeed iyo marinka qasa");
     namesMap.put("PT", "Bortugaal");
     namesMap.put("PW", "Balaaw");
     namesMap.put("PY", "Baraguaay");
     namesMap.put("QA", "Qadar");
     namesMap.put("QO", "Dhulxeebeedka Osheeniya");
+    namesMap.put("RE", "Riyuuniyon");
     namesMap.put("RO", "Rumaaniya");
     namesMap.put("RS", "Seerbiya");
     namesMap.put("RU", "Ruush");
@@ -518,8 +521,8 @@ public class LocalizedNamesImpl_so extends LocalizedNamesImpl {
     namesMap.put("SD", "Suudaan");
     namesMap.put("SE", "Iswidhan");
     namesMap.put("SG", "Singaboor");
-    namesMap.put("SH", "Saint Helena");
-    namesMap.put("SI", "islofeeniya");
+    namesMap.put("SH", "Saynt Helena");
+    namesMap.put("SI", "Islofeeniya");
     namesMap.put("SJ", "Jasiiradda Sfaldbaad & Jaan Mayen");
     namesMap.put("SK", "Islofaakiya");
     namesMap.put("SL", "Siraaliyoon");
@@ -531,7 +534,7 @@ public class LocalizedNamesImpl_so extends LocalizedNamesImpl {
     namesMap.put("SV", "El Salfadoor");
     namesMap.put("SX", "Siint Maarteen");
     namesMap.put("SY", "Suuriya");
-    namesMap.put("SZ", "Iswaasilaand");
+    namesMap.put("SZ", "Eswaatiini");
     namesMap.put("TA", "Tiristan da Kunha");
     namesMap.put("TC", "Turks & Kaikos Island");
     namesMap.put("TD", "Jaad");
@@ -546,13 +549,13 @@ public class LocalizedNamesImpl_so extends LocalizedNamesImpl {
     namesMap.put("TV", "Tufaalu");
     namesMap.put("TW", "Taywaan");
     namesMap.put("TZ", "Tansaaniya");
-    namesMap.put("UA", "Ukrayn");
+    namesMap.put("UA", "Yukrayn");
     namesMap.put("UG", "Ugaanda");
     namesMap.put("UM", "Jasiiradaha ka baxsan Maraykanka");
     namesMap.put("UN", "Qaramada Midoobay");
     namesMap.put("US", "Maraykanka");
     namesMap.put("UY", "Uruguwaay");
-    namesMap.put("UZ", "Uusbakistaan");
+    namesMap.put("UZ", "Usbakistan");
     namesMap.put("VA", "Faatikaan");
     namesMap.put("VC", "St. Finsent & Girenadiins");
     namesMap.put("VE", "Fenisuweela");
@@ -562,12 +565,13 @@ public class LocalizedNamesImpl_so extends LocalizedNamesImpl {
     namesMap.put("VU", "Fanuaatu");
     namesMap.put("WF", "Walis & Futuna");
     namesMap.put("WS", "Samoowa");
+    namesMap.put("XA", "Lahjadaha Pseudo");
     namesMap.put("XK", "Koosofo");
     namesMap.put("YE", "Yaman");
     namesMap.put("ZA", "Koonfur Afrika");
     namesMap.put("ZM", "Saambiya");
     namesMap.put("ZW", "Simbaabwe");
-    namesMap.put("ZZ", "Far aan la aqoon amase aan saxnayn");
+    namesMap.put("ZZ", "Gobol aan la aqoonin");
   }
 
   @Override
@@ -610,7 +614,7 @@ public class LocalizedNamesImpl_so extends LocalizedNamesImpl {
         "419": "Laatiin Ameerika",
         "AC": "Jasiiradda Asensiyoon",
         "AD": "Andora",
-        "AE": "Imaaraadka Carabta ee Midoobay",
+        "AE": "Midawga Imaaraatka Carabta",
         "AF": "Afgaanistaan",
         "AG": "Antigua & Barbuuda",
         "AI": "Anguula",
@@ -626,6 +630,7 @@ public class LocalizedNamesImpl_so extends LocalizedNamesImpl {
         "AZ": "Asarbajan",
         "BA": "Boosniya & Harsegofina",
         "BB": "Baarbadoos",
+        "BD": "Bangaladhesh",
         "BE": "Biljam",
         "BF": "Burkiina Faaso",
         "BG": "Bulgaariya",
@@ -633,7 +638,7 @@ public class LocalizedNamesImpl_so extends LocalizedNamesImpl {
         "BJ": "Biniin",
         "BL": "St. Baathelemiy",
         "BM": "Barmuuda",
-        "BN": "Buruneeya",
+        "BN": "Buruneey",
         "BO": "Boliifiya",
         "BQ": "Karibiyaan Nadarlands",
         "BR": "Baraasiil",
@@ -653,9 +658,8 @@ public class LocalizedNamesImpl_so extends LocalizedNamesImpl {
         "CL": "Jili",
         "CM": "Kaameruun",
         "CN": "Shiinaha",
-        "CO": "Kolombiya",
+        "CO": "Koloombiya",
         "CP": "Jasiiradda Kilibarton",
-        "CR": "Kosta Riika",
         "CU": "Kuuba",
         "CV": "Jasiiradda Kayb Faarde",
         "CW": "Kurakaaw",
@@ -708,7 +712,7 @@ public class LocalizedNamesImpl_so extends LocalizedNamesImpl {
         "IL": "Israaʼiil",
         "IM": "Jasiiradda Isle of Man",
         "IN": "Hindiya",
-        "IO": "Dhul xadeedka Badweynta Hindiya ee Biritishka",
+        "IO": "Dhul xadeedka Badweynta Hindiya ee Ingiriiska",
         "IQ": "Ciraaq",
         "IR": "Iiraan",
         "IS": "Ayslaand",
@@ -720,7 +724,7 @@ public class LocalizedNamesImpl_so extends LocalizedNamesImpl {
         "KG": "Kirgistaan",
         "KH": "Kamboodiya",
         "KM": "Komooros",
-        "KN": "St. Kitts & Nefis",
+        "KN": "St. Kitts iyo Nevis",
         "KP": "Kuuriyada Waqooyi",
         "KR": "Kuuriyada Koonfureed",
         "KW": "Kuwayt",
@@ -742,19 +746,20 @@ public class LocalizedNamesImpl_so extends LocalizedNamesImpl {
         "MF": "St. Maartin",
         "MG": "Madagaskar",
         "MH": "Jasiiradda Maarshal",
-        "MK": "Masedooniya",
+        "MK": "Masedooniya Waqooyi",
         "ML": "Maali",
-        "MM": "Miyanmar",
+        "MM": "Mayanmar",
         "MN": "Mongooliya",
         "MO": "Makaaw",
         "MP": "Jasiiradda Waqooyiga Mariaana",
         "MQ": "Maartinik",
         "MR": "Muritaaniya",
         "MT": "Maalta",
-        "MU": "Murishiyoos",
-        "MV": "Maaldiqeen",
+        "MU": "Mawrishiyaas",
+        "MV": "Maaldiifis",
         "MW": "Malaawi",
         "MX": "Meksiko",
+        "MY": "Malaysiya",
         "MZ": "Musambiik",
         "NA": "Namiibiya",
         "NC": "Jasiiradda Niyuu Kaledooniya",
@@ -770,19 +775,20 @@ public class LocalizedNamesImpl_so extends LocalizedNamesImpl {
         "PA": "Baanama",
         "PE": "Beeru",
         "PF": "Booliyneesiya Faransiiska",
-        "PG": "Babua Niyuu Gini",
+        "PG": "Babwa Niyuu Gini",
         "PH": "Filibiin",
         "PK": "Bakistaan",
         "PL": "Booland",
-        "PM": "Saint Pierre and Miquelon",
+        "PM": "St. Pierre iyo Miquelon",
         "PN": "Bitkairn",
         "PR": "Bueerto Riiko",
-        "PS": "Falastiin Daanka galbeed iyo Qasa",
+        "PS": "Dhulka Falastiiniyiinta daanta galbeed iyo marinka qasa",
         "PT": "Bortugaal",
         "PW": "Balaaw",
         "PY": "Baraguaay",
         "QA": "Qadar",
         "QO": "Dhulxeebeedka Osheeniya",
+        "RE": "Riyuuniyon",
         "RO": "Rumaaniya",
         "RS": "Seerbiya",
         "RU": "Ruush",
@@ -793,8 +799,8 @@ public class LocalizedNamesImpl_so extends LocalizedNamesImpl {
         "SD": "Suudaan",
         "SE": "Iswidhan",
         "SG": "Singaboor",
-        "SH": "Saint Helena",
-        "SI": "islofeeniya",
+        "SH": "Saynt Helena",
+        "SI": "Islofeeniya",
         "SJ": "Jasiiradda Sfaldbaad & Jaan Mayen",
         "SK": "Islofaakiya",
         "SL": "Siraaliyoon",
@@ -806,7 +812,7 @@ public class LocalizedNamesImpl_so extends LocalizedNamesImpl {
         "SV": "El Salfadoor",
         "SX": "Siint Maarteen",
         "SY": "Suuriya",
-        "SZ": "Iswaasilaand",
+        "SZ": "Eswaatiini",
         "TA": "Tiristan da Kunha",
         "TC": "Turks & Kaikos Island",
         "TD": "Jaad",
@@ -821,13 +827,13 @@ public class LocalizedNamesImpl_so extends LocalizedNamesImpl {
         "TV": "Tufaalu",
         "TW": "Taywaan",
         "TZ": "Tansaaniya",
-        "UA": "Ukrayn",
+        "UA": "Yukrayn",
         "UG": "Ugaanda",
         "UM": "Jasiiradaha ka baxsan Maraykanka",
         "UN": "Qaramada Midoobay",
         "US": "Maraykanka",
         "UY": "Uruguwaay",
-        "UZ": "Uusbakistaan",
+        "UZ": "Usbakistan",
         "VA": "Faatikaan",
         "VC": "St. Finsent & Girenadiins",
         "VE": "Fenisuweela",
@@ -837,12 +843,13 @@ public class LocalizedNamesImpl_so extends LocalizedNamesImpl {
         "VU": "Fanuaatu",
         "WF": "Walis & Futuna",
         "WS": "Samoowa",
+        "XA": "Lahjadaha Pseudo",
         "XK": "Koosofo",
         "YE": "Yaman",
         "ZA": "Koonfur Afrika",
         "ZM": "Saambiya",
         "ZW": "Simbaabwe",
-        "ZZ": "Far aan la aqoon amase aan saxnayn"
+        "ZZ": "Gobol aan la aqoonin"
     };
   }-*/;
 }

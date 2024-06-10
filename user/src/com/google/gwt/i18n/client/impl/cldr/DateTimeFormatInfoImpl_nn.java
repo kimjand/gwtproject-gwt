@@ -67,8 +67,8 @@ public class DateTimeFormatInfoImpl_nn extends DateTimeFormatInfoImpl {
   @Override
   public String[] erasFull() {
     return new String[] {
-        "f.Kr.",
-        "e.Kr."
+        "før Kristus",
+        "etter Kristus"
     };
   }
 
@@ -83,6 +83,16 @@ public class DateTimeFormatInfoImpl_nn extends DateTimeFormatInfoImpl {
   @Override
   public String formatDay() {
     return "d.";
+  }
+
+  @Override
+  public String formatHour12Minute() {
+    return "h:mm a";
+  }
+
+  @Override
+  public String formatHour12MinuteSecond() {
+    return "h:mm:ss a";
   }
 
   @Override

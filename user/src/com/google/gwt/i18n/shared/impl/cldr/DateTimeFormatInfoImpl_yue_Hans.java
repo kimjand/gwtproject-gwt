@@ -27,6 +27,11 @@ public class DateTimeFormatInfoImpl_yue_Hans extends DateTimeFormatInfoImpl_yue 
   }
 
   @Override
+  public int firstDayOfTheWeek() {
+    return 1;
+  }
+
+  @Override
   public String formatMonthFullWeekdayDay() {
     return "M月d日EEEE";
   }
@@ -61,12 +66,22 @@ public class DateTimeFormatInfoImpl_yue_Hans extends DateTimeFormatInfoImpl_yue 
 
   @Override
   public String timeFormatFull() {
-    return "zzzz ah:mm:ss";
+    return "zzzz HH:mm:ss";
   }
 
   @Override
   public String timeFormatLong() {
-    return "z ah:mm:ss";
+    return "z HH:mm:ss";
+  }
+
+  @Override
+  public String timeFormatMedium() {
+    return "HH:mm:ss";
+  }
+
+  @Override
+  public String timeFormatShort() {
+    return "HH:mm";
   }
 
   @Override

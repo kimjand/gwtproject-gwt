@@ -82,6 +82,7 @@ public class LocalizedNamesImpl_agq extends LocalizedNamesImpl {
         "CV",
         "CZ",
         "CP",
+        "CQ",
         "CW",
         "CX",
         "DG",
@@ -200,6 +201,7 @@ public class LocalizedNamesImpl_agq extends LocalizedNamesImpl {
         "ME",
         "MF",
         "MM",
+        "MK",
         "MO",
         "MA",
         "MD",
@@ -210,7 +212,6 @@ public class LocalizedNamesImpl_agq extends LocalizedNamesImpl {
         "MN",
         "MS",
         "MX",
-        "MK",
         "NE",
         "NA",
         "NR",
@@ -420,7 +421,6 @@ public class LocalizedNamesImpl_agq extends LocalizedNamesImpl {
     namesMap.put("MD", "Mòodovà");
     namesMap.put("MG", "Màdàgasɨkà");
     namesMap.put("MH", "Chwɨlà fɨ Mashà");
-    namesMap.put("MK", "Mɨ̀sɨ̀donyìa");
     namesMap.put("ML", "Malè");
     namesMap.put("MM", "Mǐanmà");
     namesMap.put("MN", "Mùŋgolìa");
@@ -653,7 +653,6 @@ public class LocalizedNamesImpl_agq extends LocalizedNamesImpl {
         "MD": "Mòodovà",
         "MG": "Màdàgasɨkà",
         "MH": "Chwɨlà fɨ Mashà",
-        "MK": "Mɨ̀sɨ̀donyìa",
         "ML": "Malè",
         "MM": "Mǐanmà",
         "MN": "Mùŋgolìa",

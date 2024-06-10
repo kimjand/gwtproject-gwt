@@ -31,17 +31,17 @@ public class DateTimeFormatInfoImpl_uk extends DateTimeFormatInfoImpl {
 
   @Override
   public String dateFormatFull() {
-    return "EEEE, d MMMM y 'р'.";
+    return "EEEE, d MMMM y 'р'.";
   }
 
   @Override
   public String dateFormatLong() {
-    return "d MMMM y 'р'.";
+    return "d MMMM y 'р'.";
   }
 
   @Override
   public String dateFormatMedium() {
-    return "d MMM y 'р'.";
+    return "d MMM y 'р'.";
   }
 
   @Override
@@ -51,12 +51,12 @@ public class DateTimeFormatInfoImpl_uk extends DateTimeFormatInfoImpl {
 
   @Override
   public String dateTimeFull(String timePattern, String datePattern) {
-    return datePattern + " 'о' " + timePattern;
+    return datePattern + ", " + timePattern;
   }
 
   @Override
   public String dateTimeLong(String timePattern, String datePattern) {
-    return datePattern + " 'о' " + timePattern;
+    return datePattern + ", " + timePattern;
   }
 
   @Override
@@ -86,6 +86,16 @@ public class DateTimeFormatInfoImpl_uk extends DateTimeFormatInfoImpl {
   }
 
   @Override
+  public String formatHour12Minute() {
+    return "h:mm a";
+  }
+
+  @Override
+  public String formatHour12MinuteSecond() {
+    return "h:mm:ss a";
+  }
+
+  @Override
   public String formatMonthAbbrevDay() {
     return "d MMM";
   }
@@ -107,22 +117,22 @@ public class DateTimeFormatInfoImpl_uk extends DateTimeFormatInfoImpl {
 
   @Override
   public String formatYearMonthAbbrev() {
-    return "LLL y";
+    return "LLL y 'р'.";
   }
 
   @Override
   public String formatYearMonthAbbrevDay() {
-    return "d MMM y";
+    return "d MMM y 'р'.";
   }
 
   @Override
   public String formatYearMonthFull() {
-    return "LLLL y";
+    return "LLLL y 'р'.";
   }
 
   @Override
   public String formatYearMonthFullDay() {
-    return "d MMMM y 'р'.";
+    return "d MMMM y 'р'.";
   }
 
   @Override
@@ -137,12 +147,12 @@ public class DateTimeFormatInfoImpl_uk extends DateTimeFormatInfoImpl {
 
   @Override
   public String formatYearMonthWeekdayDay() {
-    return "EEE, d MMM y";
+    return "EEE, d MMM y 'р'.";
   }
 
   @Override
   public String formatYearQuarterFull() {
-    return "QQQQ y 'р'.";
+    return "QQQQ y 'р'.";
   }
 
   @Override
@@ -237,24 +247,6 @@ public class DateTimeFormatInfoImpl_uk extends DateTimeFormatInfoImpl {
         "жовт.",
         "лист.",
         "груд."
-    };
-  }
-
-  @Override
-  public String[] monthsShortStandalone() {
-    return new String[] {
-        "січ",
-        "лют",
-        "бер",
-        "кві",
-        "тра",
-        "чер",
-        "лип",
-        "сер",
-        "вер",
-        "жов",
-        "лис",
-        "гру"
     };
   }
 

@@ -31,22 +31,42 @@ public class DateTimeFormatInfoImpl_mk extends DateTimeFormatInfoImpl {
 
   @Override
   public String dateFormatFull() {
-    return "EEEE, dd MMMM y";
+    return "EEEE, d MMMM y";
   }
 
   @Override
   public String dateFormatLong() {
-    return "dd MMMM y";
+    return "d MMMM y";
   }
 
   @Override
   public String dateFormatMedium() {
-    return "dd.M.y";
+    return "d.M.y";
   }
 
   @Override
   public String dateFormatShort() {
-    return "dd.M.yy";
+    return "d.M.yy";
+  }
+
+  @Override
+  public String dateTimeFull(String timePattern, String datePattern) {
+    return datePattern + ", " + timePattern;
+  }
+
+  @Override
+  public String dateTimeLong(String timePattern, String datePattern) {
+    return datePattern + ", " + timePattern;
+  }
+
+  @Override
+  public String dateTimeMedium(String timePattern, String datePattern) {
+    return datePattern + ", " + timePattern;
+  }
+
+  @Override
+  public String dateTimeShort(String timePattern, String datePattern) {
+    return datePattern + ", " + timePattern;
   }
 
   @Override
@@ -60,9 +80,19 @@ public class DateTimeFormatInfoImpl_mk extends DateTimeFormatInfoImpl {
   @Override
   public String[] erasShort() {
     return new String[] {
-        "пр.н.е.",
+        "п.н.е.",
         "н.е."
     };
+  }
+
+  @Override
+  public String formatHour12Minute() {
+    return "h:mm a";
+  }
+
+  @Override
+  public String formatHour12MinuteSecond() {
+    return "h:mm:ss a";
   }
 
   @Override
@@ -87,17 +117,17 @@ public class DateTimeFormatInfoImpl_mk extends DateTimeFormatInfoImpl {
 
   @Override
   public String formatYearMonthAbbrev() {
-    return "MMM y 'г'.";
+    return "MMM y 'г'.";
   }
 
   @Override
   public String formatYearMonthAbbrevDay() {
-    return "d MMM y 'г'.";
+    return "d MMM y 'г'.";
   }
 
   @Override
   public String formatYearMonthFull() {
-    return "MMMM y 'г'.";
+    return "MMMM y 'г'.";
   }
 
   @Override
@@ -117,17 +147,17 @@ public class DateTimeFormatInfoImpl_mk extends DateTimeFormatInfoImpl {
 
   @Override
   public String formatYearMonthWeekdayDay() {
-    return "EEE, d MMM y 'г'.";
+    return "EEE, d MMM y 'г'.";
   }
 
   @Override
   public String formatYearQuarterFull() {
-    return "QQQQ y 'г'.";
+    return "QQQQ y 'г'.";
   }
 
   @Override
   public String formatYearQuarterShort() {
-    return "Q y 'г'.";
+    return "Q y 'г'.";
   }
 
   @Override
@@ -177,9 +207,9 @@ public class DateTimeFormatInfoImpl_mk extends DateTimeFormatInfoImpl {
         "јун.",
         "јул.",
         "авг.",
-        "септ.",
+        "сеп.",
         "окт.",
-        "ноем.",
+        "ное.",
         "дек."
     };
   }
@@ -187,20 +217,20 @@ public class DateTimeFormatInfoImpl_mk extends DateTimeFormatInfoImpl {
   @Override
   public String[] quartersFull() {
     return new String[] {
-        "прво тромесечје",
-        "второ тромесечје",
-        "трето тромесечје",
-        "четврто тромесечје"
+        "прво тримесечје",
+        "второ тримесечје",
+        "трето тримесечје",
+        "четврто тримесечје"
     };
   }
 
   @Override
   public String[] quartersShort() {
     return new String[] {
-        "јан-мар",
-        "апр-јун",
-        "јул-сеп",
-        "окт-дек"
+        "јан – мар",
+        "апр – јун",
+        "јул – сеп",
+        "окт – дек"
     };
   }
 
@@ -232,19 +262,6 @@ public class DateTimeFormatInfoImpl_mk extends DateTimeFormatInfoImpl {
 
   @Override
   public String[] weekdaysShort() {
-    return new String[] {
-        "нед.",
-        "пон.",
-        "вт.",
-        "сре.",
-        "чет.",
-        "пет.",
-        "саб."
-    };
-  }
-
-  @Override
-  public String[] weekdaysShortStandalone() {
     return new String[] {
         "нед.",
         "пон.",

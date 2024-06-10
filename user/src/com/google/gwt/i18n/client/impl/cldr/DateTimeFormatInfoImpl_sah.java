@@ -31,7 +31,7 @@ public class DateTimeFormatInfoImpl_sah extends DateTimeFormatInfoImpl {
 
   @Override
   public String dateFormatFull() {
-    return "y 'сыл' MMMM d 'күнэ', EEEE";
+    return "y 'сыл' MMMM d 'күнэ', EEEE";
   }
 
   @Override
@@ -66,13 +66,18 @@ public class DateTimeFormatInfoImpl_sah extends DateTimeFormatInfoImpl {
   }
 
   @Override
-  public String formatYearMonthFullDay() {
-    return "y, MMMM d";
+  public String formatHour12Minute() {
+    return "h:mm a";
   }
 
   @Override
-  public String formatYearMonthNumDay() {
-    return "y-MM-dd";
+  public String formatHour12MinuteSecond() {
+    return "h:mm:ss a";
+  }
+
+  @Override
+  public String formatYearMonthFullDay() {
+    return "y, MMMM d";
   }
 
   @Override

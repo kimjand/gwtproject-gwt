@@ -20,4 +20,14 @@ package com.google.gwt.i18n.client.impl.cldr;
  * Implementation of DateTimeFormatInfo for the "en_GB" locale.
  */
 public class DateTimeFormatInfoImpl_en_GB extends DateTimeFormatInfoImpl_en_150 {
+
+  @Override
+  public String dateFormatFull() {
+    return "EEEE d MMMM y";
+  }
+
+  @Override
+  public String formatMonthFullWeekdayDay() {
+    return "EEEE d MMMM";
+  }
 }

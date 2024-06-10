@@ -25,25 +25,12 @@ public class DateTimeFormatInfoImpl_ti_ER extends DateTimeFormatInfoImpl_ti {
   public String[] erasFull() {
     return new String[] {
         "ዓመተ ዓለም",
-        "ዓመተ ምህረት"
+        "ዓመተ ምሕረት"
     };
   }
 
   @Override
   public int firstDayOfTheWeek() {
     return 1;
-  }
-
-  @Override
-  public String[] weekdaysNarrowStandalone() {
-    return new String[] {
-        "ሰ",
-        "ሰ",
-        "ሰ",
-        "ረ",
-        "ሓ",
-        "ዓ",
-        "ቀ"
-    };
   }
 }

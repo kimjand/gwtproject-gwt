@@ -81,6 +81,7 @@ public class LocalizedNamesImpl_ak extends LocalizedNamesImpl {
         "BJ",
         "CC",
         "CP",
+        "CQ",
         "CW",
         "CX",
         "DG",
@@ -179,12 +180,12 @@ public class LocalizedNamesImpl_ak extends LocalizedNamesImpl {
         "ML",
         "MS",
         "MH",
-        "MK",
         "MQ",
         "YT",
         "ME",
         "MF",
         "MM",
+        "MK",
         "MO",
         "MA",
         "MZ",
@@ -407,7 +408,6 @@ public class LocalizedNamesImpl_ak extends LocalizedNamesImpl {
     namesMap.put("MC", "Mɔnako");
     namesMap.put("MD", "Mɔldova");
     namesMap.put("MG", "Madagaska");
-    namesMap.put("MK", "Masedonia");
     namesMap.put("MM", "Miyanma");
     namesMap.put("MN", "Mɔngolia");
     namesMap.put("MQ", "Matinik");
@@ -447,6 +447,7 @@ public class LocalizedNamesImpl_ak extends LocalizedNamesImpl {
     namesMap.put("ST", "São Tomé and Príncipe");
     namesMap.put("SV", "Ɛl Salvadɔ");
     namesMap.put("SY", "Siria");
+    namesMap.put("SZ", "Swaziland");
     namesMap.put("TC", "Turks ne Caicos Islands");
     namesMap.put("TD", "Kyad");
     namesMap.put("TH", "Taeland");
@@ -583,7 +584,6 @@ public class LocalizedNamesImpl_ak extends LocalizedNamesImpl {
         "MC": "Mɔnako",
         "MD": "Mɔldova",
         "MG": "Madagaska",
-        "MK": "Masedonia",
         "MM": "Miyanma",
         "MN": "Mɔngolia",
         "MQ": "Matinik",
@@ -623,6 +623,7 @@ public class LocalizedNamesImpl_ak extends LocalizedNamesImpl {
         "ST": "São Tomé and Príncipe",
         "SV": "Ɛl Salvadɔ",
         "SY": "Siria",
+        "SZ": "Swaziland",
         "TC": "Turks ne Caicos Islands",
         "TD": "Kyad",
         "TH": "Taeland",

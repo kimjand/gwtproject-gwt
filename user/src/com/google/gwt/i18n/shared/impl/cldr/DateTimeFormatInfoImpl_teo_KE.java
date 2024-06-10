@@ -25,4 +25,9 @@ public class DateTimeFormatInfoImpl_teo_KE extends DateTimeFormatInfoImpl_teo {
   public int firstDayOfTheWeek() {
     return 0;
   }
+
+  @Override
+  public int weekendStart() {
+    return 6;
+  }
 }

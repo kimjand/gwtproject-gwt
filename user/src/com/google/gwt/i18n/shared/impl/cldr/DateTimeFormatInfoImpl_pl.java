@@ -38,7 +38,7 @@ public class DateTimeFormatInfoImpl_pl extends DateTimeFormatInfoImpl {
 
   @Override
   public String dateFormatShort() {
-    return "dd.MM.y";
+    return "d.MM.y";
   }
 
   @Override
@@ -65,6 +65,16 @@ public class DateTimeFormatInfoImpl_pl extends DateTimeFormatInfoImpl {
         "p.n.e.",
         "n.e."
     };
+  }
+
+  @Override
+  public String formatHour12Minute() {
+    return "h:mm a";
+  }
+
+  @Override
+  public String formatHour12MinuteSecond() {
+    return "h:mm:ss a";
   }
 
   @Override

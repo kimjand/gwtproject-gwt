@@ -52,6 +52,7 @@ public class LocalizedNamesImpl_wal extends LocalizedNamesImpl {
         "CI",
         "CK",
         "CP",
+        "CQ",
         "CR",
         "CU",
         "CW",
@@ -60,6 +61,7 @@ public class LocalizedNamesImpl_wal extends LocalizedNamesImpl {
         "DJ",
         "EA",
         "EU",
+        "EZ",
         "FK",
         "FO",
         "GA",
@@ -147,6 +149,7 @@ public class LocalizedNamesImpl_wal extends LocalizedNamesImpl {
         "TW",
         "UA",
         "UM",
+        "UN",
         "UY",
         "VA",
         "VC",
@@ -154,6 +157,8 @@ public class LocalizedNamesImpl_wal extends LocalizedNamesImpl {
         "VU",
         "WF",
         "WS",
+        "XA",
+        "XB",
         "XK",
         "YT",
         "ZW",
@@ -180,7 +185,7 @@ public class LocalizedNamesImpl_wal extends LocalizedNamesImpl {
         "MN",
         "RU",
         "RO",
-        "KR",
+        "KP",
         "SO",
         "SD",
         "SY",
@@ -221,7 +226,6 @@ public class LocalizedNamesImpl_wal extends LocalizedNamesImpl {
         "NA",
         "NG",
         "NL",
-        "AN",
         "NP",
         "NO",
         "AL",
@@ -264,7 +268,7 @@ public class LocalizedNamesImpl_wal extends LocalizedNamesImpl {
         "UZ",
         "UG",
         "ZA",
-        "KP",
+        "KR",
         "DK",
         "DM",
         "DO",
@@ -296,7 +300,6 @@ public class LocalizedNamesImpl_wal extends LocalizedNamesImpl {
     namesMap.put("AE", "የተባበሩት አረብ ኤምሬትስ");
     namesMap.put("AL", "አልባኒያ");
     namesMap.put("AM", "አርሜኒያ");
-    namesMap.put("AN", "ኔዘርላንድስ አንቲልስ");
     namesMap.put("AR", "አርጀንቲና");
     namesMap.put("AT", "ኦስትሪያ");
     namesMap.put("AU", "አውስትሬሊያ");
@@ -363,8 +366,8 @@ public class LocalizedNamesImpl_wal extends LocalizedNamesImpl {
     namesMap.put("JP", "ጃፓን");
     namesMap.put("KH", "ካምቦዲያ");
     namesMap.put("KM", "ኮሞሮስ");
-    namesMap.put("KP", "ደቡብ ኮሪያ");
-    namesMap.put("KR", "ሰሜን ኮሪያ");
+    namesMap.put("KP", "ሰሜን ኮሪያ");
+    namesMap.put("KR", "ደቡብ ኮሪያ");
     namesMap.put("KW", "ክዌት");
     namesMap.put("LB", "ሊባኖስ");
     namesMap.put("LT", "ሊቱዌኒያ");
@@ -434,7 +437,6 @@ public class LocalizedNamesImpl_wal extends LocalizedNamesImpl {
         "AE": "የተባበሩት አረብ ኤምሬትስ",
         "AL": "አልባኒያ",
         "AM": "አርሜኒያ",
-        "AN": "ኔዘርላንድስ አንቲልስ",
         "AR": "አርጀንቲና",
         "AT": "ኦስትሪያ",
         "AU": "አውስትሬሊያ",
@@ -501,8 +503,8 @@ public class LocalizedNamesImpl_wal extends LocalizedNamesImpl {
         "JP": "ጃፓን",
         "KH": "ካምቦዲያ",
         "KM": "ኮሞሮስ",
-        "KP": "ደቡብ ኮሪያ",
-        "KR": "ሰሜን ኮሪያ",
+        "KP": "ሰሜን ኮሪያ",
+        "KR": "ደቡብ ኮሪያ",
         "KW": "ክዌት",
         "LB": "ሊባኖስ",
         "LT": "ሊቱዌኒያ",

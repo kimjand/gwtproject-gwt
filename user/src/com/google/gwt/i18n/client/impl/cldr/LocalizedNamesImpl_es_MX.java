@@ -80,6 +80,7 @@ public class LocalizedNamesImpl_es_MX extends LocalizedNamesImpl_es_419 {
         "KR",
         "CR",
         "CI",
+        "CQ",
         "HR",
         "CU",
         "CW",
@@ -96,7 +97,9 @@ public class LocalizedNamesImpl_es_MX extends LocalizedNamesImpl_es_419 {
         "ES",
         "US",
         "EE",
+        "SZ",
         "ET",
+        "EZ",
         "PH",
         "FI",
         "FJ",
@@ -193,6 +196,7 @@ public class LocalizedNamesImpl_es_MX extends LocalizedNamesImpl_es_419 {
         "MS",
         "MZ",
         "MM",
+        "UN",
         "NA",
         "NR",
         "NP",
@@ -214,6 +218,8 @@ public class LocalizedNamesImpl_es_MX extends LocalizedNamesImpl_es_419 {
         "PF",
         "PL",
         "PT",
+        "XA",
+        "XB",
         "PR",
         "HK",
         "MO",
@@ -247,7 +253,6 @@ public class LocalizedNamesImpl_es_MX extends LocalizedNamesImpl_es_419 {
         "SY",
         "SO",
         "LK",
-        "SZ",
         "ZA",
         "SD",
         "SS",
@@ -274,7 +279,6 @@ public class LocalizedNamesImpl_es_MX extends LocalizedNamesImpl_es_419 {
         "TV",
         "UA",
         "UG",
-        "UN",
         "EU",
         "UY",
         "UZ",
@@ -282,13 +286,10 @@ public class LocalizedNamesImpl_es_MX extends LocalizedNamesImpl_es_419 {
         "VE",
         "VN",
         "WF",
-        "XA",
-        "XB",
         "YE",
         "DJ",
         "ZM",
         "ZW",
-        "EZ",
     };
   }
 
@@ -303,20 +304,15 @@ public class LocalizedNamesImpl_es_MX extends LocalizedNamesImpl_es_419 {
     namesMap.put("034", "Asia meridional");
     namesMap.put("035", "Sudeste Asiático");
     namesMap.put("039", "Europa meridional");
-    namesMap.put("057", "Región de Micronesia");
     namesMap.put("145", "Asia Occidental");
     namesMap.put("151", "Europa Oriental");
     namesMap.put("154", "Europa septentrional");
     namesMap.put("155", "Europa Occidental");
     namesMap.put("BA", "Bosnia y Herzegovina");
     namesMap.put("CI", "Côte d’Ivoire");
-    namesMap.put("EZ", "zona euro");
     namesMap.put("GG", "Guernsey");
-    namesMap.put("SA", "Arabia Saudita");
-    namesMap.put("TA", "Tristán de Acuña");
-    namesMap.put("TL", "Timor-Leste");
+    namesMap.put("SZ", "Eswatini");
     namesMap.put("UM", "Islas menores alejadas de EE. UU.");
-    namesMap.put("VI", "Islas Vírgenes de EE. UU.");
   }
 
   @Override
@@ -334,20 +330,15 @@ public class LocalizedNamesImpl_es_MX extends LocalizedNamesImpl_es_419 {
         "034": "Asia meridional",
         "035": "Sudeste Asiático",
         "039": "Europa meridional",
-        "057": "Región de Micronesia",
         "145": "Asia Occidental",
         "151": "Europa Oriental",
         "154": "Europa septentrional",
         "155": "Europa Occidental",
         "BA": "Bosnia y Herzegovina",
         "CI": "Côte d’Ivoire",
-        "EZ": "zona euro",
         "GG": "Guernsey",
-        "SA": "Arabia Saudita",
-        "TA": "Tristán de Acuña",
-        "TL": "Timor-Leste",
-        "UM": "Islas menores alejadas de EE. UU.",
-        "VI": "Islas Vírgenes de EE. UU."
+        "SZ": "Eswatini",
+        "UM": "Islas menores alejadas de EE. UU."
     };
   }-*/;
 }

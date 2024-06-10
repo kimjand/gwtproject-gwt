@@ -82,8 +82,8 @@ public class LocalizedNamesImpl_en_DG extends LocalizedNamesImpl_en {
         "CC",
         "CO",
         "KM",
-        "CD",
         "CG",
+        "CD",
         "CK",
         "CR",
         "CI",
@@ -103,8 +103,10 @@ public class LocalizedNamesImpl_en_DG extends LocalizedNamesImpl_en {
         "GQ",
         "ER",
         "EE",
+        "SZ",
         "ET",
         "EU",
+        "EZ",
         "FK",
         "FO",
         "FJ",
@@ -163,7 +165,6 @@ public class LocalizedNamesImpl_en_DG extends LocalizedNamesImpl_en {
         "LT",
         "LU",
         "MO",
-        "MK",
         "MG",
         "MW",
         "MY",
@@ -189,7 +190,6 @@ public class LocalizedNamesImpl_en_DG extends LocalizedNamesImpl_en {
         "NR",
         "NP",
         "NL",
-        "AN",
         "NC",
         "NZ",
         "NI",
@@ -199,6 +199,7 @@ public class LocalizedNamesImpl_en_DG extends LocalizedNamesImpl_en {
         "NF",
         "MP",
         "KP",
+        "MK",
         "NO",
         "OM",
         "QO",
@@ -213,22 +214,18 @@ public class LocalizedNamesImpl_en_DG extends LocalizedNamesImpl_en {
         "PN",
         "PL",
         "PT",
+        "XA",
+        "XB",
         "PR",
         "QA",
         "RE",
         "RO",
         "RU",
         "RW",
-        "BL",
-        "SH",
-        "KN",
-        "LC",
-        "MF",
-        "PM",
-        "VC",
         "WS",
         "SM",
         "ST",
+        "CQ",
         "SA",
         "SN",
         "RS",
@@ -246,10 +243,16 @@ public class LocalizedNamesImpl_en_DG extends LocalizedNamesImpl_en {
         "SS",
         "ES",
         "LK",
+        "BL",
+        "SH",
+        "KN",
+        "LC",
+        "MF",
+        "PM",
+        "VC",
         "SD",
         "SR",
         "SJ",
-        "SZ",
         "SE",
         "CH",
         "SY",
@@ -268,14 +271,15 @@ public class LocalizedNamesImpl_en_DG extends LocalizedNamesImpl_en {
         "TM",
         "TC",
         "TV",
-        "UM",
-        "VI",
         "UG",
         "UA",
         "AE",
         "GB",
+        "UN",
         "US",
         "UY",
+        "UM",
+        "VI",
         "UZ",
         "VU",
         "VA",
@@ -292,10 +296,15 @@ public class LocalizedNamesImpl_en_DG extends LocalizedNamesImpl_en {
   @Override
   protected void loadNameMapJava() {
     super.loadNameMapJava();
-    namesMap.put("GS", "South Georgia and the South Sandwich Islands");
-    namesMap.put("HM", "Heard Island and McDonald Islands");
-    namesMap.put("UM", "U.S. Minor Outlying Islands");
-    namesMap.put("VC", "Saint Vincent and the Grenadines");
+    namesMap.put("BL", "St Barthélemy");
+    namesMap.put("KN", "St Kitts & Nevis");
+    namesMap.put("LC", "St Lucia");
+    namesMap.put("MF", "St Martin");
+    namesMap.put("PM", "St Pierre & Miquelon");
+    namesMap.put("SH", "St Helena");
+    namesMap.put("UM", "US Outlying Islands");
+    namesMap.put("VC", "St Vincent & the Grenadines");
+    namesMap.put("VI", "US Virgin Islands");
   }
 
   @Override
@@ -305,10 +314,15 @@ public class LocalizedNamesImpl_en_DG extends LocalizedNamesImpl_en {
 
   private native JavaScriptObject loadMyNameMap() /*-{
     return {
-        "GS": "South Georgia and the South Sandwich Islands",
-        "HM": "Heard Island and McDonald Islands",
-        "UM": "U.S. Minor Outlying Islands",
-        "VC": "Saint Vincent and the Grenadines"
+        "BL": "St Barthélemy",
+        "KN": "St Kitts & Nevis",
+        "LC": "St Lucia",
+        "MF": "St Martin",
+        "PM": "St Pierre & Miquelon",
+        "SH": "St Helena",
+        "UM": "US Outlying Islands",
+        "VC": "St Vincent & the Grenadines",
+        "VI": "US Virgin Islands"
     };
   }-*/;
 }

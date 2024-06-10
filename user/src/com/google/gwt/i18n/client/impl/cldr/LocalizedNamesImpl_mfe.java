@@ -67,6 +67,7 @@ public class LocalizedNamesImpl_mfe extends LocalizedNamesImpl {
         "CR",
         "CI",
         "CP",
+        "CQ",
         "CU",
         "CW",
         "CX",
@@ -168,12 +169,12 @@ public class LocalizedNamesImpl_mfe extends LocalizedNamesImpl {
         "MT",
         "MA",
         "MQ",
-        "MK",
         "YT",
         "ME",
         "MX",
         "MF",
         "FM",
+        "MK",
         "MO",
         "MD",
         "MC",
@@ -389,7 +390,6 @@ public class LocalizedNamesImpl_mfe extends LocalizedNamesImpl {
     namesMap.put("MD", "Moldavi");
     namesMap.put("MG", "Madagaskar");
     namesMap.put("MH", "Zil Marshall");
-    namesMap.put("MK", "Masedwann");
     namesMap.put("MM", "Myanmar");
     namesMap.put("MN", "Mongoli");
     namesMap.put("MP", "Zil Maryann dinor");
@@ -440,6 +440,7 @@ public class LocalizedNamesImpl_mfe extends LocalizedNamesImpl {
     namesMap.put("ST", "São Tome-ek-Prínsip");
     namesMap.put("SV", "Salvador");
     namesMap.put("SY", "Lasiri");
+    namesMap.put("SZ", "Swaziland");
     namesMap.put("TC", "Zil Tirk ek Caïcos");
     namesMap.put("TD", "Tchad");
     namesMap.put("TH", "Thayland");
@@ -565,7 +566,6 @@ public class LocalizedNamesImpl_mfe extends LocalizedNamesImpl {
         "MD": "Moldavi",
         "MG": "Madagaskar",
         "MH": "Zil Marshall",
-        "MK": "Masedwann",
         "MM": "Myanmar",
         "MN": "Mongoli",
         "MP": "Zil Maryann dinor",
@@ -616,6 +616,7 @@ public class LocalizedNamesImpl_mfe extends LocalizedNamesImpl {
         "ST": "São Tome-ek-Prínsip",
         "SV": "Salvador",
         "SY": "Lasiri",
+        "SZ": "Swaziland",
         "TC": "Zil Tirk ek Caïcos",
         "TD": "Tchad",
         "TH": "Thayland",

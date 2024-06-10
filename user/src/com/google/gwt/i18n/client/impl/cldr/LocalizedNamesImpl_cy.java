@@ -27,6 +27,7 @@ public class LocalizedNamesImpl_cy extends LocalizedNamesImpl {
   @Override
   public String[] loadSortedRegionCodes() {
     return new String[] {
+        "XA",
         "AF",
         "AL",
         "DZ",
@@ -39,9 +40,9 @@ public class LocalizedNamesImpl_cy extends LocalizedNamesImpl {
         "EZ",
         "AM",
         "AW",
+        "AZ",
         "AU",
         "AT",
-        "AZ",
         "BH",
         "BD",
         "BB",
@@ -50,6 +51,7 @@ public class LocalizedNamesImpl_cy extends LocalizedNamesImpl {
         "BJ",
         "BM",
         "BT",
+        "XB",
         "BO",
         "BA",
         "BW",
@@ -70,12 +72,13 @@ public class LocalizedNamesImpl_cy extends LocalizedNamesImpl {
         "KM",
         "CR",
         "CI",
+        "CQ",
         "HR",
         "CW",
         "CY",
         "ZA",
-        "GS",
         "KR",
+        "GS",
         "DK",
         "SS",
         "DG",
@@ -86,6 +89,7 @@ public class LocalizedNamesImpl_cy extends LocalizedNamesImpl {
         "AE",
         "ER",
         "EE",
+        "SZ",
         "ET",
         "FR",
         "VN",
@@ -95,15 +99,16 @@ public class LocalizedNamesImpl_cy extends LocalizedNamesImpl {
         "GE",
         "GH",
         "GI",
+        "GN",
+        "GQ",
         "KP",
+        "MK",
         "EH",
         "GD",
         "GP",
         "GU",
         "GT",
-        "GQ",
         "GW",
-        "GN",
         "GY",
         "GF",
         "CF",
@@ -112,7 +117,6 @@ public class LocalizedNamesImpl_cy extends LocalizedNamesImpl {
         "GR",
         "JO",
         "PL",
-        "SZ",
         "TH",
         "IS",
         "HT",
@@ -144,7 +148,6 @@ public class LocalizedNamesImpl_cy extends LocalizedNamesImpl {
         "LT",
         "LU",
         "MO",
-        "MK",
         "MG",
         "MW",
         "MY",
@@ -220,22 +223,22 @@ public class LocalizedNamesImpl_cy extends LocalizedNamesImpl {
         "TW",
         "TJ",
         "TZ",
-        "TD",
         "TL",
         "PS",
         "IO",
         "TF",
+        "TN",
         "TG",
         "TK",
         "TO",
         "TT",
         "TA",
+        "TD",
         "CZ",
         "CN",
-        "TN",
-        "TM",
         "TV",
         "TR",
+        "TM",
         "UG",
         "UY",
         "UZ",
@@ -243,8 +246,6 @@ public class LocalizedNamesImpl_cy extends LocalizedNamesImpl {
         "VE",
         "WF",
         "UA",
-        "XA",
-        "XB",
         "BS",
         "UN",
         "CG",
@@ -330,6 +331,8 @@ public class LocalizedNamesImpl_cy extends LocalizedNamesImpl {
     namesMap.put("AT", "Awstria");
     namesMap.put("AU", "Awstralia");
     namesMap.put("AX", "Ynysoedd Åland");
+    namesMap.put("AZ", "Aserbaijan");
+    namesMap.put("BA", "Bosnia a Herzegovina");
     namesMap.put("BE", "Gwlad Belg");
     namesMap.put("BG", "Bwlgaria");
     namesMap.put("BL", "Saint Barthélemy");
@@ -369,12 +372,12 @@ public class LocalizedNamesImpl_cy extends LocalizedNamesImpl {
     namesMap.put("GF", "Guyane Ffrengig");
     namesMap.put("GG", "Ynys y Garn");
     namesMap.put("GL", "Yr Ynys Las");
-    namesMap.put("GN", "Guinée");
-    namesMap.put("GQ", "Guinea Gyhydeddol");
+    namesMap.put("GN", "Gini");
+    namesMap.put("GQ", "Gini Gyhydeddol");
     namesMap.put("GR", "Gwlad Groeg");
     namesMap.put("GS", "De Georgia ac Ynysoedd Sandwich y De");
     namesMap.put("GW", "Guiné-Bissau");
-    namesMap.put("HK", "Hong Kong SAR Tseina");
+    namesMap.put("HK", "Hong Kong SAR Tsieina");
     namesMap.put("HM", "Ynys Heard ac Ynysoedd McDonald");
     namesMap.put("HU", "Hwngari");
     namesMap.put("IC", "Yr Ynysoedd Dedwydd");
@@ -386,19 +389,20 @@ public class LocalizedNamesImpl_cy extends LocalizedNamesImpl {
     namesMap.put("IT", "Yr Eidal");
     namesMap.put("JO", "Gwlad Iorddonen");
     namesMap.put("KN", "Saint Kitts a Nevis");
-    namesMap.put("KP", "Gogledd Korea");
-    namesMap.put("KR", "De Korea");
+    namesMap.put("KP", "Gogledd Corea");
+    namesMap.put("KR", "De Corea");
     namesMap.put("KY", "Ynysoedd Cayman");
-    namesMap.put("KZ", "Kazakstan");
     namesMap.put("LB", "Libanus");
     namesMap.put("LC", "Saint Lucia");
+    namesMap.put("LT", "Lithwania");
     namesMap.put("LU", "Lwcsembwrg");
     namesMap.put("LV", "Latfia");
     namesMap.put("MA", "Moroco");
     namesMap.put("MD", "Moldofa");
     namesMap.put("MF", "Saint Martin");
     namesMap.put("MH", "Ynysoedd Marshall");
-    namesMap.put("MO", "Macau RhGA Tsieina");
+    namesMap.put("MK", "Gogledd Macedonia");
+    namesMap.put("MO", "Macau SAR Tsieina");
     namesMap.put("MP", "Ynysoedd Gogledd Mariana");
     namesMap.put("MV", "Y Maldives");
     namesMap.put("MX", "Mecsico");
@@ -427,16 +431,18 @@ public class LocalizedNamesImpl_cy extends LocalizedNamesImpl {
     namesMap.put("SK", "Slofacia");
     namesMap.put("SS", "De Swdan");
     namesMap.put("ST", "São Tomé a Príncipe");
-    namesMap.put("SZ", "Gwlad Swazi");
     namesMap.put("TC", "Ynysoedd Turks a Caicos");
-    namesMap.put("TD", "Tchad");
+    namesMap.put("TD", "Tsiad");
     namesMap.put("TF", "Tiroedd Deheuol ac Antarctig Ffrainc");
     namesMap.put("TH", "Gwlad Thai");
+    namesMap.put("TJ", "Tajicistan");
+    namesMap.put("TM", "Tyrcmenistan");
+    namesMap.put("TN", "Tiwnisia");
     namesMap.put("TR", "Twrci");
     namesMap.put("TT", "Trinidad a Tobago");
     namesMap.put("UA", "Wcráin");
     namesMap.put("UM", "Ynysoedd Pellennig UDA");
-    namesMap.put("UN", "y Cenhedloedd Unedig");
+    namesMap.put("UN", "Y Cenhedloedd Unedig");
     namesMap.put("US", "Yr Unol Daleithiau");
     namesMap.put("VA", "Y Fatican");
     namesMap.put("VC", "Saint Vincent a’r Grenadines");
@@ -444,6 +450,8 @@ public class LocalizedNamesImpl_cy extends LocalizedNamesImpl {
     namesMap.put("VI", "Ynysoedd Gwyryf yr Unol Daleithiau");
     namesMap.put("VN", "Fietnam");
     namesMap.put("WF", "Wallis a Futuna");
+    namesMap.put("XA", "Acenion Ffug");
+    namesMap.put("XB", "Bidi Ffug");
     namesMap.put("ZA", "De Affrica");
     namesMap.put("ZZ", "Rhanbarth Anhysbys");
   }
@@ -490,6 +498,8 @@ public class LocalizedNamesImpl_cy extends LocalizedNamesImpl {
         "AT": "Awstria",
         "AU": "Awstralia",
         "AX": "Ynysoedd Åland",
+        "AZ": "Aserbaijan",
+        "BA": "Bosnia a Herzegovina",
         "BE": "Gwlad Belg",
         "BG": "Bwlgaria",
         "BL": "Saint Barthélemy",
@@ -529,12 +539,12 @@ public class LocalizedNamesImpl_cy extends LocalizedNamesImpl {
         "GF": "Guyane Ffrengig",
         "GG": "Ynys y Garn",
         "GL": "Yr Ynys Las",
-        "GN": "Guinée",
-        "GQ": "Guinea Gyhydeddol",
+        "GN": "Gini",
+        "GQ": "Gini Gyhydeddol",
         "GR": "Gwlad Groeg",
         "GS": "De Georgia ac Ynysoedd Sandwich y De",
         "GW": "Guiné-Bissau",
-        "HK": "Hong Kong SAR Tseina",
+        "HK": "Hong Kong SAR Tsieina",
         "HM": "Ynys Heard ac Ynysoedd McDonald",
         "HU": "Hwngari",
         "IC": "Yr Ynysoedd Dedwydd",
@@ -546,19 +556,20 @@ public class LocalizedNamesImpl_cy extends LocalizedNamesImpl {
         "IT": "Yr Eidal",
         "JO": "Gwlad Iorddonen",
         "KN": "Saint Kitts a Nevis",
-        "KP": "Gogledd Korea",
-        "KR": "De Korea",
+        "KP": "Gogledd Corea",
+        "KR": "De Corea",
         "KY": "Ynysoedd Cayman",
-        "KZ": "Kazakstan",
         "LB": "Libanus",
         "LC": "Saint Lucia",
+        "LT": "Lithwania",
         "LU": "Lwcsembwrg",
         "LV": "Latfia",
         "MA": "Moroco",
         "MD": "Moldofa",
         "MF": "Saint Martin",
         "MH": "Ynysoedd Marshall",
-        "MO": "Macau RhGA Tsieina",
+        "MK": "Gogledd Macedonia",
+        "MO": "Macau SAR Tsieina",
         "MP": "Ynysoedd Gogledd Mariana",
         "MV": "Y Maldives",
         "MX": "Mecsico",
@@ -587,16 +598,18 @@ public class LocalizedNamesImpl_cy extends LocalizedNamesImpl {
         "SK": "Slofacia",
         "SS": "De Swdan",
         "ST": "São Tomé a Príncipe",
-        "SZ": "Gwlad Swazi",
         "TC": "Ynysoedd Turks a Caicos",
-        "TD": "Tchad",
+        "TD": "Tsiad",
         "TF": "Tiroedd Deheuol ac Antarctig Ffrainc",
         "TH": "Gwlad Thai",
+        "TJ": "Tajicistan",
+        "TM": "Tyrcmenistan",
+        "TN": "Tiwnisia",
         "TR": "Twrci",
         "TT": "Trinidad a Tobago",
         "UA": "Wcráin",
         "UM": "Ynysoedd Pellennig UDA",
-        "UN": "y Cenhedloedd Unedig",
+        "UN": "Y Cenhedloedd Unedig",
         "US": "Yr Unol Daleithiau",
         "VA": "Y Fatican",
         "VC": "Saint Vincent a’r Grenadines",
@@ -604,6 +617,8 @@ public class LocalizedNamesImpl_cy extends LocalizedNamesImpl {
         "VI": "Ynysoedd Gwyryf yr Unol Daleithiau",
         "VN": "Fietnam",
         "WF": "Wallis a Futuna",
+        "XA": "Acenion Ffug",
+        "XB": "Bidi Ffug",
         "ZA": "De Affrica",
         "ZZ": "Rhanbarth Anhysbys"
     };

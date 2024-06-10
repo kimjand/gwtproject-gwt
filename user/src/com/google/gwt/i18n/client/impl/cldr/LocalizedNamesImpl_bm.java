@@ -25,6 +25,13 @@ import com.google.gwt.core.client.JavaScriptObject;
 public class LocalizedNamesImpl_bm extends LocalizedNamesImpl {
 
   @Override
+  public String[] loadLikelyRegionCodes() {
+    return new String[] {
+        "ML",
+    };
+  }
+
+  @Override
   public String[] loadSortedRegionCodes() {
     return new String[] {
         "AC",
@@ -78,6 +85,7 @@ public class LocalizedNamesImpl_bm extends LocalizedNamesImpl {
         "CZ",
         "CY",
         "CP",
+        "CQ",
         "CW",
         "CX",
         "DK",
@@ -164,7 +172,6 @@ public class LocalizedNamesImpl_bm extends LocalizedNamesImpl {
         "LI",
         "LT",
         "LC",
-        "MK",
         "MG",
         "MW",
         "MV",
@@ -181,6 +188,7 @@ public class LocalizedNamesImpl_bm extends LocalizedNamesImpl {
         "MX",
         "MF",
         "FM",
+        "MK",
         "MO",
         "MD",
         "MC",
@@ -415,7 +423,6 @@ public class LocalizedNamesImpl_bm extends LocalizedNamesImpl {
     namesMap.put("MD", "Molidavi");
     namesMap.put("MG", "Madagasikari");
     namesMap.put("MH", "Marisali Gun");
-    namesMap.put("MK", "Macedɔni");
     namesMap.put("MM", "Myanimari");
     namesMap.put("MN", "Moŋoli");
     namesMap.put("MP", "Kɛɲɛka Mariyani Gun");
@@ -635,7 +642,6 @@ public class LocalizedNamesImpl_bm extends LocalizedNamesImpl {
         "MD": "Molidavi",
         "MG": "Madagasikari",
         "MH": "Marisali Gun",
-        "MK": "Macedɔni",
         "MM": "Myanimari",
         "MN": "Moŋoli",
         "MP": "Kɛɲɛka Mariyani Gun",

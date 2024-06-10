@@ -19,7 +19,7 @@ package com.google.gwt.i18n.shared.impl.cldr;
 /**
  * Implementation of DateTimeFormatInfo for the "zh_Hans_SG" locale.
  */
-public class DateTimeFormatInfoImpl_zh_Hans_SG extends DateTimeFormatInfoImpl_zh_Hans {
+public class DateTimeFormatInfoImpl_zh_Hans_SG extends DateTimeFormatInfoImpl_zh {
 
   @Override
   public String dateFormatShort() {
@@ -49,5 +49,25 @@ public class DateTimeFormatInfoImpl_zh_Hans_SG extends DateTimeFormatInfoImpl_zh
   @Override
   public String formatYearMonthNumDay() {
     return "y年M月d日";
+  }
+
+  @Override
+  public String timeFormatFull() {
+    return "zzzz ah:mm:ss";
+  }
+
+  @Override
+  public String timeFormatLong() {
+    return "z ah:mm:ss";
+  }
+
+  @Override
+  public String timeFormatMedium() {
+    return "ah:mm:ss";
+  }
+
+  @Override
+  public String timeFormatShort() {
+    return "ah:mm";
   }
 }

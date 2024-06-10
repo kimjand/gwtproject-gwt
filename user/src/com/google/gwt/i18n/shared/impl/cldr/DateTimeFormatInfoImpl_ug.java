@@ -71,11 +71,6 @@ public class DateTimeFormatInfoImpl_ug extends DateTimeFormatInfoImpl {
   }
 
   @Override
-  public int firstDayOfTheWeek() {
-    return 0;
-  }
-
-  @Override
   public String formatMonthAbbrevDay() {
     return "d-MMM";
   }
@@ -192,26 +187,6 @@ public class DateTimeFormatInfoImpl_ug extends DateTimeFormatInfoImpl {
         "3-پەسىل",
         "4-پەسىل"
     };
-  }
-
-  @Override
-  public String timeFormatFull() {
-    return "h:mm:ss a zzzz";
-  }
-
-  @Override
-  public String timeFormatLong() {
-    return "h:mm:ss a z";
-  }
-
-  @Override
-  public String timeFormatMedium() {
-    return "h:mm:ss a";
-  }
-
-  @Override
-  public String timeFormatShort() {
-    return "h:mm a";
   }
 
   @Override

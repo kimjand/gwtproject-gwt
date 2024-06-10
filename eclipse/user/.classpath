@@ -46,7 +46,7 @@
 	<classpathentry kind="var" path="GWT_TOOLS/lib/slf4j/slf4j-log4j12/slf4j-log4j12-1.7.12.jar"/>
 	<classpathentry kind="var" path="GWT_TOOLS/lib/guava/guava-19.0/guava-19.0-rebased.jar"/>
 	<classpathentry kind="var" path="GWT_TOOLS/lib/streamhtmlparser/streamhtmlparser-jsilver-r10/streamhtmlparser-jsilver-r10-1.5-rebased.jar"/>
-	<classpathentry kind="var" path="GWT_TOOLS/lib/icu4j/50.1.1/icu4j.jar"/>
+	<classpathentry kind="var" path="GWT_TOOLS/lib/icu4j/75.1/icu4j-75.1.jar"/>
 	<classpathentry kind="var" path="GWT_TOOLS/lib/javax/activation/activation-1.1.jar"/>
 	<classpathentry kind="var" path="GWT_TOOLS/lib/javax/xml/bind/jaxb-api-2.1.jar"/>
 	<classpathentry kind="var" path="GWT_TOOLS/lib/hibernate/validator/tck/jsr303-tck-1.0.3.GA-sources.jar"/>

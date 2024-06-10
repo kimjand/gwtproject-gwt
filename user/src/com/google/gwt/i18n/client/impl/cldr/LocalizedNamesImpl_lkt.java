@@ -76,6 +76,7 @@ public class LocalizedNamesImpl_lkt extends LocalizedNamesImpl {
         "CM",
         "CO",
         "CP",
+        "CQ",
         "CR",
         "CU",
         "CV",

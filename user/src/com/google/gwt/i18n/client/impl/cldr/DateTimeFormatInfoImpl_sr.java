@@ -22,26 +22,18 @@ package com.google.gwt.i18n.client.impl.cldr;
 public class DateTimeFormatInfoImpl_sr extends DateTimeFormatInfoImpl {
 
   @Override
-  public String[] ampms() {
-    return new String[] {
-        "пре подне",
-        "по подне"
-    };
-  }
-
-  @Override
   public String dateFormatFull() {
-    return "EEEE, dd. MMMM y.";
+    return "EEEE, d. MMMM y.";
   }
 
   @Override
   public String dateFormatLong() {
-    return "dd. MMMM y.";
+    return "d. MMMM y.";
   }
 
   @Override
   public String dateFormatMedium() {
-    return "dd.MM.y.";
+    return "d. M. y.";
   }
 
   @Override
@@ -66,6 +58,16 @@ public class DateTimeFormatInfoImpl_sr extends DateTimeFormatInfoImpl {
   }
 
   @Override
+  public String formatHour12Minute() {
+    return "h:mm a";
+  }
+
+  @Override
+  public String formatHour12MinuteSecond() {
+    return "h:mm:ss a";
+  }
+
+  @Override
   public String formatMonthAbbrevDay() {
     return "d. MMM";
   }
@@ -82,7 +84,7 @@ public class DateTimeFormatInfoImpl_sr extends DateTimeFormatInfoImpl {
 
   @Override
   public String formatMonthNumDay() {
-    return "d.M.";
+    return "d. M.";
   }
 
   @Override
@@ -112,12 +114,12 @@ public class DateTimeFormatInfoImpl_sr extends DateTimeFormatInfoImpl {
 
   @Override
   public String formatYearMonthNum() {
-    return "M.y.";
+    return "M. y.";
   }
 
   @Override
   public String formatYearMonthNumDay() {
-    return "d.M.y.";
+    return "d. M. y.";
   }
 
   @Override
@@ -202,10 +204,10 @@ public class DateTimeFormatInfoImpl_sr extends DateTimeFormatInfoImpl {
   @Override
   public String[] quartersShort() {
     return new String[] {
-        "К1",
-        "К2",
-        "К3",
-        "К4"
+        "1. кв.",
+        "2. кв.",
+        "3. кв.",
+        "4. кв."
     };
   }
 

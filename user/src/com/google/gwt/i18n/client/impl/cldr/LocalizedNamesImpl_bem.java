@@ -85,6 +85,7 @@ public class LocalizedNamesImpl_bem extends LocalizedNamesImpl {
         "CN",
         "CO",
         "CP",
+        "CQ",
         "CR",
         "CU",
         "CV",

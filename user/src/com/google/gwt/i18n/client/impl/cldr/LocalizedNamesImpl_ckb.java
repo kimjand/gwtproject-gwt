@@ -34,6 +34,7 @@ public class LocalizedNamesImpl_ckb extends LocalizedNamesImpl {
   @Override
   public String[] loadSortedRegionCodes() {
     return new String[] {
+        "CQ",
         "XA",
         "XB",
         "AW",
@@ -174,7 +175,6 @@ public class LocalizedNamesImpl_ckb extends LocalizedNamesImpl {
         "FJ",
         "FI",
         "FR",
-        "KG",
         "CY",
         "QA",
         "LV",
@@ -193,7 +193,6 @@ public class LocalizedNamesImpl_ckb extends LocalizedNamesImpl {
         "ML",
         "MY",
         "MO",
-        "MK",
         "MT",
         "FM",
         "YT",
@@ -209,6 +208,7 @@ public class LocalizedNamesImpl_ckb extends LocalizedNamesImpl {
         "EG",
         "MA",
         "MN",
+        "MK",
         "MX",
         "NR",
         "NA",
@@ -253,6 +253,7 @@ public class LocalizedNamesImpl_ckb extends LocalizedNamesImpl {
         "VE",
         "KZ",
         "CM",
+        "KG",
         "HR",
         "CW",
         "CU",
@@ -410,7 +411,7 @@ public class LocalizedNamesImpl_ckb extends LocalizedNamesImpl {
     namesMap.put("EZ", "ناوچەی یۆرۆ");
     namesMap.put("FI", "فینلاند");
     namesMap.put("FJ", "فیجی");
-    namesMap.put("FK", "دوورگەکانی مالڤیناس");
+    namesMap.put("FK", "دوورگەکانی مالڤیناس (دوورگەکانی فاڵکلاند)");
     namesMap.put("FM", "مایکرۆنیزیا");
     namesMap.put("FO", "دوورگەکانی فارەو");
     namesMap.put("FR", "فەڕەنسا");
@@ -455,7 +456,7 @@ public class LocalizedNamesImpl_ckb extends LocalizedNamesImpl {
     namesMap.put("JO", "ئوردن");
     namesMap.put("JP", "ژاپۆن");
     namesMap.put("KE", "کینیا");
-    namesMap.put("KG", "قرغیزستان");
+    namesMap.put("KG", "کرگیزستان");
     namesMap.put("KH", "کەمبۆدیا");
     namesMap.put("KI", "کیریباس");
     namesMap.put("KM", "دوورگەکانی کۆمۆر");
@@ -483,7 +484,7 @@ public class LocalizedNamesImpl_ckb extends LocalizedNamesImpl {
     namesMap.put("MF", "سەن مارتین");
     namesMap.put("MG", "ماداگاسکار");
     namesMap.put("MH", "دوورگەکانی مارشاڵ");
-    namesMap.put("MK", "ماکەدۆنیا");
+    namesMap.put("MK", "مەکدۆنیای باکوور");
     namesMap.put("ML", "مالی");
     namesMap.put("MM", "میانمار");
     namesMap.put("MN", "مەنگۆلیا");
@@ -711,7 +712,7 @@ public class LocalizedNamesImpl_ckb extends LocalizedNamesImpl {
         "EZ": "ناوچەی یۆرۆ",
         "FI": "فینلاند",
         "FJ": "فیجی",
-        "FK": "دوورگەکانی مالڤیناس",
+        "FK": "دوورگەکانی مالڤیناس (دوورگەکانی فاڵکلاند)",
         "FM": "مایکرۆنیزیا",
         "FO": "دوورگەکانی فارەو",
         "FR": "فەڕەنسا",
@@ -756,7 +757,7 @@ public class LocalizedNamesImpl_ckb extends LocalizedNamesImpl {
         "JO": "ئوردن",
         "JP": "ژاپۆن",
         "KE": "کینیا",
-        "KG": "قرغیزستان",
+        "KG": "کرگیزستان",
         "KH": "کەمبۆدیا",
         "KI": "کیریباس",
         "KM": "دوورگەکانی کۆمۆر",
@@ -784,7 +785,7 @@ public class LocalizedNamesImpl_ckb extends LocalizedNamesImpl {
         "MF": "سەن مارتین",
         "MG": "ماداگاسکار",
         "MH": "دوورگەکانی مارشاڵ",
-        "MK": "ماکەدۆنیا",
+        "MK": "مەکدۆنیای باکوور",
         "ML": "مالی",
         "MM": "میانمار",
         "MN": "مەنگۆلیا",

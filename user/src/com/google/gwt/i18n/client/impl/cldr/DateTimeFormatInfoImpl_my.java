@@ -36,7 +36,7 @@ public class DateTimeFormatInfoImpl_my extends DateTimeFormatInfoImpl {
 
   @Override
   public String dateFormatLong() {
-    return "y၊ d MMMM";
+    return "y၊ MMMM d";
   }
 
   @Override
@@ -46,7 +46,7 @@ public class DateTimeFormatInfoImpl_my extends DateTimeFormatInfoImpl {
 
   @Override
   public String dateFormatShort() {
-    return "dd-MM-yy";
+    return "d/M/yy";
   }
 
   @Override
@@ -82,12 +82,12 @@ public class DateTimeFormatInfoImpl_my extends DateTimeFormatInfoImpl {
 
   @Override
   public String formatHour24Minute() {
-    return "B H:mm";
+    return "H:mm";
   }
 
   @Override
   public String formatHour24MinuteSecond() {
-    return "B HH:mm:ss";
+    return "H:mm:ss";
   }
 
   @Override
@@ -97,7 +97,7 @@ public class DateTimeFormatInfoImpl_my extends DateTimeFormatInfoImpl {
 
   @Override
   public String formatMonthFullWeekdayDay() {
-    return "MMMM d ရက် EEEEနေ့";
+    return "MMMM d ရက် EEEE";
   }
 
   @Override
@@ -117,7 +117,7 @@ public class DateTimeFormatInfoImpl_my extends DateTimeFormatInfoImpl {
 
   @Override
   public String formatYearMonthFullDay() {
-    return "y၊ d MMMM";
+    return "y၊ MMMM d";
   }
 
   @Override
@@ -127,7 +127,7 @@ public class DateTimeFormatInfoImpl_my extends DateTimeFormatInfoImpl {
 
   @Override
   public String formatYearMonthNumDay() {
-    return "dd-MM-y";
+    return "d/M/y";
   }
 
   @Override
@@ -221,12 +221,12 @@ public class DateTimeFormatInfoImpl_my extends DateTimeFormatInfoImpl {
 
   @Override
   public String timeFormatMedium() {
-    return "B HH:mm:ss";
+    return "H:mm:ss";
   }
 
   @Override
   public String timeFormatShort() {
-    return "B H:mm";
+    return "H:mm";
   }
 
   @Override

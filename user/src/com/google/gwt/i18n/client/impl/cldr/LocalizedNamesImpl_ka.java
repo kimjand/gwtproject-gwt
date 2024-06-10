@@ -34,8 +34,7 @@ public class LocalizedNamesImpl_ka extends LocalizedNamesImpl {
   @Override
   public String[] loadSortedRegionCodes() {
     return new String[] {
-        "XA",
-        "XB",
+        "CQ",
         "AU",
         "AT",
         "AF",
@@ -165,7 +164,6 @@ public class LocalizedNamesImpl_ka extends LocalizedNamesImpl {
         "MR",
         "YT",
         "MO",
-        "MK",
         "MW",
         "MY",
         "MV",
@@ -270,6 +268,8 @@ public class LocalizedNamesImpl_ka extends LocalizedNamesImpl {
         "FJ",
         "FK",
         "TF",
+        "XA",
+        "XB",
         "VA",
         "CC",
         "KW",
@@ -286,6 +286,7 @@ public class LocalizedNamesImpl_ka extends LocalizedNamesImpl {
         "CL",
         "CN",
         "KP",
+        "MK",
         "MP",
         "CF",
         "SH",
@@ -483,7 +484,7 @@ public class LocalizedNamesImpl_ka extends LocalizedNamesImpl {
     namesMap.put("MF", "სენ-მარტენი");
     namesMap.put("MG", "მადაგასკარი");
     namesMap.put("MH", "მარშალის კუნძულები");
-    namesMap.put("MK", "მაკედონია");
+    namesMap.put("MK", "ჩრდილოეთ მაკედონია");
     namesMap.put("ML", "მალი");
     namesMap.put("MM", "მიანმარი (ბირმა)");
     namesMap.put("MN", "მონღოლეთი");
@@ -587,6 +588,8 @@ public class LocalizedNamesImpl_ka extends LocalizedNamesImpl {
     namesMap.put("VU", "ვანუატუ");
     namesMap.put("WF", "უოლისი და ფუტუნა");
     namesMap.put("WS", "სამოა");
+    namesMap.put("XA", "ფსევდო-აქცენტები");
+    namesMap.put("XB", "ფსევდო-ორმიმართულებიანი");
     namesMap.put("XK", "კოსოვო");
     namesMap.put("YE", "იემენი");
     namesMap.put("YT", "მაიოტა");
@@ -784,7 +787,7 @@ public class LocalizedNamesImpl_ka extends LocalizedNamesImpl {
         "MF": "სენ-მარტენი",
         "MG": "მადაგასკარი",
         "MH": "მარშალის კუნძულები",
-        "MK": "მაკედონია",
+        "MK": "ჩრდილოეთ მაკედონია",
         "ML": "მალი",
         "MM": "მიანმარი (ბირმა)",
         "MN": "მონღოლეთი",
@@ -888,6 +891,8 @@ public class LocalizedNamesImpl_ka extends LocalizedNamesImpl {
         "VU": "ვანუატუ",
         "WF": "უოლისი და ფუტუნა",
         "WS": "სამოა",
+        "XA": "ფსევდო-აქცენტები",
+        "XB": "ფსევდო-ორმიმართულებიანი",
         "XK": "კოსოვო",
         "YE": "იემენი",
         "YT": "მაიოტა",

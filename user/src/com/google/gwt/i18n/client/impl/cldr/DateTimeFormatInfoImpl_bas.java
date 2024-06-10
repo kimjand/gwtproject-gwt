@@ -24,8 +24,8 @@ public class DateTimeFormatInfoImpl_bas extends DateTimeFormatInfoImpl {
   @Override
   public String[] ampms() {
     return new String[] {
-        "I bikɛ̂glà",
-        "I ɓugajɔp"
+        "I bikɛ̂glà",
+        "I ɓugajɔp"
     };
   }
 
@@ -63,6 +63,16 @@ public class DateTimeFormatInfoImpl_bas extends DateTimeFormatInfoImpl {
         "b.Y.K",
         "m.Y.K"
     };
+  }
+
+  @Override
+  public String formatHour12Minute() {
+    return "h:mm a";
+  }
+
+  @Override
+  public String formatHour12MinuteSecond() {
+    return "h:mm:ss a";
   }
 
   @Override

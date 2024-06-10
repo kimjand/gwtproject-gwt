@@ -42,6 +42,7 @@ public class LocalizedNamesImpl_kln extends LocalizedNamesImpl {
         "BV",
         "CC",
         "CP",
+        "CQ",
         "CW",
         "CX",
         "DG",
@@ -162,7 +163,6 @@ public class LocalizedNamesImpl_kln extends LocalizedNamesImpl {
         "LT",
         "LC",
         "LU",
-        "MK",
         "MG",
         "MW",
         "MY",
@@ -283,6 +283,7 @@ public class LocalizedNamesImpl_kln extends LocalizedNamesImpl {
         "IO",
         "ME",
         "MF",
+        "MK",
         "MO",
         "QO",
         "RS",
@@ -427,7 +428,6 @@ public class LocalizedNamesImpl_kln extends LocalizedNamesImpl {
     namesMap.put("MD", "Emetab Moldova");
     namesMap.put("MG", "Emetab Madagascar");
     namesMap.put("MH", "Ikwembeiyotab Marshall");
-    namesMap.put("MK", "Emetab Macedonia");
     namesMap.put("ML", "Emetab Mali");
     namesMap.put("MM", "Emetab Myanmar");
     namesMap.put("MN", "Emetab Mongolia");
@@ -660,7 +660,6 @@ public class LocalizedNamesImpl_kln extends LocalizedNamesImpl {
         "MD": "Emetab Moldova",
         "MG": "Emetab Madagascar",
         "MH": "Ikwembeiyotab Marshall",
-        "MK": "Emetab Macedonia",
         "ML": "Emetab Mali",
         "MM": "Emetab Myanmar",
         "MN": "Emetab Mongolia",

@@ -46,14 +46,34 @@ public class DateTimeFormatInfoImpl_ig extends DateTimeFormatInfoImpl {
 
   @Override
   public String dateFormatShort() {
-    return "dd/MM/y";
+    return "d/M/yy";
+  }
+
+  @Override
+  public String dateTimeFull(String timePattern, String datePattern) {
+    return datePattern + ", " + timePattern;
+  }
+
+  @Override
+  public String dateTimeLong(String timePattern, String datePattern) {
+    return datePattern + ", " + timePattern;
+  }
+
+  @Override
+  public String dateTimeMedium(String timePattern, String datePattern) {
+    return datePattern + ", " + timePattern;
+  }
+
+  @Override
+  public String dateTimeShort(String timePattern, String datePattern) {
+    return datePattern + ", " + timePattern;
   }
 
   @Override
   public String[] erasFull() {
     return new String[] {
-        "Tupu Kristi",
-        "Afọ Kristi"
+        "Tupu Kraist",
+        "Afọ Kraịst"
     };
   }
 
@@ -66,13 +86,23 @@ public class DateTimeFormatInfoImpl_ig extends DateTimeFormatInfoImpl {
   }
 
   @Override
+  public String formatMonthAbbrevDay() {
+    return "d MMM";
+  }
+
+  @Override
+  public String formatMonthFullDay() {
+    return "d MMMM";
+  }
+
+  @Override
   public String formatMonthFullWeekdayDay() {
-    return "EEEE, MMMM d";
+    return "EEEE, d MMMM";
   }
 
   @Override
   public String formatMonthNumDay() {
-    return "M/d";
+    return "d/M";
   }
 
   @Override
@@ -82,7 +112,7 @@ public class DateTimeFormatInfoImpl_ig extends DateTimeFormatInfoImpl {
 
   @Override
   public String formatYearMonthAbbrevDay() {
-    return "MMM d, y";
+    return "d MMM y";
   }
 
   @Override
@@ -102,12 +132,12 @@ public class DateTimeFormatInfoImpl_ig extends DateTimeFormatInfoImpl {
 
   @Override
   public String formatYearMonthNumDay() {
-    return "y-MM-dd";
+    return "d/M/y";
   }
 
   @Override
   public String formatYearMonthWeekdayDay() {
-    return "EEE, MMM d, y";
+    return "EEE, d MMM y";
   }
 
   @Override
@@ -126,7 +156,7 @@ public class DateTimeFormatInfoImpl_ig extends DateTimeFormatInfoImpl {
         "Jenụwarị",
         "Febrụwarị",
         "Maachị",
-        "Eprel",
+        "Epreel",
         "Mee",
         "Juun",
         "Julaị",
@@ -141,18 +171,18 @@ public class DateTimeFormatInfoImpl_ig extends DateTimeFormatInfoImpl {
   @Override
   public String[] monthsNarrow() {
     return new String[] {
-        "1",
-        "2",
-        "3",
-        "4",
-        "5",
-        "6",
-        "7",
-        "8",
-        "9",
-        "10",
-        "11",
-        "12"
+        "J",
+        "F",
+        "M",
+        "E",
+        "M",
+        "J",
+        "J",
+        "Ọ",
+        "S",
+        "Ọ",
+        "N",
+        "D"
     };
   }
 
@@ -197,7 +227,7 @@ public class DateTimeFormatInfoImpl_ig extends DateTimeFormatInfoImpl {
   @Override
   public String[] weekdaysFull() {
     return new String[] {
-        "Mbọsị Ụka",
+        "Sọndee",
         "Mọnde",
         "Tiuzdee",
         "Wenezdee",
@@ -210,7 +240,7 @@ public class DateTimeFormatInfoImpl_ig extends DateTimeFormatInfoImpl {
   @Override
   public String[] weekdaysShort() {
     return new String[] {
-        "Ụka",
+        "Sọn",
         "Mọn",
         "Tiu",
         "Wen",

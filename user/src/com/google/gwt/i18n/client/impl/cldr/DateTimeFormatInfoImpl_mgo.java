@@ -122,13 +122,13 @@ public class DateTimeFormatInfoImpl_mgo extends DateTimeFormatInfoImpl {
   @Override
   public String[] weekdaysNarrow() {
     return new String[] {
-        "A1",
-        "A2",
-        "A3",
-        "A4",
-        "A5",
-        "A6",
-        "A7"
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7"
     };
   }
 

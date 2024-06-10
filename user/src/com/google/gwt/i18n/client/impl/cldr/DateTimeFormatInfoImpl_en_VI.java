@@ -98,4 +98,22 @@ public class DateTimeFormatInfoImpl_en_VI extends DateTimeFormatInfoImpl_en_001 
   public String formatYearMonthWeekdayDay() {
     return "EEE, MMM d, y";
   }
+
+  @Override
+  public String[] monthsShort() {
+    return new String[] {
+        "Jan",
+        "Feb",
+        "Mar",
+        "Apr",
+        "May",
+        "Jun",
+        "Jul",
+        "Aug",
+        "Sep",
+        "Oct",
+        "Nov",
+        "Dec"
+    };
+  }
 }

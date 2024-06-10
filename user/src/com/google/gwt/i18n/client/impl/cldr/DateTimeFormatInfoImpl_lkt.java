@@ -63,6 +63,21 @@ public class DateTimeFormatInfoImpl_lkt extends DateTimeFormatInfoImpl {
   }
 
   @Override
+  public String formatHour12Minute() {
+    return "h:mm a";
+  }
+
+  @Override
+  public String formatHour12MinuteSecond() {
+    return "h:mm:ss a";
+  }
+
+  @Override
+  public String formatYearMonthFullDay() {
+    return "MMMM d, y";
+  }
+
+  @Override
   public String[] monthsFull() {
     return new String[] {
         "Wiótheȟika Wí",
@@ -128,22 +143,22 @@ public class DateTimeFormatInfoImpl_lkt extends DateTimeFormatInfoImpl {
 
   @Override
   public String timeFormatFull() {
-    return "h:mm:ss a zzzz";
+    return "h:mm:ss a zzzz";
   }
 
   @Override
   public String timeFormatLong() {
-    return "h:mm:ss a z";
+    return "h:mm:ss a z";
   }
 
   @Override
   public String timeFormatMedium() {
-    return "h:mm:ss a";
+    return "h:mm:ss a";
   }
 
   @Override
   public String timeFormatShort() {
-    return "h:mm a";
+    return "h:mm a";
   }
 
   @Override

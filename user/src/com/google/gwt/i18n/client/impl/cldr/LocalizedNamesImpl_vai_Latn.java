@@ -74,6 +74,7 @@ public class LocalizedNamesImpl_vai_Latn extends LocalizedNamesImpl_vai {
         "CL",
         "CZ",
         "CP",
+        "CQ",
         "CW",
         "CX",
         "DK",
@@ -170,7 +171,6 @@ public class LocalizedNamesImpl_vai_Latn extends LocalizedNamesImpl_vai {
         "ML",
         "MV",
         "MT",
-        "MK",
         "MH",
         "MQ",
         "YT",
@@ -179,6 +179,7 @@ public class LocalizedNamesImpl_vai_Latn extends LocalizedNamesImpl_vai {
         "FM",
         "EG",
         "MM",
+        "MK",
         "MO",
         "MZ",
         "MD",
@@ -419,7 +420,6 @@ public class LocalizedNamesImpl_vai_Latn extends LocalizedNamesImpl_vai {
     namesMap.put("MD", "Mɔlidova");
     namesMap.put("MG", "Madagasita");
     namesMap.put("MH", "Masha Tiŋŋɛ");
-    namesMap.put("MK", "Masedoninya");
     namesMap.put("ML", "Mali");
     namesMap.put("MM", "Miyamaha");
     namesMap.put("MN", "Mɔngoliya");
@@ -651,7 +651,6 @@ public class LocalizedNamesImpl_vai_Latn extends LocalizedNamesImpl_vai {
         "MD": "Mɔlidova",
         "MG": "Madagasita",
         "MH": "Masha Tiŋŋɛ",
-        "MK": "Masedoninya",
         "ML": "Mali",
         "MM": "Miyamaha",
         "MN": "Mɔngoliya",

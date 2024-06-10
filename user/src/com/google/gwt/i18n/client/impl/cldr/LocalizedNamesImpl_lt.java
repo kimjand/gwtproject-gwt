@@ -65,6 +65,7 @@ public class LocalizedNamesImpl_lt extends LocalizedNamesImpl {
         "BT",
         "BV",
         "CF",
+        "CQ",
         "TD",
         "CZ",
         "CL",
@@ -166,7 +167,6 @@ public class LocalizedNamesImpl_lt extends LocalizedNamesImpl {
         "LU",
         "MG",
         "YT",
-        "MK",
         "MY",
         "MW",
         "MV",
@@ -218,6 +218,8 @@ public class LocalizedNamesImpl_lt extends LocalizedNamesImpl {
         "GF",
         "TF",
         "PF",
+        "XA",
+        "XB",
         "PR",
         "GQ",
         "RE",
@@ -253,6 +255,7 @@ public class LocalizedNamesImpl_lt extends LocalizedNamesImpl {
         "SJ",
         "SZ",
         "KP",
+        "MK",
         "LK",
         "SH",
         "SE",
@@ -284,8 +287,6 @@ public class LocalizedNamesImpl_lt extends LocalizedNamesImpl {
         "VN",
         "DE",
         "WF",
-        "XA",
-        "XB",
         "ZM",
         "ZW",
         "CV",
@@ -470,7 +471,7 @@ public class LocalizedNamesImpl_lt extends LocalizedNamesImpl {
     namesMap.put("MF", "Sen Martenas");
     namesMap.put("MG", "Madagaskaras");
     namesMap.put("MH", "Maršalo Salos");
-    namesMap.put("MK", "Makedonija");
+    namesMap.put("MK", "Šiaurės Makedonija");
     namesMap.put("ML", "Malis");
     namesMap.put("MM", "Mianmaras (Birma)");
     namesMap.put("MN", "Mongolija");
@@ -536,7 +537,7 @@ public class LocalizedNamesImpl_lt extends LocalizedNamesImpl {
     namesMap.put("SX", "Sint Martenas");
     namesMap.put("SY", "Sirija");
     namesMap.put("SZ", "Svazilandas");
-    namesMap.put("TA", "Tristanas da Kunja");
+    namesMap.put("TA", "Tristano da Kunjos");
     namesMap.put("TC", "Terkso ir Kaikoso Salos");
     namesMap.put("TD", "Čadas");
     namesMap.put("TF", "Prancūzijos Pietų sritys");
@@ -563,6 +564,8 @@ public class LocalizedNamesImpl_lt extends LocalizedNamesImpl {
     namesMap.put("VI", "Jungtinių Valstijų Mergelių Salos");
     namesMap.put("VN", "Vietnamas");
     namesMap.put("WF", "Volisas ir Futūna");
+    namesMap.put("XA", "pseudo A");
+    namesMap.put("XB", "pseudo B");
     namesMap.put("XK", "Kosovas");
     namesMap.put("YE", "Jemenas");
     namesMap.put("YT", "Majotas");
@@ -754,7 +757,7 @@ public class LocalizedNamesImpl_lt extends LocalizedNamesImpl {
         "MF": "Sen Martenas",
         "MG": "Madagaskaras",
         "MH": "Maršalo Salos",
-        "MK": "Makedonija",
+        "MK": "Šiaurės Makedonija",
         "ML": "Malis",
         "MM": "Mianmaras (Birma)",
         "MN": "Mongolija",
@@ -820,7 +823,7 @@ public class LocalizedNamesImpl_lt extends LocalizedNamesImpl {
         "SX": "Sint Martenas",
         "SY": "Sirija",
         "SZ": "Svazilandas",
-        "TA": "Tristanas da Kunja",
+        "TA": "Tristano da Kunjos",
         "TC": "Terkso ir Kaikoso Salos",
         "TD": "Čadas",
         "TF": "Prancūzijos Pietų sritys",
@@ -847,6 +850,8 @@ public class LocalizedNamesImpl_lt extends LocalizedNamesImpl {
         "VI": "Jungtinių Valstijų Mergelių Salos",
         "VN": "Vietnamas",
         "WF": "Volisas ir Futūna",
+        "XA": "pseudo A",
+        "XB": "pseudo B",
         "XK": "Kosovas",
         "YE": "Jemenas",
         "YT": "Majotas",

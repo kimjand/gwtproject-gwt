@@ -94,6 +94,7 @@ public class LocalizedNamesImpl_luo extends LocalizedNamesImpl {
         "CR",
         "CI",
         "CP",
+        "CQ",
         "HR",
         "CU",
         "CW",
@@ -176,7 +177,6 @@ public class LocalizedNamesImpl_luo extends LocalizedNamesImpl {
         "LI",
         "LT",
         "LU",
-        "MK",
         "MG",
         "MW",
         "MY",
@@ -191,6 +191,7 @@ public class LocalizedNamesImpl_luo extends LocalizedNamesImpl {
         "MX",
         "MF",
         "FM",
+        "MK",
         "MO",
         "MD",
         "MC",
@@ -322,8 +323,10 @@ public class LocalizedNamesImpl_luo extends LocalizedNamesImpl {
     namesMap.put("PS", "Palestinian West Bank gi Gaza");
     namesMap.put("SH", "Saint Helena");
     namesMap.put("ST", "São Tomé gi Príncipe");
+    namesMap.put("SZ", "Swaziland");
     namesMap.put("TC", "Turks gi Caicos Islands");
     namesMap.put("TL", "East Timor");
+    namesMap.put("TR", "Turkey");
     namesMap.put("TT", "Trinidad gi Tobago");
     namesMap.put("US", "USA");
     namesMap.put("VA", "Vatican State");
@@ -358,8 +361,10 @@ public class LocalizedNamesImpl_luo extends LocalizedNamesImpl {
         "PS": "Palestinian West Bank gi Gaza",
         "SH": "Saint Helena",
         "ST": "São Tomé gi Príncipe",
+        "SZ": "Swaziland",
         "TC": "Turks gi Caicos Islands",
         "TL": "East Timor",
+        "TR": "Turkey",
         "TT": "Trinidad gi Tobago",
         "US": "USA",
         "VA": "Vatican State",

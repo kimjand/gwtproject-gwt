@@ -41,12 +41,12 @@ public class DateTimeFormatInfoImpl_pt_GQ extends DateTimeFormatInfoImpl_pt {
 
   @Override
   public String dateTimeFull(String timePattern, String datePattern) {
-    return datePattern + " 'às' " + timePattern;
+    return datePattern + ", " + timePattern;
   }
 
   @Override
   public String dateTimeLong(String timePattern, String datePattern) {
-    return datePattern + " 'às' " + timePattern;
+    return datePattern + ", " + timePattern;
   }
 
   @Override
@@ -72,11 +72,6 @@ public class DateTimeFormatInfoImpl_pt_GQ extends DateTimeFormatInfoImpl_pt {
   @Override
   public String formatMonthFullWeekdayDay() {
     return "cccc, d 'de' MMMM";
-  }
-
-  @Override
-  public String formatMonthNumDay() {
-    return "dd/MM";
   }
 
   @Override

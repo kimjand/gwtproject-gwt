@@ -78,8 +78,9 @@ public class LocalizedNamesImpl_es_US extends LocalizedNamesImpl_es {
         "KM",
         "KP",
         "KR",
-        "CR",
         "CI",
+        "CR",
+        "CQ",
         "HR",
         "CU",
         "CW",
@@ -96,7 +97,9 @@ public class LocalizedNamesImpl_es_US extends LocalizedNamesImpl_es {
         "ES",
         "US",
         "EE",
+        "SZ",
         "ET",
+        "EZ",
         "PH",
         "FI",
         "FJ",
@@ -214,6 +217,8 @@ public class LocalizedNamesImpl_es_US extends LocalizedNamesImpl_es {
         "PF",
         "PL",
         "PT",
+        "XA",
+        "XB",
         "PR",
         "HK",
         "MO",
@@ -247,7 +252,6 @@ public class LocalizedNamesImpl_es_US extends LocalizedNamesImpl_es {
         "SY",
         "SO",
         "LK",
-        "SZ",
         "ZA",
         "SD",
         "SS",
@@ -282,22 +286,28 @@ public class LocalizedNamesImpl_es_US extends LocalizedNamesImpl_es {
         "VE",
         "VN",
         "WF",
-        "XA",
-        "XB",
         "YE",
         "DJ",
         "ZM",
         "ZW",
-        "EZ",
     };
   }
 
   @Override
   protected void loadNameMapJava() {
     super.loadNameMapJava();
+    namesMap.put("001", "mundo");
+    namesMap.put("AX", "Islas Åland");
     namesMap.put("CG", "República del Congo");
+    namesMap.put("CI", "Costa de Marfil");
+    namesMap.put("EH", "Sahara Occidental");
+    namesMap.put("EZ", "Eurozona");
+    namesMap.put("GG", "Guernsey");
+    namesMap.put("GS", "Islas Georgia del Sur y Sándwich del Sur");
     namesMap.put("IC", "Islas Canarias");
-    namesMap.put("TA", "Tristán da Cunha");
+    namesMap.put("RO", "Rumania");
+    namesMap.put("SA", "Arabia Saudita");
+    namesMap.put("TL", "Timor Oriental");
   }
 
   @Override
@@ -307,9 +317,18 @@ public class LocalizedNamesImpl_es_US extends LocalizedNamesImpl_es {
 
   private native JavaScriptObject loadMyNameMap() /*-{
     return {
+        "001": "mundo",
+        "AX": "Islas Åland",
         "CG": "República del Congo",
+        "CI": "Costa de Marfil",
+        "EH": "Sahara Occidental",
+        "EZ": "Eurozona",
+        "GG": "Guernsey",
+        "GS": "Islas Georgia del Sur y Sándwich del Sur",
         "IC": "Islas Canarias",
-        "TA": "Tristán da Cunha"
+        "RO": "Rumania",
+        "SA": "Arabia Saudita",
+        "TL": "Timor Oriental"
     };
   }-*/;
 }

@@ -24,7 +24,7 @@ public class DateTimeFormatInfoImpl_ts extends DateTimeFormatInfoImpl {
   @Override
   public String[] erasFull() {
     return new String[] {
-        "BCE",
+        "BC",
         "CE"
     };
   }
@@ -32,7 +32,7 @@ public class DateTimeFormatInfoImpl_ts extends DateTimeFormatInfoImpl {
   @Override
   public String[] erasShort() {
     return new String[] {
-        "BCE",
+        "BC",
         "CE"
     };
   }
@@ -40,6 +40,16 @@ public class DateTimeFormatInfoImpl_ts extends DateTimeFormatInfoImpl {
   @Override
   public int firstDayOfTheWeek() {
     return 0;
+  }
+
+  @Override
+  public String formatHour12Minute() {
+    return "h:mm a";
+  }
+
+  @Override
+  public String formatHour12MinuteSecond() {
+    return "h:mm:ss a";
   }
 
   @Override
@@ -111,7 +121,7 @@ public class DateTimeFormatInfoImpl_ts extends DateTimeFormatInfoImpl {
         "Ndzhati",
         "Nhlangula",
         "Hukuri",
-        "N'wendzamhala"
+        "N’wendzamhala"
     };
   }
 
@@ -147,7 +157,7 @@ public class DateTimeFormatInfoImpl_ts extends DateTimeFormatInfoImpl {
         "Ndz",
         "Nhl",
         "Huk",
-        "N'w"
+        "N’w"
     };
   }
 
@@ -174,7 +184,7 @@ public class DateTimeFormatInfoImpl_ts extends DateTimeFormatInfoImpl {
   @Override
   public String[] weekdaysFull() {
     return new String[] {
-        "Sonto",
+        "Sonta",
         "Musumbhunuku",
         "Ravumbirhi",
         "Ravunharhu",

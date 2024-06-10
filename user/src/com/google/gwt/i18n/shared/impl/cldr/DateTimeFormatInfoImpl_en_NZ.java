@@ -22,16 +22,6 @@ package com.google.gwt.i18n.shared.impl.cldr;
 public class DateTimeFormatInfoImpl_en_NZ extends DateTimeFormatInfoImpl_en_001 {
 
   @Override
-  public String dateFormatMedium() {
-    return "d/MM/y";
-  }
-
-  @Override
-  public String dateFormatShort() {
-    return "d/MM/yy";
-  }
-
-  @Override
   public String formatMonthNumDay() {
     return "d/M";
   }

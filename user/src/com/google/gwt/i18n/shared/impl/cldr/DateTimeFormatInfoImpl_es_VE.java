@@ -24,19 +24,14 @@ public class DateTimeFormatInfoImpl_es_VE extends DateTimeFormatInfoImpl_es_419 
   @Override
   public String[] ampms() {
     return new String[] {
-        "a. m.",
-        "p. m."
+        "a. m.",
+        "p. m."
     };
   }
 
   @Override
   public int firstDayOfTheWeek() {
     return 0;
-  }
-
-  @Override
-  public String formatYearMonthAbbrevDay() {
-    return "d MMM y";
   }
 
   @Override
@@ -65,25 +60,5 @@ public class DateTimeFormatInfoImpl_es_VE extends DateTimeFormatInfoImpl_es_419 
         "3er trimestre",
         "4to trimestre"
     };
-  }
-
-  @Override
-  public String timeFormatFull() {
-    return "h:mm:ss a zzzz";
-  }
-
-  @Override
-  public String timeFormatLong() {
-    return "h:mm:ss a z";
-  }
-
-  @Override
-  public String timeFormatMedium() {
-    return "h:mm:ss a";
-  }
-
-  @Override
-  public String timeFormatShort() {
-    return "h:mm a";
   }
 }

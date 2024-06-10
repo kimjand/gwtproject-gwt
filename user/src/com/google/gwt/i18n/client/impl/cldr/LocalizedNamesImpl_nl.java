@@ -106,6 +106,7 @@ public class LocalizedNamesImpl_nl extends LocalizedNamesImpl {
         "GQ",
         "ER",
         "EE",
+        "SZ",
         "ET",
         "EU",
         "EZ",
@@ -174,7 +175,6 @@ public class LocalizedNamesImpl_nl extends LocalizedNamesImpl {
         "LT",
         "LU",
         "MO",
-        "MK",
         "MG",
         "MW",
         "MV",
@@ -208,6 +208,7 @@ public class LocalizedNamesImpl_nl extends LocalizedNamesImpl {
         "NU",
         "MP",
         "KP",
+        "MK",
         "NO",
         "NF",
         "UG",
@@ -227,6 +228,8 @@ public class LocalizedNamesImpl_nl extends LocalizedNamesImpl {
         "PN",
         "PL",
         "PT",
+        "XA",
+        "XB",
         "PR",
         "QA",
         "RE",
@@ -244,6 +247,7 @@ public class LocalizedNamesImpl_nl extends LocalizedNamesImpl {
         "SM",
         "SA",
         "ST",
+        "CQ",
         "SN",
         "RS",
         "SC",
@@ -259,7 +263,6 @@ public class LocalizedNamesImpl_nl extends LocalizedNamesImpl {
         "SJ",
         "LK",
         "SR",
-        "SZ",
         "SY",
         "TJ",
         "TW",
@@ -288,8 +291,6 @@ public class LocalizedNamesImpl_nl extends LocalizedNamesImpl {
         "VN",
         "WF",
         "EH",
-        "XA",
-        "XB",
         "ZM",
         "ZW",
         "ZA",
@@ -427,7 +428,7 @@ public class LocalizedNamesImpl_nl extends LocalizedNamesImpl {
     namesMap.put("MF", "Saint-Martin");
     namesMap.put("MG", "Madagaskar");
     namesMap.put("MH", "Marshalleilanden");
-    namesMap.put("MK", "Macedonië");
+    namesMap.put("MK", "Noord-Macedonië");
     namesMap.put("MM", "Myanmar (Birma)");
     namesMap.put("MN", "Mongolië");
     namesMap.put("MO", "Macau SAR van China");
@@ -485,6 +486,7 @@ public class LocalizedNamesImpl_nl extends LocalizedNamesImpl {
     namesMap.put("VG", "Britse Maagdeneilanden");
     namesMap.put("VI", "Amerikaanse Maagdeneilanden");
     namesMap.put("WF", "Wallis en Futuna");
+    namesMap.put("XA", "Pseudo-Accenten");
     namesMap.put("YE", "Jemen");
     namesMap.put("ZA", "Zuid-Afrika");
     namesMap.put("ZZ", "onbekend gebied");
@@ -620,7 +622,7 @@ public class LocalizedNamesImpl_nl extends LocalizedNamesImpl {
         "MF": "Saint-Martin",
         "MG": "Madagaskar",
         "MH": "Marshalleilanden",
-        "MK": "Macedonië",
+        "MK": "Noord-Macedonië",
         "MM": "Myanmar (Birma)",
         "MN": "Mongolië",
         "MO": "Macau SAR van China",
@@ -678,6 +680,7 @@ public class LocalizedNamesImpl_nl extends LocalizedNamesImpl {
         "VG": "Britse Maagdeneilanden",
         "VI": "Amerikaanse Maagdeneilanden",
         "WF": "Wallis en Futuna",
+        "XA": "Pseudo-Accenten",
         "YE": "Jemen",
         "ZA": "Zuid-Afrika",
         "ZZ": "onbekend gebied"

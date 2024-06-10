@@ -46,6 +46,16 @@ public class DateTimeFormatInfoImpl_az_Cyrl extends DateTimeFormatInfoImpl_az {
   }
 
   @Override
+  public String formatHour12Minute() {
+    return "h:mm a";
+  }
+
+  @Override
+  public String formatHour12MinuteSecond() {
+    return "h:mm:ss a";
+  }
+
+  @Override
   public String formatMonthFullDay() {
     return "MMMM d";
   }

@@ -22,16 +22,46 @@ package com.google.gwt.i18n.shared.impl.cldr;
 public class DateTimeFormatInfoImpl_xh extends DateTimeFormatInfoImpl {
 
   @Override
+  public String dateFormatFull() {
+    return "EEEE, MMMM d, y";
+  }
+
+  @Override
+  public String dateFormatLong() {
+    return "MMMM d, y";
+  }
+
+  @Override
+  public String dateFormatMedium() {
+    return "MMM d, y";
+  }
+
+  @Override
+  public String dateFormatShort() {
+    return "M/d/yy";
+  }
+
+  @Override
   public String[] erasFull() {
     return new String[] {
         "BC",
-        "umnyaka wokuzalwa kukaYesu"
+        "AD"
     };
   }
 
   @Override
   public int firstDayOfTheWeek() {
     return 0;
+  }
+
+  @Override
+  public String formatHour12Minute() {
+    return "h:mm a";
+  }
+
+  @Override
+  public String formatHour12MinuteSecond() {
+    return "h:mm:ss a";
   }
 
   @Override
@@ -101,6 +131,24 @@ public class DateTimeFormatInfoImpl_xh extends DateTimeFormatInfoImpl {
         "Julayi",
         "Agasti",
         "Septemba",
+        "Okthobha",
+        "Novemba",
+        "Disemba"
+    };
+  }
+
+  @Override
+  public String[] monthsFullStandalone() {
+    return new String[] {
+        "Janyuwari",
+        "Februwari",
+        "Matshi",
+        "Epreli",
+        "Meyi",
+        "Juni",
+        "Julayi",
+        "Agasti",
+        "Septemba",
         "Okthoba",
         "Novemba",
         "Disemba"
@@ -136,6 +184,24 @@ public class DateTimeFormatInfoImpl_xh extends DateTimeFormatInfoImpl {
         "Jun",
         "Jul",
         "Aga",
+        "Sept",
+        "Okt",
+        "Nov",
+        "Dis"
+    };
+  }
+
+  @Override
+  public String[] monthsShortStandalone() {
+    return new String[] {
+        "Jan",
+        "Feb",
+        "Mat",
+        "Epr",
+        "Mey",
+        "Jun",
+        "Jul",
+        "Aga",
         "Sep",
         "Okt",
         "Nov",
@@ -146,10 +212,20 @@ public class DateTimeFormatInfoImpl_xh extends DateTimeFormatInfoImpl {
   @Override
   public String[] quartersFull() {
     return new String[] {
-        "1 unyangantathu",
-        "2 unyangantathu",
-        "3 unyangantathu",
-        "4 unyangantathu"
+        "ikota yoku-1",
+        "ikota yesi-2",
+        "ikota yesi-3",
+        "ikota yesi-4"
+    };
+  }
+
+  @Override
+  public String[] quartersShort() {
+    return new String[] {
+        "Kota 1",
+        "Kota 2",
+        "Kota 3",
+        "Kota 4"
     };
   }
 
@@ -167,7 +243,46 @@ public class DateTimeFormatInfoImpl_xh extends DateTimeFormatInfoImpl {
   }
 
   @Override
+  public String[] weekdaysNarrow() {
+    return new String[] {
+        "C",
+        "M",
+        "Sb",
+        "Tht",
+        "Sin",
+        "Hl",
+        "Mgq"
+    };
+  }
+
+  @Override
+  public String[] weekdaysNarrowStandalone() {
+    return new String[] {
+        "C",
+        "M",
+        "Sb",
+        "St",
+        "Sin",
+        "Hl",
+        "Mgq"
+    };
+  }
+
+  @Override
   public String[] weekdaysShort() {
+    return new String[] {
+        "Caw",
+        "Mvu",
+        "Lwesb",
+        "Tha",
+        "Sin",
+        "Hla",
+        "Mgq"
+    };
+  }
+
+  @Override
+  public String[] weekdaysShortStandalone() {
     return new String[] {
         "Caw",
         "Mvu",

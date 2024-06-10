@@ -34,8 +34,7 @@ public class LocalizedNamesImpl_he extends LocalizedNamesImpl {
   @Override
   public String[] loadSortedRegionCodes() {
     return new String[] {
-        "XA",
-        "XB",
+        "CQ",
         "UG",
         "UZ",
         "AT",
@@ -75,6 +74,7 @@ public class LocalizedNamesImpl_he extends LocalizedNamesImpl {
         "AD",
         "AQ",
         "AG",
+        "SZ",
         "EE",
         "AF",
         "EC",
@@ -85,10 +85,10 @@ public class LocalizedNamesImpl_he extends LocalizedNamesImpl {
         "US",
         "ET",
         "BT",
+        "BW",
         "BG",
         "BO",
         "BA",
-        "BW",
         "BI",
         "BF",
         "BH",
@@ -124,6 +124,7 @@ public class LocalizedNamesImpl_he extends LocalizedNamesImpl {
         "DE",
         "GD",
         "GG",
+        "XB",
         "DM",
         "DG",
         "DK",
@@ -191,6 +192,7 @@ public class LocalizedNamesImpl_he extends LocalizedNamesImpl {
         "MU",
         "YT",
         "ML",
+        "XA",
         "MG",
         "MZ",
         "MD",
@@ -223,7 +225,6 @@ public class LocalizedNamesImpl_he extends LocalizedNamesImpl {
         "SJ",
         "EH",
         "SD",
-        "SZ",
         "SO",
         "SY",
         "SR",
@@ -368,7 +369,7 @@ public class LocalizedNamesImpl_he extends LocalizedNamesImpl {
     namesMap.put("BS", "איי בהאמה");
     namesMap.put("BT", "בהוטן");
     namesMap.put("BV", "האי בובה");
-    namesMap.put("BW", "בוצוואנה");
+    namesMap.put("BW", "בוטסואנה");
     namesMap.put("BY", "בלארוס");
     namesMap.put("BZ", "בליז");
     namesMap.put("CA", "קנדה");
@@ -483,7 +484,7 @@ public class LocalizedNamesImpl_he extends LocalizedNamesImpl {
     namesMap.put("MF", "סן מרטן");
     namesMap.put("MG", "מדגסקר");
     namesMap.put("MH", "איי מרשל");
-    namesMap.put("MK", "מקדוניה");
+    namesMap.put("MK", "מקדוניה הצפונית");
     namesMap.put("ML", "מאלי");
     namesMap.put("MM", "מיאנמר (בורמה)");
     namesMap.put("MN", "מונגוליה");
@@ -543,7 +544,7 @@ public class LocalizedNamesImpl_he extends LocalizedNamesImpl {
     namesMap.put("SI", "סלובניה");
     namesMap.put("SJ", "סבאלברד ויאן מאיין");
     namesMap.put("SK", "סלובקיה");
-    namesMap.put("SL", "סיירה לאונה");
+    namesMap.put("SL", "סיירה לאון");
     namesMap.put("SM", "סן מרינו");
     namesMap.put("SN", "סנגל");
     namesMap.put("SO", "סומליה");
@@ -553,7 +554,7 @@ public class LocalizedNamesImpl_he extends LocalizedNamesImpl {
     namesMap.put("SV", "אל סלבדור");
     namesMap.put("SX", "סנט מארטן");
     namesMap.put("SY", "סוריה");
-    namesMap.put("SZ", "סווזילנד");
+    namesMap.put("SZ", "אסוואטיני");
     namesMap.put("TA", "טריסטן דה קונה");
     namesMap.put("TC", "איי טרקס וקייקוס");
     namesMap.put("TD", "צ׳אד");
@@ -587,6 +588,8 @@ public class LocalizedNamesImpl_he extends LocalizedNamesImpl {
     namesMap.put("VU", "ונואטו");
     namesMap.put("WF", "איי ווליס ופוטונה");
     namesMap.put("WS", "סמואה");
+    namesMap.put("XA", "מבטאים חלקיים");
+    namesMap.put("XB", "דו-כיווני חלקי");
     namesMap.put("XK", "קוסובו");
     namesMap.put("YE", "תימן");
     namesMap.put("YT", "מאיוט");
@@ -669,7 +672,7 @@ public class LocalizedNamesImpl_he extends LocalizedNamesImpl {
         "BS": "איי בהאמה",
         "BT": "בהוטן",
         "BV": "האי בובה",
-        "BW": "בוצוואנה",
+        "BW": "בוטסואנה",
         "BY": "בלארוס",
         "BZ": "בליז",
         "CA": "קנדה",
@@ -784,7 +787,7 @@ public class LocalizedNamesImpl_he extends LocalizedNamesImpl {
         "MF": "סן מרטן",
         "MG": "מדגסקר",
         "MH": "איי מרשל",
-        "MK": "מקדוניה",
+        "MK": "מקדוניה הצפונית",
         "ML": "מאלי",
         "MM": "מיאנמר (בורמה)",
         "MN": "מונגוליה",
@@ -844,7 +847,7 @@ public class LocalizedNamesImpl_he extends LocalizedNamesImpl {
         "SI": "סלובניה",
         "SJ": "סבאלברד ויאן מאיין",
         "SK": "סלובקיה",
-        "SL": "סיירה לאונה",
+        "SL": "סיירה לאון",
         "SM": "סן מרינו",
         "SN": "סנגל",
         "SO": "סומליה",
@@ -854,7 +857,7 @@ public class LocalizedNamesImpl_he extends LocalizedNamesImpl {
         "SV": "אל סלבדור",
         "SX": "סנט מארטן",
         "SY": "סוריה",
-        "SZ": "סווזילנד",
+        "SZ": "אסוואטיני",
         "TA": "טריסטן דה קונה",
         "TC": "איי טרקס וקייקוס",
         "TD": "צ׳אד",
@@ -888,6 +891,8 @@ public class LocalizedNamesImpl_he extends LocalizedNamesImpl {
         "VU": "ונואטו",
         "WF": "איי ווליס ופוטונה",
         "WS": "סמואה",
+        "XA": "מבטאים חלקיים",
+        "XB": "דו-כיווני חלקי",
         "XK": "קוסובו",
         "YE": "תימן",
         "YT": "מאיוט",

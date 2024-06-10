@@ -34,7 +34,9 @@ public class LocalizedNamesImpl_mzn extends LocalizedNamesImpl {
   @Override
   public String[] loadSortedRegionCodes() {
     return new String[] {
+        "CQ",
         "EZ",
+        "MK",
         "UN",
         "XA",
         "XB",
@@ -214,7 +216,6 @@ public class LocalizedNamesImpl_mzn extends LocalizedNamesImpl {
         "CF",
         "EG",
         "MN",
-        "MK",
         "IM",
         "MU",
         "MR",
@@ -481,7 +482,6 @@ public class LocalizedNamesImpl_mzn extends LocalizedNamesImpl {
     namesMap.put("MF", "سنت مارتین");
     namesMap.put("MG", "ماداگاسکار");
     namesMap.put("MH", "مارشال جزایر");
-    namesMap.put("MK", "مقدونیه");
     namesMap.put("ML", "مالی");
     namesMap.put("MM", "میانمار");
     namesMap.put("MN", "مغولستون");
@@ -779,7 +779,6 @@ public class LocalizedNamesImpl_mzn extends LocalizedNamesImpl {
         "MF": "سنت مارتین",
         "MG": "ماداگاسکار",
         "MH": "مارشال جزایر",
-        "MK": "مقدونیه",
         "ML": "مالی",
         "MM": "میانمار",
         "MN": "مغولستون",

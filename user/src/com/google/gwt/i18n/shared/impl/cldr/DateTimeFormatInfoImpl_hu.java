@@ -67,12 +67,12 @@ public class DateTimeFormatInfoImpl_hu extends DateTimeFormatInfoImpl {
 
   @Override
   public String formatHour12Minute() {
-    return "a h:mm";
+    return "a h:mm";
   }
 
   @Override
   public String formatHour12MinuteSecond() {
-    return "a h:mm:ss";
+    return "a h:mm:ss";
   }
 
   @Override

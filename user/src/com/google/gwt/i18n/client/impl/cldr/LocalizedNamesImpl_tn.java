@@ -38,6 +38,7 @@ public class LocalizedNamesImpl_tn extends LocalizedNamesImpl {
         "AD",
         "AE",
         "AF",
+        "ZA",
         "AG",
         "AI",
         "AL",
@@ -85,6 +86,7 @@ public class LocalizedNamesImpl_tn extends LocalizedNamesImpl {
         "CN",
         "CO",
         "CP",
+        "CQ",
         "CR",
         "CU",
         "CV",
@@ -108,6 +110,7 @@ public class LocalizedNamesImpl_tn extends LocalizedNamesImpl {
         "ES",
         "ET",
         "EU",
+        "EZ",
         "FI",
         "FJ",
         "FK",
@@ -274,6 +277,7 @@ public class LocalizedNamesImpl_tn extends LocalizedNamesImpl {
         "UA",
         "UG",
         "UM",
+        "UN",
         "US",
         "UY",
         "UZ",
@@ -286,10 +290,11 @@ public class LocalizedNamesImpl_tn extends LocalizedNamesImpl {
         "VU",
         "WF",
         "WS",
+        "XA",
+        "XB",
         "XK",
         "YE",
         "YT",
-        "ZA",
         "ZM",
         "ZW",
     };
@@ -298,6 +303,7 @@ public class LocalizedNamesImpl_tn extends LocalizedNamesImpl {
   @Override
   protected void loadNameMapJava() {
     super.loadNameMapJava();
+    namesMap.put("ZA", "Aforika Borwa");
   }
 
   @Override
@@ -307,7 +313,7 @@ public class LocalizedNamesImpl_tn extends LocalizedNamesImpl {
 
   private native JavaScriptObject loadMyNameMap() /*-{
     return {
-
+        "ZA": "Aforika Borwa"
     };
   }-*/;
 }

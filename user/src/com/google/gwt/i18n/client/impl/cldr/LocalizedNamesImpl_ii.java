@@ -83,6 +83,7 @@ public class LocalizedNamesImpl_ii extends LocalizedNamesImpl {
         "CM",
         "CO",
         "CP",
+        "CQ",
         "CR",
         "CU",
         "CV",

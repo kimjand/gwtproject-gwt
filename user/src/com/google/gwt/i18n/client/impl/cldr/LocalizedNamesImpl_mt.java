@@ -38,6 +38,7 @@ public class LocalizedNamesImpl_mt extends LocalizedNamesImpl {
         "EA",
         "CY",
         "KM",
+        "CQ",
         "CW",
         "DG",
         "DM",
@@ -137,6 +138,7 @@ public class LocalizedNamesImpl_mt extends LocalizedNamesImpl {
         "LI",
         "LT",
         "LU",
+        "MK",
         "MY",
         "MW",
         "MV",
@@ -144,6 +146,7 @@ public class LocalizedNamesImpl_mt extends LocalizedNamesImpl {
         "MA",
         "MR",
         "MX",
+        "FM",
         "MD",
         "MN",
         "ME",
@@ -190,7 +193,6 @@ public class LocalizedNamesImpl_mt extends LocalizedNamesImpl {
         "SD",
         "SS",
         "SR",
-        "SZ",
         "TJ",
         "TH",
         "TW",
@@ -221,11 +223,11 @@ public class LocalizedNamesImpl_mt extends LocalizedNamesImpl {
         "AT",
         "AZ",
         "EG",
-        "MK",
         "EC",
         "AE",
         "ER",
         "EE",
+        "SZ",
         "ET",
         "IN",
         "ID",
@@ -249,7 +251,6 @@ public class LocalizedNamesImpl_mt extends LocalizedNamesImpl {
         "MQ",
         "MU",
         "YT",
-        "FM",
         "MC",
         "MS",
         "NR",
@@ -392,7 +393,7 @@ public class LocalizedNamesImpl_mt extends LocalizedNamesImpl {
     namesMap.put("FI", "il-Finlandja");
     namesMap.put("FJ", "Fiġi");
     namesMap.put("FK", "il-Gżejjer Falkland");
-    namesMap.put("FM", "Mikroneżja");
+    namesMap.put("FM", "il-Mikroneżja");
     namesMap.put("FO", "il-Gżejjer Faeroe");
     namesMap.put("FR", "Franza");
     namesMap.put("GA", "il-Gabon");
@@ -423,7 +424,7 @@ public class LocalizedNamesImpl_mt extends LocalizedNamesImpl {
     namesMap.put("IO", "Territorju Brittaniku tal-Oċean Indjan");
     namesMap.put("IQ", "l-Iraq");
     namesMap.put("IR", "l-Iran");
-    namesMap.put("IS", "l-iżlanda");
+    namesMap.put("IS", "l-Iżlanda");
     namesMap.put("IT", "l-Italja");
     namesMap.put("JM", "il-Ġamajka");
     namesMap.put("JO", "il-Ġordan");
@@ -453,7 +454,7 @@ public class LocalizedNamesImpl_mt extends LocalizedNamesImpl {
     namesMap.put("ME", "il-Montenegro");
     namesMap.put("MF", "Saint Martin");
     namesMap.put("MH", "Gżejjer Marshall");
-    namesMap.put("MK", "l-Eks-Repubblika Jugoslava tal-Maċedonia");
+    namesMap.put("MK", "il-Maċedonja ta’ Fuq");
     namesMap.put("ML", "il-Mali");
     namesMap.put("MM", "il-Myanmar/Burma");
     namesMap.put("MN", "il-Mongolja");
@@ -490,7 +491,7 @@ public class LocalizedNamesImpl_mt extends LocalizedNamesImpl {
     namesMap.put("RS", "is-Serbja");
     namesMap.put("RU", "ir-Russja");
     namesMap.put("RW", "ir-Rwanda");
-    namesMap.put("SA", "l-Arabia Sawdija");
+    namesMap.put("SA", "l-Arabja Sawdija");
     namesMap.put("SB", "il-Gżejjer Solomon");
     namesMap.put("SC", "is-Seychelles");
     namesMap.put("SD", "is-Sudan");
@@ -505,7 +506,7 @@ public class LocalizedNamesImpl_mt extends LocalizedNamesImpl {
     namesMap.put("SS", "is-Sudan t’Isfel");
     namesMap.put("ST", "São Tomé u Príncipe");
     namesMap.put("SY", "is-Sirja");
-    namesMap.put("SZ", "is-Swaziland");
+    namesMap.put("SZ", "l-Eswatini");
     namesMap.put("TC", "il-Gżejjer Turks u Caicos");
     namesMap.put("TD", "iċ-Chad");
     namesMap.put("TF", "It-Territorji Franċiżi tan-Nofsinhar");
@@ -645,7 +646,7 @@ public class LocalizedNamesImpl_mt extends LocalizedNamesImpl {
         "FI": "il-Finlandja",
         "FJ": "Fiġi",
         "FK": "il-Gżejjer Falkland",
-        "FM": "Mikroneżja",
+        "FM": "il-Mikroneżja",
         "FO": "il-Gżejjer Faeroe",
         "FR": "Franza",
         "GA": "il-Gabon",
@@ -676,7 +677,7 @@ public class LocalizedNamesImpl_mt extends LocalizedNamesImpl {
         "IO": "Territorju Brittaniku tal-Oċean Indjan",
         "IQ": "l-Iraq",
         "IR": "l-Iran",
-        "IS": "l-iżlanda",
+        "IS": "l-Iżlanda",
         "IT": "l-Italja",
         "JM": "il-Ġamajka",
         "JO": "il-Ġordan",
@@ -706,7 +707,7 @@ public class LocalizedNamesImpl_mt extends LocalizedNamesImpl {
         "ME": "il-Montenegro",
         "MF": "Saint Martin",
         "MH": "Gżejjer Marshall",
-        "MK": "l-Eks-Repubblika Jugoslava tal-Maċedonia",
+        "MK": "il-Maċedonja ta’ Fuq",
         "ML": "il-Mali",
         "MM": "il-Myanmar/Burma",
         "MN": "il-Mongolja",
@@ -743,7 +744,7 @@ public class LocalizedNamesImpl_mt extends LocalizedNamesImpl {
         "RS": "is-Serbja",
         "RU": "ir-Russja",
         "RW": "ir-Rwanda",
-        "SA": "l-Arabia Sawdija",
+        "SA": "l-Arabja Sawdija",
         "SB": "il-Gżejjer Solomon",
         "SC": "is-Seychelles",
         "SD": "is-Sudan",
@@ -758,7 +759,7 @@ public class LocalizedNamesImpl_mt extends LocalizedNamesImpl {
         "SS": "is-Sudan t’Isfel",
         "ST": "São Tomé u Príncipe",
         "SY": "is-Sirja",
-        "SZ": "is-Swaziland",
+        "SZ": "l-Eswatini",
         "TC": "il-Gżejjer Turks u Caicos",
         "TD": "iċ-Chad",
         "TF": "It-Territorji Franċiżi tan-Nofsinhar",

@@ -34,8 +34,7 @@ public class LocalizedNamesImpl_yue_Hans extends LocalizedNamesImpl_yue {
   @Override
   public String[] loadSortedRegionCodes() {
     return new String[] {
-        "XA",
-        "XB",
+        "CQ",
         "VU",
         "BT",
         "TO",
@@ -57,6 +56,8 @@ public class LocalizedNamesImpl_yue_Hans extends LocalizedNamesImpl_yue {
         "IQ",
         "IR",
         "EA",
+        "XB",
+        "XA",
         "RU",
         "BG",
         "HR",
@@ -508,6 +509,8 @@ public class LocalizedNamesImpl_yue_Hans extends LocalizedNamesImpl_yue {
     namesMap.put("VU", "万那杜");
     namesMap.put("WF", "瓦利斯同富图纳群岛");
     namesMap.put("WS", "萨摩亚");
+    namesMap.put("XA", "伪口音");
+    namesMap.put("XB", "伪 Bidi");
     namesMap.put("YE", "叶门");
     namesMap.put("YT", "马约特");
     namesMap.put("ZM", "尚比亚");
@@ -727,6 +730,8 @@ public class LocalizedNamesImpl_yue_Hans extends LocalizedNamesImpl_yue {
         "VU": "万那杜",
         "WF": "瓦利斯同富图纳群岛",
         "WS": "萨摩亚",
+        "XA": "伪口音",
+        "XB": "伪 Bidi",
         "YE": "叶门",
         "YT": "马约特",
         "ZM": "尚比亚",

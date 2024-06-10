@@ -34,8 +34,7 @@ public class LocalizedNamesImpl_mr extends LocalizedNamesImpl {
   @Override
   public String[] loadSortedRegionCodes() {
     return new String[] {
-        "XA",
-        "XB",
+        "CQ",
         "AI",
         "AG",
         "AD",
@@ -56,7 +55,6 @@ public class LocalizedNamesImpl_mr extends LocalizedNamesImpl {
         "QO",
         "IE",
         "IM",
-        "CI",
         "ID",
         "EC",
         "GQ",
@@ -66,8 +64,10 @@ public class LocalizedNamesImpl_mr extends LocalizedNamesImpl {
         "IQ",
         "IR",
         "IL",
+        "SZ",
         "UZ",
         "KP",
+        "MK",
         "MP",
         "UY",
         "ER",
@@ -93,6 +93,7 @@ public class LocalizedNamesImpl_mr extends LocalizedNamesImpl {
         "CV",
         "KY",
         "CC",
+        "CI",
         "KM",
         "CO",
         "XK",
@@ -152,6 +153,8 @@ public class LocalizedNamesImpl_mr extends LocalizedNamesImpl {
         "GS",
         "SS",
         "DG",
+        "XA",
+        "XB",
         "NE",
         "NR",
         "NA",
@@ -219,7 +222,6 @@ public class LocalizedNamesImpl_mr extends LocalizedNamesImpl {
         "MV",
         "ML",
         "MT",
-        "MK",
         "MX",
         "MS",
         "MR",
@@ -287,7 +289,6 @@ public class LocalizedNamesImpl_mr extends LocalizedNamesImpl {
         "EA",
         "SK",
         "SI",
-        "SZ",
         "SJ",
         "CH",
         "SE",
@@ -324,7 +325,7 @@ public class LocalizedNamesImpl_mr extends LocalizedNamesImpl {
     namesMap.put("054", "मेलानेशिया");
     namesMap.put("057", "मायक्रोनेशियन प्रदेश");
     namesMap.put("061", "पॉलिनेशिया");
-    namesMap.put("142", "अशिया");
+    namesMap.put("142", "आशिया");
     namesMap.put("143", "मध्य आशिया");
     namesMap.put("145", "पश्चिम आशिया");
     namesMap.put("150", "युरोप");
@@ -377,7 +378,7 @@ public class LocalizedNamesImpl_mr extends LocalizedNamesImpl {
     namesMap.put("CF", "केंद्रीय अफ्रिकी प्रजासत्ताक");
     namesMap.put("CG", "काँगो - ब्राझाविले");
     namesMap.put("CH", "स्वित्झर्लंड");
-    namesMap.put("CI", "आयव्हरी कोस्ट");
+    namesMap.put("CI", "कोत द’ईवोआर");
     namesMap.put("CK", "कुक बेटे");
     namesMap.put("CL", "चिली");
     namesMap.put("CM", "कॅमेरून");
@@ -445,7 +446,7 @@ public class LocalizedNamesImpl_mr extends LocalizedNamesImpl {
     namesMap.put("IL", "इस्त्राइल");
     namesMap.put("IM", "आयल ऑफ मॅन");
     namesMap.put("IN", "भारत");
-    namesMap.put("IO", "ब्रिटिश हिंदी महासागर क्षेत्र");
+    namesMap.put("IO", "ब्रिटिश हिंद महासागर प्रदेश");
     namesMap.put("IQ", "इराक");
     namesMap.put("IR", "इराण");
     namesMap.put("IS", "आइसलँड");
@@ -474,7 +475,7 @@ public class LocalizedNamesImpl_mr extends LocalizedNamesImpl {
     namesMap.put("LS", "लेसोथो");
     namesMap.put("LT", "लिथुआनिया");
     namesMap.put("LU", "लक्झेंबर्ग");
-    namesMap.put("LV", "लात्विया");
+    namesMap.put("LV", "लाटव्हिया");
     namesMap.put("LY", "लिबिया");
     namesMap.put("MA", "मोरोक्को");
     namesMap.put("MC", "मोनॅको");
@@ -483,7 +484,7 @@ public class LocalizedNamesImpl_mr extends LocalizedNamesImpl {
     namesMap.put("MF", "सेंट मार्टिन");
     namesMap.put("MG", "मादागास्कर");
     namesMap.put("MH", "मार्शल बेटे");
-    namesMap.put("MK", "मॅसेडोनिया");
+    namesMap.put("MK", "उत्तर मॅसेडोनिया");
     namesMap.put("ML", "माली");
     namesMap.put("MM", "म्यानमार (बर्मा)");
     namesMap.put("MN", "मंगोलिया");
@@ -553,7 +554,7 @@ public class LocalizedNamesImpl_mr extends LocalizedNamesImpl {
     namesMap.put("SV", "अल साल्वाडोर");
     namesMap.put("SX", "सिंट मार्टेन");
     namesMap.put("SY", "सीरिया");
-    namesMap.put("SZ", "स्वाझिलँड");
+    namesMap.put("SZ", "इस्वातिनी");
     namesMap.put("TA", "ट्रिस्टन दा कुन्हा");
     namesMap.put("TC", "टर्क्स आणि कैकोस बेटे");
     namesMap.put("TD", "चाड");
@@ -566,7 +567,7 @@ public class LocalizedNamesImpl_mr extends LocalizedNamesImpl {
     namesMap.put("TM", "तुर्कमेनिस्तान");
     namesMap.put("TN", "ट्यूनिशिया");
     namesMap.put("TO", "टोंगा");
-    namesMap.put("TR", "तुर्की");
+    namesMap.put("TR", "तुर्किये");
     namesMap.put("TT", "त्रिनिदाद आणि टोबॅगो");
     namesMap.put("TV", "टुवालु");
     namesMap.put("TW", "तैवान");
@@ -587,6 +588,8 @@ public class LocalizedNamesImpl_mr extends LocalizedNamesImpl {
     namesMap.put("VU", "वानुआतु");
     namesMap.put("WF", "वालिस आणि फ्यूचूना");
     namesMap.put("WS", "सामोआ");
+    namesMap.put("XA", "नकली-उच्चारणे");
+    namesMap.put("XB", "नकली-बीडी");
     namesMap.put("XK", "कोसोव्हो");
     namesMap.put("YE", "येमेन");
     namesMap.put("YT", "मायोट्टे");
@@ -625,7 +628,7 @@ public class LocalizedNamesImpl_mr extends LocalizedNamesImpl {
         "054": "मेलानेशिया",
         "057": "मायक्रोनेशियन प्रदेश",
         "061": "पॉलिनेशिया",
-        "142": "अशिया",
+        "142": "आशिया",
         "143": "मध्य आशिया",
         "145": "पश्चिम आशिया",
         "150": "युरोप",
@@ -678,7 +681,7 @@ public class LocalizedNamesImpl_mr extends LocalizedNamesImpl {
         "CF": "केंद्रीय अफ्रिकी प्रजासत्ताक",
         "CG": "काँगो - ब्राझाविले",
         "CH": "स्वित्झर्लंड",
-        "CI": "आयव्हरी कोस्ट",
+        "CI": "कोत द’ईवोआर",
         "CK": "कुक बेटे",
         "CL": "चिली",
         "CM": "कॅमेरून",
@@ -746,7 +749,7 @@ public class LocalizedNamesImpl_mr extends LocalizedNamesImpl {
         "IL": "इस्त्राइल",
         "IM": "आयल ऑफ मॅन",
         "IN": "भारत",
-        "IO": "ब्रिटिश हिंदी महासागर क्षेत्र",
+        "IO": "ब्रिटिश हिंद महासागर प्रदेश",
         "IQ": "इराक",
         "IR": "इराण",
         "IS": "आइसलँड",
@@ -775,7 +778,7 @@ public class LocalizedNamesImpl_mr extends LocalizedNamesImpl {
         "LS": "लेसोथो",
         "LT": "लिथुआनिया",
         "LU": "लक्झेंबर्ग",
-        "LV": "लात्विया",
+        "LV": "लाटव्हिया",
         "LY": "लिबिया",
         "MA": "मोरोक्को",
         "MC": "मोनॅको",
@@ -784,7 +787,7 @@ public class LocalizedNamesImpl_mr extends LocalizedNamesImpl {
         "MF": "सेंट मार्टिन",
         "MG": "मादागास्कर",
         "MH": "मार्शल बेटे",
-        "MK": "मॅसेडोनिया",
+        "MK": "उत्तर मॅसेडोनिया",
         "ML": "माली",
         "MM": "म्यानमार (बर्मा)",
         "MN": "मंगोलिया",
@@ -854,7 +857,7 @@ public class LocalizedNamesImpl_mr extends LocalizedNamesImpl {
         "SV": "अल साल्वाडोर",
         "SX": "सिंट मार्टेन",
         "SY": "सीरिया",
-        "SZ": "स्वाझिलँड",
+        "SZ": "इस्वातिनी",
         "TA": "ट्रिस्टन दा कुन्हा",
         "TC": "टर्क्स आणि कैकोस बेटे",
         "TD": "चाड",
@@ -867,7 +870,7 @@ public class LocalizedNamesImpl_mr extends LocalizedNamesImpl {
         "TM": "तुर्कमेनिस्तान",
         "TN": "ट्यूनिशिया",
         "TO": "टोंगा",
-        "TR": "तुर्की",
+        "TR": "तुर्किये",
         "TT": "त्रिनिदाद आणि टोबॅगो",
         "TV": "टुवालु",
         "TW": "तैवान",
@@ -888,6 +891,8 @@ public class LocalizedNamesImpl_mr extends LocalizedNamesImpl {
         "VU": "वानुआतु",
         "WF": "वालिस आणि फ्यूचूना",
         "WS": "सामोआ",
+        "XA": "नकली-उच्चारणे",
+        "XB": "नकली-बीडी",
         "XK": "कोसोव्हो",
         "YE": "येमेन",
         "YT": "मायोट्टे",

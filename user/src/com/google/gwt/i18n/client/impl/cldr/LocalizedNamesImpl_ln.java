@@ -80,6 +80,7 @@ public class LocalizedNamesImpl_ln extends LocalizedNamesImpl {
         "BI",
         "BT",
         "BY",
+        "CQ",
         "CW",
         "DK",
         "DG",
@@ -172,10 +173,10 @@ public class LocalizedNamesImpl_ln extends LocalizedNamesImpl {
         "MT",
         "MA",
         "MQ",
-        "MK",
         "YT",
         "MX",
         "FM",
+        "MK",
         "MD",
         "MC",
         "MN",
@@ -458,7 +459,6 @@ public class LocalizedNamesImpl_ln extends LocalizedNamesImpl {
     namesMap.put("MF", "Sántu Martin");
     namesMap.put("MG", "Madagasikari");
     namesMap.put("MH", "Bisanga bya Marishalɛ");
-    namesMap.put("MK", "Masedwanɛ");
     namesMap.put("ML", "Malí");
     namesMap.put("MM", "Birmanie");
     namesMap.put("MN", "Mongolí");
@@ -722,7 +722,6 @@ public class LocalizedNamesImpl_ln extends LocalizedNamesImpl {
         "MF": "Sántu Martin",
         "MG": "Madagasikari",
         "MH": "Bisanga bya Marishalɛ",
-        "MK": "Masedwanɛ",
         "ML": "Malí",
         "MM": "Birmanie",
         "MN": "Mongolí",

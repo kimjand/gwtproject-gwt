@@ -42,16 +42,6 @@ public class DateTimeFormatInfoImpl_gu extends DateTimeFormatInfoImpl {
   }
 
   @Override
-  public String dateTimeFull(String timePattern, String datePattern) {
-    return datePattern + " એ " + timePattern + " વાગ્યે";
-  }
-
-  @Override
-  public String dateTimeLong(String timePattern, String datePattern) {
-    return datePattern + " એ " + timePattern + " વાગ્યે";
-  }
-
-  @Override
   public String[] erasFull() {
     return new String[] {
         "ઈસવીસન પૂર્વે",

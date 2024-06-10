@@ -64,6 +64,7 @@ public class LocalizedNamesImpl_sq extends LocalizedNamesImpl {
         "TD",
         "CZ",
         "CI",
+        "CQ",
         "DK",
         "DG",
         "DM",
@@ -72,6 +73,7 @@ public class LocalizedNamesImpl_sq extends LocalizedNamesImpl {
         "AE",
         "ER",
         "EE",
+        "SZ",
         "ET",
         "PH",
         "FI",
@@ -209,6 +211,8 @@ public class LocalizedNamesImpl_sq extends LocalizedNamesImpl {
         "PL",
         "PR",
         "PT",
+        "XB",
+        "XA",
         "CY",
         "DO",
         "CF",
@@ -245,7 +249,6 @@ public class LocalizedNamesImpl_sq extends LocalizedNamesImpl {
         "SO",
         "ES",
         "LK",
-        "SZ",
         "SD",
         "SS",
         "SE",
@@ -278,8 +281,6 @@ public class LocalizedNamesImpl_sq extends LocalizedNamesImpl {
         "VA",
         "VE",
         "VN",
-        "XA",
-        "XB",
         "JM",
         "JE",
         "DJ",
@@ -462,7 +463,7 @@ public class LocalizedNamesImpl_sq extends LocalizedNamesImpl {
     namesMap.put("MF", "Sen-Marten");
     namesMap.put("MG", "Madagaskar");
     namesMap.put("MH", "Ishujt Marshall");
-    namesMap.put("MK", "Maqedoni");
+    namesMap.put("MK", "Maqedonia e Veriut");
     namesMap.put("MM", "Mianmar (Burmë)");
     namesMap.put("MN", "Mongoli");
     namesMap.put("MO", "RPA i Makaos");
@@ -519,7 +520,7 @@ public class LocalizedNamesImpl_sq extends LocalizedNamesImpl {
     namesMap.put("SV", "Salvador");
     namesMap.put("SX", "Sint-Marten");
     namesMap.put("SY", "Siri");
-    namesMap.put("SZ", "Suazilend");
+    namesMap.put("SZ", "Esvatini");
     namesMap.put("TA", "Tristan-da-Kuna");
     namesMap.put("TC", "Ishujt Turks dhe Kaikos");
     namesMap.put("TD", "Çad");
@@ -543,6 +544,8 @@ public class LocalizedNamesImpl_sq extends LocalizedNamesImpl {
     namesMap.put("VG", "Ishujt e Virgjër Britanikë");
     namesMap.put("VI", "Ishujt e Virgjër të SHBA-së");
     namesMap.put("WF", "Uollis e Futuna");
+    namesMap.put("XA", "Pseudo-thekse");
+    namesMap.put("XB", "Pseudo-bidi");
     namesMap.put("XK", "Kosovë");
     namesMap.put("YE", "Jemen");
     namesMap.put("YT", "Majotë");
@@ -726,7 +729,7 @@ public class LocalizedNamesImpl_sq extends LocalizedNamesImpl {
         "MF": "Sen-Marten",
         "MG": "Madagaskar",
         "MH": "Ishujt Marshall",
-        "MK": "Maqedoni",
+        "MK": "Maqedonia e Veriut",
         "MM": "Mianmar (Burmë)",
         "MN": "Mongoli",
         "MO": "RPA i Makaos",
@@ -783,7 +786,7 @@ public class LocalizedNamesImpl_sq extends LocalizedNamesImpl {
         "SV": "Salvador",
         "SX": "Sint-Marten",
         "SY": "Siri",
-        "SZ": "Suazilend",
+        "SZ": "Esvatini",
         "TA": "Tristan-da-Kuna",
         "TC": "Ishujt Turks dhe Kaikos",
         "TD": "Çad",
@@ -807,6 +810,8 @@ public class LocalizedNamesImpl_sq extends LocalizedNamesImpl {
         "VG": "Ishujt e Virgjër Britanikë",
         "VI": "Ishujt e Virgjër të SHBA-së",
         "WF": "Uollis e Futuna",
+        "XA": "Pseudo-thekse",
+        "XB": "Pseudo-bidi",
         "XK": "Kosovë",
         "YE": "Jemen",
         "YT": "Majotë",

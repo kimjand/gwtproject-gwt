@@ -91,6 +91,16 @@ public class DateTimeFormatInfoImpl_uz_Arab extends DateTimeFormatInfoImpl_uz {
   }
 
   @Override
+  public String formatHour12Minute() {
+    return "h:mm a";
+  }
+
+  @Override
+  public String formatHour12MinuteSecond() {
+    return "h:mm:ss a";
+  }
+
+  @Override
   public String formatMonthAbbrevDay() {
     return "MMM d";
   }
@@ -108,6 +118,11 @@ public class DateTimeFormatInfoImpl_uz_Arab extends DateTimeFormatInfoImpl_uz {
   @Override
   public String formatMonthNumDay() {
     return "MM-dd";
+  }
+
+  @Override
+  public String formatYear() {
+    return "G y";
   }
 
   @Override

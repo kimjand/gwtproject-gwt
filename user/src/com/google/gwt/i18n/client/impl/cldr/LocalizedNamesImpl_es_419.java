@@ -80,6 +80,7 @@ public class LocalizedNamesImpl_es_419 extends LocalizedNamesImpl_es {
         "KR",
         "CI",
         "CR",
+        "CQ",
         "HR",
         "CU",
         "CW",
@@ -96,6 +97,7 @@ public class LocalizedNamesImpl_es_419 extends LocalizedNamesImpl_es {
         "ES",
         "US",
         "EE",
+        "SZ",
         "ET",
         "EZ",
         "PH",
@@ -216,6 +218,8 @@ public class LocalizedNamesImpl_es_419 extends LocalizedNamesImpl_es {
         "PF",
         "PL",
         "PT",
+        "XA",
+        "XB",
         "PR",
         "HK",
         "MO",
@@ -249,7 +253,6 @@ public class LocalizedNamesImpl_es_419 extends LocalizedNamesImpl_es {
         "SY",
         "SO",
         "LK",
-        "SZ",
         "ZA",
         "SD",
         "SS",
@@ -283,8 +286,6 @@ public class LocalizedNamesImpl_es_419 extends LocalizedNamesImpl_es {
         "VE",
         "VN",
         "WF",
-        "XA",
-        "XB",
         "YE",
         "DJ",
         "ZM",
@@ -295,6 +296,7 @@ public class LocalizedNamesImpl_es_419 extends LocalizedNamesImpl_es {
   @Override
   protected void loadNameMapJava() {
     super.loadNameMapJava();
+    namesMap.put("001", "mundo");
     namesMap.put("011", "África del Oeste");
     namesMap.put("014", "África del Este");
     namesMap.put("015", "África del Norte");
@@ -303,23 +305,23 @@ public class LocalizedNamesImpl_es_419 extends LocalizedNamesImpl_es {
     namesMap.put("034", "Asia del Sur");
     namesMap.put("035", "Asia sudoriental");
     namesMap.put("039", "Europa del Sur");
-    namesMap.put("057", "región de Micronesia");
     namesMap.put("145", "Asia del Oeste");
     namesMap.put("151", "Europa del Este");
     namesMap.put("154", "Europa del Norte");
     namesMap.put("155", "Europa del Oeste");
     namesMap.put("AC", "Isla Ascensión");
+    namesMap.put("AX", "Islas Åland");
     namesMap.put("BA", "Bosnia-Herzegovina");
     namesMap.put("CG", "República del Congo");
     namesMap.put("CI", "Costa de Marfil");
     namesMap.put("EZ", "Eurozona");
-    namesMap.put("GG", "Guernesey");
+    namesMap.put("GS", "Islas Georgia del Sur y Sándwich del Sur");
     namesMap.put("IC", "Islas Canarias");
     namesMap.put("QO", "Islas Ultramarinas");
-    namesMap.put("TA", "Tristán da Cunha");
+    namesMap.put("RO", "Rumania");
+    namesMap.put("SA", "Arabia Saudita");
     namesMap.put("TL", "Timor Oriental");
     namesMap.put("UM", "Islas Ultramarinas de EE.UU.");
-    namesMap.put("VI", "Islas Vírgenes de los Estados Unidos");
   }
 
   @Override
@@ -329,6 +331,7 @@ public class LocalizedNamesImpl_es_419 extends LocalizedNamesImpl_es {
 
   private native JavaScriptObject loadMyNameMap() /*-{
     return {
+        "001": "mundo",
         "011": "África del Oeste",
         "014": "África del Este",
         "015": "África del Norte",
@@ -337,23 +340,23 @@ public class LocalizedNamesImpl_es_419 extends LocalizedNamesImpl_es {
         "034": "Asia del Sur",
         "035": "Asia sudoriental",
         "039": "Europa del Sur",
-        "057": "región de Micronesia",
         "145": "Asia del Oeste",
         "151": "Europa del Este",
         "154": "Europa del Norte",
         "155": "Europa del Oeste",
         "AC": "Isla Ascensión",
+        "AX": "Islas Åland",
         "BA": "Bosnia-Herzegovina",
         "CG": "República del Congo",
         "CI": "Costa de Marfil",
         "EZ": "Eurozona",
-        "GG": "Guernesey",
+        "GS": "Islas Georgia del Sur y Sándwich del Sur",
         "IC": "Islas Canarias",
         "QO": "Islas Ultramarinas",
-        "TA": "Tristán da Cunha",
+        "RO": "Rumania",
+        "SA": "Arabia Saudita",
         "TL": "Timor Oriental",
-        "UM": "Islas Ultramarinas de EE.UU.",
-        "VI": "Islas Vírgenes de los Estados Unidos"
+        "UM": "Islas Ultramarinas de EE.UU."
     };
   }-*/;
 }

@@ -70,6 +70,7 @@ public class LocalizedNamesImpl_jv extends LocalizedNamesImpl {
         "CZ",
         "TD",
         "CL",
+        "CQ",
         "DK",
         "DG",
         "DM",
@@ -88,15 +89,15 @@ public class LocalizedNamesImpl_jv extends LocalizedNamesImpl {
         "GS",
         "GH",
         "GI",
-        "GN",
-        "GW",
+        "GL",
         "GD",
         "GR",
-        "GL",
         "GP",
         "GU",
         "GT",
         "GG",
+        "GN",
+        "GW",
         "GQ",
         "GY",
         "GF",
@@ -118,8 +119,8 @@ public class LocalizedNamesImpl_jv extends LocalizedNamesImpl {
         "KH",
         "CM",
         "CA",
-        "UM",
         "AX",
+        "UM",
         "CC",
         "CK",
         "FK",
@@ -163,9 +164,9 @@ public class LocalizedNamesImpl_jv extends LocalizedNamesImpl {
         "LY",
         "LI",
         "LT",
+        "XA",
         "LU",
         "MG",
-        "MK",
         "MV",
         "MW",
         "MY",
@@ -192,7 +193,6 @@ public class LocalizedNamesImpl_jv extends LocalizedNamesImpl {
         "NG",
         "NI",
         "NU",
-        "NZ",
         "NO",
         "OM",
         "QO",
@@ -222,7 +222,9 @@ public class LocalizedNamesImpl_jv extends LocalizedNamesImpl {
         "CF",
         "DO",
         "IE",
+        "MK",
         "RE",
+        "XB",
         "RO",
         "RU",
         "RW",
@@ -239,6 +241,7 @@ public class LocalizedNamesImpl_jv extends LocalizedNamesImpl {
         "LC",
         "MF",
         "ST",
+        "NZ",
         "SN",
         "ES",
         "RS",
@@ -291,8 +294,6 @@ public class LocalizedNamesImpl_jv extends LocalizedNamesImpl {
         "WF",
         "IO",
         "TF",
-        "XA",
-        "XB",
         "YE",
         "JO",
         "EZ",
@@ -304,13 +305,13 @@ public class LocalizedNamesImpl_jv extends LocalizedNamesImpl {
     super.loadNameMapJava();
     namesMap.put("001", "Donya");
     namesMap.put("002", "Afrika");
-    namesMap.put("003", "Amérika Lèr");
+    namesMap.put("003", "Amérika Lor");
     namesMap.put("005", "Amérika Kidul");
     namesMap.put("009", "Oséania");
     namesMap.put("011", "Afrika Kulon");
     namesMap.put("013", "Amérika Tengah");
     namesMap.put("014", "Afrika Wétan");
-    namesMap.put("015", "Afrika Lèr");
+    namesMap.put("015", "Afrika Lor");
     namesMap.put("017", "Afrika Sisih Tengah");
     namesMap.put("018", "Afrika Sisih Kidul");
     namesMap.put("019", "Amérika");
@@ -326,7 +327,7 @@ public class LocalizedNamesImpl_jv extends LocalizedNamesImpl {
     namesMap.put("145", "Asia Kulon");
     namesMap.put("150", "Éropah");
     namesMap.put("151", "Éropah Wétan");
-    namesMap.put("154", "Éropah Lèr");
+    namesMap.put("154", "Éropah Lor");
     namesMap.put("155", "Éropah Kulon");
     namesMap.put("202", "Afrika Kidule Sahara");
     namesMap.put("419", "Amérika Latin");
@@ -402,14 +403,11 @@ public class LocalizedNamesImpl_jv extends LocalizedNamesImpl {
     namesMap.put("GE", "Géorgia");
     namesMap.put("GF", "Guyana Prancis");
     namesMap.put("GG", "Guernsei");
-    namesMap.put("GL", "Grinland");
-    namesMap.put("GN", "Gini");
     namesMap.put("GP", "Guadélup");
     namesMap.put("GQ", "Guinéa Katulistiwa");
     namesMap.put("GR", "Grikenlan");
     namesMap.put("GS", "Georgia Kidul lan Kapuloan Sandwich Kidul");
     namesMap.put("GT", "Guatémala");
-    namesMap.put("GW", "Gini-Bisau");
     namesMap.put("HK", "Laladan Administratif Astamiwa Hong Kong");
     namesMap.put("HM", "Kapuloan Heard lan McDonald");
     namesMap.put("HR", "Kroasia");
@@ -419,8 +417,8 @@ public class LocalizedNamesImpl_jv extends LocalizedNamesImpl {
     namesMap.put("IE", "Républik Irlan");
     namesMap.put("IL", "Israèl");
     namesMap.put("IM", "Pulo Man");
-    namesMap.put("IN", "Indhi");
-    namesMap.put("IO", "Wilayah Inggris nang Segoro Hindia");
+    namesMap.put("IN", "Indhia");
+    namesMap.put("IO", "Wilayah Inggris ing Segara Hindia");
     namesMap.put("IQ", "Irak");
     namesMap.put("IS", "Èslan");
     namesMap.put("IT", "Itali");
@@ -432,7 +430,7 @@ public class LocalizedNamesImpl_jv extends LocalizedNamesImpl {
     namesMap.put("KH", "Kamboja");
     namesMap.put("KM", "Komoro");
     namesMap.put("KN", "Saint Kits lan Nèvis");
-    namesMap.put("KP", "Koréa Lèr");
+    namesMap.put("KP", "Korea Lor");
     namesMap.put("KR", "Koréa Kidul");
     namesMap.put("KY", "Kapuloan Kéman");
     namesMap.put("KZ", "Kasakstan");
@@ -449,7 +447,7 @@ public class LocalizedNamesImpl_jv extends LocalizedNamesImpl {
     namesMap.put("MF", "Santa Martin");
     namesMap.put("MG", "Madagaskar");
     namesMap.put("MH", "Kapuloan Marshall");
-    namesMap.put("MK", "Makédonia");
+    namesMap.put("MK", "Républik Makédonia Lor");
     namesMap.put("MO", "Laladan Administratif Astamiwa Makau");
     namesMap.put("MP", "Kapuloan Mariana Lor");
     namesMap.put("MQ", "Martinik");
@@ -465,7 +463,7 @@ public class LocalizedNamesImpl_jv extends LocalizedNamesImpl {
     namesMap.put("NL", "Walanda");
     namesMap.put("NO", "Nurwègen");
     namesMap.put("NP", "Népal");
-    namesMap.put("NZ", "Niu Sélan");
+    namesMap.put("NZ", "Selandia Anyar");
     namesMap.put("PF", "Polinesia Prancis");
     namesMap.put("PG", "Papua Nugini");
     namesMap.put("PH", "Pilipina");
@@ -505,17 +503,19 @@ public class LocalizedNamesImpl_jv extends LocalizedNamesImpl {
     namesMap.put("TT", "Trinidad lan Tobago");
     namesMap.put("TZ", "Tansania");
     namesMap.put("UA", "Ukrania");
-    namesMap.put("UM", "Kapuloan A.S. Paling Njobo");
+    namesMap.put("UM", "Kapuloan AS Paling Njaba");
     namesMap.put("UN", "Pasarékatan Bangsa-Bangsa");
     namesMap.put("US", "Amérika Sarékat");
     namesMap.put("UZ", "Usbèkistan");
-    namesMap.put("VA", "Kutho Vatikan");
+    namesMap.put("VA", "Kutha Vatikan");
     namesMap.put("VC", "Saint Vinsen lan Grénadin");
     namesMap.put("VE", "Vénésuéla");
     namesMap.put("VG", "Kapuloan Virgin Britania");
     namesMap.put("VI", "Kapuloan Virgin Amérika");
     namesMap.put("VN", "Viètnam");
     namesMap.put("WF", "Wallis lan Futuna");
+    namesMap.put("XA", "Logat Semu");
+    namesMap.put("XB", "Rong Arah Semu");
     namesMap.put("YE", "Yaman");
     namesMap.put("ZA", "Afrika Kidul");
     namesMap.put("ZM", "Sambia");
@@ -532,13 +532,13 @@ public class LocalizedNamesImpl_jv extends LocalizedNamesImpl {
     return {
         "001": "Donya",
         "002": "Afrika",
-        "003": "Amérika Lèr",
+        "003": "Amérika Lor",
         "005": "Amérika Kidul",
         "009": "Oséania",
         "011": "Afrika Kulon",
         "013": "Amérika Tengah",
         "014": "Afrika Wétan",
-        "015": "Afrika Lèr",
+        "015": "Afrika Lor",
         "017": "Afrika Sisih Tengah",
         "018": "Afrika Sisih Kidul",
         "019": "Amérika",
@@ -554,7 +554,7 @@ public class LocalizedNamesImpl_jv extends LocalizedNamesImpl {
         "145": "Asia Kulon",
         "150": "Éropah",
         "151": "Éropah Wétan",
-        "154": "Éropah Lèr",
+        "154": "Éropah Lor",
         "155": "Éropah Kulon",
         "202": "Afrika Kidule Sahara",
         "419": "Amérika Latin",
@@ -630,14 +630,11 @@ public class LocalizedNamesImpl_jv extends LocalizedNamesImpl {
         "GE": "Géorgia",
         "GF": "Guyana Prancis",
         "GG": "Guernsei",
-        "GL": "Grinland",
-        "GN": "Gini",
         "GP": "Guadélup",
         "GQ": "Guinéa Katulistiwa",
         "GR": "Grikenlan",
         "GS": "Georgia Kidul lan Kapuloan Sandwich Kidul",
         "GT": "Guatémala",
-        "GW": "Gini-Bisau",
         "HK": "Laladan Administratif Astamiwa Hong Kong",
         "HM": "Kapuloan Heard lan McDonald",
         "HR": "Kroasia",
@@ -647,8 +644,8 @@ public class LocalizedNamesImpl_jv extends LocalizedNamesImpl {
         "IE": "Républik Irlan",
         "IL": "Israèl",
         "IM": "Pulo Man",
-        "IN": "Indhi",
-        "IO": "Wilayah Inggris nang Segoro Hindia",
+        "IN": "Indhia",
+        "IO": "Wilayah Inggris ing Segara Hindia",
         "IQ": "Irak",
         "IS": "Èslan",
         "IT": "Itali",
@@ -660,7 +657,7 @@ public class LocalizedNamesImpl_jv extends LocalizedNamesImpl {
         "KH": "Kamboja",
         "KM": "Komoro",
         "KN": "Saint Kits lan Nèvis",
-        "KP": "Koréa Lèr",
+        "KP": "Korea Lor",
         "KR": "Koréa Kidul",
         "KY": "Kapuloan Kéman",
         "KZ": "Kasakstan",
@@ -677,7 +674,7 @@ public class LocalizedNamesImpl_jv extends LocalizedNamesImpl {
         "MF": "Santa Martin",
         "MG": "Madagaskar",
         "MH": "Kapuloan Marshall",
-        "MK": "Makédonia",
+        "MK": "Républik Makédonia Lor",
         "MO": "Laladan Administratif Astamiwa Makau",
         "MP": "Kapuloan Mariana Lor",
         "MQ": "Martinik",
@@ -693,7 +690,7 @@ public class LocalizedNamesImpl_jv extends LocalizedNamesImpl {
         "NL": "Walanda",
         "NO": "Nurwègen",
         "NP": "Népal",
-        "NZ": "Niu Sélan",
+        "NZ": "Selandia Anyar",
         "PF": "Polinesia Prancis",
         "PG": "Papua Nugini",
         "PH": "Pilipina",
@@ -733,17 +730,19 @@ public class LocalizedNamesImpl_jv extends LocalizedNamesImpl {
         "TT": "Trinidad lan Tobago",
         "TZ": "Tansania",
         "UA": "Ukrania",
-        "UM": "Kapuloan A.S. Paling Njobo",
+        "UM": "Kapuloan AS Paling Njaba",
         "UN": "Pasarékatan Bangsa-Bangsa",
         "US": "Amérika Sarékat",
         "UZ": "Usbèkistan",
-        "VA": "Kutho Vatikan",
+        "VA": "Kutha Vatikan",
         "VC": "Saint Vinsen lan Grénadin",
         "VE": "Vénésuéla",
         "VG": "Kapuloan Virgin Britania",
         "VI": "Kapuloan Virgin Amérika",
         "VN": "Viètnam",
         "WF": "Wallis lan Futuna",
+        "XA": "Logat Semu",
+        "XB": "Rong Arah Semu",
         "YE": "Yaman",
         "ZA": "Afrika Kidul",
         "ZM": "Sambia",

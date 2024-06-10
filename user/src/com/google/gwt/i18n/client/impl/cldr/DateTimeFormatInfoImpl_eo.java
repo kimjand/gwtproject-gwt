@@ -31,7 +31,7 @@ public class DateTimeFormatInfoImpl_eo extends DateTimeFormatInfoImpl {
 
   @Override
   public String dateFormatFull() {
-    return "EEEE, d-'a' 'de' MMMM y";
+    return "EEEE, 'la' d-'a' 'de' MMMM y";
   }
 
   @Override
@@ -52,22 +52,22 @@ public class DateTimeFormatInfoImpl_eo extends DateTimeFormatInfoImpl {
   @Override
   public String[] erasFull() {
     return new String[] {
-        "aK",
-        "pK"
+        "antaŭ nia erao",
+        "de nia erao"
     };
   }
 
   @Override
   public String[] erasShort() {
     return new String[] {
-        "aK",
-        "pK"
+        "a.n.e.",
+        "n.e."
     };
   }
 
   @Override
   public String formatYearMonthAbbrevDay() {
-    return "y-MMM-d";
+    return "d MMM y";
   }
 
   @Override
@@ -78,62 +78,57 @@ public class DateTimeFormatInfoImpl_eo extends DateTimeFormatInfoImpl {
   @Override
   public String[] monthsFull() {
     return new String[] {
-        "januaro",
-        "februaro",
-        "marto",
-        "aprilo",
-        "majo",
-        "junio",
-        "julio",
-        "aŭgusto",
-        "septembro",
-        "oktobro",
-        "novembro",
-        "decembro"
+        "Januaro",
+        "Februaro",
+        "Marto",
+        "Aprilo",
+        "Majo",
+        "Junio",
+        "Julio",
+        "Aŭgusto",
+        "Septembro",
+        "Oktobro",
+        "Novembro",
+        "Decembro"
     };
   }
 
   @Override
   public String[] monthsShort() {
     return new String[] {
-        "jan",
-        "feb",
-        "mar",
-        "apr",
-        "maj",
-        "jun",
-        "jul",
-        "aŭg",
-        "sep",
-        "okt",
-        "nov",
-        "dec"
+        "Jan",
+        "Feb",
+        "Mar",
+        "Apr",
+        "Maj",
+        "Jun",
+        "Jul",
+        "Aŭg",
+        "Sep",
+        "Okt",
+        "Nov",
+        "Dec"
     };
   }
 
   @Override
   public String[] quartersFull() {
     return new String[] {
-        "1-a kvaronjaro",
-        "2-a kvaronjaro",
-        "3-a kvaronjaro",
-        "4-a kvaronjaro"
+        "1-a jarkvarono",
+        "2-a jarkvarono",
+        "3-a jarkvarono",
+        "4-a jarkvarono"
     };
   }
 
   @Override
   public String[] quartersShort() {
     return new String[] {
-        "K1",
-        "K2",
-        "K3",
-        "K4"
+        "1. jk.",
+        "2. jk.",
+        "3. jk.",
+        "4. jk."
     };
-  }
-
-  @Override
-  public String timeFormatFull() {
-    return "H-'a' 'horo' 'kaj' m:ss zzzz";
   }
 
   @Override
@@ -152,13 +147,13 @@ public class DateTimeFormatInfoImpl_eo extends DateTimeFormatInfoImpl {
   @Override
   public String[] weekdaysNarrow() {
     return new String[] {
-        "D",
-        "L",
-        "M",
-        "M",
-        "Ĵ",
-        "V",
-        "S"
+        "d",
+        "l",
+        "m",
+        "m",
+        "ĵ",
+        "v",
+        "s"
     };
   }
 

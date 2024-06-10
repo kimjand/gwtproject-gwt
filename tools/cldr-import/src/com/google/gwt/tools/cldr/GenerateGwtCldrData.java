@@ -18,7 +18,7 @@ package com.google.gwt.tools.cldr;
 import com.google.gwt.i18n.server.GwtLocaleFactoryImpl;
 import com.google.gwt.i18n.shared.GwtLocaleFactory;
 
-import com.ibm.icu.dev.tool.UOption;
+import com.ibm.icu.dev.tool.shared.UOption;
 
 import org.unicode.cldr.util.CLDRPaths;
 

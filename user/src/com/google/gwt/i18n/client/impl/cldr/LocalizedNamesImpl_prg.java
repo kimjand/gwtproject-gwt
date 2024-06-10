@@ -75,6 +75,7 @@ public class LocalizedNamesImpl_prg extends LocalizedNamesImpl {
         "CM",
         "CR",
         "CP",
+        "CQ",
         "CV",
         "CW",
         "CX",
@@ -164,13 +165,13 @@ public class LocalizedNamesImpl_prg extends LocalizedNamesImpl {
         "LU",
         "LY",
         "MA",
-        "MK",
         "MT",
         "MX",
         "MF",
         "MG",
         "MH",
         "DE",
+        "MK",
         "ML",
         "MM",
         "MN",
@@ -360,7 +361,6 @@ public class LocalizedNamesImpl_prg extends LocalizedNamesImpl {
     namesMap.put("MC", "Mōnakō");
     namesMap.put("MD", "Mōldawija");
     namesMap.put("ME", "Mōntenegran");
-    namesMap.put("MK", "Macedōnija");
     namesMap.put("MT", "Mālta");
     namesMap.put("MX", "Meksiku");
     namesMap.put("NI", "Nikarāgwa");
@@ -466,7 +466,6 @@ public class LocalizedNamesImpl_prg extends LocalizedNamesImpl {
         "MC": "Mōnakō",
         "MD": "Mōldawija",
         "ME": "Mōntenegran",
-        "MK": "Macedōnija",
         "MT": "Mālta",
         "MX": "Meksiku",
         "NI": "Nikarāgwa",

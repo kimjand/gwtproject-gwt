@@ -71,6 +71,7 @@ public class LocalizedNamesImpl_rof extends LocalizedNamesImpl {
         "CL",
         "CN",
         "CP",
+        "CQ",
         "CW",
         "CX",
         "DK",
@@ -163,13 +164,13 @@ public class LocalizedNamesImpl_rof extends LocalizedNamesImpl {
         "MT",
         "US",
         "MQ",
-        "MK",
         "YT",
         "ME",
         "MX",
         "MF",
         "FM",
         "EG",
+        "MK",
         "MO",
         "MV",
         "MD",
@@ -393,7 +394,6 @@ public class LocalizedNamesImpl_rof extends LocalizedNamesImpl {
     namesMap.put("MC", "Monako");
     namesMap.put("MG", "Bukini");
     namesMap.put("MH", "Visiwa vya Marshal");
-    namesMap.put("MK", "Masedonia");
     namesMap.put("MM", "Myama");
     namesMap.put("MP", "Visiwa vya Mariana vya Kaskazini");
     namesMap.put("MQ", "Martiniki");
@@ -571,7 +571,6 @@ public class LocalizedNamesImpl_rof extends LocalizedNamesImpl {
         "MC": "Monako",
         "MG": "Bukini",
         "MH": "Visiwa vya Marshal",
-        "MK": "Masedonia",
         "MM": "Myama",
         "MP": "Visiwa vya Mariana vya Kaskazini",
         "MQ": "Martiniki",

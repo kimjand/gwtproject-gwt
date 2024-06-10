@@ -85,6 +85,7 @@ public class LocalizedNamesImpl_pa_Arab extends LocalizedNamesImpl_pa {
         "CN",
         "CO",
         "CP",
+        "CQ",
         "CR",
         "CU",
         "CV",

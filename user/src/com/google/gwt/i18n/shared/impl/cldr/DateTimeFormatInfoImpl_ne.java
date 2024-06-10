@@ -66,11 +66,6 @@ public class DateTimeFormatInfoImpl_ne extends DateTimeFormatInfoImpl {
   }
 
   @Override
-  public String formatYearMonthNumDay() {
-    return "y-MM-dd";
-  }
-
-  @Override
   public String[] monthsFull() {
     return new String[] {
         "जनवरी",
@@ -145,20 +140,20 @@ public class DateTimeFormatInfoImpl_ne extends DateTimeFormatInfoImpl {
   @Override
   public String[] quartersFull() {
     return new String[] {
-        "पहिलो सत्र",
-        "दोस्रो सत्र",
-        "तेस्रो सत्र",
-        "चौथो सत्र"
+        "पहिलो त्रैमासिक",
+        "दोस्रो त्रैमासिक",
+        "तेस्रो त्रैमासिक",
+        "चौथो त्रैमासिक"
     };
   }
 
   @Override
   public String[] quartersShort() {
     return new String[] {
-        "पहिलो सत्र",
-        "दोस्रो सत्र",
-        "तेस्रो सत्र",
-        "चौथो सत्र"
+        "पहिलो त्रैमासिक",
+        "दोस्रो त्रैमासिक",
+        "तेस्रो त्रैमासिक",
+        "चौथो त्रैमासिक"
     };
   }
 

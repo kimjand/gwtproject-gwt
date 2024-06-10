@@ -24,19 +24,19 @@ public class DateTimeFormatInfoImpl_ca extends DateTimeFormatInfoImpl {
   @Override
   public String[] ampms() {
     return new String[] {
-        "a. m.",
-        "p. m."
+        "a. m.",
+        "p. m."
     };
   }
 
   @Override
   public String dateFormatFull() {
-    return "EEEE, d MMMM 'de' y";
+    return "EEEE, d MMMM 'del' y";
   }
 
   @Override
   public String dateFormatLong() {
-    return "d MMMM 'de' y";
+    return "d MMMM 'del' y";
   }
 
   @Override
@@ -51,12 +51,12 @@ public class DateTimeFormatInfoImpl_ca extends DateTimeFormatInfoImpl {
 
   @Override
   public String dateTimeFull(String timePattern, String datePattern) {
-    return datePattern + " 'a' 'les' " + timePattern;
+    return datePattern + ", " + timePattern;
   }
 
   @Override
   public String dateTimeLong(String timePattern, String datePattern) {
-    return datePattern + " 'a' 'les' " + timePattern;
+    return datePattern + ", " + timePattern;
   }
 
   @Override
@@ -78,6 +78,16 @@ public class DateTimeFormatInfoImpl_ca extends DateTimeFormatInfoImpl {
         "aC",
         "dC"
     };
+  }
+
+  @Override
+  public String formatHour12Minute() {
+    return "h:mm a";
+  }
+
+  @Override
+  public String formatHour12MinuteSecond() {
+    return "h:mm:ss a";
   }
 
   @Override
@@ -112,22 +122,22 @@ public class DateTimeFormatInfoImpl_ca extends DateTimeFormatInfoImpl {
 
   @Override
   public String formatYearMonthAbbrev() {
-    return "LLL 'de' y";
+    return "LLL 'del' y";
   }
 
   @Override
   public String formatYearMonthAbbrevDay() {
-    return "d MMM 'de' y";
+    return "d MMM 'del' y";
   }
 
   @Override
   public String formatYearMonthFull() {
-    return "LLLL 'de' y";
+    return "LLLL 'del' y";
   }
 
   @Override
   public String formatYearMonthFullDay() {
-    return "d MMMM 'de' y";
+    return "d MMMM 'del' y";
   }
 
   @Override
@@ -267,7 +277,7 @@ public class DateTimeFormatInfoImpl_ca extends DateTimeFormatInfoImpl {
 
   @Override
   public String timeFormatFull() {
-    return "H:mm:ss zzzz";
+    return "H:mm:ss (zzzz)";
   }
 
   @Override
@@ -301,13 +311,13 @@ public class DateTimeFormatInfoImpl_ca extends DateTimeFormatInfoImpl {
   @Override
   public String[] weekdaysNarrow() {
     return new String[] {
-        "dg",
-        "dl",
-        "dt",
-        "dc",
-        "dj",
-        "dv",
-        "ds"
+        "dg.",
+        "dl.",
+        "dt.",
+        "dc.",
+        "dj.",
+        "dv.",
+        "ds."
     };
   }
 

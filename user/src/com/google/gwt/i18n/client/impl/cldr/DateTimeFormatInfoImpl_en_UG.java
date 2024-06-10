@@ -40,4 +40,9 @@ public class DateTimeFormatInfoImpl_en_UG extends DateTimeFormatInfoImpl_en_001 
   public String timeFormatShort() {
     return "HH:mm";
   }
+
+  @Override
+  public int weekendStart() {
+    return 0;
+  }
 }

@@ -34,52 +34,36 @@ public class LocalizedNamesImpl_yo extends LocalizedNamesImpl {
   @Override
   public String[] loadSortedRegionCodes() {
     return new String[] {
-        "AC",
-        "AQ",
-        "AX",
-        "BL",
-        "BQ",
-        "BV",
-        "CC",
-        "CP",
-        "CW",
-        "CX",
-        "DG",
-        "EA",
-        "EH",
-        "EU",
-        "EZ",
-        "FO",
-        "GG",
-        "GS",
-        "SS",
-        "HK",
-        "HM",
-        "IC",
-        "VA",
-        "IM",
-        "JE",
-        "ME",
-        "MF",
-        "MO",
         "AD",
         "AO",
         "AI",
         "AG",
         "AF",
+        "PS",
+        "TF",
+        "HK",
+        "MO",
+        "QO",
+        "EZ",
         "AR",
         "IE",
         "AL",
         "DZ",
         "AM",
+        "US",
+        "AQ",
+        "EU",
         "CF",
-        "ZA",
         "KR",
+        "MK",
         "AW",
         "AZ",
         "IS",
         "AT",
         "AU",
+        "UM",
+        "AX",
+        "FO",
         "BB",
         "BS",
         "BD",
@@ -98,8 +82,11 @@ public class LocalizedNamesImpl_yo extends LocalizedNamesImpl {
         "BG",
         "BF",
         "BI",
+        "CQ",
+        "CW",
         "DK",
         "DJ",
+        "DG",
         "DM",
         "DO",
         "SV",
@@ -107,6 +94,13 @@ public class LocalizedNamesImpl_yo extends LocalizedNamesImpl {
         "EC",
         "GQ",
         "AE",
+        "AC",
+        "BV",
+        "CX",
+        "CP",
+        "CC",
+        "HM",
+        "IC",
         "ER",
         "EE",
         "VI",
@@ -135,7 +129,7 @@ public class LocalizedNamesImpl_yo extends LocalizedNamesImpl {
         "GP",
         "GM",
         "GH",
-        "DE",
+        "GB",
         "GD",
         "GN",
         "GW",
@@ -145,36 +139,51 @@ public class LocalizedNamesImpl_yo extends LocalizedNamesImpl {
         "GE",
         "GU",
         "GT",
+        "GG",
+        "ZA",
+        "GS",
         "KP",
+        "SS",
         "GY",
         "HT",
         "SH",
         "HN",
         "HU",
+        "XB",
         "TL",
+        "BL",
+        "MF",
+        "VA",
         "IN",
         "ID",
         "IQ",
         "IR",
         "IL",
+        "IM",
+        "UN",
+        "XA",
         "IT",
-        "PS",
+        "EH",
         "JM",
+        "DE",
         "JP",
+        "JE",
         "JO",
         "NC",
         "CM",
         "KH",
         "CA",
+        "BQ",
         "KZ",
         "KE",
         "KN",
         "KI",
         "CO",
         "KM",
-        "CD",
         "CG",
+        "CD",
         "HR",
+        "XK",
         "QA",
         "CI",
         "CU",
@@ -202,13 +211,13 @@ public class LocalizedNamesImpl_yo extends LocalizedNamesImpl {
         "MM",
         "MR",
         "MU",
-        "MK",
         "MQ",
         "YT",
         "MX",
         "MD",
         "MN",
         "MC",
+        "ME",
         "MA",
         "MZ",
         "MS",
@@ -223,9 +232,7 @@ public class LocalizedNamesImpl_yo extends LocalizedNamesImpl {
         "NO",
         "UY",
         "UZ",
-        "GB",
         "OM",
-        "US",
         "PW",
         "PG",
         "PK",
@@ -245,19 +252,24 @@ public class LocalizedNamesImpl_yo extends LocalizedNamesImpl {
         "CN",
         "ZM",
         "WS",
+        "AS",
         "SM",
         "ST",
         "SZ",
         "SA",
+        "RS",
         "CZ",
         "SN",
         "SC",
+        "EA",
+        "SJ",
         "NZ",
         "CL",
         "SK",
         "SI",
         "ZW",
         "SG",
+        "SX",
         "ES",
         "SY",
         "SL",
@@ -278,255 +290,286 @@ public class LocalizedNamesImpl_yo extends LocalizedNamesImpl {
         "TR",
         "TC",
         "TM",
+        "TA",
         "TV",
         "TN",
         "UG",
         "UA",
         "WF",
         "YE",
-        "QO",
-        "RS",
-        "AS",
-        "SJ",
-        "SX",
-        "TA",
-        "TF",
-        "UM",
-        "UN",
-        "XA",
-        "XB",
-        "XK",
     };
   }
 
   @Override
   protected void loadNameMapJava() {
     super.loadNameMapJava();
-    namesMap.put("AD", "Orílẹ́ède Ààndórà");
-    namesMap.put("AE", "Orílẹ́ède Ẹmirate ti Awọn Arabu");
-    namesMap.put("AF", "Orílẹ́ède Àfùgànístánì");
-    namesMap.put("AG", "Orílẹ́ède Ààntígúà àti Báríbúdà");
-    namesMap.put("AI", "Orílẹ́ède Ààngúlílà");
-    namesMap.put("AL", "Orílẹ́ède Àlùbàníánì");
-    namesMap.put("AM", "Orílẹ́ède Améníà");
-    namesMap.put("AO", "Orílẹ́ède Ààngólà");
-    namesMap.put("AR", "Orílẹ́ède Agentínà");
+    namesMap.put("001", "Agbáyé");
+    namesMap.put("002", "Áfíríkà");
+    namesMap.put("003", "Àríwá Amẹ́ríkà");
+    namesMap.put("005", "Gúúṣù Amẹ́ríkà");
+    namesMap.put("009", "Òsọ́ọ́níà");
+    namesMap.put("011", "Ìwọ̀ oorùn Afíríkà");
+    namesMap.put("013", "Ààrin Gbùgbùn Àmẹ́ríkà");
+    namesMap.put("014", "Ìlà Oorùn Áfíríkà");
+    namesMap.put("015", "Àríwá Afíríkà");
+    namesMap.put("017", "Ààrín gbùngbùn Afíríkà");
+    namesMap.put("018", "Apágúúsù Áfíríkà");
+    namesMap.put("019", "Amẹ́ríkà");
+    namesMap.put("021", "Apáàríwá Amẹ́ríkà");
+    namesMap.put("029", "Káríbíànù");
+    namesMap.put("030", "Ìlà Òòrùn Eṣíà");
+    namesMap.put("034", "Gúúṣù Eṣíà");
+    namesMap.put("035", "Gúúṣù ìlà òòrùn Éṣíà");
+    namesMap.put("039", "Gúúṣù Yúróòpù");
+    namesMap.put("053", "Ọṣirélaṣíà");
+    namesMap.put("054", "Mẹlanéṣíà");
+    namesMap.put("057", "Agbègbè Maikironéṣíà");
+    namesMap.put("061", "Polineṣíà");
+    namesMap.put("142", "Áṣíà");
+    namesMap.put("143", "Ààrin Gbùngbùn Éṣíà");
+    namesMap.put("145", "Ìwọ̀ Òòrùn Eṣíà");
+    namesMap.put("150", "Yúróòpù");
+    namesMap.put("151", "Ìlà Òrùn Yúrópù");
+    namesMap.put("154", "Àríwá Yúróòpù");
+    namesMap.put("155", "Ìwọ̀ Òòrùn Yúrópù");
+    namesMap.put("202", "Apá Sàhárà Áfíríkà");
+    namesMap.put("419", "Látín Amẹ́ríkà");
+    namesMap.put("AC", "Erékùsù Ascension");
+    namesMap.put("AD", "Ààndórà");
+    namesMap.put("AE", "Ẹmirate ti Awọn Arabu");
+    namesMap.put("AF", "Àfùgànístánì");
+    namesMap.put("AG", "Ààntígúà àti Báríbúdà");
+    namesMap.put("AI", "Ààngúlílà");
+    namesMap.put("AL", "Àlùbàníánì");
+    namesMap.put("AM", "Améníà");
+    namesMap.put("AO", "Ààngólà");
+    namesMap.put("AQ", "Antakítíkà");
+    namesMap.put("AR", "Agentínà");
     namesMap.put("AS", "Sámóánì ti Orílẹ́ède Àméríkà");
-    namesMap.put("AT", "Orílẹ́ède Asítíríà");
-    namesMap.put("AU", "Orílẹ́ède Ástràlìá");
-    namesMap.put("AW", "Orílẹ́ède Árúbà");
-    namesMap.put("AZ", "Orílẹ́ède Asẹ́bájánì");
-    namesMap.put("BA", "Orílẹ́ède Bọ̀síníà àti Ẹtisẹgófínà");
-    namesMap.put("BB", "Orílẹ́ède Bábádósì");
-    namesMap.put("BD", "Orílẹ́ède Bángáládésì");
-    namesMap.put("BE", "Orílẹ́ède Bégíọ́mù");
-    namesMap.put("BF", "Orílẹ́ède Bùùkíná Fasò");
-    namesMap.put("BG", "Orílẹ́ède Bùùgáríà");
-    namesMap.put("BH", "Orílẹ́ède Báránì");
-    namesMap.put("BI", "Orílẹ́ède Bùùrúndì");
-    namesMap.put("BJ", "Orílẹ́ède Bẹ̀nẹ̀");
-    namesMap.put("BM", "Orílẹ́ède Bémúdà");
-    namesMap.put("BN", "Orílẹ́ède Búrúnẹ́lì");
-    namesMap.put("BO", "Orílẹ́ède Bọ̀lífíyà");
-    namesMap.put("BR", "Orílẹ́ède Bàràsílì");
-    namesMap.put("BS", "Orílẹ́ède Bàhámásì");
-    namesMap.put("BT", "Orílẹ́ède Bútánì");
-    namesMap.put("BW", "Orílẹ́ède Bọ̀tìsúwánà");
-    namesMap.put("BY", "Orílẹ́ède Bélárúsì");
-    namesMap.put("BZ", "Orílẹ́ède Bèlísẹ̀");
-    namesMap.put("CA", "Orílẹ́ède Kánádà");
-    namesMap.put("CD", "Orilẹ́ède Kóngò");
-    namesMap.put("CF", "Orílẹ́ède Àrin gùngun Áfíríkà");
-    namesMap.put("CG", "Orílẹ́ède Kóngò");
-    namesMap.put("CH", "Orílẹ́ède switiṣilandi");
-    namesMap.put("CI", "Orílẹ́ède Kóútè forà");
-    namesMap.put("CK", "Orílẹ́ède Etíokun Kùúkù");
-    namesMap.put("CL", "Orílẹ́ède ṣílè");
-    namesMap.put("CM", "Orílẹ́ède Kamerúúnì");
-    namesMap.put("CN", "Orílẹ́ède ṣáínà");
-    namesMap.put("CO", "Orílẹ́ède Kòlómíbìa");
-    namesMap.put("CR", "Orílẹ́ède Kuusita Ríkà");
-    namesMap.put("CU", "Orílẹ́ède Kúbà");
-    namesMap.put("CV", "Orílẹ́ède Etíokun Kápé féndè");
-    namesMap.put("CY", "Orílẹ́ède Kúrúsì");
-    namesMap.put("CZ", "Orílẹ́ède ṣẹ́ẹ́kì");
-    namesMap.put("DE", "Orílẹ́ède Gemani");
-    namesMap.put("DJ", "Orílẹ́ède Díbọ́ótì");
-    namesMap.put("DK", "Orílẹ́ède Dẹ́mákì");
-    namesMap.put("DM", "Orílẹ́ède Dòmíníkà");
-    namesMap.put("DO", "Orilẹ́ède Dòmíníkánì");
-    namesMap.put("DZ", "Orílẹ́ède Àlùgèríánì");
-    namesMap.put("EC", "Orílẹ́ède Ekuádò");
-    namesMap.put("EE", "Orílẹ́ède Esitonia");
-    namesMap.put("EG", "Orílẹ́ède Égípítì");
-    namesMap.put("ER", "Orílẹ́ède Eritira");
-    namesMap.put("ES", "Orílẹ́ède Sipani");
-    namesMap.put("ET", "Orílẹ́ède Etopia");
-    namesMap.put("FI", "Orílẹ́ède Filandi");
-    namesMap.put("FJ", "Orílẹ́ède Fiji");
-    namesMap.put("FK", "Orílẹ́ède Etikun Fakalandi");
-    namesMap.put("FM", "Orílẹ́ède Makoronesia");
-    namesMap.put("FR", "Orílẹ́ède Faranse");
-    namesMap.put("GA", "Orílẹ́ède Gabon");
-    namesMap.put("GB", "Orílẹ́ède Omobabirin");
-    namesMap.put("GD", "Orílẹ́ède Genada");
-    namesMap.put("GE", "Orílẹ́ède Gọgia");
-    namesMap.put("GF", "Orílẹ́ède Firenṣi Guana");
-    namesMap.put("GH", "Orílẹ́ède Gana");
-    namesMap.put("GI", "Orílẹ́ède Gibaratara");
-    namesMap.put("GL", "Orílẹ́ède Gerelandi");
-    namesMap.put("GM", "Orílẹ́ède Gambia");
-    namesMap.put("GN", "Orílẹ́ède Gene");
-    namesMap.put("GP", "Orílẹ́ède Gadelope");
-    namesMap.put("GQ", "Orílẹ́ède Ekutoria Gini");
-    namesMap.put("GR", "Orílẹ́ède Geriisi");
-    namesMap.put("GT", "Orílẹ́ède Guatemala");
-    namesMap.put("GU", "Orílẹ́ède Guamu");
-    namesMap.put("GW", "Orílẹ́ède Gene-Busau");
-    namesMap.put("GY", "Orílẹ́ède Guyana");
-    namesMap.put("HN", "Orílẹ́ède Hondurasi");
-    namesMap.put("HR", "Orílẹ́ède Kòróátíà");
-    namesMap.put("HT", "Orílẹ́ède Haati");
-    namesMap.put("HU", "Orílẹ́ède Hungari");
-    namesMap.put("ID", "Orílẹ́ède Indonesia");
-    namesMap.put("IE", "Orílẹ́ède Ailandi");
-    namesMap.put("IL", "Orílẹ́ède Iserẹli");
-    namesMap.put("IN", "Orílẹ́ède India");
-    namesMap.put("IO", "Orílẹ́ède Etíkun Índíánì ti Ìlú Bírítísì");
-    namesMap.put("IQ", "Orílẹ́ède Iraki");
-    namesMap.put("IR", "Orílẹ́ède Irani");
-    namesMap.put("IS", "Orílẹ́ède Aṣilandi");
-    namesMap.put("IT", "Orílẹ́ède Italiyi");
-    namesMap.put("JM", "Orílẹ́ède Jamaika");
-    namesMap.put("JO", "Orílẹ́ède Jọdani");
-    namesMap.put("JP", "Orílẹ́ède Japani");
-    namesMap.put("KE", "Orílẹ́ède Kenya");
-    namesMap.put("KG", "Orílẹ́ède Kuriṣisitani");
-    namesMap.put("KH", "Orílẹ́ède Kàmùbódíà");
-    namesMap.put("KI", "Orílẹ́ède Kiribati");
-    namesMap.put("KM", "Orílẹ́ède Kòmòrósì");
-    namesMap.put("KN", "Orílẹ́ède Kiiti ati Neefi");
-    namesMap.put("KP", "Orílẹ́ède Guusu Kọria");
-    namesMap.put("KR", "Orílẹ́ède Ariwa Kọria");
-    namesMap.put("KW", "Orílẹ́ède Kuweti");
-    namesMap.put("KY", "Orílẹ́ède Etíokun Kámánì");
-    namesMap.put("KZ", "Orílẹ́ède Kaṣaṣatani");
-    namesMap.put("LA", "Orílẹ́ède Laosi");
-    namesMap.put("LB", "Orílẹ́ède Lebanoni");
-    namesMap.put("LC", "Orílẹ́ède Luṣia");
-    namesMap.put("LI", "Orílẹ́ède Lẹṣitẹnisiteni");
-    namesMap.put("LK", "Orílẹ́ède Siri Lanka");
-    namesMap.put("LR", "Orílẹ́ède Laberia");
-    namesMap.put("LS", "Orílẹ́ède Lesoto");
-    namesMap.put("LT", "Orílẹ́ède Lituania");
-    namesMap.put("LU", "Orílẹ́ède Lusemogi");
-    namesMap.put("LV", "Orílẹ́ède Latifia");
-    namesMap.put("LY", "Orílẹ́ède Libiya");
-    namesMap.put("MA", "Orílẹ́ède Moroko");
-    namesMap.put("MC", "Orílẹ́ède Monako");
-    namesMap.put("MD", "Orílẹ́ède Modofia");
-    namesMap.put("MG", "Orílẹ́ède Madasika");
-    namesMap.put("MH", "Orílẹ́ède Etikun Máṣali");
-    namesMap.put("MK", "Orílẹ́ède Masidonia");
-    namesMap.put("ML", "Orílẹ́ède Mali");
-    namesMap.put("MM", "Orílẹ́ède Manamari");
-    namesMap.put("MN", "Orílẹ́ède Mogolia");
-    namesMap.put("MP", "Orílẹ́ède Etikun Guusu Mariana");
-    namesMap.put("MQ", "Orílẹ́ède Matinikuwi");
-    namesMap.put("MR", "Orílẹ́ède Maritania");
-    namesMap.put("MS", "Orílẹ́ède Motserati");
-    namesMap.put("MT", "Orílẹ́ède Malata");
-    namesMap.put("MU", "Orílẹ́ède Maritiusi");
-    namesMap.put("MV", "Orílẹ́ède Maladifi");
-    namesMap.put("MW", "Orílẹ́ède Malawi");
-    namesMap.put("MX", "Orílẹ́ède Mesiko");
-    namesMap.put("MY", "Orílẹ́ède Malasia");
-    namesMap.put("MZ", "Orílẹ́ède Moṣamibiku");
-    namesMap.put("NA", "Orílẹ́ède Namibia");
-    namesMap.put("NC", "Orílẹ́ède Kaledonia Titun");
-    namesMap.put("NE", "Orílẹ́ède Nàìjá");
-    namesMap.put("NF", "Orílẹ́ède Etikun Nọ́úfókì");
-    namesMap.put("NG", "Orílẹ́ède Nàìjíríà");
-    namesMap.put("NI", "Orílẹ́ède NIkaragua");
-    namesMap.put("NL", "Orílẹ́ède Nedalandi");
-    namesMap.put("NO", "Orílẹ́ède Nọọwii");
-    namesMap.put("NP", "Orílẹ́ède Nepa");
-    namesMap.put("NR", "Orílẹ́ède Nauru");
-    namesMap.put("NU", "Orílẹ́ède Niue");
-    namesMap.put("NZ", "Orílẹ́ède ṣilandi Titun");
-    namesMap.put("OM", "Orílẹ́ède Ọọma");
-    namesMap.put("PA", "Orílẹ́ède Panama");
-    namesMap.put("PE", "Orílẹ́ède Peru");
-    namesMap.put("PF", "Orílẹ́ède Firenṣi Polinesia");
-    namesMap.put("PG", "Orílẹ́ède Paapu ti Giini");
-    namesMap.put("PH", "Orílẹ́ède filipini");
-    namesMap.put("PK", "Orílẹ́ède Pakisitan");
-    namesMap.put("PL", "Orílẹ́ède Polandi");
-    namesMap.put("PM", "Orílẹ́ède Pẹẹri ati mikuloni");
-    namesMap.put("PN", "Orílẹ́ède Pikarini");
-    namesMap.put("PR", "Orílẹ́ède Pọto Riko");
-    namesMap.put("PS", "Orílẹ́ède Iwọorun Pakisitian ati Gaṣa");
-    namesMap.put("PT", "Orílẹ́ède Pọtugi");
-    namesMap.put("PW", "Orílẹ́ède Paalu");
-    namesMap.put("PY", "Orílẹ́ède Paraguye");
-    namesMap.put("QA", "Orílẹ́ède Kota");
-    namesMap.put("RE", "Orílẹ́ède Riuniyan");
-    namesMap.put("RO", "Orílẹ́ède Romaniya");
-    namesMap.put("RU", "Orílẹ́ède Rọṣia");
-    namesMap.put("RW", "Orílẹ́ède Ruwanda");
-    namesMap.put("SA", "Orílẹ́ède Saudi Arabia");
-    namesMap.put("SB", "Orílẹ́ède Etikun Solomoni");
-    namesMap.put("SC", "Orílẹ́ède seṣẹlẹsi");
-    namesMap.put("SD", "Orílẹ́ède Sudani");
-    namesMap.put("SE", "Orílẹ́ède Swidini");
-    namesMap.put("SG", "Orílẹ́ède Singapo");
-    namesMap.put("SH", "Orílẹ́ède Hẹlena");
-    namesMap.put("SI", "Orílẹ́ède Silofania");
-    namesMap.put("SK", "Orílẹ́ède Silofakia");
-    namesMap.put("SL", "Orílẹ́ède Siria looni");
-    namesMap.put("SM", "Orílẹ́ède Sani Marino");
-    namesMap.put("SN", "Orílẹ́ède Sẹnẹga");
-    namesMap.put("SO", "Orílẹ́ède Somalia");
-    namesMap.put("SR", "Orílẹ́ède Surinami");
+    namesMap.put("AT", "Asítíríà");
+    namesMap.put("AU", "Ástràlìá");
+    namesMap.put("AW", "Árúbà");
+    namesMap.put("AX", "Àwọn Erékùsù ti Åland");
+    namesMap.put("AZ", "Asẹ́bájánì");
+    namesMap.put("BA", "Bọ̀síníà àti Ẹtisẹgófínà");
+    namesMap.put("BB", "Bábádósì");
+    namesMap.put("BD", "Bángáládésì");
+    namesMap.put("BE", "Bégíọ́mù");
+    namesMap.put("BF", "Bùùkíná Fasò");
+    namesMap.put("BG", "Bùùgáríà");
+    namesMap.put("BH", "Báránì");
+    namesMap.put("BI", "Bùùrúndì");
+    namesMap.put("BJ", "Bẹ̀nẹ̀");
+    namesMap.put("BL", "Ìlú Bátílẹ́mì");
+    namesMap.put("BM", "Bémúdà");
+    namesMap.put("BN", "Búrúnẹ́lì");
+    namesMap.put("BO", "Bọ̀lífíyà");
+    namesMap.put("BQ", "Kàríbíánì ti Nẹ́dálándì");
+    namesMap.put("BR", "Bàràsílì");
+    namesMap.put("BS", "Bàhámásì");
+    namesMap.put("BT", "Bútánì");
+    namesMap.put("BV", "Erékùsù Bouvet");
+    namesMap.put("BW", "Bọ̀tìsúwánà");
+    namesMap.put("BY", "Bélárúsì");
+    namesMap.put("BZ", "Bèlísẹ̀");
+    namesMap.put("CA", "Kánádà");
+    namesMap.put("CC", "Erékùsù Cocos (Keeling)");
+    namesMap.put("CD", "Kóńgò – Kinshasa");
+    namesMap.put("CF", "Àrin gùngun Áfíríkà");
+    namesMap.put("CG", "Kóńgò – Brazaville");
+    namesMap.put("CH", "switiṣilandi");
+    namesMap.put("CI", "Kóútè forà");
+    namesMap.put("CK", "Etíokun Kùúkù");
+    namesMap.put("CL", "Ṣílè");
+    namesMap.put("CM", "Kamerúúnì");
+    namesMap.put("CN", "Ṣáínà");
+    namesMap.put("CO", "Kòlómíbìa");
+    namesMap.put("CP", "Erékùsù Clipperston");
+    namesMap.put("CR", "Kuusita Ríkà");
+    namesMap.put("CU", "Kúbà");
+    namesMap.put("CV", "Etíokun Kápé féndè");
+    namesMap.put("CX", "Erékùsù Christmas");
+    namesMap.put("CY", "Kúrúsì");
+    namesMap.put("CZ", "Ṣẹ́ẹ́kì");
+    namesMap.put("DE", "Jámánì");
+    namesMap.put("DG", "Diego Gaṣia");
+    namesMap.put("DJ", "Díbọ́ótì");
+    namesMap.put("DK", "Dẹ́mákì");
+    namesMap.put("DM", "Dòmíníkà");
+    namesMap.put("DO", "Dòmíníkánì");
+    namesMap.put("DZ", "Àlùgèríánì");
+    namesMap.put("EA", "Seuta àti Melilla");
+    namesMap.put("EC", "Ekuádò");
+    namesMap.put("EE", "Esitonia");
+    namesMap.put("EG", "Égípítì");
+    namesMap.put("EH", "Ìwọ̀òòrùn Sàhárà");
+    namesMap.put("ER", "Eritira");
+    namesMap.put("ES", "Sipani");
+    namesMap.put("ET", "Etopia");
+    namesMap.put("EU", "Àpapọ̀ Yúróòpù");
+    namesMap.put("EZ", "Agbègbè Yúrò");
+    namesMap.put("FI", "Filandi");
+    namesMap.put("FK", "Etikun Fakalandi");
+    namesMap.put("FM", "Makoronesia");
+    namesMap.put("FO", "Àwọn Erékùsù ti Faroe");
+    namesMap.put("FR", "Faranse");
+    namesMap.put("GB", "Gẹ̀ẹ́sì");
+    namesMap.put("GD", "Genada");
+    namesMap.put("GE", "Gọgia");
+    namesMap.put("GF", "Firenṣi Guana");
+    namesMap.put("GH", "Gana");
+    namesMap.put("GI", "Gibaratara");
+    namesMap.put("GL", "Gerelandi");
+    namesMap.put("GN", "Gene");
+    namesMap.put("GP", "Gadelope");
+    namesMap.put("GQ", "Ekutoria Gini");
+    namesMap.put("GR", "Geriisi");
+    namesMap.put("GS", "Gúúsù Georgia àti Gúúsù Àwọn Erékùsù Sandwich");
+    namesMap.put("GU", "Guamu");
+    namesMap.put("GW", "Gene-Busau");
+    namesMap.put("HK", "Agbègbè Ìṣàkóso Ìṣúná Hong Kong Tí Ṣánà Ń Darí");
+    namesMap.put("HM", "Erékùsù Heard àti Erékùsù McDonald");
+    namesMap.put("HN", "Hondurasi");
+    namesMap.put("HR", "Kòróátíà");
+    namesMap.put("HT", "Haati");
+    namesMap.put("HU", "Hungari");
+    namesMap.put("IC", "Ẹrékùsù Kánárì");
+    namesMap.put("IE", "Ailandi");
+    namesMap.put("IL", "Iserẹli");
+    namesMap.put("IO", "Etíkun Índíánì ti Ìlú Bírítísì");
+    namesMap.put("IQ", "Iraki");
+    namesMap.put("IR", "Irani");
+    namesMap.put("IS", "Aṣilandi");
+    namesMap.put("IT", "Itáli");
+    namesMap.put("JM", "Jamaika");
+    namesMap.put("JO", "Jọdani");
+    namesMap.put("JP", "Japani");
+    namesMap.put("KG", "Kuriṣisitani");
+    namesMap.put("KH", "Kàmùbódíà");
+    namesMap.put("KM", "Kòmòrósì");
+    namesMap.put("KN", "Kiiti ati Neefi");
+    namesMap.put("KP", "Guusu Kọria");
+    namesMap.put("KR", "Ariwa Kọria");
+    namesMap.put("KW", "Kuweti");
+    namesMap.put("KY", "Etíokun Kámánì");
+    namesMap.put("KZ", "Kaṣaṣatani");
+    namesMap.put("LA", "Laosi");
+    namesMap.put("LB", "Lebanoni");
+    namesMap.put("LC", "Luṣia");
+    namesMap.put("LI", "Lẹṣitẹnisiteni");
+    namesMap.put("LK", "Siri Lanka");
+    namesMap.put("LR", "Laberia");
+    namesMap.put("LS", "Lesoto");
+    namesMap.put("LT", "Lituania");
+    namesMap.put("LU", "Lusemogi");
+    namesMap.put("LV", "Latifia");
+    namesMap.put("LY", "Libiya");
+    namesMap.put("MA", "Moroko");
+    namesMap.put("MC", "Monako");
+    namesMap.put("MD", "Modofia");
+    namesMap.put("MF", "Ìlú Màtìnì");
+    namesMap.put("MG", "Madasika");
+    namesMap.put("MH", "Etikun Máṣali");
+    namesMap.put("MK", "Àríwá Macedonia");
+    namesMap.put("MM", "Manamari");
+    namesMap.put("MN", "Mogolia");
+    namesMap.put("MO", "Agbègbè Ìṣàkóso Pàtàkì Macao");
+    namesMap.put("MP", "Etikun Guusu Mariana");
+    namesMap.put("MQ", "Matinikuwi");
+    namesMap.put("MR", "Maritania");
+    namesMap.put("MS", "Motserati");
+    namesMap.put("MT", "Malata");
+    namesMap.put("MU", "Maritiusi");
+    namesMap.put("MV", "Maladifi");
+    namesMap.put("MX", "Mesiko");
+    namesMap.put("MY", "Malasia");
+    namesMap.put("MZ", "Moṣamibiku");
+    namesMap.put("NC", "Kaledonia Titun");
+    namesMap.put("NE", "Nàìjá");
+    namesMap.put("NF", "Etikun Nọ́úfókì");
+    namesMap.put("NG", "Nàìjíríà");
+    namesMap.put("NI", "Nikaragua");
+    namesMap.put("NL", "Nedalandi");
+    namesMap.put("NO", "Nọọwii");
+    namesMap.put("NP", "Nepa");
+    namesMap.put("NZ", "Ṣilandi Titun");
+    namesMap.put("OM", "Ọọma");
+    namesMap.put("PF", "Firenṣi Polinesia");
+    namesMap.put("PG", "Paapu ti Giini");
+    namesMap.put("PH", "Filipini");
+    namesMap.put("PK", "Pakisitan");
+    namesMap.put("PL", "Polandi");
+    namesMap.put("PM", "Pẹẹri ati mikuloni");
+    namesMap.put("PN", "Pikarini");
+    namesMap.put("PR", "Pọto Riko");
+    namesMap.put("PS", "Agbègbè ara Palẹsítínì");
+    namesMap.put("PT", "Pọ́túgà");
+    namesMap.put("PW", "Paalu");
+    namesMap.put("PY", "Paraguye");
+    namesMap.put("QA", "Kota");
+    namesMap.put("QO", "Agbègbè Òṣọ́ọ́níà");
+    namesMap.put("RE", "Riuniyan");
+    namesMap.put("RO", "Romaniya");
+    namesMap.put("RS", "Sẹ́bíà");
+    namesMap.put("RU", "Rọṣia");
+    namesMap.put("RW", "Ruwanda");
+    namesMap.put("SB", "Etikun Solomoni");
+    namesMap.put("SC", "Ṣeṣẹlẹsi");
+    namesMap.put("SD", "Sudani");
+    namesMap.put("SE", "Swidini");
+    namesMap.put("SG", "Singapo");
+    namesMap.put("SH", "Hẹlena");
+    namesMap.put("SI", "Silofania");
+    namesMap.put("SJ", "Sífábáàdì àti Jánì Máyẹ̀nì");
+    namesMap.put("SK", "Silofakia");
+    namesMap.put("SL", "Siria looni");
+    namesMap.put("SM", "Sani Marino");
+    namesMap.put("SN", "Sẹnẹga");
+    namesMap.put("SR", "Surinami");
     namesMap.put("SS", "Gúúsù Sudan");
-    namesMap.put("ST", "Orílẹ́ède Sao tomi ati piriiṣipi");
-    namesMap.put("SV", "Orílẹ́ède Ẹẹsáfádò");
-    namesMap.put("SY", "Orílẹ́ède Siria");
-    namesMap.put("SZ", "Orílẹ́ède Saṣiland");
-    namesMap.put("TC", "Orílẹ́ède Tọọki ati Etikun Kakọsi");
-    namesMap.put("TD", "Orílẹ́ède ṣààdì");
-    namesMap.put("TG", "Orílẹ́ède Togo");
-    namesMap.put("TH", "Orílẹ́ède Tailandi");
-    namesMap.put("TJ", "Orílẹ́ède Takisitani");
-    namesMap.put("TK", "Orílẹ́ède Tokelau");
-    namesMap.put("TL", "Orílẹ́ède ÌlàOòrùn Tímọ̀");
-    namesMap.put("TM", "Orílẹ́ède Tọọkimenisita");
-    namesMap.put("TN", "Orílẹ́ède Tuniṣia");
-    namesMap.put("TO", "Orílẹ́ède Tonga");
-    namesMap.put("TR", "Orílẹ́ède Tọọki");
-    namesMap.put("TT", "Orílẹ́ède Tirinida ati Tobaga");
-    namesMap.put("TV", "Orílẹ́ède Tufalu");
-    namesMap.put("TW", "Orílẹ́ède Taiwani");
-    namesMap.put("TZ", "Orílẹ́ède Tanṣania");
-    namesMap.put("UA", "Orílẹ́ède Ukarini");
-    namesMap.put("UG", "Orílẹ́ède Uganda");
-    namesMap.put("US", "Orílẹ́ède Orilẹede Amerika");
-    namesMap.put("UY", "Orílẹ́ède Nruguayi");
-    namesMap.put("UZ", "Orílẹ́ède Nṣibẹkisitani");
+    namesMap.put("ST", "Sao tomi ati piriiṣipi");
+    namesMap.put("SV", "Ẹẹsáfádò");
+    namesMap.put("SX", "Síntì Mátẹ́ẹ̀nì");
+    namesMap.put("SY", "Siria");
+    namesMap.put("SZ", "Saṣiland");
+    namesMap.put("TA", "Tristan da Kunha");
+    namesMap.put("TC", "Tọọki ati Etikun Kakọsi");
+    namesMap.put("TD", "Ṣààdì");
+    namesMap.put("TF", "Agbègbè Gúúsù Faranṣé");
+    namesMap.put("TH", "Tailandi");
+    namesMap.put("TJ", "Takisitani");
+    namesMap.put("TL", "ÌlàOòrùn Tímọ̀");
+    namesMap.put("TM", "Tọọkimenisita");
+    namesMap.put("TN", "Tuniṣia");
+    namesMap.put("TR", "Tọọki");
+    namesMap.put("TT", "Tirinida ati Tobaga");
+    namesMap.put("TV", "Tufalu");
+    namesMap.put("TW", "Taiwani");
+    namesMap.put("TZ", "Tàǹsáníà");
+    namesMap.put("UA", "Ukarini");
+    namesMap.put("UM", "Àwọn Erékùsù Kékèké Agbègbè US");
+    namesMap.put("UN", "Ìṣọ̀kan àgbáyé");
+    namesMap.put("US", "Amẹrikà");
+    namesMap.put("UY", "Nruguayi");
+    namesMap.put("UZ", "Nṣibẹkisitani");
     namesMap.put("VA", "Ìlú Vatican");
-    namesMap.put("VC", "Orílẹ́ède Fisẹnnti ati Genadina");
-    namesMap.put("VE", "Orílẹ́ède Fẹnẹṣuẹla");
-    namesMap.put("VG", "Orílẹ́ède Etíkun Fágínì ti ìlú Bírítísì");
-    namesMap.put("VI", "Orílẹ́ède Etikun Fagini ti Amẹrika");
-    namesMap.put("VN", "Orílẹ́ède Fẹtinami");
-    namesMap.put("VU", "Orílẹ́ède Faniatu");
-    namesMap.put("WF", "Orílẹ́ède Wali ati futuna");
-    namesMap.put("WS", "Orílẹ́ède Samọ");
-    namesMap.put("YE", "Orílẹ́ède yemeni");
-    namesMap.put("YT", "Orílẹ́ède Mayote");
-    namesMap.put("ZA", "Orílẹ́ède Ariwa Afirika");
-    namesMap.put("ZM", "Orílẹ́ède ṣamibia");
-    namesMap.put("ZW", "Orílẹ́ède ṣimibabe");
+    namesMap.put("VC", "Fisẹnnti ati Genadina");
+    namesMap.put("VE", "Fẹnẹṣuẹla");
+    namesMap.put("VG", "Etíkun Fágínì ti ìlú Bírítísì");
+    namesMap.put("VI", "Etikun Fagini ti Amẹrika");
+    namesMap.put("VN", "Fẹtinami");
+    namesMap.put("VU", "Faniatu");
+    namesMap.put("WF", "Wali ati futuna");
+    namesMap.put("WS", "Samọ");
+    namesMap.put("XA", "ìsọ̀rọ̀sí irọ́");
+    namesMap.put("XB", "ibi irọ́");
+    namesMap.put("XK", "Kòsófò");
+    namesMap.put("YE", "Yemeni");
+    namesMap.put("YT", "Mayote");
+    namesMap.put("ZA", "Gúúṣù Áfíríkà");
+    namesMap.put("ZM", "Ṣamibia");
+    namesMap.put("ZW", "Ṣimibabe");
+    namesMap.put("ZZ", "Àgbègbè àìmọ̀");
   }
 
   @Override
@@ -536,231 +579,273 @@ public class LocalizedNamesImpl_yo extends LocalizedNamesImpl {
 
   private native JavaScriptObject loadMyNameMap() /*-{
     return {
-        "AD": "Orílẹ́ède Ààndórà",
-        "AE": "Orílẹ́ède Ẹmirate ti Awọn Arabu",
-        "AF": "Orílẹ́ède Àfùgànístánì",
-        "AG": "Orílẹ́ède Ààntígúà àti Báríbúdà",
-        "AI": "Orílẹ́ède Ààngúlílà",
-        "AL": "Orílẹ́ède Àlùbàníánì",
-        "AM": "Orílẹ́ède Améníà",
-        "AO": "Orílẹ́ède Ààngólà",
-        "AR": "Orílẹ́ède Agentínà",
+        "001": "Agbáyé",
+        "002": "Áfíríkà",
+        "003": "Àríwá Amẹ́ríkà",
+        "005": "Gúúṣù Amẹ́ríkà",
+        "009": "Òsọ́ọ́níà",
+        "011": "Ìwọ̀ oorùn Afíríkà",
+        "013": "Ààrin Gbùgbùn Àmẹ́ríkà",
+        "014": "Ìlà Oorùn Áfíríkà",
+        "015": "Àríwá Afíríkà",
+        "017": "Ààrín gbùngbùn Afíríkà",
+        "018": "Apágúúsù Áfíríkà",
+        "019": "Amẹ́ríkà",
+        "021": "Apáàríwá Amẹ́ríkà",
+        "029": "Káríbíànù",
+        "030": "Ìlà Òòrùn Eṣíà",
+        "034": "Gúúṣù Eṣíà",
+        "035": "Gúúṣù ìlà òòrùn Éṣíà",
+        "039": "Gúúṣù Yúróòpù",
+        "053": "Ọṣirélaṣíà",
+        "054": "Mẹlanéṣíà",
+        "057": "Agbègbè Maikironéṣíà",
+        "061": "Polineṣíà",
+        "142": "Áṣíà",
+        "143": "Ààrin Gbùngbùn Éṣíà",
+        "145": "Ìwọ̀ Òòrùn Eṣíà",
+        "150": "Yúróòpù",
+        "151": "Ìlà Òrùn Yúrópù",
+        "154": "Àríwá Yúróòpù",
+        "155": "Ìwọ̀ Òòrùn Yúrópù",
+        "202": "Apá Sàhárà Áfíríkà",
+        "419": "Látín Amẹ́ríkà",
+        "AC": "Erékùsù Ascension",
+        "AD": "Ààndórà",
+        "AE": "Ẹmirate ti Awọn Arabu",
+        "AF": "Àfùgànístánì",
+        "AG": "Ààntígúà àti Báríbúdà",
+        "AI": "Ààngúlílà",
+        "AL": "Àlùbàníánì",
+        "AM": "Améníà",
+        "AO": "Ààngólà",
+        "AQ": "Antakítíkà",
+        "AR": "Agentínà",
         "AS": "Sámóánì ti Orílẹ́ède Àméríkà",
-        "AT": "Orílẹ́ède Asítíríà",
-        "AU": "Orílẹ́ède Ástràlìá",
-        "AW": "Orílẹ́ède Árúbà",
-        "AZ": "Orílẹ́ède Asẹ́bájánì",
-        "BA": "Orílẹ́ède Bọ̀síníà àti Ẹtisẹgófínà",
-        "BB": "Orílẹ́ède Bábádósì",
-        "BD": "Orílẹ́ède Bángáládésì",
-        "BE": "Orílẹ́ède Bégíọ́mù",
-        "BF": "Orílẹ́ède Bùùkíná Fasò",
-        "BG": "Orílẹ́ède Bùùgáríà",
-        "BH": "Orílẹ́ède Báránì",
-        "BI": "Orílẹ́ède Bùùrúndì",
-        "BJ": "Orílẹ́ède Bẹ̀nẹ̀",
-        "BM": "Orílẹ́ède Bémúdà",
-        "BN": "Orílẹ́ède Búrúnẹ́lì",
-        "BO": "Orílẹ́ède Bọ̀lífíyà",
-        "BR": "Orílẹ́ède Bàràsílì",
-        "BS": "Orílẹ́ède Bàhámásì",
-        "BT": "Orílẹ́ède Bútánì",
-        "BW": "Orílẹ́ède Bọ̀tìsúwánà",
-        "BY": "Orílẹ́ède Bélárúsì",
-        "BZ": "Orílẹ́ède Bèlísẹ̀",
-        "CA": "Orílẹ́ède Kánádà",
-        "CD": "Orilẹ́ède Kóngò",
-        "CF": "Orílẹ́ède Àrin gùngun Áfíríkà",
-        "CG": "Orílẹ́ède Kóngò",
-        "CH": "Orílẹ́ède switiṣilandi",
-        "CI": "Orílẹ́ède Kóútè forà",
-        "CK": "Orílẹ́ède Etíokun Kùúkù",
-        "CL": "Orílẹ́ède ṣílè",
-        "CM": "Orílẹ́ède Kamerúúnì",
-        "CN": "Orílẹ́ède ṣáínà",
-        "CO": "Orílẹ́ède Kòlómíbìa",
-        "CR": "Orílẹ́ède Kuusita Ríkà",
-        "CU": "Orílẹ́ède Kúbà",
-        "CV": "Orílẹ́ède Etíokun Kápé féndè",
-        "CY": "Orílẹ́ède Kúrúsì",
-        "CZ": "Orílẹ́ède ṣẹ́ẹ́kì",
-        "DE": "Orílẹ́ède Gemani",
-        "DJ": "Orílẹ́ède Díbọ́ótì",
-        "DK": "Orílẹ́ède Dẹ́mákì",
-        "DM": "Orílẹ́ède Dòmíníkà",
-        "DO": "Orilẹ́ède Dòmíníkánì",
-        "DZ": "Orílẹ́ède Àlùgèríánì",
-        "EC": "Orílẹ́ède Ekuádò",
-        "EE": "Orílẹ́ède Esitonia",
-        "EG": "Orílẹ́ède Égípítì",
-        "ER": "Orílẹ́ède Eritira",
-        "ES": "Orílẹ́ède Sipani",
-        "ET": "Orílẹ́ède Etopia",
-        "FI": "Orílẹ́ède Filandi",
-        "FJ": "Orílẹ́ède Fiji",
-        "FK": "Orílẹ́ède Etikun Fakalandi",
-        "FM": "Orílẹ́ède Makoronesia",
-        "FR": "Orílẹ́ède Faranse",
-        "GA": "Orílẹ́ède Gabon",
-        "GB": "Orílẹ́ède Omobabirin",
-        "GD": "Orílẹ́ède Genada",
-        "GE": "Orílẹ́ède Gọgia",
-        "GF": "Orílẹ́ède Firenṣi Guana",
-        "GH": "Orílẹ́ède Gana",
-        "GI": "Orílẹ́ède Gibaratara",
-        "GL": "Orílẹ́ède Gerelandi",
-        "GM": "Orílẹ́ède Gambia",
-        "GN": "Orílẹ́ède Gene",
-        "GP": "Orílẹ́ède Gadelope",
-        "GQ": "Orílẹ́ède Ekutoria Gini",
-        "GR": "Orílẹ́ède Geriisi",
-        "GT": "Orílẹ́ède Guatemala",
-        "GU": "Orílẹ́ède Guamu",
-        "GW": "Orílẹ́ède Gene-Busau",
-        "GY": "Orílẹ́ède Guyana",
-        "HN": "Orílẹ́ède Hondurasi",
-        "HR": "Orílẹ́ède Kòróátíà",
-        "HT": "Orílẹ́ède Haati",
-        "HU": "Orílẹ́ède Hungari",
-        "ID": "Orílẹ́ède Indonesia",
-        "IE": "Orílẹ́ède Ailandi",
-        "IL": "Orílẹ́ède Iserẹli",
-        "IN": "Orílẹ́ède India",
-        "IO": "Orílẹ́ède Etíkun Índíánì ti Ìlú Bírítísì",
-        "IQ": "Orílẹ́ède Iraki",
-        "IR": "Orílẹ́ède Irani",
-        "IS": "Orílẹ́ède Aṣilandi",
-        "IT": "Orílẹ́ède Italiyi",
-        "JM": "Orílẹ́ède Jamaika",
-        "JO": "Orílẹ́ède Jọdani",
-        "JP": "Orílẹ́ède Japani",
-        "KE": "Orílẹ́ède Kenya",
-        "KG": "Orílẹ́ède Kuriṣisitani",
-        "KH": "Orílẹ́ède Kàmùbódíà",
-        "KI": "Orílẹ́ède Kiribati",
-        "KM": "Orílẹ́ède Kòmòrósì",
-        "KN": "Orílẹ́ède Kiiti ati Neefi",
-        "KP": "Orílẹ́ède Guusu Kọria",
-        "KR": "Orílẹ́ède Ariwa Kọria",
-        "KW": "Orílẹ́ède Kuweti",
-        "KY": "Orílẹ́ède Etíokun Kámánì",
-        "KZ": "Orílẹ́ède Kaṣaṣatani",
-        "LA": "Orílẹ́ède Laosi",
-        "LB": "Orílẹ́ède Lebanoni",
-        "LC": "Orílẹ́ède Luṣia",
-        "LI": "Orílẹ́ède Lẹṣitẹnisiteni",
-        "LK": "Orílẹ́ède Siri Lanka",
-        "LR": "Orílẹ́ède Laberia",
-        "LS": "Orílẹ́ède Lesoto",
-        "LT": "Orílẹ́ède Lituania",
-        "LU": "Orílẹ́ède Lusemogi",
-        "LV": "Orílẹ́ède Latifia",
-        "LY": "Orílẹ́ède Libiya",
-        "MA": "Orílẹ́ède Moroko",
-        "MC": "Orílẹ́ède Monako",
-        "MD": "Orílẹ́ède Modofia",
-        "MG": "Orílẹ́ède Madasika",
-        "MH": "Orílẹ́ède Etikun Máṣali",
-        "MK": "Orílẹ́ède Masidonia",
-        "ML": "Orílẹ́ède Mali",
-        "MM": "Orílẹ́ède Manamari",
-        "MN": "Orílẹ́ède Mogolia",
-        "MP": "Orílẹ́ède Etikun Guusu Mariana",
-        "MQ": "Orílẹ́ède Matinikuwi",
-        "MR": "Orílẹ́ède Maritania",
-        "MS": "Orílẹ́ède Motserati",
-        "MT": "Orílẹ́ède Malata",
-        "MU": "Orílẹ́ède Maritiusi",
-        "MV": "Orílẹ́ède Maladifi",
-        "MW": "Orílẹ́ède Malawi",
-        "MX": "Orílẹ́ède Mesiko",
-        "MY": "Orílẹ́ède Malasia",
-        "MZ": "Orílẹ́ède Moṣamibiku",
-        "NA": "Orílẹ́ède Namibia",
-        "NC": "Orílẹ́ède Kaledonia Titun",
-        "NE": "Orílẹ́ède Nàìjá",
-        "NF": "Orílẹ́ède Etikun Nọ́úfókì",
-        "NG": "Orílẹ́ède Nàìjíríà",
-        "NI": "Orílẹ́ède NIkaragua",
-        "NL": "Orílẹ́ède Nedalandi",
-        "NO": "Orílẹ́ède Nọọwii",
-        "NP": "Orílẹ́ède Nepa",
-        "NR": "Orílẹ́ède Nauru",
-        "NU": "Orílẹ́ède Niue",
-        "NZ": "Orílẹ́ède ṣilandi Titun",
-        "OM": "Orílẹ́ède Ọọma",
-        "PA": "Orílẹ́ède Panama",
-        "PE": "Orílẹ́ède Peru",
-        "PF": "Orílẹ́ède Firenṣi Polinesia",
-        "PG": "Orílẹ́ède Paapu ti Giini",
-        "PH": "Orílẹ́ède filipini",
-        "PK": "Orílẹ́ède Pakisitan",
-        "PL": "Orílẹ́ède Polandi",
-        "PM": "Orílẹ́ède Pẹẹri ati mikuloni",
-        "PN": "Orílẹ́ède Pikarini",
-        "PR": "Orílẹ́ède Pọto Riko",
-        "PS": "Orílẹ́ède Iwọorun Pakisitian ati Gaṣa",
-        "PT": "Orílẹ́ède Pọtugi",
-        "PW": "Orílẹ́ède Paalu",
-        "PY": "Orílẹ́ède Paraguye",
-        "QA": "Orílẹ́ède Kota",
-        "RE": "Orílẹ́ède Riuniyan",
-        "RO": "Orílẹ́ède Romaniya",
-        "RU": "Orílẹ́ède Rọṣia",
-        "RW": "Orílẹ́ède Ruwanda",
-        "SA": "Orílẹ́ède Saudi Arabia",
-        "SB": "Orílẹ́ède Etikun Solomoni",
-        "SC": "Orílẹ́ède seṣẹlẹsi",
-        "SD": "Orílẹ́ède Sudani",
-        "SE": "Orílẹ́ède Swidini",
-        "SG": "Orílẹ́ède Singapo",
-        "SH": "Orílẹ́ède Hẹlena",
-        "SI": "Orílẹ́ède Silofania",
-        "SK": "Orílẹ́ède Silofakia",
-        "SL": "Orílẹ́ède Siria looni",
-        "SM": "Orílẹ́ède Sani Marino",
-        "SN": "Orílẹ́ède Sẹnẹga",
-        "SO": "Orílẹ́ède Somalia",
-        "SR": "Orílẹ́ède Surinami",
+        "AT": "Asítíríà",
+        "AU": "Ástràlìá",
+        "AW": "Árúbà",
+        "AX": "Àwọn Erékùsù ti Åland",
+        "AZ": "Asẹ́bájánì",
+        "BA": "Bọ̀síníà àti Ẹtisẹgófínà",
+        "BB": "Bábádósì",
+        "BD": "Bángáládésì",
+        "BE": "Bégíọ́mù",
+        "BF": "Bùùkíná Fasò",
+        "BG": "Bùùgáríà",
+        "BH": "Báránì",
+        "BI": "Bùùrúndì",
+        "BJ": "Bẹ̀nẹ̀",
+        "BL": "Ìlú Bátílẹ́mì",
+        "BM": "Bémúdà",
+        "BN": "Búrúnẹ́lì",
+        "BO": "Bọ̀lífíyà",
+        "BQ": "Kàríbíánì ti Nẹ́dálándì",
+        "BR": "Bàràsílì",
+        "BS": "Bàhámásì",
+        "BT": "Bútánì",
+        "BV": "Erékùsù Bouvet",
+        "BW": "Bọ̀tìsúwánà",
+        "BY": "Bélárúsì",
+        "BZ": "Bèlísẹ̀",
+        "CA": "Kánádà",
+        "CC": "Erékùsù Cocos (Keeling)",
+        "CD": "Kóńgò – Kinshasa",
+        "CF": "Àrin gùngun Áfíríkà",
+        "CG": "Kóńgò – Brazaville",
+        "CH": "switiṣilandi",
+        "CI": "Kóútè forà",
+        "CK": "Etíokun Kùúkù",
+        "CL": "Ṣílè",
+        "CM": "Kamerúúnì",
+        "CN": "Ṣáínà",
+        "CO": "Kòlómíbìa",
+        "CP": "Erékùsù Clipperston",
+        "CR": "Kuusita Ríkà",
+        "CU": "Kúbà",
+        "CV": "Etíokun Kápé féndè",
+        "CX": "Erékùsù Christmas",
+        "CY": "Kúrúsì",
+        "CZ": "Ṣẹ́ẹ́kì",
+        "DE": "Jámánì",
+        "DG": "Diego Gaṣia",
+        "DJ": "Díbọ́ótì",
+        "DK": "Dẹ́mákì",
+        "DM": "Dòmíníkà",
+        "DO": "Dòmíníkánì",
+        "DZ": "Àlùgèríánì",
+        "EA": "Seuta àti Melilla",
+        "EC": "Ekuádò",
+        "EE": "Esitonia",
+        "EG": "Égípítì",
+        "EH": "Ìwọ̀òòrùn Sàhárà",
+        "ER": "Eritira",
+        "ES": "Sipani",
+        "ET": "Etopia",
+        "EU": "Àpapọ̀ Yúróòpù",
+        "EZ": "Agbègbè Yúrò",
+        "FI": "Filandi",
+        "FK": "Etikun Fakalandi",
+        "FM": "Makoronesia",
+        "FO": "Àwọn Erékùsù ti Faroe",
+        "FR": "Faranse",
+        "GB": "Gẹ̀ẹ́sì",
+        "GD": "Genada",
+        "GE": "Gọgia",
+        "GF": "Firenṣi Guana",
+        "GH": "Gana",
+        "GI": "Gibaratara",
+        "GL": "Gerelandi",
+        "GN": "Gene",
+        "GP": "Gadelope",
+        "GQ": "Ekutoria Gini",
+        "GR": "Geriisi",
+        "GS": "Gúúsù Georgia àti Gúúsù Àwọn Erékùsù Sandwich",
+        "GU": "Guamu",
+        "GW": "Gene-Busau",
+        "HK": "Agbègbè Ìṣàkóso Ìṣúná Hong Kong Tí Ṣánà Ń Darí",
+        "HM": "Erékùsù Heard àti Erékùsù McDonald",
+        "HN": "Hondurasi",
+        "HR": "Kòróátíà",
+        "HT": "Haati",
+        "HU": "Hungari",
+        "IC": "Ẹrékùsù Kánárì",
+        "IE": "Ailandi",
+        "IL": "Iserẹli",
+        "IO": "Etíkun Índíánì ti Ìlú Bírítísì",
+        "IQ": "Iraki",
+        "IR": "Irani",
+        "IS": "Aṣilandi",
+        "IT": "Itáli",
+        "JM": "Jamaika",
+        "JO": "Jọdani",
+        "JP": "Japani",
+        "KG": "Kuriṣisitani",
+        "KH": "Kàmùbódíà",
+        "KM": "Kòmòrósì",
+        "KN": "Kiiti ati Neefi",
+        "KP": "Guusu Kọria",
+        "KR": "Ariwa Kọria",
+        "KW": "Kuweti",
+        "KY": "Etíokun Kámánì",
+        "KZ": "Kaṣaṣatani",
+        "LA": "Laosi",
+        "LB": "Lebanoni",
+        "LC": "Luṣia",
+        "LI": "Lẹṣitẹnisiteni",
+        "LK": "Siri Lanka",
+        "LR": "Laberia",
+        "LS": "Lesoto",
+        "LT": "Lituania",
+        "LU": "Lusemogi",
+        "LV": "Latifia",
+        "LY": "Libiya",
+        "MA": "Moroko",
+        "MC": "Monako",
+        "MD": "Modofia",
+        "MF": "Ìlú Màtìnì",
+        "MG": "Madasika",
+        "MH": "Etikun Máṣali",
+        "MK": "Àríwá Macedonia",
+        "MM": "Manamari",
+        "MN": "Mogolia",
+        "MO": "Agbègbè Ìṣàkóso Pàtàkì Macao",
+        "MP": "Etikun Guusu Mariana",
+        "MQ": "Matinikuwi",
+        "MR": "Maritania",
+        "MS": "Motserati",
+        "MT": "Malata",
+        "MU": "Maritiusi",
+        "MV": "Maladifi",
+        "MX": "Mesiko",
+        "MY": "Malasia",
+        "MZ": "Moṣamibiku",
+        "NC": "Kaledonia Titun",
+        "NE": "Nàìjá",
+        "NF": "Etikun Nọ́úfókì",
+        "NG": "Nàìjíríà",
+        "NI": "Nikaragua",
+        "NL": "Nedalandi",
+        "NO": "Nọọwii",
+        "NP": "Nepa",
+        "NZ": "Ṣilandi Titun",
+        "OM": "Ọọma",
+        "PF": "Firenṣi Polinesia",
+        "PG": "Paapu ti Giini",
+        "PH": "Filipini",
+        "PK": "Pakisitan",
+        "PL": "Polandi",
+        "PM": "Pẹẹri ati mikuloni",
+        "PN": "Pikarini",
+        "PR": "Pọto Riko",
+        "PS": "Agbègbè ara Palẹsítínì",
+        "PT": "Pọ́túgà",
+        "PW": "Paalu",
+        "PY": "Paraguye",
+        "QA": "Kota",
+        "QO": "Agbègbè Òṣọ́ọ́níà",
+        "RE": "Riuniyan",
+        "RO": "Romaniya",
+        "RS": "Sẹ́bíà",
+        "RU": "Rọṣia",
+        "RW": "Ruwanda",
+        "SB": "Etikun Solomoni",
+        "SC": "Ṣeṣẹlẹsi",
+        "SD": "Sudani",
+        "SE": "Swidini",
+        "SG": "Singapo",
+        "SH": "Hẹlena",
+        "SI": "Silofania",
+        "SJ": "Sífábáàdì àti Jánì Máyẹ̀nì",
+        "SK": "Silofakia",
+        "SL": "Siria looni",
+        "SM": "Sani Marino",
+        "SN": "Sẹnẹga",
+        "SR": "Surinami",
         "SS": "Gúúsù Sudan",
-        "ST": "Orílẹ́ède Sao tomi ati piriiṣipi",
-        "SV": "Orílẹ́ède Ẹẹsáfádò",
-        "SY": "Orílẹ́ède Siria",
-        "SZ": "Orílẹ́ède Saṣiland",
-        "TC": "Orílẹ́ède Tọọki ati Etikun Kakọsi",
-        "TD": "Orílẹ́ède ṣààdì",
-        "TG": "Orílẹ́ède Togo",
-        "TH": "Orílẹ́ède Tailandi",
-        "TJ": "Orílẹ́ède Takisitani",
-        "TK": "Orílẹ́ède Tokelau",
-        "TL": "Orílẹ́ède ÌlàOòrùn Tímọ̀",
-        "TM": "Orílẹ́ède Tọọkimenisita",
-        "TN": "Orílẹ́ède Tuniṣia",
-        "TO": "Orílẹ́ède Tonga",
-        "TR": "Orílẹ́ède Tọọki",
-        "TT": "Orílẹ́ède Tirinida ati Tobaga",
-        "TV": "Orílẹ́ède Tufalu",
-        "TW": "Orílẹ́ède Taiwani",
-        "TZ": "Orílẹ́ède Tanṣania",
-        "UA": "Orílẹ́ède Ukarini",
-        "UG": "Orílẹ́ède Uganda",
-        "US": "Orílẹ́ède Orilẹede Amerika",
-        "UY": "Orílẹ́ède Nruguayi",
-        "UZ": "Orílẹ́ède Nṣibẹkisitani",
+        "ST": "Sao tomi ati piriiṣipi",
+        "SV": "Ẹẹsáfádò",
+        "SX": "Síntì Mátẹ́ẹ̀nì",
+        "SY": "Siria",
+        "SZ": "Saṣiland",
+        "TA": "Tristan da Kunha",
+        "TC": "Tọọki ati Etikun Kakọsi",
+        "TD": "Ṣààdì",
+        "TF": "Agbègbè Gúúsù Faranṣé",
+        "TH": "Tailandi",
+        "TJ": "Takisitani",
+        "TL": "ÌlàOòrùn Tímọ̀",
+        "TM": "Tọọkimenisita",
+        "TN": "Tuniṣia",
+        "TR": "Tọọki",
+        "TT": "Tirinida ati Tobaga",
+        "TV": "Tufalu",
+        "TW": "Taiwani",
+        "TZ": "Tàǹsáníà",
+        "UA": "Ukarini",
+        "UM": "Àwọn Erékùsù Kékèké Agbègbè US",
+        "UN": "Ìṣọ̀kan àgbáyé",
+        "US": "Amẹrikà",
+        "UY": "Nruguayi",
+        "UZ": "Nṣibẹkisitani",
         "VA": "Ìlú Vatican",
-        "VC": "Orílẹ́ède Fisẹnnti ati Genadina",
-        "VE": "Orílẹ́ède Fẹnẹṣuẹla",
-        "VG": "Orílẹ́ède Etíkun Fágínì ti ìlú Bírítísì",
-        "VI": "Orílẹ́ède Etikun Fagini ti Amẹrika",
-        "VN": "Orílẹ́ède Fẹtinami",
-        "VU": "Orílẹ́ède Faniatu",
-        "WF": "Orílẹ́ède Wali ati futuna",
-        "WS": "Orílẹ́ède Samọ",
-        "YE": "Orílẹ́ède yemeni",
-        "YT": "Orílẹ́ède Mayote",
-        "ZA": "Orílẹ́ède Ariwa Afirika",
-        "ZM": "Orílẹ́ède ṣamibia",
-        "ZW": "Orílẹ́ède ṣimibabe"
+        "VC": "Fisẹnnti ati Genadina",
+        "VE": "Fẹnẹṣuẹla",
+        "VG": "Etíkun Fágínì ti ìlú Bírítísì",
+        "VI": "Etikun Fagini ti Amẹrika",
+        "VN": "Fẹtinami",
+        "VU": "Faniatu",
+        "WF": "Wali ati futuna",
+        "WS": "Samọ",
+        "XA": "ìsọ̀rọ̀sí irọ́",
+        "XB": "ibi irọ́",
+        "XK": "Kòsófò",
+        "YE": "Yemeni",
+        "YT": "Mayote",
+        "ZA": "Gúúṣù Áfíríkà",
+        "ZM": "Ṣamibia",
+        "ZW": "Ṣimibabe",
+        "ZZ": "Àgbègbè àìmọ̀"
     };
   }-*/;
 }

@@ -22,6 +22,26 @@ package com.google.gwt.i18n.client.impl.cldr;
 public class DateTimeFormatInfoImpl_mi extends DateTimeFormatInfoImpl {
 
   @Override
+  public String dateFormatFull() {
+    return "EEEE, d MMMM y";
+  }
+
+  @Override
+  public String dateFormatLong() {
+    return "d MMMM y";
+  }
+
+  @Override
+  public String dateFormatMedium() {
+    return "d MMM y";
+  }
+
+  @Override
+  public String dateFormatShort() {
+    return "dd-MM-y";
+  }
+
+  @Override
   public String[] erasFull() {
     return new String[] {
         "BCE",
@@ -39,65 +59,148 @@ public class DateTimeFormatInfoImpl_mi extends DateTimeFormatInfoImpl {
 
   @Override
   public String formatHour12Minute() {
-    return "h:mm";
+    return "h:mm a";
   }
 
   @Override
   public String formatHour12MinuteSecond() {
-    return "h:mm:ss";
+    return "h:mm:ss a";
+  }
+
+  @Override
+  public String formatMonthAbbrevDay() {
+    return "d MMM";
+  }
+
+  @Override
+  public String formatMonthFullDay() {
+    return "d MMMM";
+  }
+
+  @Override
+  public String formatMonthFullWeekdayDay() {
+    return "EEEE, d MMMM";
+  }
+
+  @Override
+  public String formatMonthNumDay() {
+    return "dd-MM";
+  }
+
+  @Override
+  public String formatYearMonthAbbrev() {
+    return "MMM y";
+  }
+
+  @Override
+  public String formatYearMonthAbbrevDay() {
+    return "d MMM y";
+  }
+
+  @Override
+  public String formatYearMonthFull() {
+    return "MMMM y";
+  }
+
+  @Override
+  public String formatYearMonthFullDay() {
+    return "d MMMM y";
+  }
+
+  @Override
+  public String formatYearMonthNum() {
+    return "MM-y";
+  }
+
+  @Override
+  public String formatYearMonthNumDay() {
+    return "dd-MM-y";
+  }
+
+  @Override
+  public String formatYearMonthWeekdayDay() {
+    return "EEE, d MMM y";
+  }
+
+  @Override
+  public String formatYearQuarterFull() {
+    return "QQQQ y";
+  }
+
+  @Override
+  public String formatYearQuarterShort() {
+    return "Q y";
   }
 
   @Override
   public String[] monthsFull() {
     return new String[] {
-        "Kohitātea",
-        "Huitanguru",
-        "Poutūterangi",
-        "Paengawhāwhā",
-        "Haratua",
-        "Pipiri",
-        "Hōngongoi",
-        "Hereturikōkā",
-        "Mahuru",
-        "Whiringa-ā-nuku",
-        "Whiringa-ā-rangi",
-        "Hakihea"
+        "Hānuere",
+        "Pēpuere",
+        "Māehe",
+        "Āpereira",
+        "Mei",
+        "Hune",
+        "Hūrae",
+        "Ākuhata",
+        "Hepetema",
+        "Oketopa",
+        "Noema",
+        "Tīhema"
+    };
+  }
+
+  @Override
+  public String[] monthsFullStandalone() {
+    return new String[] {
+        "Hānuere",
+        "Pēpuere",
+        "Māehe",
+        "Āperira",
+        "Mei",
+        "Hune",
+        "Hūrae",
+        "Ākuhata",
+        "Hepetema",
+        "Oketopa",
+        "Noema",
+        "Tīhema"
     };
   }
 
   @Override
   public String[] monthsNarrow() {
     return new String[] {
-        "K",
         "H",
         "P",
-        "P",
-        "H",
-        "P",
-        "H",
-        "H",
         "M",
+        "Ā",
+        "M",
+        "H",
+        "H",
+        "Ā",
+        "H",
+        "O",
         "N",
-        "R",
-        "H"
+        "T"
     };
   }
 
   @Override
   public String[] monthsShort() {
     return new String[] {
-        "Kohi",
-        "Hui",
-        "Pou",
-        "Pae",
-        "Hara",
-        "Pipi",
-        "Hōngo",
-        "Here",
-        "Mahu",
-        "Nuku",
-        "Rangi",
-        "Haki"
+        "Hān",
+        "Pēp",
+        "Māe",
+        "Āpe",
+        "Mei",
+        "Hun",
+        "Hūr",
+        "Āku",
+        "Hep",
+        "Oke",
+        "Noe",
+        "Tīh"
     };
   }
 
@@ -123,33 +226,33 @@ public class DateTimeFormatInfoImpl_mi extends DateTimeFormatInfoImpl {
 
   @Override
   public String timeFormatFull() {
-    return "h:mm:ss a zzzz";
+    return "h:mm:ss a zzzz";
   }
 
   @Override
   public String timeFormatLong() {
-    return "h:mm:ss a z";
+    return "h:mm:ss a z";
   }
 
   @Override
   public String timeFormatMedium() {
-    return "h:mm:ss";
+    return "h:mm:ss a";
   }
 
   @Override
   public String timeFormatShort() {
-    return "h:mm";
+    return "h:mm a";
   }
 
   @Override
   public String[] weekdaysFull() {
     return new String[] {
         "Rātapu",
-        "Rāhina",
-        "Rātū",
-        "Rāapa",
-        "Rāpare",
-        "Rāmere",
+        "Mane",
+        "Tūrei",
+        "Wenerei",
+        "Tāite",
+        "Paraire",
         "Rāhoroi"
     };
   }
@@ -157,26 +260,26 @@ public class DateTimeFormatInfoImpl_mi extends DateTimeFormatInfoImpl {
   @Override
   public String[] weekdaysNarrow() {
     return new String[] {
-        "T",
-        "H",
-        "T",
-        "A",
-        "P",
+        "Rt",
         "M",
-        "H"
+        "T",
+        "W",
+        "T",
+        "P",
+        "Rh"
     };
   }
 
   @Override
   public String[] weekdaysShort() {
     return new String[] {
-        "Tap",
-        "Hin",
-        "Tū",
-        "Apa",
+        "Rāt",
+        "Man",
+        "Tūr",
+        "Wen",
+        "Tāi",
         "Par",
-        "Mer",
-        "Hor"
+        "Rāh"
     };
   }
 }

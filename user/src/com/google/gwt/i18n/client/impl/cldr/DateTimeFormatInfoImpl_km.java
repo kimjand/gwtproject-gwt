@@ -43,12 +43,12 @@ public class DateTimeFormatInfoImpl_km extends DateTimeFormatInfoImpl {
 
   @Override
   public String dateTimeFull(String timePattern, String datePattern) {
-    return datePattern + " នៅ​ម៉ោង " + timePattern;
+    return datePattern + ", " + timePattern;
   }
 
   @Override
   public String dateTimeLong(String timePattern, String datePattern) {
-    return datePattern + " នៅ​ម៉ោង " + timePattern;
+    return datePattern + ", " + timePattern;
   }
 
   @Override

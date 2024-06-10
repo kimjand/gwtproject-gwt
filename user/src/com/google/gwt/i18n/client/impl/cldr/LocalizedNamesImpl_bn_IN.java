@@ -27,17 +27,17 @@ public class LocalizedNamesImpl_bn_IN extends LocalizedNamesImpl_bn {
   @Override
   public String[] loadSortedRegionCodes() {
     return new String[] {
-        "XA",
-        "XB",
+        "CQ",
+        "AX",
         "AT",
         "AU",
+        "AI",
         "AO",
         "AQ",
         "AG",
         "AC",
         "IM",
         "IS",
-        "QO",
         "AZ",
         "AD",
         "AF",
@@ -48,7 +48,6 @@ public class LocalizedNamesImpl_bn_IN extends LocalizedNamesImpl_bn {
         "AM",
         "DZ",
         "AL",
-        "AX",
         "UA",
         "EZ",
         "EU",
@@ -61,16 +60,18 @@ public class LocalizedNamesImpl_bn_IN extends LocalizedNamesImpl_bn {
         "IQ",
         "IR",
         "ER",
+        "SZ",
         "UG",
         "UZ",
         "KP",
+        "MK",
         "MP",
         "UY",
         "SV",
         "EE",
-        "AI",
         "OM",
         "WF",
+        "QO",
         "CD",
         "CG",
         "KM",
@@ -100,13 +101,13 @@ public class LocalizedNamesImpl_bn_IN extends LocalizedNamesImpl_bn {
         "HR",
         "CP",
         "GM",
+        "GG",
         "GN",
         "GW",
         "GY",
         "GT",
         "GP",
         "GU",
-        "GG",
         "GA",
         "GL",
         "GR",
@@ -188,10 +189,10 @@ public class LocalizedNamesImpl_bn_IN extends LocalizedNamesImpl_bn {
         "BO",
         "BA",
         "BD",
-        "BB",
         "BM",
-        "BH",
+        "BB",
         "BS",
+        "BH",
         "BF",
         "BI",
         "BG",
@@ -222,8 +223,8 @@ public class LocalizedNamesImpl_bn_IN extends LocalizedNamesImpl_bn {
         "MM",
         "YT",
         "US",
-        "UM",
         "VI",
+        "UM",
         "MQ",
         "MH",
         "MV",
@@ -237,7 +238,6 @@ public class LocalizedNamesImpl_bn_IN extends LocalizedNamesImpl_bn {
         "MC",
         "MA",
         "MO",
-        "MK",
         "GB",
         "RU",
         "RE",
@@ -260,6 +260,8 @@ public class LocalizedNamesImpl_bn_IN extends LocalizedNamesImpl_bn {
         "SM",
         "WS",
         "RS",
+        "XA",
+        "XB",
         "SG",
         "SX",
         "SL",
@@ -278,7 +280,6 @@ public class LocalizedNamesImpl_bn_IN extends LocalizedNamesImpl_bn {
         "LC",
         "SH",
         "SO",
-        "SZ",
         "SA",
         "ES",
         "SJ",
@@ -295,7 +296,10 @@ public class LocalizedNamesImpl_bn_IN extends LocalizedNamesImpl_bn {
   @Override
   protected void loadNameMapJava() {
     super.loadNameMapJava();
-    namesMap.put("UM", "মার্কিন যুক্তরাষ্ট্রের পার্শ্ববর্তী দ্বীপপুঞ্জ");
+    namesMap.put("018", "দক্ষিণাঞ্চলীয় আফ্রিকা");
+    namesMap.put("202", "সাহারা-নিম্ন আফ্রিকা");
+    namesMap.put("QO", "ওশিয়ানিয়ার দূরবর্তী অঞ্চল");
+    namesMap.put("UM", "মার্কিন যুক্তরাষ্ট্রের দূরবর্তী দ্বীপপুঞ্জ");
   }
 
   @Override
@@ -305,7 +309,10 @@ public class LocalizedNamesImpl_bn_IN extends LocalizedNamesImpl_bn {
 
   private native JavaScriptObject loadMyNameMap() /*-{
     return {
-        "UM": "মার্কিন যুক্তরাষ্ট্রের পার্শ্ববর্তী দ্বীপপুঞ্জ"
+        "018": "দক্ষিণাঞ্চলীয় আফ্রিকা",
+        "202": "সাহারা-নিম্ন আফ্রিকা",
+        "QO": "ওশিয়ানিয়ার দূরবর্তী অঞ্চল",
+        "UM": "মার্কিন যুক্তরাষ্ট্রের দূরবর্তী দ্বীপপুঞ্জ"
     };
   }-*/;
 }

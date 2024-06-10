@@ -42,10 +42,30 @@ public class DateTimeFormatInfoImpl_ks extends DateTimeFormatInfoImpl {
   }
 
   @Override
+  public String dateTimeFull(String timePattern, String datePattern) {
+    return datePattern + ", " + timePattern;
+  }
+
+  @Override
+  public String dateTimeLong(String timePattern, String datePattern) {
+    return datePattern + ", " + timePattern;
+  }
+
+  @Override
+  public String dateTimeMedium(String timePattern, String datePattern) {
+    return datePattern + ", " + timePattern;
+  }
+
+  @Override
+  public String dateTimeShort(String timePattern, String datePattern) {
+    return datePattern + ", " + timePattern;
+  }
+
+  @Override
   public String[] erasFull() {
     return new String[] {
         "قبٕل مسیٖح",
-        "عیٖسوی سنہٕ"
+        "اینو ڈومنی"
     };
   }
 
@@ -63,11 +83,6 @@ public class DateTimeFormatInfoImpl_ks extends DateTimeFormatInfoImpl {
   }
 
   @Override
-  public String formatMonthAbbrevDay() {
-    return "d-MMM";
-  }
-
-  @Override
   public String formatMonthFullWeekdayDay() {
     return "EEEE, MMMM d";
   }
@@ -80,11 +95,6 @@ public class DateTimeFormatInfoImpl_ks extends DateTimeFormatInfoImpl {
   @Override
   public String formatYearMonthAbbrev() {
     return "MMM y";
-  }
-
-  @Override
-  public String formatYearMonthAbbrevDay() {
-    return "MMM d, y";
   }
 
   @Override
@@ -129,7 +139,25 @@ public class DateTimeFormatInfoImpl_ks extends DateTimeFormatInfoImpl {
         "فرؤری",
         "مارٕچ",
         "اپریل",
-        "میٔ",
+        "مئی",
+        "جوٗن",
+        "جُلَے",
+        "اگست",
+        "ستمبر",
+        "اکتوٗبر",
+        "نومبر",
+        "دَسَمبَر"
+    };
+  }
+
+  @Override
+  public String[] monthsFullStandalone() {
+    return new String[] {
+        "جنؤری",
+        "فرؤری",
+        "مارٕچ",
+        "اپریل",
+        "مئی",
         "جوٗن",
         "جوٗلایی",
         "اگست",
@@ -165,7 +193,25 @@ public class DateTimeFormatInfoImpl_ks extends DateTimeFormatInfoImpl {
         "فرؤری",
         "مارٕچ",
         "اپریل",
-        "میٔ",
+        "مئی",
+        "جوٗن",
+        "جُلَے",
+        "اگست",
+        "ستمبر",
+        "اکتوٗبر",
+        "نومبر",
+        "دسمبر"
+    };
+  }
+
+  @Override
+  public String[] monthsShortStandalone() {
+    return new String[] {
+        "جنؤری",
+        "فرؤری",
+        "مارٕچ",
+        "اپریل",
+        "مئی",
         "جوٗن",
         "جوٗلایی",
         "اگست",
@@ -180,8 +226,8 @@ public class DateTimeFormatInfoImpl_ks extends DateTimeFormatInfoImpl {
   public String[] quartersFull() {
     return new String[] {
         "گۄڑنیُک ژۄباگ",
-        "دوٚیِم ژۄباگ",
-        "ترٛیِم ژۄباگ",
+        "دۆیِم ژۄباگ",
+        "تریِم ژۄباگ",
         "ژوٗرِم ژۄباگ"
     };
   }
@@ -189,10 +235,10 @@ public class DateTimeFormatInfoImpl_ks extends DateTimeFormatInfoImpl {
   @Override
   public String[] quartersShort() {
     return new String[] {
-        "ژۄباگ",
-        "دوٚیِم ژۄباگ",
-        "ترٛیِم ژۄباگ",
-        "ژوٗرِم ژۄباگ"
+        "کیو 1",
+        "کیو 2",
+        "کیو 3",
+        "کیو 4"
     };
   }
 
@@ -220,10 +266,10 @@ public class DateTimeFormatInfoImpl_ks extends DateTimeFormatInfoImpl {
   public String[] weekdaysFull() {
     return new String[] {
         "اَتھوار",
-        "ژٔنٛدرٕروار",
-        "بوٚموار",
+        "ژٔندرٕروار",
+        "بۆموار",
         "بودوار",
-        "برٛٮ۪سوار",
+        "برؠسوار",
         "جُمہ",
         "بٹوار"
     };
@@ -246,10 +292,10 @@ public class DateTimeFormatInfoImpl_ks extends DateTimeFormatInfoImpl {
   public String[] weekdaysShort() {
     return new String[] {
         "آتھوار",
-        "ژٔنٛدٕروار",
-        "بوٚموار",
+        "ژٔندٕروار",
+        "بۆموار",
         "بودوار",
-        "برٛٮ۪سوار",
+        "برؠسوار",
         "جُمہ",
         "بٹوار"
     };

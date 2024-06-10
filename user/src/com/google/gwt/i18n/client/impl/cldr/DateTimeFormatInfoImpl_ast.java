@@ -43,12 +43,12 @@ public class DateTimeFormatInfoImpl_ast extends DateTimeFormatInfoImpl {
 
   @Override
   public String dateTimeFull(String timePattern, String datePattern) {
-    return datePattern + " 'a' 'les' " + timePattern;
+    return datePattern + ", " + timePattern;
   }
 
   @Override
   public String dateTimeLong(String timePattern, String datePattern) {
-    return datePattern + " 'a' 'les' " + timePattern;
+    return datePattern + ", " + timePattern;
   }
 
   @Override
@@ -70,6 +70,16 @@ public class DateTimeFormatInfoImpl_ast extends DateTimeFormatInfoImpl {
         "e.C.",
         "d.C."
     };
+  }
+
+  @Override
+  public String formatHour12Minute() {
+    return "h:mm a";
+  }
+
+  @Override
+  public String formatHour12MinuteSecond() {
+    return "h:mm:ss a";
   }
 
   @Override

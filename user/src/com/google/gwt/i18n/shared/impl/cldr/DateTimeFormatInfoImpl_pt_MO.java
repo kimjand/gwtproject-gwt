@@ -41,12 +41,12 @@ public class DateTimeFormatInfoImpl_pt_MO extends DateTimeFormatInfoImpl_pt {
 
   @Override
   public String dateTimeFull(String timePattern, String datePattern) {
-    return datePattern + " 'às' " + timePattern;
+    return datePattern + ", " + timePattern;
   }
 
   @Override
   public String dateTimeLong(String timePattern, String datePattern) {
-    return datePattern + " 'às' " + timePattern;
+    return datePattern + ", " + timePattern;
   }
 
   @Override
@@ -67,11 +67,6 @@ public class DateTimeFormatInfoImpl_pt_MO extends DateTimeFormatInfoImpl_pt {
   @Override
   public String formatMonthFullWeekdayDay() {
     return "cccc, d 'de' MMMM";
-  }
-
-  @Override
-  public String formatMonthNumDay() {
-    return "dd/MM";
   }
 
   @Override
@@ -101,22 +96,22 @@ public class DateTimeFormatInfoImpl_pt_MO extends DateTimeFormatInfoImpl_pt {
 
   @Override
   public String timeFormatFull() {
-    return "h:mm:ss a zzzz";
+    return "h:mm:ss a zzzz";
   }
 
   @Override
   public String timeFormatLong() {
-    return "h:mm:ss a z";
+    return "h:mm:ss a z";
   }
 
   @Override
   public String timeFormatMedium() {
-    return "h:mm:ss a";
+    return "h:mm:ss a";
   }
 
   @Override
   public String timeFormatShort() {
-    return "h:mm a";
+    return "h:mm a";
   }
 
   @Override

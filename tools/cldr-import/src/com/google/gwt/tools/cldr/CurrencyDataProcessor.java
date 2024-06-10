@@ -103,9 +103,8 @@ public class CurrencyDataProcessor extends Processor {
 
     // load the table of default # of decimal places and rounding for each currency
     defaultCurrencyFraction = 0;
-    XPathParts parts = new XPathParts();
     for (String path : supp.listPaths("//supplementalData/currencyData/fractions/info")) {
-      parts.set(supp.getFullXPath(path));
+      final XPathParts parts = XPathParts.getFrozenInstance(supp.getFullXPath(path));
       Map<String, String> attr = parts.findAttributes("info");
       if (attr == null) {
         continue;
@@ -126,7 +125,7 @@ public class CurrencyDataProcessor extends Processor {
     // find which currencies are still in use in some region, everything else
     // should be marked as deprecated
     for (String path : supp.listPaths("//supplementalData/currencyData/region")) {
-      parts.set(supp.getFullXPath(path));
+      final XPathParts parts = XPathParts.getFrozenInstance(supp.getFullXPath(path));
       Map<String, String> attr = parts.findAttributes("currency");
       if (attr == null) {
         continue;

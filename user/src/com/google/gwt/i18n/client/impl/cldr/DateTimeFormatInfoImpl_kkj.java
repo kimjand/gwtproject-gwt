@@ -115,7 +115,7 @@ public class DateTimeFormatInfoImpl_kkj extends DateTimeFormatInfoImpl {
         "fɛ",
         "njapi",
         "nyukul",
-        "11",
+        "M11",
         "ɓulɓusɛ"
     };
   }
@@ -151,7 +151,7 @@ public class DateTimeFormatInfoImpl_kkj extends DateTimeFormatInfoImpl {
         "fɛ",
         "njapi",
         "nyukul",
-        "11",
+        "M11",
         "ɓulɓusɛ"
     };
   }

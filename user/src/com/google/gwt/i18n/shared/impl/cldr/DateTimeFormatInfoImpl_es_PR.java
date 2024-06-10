@@ -24,8 +24,8 @@ public class DateTimeFormatInfoImpl_es_PR extends DateTimeFormatInfoImpl_es_419 
   @Override
   public String[] ampms() {
     return new String[] {
-        "a. m.",
-        "p. m."
+        "a. m.",
+        "p. m."
     };
   }
 
@@ -57,25 +57,5 @@ public class DateTimeFormatInfoImpl_es_PR extends DateTimeFormatInfoImpl_es_419 
   @Override
   public String formatYearMonthNumDay() {
     return "MM/dd/y";
-  }
-
-  @Override
-  public String timeFormatFull() {
-    return "h:mm:ss a zzzz";
-  }
-
-  @Override
-  public String timeFormatLong() {
-    return "h:mm:ss a z";
-  }
-
-  @Override
-  public String timeFormatMedium() {
-    return "h:mm:ss a";
-  }
-
-  @Override
-  public String timeFormatShort() {
-    return "h:mm a";
   }
 }

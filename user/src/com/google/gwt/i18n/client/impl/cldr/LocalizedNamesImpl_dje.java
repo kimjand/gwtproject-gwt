@@ -75,6 +75,7 @@ public class LocalizedNamesImpl_dje extends LocalizedNamesImpl {
         "CZ",
         "CF",
         "CP",
+        "CQ",
         "CW",
         "CX",
         "DK",
@@ -169,7 +170,6 @@ public class LocalizedNamesImpl_dje extends LocalizedNamesImpl {
         "LT",
         "LB",
         "LU",
-        "MK",
         "ML",
         "MA",
         "MG",
@@ -187,6 +187,7 @@ public class LocalizedNamesImpl_dje extends LocalizedNamesImpl {
         "MF",
         "FM",
         "EG",
+        "MK",
         "MO",
         "MD",
         "MC",
@@ -405,7 +406,6 @@ public class LocalizedNamesImpl_dje extends LocalizedNamesImpl {
     namesMap.put("MC", "Monako");
     namesMap.put("MD", "Moldovi");
     namesMap.put("MH", "Maršal gungey");
-    namesMap.put("MK", "Maacedooni");
     namesMap.put("ML", "Maali");
     namesMap.put("MM", "Maynamar");
     namesMap.put("MN", "Mongooli");
@@ -461,6 +461,7 @@ public class LocalizedNamesImpl_dje extends LocalizedNamesImpl {
     namesMap.put("ST", "Sao Tome nda Prinsipe");
     namesMap.put("SV", "Salvador laboo");
     namesMap.put("SY", "Suuria");
+    namesMap.put("SZ", "Swaziland");
     namesMap.put("TC", "Turk nda Kayikos Gungey");
     namesMap.put("TD", "Caadu");
     namesMap.put("TH", "Taayiland");
@@ -607,7 +608,6 @@ public class LocalizedNamesImpl_dje extends LocalizedNamesImpl {
         "MC": "Monako",
         "MD": "Moldovi",
         "MH": "Maršal gungey",
-        "MK": "Maacedooni",
         "ML": "Maali",
         "MM": "Maynamar",
         "MN": "Mongooli",
@@ -663,6 +663,7 @@ public class LocalizedNamesImpl_dje extends LocalizedNamesImpl {
         "ST": "Sao Tome nda Prinsipe",
         "SV": "Salvador laboo",
         "SY": "Suuria",
+        "SZ": "Swaziland",
         "TC": "Turk nda Kayikos Gungey",
         "TD": "Caadu",
         "TH": "Taayiland",

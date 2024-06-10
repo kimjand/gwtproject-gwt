@@ -14,12 +14,7 @@
  * the License.
  */
 package com.google.gwt.i18n.shared.impl.cldr;
-
 // DO NOT EDIT - GENERATED FROM CLDR AND ICU DATA
-//  cldrVersion=21.0
-//  number=$Revision: 6443 $
-//  date=$Date: 2012-01-25 14:51:07 -0500 (Wed, 25 Jan 2012) $
-//  type=root
 
 /**
  * Implementation of DateTimeFormatInfo for the "gaa" locale.
@@ -35,24 +30,69 @@ public class DateTimeFormatInfoImpl_gaa extends DateTimeFormatInfoImpl {
   }
 
   @Override
+  public String dateFormatFull() {
+    return "EEEE, MMMM d, y";
+  }
+
+  @Override
+  public String dateFormatLong() {
+    return "MMMM d, y";
+  }
+
+  @Override
+  public String dateFormatMedium() {
+    return "MMM d, y";
+  }
+
+  @Override
   public String dateFormatShort() {
-    return "yy/MM/dd";
+    return "M/d/yy";
+  }
+
+  @Override
+  public String dateTimeFull(String timePattern, String datePattern) {
+    return datePattern + " 'be' 'ni' 'atswa' " + timePattern;
+  }
+
+  @Override
+  public String dateTimeLong(String timePattern, String datePattern) {
+    return datePattern + " 'be' 'ni' 'atswa' " + timePattern;
+  }
+
+  @Override
+  public String dateTimeMedium(String timePattern, String datePattern) {
+    return datePattern + ", " + timePattern;
+  }
+
+  @Override
+  public String dateTimeShort(String timePattern, String datePattern) {
+    return datePattern + ", " + timePattern;
   }
 
   @Override
   public String[] erasFull() {
     return new String[] {
-        "Dani Jesu",
-        "KJ"
+        "Dani Yesu",
+        "Yesu Gbele Sɛɛ"
     };
   }
 
   @Override
   public String[] erasShort() {
     return new String[] {
-        "DJ",
-        "KJ"
+        "DY",
+        "YGS"
     };
+  }
+
+  @Override
+  public String formatHour12Minute() {
+    return "h:mm a";
+  }
+
+  @Override
+  public String formatHour12MinuteSecond() {
+    return "h:mm:ss a";
   }
 
   @Override
@@ -114,35 +154,53 @@ public class DateTimeFormatInfoImpl_gaa extends DateTimeFormatInfoImpl {
   public String[] monthsFull() {
     return new String[] {
         "Aharabata",
-        "Oflo",
-        "Ochokrikri",
-        "Abeibee",
-        "Agbeinaa",
-        "Otukwadan",
-        "Maawe",
+        "Oflɔ",
+        "Otsokrikri",
+        "Abeibe",
+        "Agbiɛnaa",
+        "Otukwajaŋ",
+        "Maawɛ",
         "Manyawale",
         "Gbo",
-        "Anton",
+        "Antɔŋ",
         "Alemle",
-        "Afuabee"
+        "Afuabe"
+    };
+  }
+
+  @Override
+  public String[] monthsFullStandalone() {
+    return new String[] {
+        "Aharabata",
+        "Oflɔ",
+        "Otsokrikri",
+        "Abeibe",
+        "Agbiɛnaa",
+        "Otukwajan",
+        "Maawɛ",
+        "Manyawale",
+        "Gbo",
+        "Antɔŋ",
+        "Alemle",
+        "Afuabe"
     };
   }
 
   @Override
   public String[] monthsNarrow() {
     return new String[] {
-        "1",
-        "2",
-        "3",
-        "4",
-        "5",
-        "6",
-        "7",
-        "8",
-        "9",
-        "10",
-        "11",
-        "12"
+        "A",
+        "O",
+        "O",
+        "A",
+        "A",
+        "O",
+        "M",
+        "M",
+        "G",
+        "A",
+        "A",
+        "A"
     };
   }
 
@@ -151,7 +209,7 @@ public class DateTimeFormatInfoImpl_gaa extends DateTimeFormatInfoImpl {
     return new String[] {
         "Aha",
         "Ofl",
-        "Och",
+        "Ots",
         "Abe",
         "Agb",
         "Otu",
@@ -167,49 +225,79 @@ public class DateTimeFormatInfoImpl_gaa extends DateTimeFormatInfoImpl {
   @Override
   public String[] quartersFull() {
     return new String[] {
-        "Q1",
-        "Q2",
-        "Q3",
-        "Q4"
+        "nyɔji etɛ 1",
+        "nyɔji etɛ 2",
+        "nyɔji etɛ 3",
+        "nyɔji etɛ 4"
     };
+  }
+
+  @Override
+  public String[] quartersShort() {
+    return new String[] {
+        "N1",
+        "N2",
+        "N3",
+        "N4"
+    };
+  }
+
+  @Override
+  public String timeFormatFull() {
+    return "h:mm:ss a zzzz";
+  }
+
+  @Override
+  public String timeFormatLong() {
+    return "h:mm:ss a z";
+  }
+
+  @Override
+  public String timeFormatMedium() {
+    return "h:mm:ss a";
+  }
+
+  @Override
+  public String timeFormatShort() {
+    return "h:mm a";
   }
 
   @Override
   public String[] weekdaysFull() {
     return new String[] {
-        "Hogbaa",
-        "Dzu",
-        "Dzufo",
-        "Sho",
+        "Hɔgbaa",
+        "Ju",
+        "Jufɔ",
+        "Shɔ",
         "Soo",
         "Sohaa",
-        "Ho"
+        "Hɔɔ"
     };
   }
 
   @Override
   public String[] weekdaysNarrow() {
     return new String[] {
-        "1",
-        "2",
-        "3",
-        "4",
-        "5",
-        "6",
-        "7"
+        "H",
+        "J",
+        "J",
+        "S",
+        "S",
+        "S",
+        "H"
     };
   }
 
   @Override
   public String[] weekdaysShort() {
     return new String[] {
-        "Hog",
-        "Dzu",
-        "Dzf",
-        "Sho",
+        "Hɔg",
+        "Ju",
+        "Juf",
+        "Shɔ",
         "Soo",
         "Soh",
-        "Ho"
+        "Hɔɔ"
     };
   }
 }

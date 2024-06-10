@@ -73,6 +73,7 @@ public class LocalizedNamesImpl_ksf extends LocalizedNamesImpl {
         "CN",
         "CY",
         "CP",
+        "CQ",
         "CW",
         "CX",
         "CZ",
@@ -163,12 +164,12 @@ public class LocalizedNamesImpl_ksf extends LocalizedNamesImpl {
         "MT",
         "MY",
         "MA",
-        "MK",
         "MQ",
         "YT",
         "ME",
         "MF",
         "FM",
+        "MK",
         "MO",
         "MC",
         "MZ",
@@ -420,7 +421,6 @@ public class LocalizedNamesImpl_ksf extends LocalizedNamesImpl {
     namesMap.put("MD", "mɔldaví");
     namesMap.put("MG", "madagaska");
     namesMap.put("MH", "zǝ i marcál");
-    namesMap.put("MK", "másǝdwán");
     namesMap.put("ML", "mali");
     namesMap.put("MM", "myanmár");
     namesMap.put("MN", "mɔŋolí");
@@ -653,7 +653,6 @@ public class LocalizedNamesImpl_ksf extends LocalizedNamesImpl {
         "MD": "mɔldaví",
         "MG": "madagaska",
         "MH": "zǝ i marcál",
-        "MK": "másǝdwán",
         "ML": "mali",
         "MM": "myanmár",
         "MN": "mɔŋolí",

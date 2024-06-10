@@ -81,6 +81,7 @@ public class LocalizedNamesImpl_rn extends LocalizedNamesImpl {
         "TD",
         "CC",
         "CP",
+        "CQ",
         "CW",
         "CX",
         "DK",
@@ -179,13 +180,13 @@ public class LocalizedNamesImpl_rn extends LocalizedNamesImpl {
         "MT",
         "MQ",
         "MA",
-        "MK",
         "YT",
         "ME",
         "MF",
         "MX",
         "FM",
         "EG",
+        "MK",
         "MO",
         "MV",
         "MD",
@@ -420,7 +421,6 @@ public class LocalizedNamesImpl_rn extends LocalizedNamesImpl {
     namesMap.put("MD", "Moludavi");
     namesMap.put("MG", "Madagasikari");
     namesMap.put("MH", "Izinga rya Marishari");
-    namesMap.put("MK", "Masedoniya");
     namesMap.put("MM", "Birimaniya");
     namesMap.put("MN", "Mongoliya");
     namesMap.put("MP", "Amazinga ya Mariyana ryo mu majaruguru");
@@ -637,7 +637,6 @@ public class LocalizedNamesImpl_rn extends LocalizedNamesImpl {
         "MD": "Moludavi",
         "MG": "Madagasikari",
         "MH": "Izinga rya Marishari",
-        "MK": "Masedoniya",
         "MM": "Birimaniya",
         "MN": "Mongoliya",
         "MP": "Amazinga ya Mariyana ryo mu majaruguru",

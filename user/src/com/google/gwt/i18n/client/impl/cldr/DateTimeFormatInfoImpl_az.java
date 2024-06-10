@@ -58,6 +58,16 @@ public class DateTimeFormatInfoImpl_az extends DateTimeFormatInfoImpl {
   }
 
   @Override
+  public String formatHour12Minute() {
+    return "h:mm a";
+  }
+
+  @Override
+  public String formatHour12MinuteSecond() {
+    return "h:mm:ss a";
+  }
+
+  @Override
   public String formatMonthAbbrevDay() {
     return "d MMM";
   }
@@ -127,24 +137,6 @@ public class DateTimeFormatInfoImpl_az extends DateTimeFormatInfoImpl {
         "oktyabr",
         "noyabr",
         "dekabr"
-    };
-  }
-
-  @Override
-  public String[] monthsFullStandalone() {
-    return new String[] {
-        "Yanvar",
-        "Fevral",
-        "Mart",
-        "Aprel",
-        "May",
-        "İyun",
-        "İyul",
-        "Avqust",
-        "Sentyabr",
-        "Oktyabr",
-        "Noyabr",
-        "Dekabr"
     };
   }
 
@@ -232,6 +224,19 @@ public class DateTimeFormatInfoImpl_az extends DateTimeFormatInfoImpl {
 
   @Override
   public String[] weekdaysShort() {
+    return new String[] {
+        "B.",
+        "B.e.",
+        "Ç.a.",
+        "Ç.",
+        "C.a.",
+        "C.",
+        "Ş."
+    };
+  }
+
+  @Override
+  public String[] weekdaysShortStandalone() {
     return new String[] {
         "B.",
         "B.E.",

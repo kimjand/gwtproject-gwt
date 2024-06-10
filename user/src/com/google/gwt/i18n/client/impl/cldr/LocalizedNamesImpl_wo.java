@@ -71,9 +71,8 @@ public class LocalizedNamesImpl_wo extends LocalizedNamesImpl {
         "BI",
         "BT",
         "TD",
-        "CD",
-        "CG",
         "CP",
+        "CQ",
         "DK",
         "DG",
         "DM",
@@ -131,7 +130,6 @@ public class LocalizedNamesImpl_wo extends LocalizedNamesImpl {
         "GU",
         "GT",
         "GF",
-        "HK",
         "IC",
         "UA",
         "ID",
@@ -154,6 +152,7 @@ public class LocalizedNamesImpl_wo extends LocalizedNamesImpl {
         "CI",
         "CO",
         "KM",
+        "CD",
         "KP",
         "HR",
         "XK",
@@ -172,6 +171,7 @@ public class LocalizedNamesImpl_wo extends LocalizedNamesImpl {
         "LI",
         "LT",
         "MG",
+        "MO",
         "MW",
         "MV",
         "MY",
@@ -184,7 +184,6 @@ public class LocalizedNamesImpl_wo extends LocalizedNamesImpl {
         "MX",
         "FM",
         "MM",
-        "MO",
         "MD",
         "MC",
         "MN",
@@ -206,6 +205,7 @@ public class LocalizedNamesImpl_wo extends LocalizedNamesImpl {
         "OM",
         "HN",
         "HU",
+        "HK",
         "AU",
         "AT",
         "PK",
@@ -223,6 +223,7 @@ public class LocalizedNamesImpl_wo extends LocalizedNamesImpl {
         "QO",
         "RE",
         "CZ",
+        "CG",
         "DO",
         "CF",
         "RU",
@@ -336,9 +337,11 @@ public class LocalizedNamesImpl_wo extends LocalizedNamesImpl {
     namesMap.put("BZ", "Belis");
     namesMap.put("CA", "Kanadaa");
     namesMap.put("CC", "Duni Koko (Kilin)");
+    namesMap.put("CD", "Kongo (R K D)");
     namesMap.put("CF", "Repiblik Sàntar Afrik");
+    namesMap.put("CG", "Réewum Kongo");
     namesMap.put("CH", "Siwis");
-    namesMap.put("CI", "Kodiwaar (Côte d’Ivoire)");
+    namesMap.put("CI", "Kodiwaar");
     namesMap.put("CK", "Duni Kuuk");
     namesMap.put("CL", "Sili");
     namesMap.put("CM", "Kamerun");
@@ -388,6 +391,7 @@ public class LocalizedNamesImpl_wo extends LocalizedNamesImpl {
     namesMap.put("GU", "Guwam");
     namesMap.put("GW", "Gine-Bisaawóo");
     namesMap.put("GY", "Giyaan");
+    namesMap.put("HK", "Ooŋ Koŋ");
     namesMap.put("HM", "Duni Hërd ak Duni MakDonald");
     namesMap.put("HN", "Onduraas");
     namesMap.put("HR", "Korowasi");
@@ -434,9 +438,10 @@ public class LocalizedNamesImpl_wo extends LocalizedNamesImpl {
     namesMap.put("MF", "Saŋ Marteŋ");
     namesMap.put("MG", "Madagaskaar");
     namesMap.put("MH", "Duni Marsaal");
-    namesMap.put("MK", "Maseduwaan");
+    namesMap.put("MK", "Maseduwaan bëj Gànnaar");
     namesMap.put("MM", "Miyanmaar");
     namesMap.put("MN", "Mongoli");
+    namesMap.put("MO", "Makaawo");
     namesMap.put("MP", "Duni Mariyaan Noor");
     namesMap.put("MQ", "Martinik");
     namesMap.put("MR", "Mooritani");
@@ -576,9 +581,11 @@ public class LocalizedNamesImpl_wo extends LocalizedNamesImpl {
         "BZ": "Belis",
         "CA": "Kanadaa",
         "CC": "Duni Koko (Kilin)",
+        "CD": "Kongo (R K D)",
         "CF": "Repiblik Sàntar Afrik",
+        "CG": "Réewum Kongo",
         "CH": "Siwis",
-        "CI": "Kodiwaar (Côte d’Ivoire)",
+        "CI": "Kodiwaar",
         "CK": "Duni Kuuk",
         "CL": "Sili",
         "CM": "Kamerun",
@@ -628,6 +635,7 @@ public class LocalizedNamesImpl_wo extends LocalizedNamesImpl {
         "GU": "Guwam",
         "GW": "Gine-Bisaawóo",
         "GY": "Giyaan",
+        "HK": "Ooŋ Koŋ",
         "HM": "Duni Hërd ak Duni MakDonald",
         "HN": "Onduraas",
         "HR": "Korowasi",
@@ -674,9 +682,10 @@ public class LocalizedNamesImpl_wo extends LocalizedNamesImpl {
         "MF": "Saŋ Marteŋ",
         "MG": "Madagaskaar",
         "MH": "Duni Marsaal",
-        "MK": "Maseduwaan",
+        "MK": "Maseduwaan bëj Gànnaar",
         "MM": "Miyanmaar",
         "MN": "Mongoli",
+        "MO": "Makaawo",
         "MP": "Duni Mariyaan Noor",
         "MQ": "Martinik",
         "MR": "Mooritani",

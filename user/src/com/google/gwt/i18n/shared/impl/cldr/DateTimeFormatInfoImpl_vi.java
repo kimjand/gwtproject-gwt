@@ -46,7 +46,7 @@ public class DateTimeFormatInfoImpl_vi extends DateTimeFormatInfoImpl {
 
   @Override
   public String dateFormatShort() {
-    return "dd/MM/y";
+    return "d/M/yy";
   }
 
   @Override
@@ -61,28 +61,38 @@ public class DateTimeFormatInfoImpl_vi extends DateTimeFormatInfoImpl {
 
   @Override
   public String dateTimeMedium(String timePattern, String datePattern) {
-    return timePattern + ", " + datePattern;
+    return timePattern + " " + datePattern;
   }
 
   @Override
   public String dateTimeShort(String timePattern, String datePattern) {
-    return timePattern + ", " + datePattern;
+    return timePattern + " " + datePattern;
   }
 
   @Override
   public String[] erasFull() {
     return new String[] {
-        "Trước CN",
-        "sau CN"
+        "Trước Chúa Giáng Sinh",
+        "Sau Công Nguyên"
     };
   }
 
   @Override
   public String[] erasShort() {
     return new String[] {
-        "Trước CN",
-        "sau CN"
+        "TCN",
+        "SCN"
     };
+  }
+
+  @Override
+  public String formatHour12Minute() {
+    return "h:mm a";
+  }
+
+  @Override
+  public String formatHour12MinuteSecond() {
+    return "h:mm:ss a";
   }
 
   @Override
@@ -102,7 +112,7 @@ public class DateTimeFormatInfoImpl_vi extends DateTimeFormatInfoImpl {
 
   @Override
   public String formatMonthNumDay() {
-    return "dd/M";
+    return "d/M";
   }
 
   @Override
@@ -225,18 +235,18 @@ public class DateTimeFormatInfoImpl_vi extends DateTimeFormatInfoImpl {
   @Override
   public String[] monthsShortStandalone() {
     return new String[] {
-        "Thg 1",
-        "Thg 2",
-        "Thg 3",
-        "Thg 4",
-        "Thg 5",
-        "Thg 6",
-        "Thg 7",
-        "Thg 8",
-        "Thg 9",
-        "Thg 10",
-        "Thg 11",
-        "Thg 12"
+        "Tháng 1",
+        "Tháng 2",
+        "Tháng 3",
+        "Tháng 4",
+        "Tháng 5",
+        "Tháng 6",
+        "Tháng 7",
+        "Tháng 8",
+        "Tháng 9",
+        "Tháng 10",
+        "Tháng 11",
+        "Tháng 12"
     };
   }
 

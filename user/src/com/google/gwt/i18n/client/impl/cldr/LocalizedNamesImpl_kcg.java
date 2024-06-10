@@ -17,12 +17,7 @@ package com.google.gwt.i18n.client.impl.cldr;
 
 import com.google.gwt.core.client.JavaScriptObject;
 
-// DO NOT EDIT - GENERATED FROM CLDR DATA:
-//  cldrVersion=21.0
-//  number=$Revision: 5798 $
-//  type=root
-//  date=$Date: 2011-05-02 02:05:34 -0400 (Mon, 02 May 2011) $
-
+// DO NOT EDIT - GENERATED FROM CLDR DATA
 
 /**
  * Localized names for the "kcg" locale.
@@ -83,6 +78,7 @@ public class LocalizedNamesImpl_kcg extends LocalizedNamesImpl {
         "CN",
         "CO",
         "CP",
+        "CQ",
         "CR",
         "CU",
         "CV",
@@ -106,6 +102,7 @@ public class LocalizedNamesImpl_kcg extends LocalizedNamesImpl {
         "ES",
         "ET",
         "EU",
+        "EZ",
         "FI",
         "FJ",
         "FK",
@@ -272,6 +269,7 @@ public class LocalizedNamesImpl_kcg extends LocalizedNamesImpl {
         "UA",
         "UG",
         "UM",
+        "UN",
         "US",
         "UY",
         "UZ",
@@ -284,6 +282,9 @@ public class LocalizedNamesImpl_kcg extends LocalizedNamesImpl {
         "VU",
         "WF",
         "WS",
+        "XA",
+        "XB",
+        "XK",
         "YE",
         "YT",
         "ZA",

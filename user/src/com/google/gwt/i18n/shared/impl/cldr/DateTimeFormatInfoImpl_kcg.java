@@ -14,17 +14,17 @@
  * the License.
  */
 package com.google.gwt.i18n.shared.impl.cldr;
-
 // DO NOT EDIT - GENERATED FROM CLDR AND ICU DATA
-//  cldrVersion=21.0
-//  number=$Revision: 5798 $
-//  type=root
-//  date=$Date: 2011-05-02 02:05:34 -0400 (Mon, 02 May 2011) $
 
 /**
  * Implementation of DateTimeFormatInfo for the "kcg" locale.
  */
 public class DateTimeFormatInfoImpl_kcg extends DateTimeFormatInfoImpl {
+
+  @Override
+  public String dateFormatFull() {
+    return "EEEE, y MMMM dd";
+  }
 
   @Override
   public String dateFormatShort() {
@@ -45,6 +45,16 @@ public class DateTimeFormatInfoImpl_kcg extends DateTimeFormatInfoImpl {
         "GM",
         "M"
     };
+  }
+
+  @Override
+  public String formatHour12Minute() {
+    return "h:mm a";
+  }
+
+  @Override
+  public String formatHour12MinuteSecond() {
+    return "h:mm:ss a";
   }
 
   @Override
@@ -176,19 +186,6 @@ public class DateTimeFormatInfoImpl_kcg extends DateTimeFormatInfoImpl {
         "Lamit",
         "Juma",
         "Asabat"
-    };
-  }
-
-  @Override
-  public String[] weekdaysNarrow() {
-    return new String[] {
-        "1",
-        "2",
-        "3",
-        "4",
-        "5",
-        "6",
-        "7"
     };
   }
 

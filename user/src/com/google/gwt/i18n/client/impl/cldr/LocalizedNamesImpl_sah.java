@@ -74,6 +74,7 @@ public class LocalizedNamesImpl_sah extends LocalizedNamesImpl {
         "CM",
         "CO",
         "CP",
+        "CQ",
         "CR",
         "CV",
         "CW",

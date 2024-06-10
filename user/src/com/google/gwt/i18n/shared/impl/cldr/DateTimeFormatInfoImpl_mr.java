@@ -22,14 +22,6 @@ package com.google.gwt.i18n.shared.impl.cldr;
 public class DateTimeFormatInfoImpl_mr extends DateTimeFormatInfoImpl {
 
   @Override
-  public String[] ampms() {
-    return new String[] {
-        "म.पू.",
-        "म.उ."
-    };
-  }
-
-  @Override
   public String dateFormatFull() {
     return "EEEE, d MMMM, y";
   }
@@ -51,12 +43,12 @@ public class DateTimeFormatInfoImpl_mr extends DateTimeFormatInfoImpl {
 
   @Override
   public String dateTimeFull(String timePattern, String datePattern) {
-    return datePattern + " रोजी " + timePattern;
+    return datePattern + ", " + timePattern;
   }
 
   @Override
   public String dateTimeLong(String timePattern, String datePattern) {
-    return datePattern + " रोजी " + timePattern;
+    return datePattern + ", " + timePattern;
   }
 
   @Override
@@ -80,7 +72,7 @@ public class DateTimeFormatInfoImpl_mr extends DateTimeFormatInfoImpl {
   @Override
   public String[] erasShort() {
     return new String[] {
-        "इ. स. पू.",
+        "ई. स. पू.",
         "इ. स."
     };
   }

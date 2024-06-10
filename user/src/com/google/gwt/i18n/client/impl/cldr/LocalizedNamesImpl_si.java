@@ -34,8 +34,7 @@ public class LocalizedNamesImpl_si extends LocalizedNamesImpl {
   @Override
   public String[] loadSortedRegionCodes() {
     return new String[] {
-        "XA",
-        "XB",
+        "CQ",
         "IE",
         "IM",
         "IS",
@@ -67,6 +66,7 @@ public class LocalizedNamesImpl_si extends LocalizedNamesImpl {
         "UG",
         "KP",
         "MP",
+        "MK",
         "UY",
         "UZ",
         "AE",
@@ -77,6 +77,7 @@ public class LocalizedNamesImpl_si extends LocalizedNamesImpl {
         "ER",
         "SV",
         "EE",
+        "SZ",
         "AT",
         "OM",
         "AX",
@@ -100,8 +101,8 @@ public class LocalizedNamesImpl_si extends LocalizedNamesImpl {
         "KE",
         "CV",
         "KY",
-        "CD",
         "CG",
+        "CD",
         "CC",
         "KM",
         "CR",
@@ -206,7 +207,6 @@ public class LocalizedNamesImpl_si extends LocalizedNamesImpl {
         "BA",
         "BN",
         "BT",
-        "MO",
         "CF",
         "FM",
         "YT",
@@ -215,9 +215,9 @@ public class LocalizedNamesImpl_si extends LocalizedNamesImpl {
         "MV",
         "ML",
         "MH",
+        "MO",
         "MG",
         "MY",
-        "MK",
         "MM",
         "MU",
         "MX",
@@ -249,6 +249,8 @@ public class LocalizedNamesImpl_si extends LocalizedNamesImpl {
         "LS",
         "VA",
         "VU",
+        "XA",
+        "XB",
         "WF",
         "VN",
         "VE",
@@ -267,7 +269,6 @@ public class LocalizedNamesImpl_si extends LocalizedNamesImpl {
         "ES",
         "SK",
         "SI",
-        "SZ",
         "CH",
         "SE",
         "SJ",
@@ -373,7 +374,7 @@ public class LocalizedNamesImpl_si extends LocalizedNamesImpl {
     namesMap.put("BZ", "බෙලීස්");
     namesMap.put("CA", "කැනඩාව");
     namesMap.put("CC", "කොකෝස් දූපත්");
-    namesMap.put("CD", "කොංගො - කින්ශාසා");
+    namesMap.put("CD", "කොංගෝව (ඩීආර්සී)");
     namesMap.put("CF", "මධ්‍යම අප්‍රිකානු ජනරජය");
     namesMap.put("CG", "කොංගො - බ්‍රසාවිල්");
     namesMap.put("CH", "ස්විස්ටර්ලන්තය");
@@ -433,7 +434,7 @@ public class LocalizedNamesImpl_si extends LocalizedNamesImpl {
     namesMap.put("GU", "ගුවාම්");
     namesMap.put("GW", "ගිනි බිසව්");
     namesMap.put("GY", "ගයනාව");
-    namesMap.put("HK", "හොංකොං චීන විශේෂ පරිපාලන කලාපය");
+    namesMap.put("HK", "හොංකොං විශේෂ පරිපාලන කලාපය චීනය");
     namesMap.put("HM", "හර්ඩ් දූපත සහ මැක්ඩොනල්ඩ් දූපත්");
     namesMap.put("HN", "හොන්ඩුරාස්");
     namesMap.put("HR", "ක්‍රොඒෂියාව");
@@ -483,11 +484,11 @@ public class LocalizedNamesImpl_si extends LocalizedNamesImpl {
     namesMap.put("MF", "ශාන්ත මාර්ටින්");
     namesMap.put("MG", "මැඩගස්කරය");
     namesMap.put("MH", "මාෂල් දූපත්");
-    namesMap.put("MK", "මැසිඩෝනියාව");
+    namesMap.put("MK", "උතුරු මැසිඩෝනියාව");
     namesMap.put("ML", "මාලි");
     namesMap.put("MM", "මියන්මාරය (බුරුමය)");
     namesMap.put("MN", "මොන්ගෝලියාව");
-    namesMap.put("MO", "මකාවු චීන විශේෂ පරිපාලන කලාපය");
+    namesMap.put("MO", "මැකාවු විශේෂ පරිපාලන කලාපය චීනය");
     namesMap.put("MP", "උතුරු මරියානා දූපත්");
     namesMap.put("MQ", "මර්ටිනික්");
     namesMap.put("MR", "මොරිටේනියාව");
@@ -553,7 +554,7 @@ public class LocalizedNamesImpl_si extends LocalizedNamesImpl {
     namesMap.put("SV", "එල් සැල්වදෝරය");
     namesMap.put("SX", "ශාන්ත මාර්ටෙන්");
     namesMap.put("SY", "සිරියාව");
-    namesMap.put("SZ", "ස්වාසිලන්තය");
+    namesMap.put("SZ", "එස්වාටිනි");
     namesMap.put("TA", "ට්‍රිස්ටන් ද කුන්හා");
     namesMap.put("TC", "ටර්ක්ස් සහ කයිකොස් දූපත්");
     namesMap.put("TD", "චැච්");
@@ -587,6 +588,8 @@ public class LocalizedNamesImpl_si extends LocalizedNamesImpl {
     namesMap.put("VU", "වනුවාටු");
     namesMap.put("WF", "වැලිස් සහ ෆුටුනා");
     namesMap.put("WS", "සැමෝවා");
+    namesMap.put("XA", "ව්‍යාජ-උච්චාරණ");
+    namesMap.put("XB", "ව්‍යාජ-බිඩි");
     namesMap.put("XK", "කොසෝවෝ");
     namesMap.put("YE", "යේමනය");
     namesMap.put("YT", "මයෝට්");
@@ -674,7 +677,7 @@ public class LocalizedNamesImpl_si extends LocalizedNamesImpl {
         "BZ": "බෙලීස්",
         "CA": "කැනඩාව",
         "CC": "කොකෝස් දූපත්",
-        "CD": "කොංගො - කින්ශාසා",
+        "CD": "කොංගෝව (ඩීආර්සී)",
         "CF": "මධ්‍යම අප්‍රිකානු ජනරජය",
         "CG": "කොංගො - බ්‍රසාවිල්",
         "CH": "ස්විස්ටර්ලන්තය",
@@ -734,7 +737,7 @@ public class LocalizedNamesImpl_si extends LocalizedNamesImpl {
         "GU": "ගුවාම්",
         "GW": "ගිනි බිසව්",
         "GY": "ගයනාව",
-        "HK": "හොංකොං චීන විශේෂ පරිපාලන කලාපය",
+        "HK": "හොංකොං විශේෂ පරිපාලන කලාපය චීනය",
         "HM": "හර්ඩ් දූපත සහ මැක්ඩොනල්ඩ් දූපත්",
         "HN": "හොන්ඩුරාස්",
         "HR": "ක්‍රොඒෂියාව",
@@ -784,11 +787,11 @@ public class LocalizedNamesImpl_si extends LocalizedNamesImpl {
         "MF": "ශාන්ත මාර්ටින්",
         "MG": "මැඩගස්කරය",
         "MH": "මාෂල් දූපත්",
-        "MK": "මැසිඩෝනියාව",
+        "MK": "උතුරු මැසිඩෝනියාව",
         "ML": "මාලි",
         "MM": "මියන්මාරය (බුරුමය)",
         "MN": "මොන්ගෝලියාව",
-        "MO": "මකාවු චීන විශේෂ පරිපාලන කලාපය",
+        "MO": "මැකාවු විශේෂ පරිපාලන කලාපය චීනය",
         "MP": "උතුරු මරියානා දූපත්",
         "MQ": "මර්ටිනික්",
         "MR": "මොරිටේනියාව",
@@ -854,7 +857,7 @@ public class LocalizedNamesImpl_si extends LocalizedNamesImpl {
         "SV": "එල් සැල්වදෝරය",
         "SX": "ශාන්ත මාර්ටෙන්",
         "SY": "සිරියාව",
-        "SZ": "ස්වාසිලන්තය",
+        "SZ": "එස්වාටිනි",
         "TA": "ට්‍රිස්ටන් ද කුන්හා",
         "TC": "ටර්ක්ස් සහ කයිකොස් දූපත්",
         "TD": "චැච්",
@@ -888,6 +891,8 @@ public class LocalizedNamesImpl_si extends LocalizedNamesImpl {
         "VU": "වනුවාටු",
         "WF": "වැලිස් සහ ෆුටුනා",
         "WS": "සැමෝවා",
+        "XA": "ව්‍යාජ-උච්චාරණ",
+        "XB": "ව්‍යාජ-බිඩි",
         "XK": "කොසෝවෝ",
         "YE": "යේමනය",
         "YT": "මයෝට්",

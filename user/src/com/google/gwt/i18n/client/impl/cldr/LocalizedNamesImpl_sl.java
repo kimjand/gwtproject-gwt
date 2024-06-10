@@ -66,10 +66,10 @@ public class LocalizedNamesImpl_sl extends LocalizedNamesImpl {
         "BF",
         "BI",
         "BT",
-        "CF",
         "EA",
         "CY",
         "CK",
+        "CQ",
         "CW",
         "TD",
         "CZ",
@@ -86,6 +86,7 @@ public class LocalizedNamesImpl_sl extends LocalizedNamesImpl {
         "GQ",
         "ER",
         "EE",
+        "SZ",
         "ET",
         "EZ",
         "EU",
@@ -164,7 +165,6 @@ public class LocalizedNamesImpl_sl extends LocalizedNamesImpl {
         "LU",
         "MG",
         "HU",
-        "MK",
         "MW",
         "MV",
         "MY",
@@ -217,6 +217,8 @@ public class LocalizedNamesImpl_sl extends LocalizedNamesImpl {
         "PT",
         "HK",
         "MO",
+        "XB",
+        "XA",
         "RE",
         "RO",
         "RW",
@@ -236,6 +238,7 @@ public class LocalizedNamesImpl_sl extends LocalizedNamesImpl {
         "SC",
         "SN",
         "KP",
+        "MK",
         "MP",
         "SL",
         "SG",
@@ -246,11 +249,11 @@ public class LocalizedNamesImpl_sl extends LocalizedNamesImpl {
         "SI",
         "SO",
         "RS",
+        "CF",
         "UM",
         "SD",
         "SR",
         "SJ",
-        "SZ",
         "SH",
         "ES",
         "LK",
@@ -279,8 +282,6 @@ public class LocalizedNamesImpl_sl extends LocalizedNamesImpl {
         "VE",
         "VN",
         "WF",
-        "XA",
-        "XB",
         "EH",
         "ZM",
         "US",
@@ -359,7 +360,7 @@ public class LocalizedNamesImpl_sl extends LocalizedNamesImpl {
     namesMap.put("CA", "Kanada");
     namesMap.put("CC", "Kokosovi otoki");
     namesMap.put("CD", "Demokratična republika Kongo");
-    namesMap.put("CF", "Centralnoafriška republika");
+    namesMap.put("CF", "Srednjeafriška republika");
     namesMap.put("CG", "Kongo - Brazzaville");
     namesMap.put("CH", "Švica");
     namesMap.put("CI", "Slonokoščena obala");
@@ -410,7 +411,7 @@ public class LocalizedNamesImpl_sl extends LocalizedNamesImpl {
     namesMap.put("GT", "Gvatemala");
     namesMap.put("GW", "Gvineja Bissau");
     namesMap.put("GY", "Gvajana");
-    namesMap.put("HK", "Posebno administrativno območje LR Kitajske Hongkong");
+    namesMap.put("HK", "Posebno upravno območje Ljudske republike Kitajske Hongkong");
     namesMap.put("HM", "Heardov otok in McDonaldovi otoki");
     namesMap.put("HR", "Hrvaška");
     namesMap.put("HU", "Madžarska");
@@ -454,10 +455,10 @@ public class LocalizedNamesImpl_sl extends LocalizedNamesImpl {
     namesMap.put("MF", "Saint Martin");
     namesMap.put("MG", "Madagaskar");
     namesMap.put("MH", "Marshallovi otoki");
-    namesMap.put("MK", "Makedonija");
+    namesMap.put("MK", "Severna Makedonija");
     namesMap.put("MM", "Mjanmar (Burma)");
     namesMap.put("MN", "Mongolija");
-    namesMap.put("MO", "Posebno administrativno območje LR Kitajske Macao");
+    namesMap.put("MO", "Posebno upravno območje Ljudske republike Kitajske Macao");
     namesMap.put("MP", "Severni Marianski otoki");
     namesMap.put("MQ", "Martinik");
     namesMap.put("MR", "Mavretanija");
@@ -506,7 +507,7 @@ public class LocalizedNamesImpl_sl extends LocalizedNamesImpl {
     namesMap.put("ST", "Sao Tome in Principe");
     namesMap.put("SV", "Salvador");
     namesMap.put("SY", "Sirija");
-    namesMap.put("SZ", "Svazi");
+    namesMap.put("SZ", "Esvatini");
     namesMap.put("TC", "Otoki Turks in Caicos");
     namesMap.put("TD", "Čad");
     namesMap.put("TF", "Francosko južno ozemlje");
@@ -527,6 +528,8 @@ public class LocalizedNamesImpl_sl extends LocalizedNamesImpl {
     namesMap.put("VG", "Britanski Deviški otoki");
     namesMap.put("VI", "Ameriški Deviški otoki");
     namesMap.put("WF", "Wallis in Futuna");
+    namesMap.put("XA", "psevdonaglasi");
+    namesMap.put("XB", "psevdobidi");
     namesMap.put("YE", "Jemen");
     namesMap.put("ZA", "Južnoafriška republika");
     namesMap.put("ZM", "Zambija");
@@ -605,7 +608,7 @@ public class LocalizedNamesImpl_sl extends LocalizedNamesImpl {
         "CA": "Kanada",
         "CC": "Kokosovi otoki",
         "CD": "Demokratična republika Kongo",
-        "CF": "Centralnoafriška republika",
+        "CF": "Srednjeafriška republika",
         "CG": "Kongo - Brazzaville",
         "CH": "Švica",
         "CI": "Slonokoščena obala",
@@ -656,7 +659,7 @@ public class LocalizedNamesImpl_sl extends LocalizedNamesImpl {
         "GT": "Gvatemala",
         "GW": "Gvineja Bissau",
         "GY": "Gvajana",
-        "HK": "Posebno administrativno območje LR Kitajske Hongkong",
+        "HK": "Posebno upravno območje Ljudske republike Kitajske Hongkong",
         "HM": "Heardov otok in McDonaldovi otoki",
         "HR": "Hrvaška",
         "HU": "Madžarska",
@@ -700,10 +703,10 @@ public class LocalizedNamesImpl_sl extends LocalizedNamesImpl {
         "MF": "Saint Martin",
         "MG": "Madagaskar",
         "MH": "Marshallovi otoki",
-        "MK": "Makedonija",
+        "MK": "Severna Makedonija",
         "MM": "Mjanmar (Burma)",
         "MN": "Mongolija",
-        "MO": "Posebno administrativno območje LR Kitajske Macao",
+        "MO": "Posebno upravno območje Ljudske republike Kitajske Macao",
         "MP": "Severni Marianski otoki",
         "MQ": "Martinik",
         "MR": "Mavretanija",
@@ -752,7 +755,7 @@ public class LocalizedNamesImpl_sl extends LocalizedNamesImpl {
         "ST": "Sao Tome in Principe",
         "SV": "Salvador",
         "SY": "Sirija",
-        "SZ": "Svazi",
+        "SZ": "Esvatini",
         "TC": "Otoki Turks in Caicos",
         "TD": "Čad",
         "TF": "Francosko južno ozemlje",
@@ -773,6 +776,8 @@ public class LocalizedNamesImpl_sl extends LocalizedNamesImpl {
         "VG": "Britanski Deviški otoki",
         "VI": "Ameriški Deviški otoki",
         "WF": "Wallis in Futuna",
+        "XA": "psevdonaglasi",
+        "XB": "psevdobidi",
         "YE": "Jemen",
         "ZA": "Južnoafriška republika",
         "ZM": "Zambija",

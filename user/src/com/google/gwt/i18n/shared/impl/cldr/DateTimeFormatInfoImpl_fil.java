@@ -43,12 +43,12 @@ public class DateTimeFormatInfoImpl_fil extends DateTimeFormatInfoImpl {
 
   @Override
   public String dateTimeFull(String timePattern, String datePattern) {
-    return datePattern + " 'nang' " + timePattern;
+    return datePattern + ", " + timePattern;
   }
 
   @Override
   public String dateTimeLong(String timePattern, String datePattern) {
-    return datePattern + " 'nang' " + timePattern;
+    return datePattern + ", " + timePattern;
   }
 
   @Override
@@ -64,6 +64,16 @@ public class DateTimeFormatInfoImpl_fil extends DateTimeFormatInfoImpl {
   @Override
   public int firstDayOfTheWeek() {
     return 0;
+  }
+
+  @Override
+  public String formatHour12Minute() {
+    return "h:mm a";
+  }
+
+  @Override
+  public String formatHour12MinuteSecond() {
+    return "h:mm:ss a";
   }
 
   @Override
@@ -205,22 +215,22 @@ public class DateTimeFormatInfoImpl_fil extends DateTimeFormatInfoImpl {
 
   @Override
   public String timeFormatFull() {
-    return "h:mm:ss a zzzz";
+    return "h:mm:ss a zzzz";
   }
 
   @Override
   public String timeFormatLong() {
-    return "h:mm:ss a z";
+    return "h:mm:ss a z";
   }
 
   @Override
   public String timeFormatMedium() {
-    return "h:mm:ss a";
+    return "h:mm:ss a";
   }
 
   @Override
   public String timeFormatShort() {
-    return "h:mm a";
+    return "h:mm a";
   }
 
   @Override
@@ -239,13 +249,13 @@ public class DateTimeFormatInfoImpl_fil extends DateTimeFormatInfoImpl {
   @Override
   public String[] weekdaysNarrow() {
     return new String[] {
-        "Lin",
-        "Lun",
-        "Mar",
-        "Miy",
-        "Huw",
-        "Biy",
-        "Sab"
+        "Li",
+        "Lu",
+        "Ma",
+        "Mi",
+        "Hu",
+        "Bi",
+        "Sa"
     };
   }
 

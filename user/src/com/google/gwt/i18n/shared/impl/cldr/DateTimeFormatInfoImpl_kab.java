@@ -24,8 +24,8 @@ public class DateTimeFormatInfoImpl_kab extends DateTimeFormatInfoImpl {
   @Override
   public String[] ampms() {
     return new String[] {
-        "n tufat",
-        "n tmeddit"
+        "n tufat",
+        "n tmeddit"
     };
   }
 
@@ -51,12 +51,12 @@ public class DateTimeFormatInfoImpl_kab extends DateTimeFormatInfoImpl {
 
   @Override
   public String dateTimeFull(String timePattern, String datePattern) {
-    return datePattern + " 'af' " + timePattern;
+    return datePattern + ", " + timePattern;
   }
 
   @Override
   public String dateTimeLong(String timePattern, String datePattern) {
-    return datePattern + " 'af' " + timePattern;
+    return datePattern + ", " + timePattern;
   }
 
   @Override
@@ -88,6 +88,16 @@ public class DateTimeFormatInfoImpl_kab extends DateTimeFormatInfoImpl {
   @Override
   public int firstDayOfTheWeek() {
     return 6;
+  }
+
+  @Override
+  public String formatHour12Minute() {
+    return "h:mm a";
+  }
+
+  @Override
+  public String formatHour12MinuteSecond() {
+    return "h:mm:ss a";
   }
 
   @Override
@@ -151,11 +161,6 @@ public class DateTimeFormatInfoImpl_kab extends DateTimeFormatInfoImpl {
   }
 
   @Override
-  public String formatYearMonthNumDay() {
-    return "d/M/y";
-  }
-
-  @Override
   public String formatYearMonthWeekdayDay() {
     return "EEE d MMM y";
   }
@@ -189,36 +194,18 @@ public class DateTimeFormatInfoImpl_kab extends DateTimeFormatInfoImpl {
   }
 
   @Override
-  public String[] monthsFullStandalone() {
-    return new String[] {
-        "Yennayer",
-        "Fuṛar",
-        "Meɣres",
-        "Yebrir",
-        "Mayyu",
-        "Yunyu",
-        "Yulyu",
-        "Ɣuct",
-        "Ctembeṛ",
-        "Tubeṛ",
-        "Wambeṛ",
-        "Duǧembeṛ"
-    };
-  }
-
-  @Override
   public String[] monthsNarrow() {
     return new String[] {
         "Y",
         "F",
-        "Ɣ",
-        "B",
         "M",
-        "N",
-        "L",
+        "Y",
+        "M",
+        "Y",
+        "Y",
+        "Ɣ",
         "C",
         "T",
-        "R",
         "W",
         "D"
     };
@@ -274,7 +261,7 @@ public class DateTimeFormatInfoImpl_kab extends DateTimeFormatInfoImpl {
         "Cte",
         "Tub",
         "Wam",
-        "Duj"
+        "Duǧ"
     };
   }
 
@@ -300,22 +287,22 @@ public class DateTimeFormatInfoImpl_kab extends DateTimeFormatInfoImpl {
 
   @Override
   public String timeFormatFull() {
-    return "h:mm:ss a zzzz";
+    return "h:mm:ss a zzzz";
   }
 
   @Override
   public String timeFormatLong() {
-    return "h:mm:ss a z";
+    return "h:mm:ss a z";
   }
 
   @Override
   public String timeFormatMedium() {
-    return "h:mm:ss a";
+    return "h:mm:ss a";
   }
 
   @Override
   public String timeFormatShort() {
-    return "h:mm a";
+    return "h:mm a";
   }
 
   @Override
@@ -349,11 +336,11 @@ public class DateTimeFormatInfoImpl_kab extends DateTimeFormatInfoImpl {
     return new String[] {
         "C",
         "R",
-        "A",
+        "R",
         "H",
         "M",
         "S",
-        "D"
+        "S"
     };
   }
 

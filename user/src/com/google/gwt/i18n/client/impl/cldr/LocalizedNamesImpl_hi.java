@@ -34,8 +34,7 @@ public class LocalizedNamesImpl_hi extends LocalizedNamesImpl {
   @Override
   public String[] loadSortedRegionCodes() {
     return new String[] {
-        "XA",
-        "XB",
+        "CQ",
         "AO",
         "AQ",
         "AZ",
@@ -63,6 +62,7 @@ public class LocalizedNamesImpl_hi extends LocalizedNamesImpl {
         "IR",
         "UZ",
         "KP",
+        "MK",
         "MP",
         "UY",
         "AI",
@@ -70,6 +70,7 @@ public class LocalizedNamesImpl_hi extends LocalizedNamesImpl {
         "AD",
         "AX",
         "EE",
+        "SZ",
         "OM",
         "AT",
         "AU",
@@ -81,6 +82,7 @@ public class LocalizedNamesImpl_hi extends LocalizedNamesImpl {
         "KI",
         "KG",
         "CK",
+        "CW",
         "KW",
         "KE",
         "CV",
@@ -95,7 +97,6 @@ public class LocalizedNamesImpl_hi extends LocalizedNamesImpl {
         "XK",
         "CR",
         "CU",
-        "CW",
         "CX",
         "HR",
         "CP",
@@ -205,7 +206,6 @@ public class LocalizedNamesImpl_hi extends LocalizedNamesImpl {
         "IN",
         "BT",
         "MN",
-        "MK",
         "MO",
         "CF",
         "MW",
@@ -270,6 +270,8 @@ public class LocalizedNamesImpl_hi extends LocalizedNamesImpl {
         "SL",
         "SY",
         "SD",
+        "XA",
+        "XB",
         "SR",
         "KN",
         "PM",
@@ -287,7 +289,6 @@ public class LocalizedNamesImpl_hi extends LocalizedNamesImpl {
         "ES",
         "SK",
         "SI",
-        "SZ",
         "SJ",
         "CH",
         "SE",
@@ -377,7 +378,7 @@ public class LocalizedNamesImpl_hi extends LocalizedNamesImpl {
     namesMap.put("CF", "मध्य अफ़्रीकी गणराज्य");
     namesMap.put("CG", "कांगो – ब्राज़ाविल");
     namesMap.put("CH", "स्विट्ज़रलैंड");
-    namesMap.put("CI", "कोट डी आइवर");
+    namesMap.put("CI", "कोत दिवुआर");
     namesMap.put("CK", "कुक द्वीपसमूह");
     namesMap.put("CL", "चिली");
     namesMap.put("CM", "कैमरून");
@@ -387,7 +388,7 @@ public class LocalizedNamesImpl_hi extends LocalizedNamesImpl {
     namesMap.put("CR", "कोस्टारिका");
     namesMap.put("CU", "क्यूबा");
     namesMap.put("CV", "केप वर्ड");
-    namesMap.put("CW", "क्यूरासाओ");
+    namesMap.put("CW", "कुरासाओ");
     namesMap.put("CX", "क्रिसमस द्वीप");
     namesMap.put("CY", "साइप्रस");
     namesMap.put("CZ", "चेकिया");
@@ -483,7 +484,7 @@ public class LocalizedNamesImpl_hi extends LocalizedNamesImpl {
     namesMap.put("MF", "सेंट मार्टिन");
     namesMap.put("MG", "मेडागास्कर");
     namesMap.put("MH", "मार्शल द्वीपसमूह");
-    namesMap.put("MK", "मकदूनिया");
+    namesMap.put("MK", "उत्तरी मकदूनिया");
     namesMap.put("ML", "माली");
     namesMap.put("MM", "म्यांमार (बर्मा)");
     namesMap.put("MN", "मंगोलिया");
@@ -553,20 +554,20 @@ public class LocalizedNamesImpl_hi extends LocalizedNamesImpl {
     namesMap.put("SV", "अल सल्वाडोर");
     namesMap.put("SX", "सिंट मार्टिन");
     namesMap.put("SY", "सीरिया");
-    namesMap.put("SZ", "स्वाज़ीलैंड");
+    namesMap.put("SZ", "एस्वाटिनी");
     namesMap.put("TA", "ट्रिस्टन दा कुना");
     namesMap.put("TC", "तुर्क और कैकोज़ द्वीपसमूह");
     namesMap.put("TD", "चाड");
     namesMap.put("TF", "फ़्रांसीसी दक्षिणी क्षेत्र");
     namesMap.put("TG", "टोगो");
     namesMap.put("TH", "थाईलैंड");
-    namesMap.put("TJ", "ताज़िकिस्तान");
+    namesMap.put("TJ", "ताजिकिस्तान");
     namesMap.put("TK", "तोकेलाउ");
     namesMap.put("TL", "तिमोर-लेस्त");
     namesMap.put("TM", "तुर्कमेनिस्तान");
     namesMap.put("TN", "ट्यूनीशिया");
     namesMap.put("TO", "टोंगा");
-    namesMap.put("TR", "तुर्की");
+    namesMap.put("TR", "तुर्किये");
     namesMap.put("TT", "त्रिनिदाद और टोबैगो");
     namesMap.put("TV", "तुवालू");
     namesMap.put("TW", "ताइवान");
@@ -587,6 +588,8 @@ public class LocalizedNamesImpl_hi extends LocalizedNamesImpl {
     namesMap.put("VU", "वनुआतू");
     namesMap.put("WF", "वालिस और फ़्यूचूना");
     namesMap.put("WS", "समोआ");
+    namesMap.put("XA", "सूडो-एक्सेंट");
+    namesMap.put("XB", "सूडो-बायडायरेक्शनल");
     namesMap.put("XK", "कोसोवो");
     namesMap.put("YE", "यमन");
     namesMap.put("YT", "मायोते");
@@ -678,7 +681,7 @@ public class LocalizedNamesImpl_hi extends LocalizedNamesImpl {
         "CF": "मध्य अफ़्रीकी गणराज्य",
         "CG": "कांगो – ब्राज़ाविल",
         "CH": "स्विट्ज़रलैंड",
-        "CI": "कोट डी आइवर",
+        "CI": "कोत दिवुआर",
         "CK": "कुक द्वीपसमूह",
         "CL": "चिली",
         "CM": "कैमरून",
@@ -688,7 +691,7 @@ public class LocalizedNamesImpl_hi extends LocalizedNamesImpl {
         "CR": "कोस्टारिका",
         "CU": "क्यूबा",
         "CV": "केप वर्ड",
-        "CW": "क्यूरासाओ",
+        "CW": "कुरासाओ",
         "CX": "क्रिसमस द्वीप",
         "CY": "साइप्रस",
         "CZ": "चेकिया",
@@ -784,7 +787,7 @@ public class LocalizedNamesImpl_hi extends LocalizedNamesImpl {
         "MF": "सेंट मार्टिन",
         "MG": "मेडागास्कर",
         "MH": "मार्शल द्वीपसमूह",
-        "MK": "मकदूनिया",
+        "MK": "उत्तरी मकदूनिया",
         "ML": "माली",
         "MM": "म्यांमार (बर्मा)",
         "MN": "मंगोलिया",
@@ -854,20 +857,20 @@ public class LocalizedNamesImpl_hi extends LocalizedNamesImpl {
         "SV": "अल सल्वाडोर",
         "SX": "सिंट मार्टिन",
         "SY": "सीरिया",
-        "SZ": "स्वाज़ीलैंड",
+        "SZ": "एस्वाटिनी",
         "TA": "ट्रिस्टन दा कुना",
         "TC": "तुर्क और कैकोज़ द्वीपसमूह",
         "TD": "चाड",
         "TF": "फ़्रांसीसी दक्षिणी क्षेत्र",
         "TG": "टोगो",
         "TH": "थाईलैंड",
-        "TJ": "ताज़िकिस्तान",
+        "TJ": "ताजिकिस्तान",
         "TK": "तोकेलाउ",
         "TL": "तिमोर-लेस्त",
         "TM": "तुर्कमेनिस्तान",
         "TN": "ट्यूनीशिया",
         "TO": "टोंगा",
-        "TR": "तुर्की",
+        "TR": "तुर्किये",
         "TT": "त्रिनिदाद और टोबैगो",
         "TV": "तुवालू",
         "TW": "ताइवान",
@@ -888,6 +891,8 @@ public class LocalizedNamesImpl_hi extends LocalizedNamesImpl {
         "VU": "वनुआतू",
         "WF": "वालिस और फ़्यूचूना",
         "WS": "समोआ",
+        "XA": "सूडो-एक्सेंट",
+        "XB": "सूडो-बायडायरेक्शनल",
         "XK": "कोसोवो",
         "YE": "यमन",
         "YT": "मायोते",

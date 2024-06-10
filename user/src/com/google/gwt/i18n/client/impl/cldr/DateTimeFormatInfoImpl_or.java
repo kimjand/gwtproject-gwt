@@ -43,12 +43,12 @@ public class DateTimeFormatInfoImpl_or extends DateTimeFormatInfoImpl {
 
   @Override
   public String dateTimeFull(String timePattern, String datePattern) {
-    return timePattern + " ଠାରେ " + datePattern;
+    return datePattern + ", " + timePattern;
   }
 
   @Override
   public String dateTimeLong(String timePattern, String datePattern) {
-    return timePattern + " ଠାରେ " + datePattern;
+    return datePattern + ", " + timePattern;
   }
 
   @Override

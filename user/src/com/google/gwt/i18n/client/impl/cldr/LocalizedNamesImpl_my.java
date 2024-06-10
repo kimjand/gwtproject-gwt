@@ -34,8 +34,7 @@ public class LocalizedNamesImpl_my extends LocalizedNamesImpl {
   @Override
   public String[] loadSortedRegionCodes() {
     return new String[] {
-        "XA",
-        "XB",
+        "CQ",
         "KE",
         "CM",
         "CA",
@@ -92,6 +91,7 @@ public class LocalizedNamesImpl_my extends LocalizedNamesImpl {
         "SG",
         "ES",
         "SJ",
+        "XB",
         "KN",
         "PM",
         "VC",
@@ -150,6 +150,7 @@ public class LocalizedNamesImpl_my extends LocalizedNamesImpl {
         "NL",
         "NE",
         "NG",
+        "XA",
         "NI",
         "NP",
         "NU",
@@ -204,7 +205,6 @@ public class LocalizedNamesImpl_my extends LocalizedNamesImpl {
         "BW",
         "MO",
         "MX",
-        "MK",
         "MG",
         "IM",
         "MY",
@@ -226,6 +226,7 @@ public class LocalizedNamesImpl_my extends LocalizedNamesImpl {
         "MM",
         "KP",
         "MP",
+        "MK",
         "MN",
         "ME",
         "YE",
@@ -472,7 +473,7 @@ public class LocalizedNamesImpl_my extends LocalizedNamesImpl {
     namesMap.put("LK", "သီရိလင်္ကာ");
     namesMap.put("LR", "လိုက်ဘေးရီးယား");
     namesMap.put("LS", "လီဆိုသို");
-    namesMap.put("LT", "လစ်သူယေးနီးယား");
+    namesMap.put("LT", "လစ်သူဝေးနီးယား");
     namesMap.put("LU", "လူဇင်ဘတ်");
     namesMap.put("LV", "လတ်ဗီးယား");
     namesMap.put("LY", "လစ်ဗျား");
@@ -483,7 +484,7 @@ public class LocalizedNamesImpl_my extends LocalizedNamesImpl {
     namesMap.put("MF", "စိန့်မာတင်");
     namesMap.put("MG", "မဒါဂတ်စကား");
     namesMap.put("MH", "မာရှယ် ကျွန်းစု");
-    namesMap.put("MK", "မက်ဆီဒိုးနီးယား");
+    namesMap.put("MK", "မြောက် မက်ဆီဒိုးနီးယား");
     namesMap.put("ML", "မာလီ");
     namesMap.put("MM", "မြန်မာ");
     namesMap.put("MN", "မွန်ဂိုးလီးယား");
@@ -587,6 +588,8 @@ public class LocalizedNamesImpl_my extends LocalizedNamesImpl {
     namesMap.put("VU", "ဗနွားတူ");
     namesMap.put("WF", "ဝေါလစ်နှင့် ဖူကျူးနား");
     namesMap.put("WS", "ဆမိုးအား");
+    namesMap.put("XA", "နိုင်ငံခြားသံ");
+    namesMap.put("XB", "စာပြောင်းပြန်");
     namesMap.put("XK", "ကိုဆိုဗို");
     namesMap.put("YE", "ယီမင်");
     namesMap.put("YT", "မေယော့");
@@ -773,7 +776,7 @@ public class LocalizedNamesImpl_my extends LocalizedNamesImpl {
         "LK": "သီရိလင်္ကာ",
         "LR": "လိုက်ဘေးရီးယား",
         "LS": "လီဆိုသို",
-        "LT": "လစ်သူယေးနီးယား",
+        "LT": "လစ်သူဝေးနီးယား",
         "LU": "လူဇင်ဘတ်",
         "LV": "လတ်ဗီးယား",
         "LY": "လစ်ဗျား",
@@ -784,7 +787,7 @@ public class LocalizedNamesImpl_my extends LocalizedNamesImpl {
         "MF": "စိန့်မာတင်",
         "MG": "မဒါဂတ်စကား",
         "MH": "မာရှယ် ကျွန်းစု",
-        "MK": "မက်ဆီဒိုးနီးယား",
+        "MK": "မြောက် မက်ဆီဒိုးနီးယား",
         "ML": "မာလီ",
         "MM": "မြန်မာ",
         "MN": "မွန်ဂိုးလီးယား",
@@ -888,6 +891,8 @@ public class LocalizedNamesImpl_my extends LocalizedNamesImpl {
         "VU": "ဗနွားတူ",
         "WF": "ဝေါလစ်နှင့် ဖူကျူးနား",
         "WS": "ဆမိုးအား",
+        "XA": "နိုင်ငံခြားသံ",
+        "XB": "စာပြောင်းပြန်",
         "XK": "ကိုဆိုဗို",
         "YE": "ယီမင်",
         "YT": "မေယော့",

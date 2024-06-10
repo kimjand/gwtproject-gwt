@@ -106,11 +106,6 @@ public class DateTimeFormatInfoImpl_gsw extends DateTimeFormatInfoImpl {
   }
 
   @Override
-  public String formatYearMonthNumDay() {
-    return "d.M.y";
-  }
-
-  @Override
   public String formatYearMonthWeekdayDay() {
     return "EEE, d. MMM y";
   }

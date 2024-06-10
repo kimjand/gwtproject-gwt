@@ -23,31 +23,31 @@ public class DateTimeFormatInfoImpl_tr_CY extends DateTimeFormatInfoImpl_tr {
 
   @Override
   public String formatHour12Minute() {
-    return "h:mm a";
+    return "h:mm a";
   }
 
   @Override
   public String formatHour12MinuteSecond() {
-    return "h:mm:ss a";
+    return "h:mm:ss a";
   }
 
   @Override
   public String timeFormatFull() {
-    return "h:mm:ss a zzzz";
+    return "h:mm:ss a zzzz";
   }
 
   @Override
   public String timeFormatLong() {
-    return "h:mm:ss a z";
+    return "h:mm:ss a z";
   }
 
   @Override
   public String timeFormatMedium() {
-    return "h:mm:ss a";
+    return "h:mm:ss a";
   }
 
   @Override
   public String timeFormatShort() {
-    return "h:mm a";
+    return "h:mm a";
   }
 }

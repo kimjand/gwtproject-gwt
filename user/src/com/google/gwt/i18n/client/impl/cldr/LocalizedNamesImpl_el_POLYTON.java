@@ -17,12 +17,7 @@ package com.google.gwt.i18n.client.impl.cldr;
 
 import com.google.gwt.core.client.JavaScriptObject;
 
-// DO NOT EDIT - GENERATED FROM CLDR DATA:
-//  cldrVersion=21.0
-//  number=$Revision: 6444 $
-//  type=root
-//  date=$Date: 2012-01-25 16:40:58 -0500 (Wed, 25 Jan 2012) $
-
+// DO NOT EDIT - GENERATED FROM CLDR DATA
 
 /**
  * Localized names for the "el_POLYTON" locale.
@@ -32,10 +27,7 @@ public class LocalizedNamesImpl_el_POLYTON extends LocalizedNamesImpl_el {
   @Override
   public String[] loadSortedRegionCodes() {
     return new String[] {
-        "BQ",
-        "CW",
-        "SS",
-        "SX",
+        "CQ",
         "VA",
         "SH",
         "LC",
@@ -43,6 +35,7 @@ public class LocalizedNamesImpl_el_POLYTON extends LocalizedNamesImpl_el {
         "VC",
         "SM",
         "MF",
+        "SX",
         "AZ",
         "EG",
         "ET",
@@ -72,6 +65,7 @@ public class LocalizedNamesImpl_el_POLYTON extends LocalizedNamesImpl_el {
         "VN",
         "BO",
         "KP",
+        "MK",
         "BA",
         "BG",
         "BR",
@@ -104,11 +98,13 @@ public class LocalizedNamesImpl_el_POLYTON extends LocalizedNamesImpl_el {
         "SV",
         "ER",
         "EE",
+        "SZ",
+        "EZ",
         "EU",
         "ZM",
         "ZW",
-        "SZ",
         "AE",
+        "UN",
         "US",
         "GB",
         "EA",
@@ -140,9 +136,11 @@ public class LocalizedNamesImpl_el_POLYTON extends LocalizedNamesImpl_el {
         "KM",
         "CD",
         "CG",
+        "XK",
         "CR",
         "CU",
         "KW",
+        "CW",
         "HR",
         "CY",
         "LA",
@@ -169,7 +167,6 @@ public class LocalizedNamesImpl_el_POLYTON extends LocalizedNamesImpl_el {
         "MR",
         "ME",
         "MX",
-        "FX",
         "MM",
         "FM",
         "MN",
@@ -193,13 +190,14 @@ public class LocalizedNamesImpl_el_POLYTON extends LocalizedNamesImpl_el {
         "NZ",
         "NC",
         "NP",
-        "AX",
         "MP",
         "KY",
         "CC",
         "CK",
         "MH",
+        "AX",
         "WF",
+        "PN",
         "SJ",
         "SB",
         "TC",
@@ -208,9 +206,9 @@ public class LocalizedNamesImpl_el_POLYTON extends LocalizedNamesImpl_el {
         "HM",
         "AC",
         "CP",
-        "IM",
         "BV",
         "NF",
+        "IM",
         "CX",
         "NE",
         "NG",
@@ -220,10 +218,11 @@ public class LocalizedNamesImpl_el_POLYTON extends LocalizedNamesImpl_el {
         "ZA",
         "GS",
         "KR",
+        "SS",
         "DG",
         "DM",
         "NL",
-        "AN",
+        "BQ",
         "OM",
         "HN",
         "HU",
@@ -237,10 +236,8 @@ public class LocalizedNamesImpl_el_POLYTON extends LocalizedNamesImpl_el {
         "PA",
         "PG",
         "PY",
-        "MK",
         "QO",
         "PE",
-        "PN",
         "PL",
         "PT",
         "PR",
@@ -256,7 +253,6 @@ public class LocalizedNamesImpl_el_POLYTON extends LocalizedNamesImpl_el {
         "SA",
         "SN",
         "RS",
-        "CS",
         "SC",
         "SG",
         "SL",
@@ -273,6 +269,7 @@ public class LocalizedNamesImpl_el_POLYTON extends LocalizedNamesImpl_el {
         "TZ",
         "TJ",
         "JM",
+        "JE",
         "DJ",
         "TG",
         "TK",
@@ -286,12 +283,13 @@ public class LocalizedNamesImpl_el_POLYTON extends LocalizedNamesImpl_el {
         "CZ",
         "TN",
         "YE",
-        "JE",
         "PH",
         "FI",
         "FJ",
         "CL",
         "HK",
+        "XB",
+        "XA",
     };
   }
 
@@ -305,7 +303,6 @@ public class LocalizedNamesImpl_el_POLYTON extends LocalizedNamesImpl_el {
     namesMap.put("AI", "Ἀνγκουίλα");
     namesMap.put("AL", "Ἀλβανία");
     namesMap.put("AM", "Ἀρμενία");
-    namesMap.put("AN", "Ὁλλανδικὲς Ἀντίλλες");
     namesMap.put("AO", "Ἀνγκόλα");
     namesMap.put("AQ", "Ἀνταρκτική");
     namesMap.put("AR", "Ἀργεντινή");
@@ -417,7 +414,6 @@ public class LocalizedNamesImpl_el_POLYTON extends LocalizedNamesImpl_el {
         "AI": "Ἀνγκουίλα",
         "AL": "Ἀλβανία",
         "AM": "Ἀρμενία",
-        "AN": "Ὁλλανδικὲς Ἀντίλλες",
         "AO": "Ἀνγκόλα",
         "AQ": "Ἀνταρκτική",
         "AR": "Ἀργεντινή",

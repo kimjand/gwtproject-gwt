@@ -34,8 +34,7 @@ public class LocalizedNamesImpl_pa extends LocalizedNamesImpl {
   @Override
   public String[] loadSortedRegionCodes() {
     return new String[] {
-        "XA",
-        "XB",
+        "CQ",
         "AZ",
         "AF",
         "AS",
@@ -64,12 +63,14 @@ public class LocalizedNamesImpl_pa extends LocalizedNamesImpl {
         "IQ",
         "ER",
         "EE",
+        "SZ",
         "ID",
         "IR",
         "UZ",
         "UY",
         "KP",
         "MP",
+        "MK",
         "AG",
         "OM",
         "KZ",
@@ -102,6 +103,7 @@ public class LocalizedNamesImpl_pa extends LocalizedNamesImpl {
         "KH",
         "GA",
         "GG",
+        "XA",
         "GN",
         "GW",
         "GT",
@@ -218,7 +220,6 @@ public class LocalizedNamesImpl_pa extends LocalizedNamesImpl {
         "ML",
         "MM",
         "EG",
-        "MK",
         "MX",
         "MG",
         "MS",
@@ -246,6 +247,7 @@ public class LocalizedNamesImpl_pa extends LocalizedNamesImpl {
         "LR",
         "LA",
         "LV",
+        "XB",
         "LI",
         "LT",
         "LY",
@@ -260,7 +262,6 @@ public class LocalizedNamesImpl_pa extends LocalizedNamesImpl {
         "RS",
         "SK",
         "SI",
-        "SZ",
         "SJ",
         "CH",
         "SE",
@@ -483,7 +484,7 @@ public class LocalizedNamesImpl_pa extends LocalizedNamesImpl {
     namesMap.put("MF", "ਸੇਂਟ ਮਾਰਟਿਨ");
     namesMap.put("MG", "ਮੈਡਾਗਾਸਕਰ");
     namesMap.put("MH", "ਮਾਰਸ਼ਲ ਟਾਪੂ");
-    namesMap.put("MK", "ਮੈਕਡੋਨੀਆ");
+    namesMap.put("MK", "ਉੱਤਰੀ ਮੈਕਡੋਨੀਆ");
     namesMap.put("ML", "ਮਾਲੀ");
     namesMap.put("MM", "ਮਿਆਂਮਾਰ (ਬਰਮਾ)");
     namesMap.put("MN", "ਮੰਗੋਲੀਆ");
@@ -553,7 +554,7 @@ public class LocalizedNamesImpl_pa extends LocalizedNamesImpl {
     namesMap.put("SV", "ਅਲ ਸਲਵਾਡੋਰ");
     namesMap.put("SX", "ਸਿੰਟ ਮਾਰਟੀਨ");
     namesMap.put("SY", "ਸੀਰੀਆ");
-    namesMap.put("SZ", "ਸਵਾਜ਼ੀਲੈਂਡ");
+    namesMap.put("SZ", "ਇਸਵਾਤੀਨੀ");
     namesMap.put("TA", "ਟ੍ਰਿਸਟਾਨ ਦਾ ਕੁੰਹਾ");
     namesMap.put("TC", "ਟੁਰਕਸ ਅਤੇ ਕੈਕੋਸ ਟਾਪੂ");
     namesMap.put("TD", "ਚਾਡ");
@@ -587,6 +588,8 @@ public class LocalizedNamesImpl_pa extends LocalizedNamesImpl {
     namesMap.put("VU", "ਵਾਨੂਆਟੂ");
     namesMap.put("WF", "ਵਾਲਿਸ ਅਤੇ ਫੂਟੂਨਾ");
     namesMap.put("WS", "ਸਾਮੋਆ");
+    namesMap.put("XA", "ਗਲਤ-ਉਚਾਰਨ");
+    namesMap.put("XB", "ਲਿਖਤ ਦੀ ਗਲਤ ਦਿਸ਼ਾ");
     namesMap.put("XK", "ਕੋਸੋਵੋ");
     namesMap.put("YE", "ਯਮਨ");
     namesMap.put("YT", "ਮਾਯੋਟੀ");
@@ -784,7 +787,7 @@ public class LocalizedNamesImpl_pa extends LocalizedNamesImpl {
         "MF": "ਸੇਂਟ ਮਾਰਟਿਨ",
         "MG": "ਮੈਡਾਗਾਸਕਰ",
         "MH": "ਮਾਰਸ਼ਲ ਟਾਪੂ",
-        "MK": "ਮੈਕਡੋਨੀਆ",
+        "MK": "ਉੱਤਰੀ ਮੈਕਡੋਨੀਆ",
         "ML": "ਮਾਲੀ",
         "MM": "ਮਿਆਂਮਾਰ (ਬਰਮਾ)",
         "MN": "ਮੰਗੋਲੀਆ",
@@ -854,7 +857,7 @@ public class LocalizedNamesImpl_pa extends LocalizedNamesImpl {
         "SV": "ਅਲ ਸਲਵਾਡੋਰ",
         "SX": "ਸਿੰਟ ਮਾਰਟੀਨ",
         "SY": "ਸੀਰੀਆ",
-        "SZ": "ਸਵਾਜ਼ੀਲੈਂਡ",
+        "SZ": "ਇਸਵਾਤੀਨੀ",
         "TA": "ਟ੍ਰਿਸਟਾਨ ਦਾ ਕੁੰਹਾ",
         "TC": "ਟੁਰਕਸ ਅਤੇ ਕੈਕੋਸ ਟਾਪੂ",
         "TD": "ਚਾਡ",
@@ -888,6 +891,8 @@ public class LocalizedNamesImpl_pa extends LocalizedNamesImpl {
         "VU": "ਵਾਨੂਆਟੂ",
         "WF": "ਵਾਲਿਸ ਅਤੇ ਫੂਟੂਨਾ",
         "WS": "ਸਾਮੋਆ",
+        "XA": "ਗਲਤ-ਉਚਾਰਨ",
+        "XB": "ਲਿਖਤ ਦੀ ਗਲਤ ਦਿਸ਼ਾ",
         "XK": "ਕੋਸੋਵੋ",
         "YE": "ਯਮਨ",
         "YT": "ਮਾਯੋਟੀ",

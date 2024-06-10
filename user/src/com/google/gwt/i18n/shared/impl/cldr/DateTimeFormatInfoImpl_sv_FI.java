@@ -22,8 +22,33 @@ package com.google.gwt.i18n.shared.impl.cldr;
 public class DateTimeFormatInfoImpl_sv_FI extends DateTimeFormatInfoImpl_sv {
 
   @Override
-  public String dateFormatShort() {
-    return "dd-MM-y";
+  public String formatHour12Minute() {
+    return "h.mm a";
+  }
+
+  @Override
+  public String formatHour12MinuteSecond() {
+    return "h.mm.ss a";
+  }
+
+  @Override
+  public String formatHour24Minute() {
+    return "HH.mm";
+  }
+
+  @Override
+  public String formatHour24MinuteSecond() {
+    return "HH.mm.ss";
+  }
+
+  @Override
+  public String formatMinuteSecond() {
+    return "mm.ss";
+  }
+
+  @Override
+  public String formatMonthNumDay() {
+    return "d.M";
   }
 
   @Override

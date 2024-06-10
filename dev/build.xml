@@ -70,6 +70,7 @@
           <include name="objectweb/asm-9.6/asm-util-9.6.jar"/>
           <include name="guava/guava-19.0/guava-19.0-rebased.jar"/>
           <include name="icu4j/75.1/icu4j-75.1.jar"/>
+          <include name="icu4j/75.1/utilities-for-cldr-75.1.jar"/>
           <include name="jetty/jetty-9.4.44.v20210927/jetty-all-9.4.44.v20210927.jar"/>
           <include name="gson/gson-2.6.2.jar"/>
           <include name="jscomp/20160315/sourcemap-rebased.jar"/>

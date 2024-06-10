@@ -22,14 +22,6 @@ package com.google.gwt.i18n.client.impl.cldr;
 public class DateTimeFormatInfoImpl_tg extends DateTimeFormatInfoImpl {
 
   @Override
-  public String[] ampms() {
-    return new String[] {
-        "пе. чо.",
-        "па. чо."
-    };
-  }
-
-  @Override
   public String dateFormatFull() {
     return "EEEE, dd MMMM y";
   }
@@ -53,7 +45,7 @@ public class DateTimeFormatInfoImpl_tg extends DateTimeFormatInfoImpl {
   public String[] erasFull() {
     return new String[] {
         "Пеш аз милод",
-        "ПаМ"
+        "Пас аз милод"
     };
   }
 
@@ -63,6 +55,16 @@ public class DateTimeFormatInfoImpl_tg extends DateTimeFormatInfoImpl {
         "ПеМ",
         "ПаМ"
     };
+  }
+
+  @Override
+  public String formatHour12Minute() {
+    return "h:mm a";
+  }
+
+  @Override
+  public String formatHour12MinuteSecond() {
+    return "h:mm:ss a";
   }
 
   @Override

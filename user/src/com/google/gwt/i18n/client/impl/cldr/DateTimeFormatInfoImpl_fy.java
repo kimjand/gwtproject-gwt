@@ -42,16 +42,6 @@ public class DateTimeFormatInfoImpl_fy extends DateTimeFormatInfoImpl {
   }
 
   @Override
-  public String dateTimeFull(String timePattern, String datePattern) {
-    return datePattern + " 'om' " + timePattern;
-  }
-
-  @Override
-  public String dateTimeLong(String timePattern, String datePattern) {
-    return datePattern + " 'om' " + timePattern;
-  }
-
-  @Override
   public String[] erasFull() {
     return new String[] {
         "Foar Kristus",
@@ -65,6 +55,16 @@ public class DateTimeFormatInfoImpl_fy extends DateTimeFormatInfoImpl {
         "f.Kr.",
         "n.Kr."
     };
+  }
+
+  @Override
+  public String formatHour12Minute() {
+    return "h:mm a";
+  }
+
+  @Override
+  public String formatHour12MinuteSecond() {
+    return "h:mm:ss a";
   }
 
   @Override

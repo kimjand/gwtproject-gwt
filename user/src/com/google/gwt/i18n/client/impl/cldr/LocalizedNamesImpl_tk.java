@@ -78,10 +78,13 @@ public class LocalizedNamesImpl_tk extends LocalizedNamesImpl {
         "BV",
         "TD",
         "CZ",
+        "ME",
         "CL",
+        "CQ",
         "DK",
         "QO",
         "KP",
+        "MK",
         "MP",
         "DG",
         "DM",
@@ -92,6 +95,7 @@ public class LocalizedNamesImpl_tk extends LocalizedNamesImpl {
         "ER",
         "AM",
         "EE",
+        "SZ",
         "IR",
         "FO",
         "FJ",
@@ -176,7 +180,6 @@ public class LocalizedNamesImpl_tk extends LocalizedNamesImpl {
         "LU",
         "MG",
         "MO",
-        "MK",
         "MW",
         "MY",
         "MV",
@@ -196,7 +199,6 @@ public class LocalizedNamesImpl_tk extends LocalizedNamesImpl {
         "MC",
         "MN",
         "MS",
-        "ME",
         "MZ",
         "EG",
         "MM",
@@ -223,6 +225,8 @@ public class LocalizedNamesImpl_tk extends LocalizedNamesImpl {
         "PN",
         "PL",
         "PT",
+        "XB",
+        "XA",
         "PR",
         "RE",
         "CX",
@@ -255,7 +259,6 @@ public class LocalizedNamesImpl_tk extends LocalizedNamesImpl {
         "LK",
         "SD",
         "SR",
-        "SZ",
         "SE",
         "CH",
         "SL",
@@ -285,8 +288,6 @@ public class LocalizedNamesImpl_tk extends LocalizedNamesImpl {
         "VE",
         "HU",
         "VN",
-        "XA",
-        "XB",
         "JM",
         "JP",
         "YE",
@@ -462,13 +463,14 @@ public class LocalizedNamesImpl_tk extends LocalizedNamesImpl {
     namesMap.put("MA", "Marokko");
     namesMap.put("MC", "Monako");
     namesMap.put("MD", "Moldowa");
+    namesMap.put("ME", "Çernogoriýa");
     namesMap.put("MF", "Sen-Marten");
     namesMap.put("MG", "Madagaskar");
     namesMap.put("MH", "Marşall adalary");
-    namesMap.put("MK", "Makedoniýa");
-    namesMap.put("MM", "Mýanma (Burma)");
+    namesMap.put("MK", "Demirgazyk Makedoniýa");
+    namesMap.put("MM", "Mýanma (Birma)");
     namesMap.put("MN", "Mongoliýa");
-    namesMap.put("MO", "Makau AAS Hytaý");
+    namesMap.put("MO", "Makao AAS Hytaý");
     namesMap.put("MP", "Demirgazyk Mariana adalary");
     namesMap.put("MQ", "Martinika");
     namesMap.put("MR", "Mawritaniýa");
@@ -521,7 +523,6 @@ public class LocalizedNamesImpl_tk extends LocalizedNamesImpl {
     namesMap.put("SV", "Salwador");
     namesMap.put("SX", "Sint-Marten");
     namesMap.put("SY", "Siriýa");
-    namesMap.put("SZ", "Swazilend");
     namesMap.put("TA", "Tristan-da-Kunýa");
     namesMap.put("TC", "Terks we Kaýkos adalary");
     namesMap.put("TD", "Çad");
@@ -549,6 +550,8 @@ public class LocalizedNamesImpl_tk extends LocalizedNamesImpl {
     namesMap.put("VN", "Wýetnam");
     namesMap.put("VU", "Wanuatu");
     namesMap.put("WF", "Uollis we Futuna");
+    namesMap.put("XA", "psewdo-şiweler");
+    namesMap.put("XB", "psewdo-bidi");
     namesMap.put("XK", "Kosowo");
     namesMap.put("YE", "Ýemen");
     namesMap.put("YT", "Maýotta");
@@ -724,13 +727,14 @@ public class LocalizedNamesImpl_tk extends LocalizedNamesImpl {
         "MA": "Marokko",
         "MC": "Monako",
         "MD": "Moldowa",
+        "ME": "Çernogoriýa",
         "MF": "Sen-Marten",
         "MG": "Madagaskar",
         "MH": "Marşall adalary",
-        "MK": "Makedoniýa",
-        "MM": "Mýanma (Burma)",
+        "MK": "Demirgazyk Makedoniýa",
+        "MM": "Mýanma (Birma)",
         "MN": "Mongoliýa",
-        "MO": "Makau AAS Hytaý",
+        "MO": "Makao AAS Hytaý",
         "MP": "Demirgazyk Mariana adalary",
         "MQ": "Martinika",
         "MR": "Mawritaniýa",
@@ -783,7 +787,6 @@ public class LocalizedNamesImpl_tk extends LocalizedNamesImpl {
         "SV": "Salwador",
         "SX": "Sint-Marten",
         "SY": "Siriýa",
-        "SZ": "Swazilend",
         "TA": "Tristan-da-Kunýa",
         "TC": "Terks we Kaýkos adalary",
         "TD": "Çad",
@@ -811,6 +814,8 @@ public class LocalizedNamesImpl_tk extends LocalizedNamesImpl {
         "VN": "Wýetnam",
         "VU": "Wanuatu",
         "WF": "Uollis we Futuna",
+        "XA": "psewdo-şiweler",
+        "XB": "psewdo-bidi",
         "XK": "Kosowo",
         "YE": "Ýemen",
         "YT": "Maýotta",

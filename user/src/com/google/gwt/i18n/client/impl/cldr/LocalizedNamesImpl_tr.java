@@ -89,6 +89,8 @@ public class LocalizedNamesImpl_tr extends LocalizedNamesImpl {
         "CP",
         "CC",
         "CK",
+        "CI",
+        "CQ",
         "CW",
         "TD",
         "CZ",
@@ -106,13 +108,13 @@ public class LocalizedNamesImpl_tr extends LocalizedNamesImpl {
         "ER",
         "AM",
         "EE",
+        "SZ",
         "ET",
         "EZ",
         "FK",
         "FO",
         "MA",
         "FJ",
-        "CI",
         "PH",
         "PS",
         "FI",
@@ -175,6 +177,7 @@ public class LocalizedNamesImpl_tr extends LocalizedNamesImpl {
         "CR",
         "KW",
         "KP",
+        "MK",
         "MP",
         "CU",
         "LA",
@@ -188,7 +191,6 @@ public class LocalizedNamesImpl_tr extends LocalizedNamesImpl {
         "LU",
         "HU",
         "MG",
-        "MK",
         "MW",
         "MV",
         "MY",
@@ -230,6 +232,8 @@ public class LocalizedNamesImpl_tr extends LocalizedNamesImpl {
         "PL",
         "PT",
         "PR",
+        "XA",
+        "XB",
         "RE",
         "RO",
         "RW",
@@ -260,7 +264,6 @@ public class LocalizedNamesImpl_tr extends LocalizedNamesImpl {
         "SY",
         "SA",
         "SJ",
-        "SZ",
         "CL",
         "TJ",
         "TZ",
@@ -288,8 +291,6 @@ public class LocalizedNamesImpl_tr extends LocalizedNamesImpl {
         "VE",
         "VN",
         "WF",
-        "XA",
-        "XB",
         "YE",
         "NC",
         "NZ",
@@ -365,7 +366,6 @@ public class LocalizedNamesImpl_tr extends LocalizedNamesImpl {
     namesMap.put("CF", "Orta Afrika Cumhuriyeti");
     namesMap.put("CG", "Kongo - Brazavil");
     namesMap.put("CH", "İsviçre");
-    namesMap.put("CI", "Fildişi Sahili");
     namesMap.put("CK", "Cook Adaları");
     namesMap.put("CL", "Şili");
     namesMap.put("CM", "Kamerun");
@@ -374,6 +374,7 @@ public class LocalizedNamesImpl_tr extends LocalizedNamesImpl {
     namesMap.put("CP", "Clipperton Adası");
     namesMap.put("CR", "Kosta Rika");
     namesMap.put("CU", "Küba");
+    namesMap.put("CV", "Cabo Verde");
     namesMap.put("CX", "Christmas Adası");
     namesMap.put("CY", "Kıbrıs");
     namesMap.put("CZ", "Çekya");
@@ -449,7 +450,7 @@ public class LocalizedNamesImpl_tr extends LocalizedNamesImpl {
     namesMap.put("MF", "Saint Martin");
     namesMap.put("MG", "Madagaskar");
     namesMap.put("MH", "Marshall Adaları");
-    namesMap.put("MK", "Makedonya");
+    namesMap.put("MK", "Kuzey Makedonya");
     namesMap.put("MN", "Moğolistan");
     namesMap.put("MO", "Çin Makao ÖİB");
     namesMap.put("MP", "Kuzey Mariana Adaları");
@@ -481,6 +482,7 @@ public class LocalizedNamesImpl_tr extends LocalizedNamesImpl {
     namesMap.put("PT", "Portekiz");
     namesMap.put("QA", "Katar");
     namesMap.put("QO", "Uzak Okyanusya");
+    namesMap.put("RE", "Reunion");
     namesMap.put("RO", "Romanya");
     namesMap.put("RS", "Sırbistan");
     namesMap.put("RU", "Rusya");
@@ -497,9 +499,9 @@ public class LocalizedNamesImpl_tr extends LocalizedNamesImpl {
     namesMap.put("SO", "Somali");
     namesMap.put("SR", "Surinam");
     namesMap.put("SS", "Güney Sudan");
-    namesMap.put("ST", "São Tomé ve Príncipe");
+    namesMap.put("ST", "Sao Tome ve Principe");
     namesMap.put("SY", "Suriye");
-    namesMap.put("SZ", "Svaziland");
+    namesMap.put("SZ", "Esvatini");
     namesMap.put("TC", "Turks ve Caicos Adaları");
     namesMap.put("TD", "Çad");
     namesMap.put("TF", "Fransız Güney Toprakları");
@@ -507,7 +509,6 @@ public class LocalizedNamesImpl_tr extends LocalizedNamesImpl {
     namesMap.put("TJ", "Tacikistan");
     namesMap.put("TM", "Türkmenistan");
     namesMap.put("TN", "Tunus");
-    namesMap.put("TR", "Türkiye");
     namesMap.put("TT", "Trinidad ve Tobago");
     namesMap.put("TW", "Tayvan");
     namesMap.put("TZ", "Tanzanya");
@@ -521,6 +522,8 @@ public class LocalizedNamesImpl_tr extends LocalizedNamesImpl {
     namesMap.put("VG", "Britanya Virjin Adaları");
     namesMap.put("VI", "ABD Virjin Adaları");
     namesMap.put("WF", "Wallis ve Futuna");
+    namesMap.put("XA", "Psödo Aksanlar");
+    namesMap.put("XB", "Psödo Bidi");
     namesMap.put("XK", "Kosova");
     namesMap.put("ZA", "Güney Afrika");
     namesMap.put("ZM", "Zambiya");
@@ -598,7 +601,6 @@ public class LocalizedNamesImpl_tr extends LocalizedNamesImpl {
         "CF": "Orta Afrika Cumhuriyeti",
         "CG": "Kongo - Brazavil",
         "CH": "İsviçre",
-        "CI": "Fildişi Sahili",
         "CK": "Cook Adaları",
         "CL": "Şili",
         "CM": "Kamerun",
@@ -607,6 +609,7 @@ public class LocalizedNamesImpl_tr extends LocalizedNamesImpl {
         "CP": "Clipperton Adası",
         "CR": "Kosta Rika",
         "CU": "Küba",
+        "CV": "Cabo Verde",
         "CX": "Christmas Adası",
         "CY": "Kıbrıs",
         "CZ": "Çekya",
@@ -682,7 +685,7 @@ public class LocalizedNamesImpl_tr extends LocalizedNamesImpl {
         "MF": "Saint Martin",
         "MG": "Madagaskar",
         "MH": "Marshall Adaları",
-        "MK": "Makedonya",
+        "MK": "Kuzey Makedonya",
         "MN": "Moğolistan",
         "MO": "Çin Makao ÖİB",
         "MP": "Kuzey Mariana Adaları",
@@ -714,6 +717,7 @@ public class LocalizedNamesImpl_tr extends LocalizedNamesImpl {
         "PT": "Portekiz",
         "QA": "Katar",
         "QO": "Uzak Okyanusya",
+        "RE": "Reunion",
         "RO": "Romanya",
         "RS": "Sırbistan",
         "RU": "Rusya",
@@ -730,9 +734,9 @@ public class LocalizedNamesImpl_tr extends LocalizedNamesImpl {
         "SO": "Somali",
         "SR": "Surinam",
         "SS": "Güney Sudan",
-        "ST": "São Tomé ve Príncipe",
+        "ST": "Sao Tome ve Principe",
         "SY": "Suriye",
-        "SZ": "Svaziland",
+        "SZ": "Esvatini",
         "TC": "Turks ve Caicos Adaları",
         "TD": "Çad",
         "TF": "Fransız Güney Toprakları",
@@ -740,7 +744,6 @@ public class LocalizedNamesImpl_tr extends LocalizedNamesImpl {
         "TJ": "Tacikistan",
         "TM": "Türkmenistan",
         "TN": "Tunus",
-        "TR": "Türkiye",
         "TT": "Trinidad ve Tobago",
         "TW": "Tayvan",
         "TZ": "Tanzanya",
@@ -754,6 +757,8 @@ public class LocalizedNamesImpl_tr extends LocalizedNamesImpl {
         "VG": "Britanya Virjin Adaları",
         "VI": "ABD Virjin Adaları",
         "WF": "Wallis ve Futuna",
+        "XA": "Psödo Aksanlar",
+        "XB": "Psödo Bidi",
         "XK": "Kosova",
         "ZA": "Güney Afrika",
         "ZM": "Zambiya",

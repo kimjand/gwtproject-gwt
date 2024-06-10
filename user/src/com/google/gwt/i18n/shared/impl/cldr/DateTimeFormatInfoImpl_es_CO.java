@@ -24,8 +24,8 @@ public class DateTimeFormatInfoImpl_es_CO extends DateTimeFormatInfoImpl_es_419 
   @Override
   public String[] ampms() {
     return new String[] {
-        "a. m.",
-        "p. m."
+        "a. m.",
+        "p. m."
     };
   }
 
@@ -37,16 +37,6 @@ public class DateTimeFormatInfoImpl_es_CO extends DateTimeFormatInfoImpl_es_419 
   @Override
   public String dateFormatShort() {
     return "d/MM/yy";
-  }
-
-  @Override
-  public String dateTimeMedium(String timePattern, String datePattern) {
-    return datePattern + ", " + timePattern;
-  }
-
-  @Override
-  public String dateTimeShort(String timePattern, String datePattern) {
-    return datePattern + ", " + timePattern;
   }
 
   @Override
@@ -98,32 +88,12 @@ public class DateTimeFormatInfoImpl_es_CO extends DateTimeFormatInfoImpl_es_419 
   }
 
   @Override
-  public String timeFormatFull() {
-    return "h:mm:ss a zzzz";
-  }
-
-  @Override
-  public String timeFormatLong() {
-    return "h:mm:ss a z";
-  }
-
-  @Override
-  public String timeFormatMedium() {
-    return "h:mm:ss a";
-  }
-
-  @Override
-  public String timeFormatShort() {
-    return "h:mm a";
-  }
-
-  @Override
   public String[] weekdaysNarrow() {
     return new String[] {
         "D",
         "L",
         "M",
-        "M",
+        "m",
         "J",
         "V",
         "S"

@@ -78,6 +78,7 @@ public class LocalizedNamesImpl_fur extends LocalizedNamesImpl {
         "KP",
         "KR",
         "CR",
+        "CQ",
         "HR",
         "CU",
         "CI",
@@ -167,7 +168,6 @@ public class LocalizedNamesImpl_fur extends LocalizedNamesImpl {
         "LI",
         "LT",
         "LU",
-        "MK",
         "MG",
         "MW",
         "MY",
@@ -181,6 +181,7 @@ public class LocalizedNamesImpl_fur extends LocalizedNamesImpl {
         "YT",
         "MX",
         "FM",
+        "MK",
         "MD",
         "MC",
         "MN",
@@ -422,7 +423,6 @@ public class LocalizedNamesImpl_fur extends LocalizedNamesImpl {
     namesMap.put("MD", "Moldavie");
     namesMap.put("MF", "Sant Martin");
     namesMap.put("MH", "Isulis Marshall");
-    namesMap.put("MK", "Macedonie");
     namesMap.put("MM", "Birmanie");
     namesMap.put("MN", "Mongolie");
     namesMap.put("MO", "Regjon aministrative speciâl de Cine di Macao");
@@ -467,6 +467,7 @@ public class LocalizedNamesImpl_fur extends LocalizedNamesImpl {
     namesMap.put("SO", "Somalie");
     namesMap.put("ST", "Sao Tomè e Principe");
     namesMap.put("SY", "Sirie");
+    namesMap.put("SZ", "Swaziland");
     namesMap.put("TC", "Isulis Turks e Caicos");
     namesMap.put("TD", "Çad");
     namesMap.put("TF", "Teritoris meridionâi francês");
@@ -624,7 +625,6 @@ public class LocalizedNamesImpl_fur extends LocalizedNamesImpl {
         "MD": "Moldavie",
         "MF": "Sant Martin",
         "MH": "Isulis Marshall",
-        "MK": "Macedonie",
         "MM": "Birmanie",
         "MN": "Mongolie",
         "MO": "Regjon aministrative speciâl de Cine di Macao",
@@ -669,6 +669,7 @@ public class LocalizedNamesImpl_fur extends LocalizedNamesImpl {
         "SO": "Somalie",
         "ST": "Sao Tomè e Principe",
         "SY": "Sirie",
+        "SZ": "Swaziland",
         "TC": "Isulis Turks e Caicos",
         "TD": "Çad",
         "TF": "Teritoris meridionâi francês",

@@ -77,6 +77,7 @@ public class LocalizedNamesImpl_nd extends LocalizedNamesImpl {
         "CN",
         "CK",
         "CP",
+        "CQ",
         "HR",
         "CU",
         "CW",
@@ -165,7 +166,6 @@ public class LocalizedNamesImpl_nd extends LocalizedNamesImpl {
         "LI",
         "LT",
         "LU",
-        "MK",
         "MG",
         "MW",
         "MV",
@@ -181,6 +181,7 @@ public class LocalizedNamesImpl_nd extends LocalizedNamesImpl {
         "MX",
         "MF",
         "FM",
+        "MK",
         "MO",
         "MD",
         "MC",
@@ -374,6 +375,7 @@ public class LocalizedNamesImpl_nd extends LocalizedNamesImpl {
     namesMap.put("SN", "Senegali");
     namesMap.put("SO", "Somaliya");
     namesMap.put("ST", "São Tomé and Príncipe");
+    namesMap.put("SZ", "Swaziland");
     namesMap.put("TC", "Turks and Caicos Islands");
     namesMap.put("TD", "Chadi");
     namesMap.put("TG", "Thogo");
@@ -486,6 +488,7 @@ public class LocalizedNamesImpl_nd extends LocalizedNamesImpl {
         "SN": "Senegali",
         "SO": "Somaliya",
         "ST": "São Tomé and Príncipe",
+        "SZ": "Swaziland",
         "TC": "Turks and Caicos Islands",
         "TD": "Chadi",
         "TG": "Thogo",

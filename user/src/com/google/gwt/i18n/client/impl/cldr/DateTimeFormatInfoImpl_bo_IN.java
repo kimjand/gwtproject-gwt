@@ -22,6 +22,31 @@ package com.google.gwt.i18n.client.impl.cldr;
 public class DateTimeFormatInfoImpl_bo_IN extends DateTimeFormatInfoImpl_bo {
 
   @Override
+  public int firstDayOfTheWeek() {
+    return 0;
+  }
+
+  @Override
+  public String timeFormatFull() {
+    return "h:mm:ss a zzzz";
+  }
+
+  @Override
+  public String timeFormatLong() {
+    return "h:mm:ss a z";
+  }
+
+  @Override
+  public String timeFormatMedium() {
+    return "h:mm:ss a";
+  }
+
+  @Override
+  public String timeFormatShort() {
+    return "h:mm a";
+  }
+
+  @Override
   public int weekendStart() {
     return 0;
   }

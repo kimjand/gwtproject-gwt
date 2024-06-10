@@ -23,12 +23,12 @@ public class DateTimeFormatInfoImpl_rm extends DateTimeFormatInfoImpl {
 
   @Override
   public String dateFormatFull() {
-    return "EEEE, 'ils' d 'da' MMMM y";
+    return "EEEE, 'ils' d MMMM y";
   }
 
   @Override
   public String dateFormatLong() {
-    return "d 'da' MMMM y";
+    return "d MMMM y";
   }
 
   @Override
@@ -58,47 +58,100 @@ public class DateTimeFormatInfoImpl_rm extends DateTimeFormatInfoImpl {
   }
 
   @Override
+  public String formatHour12Minute() {
+    return "h:mm a";
+  }
+
+  @Override
+  public String formatHour12MinuteSecond() {
+    return "h:mm:ss a";
+  }
+
+  @Override
   public String formatMonthAbbrevDay() {
-    return "d. MMM";
+    return "dd-MM";
   }
 
   @Override
   public String formatMonthFullDay() {
-    return "d. MMMM";
+    return "d MMMM";
   }
 
   @Override
   public String formatMonthFullWeekdayDay() {
-    return "EEEE d. MMMM";
+    return "EEEE, d MMMM";
   }
 
   @Override
   public String formatMonthNumDay() {
-    return "d.M.";
+    return "dd-MM";
   }
 
   @Override
   public String formatYearMonthAbbrev() {
-    return "MMM y";
+    return "LLL y";
+  }
+
+  @Override
+  public String formatYearMonthAbbrevDay() {
+    return "dd-MM-y";
+  }
+
+  @Override
+  public String formatYearMonthFull() {
+    return "LLLL y";
   }
 
   @Override
   public String formatYearMonthFullDay() {
-    return "d 'da' MMMM y";
+    return "d MMMM y";
   }
 
   @Override
   public String formatYearMonthNum() {
-    return "y-M";
+    return "LL-y";
   }
 
   @Override
   public String formatYearMonthNumDay() {
-    return "y-MM-dd";
+    return "dd-MM-y";
+  }
+
+  @Override
+  public String formatYearMonthWeekdayDay() {
+    return "EEE, dd-MM-y";
+  }
+
+  @Override
+  public String formatYearQuarterFull() {
+    return "QQQQ y";
+  }
+
+  @Override
+  public String formatYearQuarterShort() {
+    return "Q y";
   }
 
   @Override
   public String[] monthsFull() {
+    return new String[] {
+        "da schaner",
+        "da favrer",
+        "da mars",
+        "d’avrigl",
+        "da matg",
+        "da zercladur",
+        "da fanadur",
+        "d’avust",
+        "da settember",
+        "d’october",
+        "da november",
+        "da december"
+    };
+  }
+
+  @Override
+  public String[] monthsFullStandalone() {
     return new String[] {
         "schaner",
         "favrer",

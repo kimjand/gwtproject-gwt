@@ -169,23 +169,23 @@ public class DateTimeFormatInfoImpl_bn extends DateTimeFormatInfoImpl {
         "জানু",
         "ফেব",
         "মার্চ",
-        "এপ্রিল",
+        "এপ্রি",
         "মে",
         "জুন",
-        "জুলাই",
-        "আগস্ট",
-        "সেপ্টেম্বর",
-        "অক্টোবর",
-        "নভেম্বর",
-        "ডিসেম্বর"
+        "জুল",
+        "আগ",
+        "সেপ",
+        "অক্টো",
+        "নভে",
+        "ডিসে"
     };
   }
 
   @Override
   public String[] monthsShortStandalone() {
     return new String[] {
-        "জানুয়ারী",
-        "ফেব্রুয়ারী",
+        "জানু",
+        "ফেব",
         "মার্চ",
         "এপ্রিল",
         "মে",

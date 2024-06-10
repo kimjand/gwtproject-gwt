@@ -34,6 +34,7 @@ public class LocalizedNamesImpl_km extends LocalizedNamesImpl {
   @Override
   public String[] loadSortedRegionCodes() {
     return new String[] {
+        "CQ",
         "XA",
         "XB",
         "KH",
@@ -336,7 +337,7 @@ public class LocalizedNamesImpl_km extends LocalizedNamesImpl {
     namesMap.put("AC", "កោះ​អាសេនសិន");
     namesMap.put("AD", "អង់ដូរ៉ា");
     namesMap.put("AE", "អេមីរ៉ាត​អារ៉ាប់​រួម");
-    namesMap.put("AF", "អាហ្វហ្គានីស្ថាន");
+    namesMap.put("AF", "អាហ្វហ្កានីស្ថាន");
     namesMap.put("AG", "អង់ទីហ្គា និង បាប៊ុយដា");
     namesMap.put("AI", "អង់ហ្គីឡា");
     namesMap.put("AL", "អាល់បានី");
@@ -350,12 +351,12 @@ public class LocalizedNamesImpl_km extends LocalizedNamesImpl {
     namesMap.put("AW", "អារូបា");
     namesMap.put("AX", "កោះ​អាឡង់");
     namesMap.put("AZ", "អាស៊ែបៃហ្សង់");
-    namesMap.put("BA", "បូស្នី និងហឺហ្សីហ្គូវីណា");
+    namesMap.put("BA", "បូស្ន៊ី និងហឺហ្ស៊ីហ្គូវីណា");
     namesMap.put("BB", "បាបាដុស");
     namesMap.put("BD", "បង់ក្លាដែស");
     namesMap.put("BE", "បែលហ្ស៊ិក");
     namesMap.put("BF", "បួគីណាហ្វាសូ");
-    namesMap.put("BG", "ប៊ុលហ្គារី");
+    namesMap.put("BG", "ប៊ុលហ្ការី");
     namesMap.put("BH", "បារ៉ែន");
     namesMap.put("BI", "ប៊ូរុនឌី");
     namesMap.put("BJ", "បេណាំង");
@@ -376,7 +377,7 @@ public class LocalizedNamesImpl_km extends LocalizedNamesImpl {
     namesMap.put("CD", "កុងហ្គោ- គីនស្ហាសា");
     namesMap.put("CF", "សាធារណរដ្ឋអាហ្វ្រិកកណ្ដាល");
     namesMap.put("CG", "កុងហ្គោ - ប្រាហ្សាវីល");
-    namesMap.put("CH", "ស្វីស");
+    namesMap.put("CH", "ស្វ៊ីស");
     namesMap.put("CI", "កូតឌីវ័រ");
     namesMap.put("CK", "កោះ​ខូក");
     namesMap.put("CL", "ស៊ីលី");
@@ -390,7 +391,7 @@ public class LocalizedNamesImpl_km extends LocalizedNamesImpl {
     namesMap.put("CW", "កូរ៉ាកៅ");
     namesMap.put("CX", "កោះ​គ្រីស្មាស");
     namesMap.put("CY", "ស៊ីប");
-    namesMap.put("CZ", "ឆែគា");
+    namesMap.put("CZ", "ឆែក");
     namesMap.put("DE", "អាល្លឺម៉ង់");
     namesMap.put("DG", "ឌៀហ្គោហ្គាស៊ី");
     namesMap.put("DJ", "ជីប៊ូទី");
@@ -433,8 +434,8 @@ public class LocalizedNamesImpl_km extends LocalizedNamesImpl {
     namesMap.put("GU", "ហ្គាំ");
     namesMap.put("GW", "ហ្គីណេប៊ីស្សូ");
     namesMap.put("GY", "ហ្គីយ៉ាន");
-    namesMap.put("HK", "ហុងកុង");
-    namesMap.put("HM", "កោះ​ហឺដ និង​ម៉ាក់ដូណាល់");
+    namesMap.put("HK", "ហុងកុង តំបន់រដ្ឋបាលពិសេសចិន");
+    namesMap.put("HM", "កោះ​ហឺដនិង​ម៉ាក់ដូណាល់");
     namesMap.put("HN", "ហុងឌូរ៉ាស");
     namesMap.put("HR", "ក្រូអាស៊ី");
     namesMap.put("HT", "ហៃទី");
@@ -450,7 +451,7 @@ public class LocalizedNamesImpl_km extends LocalizedNamesImpl {
     namesMap.put("IR", "អ៊ីរ៉ង់");
     namesMap.put("IS", "អ៊ីស្លង់");
     namesMap.put("IT", "អ៊ីតាលី");
-    namesMap.put("JE", "ជឺស៊ី");
+    namesMap.put("JE", "ជើស៊ី");
     namesMap.put("JM", "ហ្សាម៉ាអ៊ីក");
     namesMap.put("JO", "ហ៊្សកដានី");
     namesMap.put("JP", "ជប៉ុន");
@@ -483,7 +484,7 @@ public class LocalizedNamesImpl_km extends LocalizedNamesImpl {
     namesMap.put("MF", "សាំង​ម៉ាទីន");
     namesMap.put("MG", "ម៉ាដាហ្គាស្កា");
     namesMap.put("MH", "កោះ​ម៉ាស់សល");
-    namesMap.put("MK", "ម៉ាសេដ្វាន");
+    namesMap.put("MK", "ម៉ាសេដ្វានខាងជើង");
     namesMap.put("ML", "ម៉ាលី");
     namesMap.put("MM", "មីយ៉ាន់ម៉ា (ភូមា)");
     namesMap.put("MN", "ម៉ុងហ្គោលី");
@@ -516,14 +517,14 @@ public class LocalizedNamesImpl_km extends LocalizedNamesImpl {
     namesMap.put("PE", "ប៉េរូ");
     namesMap.put("PF", "ប៉ូលី​ណេស៊ី​បារាំង");
     namesMap.put("PG", "ប៉ាពូអាស៊ី​នូវែលហ្គីណេ");
-    namesMap.put("PH", "ហ្វីលីពីន");
+    namesMap.put("PH", "ហ្វ៊ីលីពីន");
     namesMap.put("PK", "ប៉ាគីស្ថាន");
     namesMap.put("PL", "ប៉ូឡូញ");
     namesMap.put("PM", "សង់ព្យែរ និង​មីគីឡុង");
     namesMap.put("PN", "កោះ​ភីតកាន");
     namesMap.put("PR", "ព័រតូរីកូ");
-    namesMap.put("PS", "ដែន​ដីប៉ាលេស្ទីន");
-    namesMap.put("PT", "ព័រទុយហ្គាល់");
+    namesMap.put("PS", "ដែនដីប៉ាឡេស្ទីន");
+    namesMap.put("PT", "ព័រទុយហ្កាល់");
     namesMap.put("PW", "ផៅឡូ");
     namesMap.put("PY", "ប៉ារ៉ាហ្គាយ");
     namesMap.put("QA", "កាតា");
@@ -562,7 +563,7 @@ public class LocalizedNamesImpl_km extends LocalizedNamesImpl {
     namesMap.put("TH", "ថៃ");
     namesMap.put("TJ", "តាហ្ស៊ីគីស្ថាន");
     namesMap.put("TK", "តូខេឡៅ");
-    namesMap.put("TL", "ទីម័រលីស");
+    namesMap.put("TL", "ទីម័រលេស្តេ");
     namesMap.put("TM", "តួកម៉េនីស្ថាន");
     namesMap.put("TN", "ទុយនីស៊ី");
     namesMap.put("TO", "តុងហ្គា");
@@ -637,7 +638,7 @@ public class LocalizedNamesImpl_km extends LocalizedNamesImpl {
         "AC": "កោះ​អាសេនសិន",
         "AD": "អង់ដូរ៉ា",
         "AE": "អេមីរ៉ាត​អារ៉ាប់​រួម",
-        "AF": "អាហ្វហ្គានីស្ថាន",
+        "AF": "អាហ្វហ្កានីស្ថាន",
         "AG": "អង់ទីហ្គា និង បាប៊ុយដា",
         "AI": "អង់ហ្គីឡា",
         "AL": "អាល់បានី",
@@ -651,12 +652,12 @@ public class LocalizedNamesImpl_km extends LocalizedNamesImpl {
         "AW": "អារូបា",
         "AX": "កោះ​អាឡង់",
         "AZ": "អាស៊ែបៃហ្សង់",
-        "BA": "បូស្នី និងហឺហ្សីហ្គូវីណា",
+        "BA": "បូស្ន៊ី និងហឺហ្ស៊ីហ្គូវីណា",
         "BB": "បាបាដុស",
         "BD": "បង់ក្លាដែស",
         "BE": "បែលហ្ស៊ិក",
         "BF": "បួគីណាហ្វាសូ",
-        "BG": "ប៊ុលហ្គារី",
+        "BG": "ប៊ុលហ្ការី",
         "BH": "បារ៉ែន",
         "BI": "ប៊ូរុនឌី",
         "BJ": "បេណាំង",
@@ -677,7 +678,7 @@ public class LocalizedNamesImpl_km extends LocalizedNamesImpl {
         "CD": "កុងហ្គោ- គីនស្ហាសា",
         "CF": "សាធារណរដ្ឋអាហ្វ្រិកកណ្ដាល",
         "CG": "កុងហ្គោ - ប្រាហ្សាវីល",
-        "CH": "ស្វីស",
+        "CH": "ស្វ៊ីស",
         "CI": "កូតឌីវ័រ",
         "CK": "កោះ​ខូក",
         "CL": "ស៊ីលី",
@@ -691,7 +692,7 @@ public class LocalizedNamesImpl_km extends LocalizedNamesImpl {
         "CW": "កូរ៉ាកៅ",
         "CX": "កោះ​គ្រីស្មាស",
         "CY": "ស៊ីប",
-        "CZ": "ឆែគា",
+        "CZ": "ឆែក",
         "DE": "អាល្លឺម៉ង់",
         "DG": "ឌៀហ្គោហ្គាស៊ី",
         "DJ": "ជីប៊ូទី",
@@ -734,8 +735,8 @@ public class LocalizedNamesImpl_km extends LocalizedNamesImpl {
         "GU": "ហ្គាំ",
         "GW": "ហ្គីណេប៊ីស្សូ",
         "GY": "ហ្គីយ៉ាន",
-        "HK": "ហុងកុង",
-        "HM": "កោះ​ហឺដ និង​ម៉ាក់ដូណាល់",
+        "HK": "ហុងកុង តំបន់រដ្ឋបាលពិសេសចិន",
+        "HM": "កោះ​ហឺដនិង​ម៉ាក់ដូណាល់",
         "HN": "ហុងឌូរ៉ាស",
         "HR": "ក្រូអាស៊ី",
         "HT": "ហៃទី",
@@ -751,7 +752,7 @@ public class LocalizedNamesImpl_km extends LocalizedNamesImpl {
         "IR": "អ៊ីរ៉ង់",
         "IS": "អ៊ីស្លង់",
         "IT": "អ៊ីតាលី",
-        "JE": "ជឺស៊ី",
+        "JE": "ជើស៊ី",
         "JM": "ហ្សាម៉ាអ៊ីក",
         "JO": "ហ៊្សកដានី",
         "JP": "ជប៉ុន",
@@ -784,7 +785,7 @@ public class LocalizedNamesImpl_km extends LocalizedNamesImpl {
         "MF": "សាំង​ម៉ាទីន",
         "MG": "ម៉ាដាហ្គាស្កា",
         "MH": "កោះ​ម៉ាស់សល",
-        "MK": "ម៉ាសេដ្វាន",
+        "MK": "ម៉ាសេដ្វានខាងជើង",
         "ML": "ម៉ាលី",
         "MM": "មីយ៉ាន់ម៉ា (ភូមា)",
         "MN": "ម៉ុងហ្គោលី",
@@ -817,14 +818,14 @@ public class LocalizedNamesImpl_km extends LocalizedNamesImpl {
         "PE": "ប៉េរូ",
         "PF": "ប៉ូលី​ណេស៊ី​បារាំង",
         "PG": "ប៉ាពូអាស៊ី​នូវែលហ្គីណេ",
-        "PH": "ហ្វីលីពីន",
+        "PH": "ហ្វ៊ីលីពីន",
         "PK": "ប៉ាគីស្ថាន",
         "PL": "ប៉ូឡូញ",
         "PM": "សង់ព្យែរ និង​មីគីឡុង",
         "PN": "កោះ​ភីតកាន",
         "PR": "ព័រតូរីកូ",
-        "PS": "ដែន​ដីប៉ាលេស្ទីន",
-        "PT": "ព័រទុយហ្គាល់",
+        "PS": "ដែនដីប៉ាឡេស្ទីន",
+        "PT": "ព័រទុយហ្កាល់",
         "PW": "ផៅឡូ",
         "PY": "ប៉ារ៉ាហ្គាយ",
         "QA": "កាតា",
@@ -863,7 +864,7 @@ public class LocalizedNamesImpl_km extends LocalizedNamesImpl {
         "TH": "ថៃ",
         "TJ": "តាហ្ស៊ីគីស្ថាន",
         "TK": "តូខេឡៅ",
-        "TL": "ទីម័រលីស",
+        "TL": "ទីម័រលេស្តេ",
         "TM": "តួកម៉េនីស្ថាន",
         "TN": "ទុយនីស៊ី",
         "TO": "តុងហ្គា",

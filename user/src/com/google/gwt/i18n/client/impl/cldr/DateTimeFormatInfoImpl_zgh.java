@@ -111,11 +111,6 @@ public class DateTimeFormatInfoImpl_zgh extends DateTimeFormatInfoImpl {
   }
 
   @Override
-  public String formatYearMonthNumDay() {
-    return "y-MM-dd";
-  }
-
-  @Override
   public String formatYearMonthWeekdayDay() {
     return "EEE d MMM y";
   }

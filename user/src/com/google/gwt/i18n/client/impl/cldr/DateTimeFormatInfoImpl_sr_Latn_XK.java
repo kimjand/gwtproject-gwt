@@ -24,31 +24,18 @@ public class DateTimeFormatInfoImpl_sr_Latn_XK extends DateTimeFormatInfoImpl_sr
   @Override
   public String[] monthsShort() {
     return new String[] {
-        "jan.",
-        "feb.",
+        "jan",
+        "feb",
         "mart",
-        "apr.",
+        "apr",
         "maj",
         "jun",
         "jul",
-        "avg.",
-        "sept.",
-        "okt.",
-        "nov.",
-        "dec."
-    };
-  }
-
-  @Override
-  public String[] weekdaysShort() {
-    return new String[] {
-        "ned.",
-        "pon.",
-        "ut.",
-        "sr.",
-        "čet.",
-        "pet.",
-        "sub."
+        "avg",
+        "sept",
+        "okt",
+        "nov",
+        "dec"
     };
   }
 }

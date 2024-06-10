@@ -22,11 +22,6 @@ package com.google.gwt.i18n.shared.impl.cldr;
 public class DateTimeFormatInfoImpl_fr_ML extends DateTimeFormatInfoImpl_fr {
 
   @Override
-  public String dateTimeMedium(String timePattern, String datePattern) {
-    return datePattern + ", " + timePattern;
-  }
-
-  @Override
   public String dateTimeShort(String timePattern, String datePattern) {
     return datePattern + ", " + timePattern;
   }

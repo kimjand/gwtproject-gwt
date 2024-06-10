@@ -25,7 +25,7 @@ public class DateTimeFormatInfoImpl_jgo extends DateTimeFormatInfoImpl {
   public String[] ampms() {
     return new String[] {
         "mbaꞌmbaꞌ",
-        "ŋka mbɔ́t nji"
+        "ŋka mbɔ́t nji"
     };
   }
 

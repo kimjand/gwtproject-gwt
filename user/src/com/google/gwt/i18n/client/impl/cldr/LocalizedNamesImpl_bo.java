@@ -38,6 +38,7 @@ public class LocalizedNamesImpl_bo extends LocalizedNamesImpl {
         "CF",
         "CG",
         "CP",
+        "CQ",
         "CV",
         "CW",
         "CX",
@@ -55,7 +56,6 @@ public class LocalizedNamesImpl_bo extends LocalizedNamesImpl {
         "GQ",
         "GS",
         "GU",
-        "HK",
         "HM",
         "IC",
         "IM",
@@ -67,7 +67,6 @@ public class LocalizedNamesImpl_bo extends LocalizedNamesImpl {
         "ME",
         "MF",
         "MK",
-        "MO",
         "MP",
         "MQ",
         "MS",
@@ -194,6 +193,7 @@ public class LocalizedNamesImpl_bo extends LocalizedNamesImpl {
         "MV",
         "MW",
         "MH",
+        "MO",
         "MX",
         "MC",
         "MZ",
@@ -254,6 +254,7 @@ public class LocalizedNamesImpl_bo extends LocalizedNamesImpl {
         "HU",
         "NL",
         "HT",
+        "HK",
         "HN",
         "CH",
         "SE",
@@ -372,6 +373,7 @@ public class LocalizedNamesImpl_bo extends LocalizedNamesImpl {
     namesMap.put("GT", "གྷོ་ཊེ་མ་ལ།");
     namesMap.put("GW", "གྷི་ནི་ཡ་བིས྄་སོ།");
     namesMap.put("GY", "གྷུ་ཡཱ་ན།");
+    namesMap.put("HK", "ཧོང་ཀོང༌།");
     namesMap.put("HN", "ཧོན་དུ་རས྄།");
     namesMap.put("HR", "ཀུརོ་ཤི་ཡ།");
     namesMap.put("HT", "ཧེ་ཏི།");
@@ -414,6 +416,7 @@ public class LocalizedNamesImpl_bo extends LocalizedNamesImpl {
     namesMap.put("ML", "མ་ལི།");
     namesMap.put("MM", "འབར་མ།");
     namesMap.put("MN", "སོག་ཡུལ།");
+    namesMap.put("MO", "མེ་ཀའོ།");
     namesMap.put("MR", "མཽ་རི་ཏ་ནི་ཡ།");
     namesMap.put("MT", "མལ་ཊ།");
     namesMap.put("MU", "མཽ་རིཤས྄།");
@@ -568,6 +571,7 @@ public class LocalizedNamesImpl_bo extends LocalizedNamesImpl {
         "GT": "གྷོ་ཊེ་མ་ལ།",
         "GW": "གྷི་ནི་ཡ་བིས྄་སོ།",
         "GY": "གྷུ་ཡཱ་ན།",
+        "HK": "ཧོང་ཀོང༌།",
         "HN": "ཧོན་དུ་རས྄།",
         "HR": "ཀུརོ་ཤི་ཡ།",
         "HT": "ཧེ་ཏི།",
@@ -610,6 +614,7 @@ public class LocalizedNamesImpl_bo extends LocalizedNamesImpl {
         "ML": "མ་ལི།",
         "MM": "འབར་མ།",
         "MN": "སོག་ཡུལ།",
+        "MO": "མེ་ཀའོ།",
         "MR": "མཽ་རི་ཏ་ནི་ཡ།",
         "MT": "མལ་ཊ།",
         "MU": "མཽ་རིཤས྄།",

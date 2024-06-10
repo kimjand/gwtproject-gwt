@@ -23,12 +23,7 @@ public class DateTimeFormatInfoImpl_en_IN extends DateTimeFormatInfoImpl_en_001 
 
   @Override
   public String dateFormatFull() {
-    return "EEEE, d MMMM, y";
-  }
-
-  @Override
-  public String dateFormatMedium() {
-    return "dd-MMM-y";
+    return "EEEE d MMMM, y";
   }
 
   @Override
@@ -39,6 +34,11 @@ public class DateTimeFormatInfoImpl_en_IN extends DateTimeFormatInfoImpl_en_001 
   @Override
   public int firstDayOfTheWeek() {
     return 0;
+  }
+
+  @Override
+  public String formatMonthFullWeekdayDay() {
+    return "EEEE d MMMM";
   }
 
   @Override

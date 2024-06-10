@@ -43,12 +43,12 @@ public class DateTimeFormatInfoImpl_bs extends DateTimeFormatInfoImpl {
 
   @Override
   public String dateTimeFull(String timePattern, String datePattern) {
-    return datePattern + " 'u' " + timePattern;
+    return datePattern + ", " + timePattern;
   }
 
   @Override
   public String dateTimeLong(String timePattern, String datePattern) {
-    return datePattern + " 'u' " + timePattern;
+    return datePattern + ", " + timePattern;
   }
 
   @Override
@@ -74,12 +74,12 @@ public class DateTimeFormatInfoImpl_bs extends DateTimeFormatInfoImpl {
 
   @Override
   public String formatHour12Minute() {
-    return "hh:mm a";
+    return "hh:mm a";
   }
 
   @Override
   public String formatHour12MinuteSecond() {
-    return "hh:mm:ss a";
+    return "hh:mm:ss a";
   }
 
   @Override
