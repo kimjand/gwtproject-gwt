@@ -186,19 +186,19 @@ public class DateTimeFormat_en_Test extends DateTimeFormatTestBase {
     date.setTime(Date.UTC(2006 - 1900, 7, 4, 20, 49, 24));
     String fullTimeFormat = DateTimeFormat.getFullTimeFormat().format(date,
         usPacific);
-    assertEquals("1:49:24 PM Pacific Daylight Time", fullTimeFormat);
+    assertEquals("1:49:24 PM Pacific Daylight Time", fullTimeFormat);
 
     String longTimeFormat = DateTimeFormat.getLongTimeFormat().format(date,
         usPacific);
-    assertEquals("1:49:24 PM PDT", longTimeFormat);
+    assertEquals("1:49:24 PM PDT", longTimeFormat);
 
     String medTimeFormat = DateTimeFormat.getMediumTimeFormat().format(date,
         usPacific);
-    assertEquals("1:49:24 PM", medTimeFormat);
+    assertEquals("1:49:24 PM", medTimeFormat);
 
     String shortTimeFormat = DateTimeFormat.getShortTimeFormat().format(date,
         usPacific);
-    assertEquals("1:49 PM", shortTimeFormat);
+    assertEquals("1:49 PM", shortTimeFormat);
 
     String medFormat = DateTimeFormat.getMediumDateTimeFormat().format(date,
         usPacific);

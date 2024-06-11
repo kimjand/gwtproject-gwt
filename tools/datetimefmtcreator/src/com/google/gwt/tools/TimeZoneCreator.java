@@ -58,6 +58,7 @@ public class TimeZoneCreator {
       specialCases.put("americaNorthDakotaCenter", "America/North_Dakota/Center");
       specialCases.put("americaNorthDakotaNewSalem", "America/North_Dakota/New_Salem");
       specialCases.put("americaPortauPrince", "America/Port-au-Prince");
+      specialCases.put("americaPortofSpain", "America/Port_of_Spain");
       specialCases.put("americaRankinInlet", "America/Rankin_Inlet");
       specialCases.put("europeIsleofMan", "Europe/Isle_of_Man");
     }
