@@ -127,7 +127,7 @@ public class DateTimeFormat_en_Test extends DateTimeFormatTestBase {
 
   public void test_hhmmssa() {
     Date date = new Date(2006 - 1900, 6, 27, 13, 10, 10);
-    assertEquals("1:10:10 PM", DateTimeFormat.getFormat("h:mm:ss a").format(
+    assertEquals("1:10:10 PM", DateTimeFormat.getFormat("h:mm:ss a").format(
         date));
   }
 
@@ -202,11 +202,11 @@ public class DateTimeFormat_en_Test extends DateTimeFormatTestBase {
 
     String medFormat = DateTimeFormat.getMediumDateTimeFormat().format(date,
         usPacific);
-    assertEquals("Aug 4, 2006, 1:49:24 PM", medFormat);
+    assertEquals("Aug 4, 2006, 1:49:24 PM", medFormat);
 
     String shortFormat = DateTimeFormat.getShortDateTimeFormat().format(date,
         usPacific);
-    assertEquals("8/4/06, 1:49 PM", shortFormat);
+    assertEquals("8/4/06, 1:49 PM", shortFormat);
   }
   
   public void test_QQQQyy() {
